@@ -49,9 +49,7 @@ jobs:
           LENS_MAX_DELAY_MS: 45000
           LENS_MAX_AMAZON_MATCHES: 3
           LENS_MIN_TITLE_MATCH: 25
-          AMAZON_DOMAIN: amazon.com
-
-      
+          AMAZON_DOMAIN: amazon.com    
       
       - name: Commit Updated Products
         run: |
