@@ -6,7 +6,7 @@ import { chromium } from "playwright";
 import { readJson, writeJson, extractKeywords, sleep } from "./utils.js";
 
 const products = readJson("products.json", []);
-const LIMIT = Number(process.env.GOOGLE_TRENDS_LIMIT || 80);
+const LIMIT = Number(process.env.GOOGLE_TRENDS_LIMIT || 500);
 const GEO = process.env.GOOGLE_TRENDS_GEO || "US";
 const DATE_RANGE = process.env.GOOGLE_TRENDS_DATE || "today 3-m";
 const MIN_POINTS = Number(process.env.GOOGLE_TRENDS_MIN_POINTS || 3);
