@@ -2,7 +2,7 @@ import { chromium } from "playwright";
 import { readJson, writeJson, sleep, num } from "./utils.js";
 
 const AMAZON_DOMAIN = process.env.AMAZON_DOMAIN || "amazon.com";
-const KEYWORD_LIMIT = Number(process.env.AMAZON_KEYWORD_LIMIT || 80);
+const KEYWORD_LIMIT = Number(process.env.AMAZON_KEYWORD_LIMIT || 500);
 const MAX_RESULTS_PER_KEYWORD = Number(process.env.AMAZON_RESULTS_PER_KEYWORD || 5);
 
 const googleSignals = readJson("google-trends.json", []);
