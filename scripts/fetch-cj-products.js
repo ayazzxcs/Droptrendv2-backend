@@ -204,6 +204,8 @@ function computeWinningScore(p) {
 }
 
 async function fetchProductsPage(token, pageNum, mode = "normal") {
+  await sleep(1200);
+
   const query = new URLSearchParams({
     pageNum: String(pageNum),
     pageSize: String(PAGE_SIZE)
