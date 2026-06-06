@@ -9,7 +9,6 @@
     "merge": "node scripts/merge-trend-signals.js"
   },
   "dependencies": {
-    "playwright": "^1.49.1",
-    "node-fetch": "^3.3.2"
+    "playwright": "^1.49.1"
   }
 }
