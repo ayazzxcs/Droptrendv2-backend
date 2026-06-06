@@ -1,0 +1,56 @@
+name: Fetch Trending Products
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-products:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Fetch CJ Trending Products
+        run: node scripts/fetch-cj-products.js
+        env:
+          CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+
+      - name: Fetch Google Trends
+        run: node scripts/fetch-google-trends.js
+        env:
+          GOOGLE_TRENDS_LIMIT: 120
+
+      - name: Fetch Amazon Data
+        run: node scripts/fetch-amazon-products.js
+        env:
+          AMAZON_KEYWORD_LIMIT: 80
+          AMAZON_DOMAIN: amazon.com
+
+      - name: Merge Trend Signals
+        run: node scripts/merge-trend-signals.js
+
+      - name: Commit Updated Products
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add products.json google-trends.json amazon-products.json trend-keywords.json amazon-keywords.json
+          git commit -m "Update trending products" || echo "No changes"
+          git push
