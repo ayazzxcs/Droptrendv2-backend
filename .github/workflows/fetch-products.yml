@@ -36,7 +36,7 @@ jobs:
       - name: Fetch Google Trends
         run: node scripts/fetch-google-trends.js
         env:
-          GOOGLE_TRENDS_LIMIT: 500
+          GOOGLE_TRENDS_LIMIT: 10
 
       - name: Merge Trend Signals
         run: node scripts/merge-trend-signals.js
