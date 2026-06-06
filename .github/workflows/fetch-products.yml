@@ -41,6 +41,18 @@ jobs:
       - name: Merge Trend Signals
         run: node scripts/merge-trend-signals.js
 
+      - name: Fetch Google Lens Amazon Matches
+        run: node scripts/fetch-lens-amazon-matches.js
+        env:
+          LENS_MAX_PRODUCTS: 1500
+          LENS_MIN_DELAY_MS: 15000
+          LENS_MAX_DELAY_MS: 45000
+          LENS_MAX_AMAZON_MATCHES: 3
+          LENS_MIN_TITLE_MATCH: 25
+          AMAZON_DOMAIN: amazon.com
+
+      
+      
       - name: Commit Updated Products
         run: |
           git config user.name "github-actions"
