@@ -1,0 +1,1607 @@
+{
+  "updatedAt": "2026-06-05T18:38:25.749Z",
+  "source": "Rainforest Amazon API",
+  "amazonDomain": "amazon.com",
+  "keywordAttemptCount": 80,
+  "keywordCount": 12,
+  "productCount": 60,
+  "failedCount": 68,
+  "signals": [
+    {
+      "keyword": "other replacement parts",
+      "amazonDemandScore": 99,
+      "bestTitle": "Lansinoh Breast Pump Spare Parts Bundle, Includes Four Duckbill Valves and Other Replacement Parts for Lansinoh Double Electric Breast Pumps",
+      "bestAsin": "B08LY7QYSH",
+      "bestRating": 4.7,
+      "bestRatingsTotal": 2220,
+      "bestPrice": 16,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "other replacement parts",
+          "asin": "B08LY7QYSH",
+          "title": "Lansinoh Breast Pump Spare Parts Bundle, Includes Four Duckbill Valves and Other Replacement Parts for Lansinoh Double Electric Breast Pumps",
+          "link": "https://www.amazon.com/Lansinoh-Bundle-Double-Electric-Breast/dp/B08LY7QYSH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-1",
+          "image": "https://m.media-amazon.com/images/I/61LW8U4ZjBL._AC_UL320_.jpg",
+          "price": 16,
+          "rating": 4.7,
+          "ratingsTotal": 2220,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 99
+        },
+        {
+          "keyword": "other replacement parts",
+          "asin": "B0BTCZMFB9",
+          "title": "Replacement Parts for Shark AI AV2511AE AV2501S AV2610WA AV2501AE RV2502AE RV2610WA UR2500SR RV2520 AV2510 AI Ultra Robot Vacuum Cleaner Accessories Kits. Main Brush,HEPA Filter,Foam Filter,Side Brush",
+          "link": "https://www.amazon.com/PAYUDAL-Replacement-Parts-AV2511AE-AV2501AE/dp/B0BTCZMFB9/ref=sr_1_2?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-2",
+          "image": "https://m.media-amazon.com/images/I/71tQnw2FOkL._AC_UL320_.jpg",
+          "price": 26.98,
+          "rating": 4.6,
+          "ratingsTotal": 472,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "other replacement parts",
+          "asin": "B0CRPFCJD4",
+          "title": "Replacement Parts & Accessories for iRobot E, I & J Series, Combo i5, j5 Series Robot Vacuum, Dual Multi-Surface Rubber Brushes & 3 HEPA Filter & 3 Edge-Sweeping Brushes",
+          "link": "https://www.amazon.com/Replacement-Accessories-Multi-Surface-Brushes-Edge-Sweeping/dp/B0CRPFCJD4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-3",
+          "image": "https://m.media-amazon.com/images/I/71IDkUKaqkL._AC_UL320_.jpg",
+          "price": 12.99,
+          "rating": 4.5,
+          "ratingsTotal": 1098,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 90
+        }
+      ]
+    },
+    {
+      "keyword": "bracelets bangles",
+      "amazonDemandScore": 98,
+      "bestTitle": "Gokeey Gold Bracelets Set for Women Non Tarnish, Waterproof 14K Gold Plated Sterling Silver Chunky Cuff Bracelet Stackable Gold Bangles Bracelet for Women Trendy Fashion Accessories Tie Knot Cuban Rope Paperclip Beaded Bracelet Stack Jewelry Mothers Day Gifts for Mom Birthday",
+      "bestAsin": "B0DX6Q2K5D",
+      "bestRating": 4.5,
+      "bestRatingsTotal": 1303,
+      "bestPrice": 12.56,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "bracelets bangles",
+          "asin": "B0DX6Q2K5D",
+          "title": "Gokeey Gold Bracelets Set for Women Non Tarnish, Waterproof 14K Gold Plated Sterling Silver Chunky Cuff Bracelet Stackable Gold Bangles Bracelet for Women Trendy Fashion Accessories Tie Knot Cuban Rope Paperclip Beaded Bracelet Stack Jewelry Mothers Day Gifts for Mom Birthday",
+          "link": "https://www.amazon.com/Gokeey-Bracelets-Waterproof-Satckable-Paperclip/dp/B0DX6Q2K5D/ref=sr_1_1?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-1",
+          "image": "https://m.media-amazon.com/images/I/81+MhJFPyFL._AC_UL320_.jpg",
+          "price": 12.56,
+          "rating": 4.5,
+          "ratingsTotal": 1303,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "bracelets bangles",
+          "asin": "B0FP51RPK5",
+          "title": "ÌF ME Acrylic Bangles Bracelets for Women, Irregular Acrylic Resin Chunky Bracelets Geometric Fashions Thick Statement bangle Set",
+          "link": "https://www.amazon.com/%C3%8CF-ME-Bracelets-Maillard-Lightweight/dp/B0FP51RPK5/ref=sr_1_2?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-2",
+          "image": "https://m.media-amazon.com/images/I/51ohJOTYncL._AC_UL320_.jpg",
+          "price": 9.99,
+          "rating": 4.2,
+          "ratingsTotal": 115,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 87
+        },
+        {
+          "keyword": "bracelets bangles",
+          "asin": "B0CXTCDSYX",
+          "title": "IFKM Gold Bangles Bracelets for Women Girls 14k Gold Plated Multi Layer Stackable Cuff Bracelet Set",
+          "link": "https://www.amazon.com/IFKM-Bracelets-Stackable-Bracelet-Minimalist/dp/B0CXTCDSYX/ref=sr_1_3?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-3",
+          "image": "https://m.media-amazon.com/images/I/71l5w88c5xL._AC_UL320_.jpg",
+          "price": 6.67,
+          "rating": 4.3,
+          "ratingsTotal": 1321,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 89
+        }
+      ]
+    },
+    {
+      "keyword": "replacement parts",
+      "amazonDemandScore": 98,
+      "bestTitle": "GOOACC Universal Plastic Fender Clips,200 Pcs Push Bumper Fastener Rivet Clips with 6 Size Auto Body Retainer Clips Bumpers,Car Fender Replacement for GM, Ford & Ch, GRC-47",
+      "bestAsin": "B07QG8CWFV",
+      "bestRating": 4.6,
+      "bestRatingsTotal": 22328,
+      "bestPrice": 9.85,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "replacement parts",
+          "asin": "B07QG8CWFV",
+          "title": "GOOACC Universal Plastic Fender Clips,200 Pcs Push Bumper Fastener Rivet Clips with 6 Size Auto Body Retainer Clips Bumpers,Car Fender Replacement for GM, Ford & Ch, GRC-47",
+          "link": "https://www.amazon.com/GOOACC-Universal-Fastener-Retainer-Replacement/dp/B07QG8CWFV/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-3",
+          "image": "https://m.media-amazon.com/images/I/71c8AShuU-L._AC_UY218_.jpg",
+          "price": 9.85,
+          "rating": 4.6,
+          "ratingsTotal": 22328,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "replacement parts",
+          "asin": "B0B7XRKY5B",
+          "title": "QIIYCCE 120PCS Car Clips & Plastic Rivets - 6 Popular Sizes, Fits Bumpers, Fenders & Most Car Models, Ideal for Body Fixing & Replacement",
+          "link": "https://www.amazon.com/QIIYCCE-120PCS-Plastic-Popular-Replacement-Applicable/dp/B0B7XRKY5B/ref=sr_1_4?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-4",
+          "image": "https://m.media-amazon.com/images/I/71feMF-4otL._AC_UY218_.jpg",
+          "price": 8.99,
+          "rating": 4.6,
+          "ratingsTotal": 3677,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "replacement parts",
+          "asin": "B09GLVT5H2",
+          "title": "Car Battery Terminal Connectors, 2 Pcs 4 Way Quick Release Disconnect Car Battery Terminal for SAE/JIS Type A Posts, Compatible With Cars, Vans, Trucks and More",
+          "link": "https://www.amazon.com/Battery-Terminal-Connectors-Disconnect-Compatible/dp/B09GLVT5H2/ref=sr_1_5?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_UY218_.jpg",
+          "price": 9.59,
+          "rating": 4.4,
+          "ratingsTotal": 9281,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 90
+        }
+      ]
+    },
+    {
+      "keyword": "pet furniture tools",
+      "amazonDemandScore": 98,
+      "bestTitle": "ChomChom Roller Pet Hair Remover – Original Size Reusable Lint Roller for Cat & Dog Hair on Furniture, Couch, Carpet, Car, Rugs & Bedding – Portable, Eco-Friendly (Black)",
+      "bestAsin": "B0C2FMZMHP",
+      "bestRating": 4.5,
+      "bestRatingsTotal": 194349,
+      "bestPrice": 24.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "pet furniture tools",
+          "asin": "B0C2FMZMHP",
+          "title": "ChomChom Roller Pet Hair Remover – Original Size Reusable Lint Roller for Cat & Dog Hair on Furniture, Couch, Carpet, Car, Rugs & Bedding – Portable, Eco-Friendly (Black)",
+          "link": "https://www.amazon.com/Chom-Roller-Hair-Remover-Reusable/dp/B0C2FMZMHP/ref=sr_1_5?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/81gxS8BPgkL._AC_UL320_.jpg",
+          "price": 24.99,
+          "rating": 4.5,
+          "ratingsTotal": 194349,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "pet furniture tools",
+          "asin": "B0CYYKL2ML",
+          "title": "Pet Hair Remover 3-Pack, Dog Cat Hair Remover, Lint Shaver Cleaner Pro, Fur Removal Tool, Portable Carpet Scraper, Fuzz Rollers Hairball Brush for Carpets, Clothes, Car Mats, Couch, Pet Bed, Furniture",
+          "link": "https://www.amazon.com/Remover-Cleaner-Portable-Hairball-Furniture/dp/B0CYYKL2ML/ref=sr_1_6?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/61XxghaUO7L._AC_UL320_.jpg",
+          "price": 9.97,
+          "rating": 4.5,
+          "ratingsTotal": 2250,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "pet furniture tools",
+          "asin": "B00BAGTNAQ",
+          "title": "ChomChom Roller Pet Hair Remover – Original Size Reusable Lint Roller for Cat & Dog Hair on Furniture, Couch, Carpet, Car, Rugs & Bedding – Portable, Eco-Friendly (White)",
+          "link": "https://www.amazon.com/Pet-Dog-Cat-Hair-Remover-Couch/dp/B00BAGTNAQ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_UL320_.jpg",
+          "price": 24.99,
+          "rating": 4.5,
+          "ratingsTotal": 194349,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 90
+        }
+      ]
+    },
+    {
+      "keyword": "blouses shirts",
+      "amazonDemandScore": 98,
+      "bestTitle": "OFEEFAN Womens Tops Short Sleeve Shirts Buttons V Neck Spring Fashion Summer Outfits Plus Size Blouses Dressy Casual",
+      "bestAsin": "B0FNC6G5VG",
+      "bestRating": 4.4,
+      "bestRatingsTotal": 3191,
+      "bestPrice": 8.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "blouses shirts",
+          "asin": "B0FNC6G5VG",
+          "title": "OFEEFAN Womens Tops Short Sleeve Shirts Buttons V Neck Spring Fashion Summer Outfits Plus Size Blouses Dressy Casual",
+          "link": "https://www.amazon.com/Blouses-Business-Fashion-Clothing-Tshirts/dp/B0FNC6G5VG/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-1",
+          "image": "https://m.media-amazon.com/images/I/81JY24vMSHL._AC_UL320_.jpg",
+          "price": 8.99,
+          "rating": 4.4,
+          "ratingsTotal": 3191,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "blouses shirts",
+          "asin": "B0FR7B2YYG",
+          "title": "WIHOLL Womens Summer Tops Short Petal Sleeve Shirts Fashion V Neck Womens Clothing",
+          "link": "https://www.amazon.com/WIHOLL-Womens-Clothing-Summer-Tops/dp/B0FR7B2YYG/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-2",
+          "image": "https://m.media-amazon.com/images/I/71bHH-hBm7L._AC_UL320_.jpg",
+          "price": 8.99,
+          "rating": 4.4,
+          "ratingsTotal": 1208,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "blouses shirts",
+          "asin": "B07QWS5RQT",
+          "title": "Beautife Button Down Shirts for Womens Short Sleeve Blouses V Neck Collared Casual Summer Tops with Pockets",
+          "link": "https://www.amazon.com/Beautife-Womens-Sleeve-Collared-Pockets/dp/B07QWS5RQT/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-3",
+          "image": "https://m.media-amazon.com/images/I/61KQ2xpc0jL._AC_UL320_.jpg",
+          "price": 10.18,
+          "rating": 4.2,
+          "ratingsTotal": 13507,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 89
+        }
+      ]
+    },
+    {
+      "keyword": "bed frame",
+      "amazonDemandScore": 98,
+      "bestTitle": "NEW JETO Metal Bed Frame,Queen Size Bed Frame with Storage Space,Heavy Duty Sturdy Mattress Foundation,Easy Assembly,No Box Spring Needed, Black,14 Inch,Queen",
+      "bestAsin": "B0B8VQLN6Y",
+      "bestRating": 4.6,
+      "bestRatingsTotal": 31372,
+      "bestPrice": 53.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "bed frame",
+          "asin": "B0B8VQLN6Y",
+          "title": "NEW JETO Metal Bed Frame,Queen Size Bed Frame with Storage Space,Heavy Duty Sturdy Mattress Foundation,Easy Assembly,No Box Spring Needed, Black,14 Inch,Queen",
+          "link": "https://www.amazon.com/NEW-JETO-Frame-Simple-Atmospheric-Platform/dp/B0B8VQLN6Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-1",
+          "image": "https://m.media-amazon.com/images/I/61hT6fVmW8L._AC_UL320_.jpg",
+          "price": 53.99,
+          "rating": 4.6,
+          "ratingsTotal": 31372,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "bed frame",
+          "asin": "B0GK189P5P",
+          "title": "OLIXIS Metal Queen Bed Frame - 14in High with Storage Space, No Box Spring Needed with Sturdy Steel Slat Support, 2200LBS Heavy Duty for Easy Assembly, Black for Bedroom",
+          "link": "https://www.amazon.com/OLIXIS-Metal-Queen-Bed-Frame/dp/B0GK189P5P/ref=sr_1_2?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-2",
+          "image": "https://m.media-amazon.com/images/I/613Rnlrm14L._AC_UL320_.jpg",
+          "price": 44.97,
+          "rating": 4.5,
+          "ratingsTotal": 460,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "bed frame",
+          "asin": "B0D9Q6THT7",
+          "title": "Furnulem Full Size Bed Frame with LED Light and Charging Station, Wood Storage Headboard with 2-Tier Shelves, Metal Platform Bed with Heavy Duty Slats Support, No Box Spring Needed, Black Oak",
+          "link": "https://www.amazon.com/Furnulem-Charging-Station-Headboard-Platform/dp/B0D9Q6THT7/ref=sr_1_3?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-3",
+          "image": "https://m.media-amazon.com/images/I/81DLGhCxk+L._AC_UL320_.jpg",
+          "price": 109.95,
+          "rating": 4.5,
+          "ratingsTotal": 2762,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 90
+        }
+      ]
+    },
+    {
+      "keyword": "suits sets",
+      "amazonDemandScore": 98,
+      "bestTitle": "WULFUL Men's 2 Piece Suits Slim Fit Two Button Blazer Jacket Pants Set for Party,Wedding and Business",
+      "bestAsin": "B0DRFSL38V",
+      "bestRating": 4.4,
+      "bestRatingsTotal": 470,
+      "bestPrice": 54.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "suits sets",
+          "asin": "B0DRFSL38V",
+          "title": "WULFUL Men's 2 Piece Suits Slim Fit Two Button Blazer Jacket Pants Set for Party,Wedding and Business",
+          "link": "https://www.amazon.com/WULFUL-Button-Blazer-Wedding-Business/dp/B0DRFSL38V/ref=sr_1_5?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/71UzCXnMRrL._AC_UL320_.jpg",
+          "price": 54.99,
+          "rating": 4.4,
+          "ratingsTotal": 470,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 98
+        },
+        {
+          "keyword": "suits sets",
+          "asin": "B0DT8Z4S5N",
+          "title": "luvamia Women's Two Piece Sets Pants Suits Dressy Business Casual Outfits Professional Blazer Pantsuits Set Work Office",
+          "link": "https://www.amazon.com/luvamia-Business-Outfits-Professional-Pantsuits/dp/B0DT8Z4S5N/ref=sr_1_6?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/61mZ12iRrJL._AC_UL320_.jpg",
+          "price": 56.91,
+          "rating": 4.2,
+          "ratingsTotal": 1272,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 93
+        },
+        {
+          "keyword": "suits sets",
+          "asin": "B0CNSNYBNZ",
+          "title": "PRETTYGARDEN Women's 2 Piece Outfits Sleeveless Suit Vest and Wide Leg Pants Business Casual Blazer Sets",
+          "link": "https://www.amazon.com/PRETTYGARDEN-Womens-Outfits-Sleeveless-Business/dp/B0CNSNYBNZ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/6140VKn+b2L._AC_UL320_.jpg",
+          "price": 46.19,
+          "rating": 4.2,
+          "ratingsTotal": 1696,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 89
+        }
+      ]
+    },
+    {
+      "keyword": "sink cabinet",
+      "amazonDemandScore": 97,
+      "bestTitle": "Bonnlo Pedestal Sink Storage Cabinet with 2 Doors Traditional Under Sink Cabinet Bathroom Space Saver Organizer with Adjustable Shelf White 23 5/8\" W x 11 7/16\" D x 23 5/8\" H",
+      "bestAsin": "B07HDSJY25",
+      "bestRating": 4.2,
+      "bestRatingsTotal": 1249,
+      "bestPrice": 58.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "sink cabinet",
+          "asin": "B07HDSJY25",
+          "title": "Bonnlo Pedestal Sink Storage Cabinet with 2 Doors Traditional Under Sink Cabinet Bathroom Space Saver Organizer with Adjustable Shelf White 23 5/8\" W x 11 7/16\" D x 23 5/8\" H",
+          "link": "https://www.amazon.com/Bonnlo-Pedestal-Bathroom-Traditional-Organizer/dp/B07HDSJY25/ref=sr_1_5?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/51M1Ohfe4oL._AC_UL320_.jpg",
+          "price": 58.99,
+          "rating": 4.2,
+          "ratingsTotal": 1249,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 97
+        },
+        {
+          "keyword": "sink cabinet",
+          "asin": "B0F2SKPZL6",
+          "title": "TEENFON Pedestal Sink Storage Cabinet with 2 Doors and Drawer, Bathroom Sink Cabinet, Under Sink Storage with U-Shape Cut-Out, White",
+          "link": "https://www.amazon.com/TEENFON-Pedestal-Sink-Storage-Cabinet/dp/B0F2SKPZL6/ref=sr_1_6?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/51hADn8yuYL._AC_UL320_.jpg",
+          "price": 99.98,
+          "rating": 4.1,
+          "ratingsTotal": 82,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 84
+        },
+        {
+          "keyword": "sink cabinet",
+          "asin": "B0DJ2821DS",
+          "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+          "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_7?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+          "price": 149.99,
+          "rating": 4.4,
+          "ratingsTotal": 296,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 83
+        }
+      ]
+    },
+    {
+      "keyword": "necklace pendants",
+      "amazonDemandScore": 94,
+      "bestTitle": "ROADPLUM 40Pcs Healing Crystal Pendants, Glow in the Dark Gemstone Charm, Hexagonal Chakra, Natural Quartz Stone, Necklace Pendants for Jewelry Making",
+      "bestAsin": "B0BQMLRX18",
+      "bestRating": 4.5,
+      "bestRatingsTotal": 324,
+      "bestPrice": 19.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "necklace pendants",
+          "asin": "B082S7798X",
+          "title": "sejin jewelry 2MM Stainless Steel Necklace - Thin Cable Chain for Women & Men, Silver Chains for Pendant Addition or Alone - 16-30 Inch Available",
+          "link": "https://www.amazon.com/Stainless-Necklace-Pendant-Addition-Available/dp/B082S7798X/ref=sr_1_5?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/5160FuQS1eL._AC_UL320_.jpg",
+          "price": 4.78,
+          "rating": 4.3,
+          "ratingsTotal": 3171,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 91
+        },
+        {
+          "keyword": "necklace pendants",
+          "asin": "B0BQMLRX18",
+          "title": "ROADPLUM 40Pcs Healing Crystal Pendants, Glow in the Dark Gemstone Charm, Hexagonal Chakra, Natural Quartz Stone, Necklace Pendants for Jewelry Making",
+          "link": "https://www.amazon.com/ROADPLUM-Pendants-Gemstones-Hexagonal-Necklace/dp/B0BQMLRX18/ref=sr_1_6?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/814K5YULXAL._AC_UL320_.jpg",
+          "price": 19.99,
+          "rating": 4.5,
+          "ratingsTotal": 324,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "necklace pendants",
+          "asin": "B0FFTH89XT",
+          "title": "WomenGifts Layered Gold Necklaces for Women, 14K Gold Sterling Silver Plated Dainty Pendant Necklace Set Non Tarnish, Chunky Stackable Cuban Chain Choker, Trendy Personalized Birthstone Jewelry Gift for Mom",
+          "link": "https://www.amazon.com/WomenGifts-Necklaces-Necklace-Stackable-Waterproof/dp/B0FFTH89XT/ref=sr_1_7?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/615sXIJbXsL._AC_UL320_.jpg",
+          "price": 11.98,
+          "rating": 4.5,
+          "ratingsTotal": 867,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 90
+        }
+      ]
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "amazonDemandScore": 94,
+      "bestTitle": "Jewlpire 2mm Rope Chain 925 Sterling Silver Chain Necklace for Women, 14K Gold Plated Chains for Women Smooth & Sturdy Women's Chains Necklace, 16 18 20 22 24 26 Inch",
+      "bestAsin": "B0DYVF859R",
+      "bestRating": 4.5,
+      "bestRatingsTotal": 1660,
+      "bestPrice": 15.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "s925 sterling jewelry",
+          "asin": "B0GR8WZZT3",
+          "title": "BLThing S925 Sterling Silver Chain Necklace for Women, 1.2mm Sparkle Disk Chain Necklace Smooth & Sturdy Women's Chains Necklaces 16 18 20 22 24Inch",
+          "link": "https://www.amazon.com/BLThing-Sterling-Silver-Chain-Women/dp/B0GR8WZZT3/ref=sr_1_5?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/61RDX2xUKkL._AC_UL320_.jpg",
+          "price": 13.99,
+          "rating": 4.6,
+          "ratingsTotal": 42,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 86
+        },
+        {
+          "keyword": "s925 sterling jewelry",
+          "asin": "B0DYVF859R",
+          "title": "Jewlpire 2mm Rope Chain 925 Sterling Silver Chain Necklace for Women, 14K Gold Plated Chains for Women Smooth & Sturdy Women's Chains Necklace, 16 18 20 22 24 26 Inch",
+          "link": "https://www.amazon.com/Jewlpire-Sterling-Necklace-Classic-Necklaces/dp/B0DYVF859R/ref=sr_1_6?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/51MoMjOznsL._AC_UL320_.jpg",
+          "price": 15.99,
+          "rating": 4.5,
+          "ratingsTotal": 1660,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 94
+        },
+        {
+          "keyword": "s925 sterling jewelry",
+          "asin": "B0BYZK4WQH",
+          "title": "Hapour 925 Sterling Silver Ring for Women,Eternity Gorgeous Rings Stackable Rings for Women as Gifts Ring Size 4-11",
+          "link": "https://www.amazon.com/Hapour-Sterling-Personalized-Gorgeous-Stackable/dp/B0BYZK4WQH/ref=sr_1_7?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/516UKNRda4L._AC_UL320_.jpg",
+          "price": 13.89,
+          "rating": 4.2,
+          "ratingsTotal": 1599,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 89
+        }
+      ]
+    },
+    {
+      "keyword": "bathroom vanity",
+      "amazonDemandScore": 91,
+      "bestTitle": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+      "bestAsin": "B0DJ2821DS",
+      "bestRating": 4.4,
+      "bestRatingsTotal": 296,
+      "bestPrice": 149.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "bathroom vanity",
+          "asin": "B0DJ2821DS",
+          "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+          "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+          "price": 149.99,
+          "rating": 4.4,
+          "ratingsTotal": 296,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 91
+        },
+        {
+          "keyword": "bathroom vanity",
+          "asin": "B0GNC8XVSH",
+          "title": "LIKIMIO 36\" Bathroom Vanity with Sink, Hair Tool Drawer, 4 Solid Legs, 4 Drawers 2 Doors, Modern Freestanding Wooden Bathroom Cabinet with Undermount Upgraded SMC Sink, Quick Assembly, White",
+          "link": "https://www.amazon.com/LIKIMIO-Bathroom-Freestanding-Undermount-Upgraded/dp/B0GNC8XVSH/ref=sr_1_6?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/71UyZgkof0L._AC_UL320_.jpg",
+          "price": 329.99,
+          "rating": 4.2,
+          "ratingsTotal": 12,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 67
+        },
+        {
+          "keyword": "bathroom vanity",
+          "asin": "B0H2M3DCRW",
+          "title": "LIKIMIO 30\" Bathroom Vanity with Sink, Freestanding Bathroom Vanity with 2 Soft-Close Doors, Integrated Ceramic Sink, Modern Bathroom Storage Cabinet for Small Bathroom, Easy Assembly, White",
+          "link": "https://www.amazon.com/LIKIMIO-Bathroom-Freestanding-Soft-Close-Integrated/dp/B0H2M3DCRW/ref=sr_1_7?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/71jtcngOe8L._AC_UL320_.jpg",
+          "price": 199.99,
+          "rating": 5,
+          "ratingsTotal": 2,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 58
+        }
+      ]
+    },
+    {
+      "keyword": "vanity sink",
+      "amazonDemandScore": 91,
+      "bestTitle": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+      "bestAsin": "B0DJ2821DS",
+      "bestRating": 4.4,
+      "bestRatingsTotal": 296,
+      "bestPrice": 149.99,
+      "resultCount": 5,
+      "topResults": [
+        {
+          "keyword": "vanity sink",
+          "asin": "B0DJ2821DS",
+          "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+          "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-5",
+          "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+          "price": 149.99,
+          "rating": 4.4,
+          "ratingsTotal": 296,
+          "position": 1,
+          "isPrime": false,
+          "amazonDemandScore": 91
+        },
+        {
+          "keyword": "vanity sink",
+          "asin": "B0CFDF86SF",
+          "title": "OLD CAPTAIN Bathroom Vanity with Ceramic Sink, Wooden Double Door Bathroom Storage Vanity with 24 Inch, Milky White Finish",
+          "link": "https://www.amazon.com/OLD-CAPTAIN-Bathroom-Ceramic-Storage/dp/B0CFDF86SF/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-6",
+          "image": "https://m.media-amazon.com/images/I/71TtdJqA3rL._AC_UL320_.jpg",
+          "price": 169.99,
+          "rating": 4.2,
+          "ratingsTotal": 287,
+          "position": 2,
+          "isPrime": false,
+          "amazonDemandScore": 86
+        },
+        {
+          "keyword": "vanity sink",
+          "asin": "B0H2DH5RJZ",
+          "title": "30\" Bathroom Vanity with Sink, Floor-Standing PVC Waterproof Cabinet, Curved Panel Design, Integrated Ceramic Basin with Standard 3-Hole Faucet, 4-Inch Hole Spacing,Spacious Drawers,Black",
+          "link": "https://www.amazon.com/ELVANORA-Bathroom-Floor-Standing-Waterproof-Integrated/dp/B0H2DH5RJZ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-7",
+          "image": "https://m.media-amazon.com/images/I/81lCBBWeRGL._AC_UL320_.jpg",
+          "price": 249.99,
+          "rating": 0,
+          "ratingsTotal": 0,
+          "position": 3,
+          "isPrime": false,
+          "amazonDemandScore": 31
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "keyword": "necklace pendants",
+      "asin": "B082S7798X",
+      "title": "sejin jewelry 2MM Stainless Steel Necklace - Thin Cable Chain for Women & Men, Silver Chains for Pendant Addition or Alone - 16-30 Inch Available",
+      "link": "https://www.amazon.com/Stainless-Necklace-Pendant-Addition-Available/dp/B082S7798X/ref=sr_1_5?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/5160FuQS1eL._AC_UL320_.jpg",
+      "price": 4.78,
+      "rating": 4.3,
+      "ratingsTotal": 3171,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 91
+    },
+    {
+      "keyword": "necklace pendants",
+      "asin": "B0BQMLRX18",
+      "title": "ROADPLUM 40Pcs Healing Crystal Pendants, Glow in the Dark Gemstone Charm, Hexagonal Chakra, Natural Quartz Stone, Necklace Pendants for Jewelry Making",
+      "link": "https://www.amazon.com/ROADPLUM-Pendants-Gemstones-Hexagonal-Necklace/dp/B0BQMLRX18/ref=sr_1_6?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/814K5YULXAL._AC_UL320_.jpg",
+      "price": 19.99,
+      "rating": 4.5,
+      "ratingsTotal": 324,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "necklace pendants",
+      "asin": "B0FFTH89XT",
+      "title": "WomenGifts Layered Gold Necklaces for Women, 14K Gold Sterling Silver Plated Dainty Pendant Necklace Set Non Tarnish, Chunky Stackable Cuban Chain Choker, Trendy Personalized Birthstone Jewelry Gift for Mom",
+      "link": "https://www.amazon.com/WomenGifts-Necklaces-Necklace-Stackable-Waterproof/dp/B0FFTH89XT/ref=sr_1_7?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/615sXIJbXsL._AC_UL320_.jpg",
+      "price": 11.98,
+      "rating": 4.5,
+      "ratingsTotal": 867,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 90
+    },
+    {
+      "keyword": "necklace pendants",
+      "asin": "B094R5F126",
+      "title": "Jadive 50 Pieces Crystal Stone Pendants Gemstone Charms Irregular Healing Chakra Beads Moon Shape Pendants Natural Gemstone Beads Quartz Charms for DIY Bracelets Necklaces Earrings Jewelry Making",
+      "link": "https://www.amazon.com/Pendants-Gemstone-Irregular-Bracelets-Necklaces/dp/B094R5F126/ref=sr_1_8?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/8179B1o7i7S._AC_UL320_.jpg",
+      "price": 17.99,
+      "rating": 4.5,
+      "ratingsTotal": 355,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 86
+    },
+    {
+      "keyword": "necklace pendants",
+      "asin": "B073YKWN45",
+      "title": "JIALEEY Wholesale Bulk Lots Jewelry Making Silver Charms Mixed Smooth Tibetan Silver Metal Charms Pendants DIY for Necklace Bracelet Jewelry Making and Crafting, 100 PCS",
+      "link": "https://www.amazon.com/Wholesale-Pendants-Necklace-Bracelet-JIALEEY/dp/B073YKWN45/ref=sr_1_9?dib=eyJ2IjoiMSJ9.WzyGRvdDfgNfKh9Sr6OEua24CRvdPA4Py0UKOxDKYnnmSxknh_pDp8cQpZoTJVV94zRtDYONerulNEwSX93wvLH-Op-1y1-O1pWNMIcI8zBgBCPgAtzPzl30xlSCX6TDNsOA9nJpDwSL76AKufVooe5CiUI19qTnQ6GlCvbV80E_B3q50SDv0nxFIJsyspIkq7UXsgVTd21XKedETJVnU8AA0aOPUCzdjpSHFznxeP5mpRT40ahHdiO1J-sJ2fT2S59ssOno36BrTRw9IzDjVYTUMuotCsK3e1yLaH9J3I0.XVYhB5dmJMWu6XXpOmYRlWXqmsZp8TluZnvIdMg7lDI&dib_tag=se&keywords=necklace+pendants&qid=1780684630&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/81IyWZAaluL._AC_UL320_.jpg",
+      "price": 5.82,
+      "rating": 4.6,
+      "ratingsTotal": 35621,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "other replacement parts",
+      "asin": "B08LY7QYSH",
+      "title": "Lansinoh Breast Pump Spare Parts Bundle, Includes Four Duckbill Valves and Other Replacement Parts for Lansinoh Double Electric Breast Pumps",
+      "link": "https://www.amazon.com/Lansinoh-Bundle-Double-Electric-Breast/dp/B08LY7QYSH/ref=sr_1_1?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-1",
+      "image": "https://m.media-amazon.com/images/I/61LW8U4ZjBL._AC_UL320_.jpg",
+      "price": 16,
+      "rating": 4.7,
+      "ratingsTotal": 2220,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 99
+    },
+    {
+      "keyword": "other replacement parts",
+      "asin": "B0BTCZMFB9",
+      "title": "Replacement Parts for Shark AI AV2511AE AV2501S AV2610WA AV2501AE RV2502AE RV2610WA UR2500SR RV2520 AV2510 AI Ultra Robot Vacuum Cleaner Accessories Kits. Main Brush,HEPA Filter,Foam Filter,Side Brush",
+      "link": "https://www.amazon.com/PAYUDAL-Replacement-Parts-AV2511AE-AV2501AE/dp/B0BTCZMFB9/ref=sr_1_2?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-2",
+      "image": "https://m.media-amazon.com/images/I/71tQnw2FOkL._AC_UL320_.jpg",
+      "price": 26.98,
+      "rating": 4.6,
+      "ratingsTotal": 472,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "other replacement parts",
+      "asin": "B0CRPFCJD4",
+      "title": "Replacement Parts & Accessories for iRobot E, I & J Series, Combo i5, j5 Series Robot Vacuum, Dual Multi-Surface Rubber Brushes & 3 HEPA Filter & 3 Edge-Sweeping Brushes",
+      "link": "https://www.amazon.com/Replacement-Accessories-Multi-Surface-Brushes-Edge-Sweeping/dp/B0CRPFCJD4/ref=sr_1_3?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-3",
+      "image": "https://m.media-amazon.com/images/I/71IDkUKaqkL._AC_UL320_.jpg",
+      "price": 12.99,
+      "rating": 4.5,
+      "ratingsTotal": 1098,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 90
+    },
+    {
+      "keyword": "other replacement parts",
+      "asin": "B0CJLJHWB6",
+      "title": "Accessories Compatible for Roborock Q5 Q5+ Q5 Plus Replacement Parts, 𝐍𝐨𝐭 𝐟𝐨𝐫 𝐀𝐍𝐘 𝐎𝐓𝐇𝐄𝐑 𝐐𝟓 𝐌𝐨𝐝𝐞𝐥𝐬, 1 Main Brush 4 HEPA Filters 4 Side Brushes",
+      "link": "https://www.amazon.com/Replacement-Compatible-Roborock-Cleaner-Accessories/dp/B0CJLJHWB6/ref=sr_1_4?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-4",
+      "image": "https://m.media-amazon.com/images/I/71DW6Lic-BL._AC_UL320_.jpg",
+      "price": 14.98,
+      "rating": 4.5,
+      "ratingsTotal": 257,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 85
+    },
+    {
+      "keyword": "other replacement parts",
+      "asin": "B0CYLPFJS8",
+      "title": "Replacement Parts for Shark AI AV2501S AV2511AE AV2610WA AV2501AE RV2502AE RV2400WD AI Ultra 2- in-1 Robot Vacuum, Main Brush, Filter, Side Brush, Roller Cover, Pre-Motor Foam & Felt Filter",
+      "link": "https://www.amazon.com/Replacement-AV2511AE-AV2610WA-AV2501AE-Pre-Motor/dp/B0CYLPFJS8/ref=sr_1_5?dib=eyJ2IjoiMSJ9.fHuus6N7_vsbfOVjWBEQjQeQm11Y_CEtIvtM_h9zdJJdmMEJIFsHSvWv7XDjMEkFevb4cUAZaLYaH_X74K0ORjqEKO6ugyt-q4632MJl63qJQ6EBkgQwFd-2zBOWiF5v0GMmSLfjTALYkZvs9_oExeg4tphNdTxXdNg08cYRRdmkqVNkztjCO897YOMhKaavCrJqTxW6iNRH_tZaIbXUcmkfGrWxJ4Fx4HbW_5baarVpqWYP2dS61WRwYszhvdZa4hJ5t2Mfsy4i53glT3PNRRE1DqssvQnsu31fa9d88b4.nfz_JpyS4oJybNpcTDYTOvg3cQteHCZjChh379qVs74&dib_tag=se&keywords=other+replacement+parts&qid=1780684635&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/71VvD3IOixL._AC_UL320_.jpg",
+      "price": 21.99,
+      "rating": 4.5,
+      "ratingsTotal": 390,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "bracelets bangles",
+      "asin": "B0DX6Q2K5D",
+      "title": "Gokeey Gold Bracelets Set for Women Non Tarnish, Waterproof 14K Gold Plated Sterling Silver Chunky Cuff Bracelet Stackable Gold Bangles Bracelet for Women Trendy Fashion Accessories Tie Knot Cuban Rope Paperclip Beaded Bracelet Stack Jewelry Mothers Day Gifts for Mom Birthday",
+      "link": "https://www.amazon.com/Gokeey-Bracelets-Waterproof-Satckable-Paperclip/dp/B0DX6Q2K5D/ref=sr_1_1?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-1",
+      "image": "https://m.media-amazon.com/images/I/81+MhJFPyFL._AC_UL320_.jpg",
+      "price": 12.56,
+      "rating": 4.5,
+      "ratingsTotal": 1303,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "bracelets bangles",
+      "asin": "B0FP51RPK5",
+      "title": "ÌF ME Acrylic Bangles Bracelets for Women, Irregular Acrylic Resin Chunky Bracelets Geometric Fashions Thick Statement bangle Set",
+      "link": "https://www.amazon.com/%C3%8CF-ME-Bracelets-Maillard-Lightweight/dp/B0FP51RPK5/ref=sr_1_2?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-2",
+      "image": "https://m.media-amazon.com/images/I/51ohJOTYncL._AC_UL320_.jpg",
+      "price": 9.99,
+      "rating": 4.2,
+      "ratingsTotal": 115,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 87
+    },
+    {
+      "keyword": "bracelets bangles",
+      "asin": "B0CXTCDSYX",
+      "title": "IFKM Gold Bangles Bracelets for Women Girls 14k Gold Plated Multi Layer Stackable Cuff Bracelet Set",
+      "link": "https://www.amazon.com/IFKM-Bracelets-Stackable-Bracelet-Minimalist/dp/B0CXTCDSYX/ref=sr_1_3?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-3",
+      "image": "https://m.media-amazon.com/images/I/71l5w88c5xL._AC_UL320_.jpg",
+      "price": 6.67,
+      "rating": 4.3,
+      "ratingsTotal": 1321,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 89
+    },
+    {
+      "keyword": "bracelets bangles",
+      "asin": "B0F622MFDY",
+      "title": "iF YOU Chunky Gold Bangle Bracelets for Women, Dainty 14k Gold Plated Big Stackable Bangles Set, Trendy Statement Cuff Bracelet Stack Fashion Jewelry Gifts",
+      "link": "https://www.amazon.com/Bracelets-Stackable-Bangles-Bracelet-Fashion/dp/B0F622MFDY/ref=sr_1_4?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-4",
+      "image": "https://m.media-amazon.com/images/I/71vFF8gT6+L._AC_UL320_.jpg",
+      "price": 13.99,
+      "rating": 4.5,
+      "ratingsTotal": 1512,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 86
+    },
+    {
+      "keyword": "bracelets bangles",
+      "asin": "B0FBS3W2Z1",
+      "title": "ÌF ME Gold Bangle Bracelets for Women, Indian Bangles Stackable Set, Multi Layer Textured 14K Gold Plated Chunky Bracelets Boho Jewelrys Set",
+      "link": "https://www.amazon.com/%C3%8CF-ME-Bracelets-Stackable-Textured/dp/B0FBS3W2Z1/ref=sr_1_5?dib=eyJ2IjoiMSJ9.QoHhXjpViEvhDyR7mihXPsQHj7ORkRgGigdiNQg7XfXuMC-5XHyoFHTvXap2214ao8l11193DYav2lrusKUD_trJ47k11ifwezj3elHGvZaxOPia7WhiRfQphOYAGhI7IOXcrCMQiU5R91X5eN8CZ5ETn1JFLmTU9aaN9Lqfvuy-Ipafo8svzZqSRggWppYsof18j1DCNSlUEJ01jIXx4vEtwNjff7YpC-ZpxA1cLtvwGKVNbOl_719mxvNjuc388rSOdPCqyjHOZaPCOlAOgMQxffKaj8fXWx98Ei3siu4.WFpvbyph-BFxDD5JeuTvb9Fx5NPmDj_ylcTFxUIFuM0&dib_tag=se&keywords=bracelets+bangles&qid=1780684642&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/81KkcZ2SPBL._AC_UL320_.jpg",
+      "price": 8.97,
+      "rating": 4.2,
+      "ratingsTotal": 679,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 81
+    },
+    {
+      "keyword": "replacement parts",
+      "asin": "B07QG8CWFV",
+      "title": "GOOACC Universal Plastic Fender Clips,200 Pcs Push Bumper Fastener Rivet Clips with 6 Size Auto Body Retainer Clips Bumpers,Car Fender Replacement for GM, Ford & Ch, GRC-47",
+      "link": "https://www.amazon.com/GOOACC-Universal-Fastener-Retainer-Replacement/dp/B07QG8CWFV/ref=sr_1_3?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-3",
+      "image": "https://m.media-amazon.com/images/I/71c8AShuU-L._AC_UY218_.jpg",
+      "price": 9.85,
+      "rating": 4.6,
+      "ratingsTotal": 22328,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "replacement parts",
+      "asin": "B0B7XRKY5B",
+      "title": "QIIYCCE 120PCS Car Clips & Plastic Rivets - 6 Popular Sizes, Fits Bumpers, Fenders & Most Car Models, Ideal for Body Fixing & Replacement",
+      "link": "https://www.amazon.com/QIIYCCE-120PCS-Plastic-Popular-Replacement-Applicable/dp/B0B7XRKY5B/ref=sr_1_4?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-4",
+      "image": "https://m.media-amazon.com/images/I/71feMF-4otL._AC_UY218_.jpg",
+      "price": 8.99,
+      "rating": 4.6,
+      "ratingsTotal": 3677,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "replacement parts",
+      "asin": "B09GLVT5H2",
+      "title": "Car Battery Terminal Connectors, 2 Pcs 4 Way Quick Release Disconnect Car Battery Terminal for SAE/JIS Type A Posts, Compatible With Cars, Vans, Trucks and More",
+      "link": "https://www.amazon.com/Battery-Terminal-Connectors-Disconnect-Compatible/dp/B09GLVT5H2/ref=sr_1_5?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_UY218_.jpg",
+      "price": 9.59,
+      "rating": 4.4,
+      "ratingsTotal": 9281,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 90
+    },
+    {
+      "keyword": "replacement parts",
+      "asin": "B0B72BX85Y",
+      "title": "Replacement Parts Kit for irobot Roomba 600 Series 694 676 675 692 695 677 671 655 645 690 680 660 650 620 614 & 500 Series 595 585 564 robot, 2 Bristle & 2 Beater Brush, 6 Filter, 6 Side Brush",
+      "link": "https://www.amazon.com/Replacement-irobot-Roomba-Bristle-Beater/dp/B0B72BX85Y/ref=sr_1_6?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/81wPvlsnP7L._AC_UY218_.jpg",
+      "price": 19.49,
+      "rating": 4.7,
+      "ratingsTotal": 4850,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 87
+    },
+    {
+      "keyword": "replacement parts",
+      "asin": "B0DPQPM1V7",
+      "title": "18 Pack Replacement Parts Accessories Compatible for iRobot Roomba i3 i3+ i7 i7+ i4 i6 i6+i8 i8+/Plus E5 E6 E7 J7 i5+j5+ I,E &J Series Vacuum Cleaner 2 Set of Roller Brush & 8 Filters & 8 Side Brushes",
+      "link": "https://www.amazon.com/Replacement-Accessories-Compatible-Cleaner-Filters/dp/B0DPQPM1V7/ref=sr_1_8?dib=eyJ2IjoiMSJ9.AanqkLi1Gt28juMac5zS6SxwIVrKVNkNTVY1_cJfh6ubmNiRjO-BHrkUqFJoSjEVjvTgKzfqYFtOupw138ZWrqqmLvb3DVoyqKA66IG7yjYx7eFVKEYT2NSahUcli3P3hLHrm4l0QgekSoigl89GRZBstRI3wphWpEWnAdauCvvnsUP5j9t54IBYxD-2V98HyITUd_1--1Yk8v0llstzbxigTtkQd4cxM0llEHE_fb8.0qkLO3c6KM0Eqn8IUGLsOspXmGvXACEFUEIJhEQR5qo&dib_tag=se&keywords=replacement+parts&qid=1780684646&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/71L65DldIuL._AC_UY218_.jpg",
+      "price": 19.49,
+      "rating": 4.5,
+      "ratingsTotal": 856,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "pet furniture tools",
+      "asin": "B0C2FMZMHP",
+      "title": "ChomChom Roller Pet Hair Remover – Original Size Reusable Lint Roller for Cat & Dog Hair on Furniture, Couch, Carpet, Car, Rugs & Bedding – Portable, Eco-Friendly (Black)",
+      "link": "https://www.amazon.com/Chom-Roller-Hair-Remover-Reusable/dp/B0C2FMZMHP/ref=sr_1_5?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/81gxS8BPgkL._AC_UL320_.jpg",
+      "price": 24.99,
+      "rating": 4.5,
+      "ratingsTotal": 194349,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "pet furniture tools",
+      "asin": "B0CYYKL2ML",
+      "title": "Pet Hair Remover 3-Pack, Dog Cat Hair Remover, Lint Shaver Cleaner Pro, Fur Removal Tool, Portable Carpet Scraper, Fuzz Rollers Hairball Brush for Carpets, Clothes, Car Mats, Couch, Pet Bed, Furniture",
+      "link": "https://www.amazon.com/Remover-Cleaner-Portable-Hairball-Furniture/dp/B0CYYKL2ML/ref=sr_1_6?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/61XxghaUO7L._AC_UL320_.jpg",
+      "price": 9.97,
+      "rating": 4.5,
+      "ratingsTotal": 2250,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "pet furniture tools",
+      "asin": "B00BAGTNAQ",
+      "title": "ChomChom Roller Pet Hair Remover – Original Size Reusable Lint Roller for Cat & Dog Hair on Furniture, Couch, Carpet, Car, Rugs & Bedding – Portable, Eco-Friendly (White)",
+      "link": "https://www.amazon.com/Pet-Dog-Cat-Hair-Remover-Couch/dp/B00BAGTNAQ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/71mmJsbMGZL._AC_UL320_.jpg",
+      "price": 24.99,
+      "rating": 4.5,
+      "ratingsTotal": 194349,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 90
+    },
+    {
+      "keyword": "pet furniture tools",
+      "asin": "B0CM3KCJKB",
+      "title": "Pet Hair Remover, Dog and Cat Hair Remover, Wool Hair Remover, Carpet Rake for Pet Hair Removal, Carpet Rake, Pile Brush, Hand Shaver for Carpets, Car Cushions, Sofas, Pet Beds, Furniture & Rug",
+      "link": "https://www.amazon.com/Pet-Hair-Remover-Removal-Furniture/dp/B0CM3KCJKB/ref=sr_1_8?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/61AYt8s6GTL._AC_UL320_.jpg",
+      "price": 9.99,
+      "rating": 4.4,
+      "ratingsTotal": 6283,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 86
+    },
+    {
+      "keyword": "pet furniture tools",
+      "asin": "B09YN468KG",
+      "title": "BLACK+DECKER Pet Hair Remover, Roller, Remove Dog Hair and Cat Hair Easily (HMSCT0001)",
+      "link": "https://www.amazon.com/BLACK-DECKER-Remover-Roller-HMSCT0001/dp/B09YN468KG/ref=sr_1_9?dib=eyJ2IjoiMSJ9.20COBM1NgB6H7lCG4JBQphn14LmsTaq3Zw5bEOEL9EMNO54oHVJlj489ndPFnTu4DMroiTQghjbB9tJbpi_a5KUqU1JdVLlWU8xGNYMs16cfGW0mHP6SIO6oA2dOfwisnP5tnjmVO_P5QYlBaBg47o4jGyZ6xcxXIS-Ia-Rw324oJLdq7yn2YF00ywJrXOF9zB1CU4WdqszklIspqG3kbKnwx7rIPzePtYTZYQw_15Ro355ZNEyFzUiIdE8mtgW0hQuHHEu0XbBYTta1O3dtRSa50iaUiyeKGF5OvwXl6jo.PKfQ_AKO_pCroWLgeBwYDOfei9uJOQ5RhJb_WYSRTGw&dib_tag=se&keywords=pet+furniture+tools&qid=1780684650&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/61GHMSH8OaL._AC_UL320_.jpg",
+      "price": 15.88,
+      "rating": 4.6,
+      "ratingsTotal": 3592,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "blouses shirts",
+      "asin": "B0FNC6G5VG",
+      "title": "OFEEFAN Womens Tops Short Sleeve Shirts Buttons V Neck Spring Fashion Summer Outfits Plus Size Blouses Dressy Casual",
+      "link": "https://www.amazon.com/Blouses-Business-Fashion-Clothing-Tshirts/dp/B0FNC6G5VG/ref=sr_1_1?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-1",
+      "image": "https://m.media-amazon.com/images/I/81JY24vMSHL._AC_UL320_.jpg",
+      "price": 8.99,
+      "rating": 4.4,
+      "ratingsTotal": 3191,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "blouses shirts",
+      "asin": "B0FR7B2YYG",
+      "title": "WIHOLL Womens Summer Tops Short Petal Sleeve Shirts Fashion V Neck Womens Clothing",
+      "link": "https://www.amazon.com/WIHOLL-Womens-Clothing-Summer-Tops/dp/B0FR7B2YYG/ref=sr_1_2?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-2",
+      "image": "https://m.media-amazon.com/images/I/71bHH-hBm7L._AC_UL320_.jpg",
+      "price": 8.99,
+      "rating": 4.4,
+      "ratingsTotal": 1208,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "blouses shirts",
+      "asin": "B07QWS5RQT",
+      "title": "Beautife Button Down Shirts for Womens Short Sleeve Blouses V Neck Collared Casual Summer Tops with Pockets",
+      "link": "https://www.amazon.com/Beautife-Womens-Sleeve-Collared-Pockets/dp/B07QWS5RQT/ref=sr_1_3?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-3",
+      "image": "https://m.media-amazon.com/images/I/61KQ2xpc0jL._AC_UL320_.jpg",
+      "price": 10.18,
+      "rating": 4.2,
+      "ratingsTotal": 13507,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 89
+    },
+    {
+      "keyword": "blouses shirts",
+      "asin": "B0FXHFVMDJ",
+      "title": "Zeagoo Button Down Shirts for Women Short Sleeve Collared Tops Dressy Casual V Neck Blouses",
+      "link": "https://www.amazon.com/Zeagoo-Business-Blouses-Collared-Clothing/dp/B0FXHFVMDJ/ref=sr_1_4?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-4",
+      "image": "https://m.media-amazon.com/images/I/71dAm9PR60L._AC_UL320_.jpg",
+      "price": 14.99,
+      "rating": 4.3,
+      "ratingsTotal": 1537,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 85
+    },
+    {
+      "keyword": "blouses shirts",
+      "asin": "B0FN7RJ3L8",
+      "title": "WIHOLL Womens Tops Short Sleeve Shirts Summer Outfits 2026 Spring Dressy Casual Clothes Clothing",
+      "link": "https://www.amazon.com/WIHOLL-Outfits-Clothes-Business-Lightweight/dp/B0FN7RJ3L8/ref=sr_1_5?dib=eyJ2IjoiMSJ9.ewYvy02ayeq7wcEZiD1MR73TYOL9wwVhx5pX5696ZTTRqXefx-Sllvr-zjDU7HBQkh20IRlQMc1midLWz90DXx-1pwismQur3rfXPtz8A4fd-Dm4jB9kIHWpw9i6gaCtpdxUIX0Bz-yhvRJbQcU6-iWlERe4rFbGztXIt2_h8VFLHtNxVisBx0utcXSoaaPJlPnpLoeLP9AtyZZlbNszJla1rERhWLVrUlfkOSxgvL55fwgExCa9qQJ8CAsrtvTDUd83PLEaCzzBZEgV6sGMJEvhjr8d-J5ZzEIXkd0Hh3c.cWK3_C1VVvONT_lGXAWOgaZjGSu8EyWHb3v9S1LMxG8&dib_tag=se&keywords=blouses+shirts&qid=1780684655&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/810ivXuumtL._AC_UL320_.jpg",
+      "price": 9.99,
+      "rating": 4.5,
+      "ratingsTotal": 985,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "bed frame",
+      "asin": "B0B8VQLN6Y",
+      "title": "NEW JETO Metal Bed Frame,Queen Size Bed Frame with Storage Space,Heavy Duty Sturdy Mattress Foundation,Easy Assembly,No Box Spring Needed, Black,14 Inch,Queen",
+      "link": "https://www.amazon.com/NEW-JETO-Frame-Simple-Atmospheric-Platform/dp/B0B8VQLN6Y/ref=sr_1_1?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-1",
+      "image": "https://m.media-amazon.com/images/I/61hT6fVmW8L._AC_UL320_.jpg",
+      "price": 53.99,
+      "rating": 4.6,
+      "ratingsTotal": 31372,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "bed frame",
+      "asin": "B0GK189P5P",
+      "title": "OLIXIS Metal Queen Bed Frame - 14in High with Storage Space, No Box Spring Needed with Sturdy Steel Slat Support, 2200LBS Heavy Duty for Easy Assembly, Black for Bedroom",
+      "link": "https://www.amazon.com/OLIXIS-Metal-Queen-Bed-Frame/dp/B0GK189P5P/ref=sr_1_2?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-2",
+      "image": "https://m.media-amazon.com/images/I/613Rnlrm14L._AC_UL320_.jpg",
+      "price": 44.97,
+      "rating": 4.5,
+      "ratingsTotal": 460,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "bed frame",
+      "asin": "B0D9Q6THT7",
+      "title": "Furnulem Full Size Bed Frame with LED Light and Charging Station, Wood Storage Headboard with 2-Tier Shelves, Metal Platform Bed with Heavy Duty Slats Support, No Box Spring Needed, Black Oak",
+      "link": "https://www.amazon.com/Furnulem-Charging-Station-Headboard-Platform/dp/B0D9Q6THT7/ref=sr_1_3?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-3",
+      "image": "https://m.media-amazon.com/images/I/81DLGhCxk+L._AC_UL320_.jpg",
+      "price": 109.95,
+      "rating": 4.5,
+      "ratingsTotal": 2762,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 90
+    },
+    {
+      "keyword": "bed frame",
+      "asin": "B0GL2B6ND3",
+      "title": "Fluest Queen Bed Frame with Headboard & Footboard, Bed Frame with Built-in Charging Station & LED Light, Storage Shelf, Noise-Free, No Box Spring Needed, Easy Assembly, Classic Black",
+      "link": "https://www.amazon.com/Fluest-Headboard-Footboard-Charging-Noise-Free/dp/B0GL2B6ND3/ref=sr_1_4?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-4",
+      "image": "https://m.media-amazon.com/images/I/81SSU2zvgCL._AC_UL320_.jpg",
+      "price": 104.49,
+      "rating": 4.2,
+      "ratingsTotal": 612,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 85
+    },
+    {
+      "keyword": "bed frame",
+      "asin": "B07DZT2SZ3",
+      "title": "Mellow Naturalista Classic - 12 Inch Solid Wood Platform Bed with Wooden Slats, No Box Spring Needed, Easy Assembly, Queen, Pine",
+      "link": "https://www.amazon.com/Mellow-Naturalista-Classic-Platform-Assembly/dp/B07DZT2SZ3/ref=sr_1_5?dib=eyJ2IjoiMSJ9.eNELgLzC9u6c_vbdkwv83nuW4Mz4o8Sa3AkZcI9LqiWMGsKfft8Vpz842GM7GTEOcNri8LBC4P9A_ed7AUk9Qjk4s_mx_z1W7-MybRvlreTbFuayvZO0LVlcRA-YkCmUQZUayAWLyTO-Mazi39zq2KVZH85dPAsA6g-e_7WMSofD4c8lqIbJlST3Gf7uPaDf4SI67AS6s_I-rzKFuXWD5cDQfH3LbH0zTlZuvYP7YBC3Mdz80m42wCdn8gXsVjxLfnNEHGtNeR2FPzsCskIFbocFKXB-y26s_JQ7GwnMUDc._ap54VNDMUybvW4gCc2oYaq83j6-xGiJlBHX9jNuLz0&dib_tag=se&keywords=bed+frame&qid=1780684660&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/7159ToXsBTL._AC_UL320_.jpg",
+      "price": 139.99,
+      "rating": 4.6,
+      "ratingsTotal": 22127,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 76
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "asin": "B0GR8WZZT3",
+      "title": "BLThing S925 Sterling Silver Chain Necklace for Women, 1.2mm Sparkle Disk Chain Necklace Smooth & Sturdy Women's Chains Necklaces 16 18 20 22 24Inch",
+      "link": "https://www.amazon.com/BLThing-Sterling-Silver-Chain-Women/dp/B0GR8WZZT3/ref=sr_1_5?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/61RDX2xUKkL._AC_UL320_.jpg",
+      "price": 13.99,
+      "rating": 4.6,
+      "ratingsTotal": 42,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 86
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "asin": "B0DYVF859R",
+      "title": "Jewlpire 2mm Rope Chain 925 Sterling Silver Chain Necklace for Women, 14K Gold Plated Chains for Women Smooth & Sturdy Women's Chains Necklace, 16 18 20 22 24 26 Inch",
+      "link": "https://www.amazon.com/Jewlpire-Sterling-Necklace-Classic-Necklaces/dp/B0DYVF859R/ref=sr_1_6?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/51MoMjOznsL._AC_UL320_.jpg",
+      "price": 15.99,
+      "rating": 4.5,
+      "ratingsTotal": 1660,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 94
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "asin": "B0BYZK4WQH",
+      "title": "Hapour 925 Sterling Silver Ring for Women,Eternity Gorgeous Rings Stackable Rings for Women as Gifts Ring Size 4-11",
+      "link": "https://www.amazon.com/Hapour-Sterling-Personalized-Gorgeous-Stackable/dp/B0BYZK4WQH/ref=sr_1_7?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/516UKNRda4L._AC_UL320_.jpg",
+      "price": 13.89,
+      "rating": 4.2,
+      "ratingsTotal": 1599,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 89
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "asin": "B0FXXSZD3H",
+      "title": "IEFWELL S925 Sterling Silver Bracelet for Women - 14K-Real-Gold-Plated Satellite Bead Chain Bracelet, 6.5/7/7.5/8/8.5/9 Inches Sterling Silver Chain Bracelets, Valentines Gifts Jewelry for Women",
+      "link": "https://www.amazon.com/IEFWELL-Sterling-Silver-Bracelet-Women/dp/B0FXXSZD3H/ref=sr_1_8?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/51QAOHwTGiL._AC_UL320_.jpg",
+      "price": 12.99,
+      "rating": 4.1,
+      "ratingsTotal": 44,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 73
+    },
+    {
+      "keyword": "s925 sterling jewelry",
+      "asin": "B0GR8H7MH5",
+      "title": "BLThing S925 Sterling Silver Box Chain Bracelets for Women - Sterling Silver Box Bracelet Handmade Jewelry Gold Bracelets for Women 6.5/7/7.5/8 Inch",
+      "link": "https://www.amazon.com/BLThing-Sterling-Silver-Bracelets-Women/dp/B0GR8H7MH5/ref=sr_1_9?dib=eyJ2IjoiMSJ9.0ujViJNFGZi_qS7Uao6_hpunYwAj9l1-vpWhVPPtZfWPx782IS9_nXoaPtELrREsZHAKz1JQmsNiTuBjT-yhbv8sX47HOkCvnsudaJkBmt6hFbcIcybVMb1zisigAodcX9F3bPp8Lh9e1OlhTZZ9ZDjItqu6ktgYoIcTlYlDZWXSPsLuxCiuz-sYPRD90xst7dIssm5C0AZVdEZPf5IQpVzQIRh_Kw3gpsaVr9ZNQIGl14ZEQddCD4kz_rFryMS441nPHv1FWyybXdrApNW_P3nE-BGQv8-CN5mb5gM1iT8.ZaHJJS26UB7IFjcyPV-qzEaDCn8xq2azJCZO_I8WTFg&dib_tag=se&keywords=s925+sterling+jewelry&qid=1780684665&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/61fnC+GJpVL._AC_UL320_.jpg",
+      "price": 15.99,
+      "rating": 4.7,
+      "ratingsTotal": 26,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 68
+    },
+    {
+      "keyword": "bathroom vanity",
+      "asin": "B0DJ2821DS",
+      "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+      "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+      "price": 149.99,
+      "rating": 4.4,
+      "ratingsTotal": 296,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 91
+    },
+    {
+      "keyword": "bathroom vanity",
+      "asin": "B0GNC8XVSH",
+      "title": "LIKIMIO 36\" Bathroom Vanity with Sink, Hair Tool Drawer, 4 Solid Legs, 4 Drawers 2 Doors, Modern Freestanding Wooden Bathroom Cabinet with Undermount Upgraded SMC Sink, Quick Assembly, White",
+      "link": "https://www.amazon.com/LIKIMIO-Bathroom-Freestanding-Undermount-Upgraded/dp/B0GNC8XVSH/ref=sr_1_6?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/71UyZgkof0L._AC_UL320_.jpg",
+      "price": 329.99,
+      "rating": 4.2,
+      "ratingsTotal": 12,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 67
+    },
+    {
+      "keyword": "bathroom vanity",
+      "asin": "B0H2M3DCRW",
+      "title": "LIKIMIO 30\" Bathroom Vanity with Sink, Freestanding Bathroom Vanity with 2 Soft-Close Doors, Integrated Ceramic Sink, Modern Bathroom Storage Cabinet for Small Bathroom, Easy Assembly, White",
+      "link": "https://www.amazon.com/LIKIMIO-Bathroom-Freestanding-Soft-Close-Integrated/dp/B0H2M3DCRW/ref=sr_1_7?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/71jtcngOe8L._AC_UL320_.jpg",
+      "price": 199.99,
+      "rating": 5,
+      "ratingsTotal": 2,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 58
+    },
+    {
+      "keyword": "bathroom vanity",
+      "asin": "B0FK3V5WMD",
+      "title": "JUMMICO 24\" Bathroom Vanity with Sink, Bathroom Storage Vanity Sink Cabinet with 2 Doors ＆ 1 Drawer Space, Farmhouse Wooden Free Standing Bathroom Cabinet with Sink Combo, Easy Assembly (Black)",
+      "link": "https://www.amazon.com/JUMMICO-Bathroom-Farmhouse-Standing-Assembly/dp/B0FK3V5WMD/ref=sr_1_8?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/81a8-83sbdL._AC_UL320_.jpg",
+      "price": 189.98,
+      "rating": 4.2,
+      "ratingsTotal": 61,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 69
+    },
+    {
+      "keyword": "bathroom vanity",
+      "asin": "B0DK941HQ3",
+      "title": "LUXOAK 61\" Farmhouse Sliding Barn Door Double Vanity with Sink Combo, Freestanding Bathroom Vanity Cabinet with Drawers & Metal Handles, Distressed White",
+      "link": "https://www.amazon.com/LUXOAK-Farmhouse-Freestanding-Bathroom-Distressed/dp/B0DK941HQ3/ref=sr_1_9?dib=eyJ2IjoiMSJ9.JTGnMlaILtsXls5YvgiUp0rZopTY6UDERJ-2VNfQMnFTHksp5DDpXECdB9no3UXFspwMNdlB40zo5ZMxF_ezBFu_-UAUdbrRop9RNyOkEACzko6PZAVW0YqMfzhiWzYTlLSejIAUCJfFWXp-dL0WWCTGn_23i3s8eMurKwxd_p2unxPgXVOha7jHccYQktlinnkLIiFgs0A-y2zbeb3ggOvwirs6ICtYeMwPW2qAbf_n0G9E7EKolevlDwKwzAsME2PZKbdP6vypWSDVmy53qJsZl6DRP7bqBi6lvd3kSXI.LkyGY6etP-Cpjr3HeqU4gNUgOGqDDuh-sNRTul-Dwk0&dib_tag=se&keywords=bathroom+vanity&qid=1780684671&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/718O8YAZ9yL._AC_UL320_.jpg",
+      "price": 479.99,
+      "rating": 4.3,
+      "ratingsTotal": 304,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 75
+    },
+    {
+      "keyword": "vanity sink",
+      "asin": "B0DJ2821DS",
+      "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+      "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_5?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+      "price": 149.99,
+      "rating": 4.4,
+      "ratingsTotal": 296,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 91
+    },
+    {
+      "keyword": "vanity sink",
+      "asin": "B0CFDF86SF",
+      "title": "OLD CAPTAIN Bathroom Vanity with Ceramic Sink, Wooden Double Door Bathroom Storage Vanity with 24 Inch, Milky White Finish",
+      "link": "https://www.amazon.com/OLD-CAPTAIN-Bathroom-Ceramic-Storage/dp/B0CFDF86SF/ref=sr_1_6?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/71TtdJqA3rL._AC_UL320_.jpg",
+      "price": 169.99,
+      "rating": 4.2,
+      "ratingsTotal": 287,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 86
+    },
+    {
+      "keyword": "vanity sink",
+      "asin": "B0H2DH5RJZ",
+      "title": "30\" Bathroom Vanity with Sink, Floor-Standing PVC Waterproof Cabinet, Curved Panel Design, Integrated Ceramic Basin with Standard 3-Hole Faucet, 4-Inch Hole Spacing,Spacious Drawers,Black",
+      "link": "https://www.amazon.com/ELVANORA-Bathroom-Floor-Standing-Waterproof-Integrated/dp/B0H2DH5RJZ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/81lCBBWeRGL._AC_UL320_.jpg",
+      "price": 249.99,
+      "rating": 0,
+      "ratingsTotal": 0,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 31
+    },
+    {
+      "keyword": "vanity sink",
+      "asin": "B0FK3V5WMD",
+      "title": "JUMMICO 24\" Bathroom Vanity with Sink, Bathroom Storage Vanity Sink Cabinet with 2 Doors ＆ 1 Drawer Space, Farmhouse Wooden Free Standing Bathroom Cabinet with Sink Combo, Easy Assembly (Black)",
+      "link": "https://www.amazon.com/JUMMICO-Bathroom-Farmhouse-Standing-Assembly/dp/B0FK3V5WMD/ref=sr_1_8?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/81a8-83sbdL._AC_UL320_.jpg",
+      "price": 189.98,
+      "rating": 4.2,
+      "ratingsTotal": 61,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 69
+    },
+    {
+      "keyword": "vanity sink",
+      "asin": "B08R9H8HRH",
+      "title": "DeerValley Ally Undermount Bathroom Sink, 21'' x 14.72'' Rectangle Vessel Sink Modern Bathroom Sink White Ceramic Vanity Sink with Overflow DV-1U101",
+      "link": "https://www.amazon.com/DeerValley-Undermount-Rectangular-Rectrangle-Porcelain/dp/B08R9H8HRH/ref=sr_1_9?dib=eyJ2IjoiMSJ9.Bq9MeNI4see5SnyvyBQ8-2eVVFd78n-yG_U7TNAHoRbwam7S0fxBDkKbz1ltGW3SS-b0zuQPjB0O2rPGfbFBv8A1Ped8lPbnAnUeRa8xvMqz87cJx153Al7c3SbJ44Rc7GdOIMRfsqNEWQin0mExqNHJTE9s1_mvosG4ytr5W2LLFfV8Ky97OgsHEL4fqVZLkRjIyNzvHINaoCeUF5lVXcfJFN7T-0VncuKnDUDzlCSTiLXBQeghlK7aPCs8YG-ZTdDrRw4tgG4Hk9PoVevfqySD6NjcB-umC92_vptH8lQ.6rrOPzU0THV01qKtIrZmDyqF4yhQaq6hP0iRfwu5pzk&dib_tag=se&keywords=vanity+sink&qid=1780684676&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/810Bbqp7+FL._AC_UL320_.jpg",
+      "price": 64.99,
+      "rating": 4.6,
+      "ratingsTotal": 323,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 82
+    },
+    {
+      "keyword": "sink cabinet",
+      "asin": "B07HDSJY25",
+      "title": "Bonnlo Pedestal Sink Storage Cabinet with 2 Doors Traditional Under Sink Cabinet Bathroom Space Saver Organizer with Adjustable Shelf White 23 5/8\" W x 11 7/16\" D x 23 5/8\" H",
+      "link": "https://www.amazon.com/Bonnlo-Pedestal-Bathroom-Traditional-Organizer/dp/B07HDSJY25/ref=sr_1_5?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/51M1Ohfe4oL._AC_UL320_.jpg",
+      "price": 58.99,
+      "rating": 4.2,
+      "ratingsTotal": 1249,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 97
+    },
+    {
+      "keyword": "sink cabinet",
+      "asin": "B0F2SKPZL6",
+      "title": "TEENFON Pedestal Sink Storage Cabinet with 2 Doors and Drawer, Bathroom Sink Cabinet, Under Sink Storage with U-Shape Cut-Out, White",
+      "link": "https://www.amazon.com/TEENFON-Pedestal-Sink-Storage-Cabinet/dp/B0F2SKPZL6/ref=sr_1_6?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/51hADn8yuYL._AC_UL320_.jpg",
+      "price": 99.98,
+      "rating": 4.1,
+      "ratingsTotal": 82,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 84
+    },
+    {
+      "keyword": "sink cabinet",
+      "asin": "B0DJ2821DS",
+      "title": "Yaheetech 24.5\" Modern Bathroom Vanity with Ceramic Basin, Undermount Vanity Sink Cabinet with 2 Doors and 1 Drawer, Free Standing Bathroom Storage Cabinet with Sink Combo Set, White",
+      "link": "https://www.amazon.com/Yaheetech-Bathroom-Ceramic-Undermount-Standing/dp/B0DJ2821DS/ref=sr_1_7?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/81aOsDLT7wL._AC_UL320_.jpg",
+      "price": 149.99,
+      "rating": 4.4,
+      "ratingsTotal": 296,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 83
+    },
+    {
+      "keyword": "sink cabinet",
+      "asin": "B0B91R1TDP",
+      "title": "Iwell Pedestal Sink Storage Cabinet with 2 Doors and Shelf, Under Sink Cabinet, Bathroom Sink Cabinet with U-Shape, Black",
+      "link": "https://www.amazon.com/Storage-Cabinet-Pedestal-Bathroom-Organizer/dp/B0B91R1TDP/ref=sr_1_8?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/51KZ6xitZlL._AC_UL320_.jpg",
+      "price": 69.99,
+      "rating": 4.1,
+      "ratingsTotal": 117,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 78
+    },
+    {
+      "keyword": "sink cabinet",
+      "asin": "B0DPJYLFSN",
+      "title": "TEENFON Pedestal Sink Storage Cabinet, Under Sink Cabinet with 2 Doors & Shelf, Under Bathroom Sink Cabinet, Pedestal Sink Storage for Bathroom, Green",
+      "link": "https://www.amazon.com/TEENFON-Sink-Cabinet-Under-Organizer/dp/B0DPJYLFSN/ref=sr_1_9?dib=eyJ2IjoiMSJ9.j8O140WtGed1hPrSMSbo3juA9Gs0W0kj319FCbMqV1wbFBwqZQk4YuRLF7o5wfuYTyHWsCkTX59k87iYIqGR-O31l4RX2uWL5wx-Zi3dw_FS5rYm21QW673-0AQNJjQJbQcC4LHSzk7V3eLiNZCt6yW3i886GPUlsC7psm8Cb_bGglQbHL2xNzBV11RrKg8v08bHpgyl1yr1OdWGDJhxKAm5hBXKcEyRC1SJ5fRkiQnRYD-4Mf6vmh6xboWRoQ-IoYeovoXbJzn4Ot178rO55l7t3FaBQSnLyq-AXwb2Dg8.5osYfIsyDonR4k_uvp4p6G-vh_Sh2K7s9NY86ZqJKK4&dib_tag=se&keywords=sink+cabinet&qid=1780684682&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/71gyizbqwJL._AC_UL320_.jpg",
+      "price": 69.97,
+      "rating": 4.2,
+      "ratingsTotal": 128,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 75
+    },
+    {
+      "keyword": "suits sets",
+      "asin": "B0DRFSL38V",
+      "title": "WULFUL Men's 2 Piece Suits Slim Fit Two Button Blazer Jacket Pants Set for Party,Wedding and Business",
+      "link": "https://www.amazon.com/WULFUL-Button-Blazer-Wedding-Business/dp/B0DRFSL38V/ref=sr_1_5?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-5",
+      "image": "https://m.media-amazon.com/images/I/71UzCXnMRrL._AC_UL320_.jpg",
+      "price": 54.99,
+      "rating": 4.4,
+      "ratingsTotal": 470,
+      "position": 1,
+      "isPrime": false,
+      "amazonDemandScore": 98
+    },
+    {
+      "keyword": "suits sets",
+      "asin": "B0DT8Z4S5N",
+      "title": "luvamia Women's Two Piece Sets Pants Suits Dressy Business Casual Outfits Professional Blazer Pantsuits Set Work Office",
+      "link": "https://www.amazon.com/luvamia-Business-Outfits-Professional-Pantsuits/dp/B0DT8Z4S5N/ref=sr_1_6?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-6",
+      "image": "https://m.media-amazon.com/images/I/61mZ12iRrJL._AC_UL320_.jpg",
+      "price": 56.91,
+      "rating": 4.2,
+      "ratingsTotal": 1272,
+      "position": 2,
+      "isPrime": false,
+      "amazonDemandScore": 93
+    },
+    {
+      "keyword": "suits sets",
+      "asin": "B0CNSNYBNZ",
+      "title": "PRETTYGARDEN Women's 2 Piece Outfits Sleeveless Suit Vest and Wide Leg Pants Business Casual Blazer Sets",
+      "link": "https://www.amazon.com/PRETTYGARDEN-Womens-Outfits-Sleeveless-Business/dp/B0CNSNYBNZ/ref=sr_1_7?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-7",
+      "image": "https://m.media-amazon.com/images/I/6140VKn+b2L._AC_UL320_.jpg",
+      "price": 46.19,
+      "rating": 4.2,
+      "ratingsTotal": 1696,
+      "position": 3,
+      "isPrime": false,
+      "amazonDemandScore": 89
+    },
+    {
+      "keyword": "suits sets",
+      "asin": "B0D86Y7BGD",
+      "title": "luvamia Women's Two Piece Sets Pants Suits Dressy Business Casual Outfits Professional Blazer Pantsuits Set Work Office",
+      "link": "https://www.amazon.com/luvamia-Business-Casual-Outfits-Clothing/dp/B0D86Y7BGD/ref=sr_1_8?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-8",
+      "image": "https://m.media-amazon.com/images/I/61DOCMWhx7L._AC_UL320_.jpg",
+      "price": 51.18,
+      "rating": 4.2,
+      "ratingsTotal": 1272,
+      "position": 4,
+      "isPrime": false,
+      "amazonDemandScore": 85
+    },
+    {
+      "keyword": "suits sets",
+      "asin": "B0D81D9PDY",
+      "title": "luvamia Women's Two Piece Sets Pants Suits Dressy Business Casual Outfits Professional Blazer Pantsuits Set Work Office",
+      "link": "https://www.amazon.com/luvamia-Outfits-Business-Clothing-Clothes/dp/B0D81D9PDY/ref=sr_1_9?dib=eyJ2IjoiMSJ9.r6ojvwe9T7927wJ41c_zZffREBB2MNKJz5AxbLvAh9QgsAtLRb4DmYkRnviW27f195GD8wC4lye92gFI7pzuQh6gQ9yXiQwQjrDGbcoUE4c59-VLakQUKoDBh-iovqhRmw0XBstY6hvcJYlcdCXofwUMCK73C7p89niSEFLzMi-spIL71GeyCyzjnB06nJH4ni4hN1Cz7y-u1J_-kzSl3wCCo1dAlWww3YabiFc4eDpLVrajaqoyPeJAhS-RHxnUTFLN8faNlNn-m0xWK3iyl5pxW62zMOaumnlBslXXrf0.uSp9_95-pziLnBwsDYzL3oXkRntWqDLy_CKQvUkDZ3k&dib_tag=se&keywords=suits+sets&qid=1780684688&sr=8-9",
+      "image": "https://m.media-amazon.com/images/I/61aH9FQ2pfL._AC_UL320_.jpg",
+      "price": 52.77,
+      "rating": 4.2,
+      "ratingsTotal": 1272,
+      "position": 5,
+      "isPrime": false,
+      "amazonDemandScore": 81
+    }
+  ],
+  "failed": [
+    {
+      "keyword": "bathroom vanity sink",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "silver jewelry",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "lady dress",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "basic jacket",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "garden tools",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "casual shoes",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "storage cabinet",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "lounge chaise furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "vanity sink cabinet",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sterling silver",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "cloud sectional furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "gold plated",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "bathroom vanity sink cabinet",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sofa ottoman",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "ceramic sink",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "1pcs 999 sterling silver",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "s925 gold plated",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sectional sofa ottoman",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "upholstered bed furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "bathroom vanity furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "925 silver jewelry",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "cloud sectional sofa ottoman",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "furniture tools",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "bathroom vanity ceramic sink",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "vanity ceramic sink",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "vanity ceramic",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "bathroom vanity ceramic",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "leather suede",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sofa corduroy",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "cloud sofa corduroy",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "quartz watch",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "inch bathroom furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "wool blend",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "999 sterling silver",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "only self tools",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "video bathroom furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "1pcs 999 pendants",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "topmax outdoor furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "s925 sterling silver platinum",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "silver platinum",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sterling silver platinum",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "107 cloud furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "convertible sofa furniture",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "bathroom storage cabinet",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "cloud sectional sofa modern",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sofa modern",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sectional sofa modern",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "short sleeved shirts",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "sectional couch",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    },
+    {
+      "keyword": "cloud sectional couch",
+      "error": "Rainforest error 402: {\"request_info\":{\"success\":false,\"credits_used\":100,\"credits_remaining\":0,\"credits_required\":1,\"message\":\"You have used up your free credits, please consider upgrading to a paid plan.\"}}"
+    }
+  ]
+}

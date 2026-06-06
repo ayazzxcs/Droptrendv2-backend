@@ -1,0 +1,15 @@
+{
+  "name": "droptrend-backend-playwright-only",
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch:cj": "node scripts/fetch-cj-products.js",
+    "fetch:google": "node scripts/fetch-google-trends.js",
+    "fetch:amazon": "node scripts/fetch-amazon-products.js",
+    "merge": "node scripts/merge-trend-signals.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.1",
+    "node-fetch": "^3.3.2"
+  }
+}
