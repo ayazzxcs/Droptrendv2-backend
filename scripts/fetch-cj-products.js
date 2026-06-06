@@ -1,5 +1,4 @@
 import fs from "fs";
-import fetch from "node-fetch";
 
 const CJ_EMAIL = process.env.CJ_EMAIL;
 const CJ_API_KEY = process.env.CJ_API_KEY;
