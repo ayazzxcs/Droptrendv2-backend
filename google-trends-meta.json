@@ -1,0 +1,11 @@
+{
+  "updatedAt": "2026-06-07T12:08:10.197Z",
+  "source": "google-trends-network",
+  "geo": "US",
+  "dateRange": "today 3-m",
+  "attemptedKeywordCount": 2,
+  "savedSignalCount": 2,
+  "failedCount": 0,
+  "note": "Captures Google Trends internal timeline JSON from the Explore page and calculates 3-month growth score.",
+  "failed": []
+}

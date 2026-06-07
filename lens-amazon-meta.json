@@ -1,0 +1,24 @@
+{
+  "updatedAt": "2026-06-07T12:08:21.968Z",
+  "month": "2026-06",
+  "mode": "sequential quota provider pool + one amazon result per product",
+  "startIndex": 0,
+  "maxProducts": 10,
+  "providerUsage": {
+    "serpapi_1": 9
+  },
+  "providerBudgets": {
+    "serpapi_1": 250,
+    "serpapi_2": 250,
+    "searchapi": 100,
+    "hasdata": 100,
+    "scrapingdog": 200,
+    "decodo": 700,
+    "apify": 150,
+    "openwebninja": 50,
+    "zenserp": 50
+  },
+  "matches": 0,
+  "failures": 9,
+  "note": "Uses one provider until its limit is reached, then moves to the next. One Lens request and one Amazon result per product."
+}
