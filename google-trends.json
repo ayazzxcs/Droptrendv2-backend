@@ -7,12 +7,12 @@
     "growthPercent": 0,
     "firstAvg": 60,
     "lastAvg": 60,
-    "latestValue": 39,
+    "latestValue": 40,
     "maxValue": 100,
     "timelinePoints": 186,
     "match": 1,
     "source": "google-trends-network",
-    "fetchedAt": "2026-06-07T12:07:42.197Z"
+    "fetchedAt": "2026-06-07T12:34:10.643Z"
   },
   {
     "keyword": "home storage",
@@ -22,11 +22,11 @@
     "growthPercent": 0,
     "firstAvg": 48,
     "lastAvg": 48,
-    "latestValue": 33,
+    "latestValue": 35,
     "maxValue": 100,
     "timelinePoints": 186,
     "match": 1,
     "source": "google-trends-network",
-    "fetchedAt": "2026-06-07T12:08:07.160Z"
+    "fetchedAt": "2026-06-07T12:34:35.424Z"
   }
 ]

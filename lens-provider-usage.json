@@ -1,5 +1,8 @@
 {
   "2026-06": {
-    "serpapi_1": 9
+    "serpapi_1": 250,
+    "serpapi_2": 250,
+    "searchapi": 100,
+    "hasdata": 6
   }
 }

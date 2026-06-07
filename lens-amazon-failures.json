@@ -10,56 +10,56 @@
     "index": 2,
     "name": "New Mini Charging Hair Straightener Comb",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/03/04/06/f468088d-c9c7-4b9e-aee2-d1a87a5b7549_trans.jpeg",
-    "provider": "serpapi_1",
+    "provider": "serpapi_2",
     "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
   },
   {
     "index": 3,
     "name": "Summer Short-sleeved Shirt Button Pullover Top Fashion Casual Women's Clothing",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/05/26/08/25333744-054e-47ce-b415-364553e37002.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "searchapi",
+    "reason": "HTTP 429: {\n  \"error\": \"You have used all of the searches for the month. Please upgrade your plan on SearchApi.io.\"\n}"
   },
   {
     "index": 4,
     "name": "Men's Shorts Suits Summer Short-sleeved Polo Shirts And Drawstring Short Pants Fashion Set",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/06/03/02/171089c0-9d72-4019-8d93-d3ce183fba72.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   },
   {
     "index": 5,
     "name": "Womens Solid-Colored Short-Sleeve Casual Loose  Shirt",
     "image": "https://cf.cjdropshipping.com/quick/product/9948c5a6-767b-4beb-92bd-da1e08c70f16.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   },
   {
     "index": 6,
     "name": "Womens Hollowed-Out Beach Vacation Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/3cdbc298-6b9e-4b09-9aaa-dc5d5b597210.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   },
   {
     "index": 7,
     "name": "Halterneck Backless Casual Long Dress With Ink-wash Floral Print",
     "image": "https://cf.cjdropshipping.com/quick/product/0d878751-fd1b-4d05-b203-0ff4ff4578d5.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   },
   {
     "index": 8,
     "name": "European And American-style Leopard-print One-piece Swimsuit For Women",
     "image": "https://cf.cjdropshipping.com/quick/product/5dd15aef-d4a8-433d-8939-5755f04cf89d.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   },
   {
     "index": 9,
     "name": "Womens Retro Floral Short-Sleeve V-Neck Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/09118a11-303a-4c38-88da-c0ae1580b172.jpg",
-    "provider": "serpapi_1",
-    "reason": "HTTP 429: {\n  \"error\": \"Your account has run out of searches.\"\n}"
+    "provider": "hasdata",
+    "reason": "Missing HASDATA_LENS_ENDPOINT"
   }
 ]

@@ -1,11 +1,14 @@
 {
-  "updatedAt": "2026-06-07T12:08:21.968Z",
+  "updatedAt": "2026-06-07T12:34:49.902Z",
   "month": "2026-06",
   "mode": "sequential quota provider pool + one amazon result per product",
   "startIndex": 0,
   "maxProducts": 10,
   "providerUsage": {
-    "serpapi_1": 9
+    "serpapi_1": 250,
+    "serpapi_2": 250,
+    "searchapi": 100,
+    "hasdata": 6
   },
   "providerBudgets": {
     "serpapi_1": 250,
