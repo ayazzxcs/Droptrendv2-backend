@@ -69,8 +69,7 @@ jobs:
 
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
-          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
-          HASDATA_API_KEY: ${{ secrets.HASDATA_API_KEY }}
+          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}  
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
