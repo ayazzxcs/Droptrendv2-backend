@@ -12,7 +12,7 @@
     "timelinePoints": 186,
     "match": 1,
     "source": "google-trends-network",
-    "fetchedAt": "2026-06-07T12:34:10.643Z"
+    "fetchedAt": "2026-06-07T12:39:30.642Z"
   },
   {
     "keyword": "home storage",
@@ -22,11 +22,11 @@
     "growthPercent": 0,
     "firstAvg": 48,
     "lastAvg": 48,
-    "latestValue": 35,
+    "latestValue": 34,
     "maxValue": 100,
     "timelinePoints": 186,
     "match": 1,
     "source": "google-trends-network",
-    "fetchedAt": "2026-06-07T12:34:35.424Z"
+    "fetchedAt": "2026-06-07T12:39:55.034Z"
   }
 ]
