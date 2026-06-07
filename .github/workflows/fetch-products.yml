@@ -26,11 +26,9 @@ jobs:
       - name: Install Dependencies
         run: npm ci --no-audit --no-fund
 
-      # Google Trends (Playwright)
       - name: Install Playwright Chromium
-        run: npx playwright install chromium
+        run: npx playwright install --with-deps chromium
 
-      # Amazon Scraping (Puppeteer)
       - name: Install Puppeteer Dependencies
         run: |
           sudo apt-get update
@@ -54,25 +52,26 @@ jobs:
 
       - name: Fetch Google Trends
         run: node scripts/fetch-google-trends.js
-
-      - name: Fetch Lens Amazon Matches
-        run: node scripts/fetch-lens-amazon-matches.js
         env:
-          LENS_MAX_PRODUCTS: 1500
-          LENS_MAX_AMAZON_MATCHES: 1
-          AMAZON_DOMAIN: amazon.com
+          GOOGLE_TRENDS_LIMIT: 500
+
+      - name: Fetch Monthly Lens Amazon Matches
+        run: node scripts/fetch-monthly-lens-amazon-matches.js
+        env:
+          MONTHLY_LENS_MAX_PRODUCTS: 1500
+          MONTHLY_LENS_START_INDEX: 0
+          MONTHLY_LENS_DELAY_MS: 1200
+          AMAZON_PAGE_DELAY_MS: 3500
+          AMAZON_MIN_TITLE_MATCH: 15
 
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
-
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           HASDATA_API_KEY: ${{ secrets.HASDATA_API_KEY }}
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
-
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
-
-          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          OPENWEB_NINJA_API_KEY: ${{ secrets.OPENWEB_NINJA_API_KEY }}
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+          OPENWEBNINJA_API_KEY: ${{ secrets.OPENWEBNINJA_API_KEY }}
           ZENSERP_API_KEY: ${{ secrets.ZENSERP_API_KEY }}
 
       - name: Merge Trend Signals
@@ -86,5 +85,4 @@ jobs:
           git add .
 
           git commit -m "Update trending products" || echo "No changes"
-
           git push
