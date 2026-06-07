@@ -69,8 +69,6 @@ jobs:
           HASDATA_API_KEY: ${{ secrets.HASDATA_API_KEY }}
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
 
-          DECODO_USERNAME: ${{ secrets.DECODO_USERNAME }}
-          DECODO_PASSWORD: ${{ secrets.DECODO_PASSWORD }}
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
 
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
