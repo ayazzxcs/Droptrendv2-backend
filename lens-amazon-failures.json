@@ -3,343 +3,286 @@
     "index": 1,
     "name": "Silicone Ice Face Roller Contour Shrink Pores Remove Dark Circles Massage Skin Beauty Facial Roller For Eyes Neck Skin Care Tool",
     "image": "https://oss-cf.cjdropshipping.com/product/2025/05/05/06/fae6d7ea-92d4-4869-8bdf-77f4d86a634d.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 2,
-    "name": "New Mini Charging Hair Straightener Comb",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/03/04/06/f468088d-c9c7-4b9e-aee2-d1a87a5b7549_trans.jpeg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "scrapingdog",
+    "reason": "HTTP 403: {\"message\":\"You have reached your account limit. To add more API credits upgrade your account from here https://api.scrapingdog.com/billing. \",\"success\":false}"
   },
   {
     "index": 3,
     "name": "Summer Short-sleeved Shirt Button Pullover Top Fashion Casual Women's Clothing",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/05/26/08/25333744-054e-47ce-b415-364553e37002.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://us.amazon.com/dp/B0H32Q8N49",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 4,
     "name": "Men's Shorts Suits Summer Short-sleeved Polo Shirts And Drawstring Short Pants Fashion Set",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/06/03/02/171089c0-9d72-4019-8d93-d3ce183fba72.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 5,
-    "name": "Womens Solid-Colored Short-Sleeve Casual Loose  Shirt",
-    "image": "https://cf.cjdropshipping.com/quick/product/9948c5a6-767b-4beb-92bd-da1e08c70f16.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 6,
-    "name": "Womens Hollowed-Out Beach Vacation Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/3cdbc298-6b9e-4b09-9aaa-dc5d5b597210.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Lus-Chic-Active-Tracksuit-Fashion/dp/B0CGDLMKC6",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 7,
     "name": "Halterneck Backless Casual Long Dress With Ink-wash Floral Print",
     "image": "https://cf.cjdropshipping.com/quick/product/0d878751-fd1b-4d05-b203-0ff4ff4578d5.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Spaghetti-Crossover-Cocktail-Evening-Dresses/dp/B0FBW542Q5",
+    "reason": "weak amazon title match: 13"
   },
   {
     "index": 8,
     "name": "European And American-style Leopard-print One-piece Swimsuit For Women",
     "image": "https://cf.cjdropshipping.com/quick/product/5dd15aef-d4a8-433d-8939-5755f04cf89d.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Swimsuit-Leopard-Splicing-Control-Swimwear/dp/B0F388NZDJ",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 9,
     "name": "Womens Retro Floral Short-Sleeve V-Neck Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/09118a11-303a-4c38-88da-c0ae1580b172.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Boho-Dresses-Women-Vacation-Elegant/dp/B0F2HGCQ8T",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 10,
-    "name": "Womens Two-Piece Summer Casual Set",
-    "image": "https://cf.cjdropshipping.com/quick/product/ebdde6a6-9062-42fc-972c-c9caa2b2fbbe.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Old-money-style Casual New Single-wear Shirt For Men",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/11ac9c10-5fcd-48f0-9077-a24ecbb8e097.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/JXGSGOGO-Sleeve-Casual-Cotton-Buttons/dp/B09XDYS7PQ",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 11,
-    "name": "Womens Retro-Print Slim-Fit Casual Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/bce7228b-0991-479b-9759-763ec03dd3df.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Womens Two-Piece Summer Casual Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/ebdde6a6-9062-42fc-972c-c9caa2b2fbbe.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/ANRABESS-Palazzo-Elastic-Drawstring-Trousers/dp/B0G3V9245N",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 12,
-    "name": "Old-money-style Casual New Single-wear Shirt For Men",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/11ac9c10-5fcd-48f0-9077-a24ecbb8e097.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Womens Retro-Print Slim-Fit Casual Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/bce7228b-0991-479b-9759-763ec03dd3df.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/VFSHOW-Shoulder-Wedding-Elegant-Cocktail/dp/B0CL8YV7QF",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 13,
     "name": "Sweet And Cute Short-sleeved Square-neck T-shirt And Skirt Set For The Evening Gala",
     "image": "https://cf.cjdropshipping.com/quick/product/a6e9d84c-9a21-4e85-9305-b18c02924d26.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/ZWTYSS-Dresses-Summer-Elegant-Shirred/dp/B0DXQ8CB9S",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 14,
     "name": "Summer New Casual Resort Camisole Vest And Sports Pants Set",
     "image": "https://cf.cjdropshipping.com/quick/product/3aaf4a86-a03a-4a64-95a8-eab6dccd279b.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Trendy-Queen-Matching-Fashion-Sweatsuits/dp/B0FQB87JS8",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 15,
     "name": "Womens Hollow-out Chic And Elegant Casual Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/2986f342-c1fa-42ad-9907-056c18a82842.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.ae/CUPSHE-Womens-Dresses-Sleeveless-Shoulders/dp/B0F13R44G8",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 16,
     "name": "Womens V-neck Short-sleeve Loose-fit T-shirt Top",
     "image": "https://cf.cjdropshipping.com/quick/product/a1740027-d7c4-41be-9099-6576d6b3c142.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/DittyandVibe-V-Neck-Sleeve-Shirts-Summer/dp/B08XBC3FHC",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 17,
     "name": "S925 Sterling Silver 0.5CT Moissanite Hoop Earrings For Women  Round Cut Bottom Set Huggie Hoop With GRA Certificate Platinum Plated Minimalist Jewelry Gift Box Set",
     "image": "https://cf.cjdropshipping.com/cb079e85-68df-4e40-9b87-c9fef864bd1c.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 18,
     "name": "Hooded Solid-Color Cardigan With Buttons, Long-Sleeve Casual Jacket",
     "image": "https://cf.cjdropshipping.com/quick/product/8400ed0b-9daa-4536-9af5-96f96a611442.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 19,
     "name": "Lace Ladies Long Dress Sleeveless",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/08/9241a22c-364c-43ee-a07b-51be906d0c57.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 20,
     "name": "Loose-fit Striped Elegant Single-breasted Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/dfaaa7e3-6685-4781-8c67-b57c34ae24bd.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 21,
     "name": "Striped Sleeveless V-neck Black-and-white Color-block Wide-leg Jumpsuit",
     "image": "https://cf.cjdropshipping.com/quick/product/28dd4292-2dfe-48d2-866c-b03de9c7aca3.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Stripe-Sleeve-Button-Trousers-Female/dp/B0BC86GQHM",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 22,
     "name": "Solid Color Round Neck Three-quarters Sleeved Wine Red A-line Skirt",
     "image": "https://cf.cjdropshipping.com/quick/product/94c35588-e587-4ec7-a037-5273e3ef15e1.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 23,
     "name": "Womens V-neck Strap Multi-layer Printed Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/378c34c2-f752-4413-8675-48813cb3e6fe.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 24,
-    "name": "Figure-flattering Slimming Fashionable Embroidered Wide-leg Pants With An Elastic Waist",
-    "image": "https://cf.cjdropshipping.com/quick/product/b6518530-d49b-4dd4-ad0a-c333f254ce59.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Men's Suit Three-piece Suit Fashion Woolen Suit",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/c8f2ac65-bb24-4efb-a7d3-6ddc7d8f28d5.jpg",
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 25,
-    "name": "Printed Crew-Neck Long Dress Cross-Border Summer Womens Skirt",
-    "image": "https://cf.cjdropshipping.com/quick/product/9af7c6ae-cbff-4d13-8650-d883a76ab795.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Figure-flattering Slimming Fashionable Embroidered Wide-leg Pants With An Elastic Waist",
+    "image": "https://cf.cjdropshipping.com/quick/product/b6518530-d49b-4dd4-ad0a-c333f254ce59.jpg",
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 26,
-    "name": "Casual Minimalist Solid-color V-neck Midi Dress With Pockets And Lacing",
-    "image": "https://cf.cjdropshipping.com/quick/product/a8d4bffe-46c8-49e9-8928-5969b4fd96c5.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 27,
-    "name": "Versatile Long Solid-color Blazer Without Buttons",
-    "image": "https://cf.cjdropshipping.com/quick/product/0ae2f519-3531-4497-9b52-29fcdcac6b0c.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Printed Crew-Neck Long Dress Cross-Border Summer Womens Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/9af7c6ae-cbff-4d13-8650-d883a76ab795.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.fr/Manches-Courtes-Bodycon-%C3%89l%C3%A9gante-Vacances/dp/B0GVN481SZ",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 28,
-    "name": "Elegant Style Floral Print Sleeveless Dress With Tie-up Straps",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/05/f06c7a03-bb9f-4a47-8745-13a9625f647b.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 29,
-    "name": "S925 Sterling Silver Moissanite Hoop Earrings  Pave Huggie Hoop Dangle With GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
-    "image": "https://cf.cjdropshipping.com/a2c9e753-3345-4dd8-89e3-04fedde98af1.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Versatile Long Solid-color Blazer Without Buttons",
+    "image": "https://cf.cjdropshipping.com/quick/product/0ae2f519-3531-4497-9b52-29fcdcac6b0c.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Womens-Business-Cardigan-Casual-Collared/dp/B0DBLTLXH8",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 30,
-    "name": "Men's Suit Three-piece Suit Fashion Woolen Suit",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/c8f2ac65-bb24-4efb-a7d3-6ddc7d8f28d5.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 31,
-    "name": "Elegant Womens Casual Evening Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/ec705f47-7faf-4047-8cbc-140a4c5c9455.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Men's European And American Style Openwork Crocheted Sweater",
+    "image": "https://cf.cjdropshipping.com/quick/product/e75230ac-2672-48e8-99bb-50f1f6a33e35.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Shirts-Sleeve-Button-Fashion-Summer/dp/B0F3C6RCCM",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 32,
-    "name": "S925 Sterling Silver Moissanite Dangle Earrings 3-Stone Round Cut Vertical Drop Earrings With GRA Certificate Platinum Plated Fine Jewelry Gift Box Set For Women",
-    "image": "https://cf.cjdropshipping.com/fafd987a-57c5-484a-a45c-801945d3c795.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "S925 Sterling Silver Moissanite Hoop Earrings  Pave Huggie Hoop Dangle With GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/a2c9e753-3345-4dd8-89e3-04fedde98af1.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Sterling-Earrings-Brilliant-Thoughtful-Anniversary/dp/B0DMLSHN7J",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 33,
-    "name": "S925 Sterling Silver 7x9mm Pear Cut Moissanite Dangle Earrings  Teardrop Halo Hook Drop Earrings With GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
-    "image": "https://cf.cjdropshipping.com/3baa5bb9-bbab-4f79-b28c-7bfb2b273122.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Elegant Womens Casual Evening Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/ec705f47-7faf-4047-8cbc-140a4c5c9455.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.co.uk/Orange-Bridesmaid-Dresses-UK/s",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 34,
-    "name": "This Years Fashion Trend Textured Patchwork Tote Bags",
-    "image": "https://cf.cjdropshipping.com/quick/product/03869e26-2634-4419-91f5-5322a46f8130.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 35,
-    "name": "Womens Denim Off-Shoulder Chiffon Long-Sleeve Top",
-    "image": "https://cf.cjdropshipping.com/quick/product/a3cba1b7-4257-4a7a-a75f-e279a74efcf2.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "S925 Sterling Silver Moissanite Dangle Earrings 3-Stone Round Cut Vertical Drop Earrings With GRA Certificate Platinum Plated Fine Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/fafd987a-57c5-484a-a45c-801945d3c795.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.sa/-/en/CHAOKEELRA-5CT-Moissanite-Multi-mossinate/dp/B0DL3H8JFQ",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 36,
-    "name": "Men's European And American Style Openwork Crocheted Sweater",
-    "image": "https://cf.cjdropshipping.com/quick/product/e75230ac-2672-48e8-99bb-50f1f6a33e35.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "This Years Fashion Trend Textured Patchwork Tote Bags",
+    "image": "https://cf.cjdropshipping.com/quick/product/03869e26-2634-4419-91f5-5322a46f8130.jpg",
+    "provider": "decodo",
+    "reason": "no amazon link from current provider"
   },
   {
     "index": 37,
-    "name": "Striped Jacquard Short-sleeve Knit Top",
-    "image": "https://cf.cjdropshipping.com/quick/product/b25b73d0-a2b4-457e-90f8-b30b01633c61.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Womens Denim Off-Shoulder Chiffon Long-Sleeve Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/a3cba1b7-4257-4a7a-a75f-e279a74efcf2.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Womens-Strapless-Bandeau-Fashion-Clothes/dp/B0DHQTSPBQ",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 38,
     "name": "Women's Lace-panelled Waist-cinching Blazer",
     "image": "https://cf.cjdropshipping.com/quick/product/f344db03-2666-4e76-9c12-94211e6b64bc.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 39,
-    "name": "Contrast Lace Corset Panel Midi Bodycon Dress With Wide Belt",
-    "image": "https://cf.cjdropshipping.com/3f6a8229-95db-40f8-b8d1-92f0f9134512.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 40,
-    "name": "Womens Summer Crossbody Bag Versatile Shoulder Bag Large Capacity",
-    "image": "https://cf.cjdropshipping.com/quick/product/89e3e69e-a711-4acc-ab7d-c6473b6a85b1.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/NPHFPSQA-womens-blazers-dressy-Elegant/dp/B0D81DN3FB",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 41,
-    "name": "Delicate Lace-panelled Romantic Floral Dress",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/07/bd308d65-88d7-4e4d-8a91-45e0372cc742_fine.jpeg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Patchwork Denim Jacket Mens Casual Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/c69f7b93-7b2e-45f4-a35e-508a5d96078b.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/DGKaxiyaHM-Windproof-Distressed-Outerwear-XX-Large/dp/B0CPPMKGKV",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 42,
-    "name": "Womens Loose-fitting Plus-size Sleeveless Solid-color Dress",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/01/8febc7c3-12a3-450b-a049-aa0e189b530b.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "New Korean-style Versatile Mens Shoes Sports Leather Shoes",
+    "image": "https://cf.cjdropshipping.com/quick/product/c2505f81-1170-4bf3-8156-89fa3fe96983.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.sa/-/en/Fashion-Leather-Breathable-Comfortable-Sneakers/dp/B0CBG7W87X",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 43,
-    "name": "Womens Off-Shoulder Ruched Stretchy Sleeveless Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/e7b4e844-5e74-479a-a226-24f26eb4d270.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Delicate Lace-panelled Romantic Floral Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/07/bd308d65-88d7-4e4d-8a91-45e0372cc742_fine.jpeg",
+    "provider": "decodo",
+    "amazonUrl": "https://us.amazon.com/For-Love-Lemons-Womens-Bodycon/dp/B07ZWKC945",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 44,
-    "name": "Sexy Chic European And American Bikini Halter-neck Swimsuit",
-    "image": "https://cf.cjdropshipping.com/quick/product/a076caa5-a746-4f44-a2a1-eb7232920a51.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Womens Loose-fitting Plus-size Sleeveless Solid-color Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/01/8febc7c3-12a3-450b-a049-aa0e189b530b.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.fr/LZYCJL-Longue-Manches-Oversize-Vacances/dp/B0GXWNVV1Z",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 45,
-    "name": "Pearl Neck Sleeveless Self-Tie Belt A-Line Midi Dress",
-    "image": "https://cf.cjdropshipping.com/0744bd18-4ce7-4f3d-9b6f-3cc877e2409b.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 46,
-    "name": "Women's V-Neck Printed Elegant Sweet Spaghetti Strap Waist-Cinched Dress",
-    "image": "https://cf.cjdropshipping.com/69f9b04c-74f2-44e8-8c82-08a94b6f0364.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 47,
-    "name": "Striped Halter Ribbed Knit Bodycon Midi Dress",
-    "image": "https://cf.cjdropshipping.com/b879646a-f71d-4fe3-8c00-1a843f03c032.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Womens Off-Shoulder Ruched Stretchy Sleeveless Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/e7b4e844-5e74-479a-a226-24f26eb4d270.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/SHENHE-Womens-Shoulder-Backless-Wedding/dp/B0F99DD2ZX",
+    "reason": "amazon page missing title/rating data"
   },
   {
     "index": 48,
-    "name": "Mens Straight-leg Loose-fit Casual Pants",
-    "image": "https://cf.cjdropshipping.com/quick/product/fbd0c897-bcfa-487f-b936-c9913c71b7e1.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
-  },
-  {
-    "index": 49,
-    "name": "V-neck Sleeveless Slim-fit Jumpsuit Fashionable Womens Wear",
-    "image": "https://cf.cjdropshipping.com/quick/product/44b88dc6-1a3d-4234-a9fd-7bd933c5916e.jpg",
-    "provider": "hasdata",
-    "reason": "Missing HASDATA_LENS_ENDPOINT"
+    "name": "Women's V-Neck Printed Elegant Sweet Spaghetti Strap Waist-Cinched Dress",
+    "image": "https://cf.cjdropshipping.com/69f9b04c-74f2-44e8-8c82-08a94b6f0364.jpg",
+    "provider": "decodo",
+    "amazonUrl": "https://www.amazon.com/Womens-Spaghetti-Printed-Pleated-Striped/dp/B0DF31SWYR",
+    "reason": "amazon page missing title/rating data"
   }
 ]
