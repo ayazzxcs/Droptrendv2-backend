@@ -9,43 +9,19 @@ permissions:
   contents: write
 
 jobs:
-  fetch-products:
+  fetch-cj:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 60
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-      - name: Install Dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
-
-      - name: Install Puppeteer Chrome
-        run: npx puppeteer browsers install chrome
-
-      - name: Install Puppeteer Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxrandr2 \
-            libgbm1
+      - run: npm install --no-audit --no-fund
 
       - name: Fetch CJ Trending Products
         run: node scripts/fetch-cj-products.js
@@ -53,15 +29,73 @@ jobs:
           CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
           CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cj-products
+          path: products.json
+
+  google-trends:
+    needs: fetch-cj
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: cj-products
+          path: .
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
       - name: Fetch Google Trends
         run: node scripts/fetch-google-trends.js
         env:
           GOOGLE_TRENDS_LIMIT: 500
 
+      - uses: actions/upload-artifact@v4
+        with:
+          name: google-trends
+          path: |
+            google-trends.json
+            trend-keywords.json
+
+  amazon-lens:
+    needs: fetch-cj
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: cj-products
+          path: .
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install --no-audit --no-fund
+
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
+
       - name: Fetch Monthly Lens Amazon Matches
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
-          MONTHLY_LENS_MAX_PRODUCTS: 1000
+          MONTHLY_LENS_MAX_PRODUCTS: 1500
           MONTHLY_LENS_START_INDEX: 0
           MONTHLY_LENS_DELAY_MS: 1200
           AMAZON_PAGE_DELAY_MS: 3500
@@ -69,12 +103,58 @@ jobs:
 
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
-          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}  
+          SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+          APIFY_LENS_ENDPOINT: ${{ secrets.APIFY_LENS_ENDPOINT }}
           OPENWEBNINJA_API_KEY: ${{ secrets.OPENWEBNINJA_API_KEY }}
+          OPENWEBNINJA_LENS_ENDPOINT: ${{ secrets.OPENWEBNINJA_LENS_ENDPOINT }}
           ZENSERP_API_KEY: ${{ secrets.ZENSERP_API_KEY }}
+          ZENSERP_LENS_ENDPOINT: ${{ secrets.ZENSERP_LENS_ENDPOINT }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: amazon-lens
+          path: |
+            amazon-products.json
+            lens-amazon-matches.json
+            lens-amazon-failures.json
+            lens-amazon-meta.json
+            lens-provider-usage.json
+
+  merge:
+    needs:
+      - fetch-cj
+      - google-trends
+      - amazon-lens
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: cj-products
+          path: .
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: google-trends
+          path: .
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: amazon-lens
+          path: .
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm install --no-audit --no-fund
 
       - name: Merge Trend Signals
         run: node scripts/merge-trend-signals.js
