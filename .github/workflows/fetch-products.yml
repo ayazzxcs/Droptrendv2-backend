@@ -106,12 +106,8 @@ jobs:
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
-          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
-          APIFY_LENS_ENDPOINT: ${{ secrets.APIFY_LENS_ENDPOINT }}
-          OPENWEBNINJA_API_KEY: ${{ secrets.OPENWEBNINJA_API_KEY }}
-          OPENWEBNINJA_LENS_ENDPOINT: ${{ secrets.OPENWEBNINJA_LENS_ENDPOINT }}
-          ZENSERP_API_KEY: ${{ secrets.ZENSERP_API_KEY }}
-          ZENSERP_LENS_ENDPOINT: ${{ secrets.ZENSERP_LENS_ENDPOINT }}
+          DECODO_2_AUTH_BASE64 : ${{ secrets.DECODO_2_AUTH_BASE64 }}
+          
 
       - uses: actions/upload-artifact@v4
         with:
