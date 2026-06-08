@@ -3,286 +3,1757 @@
     "index": 1,
     "name": "Silicone Ice Face Roller Contour Shrink Pores Remove Dark Circles Massage Skin Beauty Facial Roller For Eyes Neck Skin Care Tool",
     "image": "https://oss-cf.cjdropshipping.com/product/2025/05/05/06/fae6d7ea-92d4-4869-8bdf-77f4d86a634d.jpg",
-    "provider": "scrapingdog",
-    "reason": "HTTP 403: {\"message\":\"You have reached your account limit. To add more API credits upgrade your account from here https://api.scrapingdog.com/billing. \",\"success\":false}"
+    "provider": "decodo",
+    "reason": "HTTP 429: {\"status\":\"failed\",\"message\":\"Your request couldn't be processed due to rate limits. This may be because: 1) You've used all requests, 2) Your subscription period has ended, or 3) "
   },
   {
     "index": 3,
     "name": "Summer Short-sleeved Shirt Button Pullover Top Fashion Casual Women's Clothing",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/05/26/08/25333744-054e-47ce-b415-364553e37002.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://us.amazon.com/dp/B0H32Q8N49",
-    "reason": "amazon page missing title/rating data"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 4,
     "name": "Men's Shorts Suits Summer Short-sleeved Polo Shirts And Drawstring Short Pants Fashion Set",
     "image": "https://oss-cf.cjdropshipping.com/product/2026/06/03/02/171089c0-9d72-4019-8d93-d3ce183fba72.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Lus-Chic-Active-Tracksuit-Fashion/dp/B0CGDLMKC6",
-    "reason": "amazon page missing title/rating data"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 7,
     "name": "Halterneck Backless Casual Long Dress With Ink-wash Floral Print",
     "image": "https://cf.cjdropshipping.com/quick/product/0d878751-fd1b-4d05-b203-0ff4ff4578d5.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Spaghetti-Crossover-Cocktail-Evening-Dresses/dp/B0FBW542Q5",
-    "reason": "weak amazon title match: 13"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 8,
-    "name": "European And American-style Leopard-print One-piece Swimsuit For Women",
-    "image": "https://cf.cjdropshipping.com/quick/product/5dd15aef-d4a8-433d-8939-5755f04cf89d.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Swimsuit-Leopard-Splicing-Control-Swimwear/dp/B0F388NZDJ",
-    "reason": "amazon page missing title/rating data"
+    "name": "Womens Retro Floral Short-Sleeve V-Neck Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/09118a11-303a-4c38-88da-c0ae1580b172.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 9,
-    "name": "Womens Retro Floral Short-Sleeve V-Neck Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/09118a11-303a-4c38-88da-c0ae1580b172.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Boho-Dresses-Women-Vacation-Elegant/dp/B0F2HGCQ8T",
-    "reason": "amazon page missing title/rating data"
+    "name": "Womens Retro-Print Slim-Fit Casual Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/bce7228b-0991-479b-9759-763ec03dd3df.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 10,
-    "name": "Old-money-style Casual New Single-wear Shirt For Men",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/11ac9c10-5fcd-48f0-9077-a24ecbb8e097.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/JXGSGOGO-Sleeve-Casual-Cotton-Buttons/dp/B09XDYS7PQ",
-    "reason": "amazon page missing title/rating data"
+    "name": "European And American-style Leopard-print One-piece Swimsuit For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/5dd15aef-d4a8-433d-8939-5755f04cf89d.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 11,
     "name": "Womens Two-Piece Summer Casual Set",
     "image": "https://cf.cjdropshipping.com/quick/product/ebdde6a6-9062-42fc-972c-c9caa2b2fbbe.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/ANRABESS-Palazzo-Elastic-Drawstring-Trousers/dp/B0G3V9245N",
-    "reason": "amazon page missing title/rating data"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 12,
-    "name": "Womens Retro-Print Slim-Fit Casual Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/bce7228b-0991-479b-9759-763ec03dd3df.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/VFSHOW-Shoulder-Wedding-Elegant-Cocktail/dp/B0CL8YV7QF",
-    "reason": "amazon page missing title/rating data"
+    "name": "Old-money-style Casual New Single-wear Shirt For Men",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/11ac9c10-5fcd-48f0-9077-a24ecbb8e097.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 13,
-    "name": "Sweet And Cute Short-sleeved Square-neck T-shirt And Skirt Set For The Evening Gala",
-    "image": "https://cf.cjdropshipping.com/quick/product/a6e9d84c-9a21-4e85-9305-b18c02924d26.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/ZWTYSS-Dresses-Summer-Elegant-Shirred/dp/B0DXQ8CB9S",
-    "reason": "amazon page missing title/rating data"
+    "name": "Loose-fit Striped Elegant Single-breasted Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/dfaaa7e3-6685-4781-8c67-b57c34ae24bd.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 14,
-    "name": "Summer New Casual Resort Camisole Vest And Sports Pants Set",
-    "image": "https://cf.cjdropshipping.com/quick/product/3aaf4a86-a03a-4a64-95a8-eab6dccd279b.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Trendy-Queen-Matching-Fashion-Sweatsuits/dp/B0FQB87JS8",
-    "reason": "amazon page missing title/rating data"
+    "name": "Solid Color Round Neck Three-quarters Sleeved Wine Red A-line Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/94c35588-e587-4ec7-a037-5273e3ef15e1.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 15,
-    "name": "Womens Hollow-out Chic And Elegant Casual Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/2986f342-c1fa-42ad-9907-056c18a82842.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.ae/CUPSHE-Womens-Dresses-Sleeveless-Shoulders/dp/B0F13R44G8",
-    "reason": "amazon page missing title/rating data"
+    "name": "Retro Floral Chiffon Slimming Lace Flounce Strap Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/040f818f-43b0-479a-a489-37a47b795a4a.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 16,
-    "name": "Womens V-neck Short-sleeve Loose-fit T-shirt Top",
-    "image": "https://cf.cjdropshipping.com/quick/product/a1740027-d7c4-41be-9099-6576d6b3c142.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/DittyandVibe-V-Neck-Sleeve-Shirts-Summer/dp/B08XBC3FHC",
-    "reason": "amazon page missing title/rating data"
+    "name": "Sweet And Cute Short-sleeved Square-neck T-shirt And Skirt Set For The Evening Gala",
+    "image": "https://cf.cjdropshipping.com/quick/product/a6e9d84c-9a21-4e85-9305-b18c02924d26.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 17,
-    "name": "S925 Sterling Silver 0.5CT Moissanite Hoop Earrings For Women  Round Cut Bottom Set Huggie Hoop With GRA Certificate Platinum Plated Minimalist Jewelry Gift Box Set",
-    "image": "https://cf.cjdropshipping.com/cb079e85-68df-4e40-9b87-c9fef864bd1c.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Hooded Solid-Color Cardigan With Buttons, Long-Sleeve Casual Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/8400ed0b-9daa-4536-9af5-96f96a611442.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 18,
-    "name": "Hooded Solid-Color Cardigan With Buttons, Long-Sleeve Casual Jacket",
-    "image": "https://cf.cjdropshipping.com/quick/product/8400ed0b-9daa-4536-9af5-96f96a611442.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Printed Crew-Neck Long Dress Cross-Border Summer Womens Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/9af7c6ae-cbff-4d13-8650-d883a76ab795.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 19,
-    "name": "Lace Ladies Long Dress Sleeveless",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/08/9241a22c-364c-43ee-a07b-51be906d0c57.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Striped Sleeveless V-neck Black-and-white Color-block Wide-leg Jumpsuit",
+    "image": "https://cf.cjdropshipping.com/quick/product/28dd4292-2dfe-48d2-866c-b03de9c7aca3.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 20,
-    "name": "Loose-fit Striped Elegant Single-breasted Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/dfaaa7e3-6685-4781-8c67-b57c34ae24bd.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Summer New Casual Resort Camisole Vest And Sports Pants Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/3aaf4a86-a03a-4a64-95a8-eab6dccd279b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 21,
-    "name": "Striped Sleeveless V-neck Black-and-white Color-block Wide-leg Jumpsuit",
-    "image": "https://cf.cjdropshipping.com/quick/product/28dd4292-2dfe-48d2-866c-b03de9c7aca3.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Stripe-Sleeve-Button-Trousers-Female/dp/B0BC86GQHM",
-    "reason": "amazon page missing title/rating data"
+    "name": "Womens Hollow-out Chic And Elegant Casual Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/2986f342-c1fa-42ad-9907-056c18a82842.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 22,
-    "name": "Solid Color Round Neck Three-quarters Sleeved Wine Red A-line Skirt",
-    "image": "https://cf.cjdropshipping.com/quick/product/94c35588-e587-4ec7-a037-5273e3ef15e1.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Womens V-neck Short-sleeve Loose-fit T-shirt Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/a1740027-d7c4-41be-9099-6576d6b3c142.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 23,
     "name": "Womens V-neck Strap Multi-layer Printed Dress",
     "image": "https://cf.cjdropshipping.com/quick/product/378c34c2-f752-4413-8675-48813cb3e6fe.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 24,
-    "name": "Men's Suit Three-piece Suit Fashion Woolen Suit",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/c8f2ac65-bb24-4efb-a7d3-6ddc7d8f28d5.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "S925 Sterling Silver 0.5CT Moissanite Hoop Earrings For Women  Round Cut Bottom Set Huggie Hoop With GRA Certificate Platinum Plated Minimalist Jewelry Gift Box Set",
+    "image": "https://cf.cjdropshipping.com/cb079e85-68df-4e40-9b87-c9fef864bd1c.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 25,
     "name": "Figure-flattering Slimming Fashionable Embroidered Wide-leg Pants With An Elastic Waist",
     "image": "https://cf.cjdropshipping.com/quick/product/b6518530-d49b-4dd4-ad0a-c333f254ce59.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 26,
-    "name": "Printed Crew-Neck Long Dress Cross-Border Summer Womens Skirt",
-    "image": "https://cf.cjdropshipping.com/quick/product/9af7c6ae-cbff-4d13-8650-d883a76ab795.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.fr/Manches-Courtes-Bodycon-%C3%89l%C3%A9gante-Vacances/dp/B0GVN481SZ",
-    "reason": "amazon page missing title/rating data"
+    "name": "Lace Ladies Long Dress Sleeveless",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/08/9241a22c-364c-43ee-a07b-51be906d0c57.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
-    "index": 28,
-    "name": "Versatile Long Solid-color Blazer Without Buttons",
-    "image": "https://cf.cjdropshipping.com/quick/product/0ae2f519-3531-4497-9b52-29fcdcac6b0c.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Womens-Business-Cardigan-Casual-Collared/dp/B0DBLTLXH8",
-    "reason": "amazon page missing title/rating data"
-  },
-  {
-    "index": 30,
-    "name": "Men's European And American Style Openwork Crocheted Sweater",
-    "image": "https://cf.cjdropshipping.com/quick/product/e75230ac-2672-48e8-99bb-50f1f6a33e35.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Shirts-Sleeve-Button-Fashion-Summer/dp/B0F3C6RCCM",
-    "reason": "amazon page missing title/rating data"
+    "index": 31,
+    "name": "Men's Suit Three-piece Suit Fashion Woolen Suit",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/c8f2ac65-bb24-4efb-a7d3-6ddc7d8f28d5.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 32,
-    "name": "S925 Sterling Silver Moissanite Hoop Earrings  Pave Huggie Hoop Dangle With GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
-    "image": "https://cf.cjdropshipping.com/a2c9e753-3345-4dd8-89e3-04fedde98af1.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Sterling-Earrings-Brilliant-Thoughtful-Anniversary/dp/B0DMLSHN7J",
-    "reason": "amazon page missing title/rating data"
+    "name": "This Years Fashion Trend Textured Patchwork Tote Bags",
+    "image": "https://cf.cjdropshipping.com/quick/product/03869e26-2634-4419-91f5-5322a46f8130.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 33,
-    "name": "Elegant Womens Casual Evening Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/ec705f47-7faf-4047-8cbc-140a4c5c9455.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.co.uk/Orange-Bridesmaid-Dresses-UK/s",
-    "reason": "amazon page missing title/rating data"
+    "name": "Delicate Lace-panelled Romantic Floral Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/07/bd308d65-88d7-4e4d-8a91-45e0372cc742_fine.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 34,
-    "name": "S925 Sterling Silver Moissanite Dangle Earrings 3-Stone Round Cut Vertical Drop Earrings With GRA Certificate Platinum Plated Fine Jewelry Gift Box Set For Women",
-    "image": "https://cf.cjdropshipping.com/fafd987a-57c5-484a-a45c-801945d3c795.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.sa/-/en/CHAOKEELRA-5CT-Moissanite-Multi-mossinate/dp/B0DL3H8JFQ",
-    "reason": "amazon page missing title/rating data"
+    "name": "Womens Denim Off-Shoulder Chiffon Long-Sleeve Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/a3cba1b7-4257-4a7a-a75f-e279a74efcf2.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 35,
+    "name": "Women's V-Neck Printed Elegant Sweet Spaghetti Strap Waist-Cinched Dress",
+    "image": "https://cf.cjdropshipping.com/69f9b04c-74f2-44e8-8c82-08a94b6f0364.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 36,
-    "name": "This Years Fashion Trend Textured Patchwork Tote Bags",
-    "image": "https://cf.cjdropshipping.com/quick/product/03869e26-2634-4419-91f5-5322a46f8130.jpg",
-    "provider": "decodo",
-    "reason": "no amazon link from current provider"
+    "name": "Womens Loose-fitting Plus-size Sleeveless Solid-color Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/01/8febc7c3-12a3-450b-a049-aa0e189b530b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 37,
-    "name": "Womens Denim Off-Shoulder Chiffon Long-Sleeve Top",
-    "image": "https://cf.cjdropshipping.com/quick/product/a3cba1b7-4257-4a7a-a75f-e279a74efcf2.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Womens-Strapless-Bandeau-Fashion-Clothes/dp/B0DHQTSPBQ",
-    "reason": "amazon page missing title/rating data"
+    "name": "Dark Blue Denim Frayed-edge Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/0d2cf6bb-8e33-4bf6-badb-259cc832d8d4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 38,
     "name": "Women's Lace-panelled Waist-cinching Blazer",
     "image": "https://cf.cjdropshipping.com/quick/product/f344db03-2666-4e76-9c12-94211e6b64bc.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/NPHFPSQA-womens-blazers-dressy-Elegant/dp/B0D81DN3FB",
-    "reason": "amazon page missing title/rating data"
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
-    "index": 41,
-    "name": "Patchwork Denim Jacket Mens Casual Top",
-    "image": "https://cf.cjdropshipping.com/quick/product/c69f7b93-7b2e-45f4-a35e-508a5d96078b.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/DGKaxiyaHM-Windproof-Distressed-Outerwear-XX-Large/dp/B0CPPMKGKV",
-    "reason": "amazon page missing title/rating data"
+    "index": 39,
+    "name": "Celebrity-style Sleeveless Printed Waist-cinching Maxi Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/3c7478ee-d684-46cb-a240-008da45734cb.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 40,
+    "name": "Versatile Long Solid-color Blazer Without Buttons",
+    "image": "https://cf.cjdropshipping.com/quick/product/0ae2f519-3531-4497-9b52-29fcdcac6b0c.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 42,
-    "name": "New Korean-style Versatile Mens Shoes Sports Leather Shoes",
-    "image": "https://cf.cjdropshipping.com/quick/product/c2505f81-1170-4bf3-8156-89fa3fe96983.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.sa/-/en/Fashion-Leather-Breathable-Comfortable-Sneakers/dp/B0CBG7W87X",
-    "reason": "amazon page missing title/rating data"
+    "name": "Patchwork Denim Jacket Mens Casual Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/c69f7b93-7b2e-45f4-a35e-508a5d96078b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 43,
-    "name": "Delicate Lace-panelled Romantic Floral Dress",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/07/bd308d65-88d7-4e4d-8a91-45e0372cc742_fine.jpeg",
-    "provider": "decodo",
-    "amazonUrl": "https://us.amazon.com/For-Love-Lemons-Womens-Bodycon/dp/B07ZWKC945",
-    "reason": "amazon page missing title/rating data"
+    "name": "Non-slip Outdoor Shoes For Men Large Size",
+    "image": "https://cf.cjdropshipping.com/quick/product/e85249a0-67bb-429f-98a2-f1d8ef070dac.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 44,
-    "name": "Womens Loose-fitting Plus-size Sleeveless Solid-color Dress",
-    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/01/8febc7c3-12a3-450b-a049-aa0e189b530b.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.fr/LZYCJL-Longue-Manches-Oversize-Vacances/dp/B0GXWNVV1Z",
-    "reason": "amazon page missing title/rating data"
+    "name": "Men's European And American Style Openwork Crocheted Sweater",
+    "image": "https://cf.cjdropshipping.com/quick/product/e75230ac-2672-48e8-99bb-50f1f6a33e35.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 45,
-    "name": "Womens Off-Shoulder Ruched Stretchy Sleeveless Dress",
-    "image": "https://cf.cjdropshipping.com/quick/product/e7b4e844-5e74-479a-a226-24f26eb4d270.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/SHENHE-Womens-Shoulder-Backless-Wedding/dp/B0F99DD2ZX",
-    "reason": "amazon page missing title/rating data"
+    "name": "Mens Wool Business-Casual Suit Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/e5a9db05-4ada-4eec-9768-b2644d931180.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 46,
+    "name": "S925 Sterling Silver Moissanite Hoop Earrings  Pave Huggie Hoop Dangle With GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/a2c9e753-3345-4dd8-89e3-04fedde98af1.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 47,
+    "name": "Elegant Womens Casual Evening Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/ec705f47-7faf-4047-8cbc-140a4c5c9455.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
   },
   {
     "index": 48,
-    "name": "Women's V-Neck Printed Elegant Sweet Spaghetti Strap Waist-Cinched Dress",
-    "image": "https://cf.cjdropshipping.com/69f9b04c-74f2-44e8-8c82-08a94b6f0364.jpg",
-    "provider": "decodo",
-    "amazonUrl": "https://www.amazon.com/Womens-Spaghetti-Printed-Pleated-Striped/dp/B0DF31SWYR",
-    "reason": "amazon page missing title/rating data"
+    "name": "S925 Sterling Silver Moissanite Dangle Earrings 3-Stone Round Cut Vertical Drop Earrings With GRA Certificate Platinum Plated Fine Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/fafd987a-57c5-484a-a45c-801945d3c795.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 50,
+    "name": "Resort-style Color-block Sleeveless Long Vest With Bow And Wide-leg Pants Two-piece Set",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/07/05/4794aebf-3a69-4c98-bbbf-35ae67ad1849_water.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 51,
+    "name": "American-style Casual High-end Heavyweight Washed Vintage Jeans For Spring And Autumn",
+    "image": "https://cf.cjdropshipping.com/quick/product/79049c62-3cae-47f5-9fa1-f506f13896a4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 52,
+    "name": "One-shoulder Pleated Irregular Dress In A New Light-colored Palette",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/09/e5773a27-49ea-458e-8c0f-9bcc8845a30e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 53,
+    "name": "Wrap-style Slimming Waist-cinching Pleated Solid-color Dress For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/f3f9b5b5-e70b-48cc-a93f-d6b5be424ef4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 54,
+    "name": "Womens Off-Shoulder Ruched Stretchy Sleeveless Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/e7b4e844-5e74-479a-a226-24f26eb4d270.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 57,
+    "name": "Mens Straight-leg Loose-fit Casual Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/fbd0c897-bcfa-487f-b936-c9913c71b7e1.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 58,
+    "name": "Mens Casual Loose-fitting Breathable Top And Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/49d2ac64-8ba6-4f15-a85c-f397e87ad098.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 59,
+    "name": "New Korean-style Versatile Mens Shoes Sports Leather Shoes",
+    "image": "https://cf.cjdropshipping.com/quick/product/c2505f81-1170-4bf3-8156-89fa3fe96983.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 60,
+    "name": "Mens Five-quarter-sleeve Stand-collar Cardigan Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/786b7176-46af-42ef-84a3-d71486f41034.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 61,
+    "name": "Vintage-style Patchwork Fashion-print Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/258232d4-b333-43ad-a75d-79874f9e0a64.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 62,
+    "name": "American-style Streetwear Retro Baseball Cardigan With Short Sleeves",
+    "image": "https://cf.cjdropshipping.com/quick/product/a25716fc-774c-42eb-b890-84ad7bcec1b3.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 63,
+    "name": "Breathable Casual Cardigan Polo Shirt For Men",
+    "image": "https://cf.cjdropshipping.com/quick/product/ede71e3e-1d4c-4efb-8886-afd439522c72.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 64,
+    "name": "Summer Casual Textured Knit Cardigan With Short Sleeves And ButtonsPaired With Shorts",
+    "image": "https://cf.cjdropshipping.com/quick/product/4e94795e-482f-4ba4-ba80-52a461f686a9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 66,
+    "name": "Solid-color Lapel Long-sleeve Pocket Shirt Top And Pants Two-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/ef0b025c-e120-4f29-aa2e-246e442796a8.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 67,
+    "name": "New Arrival Stylish Comfort Casual Sleeveless Floral Print Dress",
+    "image": "https://cf.cjdropshipping.com/ecdf292a-3285-4066-99b7-935064abe190.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 68,
+    "name": "All-over Print Casual Loose-fitting Low-rise Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/16bb4e56-d4ef-4ebd-8186-7c46d3880e45.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 69,
+    "name": "V-neck Sleeveless Slim-fit Jumpsuit Fashionable Womens Wear",
+    "image": "https://cf.cjdropshipping.com/quick/product/44b88dc6-1a3d-4234-a9fd-7bd933c5916e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 70,
+    "name": "S925 Sterling Silver Gradient Cherry Blossom Stud Earrings And Ring",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/04/2bcde631-75fb-44c4-a295-1e48631e8d36_water.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 71,
+    "name": "S925 Sterling Silver Moissanite Cross Hoop Earrings  Platinum Plated Pave Huggie Earrings With GRA Certificate Minimalist Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/ff856de0-4889-41ed-8f16-df15a906b0bf.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 72,
+    "name": "Western-style Versatile White Loose-fitting Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/e016d27c-d9bc-4ebc-8e66-50dd348ec961.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 73,
+    "name": "Elegant Womens V-neck Blouse With Petal Sleeves And A Slit",
+    "image": "https://cf.cjdropshipping.com/quick/product/7c24c4e6-bf57-4ff1-84fa-5f3f0c7f90e9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 74,
+    "name": "Summer Chic Relaxed-fit Straight-leg Wide-leg Casual Pants For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/021e0f03-9094-42ea-ba3d-c55bae5d3a18.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 75,
+    "name": "Pearl Halter High Waist Flowy Midi Dress",
+    "image": "https://cf.cjdropshipping.com/16989124-f335-461e-bb7e-c4edaca4e24b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 76,
+    "name": "European And American Ruffled Blouses",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/09/bc72fc41-1b73-49d8-800e-c131e4e81bef.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 77,
+    "name": "Womens Solid-Color Deep-V Halter Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/1fc58edc-cb95-4762-93b7-ddeaffcab70e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 78,
+    "name": "SpringSummer Stylish One-Shoulder Crossbody Bag",
+    "image": "https://cf.cjdropshipping.com/quick/product/15c8f2f5-91a6-4c52-aef3-05621ff73c7a.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 79,
+    "name": "Peliss Printed Halter-neck Maxi Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/711a589a-1b81-490a-b2ce-a32205de10f9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 80,
+    "name": "New Mens Breathable Linen Shirt And Trousers Set With A Lapel Collar",
+    "image": "https://cf.cjdropshipping.com/quick/product/802f62c3-4dfd-4a6b-9e8a-0ccbea31df5b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 81,
+    "name": "Form-fitting Denim Jacket For Men",
+    "image": "https://cf.cjdropshipping.com/0dda3b50-9e72-487b-8fd3-d59dec1bca45.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 82,
+    "name": "Womens Casual Long-sleeve Top And Pants Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/77d1dcf9-4650-4ca4-a9c3-c96488bf3172.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 83,
+    "name": "New Stylish Retro Lapel V-neck Color-block Sleeveless Shorts Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/8926795d-b2aa-4999-8ddf-122661a38337.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 84,
+    "name": "S925 Sterling Silver 3-Stone Moissanite Hoop Earrings For Women  Round Cut Huggie Hoop With GRA Certificate Platinum Plated Jewelry Gift Box Set",
+    "image": "https://cf.cjdropshipping.com/da898961-1150-41eb-abb1-681d59f37d75.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 85,
+    "name": "S925 Silver Asymmetric Multicolor Zircon Tassel Drop Earrings, Women Unique Versatile Dangle Jewelry",
+    "image": "https://cf.cjdropshipping.com/e392896e-a958-4cbf-8380-55ff64c3dcec.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 86,
+    "name": "S925 Sterling Silver 5x8mm Pear Cut Moissanite Dangle Earrings  Teardrop Drop With Pave Hoop & GRA Certificate Platinum Plated Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/f9eb76c8-f8a4-4e21-9948-89cde102b080.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 87,
+    "name": "Outerwear Petite Short Coat Blouse",
+    "image": "https://cf.cjdropshipping.com/quick/product/a3dc1078-b31e-42ec-aca4-0d63951bcd2f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 88,
+    "name": "Summer New Womens Sleeveless U-neck Short Dress With Button Detailing",
+    "image": "https://cf.cjdropshipping.com/quick/product/aeccc0cf-40f1-44bb-b09e-fbb2b1a925a9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 89,
+    "name": "Mens Casual Short-sleeve Pocket Shirt And Trousers Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/ce418605-6652-4c97-b27a-fdd290a1d80f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 90,
+    "name": "Loose-fitting Lightweight Draping Casual Solid-color Bloomers",
+    "image": "https://cf.cjdropshipping.com/quick/product/24731f6e-9fcb-482c-8102-dce2d56246d4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 91,
+    "name": "European And American-style Womens Strap Jumpsuit",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/10/45d51e7a-82e0-4e58-8c6c-7c69906f034e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 92,
+    "name": "Fashionable And Elegant Long-sleeved Skirt And Jacket Set",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/02/38f5f743-584e-4aab-8523-ef0df471406c_fine.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 93,
+    "name": "Solid-color High-waisted Wide-leg Pants For Women",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/01/f173b844-79ad-4c40-9c23-598dd8e74f2a_water.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 94,
+    "name": "Summer Ocean Collection Pendant EarringsChic European And American Style",
+    "image": "https://cf.cjdropshipping.com/quick/product/0c1dc863-8d79-4b4c-b9ee-f125e9eba51e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 95,
+    "name": "New Sexy-style Strap Summer Skirt Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/5811c925-292b-4945-a52e-c79f935e7e34.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 96,
+    "name": "Wool-blend Padded Relaxed-fit Casual Blazer Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/a5e6b925-c560-49cb-b837-e25a06b766fe.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 97,
+    "name": "Fashionable Open-toe Round-toe Thick-soled High-heeled Slides For Outdoor Wear",
+    "image": "https://cf.cjdropshipping.com/quick/product/de0a4694-8ae3-4123-a9c8-3d436affbd05.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 98,
+    "name": "European And American Minimalist Pointed-toe Sexy Stiletto Slides",
+    "image": "https://cf.cjdropshipping.com/quick/product/6c94ce9b-9097-412a-be3e-e72face64ab3.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 99,
+    "name": "Womens Casual Short-sleeve Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/fedeb755-6244-4611-a524-d7d35f3686da.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 100,
+    "name": "Womens Summer Casual Fashion Two-Piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/6f48ae1d-062b-4596-a8c2-e012c44b017d.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 101,
+    "name": "S925 Sterling Silver Double-layer Zircon Egg Shaped Ring For Women",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/07/09/8d5a0601-f00b-4e8e-8470-3b0897d09c7b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 102,
+    "name": "Mens Slim-fit Versatile Fashionable Casual Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/02a45a16-252b-4816-a392-ab12815cf224.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 103,
+    "name": "Floral Embroidery Wrap Belted Bishop Sleeve Blouse",
+    "image": "https://cf.cjdropshipping.com/6a4f5312-bde5-4616-a1b9-f3fdc75297e1.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 104,
+    "name": "Retro Lace-trimmed Off-white Sleeveless Mini Dress With Lacing",
+    "image": "https://cf.cjdropshipping.com/quick/product/f120261f-1091-4d86-8d98-0e84a2454d7e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 105,
+    "name": "Arrival A Chic Laid-back Retro Striped Solid-color Top And Wide-leg Pants Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/5e5eb7a9-af44-49d9-b4f9-bdf815b4f21a.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 106,
+    "name": "Off-shoulder Top And Pants Womens Casual Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/191b4ba2-aefb-4984-bfa9-0538a92e00fa.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 107,
+    "name": "Italian-style Summer Mens Lightweight Casual Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/94b43239-8d0a-47df-ad3b-4cb69e6df0c0.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 108,
+    "name": "Spring Summer V-neck Lace Womens Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/64ccf15d-6226-4299-be6a-0316dfde665b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 109,
+    "name": "S925 Sterling Silver Moissanite Cross Dangle Earrings  Pave Hook Drop With GRA Certificate Platinum Plated Christian Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/9eaaa9f5-09ae-4d27-b02d-4b0d186a18fd.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 110,
+    "name": "S925 Sterling Silver Cross Hoop Earrings For Women  Moissanite Christian Jewelry With GRA Certificate Platinum Plated Gift Box Set",
+    "image": "https://cf.cjdropshipping.com/43d78334-d2c9-4811-8d25-002acb0c3e68.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 111,
+    "name": "Womens Washed Denim Dress With Stand Collar",
+    "image": "https://cf.cjdropshipping.com/quick/product/768834cb-98ff-4a2b-9bcb-9d0e00912ff1.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 112,
+    "name": "S925 Sterling Silver 7x9mm Oval Cushion Cut Moissanite Dangle Earrings  Platinum Plated Hook Drop With GRA Certificate Elegant Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/0b94b19b-bdd7-4040-8006-92edd0dc7fca.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 113,
+    "name": "S925 Sterling Silver 6x8mm Emerald Cut Moissanite Dangle Earrings  Platinum Plated Hook Drop Earrings With GRA Certificate Elegant Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/6ab110c0-a7d0-44b7-b97f-bc70b1ef329a.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 114,
+    "name": "102  Cloud Sofa,Corduroy Fabric,Deep Seat Couches,Double-layer Design,Removable  Cushion,No Assembly, DIY Combination For Living Room, Bedroom,Conference Room ,Apartment,Grey",
+    "image": "https://cf.cjdropshipping.com/17805312/ba40c7e2-b36b-44d9-91ec-279af2d05488.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 115,
+    "name": "95  Cloud Sectional Sofa,Modern Minimalist Upholstered Couches, Comfort U Shaped Sofa For Living Room,Deep Seat Corner Couch,No Assembly Required,Dark Grey   Plush Corduroy Fabric",
+    "image": "https://cf.cjdropshipping.com/17805312/ee9e1269-952d-4e73-a644-b19769f58271.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 116,
+    "name": "95  Cloud Sectional Sofa,Modern Minimalist Upholstered Couches, Comfort U Shaped Sofa For Living Room,Deep Seat Corner Couch,No Assembly Required,Camel   Plush Corduroy Fabric",
+    "image": "https://cf.cjdropshipping.com/17805312/c56a0cc6-c3f5-43ff-ba43-29f73f211048.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 117,
+    "name": "107  Cloud Sectional Couch With L-Shape Chaise,Modern Modular Sofa With Deep Seat, Upholstered Couches For Living Room Bedroom,No Assembly Required  Plush Corduroy Fabric",
+    "image": "https://cf.cjdropshipping.com/17805312/148a9402-f327-45d0-9844-38c6c36001a6.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 118,
+    "name": "Only Self Pickup---E-model Cat Litter Box",
+    "image": "https://cf.cjdropshipping.com/68ec462e-6373-4980-bb12-76a9bc4bb58d.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 119,
+    "name": "ABCPET Cat House  Indoor Felt Cat Bed  Scratch-Resistant Kitten Cube With Hanging Ball Light Gray,Pickup Only",
+    "image": "https://cf.cjdropshipping.com/f442f4c1-a518-4ab7-8a5c-ece3c371df86.png",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 120,
+    "name": "Two-tone Inlaid Round Zircon Personalized Fashionable Womens Ring",
+    "image": "https://cf.cjdropshipping.com/quick/product/f3f3cf5c-3ae4-4095-b65b-180db3d81805.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 121,
+    "name": "Korean-style Ethereal Camellia Ring For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/a948903a-50bd-42a3-9f0e-87aa81221533.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 122,
+    "name": "Lace-up, Pleated, Slimming, Midriff-baring Top For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/2cc10977-81ed-4357-8f13-30980b4b240d.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 123,
+    "name": "Korean-style Versatile Thick-soled Flyknit Sporty Casual Trendy Dad Shoes",
+    "image": "https://cf.cjdropshipping.com/quick/product/74cc4e32-47b5-4df0-9b00-eb0f587c8d7b.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 124,
+    "name": "Retro Tote Bag Simple And Casual For Shoulder Carry",
+    "image": "https://cf.cjdropshipping.com/quick/product/3f1ba815-3ac5-4235-8e96-d78f4334320e.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 125,
+    "name": "Mens Summer Casual Printed Shirt Set",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/05/be9336c6-a8c8-4160-8477-f8d916a68fcb.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 126,
+    "name": "Contrast Lapel Puff Sleeve Floral Print Midi Dress",
+    "image": "https://cf.cjdropshipping.com/6f4c7caf-11b5-4587-b33c-c39871b3e99f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 127,
+    "name": "Summer New Arrival Womens Casual Fashionable And Elegant Linen Set With Flared Sleeves",
+    "image": "https://cf.cjdropshipping.com/quick/product/9be02dd7-1871-46b7-8190-f1c36eb22b01.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 128,
+    "name": "Chinese-style Casual High Heels For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/2ecc13b9-b975-41f1-b09e-8883c42fed90.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 129,
+    "name": "Sweat-absorbent Wrinkle-free Casual Short-sleeve",
+    "image": "https://cf.cjdropshipping.com/quick/product/478b4ed2-10cd-44e5-aa72-e88b28032de2.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 130,
+    "name": "European American And British Letter Necklace",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/01f00430-8c33-44ce-a5fb-f85e530ec8a9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 131,
+    "name": "3D-printed Fashion Vintage Blouse For Women",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/07/13c5121c-13e3-4731-969e-18aedd3bac14.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 132,
+    "name": "V-neck Bohemian-style Long Vacation Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/abfc6be3-bae3-46db-abb9-d8fd48641858.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 133,
+    "name": "Round-neck Solid-color Loose-fitting Bottoming Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/6f39ef9a-b832-41da-8c13-98a6f74cc589.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 134,
+    "name": "Solid Color V Neck Tie Front Long Sleeve Maxi Dress, Loose Flowy Long Dress For Casual Vacation & Daily Wear",
+    "image": "https://cf.cjdropshipping.com/8d0ea7da-0d81-4799-92a8-b45f998a98ac.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 135,
+    "name": "Short-sleeved T-shirt Suit Men's Fashion Brand Leisure",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/03/4aa4ad7f-a40d-4289-847c-2d558644f2f4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 136,
+    "name": "Lace-Panel Asymmetric Midi Skirt All-Match Commuter Outfit",
+    "image": "https://cf.cjdropshipping.com/quick/product/f067bc5a-d796-4e42-b3e0-9f0ecb2114ea.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 137,
+    "name": "Top-handle Handbags Purse For Women Small Satchel PU Leather Shoulder Crossbody Bag With Bowtie Pendant",
+    "image": "https://cf.cjdropshipping.com/9b2a7677-1153-430a-92b5-285aa20fcabe.png",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 138,
+    "name": "British-style High-top Camouflage Outdoor Shoes, Wear-resistant And Non-slip Hiking Boots",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/01/c9b3fe82-d0df-44c4-ac7a-10857f3d6cc5_fine.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 139,
+    "name": "High Waist Pleated Ruffle Hem Midi Skirt",
+    "image": "https://cf.cjdropshipping.com/d486c130-5590-40eb-ad32-173ac88f9bfb.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 140,
+    "name": "Women's Loose And Casual Elegant Ladies Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/f764682c-1412-4277-8548-f4d47ca364f4.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 141,
+    "name": "Earrings Hollowed-out Pattern Design Light-luxury Hoop Style",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/08/4fa8c443-711c-412b-9bf4-8945a0f28100.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 142,
+    "name": "Printed Short-sleeve Streetwear Half-sleeve",
+    "image": "https://cf.cjdropshipping.com/quick/product/5e1def56-c634-41ac-825d-c7834b984138.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 143,
+    "name": "Trendy Figure-flattering High-waisted A-line Midi Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/46e8401f-8dcc-4d60-9b5c-f7989e625095.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 144,
+    "name": "24k Gold-plated Jewelry Four-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/2b473b63-7624-4c2e-aebd-ecb7a06d5496.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 145,
+    "name": "Tie-dye Printed High-waisted Wide-leg Jumpsuit",
+    "image": "https://cf.cjdropshipping.com/quick/product/e5a6c69d-0229-4843-8b99-b478b5870c31.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 146,
+    "name": "Womens V-neck Long-sleeve Top And Pants Two-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/8369b08d-6631-43e9-81c6-239216679f34.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 147,
+    "name": "Cross-border Large-size Men's Casual Canvas Shoes",
+    "image": "https://cf.cjdropshipping.com/quick/product/31757369-502e-45e9-bf3b-44d8311496cc.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 148,
+    "name": "Womens Sexy V-neck White Casual Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/5aeb02f0-0250-42a5-be9d-f19b21cfafd9.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 149,
+    "name": "Fashionable Pullover Crew-Neck Off-Shoulder Sweatshirt For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/f389ce20-c569-41f6-8d96-e498a68ea66f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 150,
+    "name": "Fashionable Casual Loose-fitting Straight-leg Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/1ae4070c-479e-4e4d-8685-bcad4b5c972f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 151,
+    "name": "Womens Solid-Color Casual Sleeveless V-Neck Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/e5276f0f-9d52-4caa-a81d-3e0486d096aa.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 152,
+    "name": "Fashionable Casual Thick-soled Non-slip Boots",
+    "image": "https://cf.cjdropshipping.com/quick/product/5dc77402-3d61-4d48-a5d3-8fdb4a8be70f.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 153,
+    "name": "Color-block V-neck Short-sleeve Top For Women Black And White",
+    "image": "https://cf.cjdropshipping.com/quick/product/412cbed4-20d3-4711-b7bf-388e3e15a397.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 154,
+    "name": "New Lace And Mesh Patchwork V-neck Printed Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/b84b0cdf-9327-4aea-a9e9-f7be2d8918c6.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 155,
+    "name": "Short-sleeved Waist-cinched Wide-leg Jumpsuit",
+    "image": "https://cf.cjdropshipping.com/quick/product/74e2ed35-12bb-4ffd-9e03-32e17e0e0c30.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 156,
+    "name": "Hooded Waist-cinching Coat That Slims And Conceals Flaws",
+    "image": "https://cf.cjdropshipping.com/quick/product/b495eb42-e470-4c21-9870-18e03daa4b40.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 157,
+    "name": "Mens Short-Sleeve Button-Down Shirt With Pocket",
+    "image": "https://cf.cjdropshipping.com/quick/product/2fd0b5cf-f972-4c25-852c-b1977410e558.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 158,
+    "name": "Screen Free Sports Smart Wristband Multifunctional Heart Rate Measurement",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/02/12cde146-2c2a-4c4f-b2b2-31a78ebc7e3f_fine.jpeg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 159,
+    "name": "Navy Organza Bow Neck Drawstring Waist Sheer Long Sleeve Blouse",
+    "image": "https://cf.cjdropshipping.com/0691f010-29bf-4554-a717-ffcd4fe44550.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 160,
+    "name": "Mens Casual Sneakers With Rubber Soles",
+    "image": "https://cf.cjdropshipping.com/quick/product/9eb5ec03-1a59-4b4a-a661-548d1f2ef7d6.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 161,
+    "name": "Mens Casual Straight-leg Cotton Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/6e58a3ad-f4fe-45c8-ba1a-d653aa5b3332.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 162,
+    "name": "Korean Version Of Loose-fitting Denim Jacket",
+    "image": "https://cf.cjdropshipping.com/4ced9daa-298f-4233-8f4e-d283f8ca5886.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 163,
+    "name": "S925 Sterling Silver Moissanite 3 Stone Earrings  Round Cut Screw Back Studs With GRA Certificate Platinum Plated Vertical Drop Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/48fd7393-8f9f-44fc-89e6-e1548584f9fd.jpg",
+    "provider": "apify",
+    "reason": "Missing APIFY_LENS_ENDPOINT"
+  },
+  {
+    "index": 164,
+    "name": "Form-fitting Denim Jacket For Men",
+    "image": "https://cf.cjdropshipping.com/63a55a70-76a5-4d1c-9f25-459cd4602321.png",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 165,
+    "name": "Freshness-preserving Pet Smart Feeder",
+    "image": "https://cf.cjdropshipping.com/quick/product/1d2876c7-fdbd-4969-bcac-f54c83abfb3f.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 166,
+    "name": "Fashionable Titanium Steel Necklace For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/d38cf354-75b0-4a6f-9d2c-15d3f47e0743.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 167,
+    "name": "Fashionable Casual Morning Ear Jewelry For Women",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/05/4d81b412-8571-4797-8d13-053320ad1d5e.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 168,
+    "name": "Womens Solid-color Loose-fitting Casual Round-neck Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/fa068489-a708-4724-893c-f39c12121b3f.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 169,
+    "name": "Henry Tie Pocket Casual Shirt For Men",
+    "image": "https://cf.cjdropshipping.com/quick/product/6e93618e-98f8-43c0-8208-09775fad18f0.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 170,
+    "name": "Plus-size Womens Black And White Floral-print Bloomers",
+    "image": "https://cf.cjdropshipping.com/quick/product/aa7d20e5-e4f5-4e3d-ae2b-f6a4f53a4696.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 171,
+    "name": "Mens Pure Cotton Casual Pants, Durable, Slim-fit, Multiple",
+    "image": "https://cf.cjdropshipping.com/quick/product/ec504f9a-dcbf-4766-923b-e19441be39b3.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 172,
+    "name": "Women's Fashionable Slim-fit Floral Print Slip Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/4370e4fb-fc01-4d81-a476-26ae8dcdff7f.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 173,
+    "name": "Womens Stylish Casual Striped Outfit Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/7c5a4bf9-5363-4fc6-91ef-2d84e929767e.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 174,
+    "name": "Women's Sleeveless Wide Leg Pants Set, Summer Fashion Casual 2-Piece Outfit",
+    "image": "https://cf.cjdropshipping.com/9137a411-c3c5-4d71-aa90-a5512a39d3d5.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 175,
+    "name": "Womens SpringSummer Loose-Fit Printed Short-Sleeve Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/bd52da2c-8f60-4fc9-9a6c-ba1f8e36a771.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 176,
+    "name": "Versatile Solid-Color Casual Short-Sleeve Top And Shorts Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/f6833da4-a978-4100-8ef0-7b6a1e53652a.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 177,
+    "name": "Casual Womens Fashion Shirt And Shorts Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/74bbe0be-9250-427a-855a-53f59c122753.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 178,
+    "name": "Plus-size Womens Casual And Comfortable Top And Flared Pants Two-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/0b472713-7a5c-4b9c-93af-8dd2c150fcbc.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 179,
+    "name": "Womens Sexy Tank Top And Wide-leg Pants Two-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/7eeea5b5-aad9-4c7b-a758-e55d0bb2f335.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 180,
+    "name": "Plus-size Casual Striped Tank Top And Shorts Set For Summer",
+    "image": "https://cf.cjdropshipping.com/quick/product/a2b7d952-1a62-4d8e-a63f-96cb1dfac354.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 181,
+    "name": "Digital Simple Color Printed Short Sleeves",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/09/a764a9ac-834d-45a4-b4c3-54c1c6203972.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 182,
+    "name": "Elegant Multi-strand Pearl Necklace",
+    "image": "https://cf.cjdropshipping.com/quick/product/ee05f430-fc29-4219-96ef-cb19b74d4f55.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 183,
+    "name": "6mm Wide Tungsten Steel Gold Sandblasted New-style Ring",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/09/878a2e50-f429-4586-a0f6-e4ed0ab6bace.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 184,
+    "name": "Womens Casual Sports Zip-Up Vest Top And Shorts Two-Piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/59b0af90-da01-423b-90fb-7cbad0e1a163.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 185,
+    "name": "Womens Casual Midi Dress With A Mid-waist Design",
+    "image": "https://cf.cjdropshipping.com/quick/product/11e419a3-b43a-42d0-be2c-9f507e18fc89.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 186,
+    "name": "3D Digital-print Casual Sports Short-sleeve Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/94e40cb1-be21-431c-a57c-a2d2f56215a2.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 187,
+    "name": "Solid-color Slit Womens Casual Wide-leg Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/a85056ec-b30a-4aae-88d3-4c82924af2f6.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 188,
+    "name": "Elegant Waist-cinching V-neck Slimming Chic Jumpsuit For Women",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/06/ebac88a1-15be-4adc-bafb-7450fe2f01a6.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 189,
+    "name": "Waist-cinched Sleeveless Lapel-collar Trench-style Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/17d734a6-92cb-41e3-837e-57d5a15c33c4.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 190,
+    "name": "1.8L Electric Kettle 1500W Stainless Steel Cordless Jug Overheat Protection UK",
+    "image": "https://cf.cjdropshipping.com/e3907ff7-5156-4850-afb5-8da16af28346.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 191,
+    "name": "12 Zodiac Colorful Zircon Silver Ring For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/af4f8c4f-19f0-433c-a508-4f28660a741c.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 192,
+    "name": "Eyecare Massage Device For Home UseMultifunctional With 5color Light Therapy",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/02/7d4a3f4b-8ee3-4e1d-9ff4-b9e13a07a07c_trans.jpeg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 193,
+    "name": "HAMPTON WOOD AND WICKER DINING CHAIR  SET OF 2",
+    "image": "https://cf.cjdropshipping.com/17806176/7e5c048c-5d22-4a25-8d9f-7193e5b40590.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 194,
+    "name": "Resort-style Copper Devil-eye Butterfly Zircon Anklet",
+    "image": "https://cf.cjdropshipping.com/quick/product/f45acf49-53f5-4cb4-a7b9-406ce084f903.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 195,
+    "name": "Sweet Ombre Beach-chic Strap Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/e52ce927-3f57-4d45-85e4-5322d68685f4.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 196,
+    "name": "Relaxed-fit Casual Short-sleeve V-neck Backless Jumpsuit With Shorts",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/02/5c44180c-d2ce-465f-9bf2-37bd1abf3d46.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 197,
+    "name": "SpringSummer New Arrival Womens Seamless Sports Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/b22f723c-a2ee-484b-85fd-c985f89c772c.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 198,
+    "name": "High-end Light-luxury Versatile Fashion Ring",
+    "image": "https://cf.cjdropshipping.com/quick/product/f64f7bb9-8eeb-4340-a577-797a5d9125ec.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 199,
+    "name": "Round-toe Platform Fashion Casual Large-size Loafers For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/f42f7ad5-b6e9-4c97-8a87-89a957a84c9f.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 200,
+    "name": "Vintage Womens Crossbody Shoulder Bag",
+    "image": "https://cf.cjdropshipping.com/quick/product/5fde7398-56b1-4eb8-9305-e3bfa859c179.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 201,
+    "name": "Womens Halter-Neck Patchwork Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/66c98bf3-ffc6-4375-bd0c-29b6cedcd561.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 202,
+    "name": "Retro Mori-style Open-toe Outdoor Soft-soled Woven Slippers",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/06/f4e84de4-de44-41d0-bd01-25ebe7d6f2b6_fine.jpeg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 203,
+    "name": "Zip-up Polo Shirt And Shorts Set",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/06/9f70f70c-41ba-422a-8d64-41e751e92d25.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 204,
+    "name": "Color-gradient Cherry Blossom Stud Earrings  Made Of 925 Sterling Silver",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/03/d524d4f0-bd4b-4aab-9bac-15b3e0965a40_water_trans.jpeg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 205,
+    "name": "Lace Hollow-Out Puff Sleeve V-Neck Sweater Knitted Pullover",
+    "image": "https://cf.cjdropshipping.com/quick/product/c1d29d5a-746e-4295-84b4-c350172e780b.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 206,
+    "name": "Bestselling Women's Fashion Loose Fit Two-Piece Set, Matching Top And Wide Leg Pants Outfit",
+    "image": "https://cf.cjdropshipping.com/48cc3c92-757b-4870-813b-c1a79b7e3c2d.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 207,
+    "name": "Collared Half Button Puff Sleeve Loose A-Line Cotton Mini Dress",
+    "image": "https://cf.cjdropshipping.com/ce5ac327-64eb-4366-847c-1b0bb63dbe63.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 208,
+    "name": "Floral Embroidered Ruffle Strap Wide Leg Jumpsuit",
+    "image": "https://cf.cjdropshipping.com/63b97271-a225-4737-b94a-90ad3d93e422.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 209,
+    "name": "Pearl Collar Short Sleeve A-Line Mini Dress",
+    "image": "https://cf.cjdropshipping.com/de623025-2ec0-4f00-927e-79030661bce3.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 210,
+    "name": "Womens Casual Long Denim Jeans With Rips",
+    "image": "https://cf.cjdropshipping.com/quick/product/5018c13a-b38e-40b1-b204-017e32a00c55.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 211,
+    "name": "Fitness Bra And Shapewear Shorts Two-piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/6a61d067-00d6-44c9-b847-8945cbb42bfd.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 212,
+    "name": "Mens Summer Business-Casual Capri Trousers",
+    "image": "https://cf.cjdropshipping.com/quick/product/84e8a441-1798-42cd-933f-bf6953e67054.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 213,
+    "name": "Summer New Fish-mouth Lace-up High-heeled Womens Sandals",
+    "image": "https://cf.cjdropshipping.com/quick/product/07a37cc8-7dd5-4aa9-9c50-716393797647.jpg",
+    "provider": "openwebninja",
+    "reason": "Missing OPENWEBNINJA_LENS_ENDPOINT"
+  },
+  {
+    "index": 214,
+    "name": "Fashionable Versatile Thick-soled Slippers",
+    "image": "https://cf.cjdropshipping.com/quick/product/b76b89f1-dbe8-4ae6-bd3b-6eec9fbfe232.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 215,
+    "name": "Lace-Panel Long-Sleeve Hooded Sweatshirt Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/f6c15504-91aa-4ea1-8dfc-f5e1102f24bc.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 216,
+    "name": "Autumn Set With Long-sleeved Wide-leg Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/4b4f3b3f-a981-4cc9-a2c5-691d8b2f2e99.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 217,
+    "name": "Lapel-collar Shirt And Short-sleeve Mens Casual Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/64b4883e-331c-4ef7-94b2-9fd22ad763c4.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 218,
+    "name": "Womens Two-Piece Set Fashionable Casual Sports Top And Skirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/81b9e68a-d0b3-4f29-a3d9-c9dbbf7be86a.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 219,
+    "name": "Womens Solid-Color Vest Contrasting High-Waist Wide-Leg Pants Casual Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/350c2823-e158-4136-9d55-f8dbff2d297b.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 220,
+    "name": "High-waisted Relaxed-fit Navy Blue Capri Pants For Work",
+    "image": "https://cf.cjdropshipping.com/quick/product/9360fc35-07de-4659-982b-62f765d89a38.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 221,
+    "name": "Womens Summer Sleeveless Wave-Hemmed Slim-Fit Tank Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/af00a8a5-729c-45f9-bc1a-6e32afcec302.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 222,
+    "name": "Womens Elegant Casual Solid-color Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/0593613f-eceb-45b8-8d24-2091c1054bf7.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 223,
+    "name": "Womens High-waisted Suit Shorts Loose-fitting Wide-leg Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/a46f7e9b-c897-42d3-ba37-55f2f7052868.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 224,
+    "name": "Womens Casual V-neck Long-sleeve T-shirt",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/08/08f195a8-8c06-4bcf-949d-5a47ac583d56_fine.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 225,
+    "name": "Womens Fashionable Casual V-Neck Pleated Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/f3233dd7-a9ee-4405-bc2c-89c550b268d8.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 226,
+    "name": "Spring Concise Commuter Artistic 3D Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/03/d73c5a06-2a6b-4e8a-ae08-0672a0ba57f4.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 227,
+    "name": "Elegant Sleeveless Button-up Blazer And Relaxed-fit Trousers Set For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/5bf428de-b058-4872-aa71-73a77c7d66be.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 228,
+    "name": "Linen V-Neck Printed Shirt Casual Resort Two-Piece Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/2f87b40b-1115-4d41-aa07-1e42c2ecf722.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 229,
+    "name": "Japanese-style Wide-leg Casual Pants For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/9867491b-a3b3-4dc4-b646-3aaad9767c7a.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 230,
+    "name": "Sleeveless Pleated Waist-cinching Sheath Elegant And Fashionable Womens Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/6d2eb825-0651-4ab1-a57d-3d1be76b789f.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 231,
+    "name": "S925 Sterling Silver Moissanite Pave Huggie Hoops  U-Shaped Earrings With GRA Certificate Platinum Or Rose Gold Or Gold Plated Jewelry Gift Box Set For Women",
+    "image": "https://cf.cjdropshipping.com/363fb6a0-53ff-4e88-b49c-0fccfb261ad3.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 232,
+    "name": "Cosmetic And Skincare Storage Dust-proof Wooden Shelf",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/06/ebab786e-e02b-4137-a05b-5d6a82810db4_trans.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 233,
+    "name": "Best-selling Cross Necklace For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/585ffc01-ec3b-45c1-b173-fa7c3eba0e10.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 234,
+    "name": "Elegant Fashionable And Versatile Womens Ring",
+    "image": "https://cf.cjdropshipping.com/quick/product/e3a4a7d0-3a38-4eb3-bf5a-2d6ce9a5b87a.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 235,
+    "name": "Chic Relaxed-fit Figure-flattering Versatile Casual Top",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/07/10/9a220b63-2ce9-4e4e-8506-6f8c3a685d00.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 236,
+    "name": "Sexy Chic Womens Lace-trimmed Spliced Slip Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/5ad315bc-ac4b-4ece-b626-70c6f34fc8cb.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 237,
+    "name": "Wide Leg Straight Leg Casual All Matching Long Pants With Pockets",
+    "image": "https://cf.cjdropshipping.com/quick/product/6b1521fb-cb2f-4f7c-898a-f172ddf8a2b4.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 238,
+    "name": "Ultra-fairy Hydrangea Petal Earrings For Women",
+    "image": "https://cf.cjdropshipping.com/quick/product/c2a886f8-0902-48a9-8066-d1ffa4977a08.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 239,
+    "name": "Womens Fashion Four-Leaf Clover Titanium Steel Ring",
+    "image": "https://cf.cjdropshipping.com/quick/product/01b3fb5a-6de0-4c8d-9567-a9e6daf3e3cd.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 240,
+    "name": "Mens Half-neck Sweater Solid-color Undershirtbase Layer",
+    "image": "https://cf.cjdropshipping.com/quick/product/73079ef0-be02-49a0-8a36-a7c0eac43a55.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 241,
+    "name": "New Minimalist Long-sleeve Hooded Jacket And Pants Womens Sportswear Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/ccd3091d-4b12-4aa0-825c-aa033adb5016.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 242,
+    "name": "Solid-color High-waisted Loose-fit Casual Wide-leg Pants Trousers",
+    "image": "https://cf.cjdropshipping.com/quick/product/396c8299-5b93-4ebe-ac6b-7915f2744640.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 243,
+    "name": "Solid Color Slim Fit PU Leather Casual Pants, Skinny Ankle-Length Trousers",
+    "image": "https://cf.cjdropshipping.com/ca019cc6-10b6-49e1-894a-d448a59508ff.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 244,
+    "name": "Springautumn Plus-size Womens Casual Short-sleeve Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/ea690b35-28db-4b46-83ba-b8235accd99b.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 245,
+    "name": "Autumn New Arrival Plus-Size Casual Striped Ribbed Tight-Fit Trousers",
+    "image": "https://cf.cjdropshipping.com/quick/product/5409b6ab-7ab3-4dbc-ae3c-73ad08fb4c54.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 246,
+    "name": "Mens Formal Solid-color Single-breasted Loose-fit Straight-leg Twill Suit Pants",
+    "image": "https://cf.cjdropshipping.com/quick/product/cdde69bd-16fb-4daa-91b7-c28f41c3ed3d.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 247,
+    "name": "Solid-color Sleeveless Top With Tie Detail And Casual Wide-leg Pants Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/05859a44-4f7d-4213-ad1d-6e8ae94bb67a.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 248,
+    "name": "Mens Fashionable Casual Loose-fit Trousers",
+    "image": "https://cf.cjdropshipping.com/quick/product/8b4dbad3-6de1-435e-94d6-066c3886351a.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 249,
+    "name": "Linen Suit Pants With A Back Elastic And Hidden Button Closure",
+    "image": "https://cf.cjdropshipping.com/quick/product/b8d3a59b-5f23-45df-9917-18893bc946c3.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 250,
+    "name": "Summer Drawstring Loose Casual Men's Beach Shorts",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/09/e4b67bf4-46fe-4fa4-8f78-d10a9145eb8b_fine.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 251,
+    "name": "Front-closure Wireless Plus-size Foreign-trade Lingerie",
+    "image": "https://cf.cjdropshipping.com/quick/product/f7dfa4f4-ae87-4d10-8f33-dd6f1badcb3f.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 252,
+    "name": "Versatile Sheath High-waisted Figure-flattering Sequin Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/ebf099f0-cd83-4866-94df-d0dfd2a910ed.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 253,
+    "name": "Retro Solid-color Loose-fit Casual Half-collar Long-sleeve",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/01/bbc28f64-c870-47c4-a46c-f77e2ea2c925_water.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 254,
+    "name": "Stainless Steel Religious Priest Spring Bracelet",
+    "image": "https://cf.cjdropshipping.com/d2e30bc6-138d-469d-8ea7-eb7249268bcb.png",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 255,
+    "name": "Long-sleeve Tunic And Drawstring Straight-leg Pants Set",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/07/06/e4cd968b-daae-42fe-926e-18bab4f41544.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 256,
+    "name": "White Sleeveless Youth Inspired Versatile V Neck Vest",
+    "image": "https://cf.cjdropshipping.com/quick/product/9e6c7a77-5381-47c7-ae73-fe560d5dbf90.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 257,
+    "name": "Double-hooded Cardigan Fleece Thermal Sweatshirt",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/06/06/b7bcc57a-b593-4d88-92f8-63c68f81e514_water.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 258,
+    "name": "Mens Color-Block Pocket Waffle-Knit Henley T-Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/811e2671-ea4d-4011-9589-679749f1a77c.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 259,
+    "name": "High Waist Tummy Control Shapewear For Women Seamless Firm Compression Body Shaper Shorts Plus Size Adjustable Hooks Butt Lifting Underwear",
+    "image": "https://cf.cjdropshipping.com/fc43d29b-f007-4437-bd1f-222a14a5f894.png",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 260,
+    "name": "Plus-size Cotton Sportswear Set For Middle-aged And Elderly Adults",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/05/05/de5da5c9-ea5d-4288-acc6-ba20cee90e05.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 261,
+    "name": "New Springautumn Long-sleeve Fashionable Printed High-waisted Casual Womens Jumpsuit",
+    "image": "https://cf.cjdropshipping.com/quick/product/c4550fc2-f0c9-42e9-98ff-66972e0c8a9f.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 262,
+    "name": "Womens Fashion Trendy Solid-color Striped Casual Trousers",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/06/04/13/78dd2f21-28c2-4619-b879-49d3621cec63_fine.jpeg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
+  },
+  {
+    "index": 263,
+    "name": "Womens Fashionable Casual Shirt And Shorts Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/c4d2f281-bd52-4621-af36-dfd830f9220e.jpg",
+    "provider": "zenserp",
+    "reason": "Missing ZENSERP_LENS_ENDPOINT"
   }
 ]

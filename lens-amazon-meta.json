@@ -1,16 +1,19 @@
 {
-  "updatedAt": "2026-06-07T14:45:54.735Z",
+  "updatedAt": "2026-06-08T03:29:45.666Z",
   "month": "2026-06",
   "mode": "sequential quota provider pool + one amazon result per product",
   "startIndex": 0,
-  "maxProducts": 50,
+  "maxProducts": 1000,
   "providerUsage": {
     "serpapi_1": 250,
     "serpapi_2": 250,
     "searchapi": 100,
     "hasdata": 55,
     "scrapingdog": 200,
-    "decodo": 48
+    "decodo": 700,
+    "apify": 150,
+    "openwebninja": 50,
+    "zenserp": 50
   },
   "providerBudgets": {
     "serpapi_1": 250,
@@ -22,7 +25,7 @@
     "openwebninja": 50,
     "zenserp": 50
   },
-  "matches": 12,
-  "failures": 37,
+  "matches": 0,
+  "failures": 251,
   "note": "Uses one provider until its limit is reached, then moves to the next. One Lens request and one Amazon result per product."
 }

@@ -5,6 +5,9 @@
     "searchapi": 100,
     "hasdata": 55,
     "scrapingdog": 200,
-    "decodo": 48
+    "decodo": 700,
+    "apify": 150,
+    "openwebninja": 50,
+    "zenserp": 50
   }
 }
