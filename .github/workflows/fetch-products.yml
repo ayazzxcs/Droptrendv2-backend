@@ -37,7 +37,7 @@ jobs:
   google-trends:
     needs: fetch-cj
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
 
     steps:
       - uses: actions/checkout@v4
@@ -95,7 +95,7 @@ jobs:
       - name: Fetch Monthly Lens Amazon Matches
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
-          MONTHLY_LENS_MAX_PRODUCTS: 1500
+          MONTHLY_LENS_MAX_PRODUCTS: 1000
           MONTHLY_LENS_START_INDEX: 0
           MONTHLY_LENS_DELAY_MS: 1200
           AMAZON_PAGE_DELAY_MS: 3500
