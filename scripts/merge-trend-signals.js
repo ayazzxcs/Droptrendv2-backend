@@ -126,6 +126,12 @@ const merged = products.map(p => {
         score: googleScore,
         rawScore: g.rawScore,
         growthPercent: g.growthPercent,
+        trendDirection: g.trendDirection,
+        timelinePoints: g.timelinePoints,
+        firstAvg: g.firstAvg,
+        lastAvg: g.lastAvg,
+        latestValue: g.latestValue,
+        maxValue: g.maxValue,
         match: g.match
       } : null,
       amazon: a ? {
