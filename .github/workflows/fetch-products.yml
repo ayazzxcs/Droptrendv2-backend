@@ -39,6 +39,20 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - start: 0
+            limit: 500
+            name: google-trends-0
+          - start: 500
+            limit: 500
+            name: google-trends-500
+          - start: 1000
+            limit: 500
+            name: google-trends-1000
+
     steps:
       - uses: actions/checkout@v4
 
@@ -57,22 +71,48 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Fetch Google Trends
+      - name: Fetch Google Trends chunk
         run: node scripts/fetch-google-trends.js
         env:
-          GOOGLE_TRENDS_LIMIT: 500
+          GOOGLE_TRENDS_START_INDEX: ${{ matrix.start }}
+          GOOGLE_TRENDS_LIMIT: ${{ matrix.limit }}
+
+      - name: Rename Google Trends output files
+        run: |
+          mkdir -p google-trends-chunk
+          [ -f google-trends.json ] && mv google-trends.json google-trends-chunk/google-trends-${{ matrix.start }}.json || true
+          [ -f trend-keywords.json ] && mv trend-keywords.json google-trends-chunk/trend-keywords-${{ matrix.start }}.json || true
+          [ -f google-trends-meta.json ] && mv google-trends-meta.json google-trends-chunk/google-trends-meta-${{ matrix.start }}.json || true
 
       - uses: actions/upload-artifact@v4
         with:
-          name: google-trends
-          path: |
-            google-trends.json
-            trend-keywords.json
+          name: ${{ matrix.name }}
+          path: google-trends-chunk/
 
   amazon-lens:
     needs: fetch-cj
     runs-on: ubuntu-latest
     timeout-minutes: 360
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - start: 0
+            limit: 300
+            name: amazon-lens-0
+          - start: 300
+            limit: 300
+            name: amazon-lens-300
+          - start: 600
+            limit: 300
+            name: amazon-lens-600
+          - start: 900
+            limit: 300
+            name: amazon-lens-900
+          - start: 1200
+            limit: 300
+            name: amazon-lens-1200
 
     steps:
       - uses: actions/checkout@v4
@@ -92,32 +132,34 @@ jobs:
       - name: Install Puppeteer Chrome
         run: npx puppeteer browsers install chrome
 
-      - name: Fetch Monthly Lens Amazon Matches
+      - name: Fetch Monthly Lens Amazon Matches chunk
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
-          MONTHLY_LENS_MAX_PRODUCTS: 1000
-          MONTHLY_LENS_START_INDEX: 0
+          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
+          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
           MONTHLY_LENS_DELAY_MS: 1200
           AMAZON_PAGE_DELAY_MS: 3500
           AMAZON_MIN_TITLE_MATCH: 15
-
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
           SCRAPINGDOG_API_KEY: ${{ secrets.SCRAPINGDOG_API_KEY }}
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
-          DECODO_2_AUTH_BASE64 : ${{ secrets.DECODO_2_AUTH_BASE64 }}
-          
+          DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
+
+      - name: Rename Amazon output files
+        run: |
+          mkdir -p amazon-lens-chunk
+          [ -f amazon-products.json ] && mv amazon-products.json amazon-lens-chunk/amazon-products-${{ matrix.start }}.json || true
+          [ -f lens-amazon-matches.json ] && mv lens-amazon-matches.json amazon-lens-chunk/lens-amazon-matches-${{ matrix.start }}.json || true
+          [ -f lens-amazon-failures.json ] && mv lens-amazon-failures.json amazon-lens-chunk/lens-amazon-failures-${{ matrix.start }}.json || true
+          [ -f lens-amazon-meta.json ] && mv lens-amazon-meta.json amazon-lens-chunk/lens-amazon-meta-${{ matrix.start }}.json || true
+          [ -f lens-provider-usage.json ] && mv lens-provider-usage.json amazon-lens-chunk/lens-provider-usage-${{ matrix.start }}.json || true
 
       - uses: actions/upload-artifact@v4
         with:
-          name: amazon-lens
-          path: |
-            amazon-products.json
-            lens-amazon-matches.json
-            lens-amazon-failures.json
-            lens-amazon-meta.json
-            lens-provider-usage.json
+          name: ${{ matrix.name }}
+          path: amazon-lens-chunk/
 
   merge:
     needs:
@@ -137,13 +179,98 @@ jobs:
 
       - uses: actions/download-artifact@v4
         with:
-          name: google-trends
-          path: .
+          pattern: google-trends-*
+          path: google-trends-artifacts
+          merge-multiple: true
 
       - uses: actions/download-artifact@v4
         with:
-          name: amazon-lens
-          path: .
+          pattern: amazon-lens-*
+          path: amazon-lens-artifacts
+          merge-multiple: true
+
+      - name: Combine Google Trends chunks
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          function readJson(file, fallback) {
+            try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
+            catch { return fallback; }
+          }
+
+          function mergeArrayFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              : [];
+
+            const merged = [];
+            for (const file of files) {
+              const data = readJson(file, []);
+              if (Array.isArray(data)) merged.push(...data);
+              else if (Array.isArray(data.products)) merged.push(...data.products);
+              else if (Array.isArray(data.items)) merged.push(...data.items);
+              else merged.push(data);
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile}: ${merged.length} records from ${files.length} files`);
+          }
+
+          mergeArrayFiles('google-trends-artifacts', /^google-trends-\d+\.json$/, 'google-trends.json');
+          mergeArrayFiles('google-trends-artifacts', /^trend-keywords-\d+\.json$/, 'trend-keywords.json');
+          NODE
+
+      - name: Combine Amazon Lens chunks
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          function readJson(file, fallback) {
+            try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
+            catch { return fallback; }
+          }
+
+          function mergeArrayFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              : [];
+
+            const merged = [];
+            for (const file of files) {
+              const data = readJson(file, []);
+              if (Array.isArray(data)) merged.push(...data);
+              else if (Array.isArray(data.products)) merged.push(...data.products);
+              else if (Array.isArray(data.matches)) merged.push(...data.matches);
+              else if (Array.isArray(data.items)) merged.push(...data.items);
+              else merged.push(data);
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile}: ${merged.length} records from ${files.length} files`);
+          }
+
+          function mergeObjectFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              : [];
+
+            const merged = {};
+            for (const file of files) {
+              const data = readJson(file, {});
+              if (data && typeof data === 'object' && !Array.isArray(data)) Object.assign(merged, data);
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile} from ${files.length} files`);
+          }
+
+          mergeArrayFiles('amazon-lens-artifacts', /^amazon-products-\d+\.json$/, 'amazon-products.json');
+          mergeArrayFiles('amazon-lens-artifacts', /^lens-amazon-matches-\d+\.json$/, 'lens-amazon-matches.json');
+          mergeArrayFiles('amazon-lens-artifacts', /^lens-amazon-failures-\d+\.json$/, 'lens-amazon-failures.json');
+          mergeObjectFiles('amazon-lens-artifacts', /^lens-amazon-meta-\d+\.json$/, 'lens-amazon-meta.json');
+          mergeObjectFiles('amazon-lens-artifacts', /^lens-provider-usage-\d+\.json$/, 'lens-provider-usage.json');
+          NODE
 
       - uses: actions/setup-node@v4
         with:
