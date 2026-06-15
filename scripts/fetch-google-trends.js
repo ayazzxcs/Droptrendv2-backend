@@ -5,13 +5,17 @@
 import { chromium } from "playwright";
 import { readJson, writeJson, extractKeywords, sleep } from "./utils.js";
 
-const products = readJson("products.json", []);
+const allProducts = readJson("products.json", []);
+const START_INDEX = Number(process.env.GOOGLE_TRENDS_START_INDEX || 0);
 const LIMIT = Number(process.env.GOOGLE_TRENDS_LIMIT || 500);
 const GEO = process.env.GOOGLE_TRENDS_GEO || "US";
 const DATE_RANGE = process.env.GOOGLE_TRENDS_DATE || "today 3-m";
 const MIN_POINTS = Number(process.env.GOOGLE_TRENDS_MIN_POINTS || 3);
 
+const products = allProducts.slice(START_INDEX, START_INDEX + LIMIT);
 const keywords = extractKeywords(products, LIMIT);
+
+console.log(`Google Trends chunk: start=${START_INDEX}, limit=${LIMIT}, products=${products.length}, keywords=${keywords.length}`);
 writeJson("trend-keywords.json", keywords);
 
 const STOP_WORDS = new Set([
@@ -61,10 +65,7 @@ function keywordVariants(keyword) {
 
   const productWords = words.filter(w => PRODUCT_TERMS.has(w));
   if (productWords.length >= 2) variants.push(productWords.slice(0, 2).join(" "));
-  // Avoid ultra-generic one-word fallbacks like "dress", "ring", "pants".
-  // They often look flat in Trends and make growth look fake/weak.
 
-  // keep original cleaned phrase last, because long CJ phrases often have no data
   variants.push(clean);
 
   return uniq(variants)
@@ -78,7 +79,6 @@ function extractTimelineValuesFromAnyJson(obj) {
   function walk(node) {
     if (!node || typeof node !== "object") return;
 
-    // Common Google Trends shapes
     if (Array.isArray(node.timelineData)) {
       for (const row of node.timelineData) {
         const raw = row?.value?.[0] ?? row?.formattedValue?.[0] ?? row?.extractedValue?.[0];
@@ -130,8 +130,6 @@ function scoreFromValues(values) {
     ? Math.round(((lastAvg - firstAvg) / firstAvg) * 100)
     : Math.round(lastAvg * 2);
 
-  // Keep real growthPercent, including negative values.
-  // Score should reward positive growth, but logs/output should not hide declining trends as 0%.
   const growthScore = growthPercent > 0
     ? Math.max(0, Math.min(55, growthPercent * 0.45))
     : Math.max(-20, Math.min(0, growthPercent * 0.2));
@@ -165,7 +163,6 @@ async function fetchTrendForVariant(page, variant, originalKeyword) {
       const text = await res.text();
       if (!text || text.length < 50) return;
 
-      // Google sometimes prefixes JSON with )]}',
       const cleaned = text.replace(/^\)\]\}',?\s*/, "").trim();
       if (!cleaned.startsWith("{") && !cleaned.startsWith("[")) return;
 
@@ -184,16 +181,11 @@ async function fetchTrendForVariant(page, variant, originalKeyword) {
       "&q=" + encodeURIComponent(variant);
 
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-
-    // Wait for network calls and chart rendering
     await page.waitForTimeout(7000);
-
-    // Force extra wait for the widget request if possible
     await page.waitForResponse(
       res => /widgetdata|TIMESERIES|multiline/i.test(res.url()),
       { timeout: 12000 }
     ).catch(() => null);
-
     await page.waitForTimeout(2500);
   } finally {
     page.off("response", responseHandler);
@@ -306,11 +298,15 @@ writeJson("google-trends-meta.json", {
   source: "google-trends-network",
   geo: GEO,
   dateRange: DATE_RANGE,
+  startIndex: START_INDEX,
+  limit: LIMIT,
+  totalProductCount: allProducts.length,
+  chunkProductCount: products.length,
   attemptedKeywordCount: keywords.length,
   savedSignalCount: signals.length,
   failedCount: failed.length,
-  note: "Captures Google Trends internal timeline JSON from the Explore page. Keeps real growthPercent including negative values and avoids generic one-word fallback variants.",
+  note: "Captures Google Trends internal timeline JSON from the Explore page. Supports GOOGLE_TRENDS_START_INDEX and GOOGLE_TRENDS_LIMIT chunking. Keeps real growthPercent including negative values and avoids generic one-word fallback variants.",
   failed: failed.slice(0, 100)
 });
 
-console.log(`Saved ${signals.length} Google Trends network signals from ${keywords.length} attempted keywords.`);
+console.log(`Saved ${signals.length} Google Trends network signals from ${keywords.length} attempted keywords for chunk start=${START_INDEX}, limit=${LIMIT}.`);
