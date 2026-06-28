@@ -1,0 +1,40 @@
+name: Create Repository Backup
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/create-repo-backup.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Create clean backup zip
+        run: |
+          REPO_NAME="$(basename "$GITHUB_REPOSITORY")"
+          BACKUP_NAME="${REPO_NAME}-backup-${GITHUB_RUN_NUMBER}.zip"
+          rm -f "$BACKUP_NAME"
+          zip -r "$BACKUP_NAME" . \
+            -x '.git/*' \
+            -x 'node_modules/*' \
+            -x '.next/*' \
+            -x 'dist/*' \
+            -x 'build/*' \
+            -x '*.zip'
+          echo "BACKUP_NAME=$BACKUP_NAME" >> "$GITHUB_ENV"
+
+      - name: Upload backup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.repository.name }}-full-backup
+          path: ${{ env.BACKUP_NAME }}
+          retention-days: 30
