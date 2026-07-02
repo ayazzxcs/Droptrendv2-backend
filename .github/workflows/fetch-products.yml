@@ -138,9 +138,13 @@ jobs:
         env:
           MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
           MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
+
           MONTHLY_LENS_DELAY_MS: 1500
           AMAZON_PAGE_DELAY_MS: 4500
           AMAZON_MIN_TITLE_MATCH: 15
+
+          # New fix: check multiple Amazon links and choose best valid match
+          AMAZON_CANDIDATE_LIMIT: 8
 
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
