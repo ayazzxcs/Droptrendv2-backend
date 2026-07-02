@@ -99,6 +99,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        include:
+          - start: 0
+            limit: 1000
+            name: amazon-lens-0
+          - start: 1000
+            limit: 500
+            name: amazon-lens-1000
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -121,11 +133,11 @@ jobs:
       - name: Install Puppeteer Chrome
         run: npx puppeteer browsers install chrome
 
-      - name: Fetch Monthly Lens Amazon Matches for all products
+      - name: Fetch Monthly Lens Amazon Matches chunk
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
-          MONTHLY_LENS_START_INDEX: 0
-          MONTHLY_LENS_MAX_PRODUCTS: 1500
+          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
+          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
           MONTHLY_LENS_DELAY_MS: 1500
           AMAZON_PAGE_DELAY_MS: 4500
           AMAZON_MIN_TITLE_MATCH: 15
@@ -137,16 +149,21 @@ jobs:
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
           DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
 
-      - name: Upload Amazon Lens files
+      - name: Rename Amazon output files
+        run: |
+          mkdir -p amazon-lens-chunk
+
+          [ -f amazon-products.json ] && mv amazon-products.json amazon-lens-chunk/amazon-products-${{ matrix.start }}.json || true
+          [ -f lens-amazon-matches.json ] && mv lens-amazon-matches.json amazon-lens-chunk/lens-amazon-matches-${{ matrix.start }}.json || true
+          [ -f lens-amazon-failures.json ] && mv lens-amazon-failures.json amazon-lens-chunk/lens-amazon-failures-${{ matrix.start }}.json || true
+          [ -f lens-amazon-meta.json ] && mv lens-amazon-meta.json amazon-lens-chunk/lens-amazon-meta-${{ matrix.start }}.json || true
+          [ -f lens-provider-usage.json ] && mv lens-provider-usage.json amazon-lens-chunk/lens-provider-usage-${{ matrix.start }}.json || true
+
+      - name: Upload Amazon Lens chunk
         uses: actions/upload-artifact@v4
         with:
-          name: amazon-lens
-          path: |
-            amazon-products.json
-            lens-amazon-matches.json
-            lens-amazon-failures.json
-            lens-amazon-meta.json
-            lens-provider-usage.json
+          name: ${{ matrix.name }}
+          path: amazon-lens-chunk/
 
   merge:
     needs:
@@ -172,11 +189,112 @@ jobs:
           name: google-trends
           path: .
 
-      - name: Download Amazon Lens files
+      - name: Download Amazon Lens chunks
         uses: actions/download-artifact@v4
         with:
-          name: amazon-lens
-          path: .
+          pattern: amazon-lens-*
+          path: amazon-lens-artifacts
+          merge-multiple: true
+
+      - name: Combine Amazon Lens chunks
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          function readJson(file, fallback) {
+            try {
+              return JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch {
+              return fallback;
+            }
+          }
+
+          function getStartNumber(file) {
+            return Number(file.match(/-(\d+)\.json$/)?.[1] || 0);
+          }
+
+          function mergeArrayFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
+                  .map((f) => `${dir}/${f}`)
+              : [];
+
+            const merged = [];
+
+            for (const file of files) {
+              const data = readJson(file, []);
+
+              if (Array.isArray(data)) {
+                merged.push(...data);
+              } else if (Array.isArray(data.products)) {
+                merged.push(...data.products);
+              } else if (Array.isArray(data.matches)) {
+                merged.push(...data.matches);
+              } else if (Array.isArray(data.items)) {
+                merged.push(...data.items);
+              } else if (data && typeof data === 'object') {
+                merged.push(data);
+              }
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile}: ${merged.length} records from ${files.length} files`);
+          }
+
+          function mergeObjectFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
+                  .map((f) => `${dir}/${f}`)
+              : [];
+
+            const merged = {};
+
+            for (const file of files) {
+              const data = readJson(file, {});
+
+              if (data && typeof data === 'object' && !Array.isArray(data)) {
+                Object.assign(merged, data);
+              }
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile} from ${files.length} files`);
+          }
+
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^amazon-products-\d+\.json$/,
+            'amazon-products.json'
+          );
+
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-matches-\d+\.json$/,
+            'lens-amazon-matches.json'
+          );
+
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-failures-\d+\.json$/,
+            'lens-amazon-failures.json'
+          );
+
+          mergeObjectFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-meta-\d+\.json$/,
+            'lens-amazon-meta.json'
+          );
+
+          mergeObjectFiles(
+            'amazon-lens-artifacts',
+            /^lens-provider-usage-\d+\.json$/,
+            'lens-provider-usage.json'
+          );
+          NODE
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
