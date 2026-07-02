@@ -29,6 +29,18 @@ jobs:
           CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
           CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
 
+          # CJ rate-limit protection
+          CJ_REQUEST_INTERVAL_MS: 2500
+          CJ_RETRIES: 8
+          CJ_RETRY_BASE_MS: 6000
+          CJ_TIMEOUT_MS: 60000
+
+          # Product limits
+          CJ_TRENDING_PAGES: 10
+          CJ_NORMAL_PAGES: 30
+          CJ_MIN_PRODUCTS: 500
+          CJ_MAX_PRODUCTS: 1500
+
       - uses: actions/upload-artifact@v4
         with:
           name: cj-products
@@ -135,11 +147,12 @@ jobs:
       - name: Fetch Monthly Lens Amazon Matches chunk
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
-          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
           MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
+          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
           MONTHLY_LENS_DELAY_MS: 1200
           AMAZON_PAGE_DELAY_MS: 3500
           AMAZON_MIN_TITLE_MATCH: 15
+
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
           SERPAPI_KEY_2: ${{ secrets.SERPAPI_KEY_2 }}
           SEARCHAPI_KEY: ${{ secrets.SEARCHAPI_KEY }}
@@ -195,30 +208,52 @@ jobs:
           const fs = require('fs');
 
           function readJson(file, fallback) {
-            try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
-            catch { return fallback; }
+            try {
+              return JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch {
+              return fallback;
+            }
           }
 
           function mergeArrayFiles(dir, pattern, outFile) {
             const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort()
+                  .map((f) => `${dir}/${f}`)
               : [];
 
             const merged = [];
+
             for (const file of files) {
               const data = readJson(file, []);
-              if (Array.isArray(data)) merged.push(...data);
-              else if (Array.isArray(data.products)) merged.push(...data.products);
-              else if (Array.isArray(data.items)) merged.push(...data.items);
-              else merged.push(data);
+
+              if (Array.isArray(data)) {
+                merged.push(...data);
+              } else if (Array.isArray(data.products)) {
+                merged.push(...data.products);
+              } else if (Array.isArray(data.items)) {
+                merged.push(...data.items);
+              } else if (data && typeof data === 'object') {
+                merged.push(data);
+              }
             }
 
             fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
             console.log(`Wrote ${outFile}: ${merged.length} records from ${files.length} files`);
           }
 
-          mergeArrayFiles('google-trends-artifacts', /^google-trends-\d+\.json$/, 'google-trends.json');
-          mergeArrayFiles('google-trends-artifacts', /^trend-keywords-\d+\.json$/, 'trend-keywords.json');
+          mergeArrayFiles(
+            'google-trends-artifacts',
+            /^google-trends-\d+\.json$/,
+            'google-trends.json'
+          );
+
+          mergeArrayFiles(
+            'google-trends-artifacts',
+            /^trend-keywords-\d+\.json$/,
+            'trend-keywords.json'
+          );
           NODE
 
       - name: Combine Amazon Lens chunks
@@ -227,23 +262,37 @@ jobs:
           const fs = require('fs');
 
           function readJson(file, fallback) {
-            try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
-            catch { return fallback; }
+            try {
+              return JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch {
+              return fallback;
+            }
           }
 
           function mergeArrayFiles(dir, pattern, outFile) {
             const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort()
+                  .map((f) => `${dir}/${f}`)
               : [];
 
             const merged = [];
+
             for (const file of files) {
               const data = readJson(file, []);
-              if (Array.isArray(data)) merged.push(...data);
-              else if (Array.isArray(data.products)) merged.push(...data.products);
-              else if (Array.isArray(data.matches)) merged.push(...data.matches);
-              else if (Array.isArray(data.items)) merged.push(...data.items);
-              else merged.push(data);
+
+              if (Array.isArray(data)) {
+                merged.push(...data);
+              } else if (Array.isArray(data.products)) {
+                merged.push(...data.products);
+              } else if (Array.isArray(data.matches)) {
+                merged.push(...data.matches);
+              } else if (Array.isArray(data.items)) {
+                merged.push(...data.items);
+              } else if (data && typeof data === 'object') {
+                merged.push(data);
+              }
             }
 
             fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
@@ -252,24 +301,55 @@ jobs:
 
           function mergeObjectFiles(dir, pattern, outFile) {
             const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort().map(f => `${dir}/${f}`)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort()
+                  .map((f) => `${dir}/${f}`)
               : [];
 
             const merged = {};
+
             for (const file of files) {
               const data = readJson(file, {});
-              if (data && typeof data === 'object' && !Array.isArray(data)) Object.assign(merged, data);
+
+              if (data && typeof data === 'object' && !Array.isArray(data)) {
+                Object.assign(merged, data);
+              }
             }
 
             fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
             console.log(`Wrote ${outFile} from ${files.length} files`);
           }
 
-          mergeArrayFiles('amazon-lens-artifacts', /^amazon-products-\d+\.json$/, 'amazon-products.json');
-          mergeArrayFiles('amazon-lens-artifacts', /^lens-amazon-matches-\d+\.json$/, 'lens-amazon-matches.json');
-          mergeArrayFiles('amazon-lens-artifacts', /^lens-amazon-failures-\d+\.json$/, 'lens-amazon-failures.json');
-          mergeObjectFiles('amazon-lens-artifacts', /^lens-amazon-meta-\d+\.json$/, 'lens-amazon-meta.json');
-          mergeObjectFiles('amazon-lens-artifacts', /^lens-provider-usage-\d+\.json$/, 'lens-provider-usage.json');
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^amazon-products-\d+\.json$/,
+            'amazon-products.json'
+          );
+
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-matches-\d+\.json$/,
+            'lens-amazon-matches.json'
+          );
+
+          mergeArrayFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-failures-\d+\.json$/,
+            'lens-amazon-failures.json'
+          );
+
+          mergeObjectFiles(
+            'amazon-lens-artifacts',
+            /^lens-amazon-meta-\d+\.json$/,
+            'lens-amazon-meta.json'
+          );
+
+          mergeObjectFiles(
+            'amazon-lens-artifacts',
+            /^lens-provider-usage-\d+\.json$/,
+            'lens-provider-usage.json'
+          );
           NODE
 
       - uses: actions/setup-node@v4
