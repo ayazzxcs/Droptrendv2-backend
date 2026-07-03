@@ -101,10 +101,21 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Fetch Google Trends chunk
-        run: node scripts/fetch-google-trends.js
+        run: |
+          echo "Google Trends chunk start=${{ matrix.start }} limit=${{ matrix.limit }}"
+          node scripts/fetch-google-trends.js
         env:
+          GOOGLE_TRENDS_KEYWORD_POOL_LIMIT: 1500
+
           GOOGLE_TRENDS_START_INDEX: ${{ matrix.start }}
           GOOGLE_TRENDS_LIMIT: ${{ matrix.limit }}
+
+          GOOGLE_TRENDS_CHUNK_START: ${{ matrix.start }}
+          GOOGLE_TRENDS_CHUNK_SIZE: ${{ matrix.limit }}
+
+          GOOGLE_TRENDS_GEO: US
+          GOOGLE_TRENDS_DATE: "today 3-m"
+          GOOGLE_TRENDS_MAX_VARIANTS: 3
 
       - name: Rename Google Trends output files
         run: |
