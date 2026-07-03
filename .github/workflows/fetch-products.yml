@@ -101,15 +101,24 @@ jobs:
 
     strategy:
       fail-fast: false
-      max-parallel: 2
+      max-parallel: 5
       matrix:
         include:
           - start: 0
-            limit: 1000
+            limit: 300
             name: amazon-lens-0
-          - start: 1000
-            limit: 500
-            name: amazon-lens-1000
+          - start: 300
+            limit: 300
+            name: amazon-lens-300
+          - start: 600
+            limit: 300
+            name: amazon-lens-600
+          - start: 900
+            limit: 300
+            name: amazon-lens-900
+          - start: 1200
+            limit: 300
+            name: amazon-lens-1200
 
     steps:
       - name: Checkout repository
@@ -142,8 +151,6 @@ jobs:
           MONTHLY_LENS_DELAY_MS: 1500
           AMAZON_PAGE_DELAY_MS: 4500
           AMAZON_MIN_TITLE_MATCH: 15
-
-          # New fix: check multiple Amazon links and choose best valid match
           AMAZON_CANDIDATE_LIMIT: 8
 
           SERPAPI_KEY_1: ${{ secrets.SERPAPI_KEY_1 }}
@@ -317,7 +324,19 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add .
+          for file in \
+            products.json \
+            google-trends.json \
+            trend-keywords.json \
+            google-trends-meta.json \
+            amazon-products.json \
+            lens-amazon-matches.json \
+            lens-amazon-failures.json \
+            lens-amazon-meta.json \
+            lens-provider-usage.json
+          do
+            [ -f "$file" ] && git add "$file"
+          done
 
           git commit -m "Update trending products" || echo "No changes"
           git push
