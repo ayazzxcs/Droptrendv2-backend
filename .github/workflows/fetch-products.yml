@@ -57,6 +57,27 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include:
+          - start: 0
+            limit: 300
+            name: google-trends-0
+          - start: 300
+            limit: 300
+            name: google-trends-300
+          - start: 600
+            limit: 300
+            name: google-trends-600
+          - start: 900
+            limit: 300
+            name: google-trends-900
+          - start: 1200
+            limit: 300
+            name: google-trends-1200
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -79,20 +100,25 @@ jobs:
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
-      - name: Fetch Google Trends for all products
+      - name: Fetch Google Trends chunk
         run: node scripts/fetch-google-trends.js
         env:
-          GOOGLE_TRENDS_START_INDEX: 0
-          GOOGLE_TRENDS_LIMIT: 1500
+          GOOGLE_TRENDS_START_INDEX: ${{ matrix.start }}
+          GOOGLE_TRENDS_LIMIT: ${{ matrix.limit }}
 
-      - name: Upload Google Trends files
+      - name: Rename Google Trends output files
+        run: |
+          mkdir -p google-trends-chunk
+
+          [ -f google-trends.json ] && mv google-trends.json google-trends-chunk/google-trends-${{ matrix.start }}.json || true
+          [ -f trend-keywords.json ] && mv trend-keywords.json google-trends-chunk/trend-keywords-${{ matrix.start }}.json || true
+          [ -f google-trends-meta.json ] && mv google-trends-meta.json google-trends-chunk/google-trends-meta-${{ matrix.start }}.json || true
+
+      - name: Upload Google Trends chunk
         uses: actions/upload-artifact@v4
         with:
-          name: google-trends
-          path: |
-            google-trends.json
-            trend-keywords.json
-            google-trends-meta.json
+          name: ${{ matrix.name }}
+          path: google-trends-chunk/
 
   amazon-lens:
     needs: fetch-cj
@@ -194,11 +220,12 @@ jobs:
           name: cj-products
           path: .
 
-      - name: Download Google Trends files
+      - name: Download Google Trends chunks
         uses: actions/download-artifact@v4
         with:
-          name: google-trends
-          path: .
+          pattern: google-trends-*
+          path: google-trends-artifacts
+          merge-multiple: true
 
       - name: Download Amazon Lens chunks
         uses: actions/download-artifact@v4
@@ -206,6 +233,92 @@ jobs:
           pattern: amazon-lens-*
           path: amazon-lens-artifacts
           merge-multiple: true
+
+      - name: Combine Google Trends chunks
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+
+          function readJson(file, fallback) {
+            try {
+              return JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch {
+              return fallback;
+            }
+          }
+
+          function getStartNumber(file) {
+            return Number(file.match(/-(\d+)\.json$/)?.[1] || 0);
+          }
+
+          function mergeArrayFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
+                  .map((f) => `${dir}/${f}`)
+              : [];
+
+            const merged = [];
+
+            for (const file of files) {
+              const data = readJson(file, []);
+
+              if (Array.isArray(data)) {
+                merged.push(...data);
+              } else if (Array.isArray(data.products)) {
+                merged.push(...data.products);
+              } else if (Array.isArray(data.items)) {
+                merged.push(...data.items);
+              } else if (data && typeof data === 'object') {
+                merged.push(data);
+              }
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile}: ${merged.length} records from ${files.length} files`);
+          }
+
+          function mergeObjectFiles(dir, pattern, outFile) {
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir)
+                  .filter((f) => pattern.test(f))
+                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
+                  .map((f) => `${dir}/${f}`)
+              : [];
+
+            const merged = {};
+
+            for (const file of files) {
+              const data = readJson(file, {});
+
+              if (data && typeof data === 'object' && !Array.isArray(data)) {
+                Object.assign(merged, data);
+              }
+            }
+
+            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
+            console.log(`Wrote ${outFile} from ${files.length} files`);
+          }
+
+          mergeArrayFiles(
+            'google-trends-artifacts',
+            /^google-trends-\d+\.json$/,
+            'google-trends.json'
+          );
+
+          mergeArrayFiles(
+            'google-trends-artifacts',
+            /^trend-keywords-\d+\.json$/,
+            'trend-keywords.json'
+          );
+
+          mergeObjectFiles(
+            'google-trends-artifacts',
+            /^google-trends-meta-\d+\.json$/,
+            'google-trends-meta.json'
+          );
+          NODE
 
       - name: Combine Amazon Lens chunks
         run: |
