@@ -89,8 +89,8 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Fetch AliExpress source products
         run: node scripts/fetch-aliexpress-products.js
