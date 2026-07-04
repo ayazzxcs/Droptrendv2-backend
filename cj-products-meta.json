@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-07-04T17:30:57.198Z",
+  "count": 1500,
+  "maxProducts": 1500,
+  "pageSize": 200,
+  "source": "CJdropshipping",
+  "mode": "CJ trending-first hybrid",
+  "trendingOnly": false,
+  "trendingCount": 12,
+  "fallbackCount": 6000,
+  "note": "CJ trending/searchType=2 products are fetched first and boosted. If CJ returns too few trending products, normal CJ products are used as quality fallback. merge-source-products.js later combines CJ with AliExpress into final products.json."
+}

@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-04T17:53:03.962Z",
+  "source": "AliExpress",
+  "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
+  "count": 750,
+  "maxProducts": 750,
+  "maxSearches": 70,
+  "productsPerKeyword": 60,
+  "minProductsPerKeyword": 12,
+  "maxRetries": 3,
+  "captchaCooldownMs": 45000,
+  "retryFailedKeywords": true,
+  "resetSessionAfterKeyword": false,
+  "sessionKeywordBatchSize": 8,
+  "keywordCount": 49,
+  "usedFallback": false,
+  "errorCount": 0,
+  "errors": [],
+  "note": "AliExpress is treated as a product source like CJ. It fetches page 1 sorted by orders/sales for AliExpress/dropshipping seed categories. This version uses Puppeteer with a persistent warm AliExpress session, automatic session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Zero/low-count pages are retried in fresh sessions and are not accepted as normal. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. If AliExpress blocks or returns no data, old aliexpress-products.json cache is kept."
+}
