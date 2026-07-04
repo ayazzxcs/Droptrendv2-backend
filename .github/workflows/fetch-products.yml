@@ -448,6 +448,15 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
+          # Save generated files before pulling latest repo changes
+          git stash push -u -m "generated-trend-results" || true
+
+          # Update local branch so push does not get rejected
+          git pull --rebase origin main || true
+
+          # Bring generated files back
+          git stash pop || true
+
           for file in \
             products.json \
             google-trends.json \
@@ -462,5 +471,12 @@ jobs:
             [ -f "$file" ] && git add "$file"
           done
 
-          git commit -m "Update trending products" || echo "No changes"
-          git push
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+
+          git commit -m "Update trending products"
+
+          # If remote changed again, pull once and retry push
+          git push || {
+            git pull --rebase origin main
+            git push
+          }
