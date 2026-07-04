@@ -120,7 +120,7 @@ jobs:
           GOOGLE_TRENDS_CHUNK_START: ${{ matrix.start }}
           GOOGLE_TRENDS_CHUNK_SIZE: ${{ matrix.limit }}
 
-          GOOGLE_TRENDS_GEO: US
+          GOOGLE_TRENDS_GEO: ""
           GOOGLE_TRENDS_DATE: "today 3-m"
           GOOGLE_TRENDS_MAX_VARIANTS: 3
 
