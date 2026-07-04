@@ -82,7 +82,7 @@ const RAW_CHUNK_INDEX = intEnv([
 const CHUNK_INDEX_BASE = intEnv(["GOOGLE_TRENDS_CHUNK_INDEX_BASE", "CHUNK_INDEX_BASE"], 0);
 const NORMALIZED_CHUNK_INDEX = Math.max(0, RAW_CHUNK_INDEX - CHUNK_INDEX_BASE);
 
-const GEO = process.env.GOOGLE_TRENDS_GEO || "US";
+const GEO = process.env.GOOGLE_TRENDS_GEO ?? "";
 const DATE_RANGE = process.env.GOOGLE_TRENDS_DATE || "today 3-m";
 const MIN_POINTS = intEnv(["GOOGLE_TRENDS_MIN_POINTS"], 3);
 const MAX_VARIANTS = intEnv(["GOOGLE_TRENDS_MAX_VARIANTS"], 3);
