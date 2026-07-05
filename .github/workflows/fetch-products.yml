@@ -89,29 +89,19 @@ jobs:
       - name: Install dependencies
         run: npm install --no-audit --no-fund
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install nodriver dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install nodriver beautifulsoup4
-          google-chrome --version || chromium-browser --version || chromium --version || true
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Fetch AliExpress source products
-        run: python scripts/fetch-aliexpress-products.py
+        run: node scripts/fetch-aliexpress-products.js
         env:
           ALIEXPRESS_MAX_PRODUCTS: 750
           ALIEXPRESS_MAX_SEARCHES: 70
-          ALIEXPRESS_PRODUCTS_PER_KEYWORD: 60
+          ALIEXPRESS_PRODUCTS_PER_KEYWORD: 24
           ALIEXPRESS_MIN_PRODUCTS_PER_KEYWORD: 12
           ALIEXPRESS_DELAY_MS: 2500
           ALIEXPRESS_TIMEOUT_MS: 60000
           ALIEXPRESS_FALLBACK_CACHE: "true"
-          ALIEXPRESS_RETRIES: 3
-          ALIEXPRESS_SESSION_KEYWORD_BATCH_SIZE: 8
 
       - name: Upload AliExpress products
         uses: actions/upload-artifact@v4
