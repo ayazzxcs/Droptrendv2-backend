@@ -101,6 +101,7 @@ jobs:
           ALIEXPRESS_MIN_PRODUCTS_PER_KEYWORD: 12
           ALIEXPRESS_DELAY_MS: 2500
           ALIEXPRESS_TIMEOUT_MS: 60000
+          ALIEXPRESS_SESSION_KEYWORD_BATCH_SIZE: 0
           ALIEXPRESS_FALLBACK_CACHE: "true"
 
       - name: Upload AliExpress products
