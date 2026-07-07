@@ -118,6 +118,7 @@ jobs:
           ALIEXPRESS_PRODUCT_DEFERRED_FETCH_RETRIES: 3
           ALIEXPRESS_PRODUCT_EMPTY_RESET_STREAK: 3
           ALIEXPRESS_PRODUCT_DEFERRED_RETRY_LIMIT: 90
+
           ALIEXPRESS_RESERVE_FAILED_KEYWORD_SLOTS: "true"
           ALIEXPRESS_INITIAL_PRODUCT_KEYWORD_SLOTS: "auto"
 
@@ -272,20 +273,29 @@ jobs:
       matrix:
         include:
           - start: 0
-            limit: 300
+            limit: 200
             name: amazon-lens-0
-          - start: 300
-            limit: 300
-            name: amazon-lens-300
+          - start: 200
+            limit: 200
+            name: amazon-lens-200
+          - start: 400
+            limit: 200
+            name: amazon-lens-400
           - start: 600
-            limit: 300
+            limit: 200
             name: amazon-lens-600
-          - start: 900
-            limit: 300
-            name: amazon-lens-900
+          - start: 800
+            limit: 200
+            name: amazon-lens-800
+          - start: 1000
+            limit: 200
+            name: amazon-lens-1000
           - start: 1200
-            limit: 300
+            limit: 200
             name: amazon-lens-1200
+          - start: 1400
+            limit: 200
+            name: amazon-lens-1400
 
     steps:
       - name: Checkout repository
