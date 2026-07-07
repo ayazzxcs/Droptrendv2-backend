@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T17:46:02.894Z",
+  "updatedAt": "2026-07-07T06:34:22.919Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -8,10 +8,6 @@
   "productsPerKeyword": 24,
   "minProductsPerKeyword": 12,
   "maxRetries": 3,
-  "productImmediateFetchRetries": 1,
-  "productDeferredFetchRetries": 3,
-  "productEmptyResetStreak": 3,
-  "productDeferredRetryLimit": 90,
   "captchaCooldownMs": 45000,
   "retryFailedKeywords": true,
   "resetSessionAfterKeyword": false,
@@ -25,10 +21,124 @@
   "discoveryDeferredProbeRetries": 3,
   "discoveryProbeEmptyResetStreak": 3,
   "discoveryDeferredRetryLimit": 70,
+  "productImmediateFetchRetries": 1,
+  "productDeferredFetchRetries": 3,
+  "productEmptyResetStreak": 3,
+  "productDeferredRetryLimit": 90,
+  "reserveFailedKeywordSlots": true,
+  "initialProductKeywordSlots": 42,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "deferredProductRetryCount": 17,
-  "errorCount": 0,
-  "errors": [],
-  "note": "AliExpress is treated as a product source like CJ. The keyword/category pool is discovered from AliExpress itself: homepage/category links, AliExpress product-title clusters, and validation pages sorted by orders/sales. It then fetches page 1 sorted by orders/sales for the strongest validated AliExpress-discovered keywords/categories. This version uses Puppeteer with a persistent warm AliExpress session, no scheduled batch reset, session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Discovery probing uses a two-pass recovery model: first pass checks AliExpress-discovered keywords without resetting on each zero result; zero-result probes are deferred and retried after the successful probes, resetting the browser session only after repeated empty probe attempts. Product fetching now uses the same two-pass recovery model: first pass tries validated keywords without resetting for every empty keyword, then retries failed/empty product keywords after successful keywords have been fetched, resetting only after repeated empty fetches. It does not rewrite keywords into fallback query variants. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. Emergency static fallback is disabled by default and only runs if ALIEXPRESS_STATIC_FALLBACK_ON_DISCOVERY_FAIL=true."
+  "errorCount": 18,
+  "errors": [
+    {
+      "keyword": "led solar",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: led solar; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "lights outdoor",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: lights outdoor; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "motion sensor",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: motion sensor; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "usb charger",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: usb charger; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "men s clothing",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: men s clothing; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "pro max",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: pro max; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "bag cotton",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: bag cotton; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "car stereo",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: car stereo; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "sleeve spliced",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: sleeve spliced; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "usb type",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: usb type; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "charger iphone",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: charger iphone; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "dog ball",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: dog ball; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "type cable",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: type cable; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "blouse dresses",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: blouse dresses; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "shoes light",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: shoes light; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "dresses neck",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: dresses neck; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "light foam",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: light foam; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "led solar",
+      "phase": "deferred-retry",
+      "error": "AliExpress low/empty product page for keyword: led solar; best raw count 0",
+      "deferred": false
+    }
+  ],
+  "note": "AliExpress is treated as a product source like CJ. The keyword/category pool is discovered from AliExpress itself: homepage/category links, AliExpress product-title clusters, and validation pages sorted by orders/sales. It then fetches page 1 sorted by orders/sales for the strongest validated AliExpress-discovered keywords/categories. This version uses Puppeteer with a persistent warm AliExpress session, no scheduled batch reset, session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Discovery and product fetch now defer empty/blocked keywords to a second retry pass instead of resetting the browser session on every single empty result. Product fetching also reserves slots for high-probe-score keywords, retries those saved slots first, and only then lets lower-ranked remaining keywords fill any still-empty capacity. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. Emergency static fallback is used only if AliExpress keyword discovery completely fails."
 }
