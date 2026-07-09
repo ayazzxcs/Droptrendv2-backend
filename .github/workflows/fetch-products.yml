@@ -121,6 +121,13 @@ jobs:
 
           ALIEXPRESS_FALLBACK_CACHE: "true"
 
+          # New image fix:
+          # Opens exact AliExpress product page and saves productPageImage / supplierImage.
+          ALIEXPRESS_DETAIL_ENRICH: "true"
+          ALIEXPRESS_DETAIL_ENRICH_LIMIT: 300
+          ALIEXPRESS_DETAIL_TIMEOUT_MS: 35000
+          ALIEXPRESS_DETAIL_ENRICH_DELAY_MS: 1200
+
       - name: Upload AliExpress products
         uses: actions/upload-artifact@v4
         with:
