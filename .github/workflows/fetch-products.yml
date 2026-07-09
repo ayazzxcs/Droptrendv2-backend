@@ -44,12 +44,10 @@ jobs:
         env:
           CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
           CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
-
           CJ_REQUEST_INTERVAL_MS: 2500
           CJ_RETRIES: 8
           CJ_RETRY_BASE_MS: 6000
           CJ_TIMEOUT_MS: 60000
-
           CJ_TRENDING_PAGES: 10
           CJ_NORMAL_PAGES: 30
           CJ_MIN_PRODUCTS: 500
@@ -121,8 +119,8 @@ jobs:
 
           ALIEXPRESS_FALLBACK_CACHE: "true"
 
-          # New image fix:
-          # Opens exact AliExpress product page and saves productPageImage / supplierImage.
+          # Image mismatch fix:
+          # Opens exact AliExpress product page and saves supplierImage / productPageImage.
           ALIEXPRESS_DETAIL_ENRICH: "true"
           ALIEXPRESS_DETAIL_ENRICH_LIMIT: 300
           ALIEXPRESS_DETAIL_TIMEOUT_MS: 35000
@@ -250,7 +248,10 @@ jobs:
 
           GOOGLE_TRENDS_GEO: ""
           GOOGLE_TRENDS_DATE: "today 3-m"
-          GOOGLE_TRENDS_MAX_VARIANTS: 3
+
+          # Unlimited variants:
+          # 0 means use all generated keyword variants.
+          GOOGLE_TRENDS_MAX_VARIANTS: 0
 
       - name: Rename Google Trends output files
         run: |
