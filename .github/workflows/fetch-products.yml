@@ -20,6 +20,8 @@ permissions:
 env:
   # Browser binaries are installed explicitly only in the jobs that need them.
   PUPPETEER_SKIP_DOWNLOAD: "true"
+  NPM_CONFIG_FETCH_RETRIES: 10
+  NPM_CONFIG_FETCH_TIMEOUT: 300000
 
 concurrency:
   group: droptrend-fetch-products
@@ -45,7 +47,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm config set fetch-retries 5
+          npm config set fetch-retries 10
+          npm config set fetch-retry-factor 3
+          npm config set fetch-retry-mintimeout 10000
+          npm config set fetch-retry-maxtimeout 60000
           npm config set fetch-timeout 300000
           npm ci --no-audit --no-fund
 
