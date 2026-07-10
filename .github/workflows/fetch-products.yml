@@ -22,6 +22,8 @@ env:
   PUPPETEER_SKIP_DOWNLOAD: "true"
   NPM_CONFIG_FETCH_RETRIES: 10
   NPM_CONFIG_FETCH_TIMEOUT: 300000
+  NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 10000
+  NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 60000
 
 concurrency:
   group: droptrend-fetch-products
@@ -41,14 +43,6 @@ jobs:
         with:
           node-version: 24
           cache: npm
-
-      - name: Cache npm
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: npm-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            npm-${{ runner.os }}-
     
       - name: Configure npm registry
         run: |
@@ -58,7 +52,7 @@ jobs:
           npm config set fetch-timeout 300000
 
       - name: Install dependencies
-        run: npm ci --no-audit --no-fund
+        run: npm ci --no-audit --no-fund --prefer-offline
 
       - name: Fetch CJ Trending Products
         run: node scripts/fetch-cj-products.js
