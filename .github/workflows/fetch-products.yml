@@ -41,8 +41,7 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: |
-          npm install --no-audit --no-fund
+        run: npm ci --no-audit --no-fund
 
       - name: Fetch CJ Trending Products
         run: node scripts/fetch-cj-products.js
