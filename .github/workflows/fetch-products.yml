@@ -40,8 +40,14 @@ jobs:
           node-version: 24
           cache: npm
 
+      - name: Clean npm cache
+        run: npm cache clean --force
+
       - name: Install dependencies
-        run: npm ci --no-audit --no-fund
+        run: |
+          npm config set fetch-retries 5
+          npm config set fetch-timeout 300000
+          npm ci --no-audit --no-fund
 
       - name: Fetch CJ Trending Products
         run: node scripts/fetch-cj-products.js
