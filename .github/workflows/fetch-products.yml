@@ -42,8 +42,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm cache clean --force
-          npm ci --no-audit --no-fund --prefer-online
+          npm install --no-audit --no-fund
 
       - name: Fetch CJ Trending Products
         run: node scripts/fetch-cj-products.js
