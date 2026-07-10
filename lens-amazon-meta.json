@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-08T03:38:16.098Z",
+  "updatedAt": "2026-07-10T03:14:20.893Z",
   "month": "2026-07",
   "mode": "sequential quota provider pool + best Amazon candidate per product",
   "startIndex": 1400,
   "maxProducts": 200,
   "providerUsage": {
     "decodo": 700,
-    "decodo_2": 99
+    "decodo_2": 64
   },
   "providerBudgets": {
     "decodo": 700,
@@ -14,8 +14,8 @@
     "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 72,
-  "failures": 28,
+  "matches": 48,
+  "failures": 52,
   "resetAmazonCache": true,
   "note": "Monthly cache mode: first run of a new month or manual refresh starts fresh; later same-month runs skip existing Amazon data. Uses Decodo account 1 until its limit is reached, then Decodo account 2, then Decodo account 3. One Lens request per product; Puppeteer checks multiple Amazon candidates and selects the best valid match."
 }

@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-07-07T20:48:11.083Z",
+  "updatedAt": "2026-07-09T19:48:06.157Z",
   "finalCount": 1500,
   "finalMaxProducts": 1500,
   "cj": {
     "rawCount": 1500,
     "dedupedCount": 1500,
     "target": 750,
-    "selectedCount": 728
+    "selectedCount": 705
   },
   "aliexpress": {
     "rawCount": 1000,
     "dedupedCount": 1000,
     "target": 750,
-    "selectedCount": 772
+    "selectedCount": 795
   },
   "note": "Final products.json is built from balanced source ingestion: 750 CJ + 750 AliExpress target, with dedupe and fallback fill if one source has fewer valid products."
 }
