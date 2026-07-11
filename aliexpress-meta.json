@@ -1,8 +1,118 @@
 {
-  "updatedAt": "2026-07-09T19:47:48.749Z",
+  "updatedAt": "2026-07-11T10:28:35.248Z",
   "source": "AliExpress",
-  "mode": "fallback-cache",
+  "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
-  "error": "page.close is not a function",
-  "note": "AliExpress scrape failed. Old cache was kept so the full workflow can continue."
+  "maxProducts": 1000,
+  "maxSearches": 90,
+  "productsPerKeyword": 24,
+  "minProductsPerKeyword": 12,
+  "maxRetries": 3,
+  "captchaCooldownMs": 45000,
+  "retryFailedKeywords": true,
+  "resetSessionAfterKeyword": false,
+  "sessionKeywordBatchSize": 0,
+  "keywordCount": 90,
+  "keywordDiscoveryMode": "aliexpress-discovered-validated",
+  "discoveryCandidateLimit": 140,
+  "discoveryValidationLimit": 70,
+  "discoveryMinProducts": 8,
+  "discoveryImmediateProbeRetries": 1,
+  "discoveryDeferredProbeRetries": 3,
+  "discoveryProbeEmptyResetStreak": 3,
+  "discoveryDeferredRetryLimit": 70,
+  "productImmediateFetchRetries": 1,
+  "productDeferredFetchRetries": 3,
+  "productEmptyResetStreak": 3,
+  "productDeferredRetryLimit": 90,
+  "reserveFailedKeywordSlots": true,
+  "initialProductKeywordSlots": 42,
+  "detailEnrich": true,
+  "detailEnrichLimit": 0,
+  "detailTimeoutMs": 35000,
+  "detailEnrichDelayMs": 1200,
+  "staticFallbackOnDiscoveryFail": false,
+  "usedFallback": false,
+  "errorCount": 13,
+  "errors": [
+    {
+      "keyword": "stainless steel",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "screen protector",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: screen protector; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "case iphone",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: case iphone; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "tool kit",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: tool kit; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "laptop sleeve",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: laptop sleeve; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "squeezing toy",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: squeezing toy; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "cleaning appliance",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: cleaning appliance; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "case inch",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: case inch; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "women s clothing",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "blue light",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: blue light; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "jars kitchen",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: jars kitchen; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "storage boxes",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: storage boxes; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "camera lens",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: camera lens; best raw count 0",
+      "deferred": true
+    }
+  ],
+  "note": "AliExpress is treated as a product source like CJ. The keyword/category pool is discovered from AliExpress itself: homepage/category links, AliExpress product-title clusters, and validation pages sorted by orders/sales. It then fetches page 1 sorted by orders/sales for the strongest validated AliExpress-discovered keywords/categories. This version uses Puppeteer with a persistent warm AliExpress session, no scheduled batch reset, session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Discovery and product fetch now defer empty/blocked keywords to a second retry pass instead of resetting the browser session on every single empty result. Product fetching also reserves slots for high-probe-score keywords, retries those saved slots first, and only then lets lower-ranked remaining keywords fill any still-empty capacity. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. Emergency static fallback is used only if AliExpress keyword discovery completely fails."
 }
