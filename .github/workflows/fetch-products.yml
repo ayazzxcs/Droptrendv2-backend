@@ -55,7 +55,7 @@ jobs:
           for i in 1 2 3; do
             npm install --no-package-lock --registry https://registry.npmjs.org/ --
             no-audit --no-fund --legacy-peer-deps && break || sleep 15
-          done
+            done
         env:
           NPM_CONFIG_FETCH_RETRIES: 10
           NPM_CONFIG_FETCH_TIMEOUT: 600000
