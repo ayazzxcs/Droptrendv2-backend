@@ -814,3 +814,474 @@ writeJson("google-trends-meta.json", {
 });
 
 console.log(`Saved ${signals.length} Google Trends network signals from ${keywords.length} attempted keywords.`);
+// ===============================================
+// CHUNK 4 — IDF + JARO–WINKLER + MATCHING LOGIC
+// ===============================================
+
+// Debug: initializing IDF + JW improvements
+console.log("[DEBUG] Initializing IDF weighting + Jaro–Winkler fallback...");
+
+// -----------------------------------------------
+// Build Local IDF Corpus
+// -----------------------------------------------
+function buildLocalIDF(keywords) {
+  const df = new Map();
+  const N = keywords.length;
+
+  for (const item of keywords) {
+    const clean = cleanKeyword(item.keyword || "");
+    const words = new Set(clean.split(/\s+/).filter(Boolean));
+
+    for (const w of words) {
+      df.set(w, (df.get(w) || 0) + 1);
+    }
+  }
+
+  const idf = new Map();
+  for (const [word, freq] of df.entries()) {
+    const value = Math.log((N + 1) / (freq + 1)) + 1;
+    idf.set(word, value);
+  }
+
+  console.log("[DEBUG] Local IDF built for", idf.size, "tokens");
+  return idf;
+}
+
+const LOCAL_IDF = buildLocalIDF(allKeywords);
+
+// -----------------------------------------------
+// Weighted Overlap (IDF-based)
+// -----------------------------------------------
+function weightedOverlapLocal(variantWords, titleWords) {
+  let score = 0;
+  let maxScore = 0;
+
+  for (const w of variantWords) {
+    const weight = LOCAL_IDF.get(w) || 0.1;
+    maxScore += weight;
+    if (titleWords.has(w)) score += weight;
+  }
+
+  const normalized = maxScore > 0 ? score / maxScore : 0;
+
+  console.log("[DEBUG] weightedOverlapLocal:", {
+    variantWords: [...variantWords],
+    titleWords: [...titleWords],
+    score: normalized
+  });
+
+  return normalized;
+}
+
+// -----------------------------------------------
+// Jaro–Winkler Similarity (local)
+// -----------------------------------------------
+function jaroWinklerLocal(s1, s2) {
+  if (!s1 || !s2) return 0;
+
+  const m = jaroMatches(s1, s2);
+  if (m === 0) return 0;
+
+  const jaro = (m / s1.length + m / s2.length + (m - jaroTranspositions(s1, s2)) / m) / 3;
+  const prefix = jaroPrefixLength(s1, s2);
+  const jw = jaro + prefix * 0.1 * (1 - jaro);
+
+  console.log("[DEBUG] jaroWinklerLocal:", { s1, s2, jw });
+  return jw;
+}
+
+function jaroMatches(s1, s2) {
+  const matchDistance = Math.floor(Math.max(s1.length, s2.length) / 2) - 1;
+  const s1Matches = new Array(s1.length).fill(false);
+  const s2Matches = new Array(s2.length).fill(false);
+
+  let matches = 0;
+
+  for (let i = 0; i < s1.length; i++) {
+    const start = Math.max(0, i - matchDistance);
+    const end = Math.min(i + matchDistance + 1, s2.length);
+
+    for (let j = start; j < end; j++) {
+      if (!s2Matches[j] && s1[i] === s2[j]) {
+        s1Matches[i] = true;
+        s2Matches[j] = true;
+        matches++;
+        break;
+      }
+    }
+  }
+
+  return matches;
+}
+
+function jaroTranspositions(s1, s2) {
+  const matchDistance = Math.floor(Math.max(s1.length, s2.length) / 2) - 1;
+  const s1Matches = [];
+  const s2Matches = [];
+
+  const s1Matched = new Array(s1.length).fill(false);
+  const s2Matched = new Array(s2.length).fill(false);
+
+  for (let i = 0; i < s1.length; i++) {
+    const start = Math.max(0, i - matchDistance);
+    const end = Math.min(i + matchDistance + 1, s2.length);
+
+    for (let j = start; j < end; j++) {
+      if (!s2Matched[j] && s1[i] === s2[j]) {
+        s1Matched[i] = true;
+        s2Matched[j] = true;
+        s1Matches.push(s1[i]);
+        s2Matches.push(s2[j]);
+        break;
+      }
+    }
+  }
+
+  let transpositions = 0;
+  for (let i = 0; i < s1Matches.length; i++) {
+    if (s1Matches[i] !== s2Matches[i]) transpositions++;
+  }
+
+  return transpositions / 2;
+}
+
+function jaroPrefixLength(s1, s2) {
+  const maxPrefix = 4;
+  let prefix = 0;
+
+  for (let i = 0; i < Math.min(maxPrefix, s1.length, s2.length); i++) {
+    if (s1[i] === s2[i]) prefix++;
+    else break;
+  }
+
+  return prefix;
+}
+
+// -----------------------------------------------
+// Combined Acceptance Logic
+// -----------------------------------------------
+function variantMatchesTitleLocal(variant, title) {
+  const variantWords = new Set(variant.split(/\s+/).filter(Boolean));
+  const titleWords = new Set(title.split(/\s+/).filter(Boolean));
+
+  // Original lexical rule
+  const totalOverlap = [...variantWords].filter(w => titleWords.has(w)).length;
+  const meaningfulOverlap = [...variantWords].filter(
+    w => titleWords.has(w) && !OVERLAP_IGNORE_WORDS.has(w)
+  ).length;
+
+  const lexicalAccept = meaningfulOverlap > 0 || totalOverlap >= 3;
+
+  // IDF weighted overlap
+  const wOverlap = weightedOverlapLocal(variantWords, titleWords);
+  const idfAccept = wOverlap >= 0.35;
+
+  // Jaro–Winkler fallback
+  const jwScore = jaroWinklerLocal(variant, title);
+  const jwAccept = jwScore >= 0.82;
+
+  const finalAccept = lexicalAccept || idfAccept || jwAccept;
+
+  console.log("[DEBUG] variantMatchesTitleLocal:", {
+    variant,
+    title,
+    totalOverlap,
+    meaningfulOverlap,
+    wOverlap,
+    jwScore,
+    lexicalAccept,
+    idfAccept,
+    jwAccept,
+    finalAccept
+  });
+
+  return {
+    accept: finalAccept,
+    wOverlap,
+    jwScore,
+    totalOverlap,
+    meaningfulOverlap
+  };
+}
+// =====================================================
+// CHUNK 5 — VARIANT FETCHING + CACHE + BROWSER LOGIC
+// =====================================================
+
+// Debug: initializing browser + fetch logic
+console.log("[DEBUG] Initializing browser + variant fetch system...");
+
+// Cache for variant results
+const variantCache = new Map();
+
+// Cache stats
+let uniqueVariantsFetched = 0;
+let reusedVariantChecks = 0;
+
+// -----------------------------------------------
+// Fetch Google Trends JSON for a single variant
+// -----------------------------------------------
+async function fetchVariantTrend(page, variant) {
+  console.log("[DEBUG] Fetching variant:", variant);
+
+  const url = `https://trends.google.com/trends/explore?geo=${GEO}&date=${DATE_RANGE}&q=${encodeURIComponent(variant)}`;
+
+  const jsonBodies = [];
+  let timelineReady = false;
+
+  page.on("response", async (response) => {
+    try {
+      const reqUrl = response.url();
+      if (!reqUrl.includes("widgetdata") && !reqUrl.includes("timeseries")) return;
+
+      const body = await response.json().catch(() => null);
+      if (!body) return;
+
+      jsonBodies.push(body);
+
+      const values = extractTimelineValuesFromAnyJson([body]);
+      if (values.length >= MIN_POINTS) {
+        timelineReady = true;
+      }
+    } catch (err) {
+      console.log("[DEBUG] Error parsing response JSON:", err);
+    }
+  });
+
+  try {
+    await page.goto(url, { timeout: 45000, waitUntil: "domcontentloaded" });
+  } catch (err) {
+    console.log("[DEBUG] Navigation error for variant:", variant, err);
+    return null;
+  }
+
+  // Wait for timeline JSON
+  const start = Date.now();
+  while (!timelineReady && Date.now() - start < 8000) {
+    await sleep(200);
+  }
+
+  if (!timelineReady) {
+    console.log("[DEBUG] No timeline found for variant:", variant);
+    return null;
+  }
+
+  const labeled = extractTimelinePointsFromAnyJson(jsonBodies);
+  const numeric = extractTimelineValuesFromAnyJson(jsonBodies);
+
+  const scoreObj = scoreFromValues(numeric);
+  if (!scoreObj) {
+    console.log("[DEBUG] scoreObj null for variant:", variant);
+    return null;
+  }
+
+  console.log("[DEBUG] Final score for variant:", variant, scoreObj.score);
+
+  return {
+    variant,
+    score: scoreObj.score,
+    timeline: scoreObj.timelinePoints,
+    growthPercent: scoreObj.growthPercent,
+    firstAvg: scoreObj.firstAvg,
+    lastAvg: scoreObj.lastAvg,
+    latest: scoreObj.latest,
+    max: scoreObj.max,
+    labeledPoints: labeled
+  };
+}
+
+// -----------------------------------------------
+// Fetch variant with cache + acceptance logic
+// -----------------------------------------------
+async function fetchVariantWithCache(pages, variant, title) {
+  const cached = variantCache.get(variant);
+
+  if (cached) {
+    reusedVariantChecks++;
+    console.log("[DEBUG] Cache hit for variant:", variant);
+
+    const match = variantMatchesTitleLocal(variant, title);
+    if (match.accept) {
+      console.log("[DEBUG] Cache accepted for variant:", variant);
+      return { ...cached, fromCache: true, wOverlap: match.wOverlap, jwScore: match.jwScore };
+    }
+
+    console.log("[DEBUG] Cache rejected for variant:", variant, "=> refetching");
+    variantCache.delete(variant);
+  }
+
+  const page = pages.shift();
+  const result = await fetchVariantTrend(page, variant);
+  pages.push(page);
+
+  if (result) {
+    uniqueVariantsFetched++;
+    variantCache.set(variant, result);
+
+    const match = variantMatchesTitleLocal(variant, title);
+    return {
+      ...result,
+      fromCache: false,
+      wOverlap: match.wOverlap,
+      jwScore: match.jwScore
+    };
+  }
+
+  return null;
+}
+
+// -----------------------------------------------
+// Run variants in waves (concurrency)
+// -----------------------------------------------
+async function runVariantWave(pages, variants, title) {
+  const results = [];
+  const failures = [];
+
+  for (const variant of variants) {
+    try {
+      const res = await fetchVariantWithCache(pages, variant, title);
+      if (res) results.push(res);
+      else failures.push(variant);
+    } catch (err) {
+      console.log("[DEBUG] Variant fetch error:", variant, err);
+      failures.push(variant);
+    }
+  }
+
+  return { results, failures };
+}
+
+// -----------------------------------------------
+// Pick best variant signal
+// -----------------------------------------------
+function pickBestVariantSignal(signals, title) {
+  if (!signals.length) return null;
+
+  const titleWords = new Set(title.split(/\s+/).filter(Boolean));
+
+  const enriched = signals.map(sig => {
+    const variantWords = new Set(sig.variant.split(/\s+/).filter(Boolean));
+    const wOverlap = weightedOverlapLocal(variantWords, titleWords);
+    return { ...sig, wOverlap };
+  });
+
+  enriched.sort((a, b) => {
+    if (b.wOverlap !== a.wOverlap) return b.wOverlap - a.wOverlap;
+    return b.score - a.score;
+  });
+
+  const best = enriched[0];
+  console.log("[DEBUG] Best variant selected:", best.variant, "score:", best.score, "wOverlap:", best.wOverlap);
+
+  return best;
+}
+// =====================================================
+// CHUNK 6 — MAIN LOOP + OUTPUT + META STATS
+// =====================================================
+
+// Debug: starting main execution
+console.log("[DEBUG] Starting main execution loop...");
+
+async function main() {
+  console.log("[DEBUG] Launching browser...");
+
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--disable-blink-features=AutomationControlled"]
+  });
+
+  const context = await browser.newContext();
+  const pages = [];
+
+  for (let i = 0; i < VARIANT_CONCURRENCY; i++) {
+    const page = await context.newPage();
+    pages.push(page);
+  }
+
+  console.log("[DEBUG] Created", pages.length, "pages for concurrency");
+
+  const results = [];
+
+  for (const item of keywords) {
+    const keyword = item.keyword;
+    const title = cleanKeyword(keyword);
+
+    console.log("\n[DEBUG] Processing keyword:", keyword);
+
+    const variants = keywordVariants(item);
+    console.log("[DEBUG] Total variants:", variants.length);
+
+    const { results: signals } = await runVariantWave(pages, variants, title);
+
+    console.log("[DEBUG] Signals fetched:", signals.length);
+
+    const best = pickBestVariantSignal(signals, title);
+
+    if (best) {
+      console.log("[DEBUG] Best signal chosen:", best.variant, "score:", best.score);
+
+      results.push({
+        keyword,
+        variant: best.variant,
+        score: best.score,
+        timeline: best.timeline,
+        growthPercent: best.growthPercent,
+        firstAvg: best.firstAvg,
+        lastAvg: best.lastAvg,
+        latest: best.latest,
+        max: best.max,
+        labeledPoints: best.labeledPoints,
+        wOverlap: best.wOverlap,
+        jwScore: best.jwScore,
+        fromCache: best.fromCache
+      });
+    } else {
+      console.log("[DEBUG] No valid signal for keyword:", keyword);
+      results.push({
+        keyword,
+        variant: null,
+        score: null,
+        timeline: [],
+        growthPercent: null,
+        firstAvg: null,
+        lastAvg: null,
+        latest: null,
+        max: null,
+        labeledPoints: [],
+        wOverlap: 0,
+        jwScore: 0,
+        fromCache: false
+      });
+    }
+  }
+
+  console.log("[DEBUG] Writing final results...");
+  writeJson("google-trends.json", results);
+
+  console.log("[DEBUG] Writing meta stats...");
+  writeJson("google-trends-meta.json", {
+    POOL_LIMIT,
+    CHUNK_START,
+    CHUNK_SIZE,
+    TOTAL_CHUNKS,
+    RAW_CHUNK_INDEX,
+    NORMALIZED_CHUNK_INDEX,
+    GEO,
+    DATE_RANGE,
+    MIN_POINTS,
+    VARIANT_CONCURRENCY,
+    MAX_VARIANTS,
+    totalKeywords: keywords.length,
+    uniqueVariantsFetched,
+    reusedVariantChecks,
+    cacheSize: variantCache.size
+  });
+
+  console.log("[DEBUG] Closing browser...");
+  await browser.close();
+
+  console.log("[DEBUG] Script completed successfully.");
+}
+
+main().catch(err => {
+  console.error("[DEBUG] Fatal error:", err);
+});
