@@ -18,7 +18,6 @@ permissions:
   contents: write
 
 env:
-  # Browser binaries are installed explicitly only in the jobs that need them.
   PUPPETEER_SKIP_DOWNLOAD: "true"
 
 concurrency:
@@ -34,45 +33,28 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
-      - name: Fetch CJ Trending Products
-        run: node scripts/fetch-cj-products.js
+      - name: Fetch CJ products
         env:
           CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
           CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
-          CJ_REQUEST_INTERVAL_MS: 2500
-          CJ_RETRIES: 8
-          CJ_RETRY_BASE_MS: 6000
-          CJ_TIMEOUT_MS: 60000
-          CJ_TRENDING_PAGES: 10
-          CJ_NORMAL_PAGES: 30
-          CJ_MIN_PRODUCTS: 500
-          CJ_MAX_PRODUCTS: 1500
+        run: node scripts/fetch-cj-products.js
 
-      - name: Upload CJ products
+      - name: Upload CJ output
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: cj-products
+          name: cj-products-output
+          if-no-files-found: warn
           path: |
             cj-products.json
             cj-products-meta.json
-            products.json
             cj-sample-product.json
 
   fetch-aliexpress:
@@ -84,71 +66,25 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download CJ products
-        uses: actions/download-artifact@v4
-        with:
-          name: cj-products
-          path: .
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
-      - name: Install Puppeteer Chrome
-        run: npx puppeteer browsers install chrome
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
 
-      - name: Fetch AliExpress source products
+      - name: Fetch AliExpress products
         run: node scripts/fetch-aliexpress-products.js
-        env:
-          ALIEXPRESS_MAX_PRODUCTS: 1000
-          ALIEXPRESS_MAX_SEARCHES: 90
-          ALIEXPRESS_PRODUCTS_PER_KEYWORD: 24
-          ALIEXPRESS_MIN_PRODUCTS_PER_KEYWORD: 12
-          ALIEXPRESS_DELAY_MS: 2500
-          ALIEXPRESS_TIMEOUT_MS: 60000
-          ALIEXPRESS_SESSION_KEYWORD_BATCH_SIZE: 0
 
-          ALIEXPRESS_DISCOVER_KEYWORDS: "true"
-          ALIEXPRESS_DISCOVERY_CANDIDATE_LIMIT: 140
-          ALIEXPRESS_DISCOVERY_VALIDATION_LIMIT: 70
-          ALIEXPRESS_DISCOVERY_MIN_PRODUCTS: 8
-          ALIEXPRESS_STATIC_FALLBACK_ON_DISCOVERY_FAIL: "false"
-
-          ALIEXPRESS_DISCOVERY_IMMEDIATE_PROBE_RETRIES: 1
-          ALIEXPRESS_DISCOVERY_DEFERRED_PROBE_RETRIES: 3
-          ALIEXPRESS_DISCOVERY_PROBE_EMPTY_RESET_STREAK: 3
-          ALIEXPRESS_DISCOVERY_DEFERRED_RETRY_LIMIT: 70
-
-          ALIEXPRESS_PRODUCT_IMMEDIATE_FETCH_RETRIES: 1
-          ALIEXPRESS_PRODUCT_DEFERRED_FETCH_RETRIES: 3
-          ALIEXPRESS_PRODUCT_EMPTY_RESET_STREAK: 3
-          ALIEXPRESS_PRODUCT_DEFERRED_RETRY_LIMIT: 90
-
-          ALIEXPRESS_FALLBACK_CACHE: "true"
-
-          # 0 means enrich every eligible AliExpress product.
-          ALIEXPRESS_DETAIL_ENRICH: "true"
-          ALIEXPRESS_DETAIL_ENRICH_LIMIT: 0
-          ALIEXPRESS_DETAIL_TIMEOUT_MS: 35000
-          ALIEXPRESS_DETAIL_ENRICH_DELAY_MS: 1200
-
-      - name: Upload AliExpress products
+      - name: Upload AliExpress output
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: aliexpress-products
+          name: aliexpress-products-output
+          if-no-files-found: warn
           path: |
             aliexpress-products.json
             aliexpress-meta.json
@@ -165,48 +101,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download CJ products
+      - name: Download CJ output
         uses: actions/download-artifact@v4
         with:
-          name: cj-products
+          name: cj-products-output
           path: .
 
-      - name: Download AliExpress products
+      - name: Download AliExpress output
         uses: actions/download-artifact@v4
         with:
-          name: aliexpress-products
+          name: aliexpress-products-output
           path: .
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
 
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
-      - name: Merge CJ + AliExpress source products
+      - name: Merge source products
         run: node scripts/merge-source-products.js
-        env:
-          CJ_SOURCE_TARGET: 750
-          ALIEXPRESS_SOURCE_TARGET: 750
-          FINAL_MAX_PRODUCTS: 1500
 
       - name: Upload merged source products
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: source-products
+          name: merged-source-products
+          if-no-files-found: warn
           path: |
             products.json
+            products-meta.json
             source-products-meta.json
             cj-products.json
             cj-products-meta.json
@@ -221,190 +146,120 @@ jobs:
 
     strategy:
       fail-fast: false
-      max-parallel: 5
       matrix:
-        include:
-          - start: 0
-            limit: 300
-            name: google-trends-0
-          - start: 300
-            limit: 300
-            name: google-trends-300
-          - start: 600
-            limit: 300
-            name: google-trends-600
-          - start: 900
-            limit: 300
-            name: google-trends-900
-          - start: 1200
-            limit: 300
-            name: google-trends-1200
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    env:
+      GOOGLE_TRENDS_CHUNK_TOTAL: 10
+      GOOGLE_TRENDS_CHUNK_INDEX: ${{ matrix.chunk }}
+      GOOGLE_TRENDS_CHUNK_INDEX_BASE: 0
+      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 180000
+      GOOGLE_TRENDS_VARIANT_CONCURRENCY: 3
+      PUPPETEER_SKIP_DOWNLOAD: "true"
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download source products
+      - name: Download merged source products
         uses: actions/download-artifact@v4
         with:
-          name: source-products
+          name: merged-source-products
           path: .
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
 
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
       - name: Fetch Google Trends chunk
-        run: node scripts/fetch-google-trends.js
-        env:
-          GOOGLE_TRENDS_KEYWORD_POOL_LIMIT: 1500
-
-          GOOGLE_TRENDS_START_INDEX: ${{ matrix.start }}
-          GOOGLE_TRENDS_LIMIT: ${{ matrix.limit }}
-
-          GOOGLE_TRENDS_CHUNK_START: ${{ matrix.start }}
-          GOOGLE_TRENDS_CHUNK_SIZE: ${{ matrix.limit }}
-
-          GOOGLE_TRENDS_GEO: ""
-          GOOGLE_TRENDS_DATE: "today 3-m"
-
-          # 0 means all generated keyword variants.
-          GOOGLE_TRENDS_MAX_VARIANTS: 0
-          GOOGLE_TRENDS_VARIANT_CONCURRENCY: 6
-
-      - name: Rename Google Trends output files
+        shell: bash
         run: |
-          mkdir -p google-trends-chunk
+          set +e
+          timeout 330m node scripts/fetch-google-trends.js
+          EXIT_CODE=$?
+          echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
+          exit 0
 
-          [ -f google-trends.json ] && mv google-trends.json google-trends-chunk/google-trends-${{ matrix.start }}.json || true
-          [ -f trend-keywords.json ] && mv trend-keywords.json google-trends-chunk/trend-keywords-${{ matrix.start }}.json || true
-          [ -f google-trends-meta.json ] && mv google-trends-meta.json google-trends-chunk/google-trends-meta-${{ matrix.start }}.json || true
+      - name: Debug Google Trends chunk files
+        if: always()
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "All files in root:"
+          ls -la
+          echo "Google Trends files:"
+          ls -la google-trends* || true
+          echo "Trend keyword files:"
+          ls -la trend-keywords* || true
 
-      - name: Upload Google Trends chunk
+      - name: Upload Google Trends chunk artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}
-          path: google-trends-chunk/
+          name: google-trends-chunk-${{ matrix.chunk }}
+          if-no-files-found: warn
+          path: |
+            google-trends-chunk-*.json
+            google-trends-failed-chunk-*.json
+            google-trends-checkpoint-chunk-*.json
+            google-trends-meta-chunk-*.json
+            trend-keywords.json
+            trend-keywords-all.json
 
   amazon-lens:
     needs: merge-sources
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
-    strategy:
-      fail-fast: false
-      max-parallel: 5
-      matrix:
-        include:
-          - start: 0
-            limit: 200
-            name: amazon-lens-0
-          - start: 200
-            limit: 200
-            name: amazon-lens-200
-          - start: 400
-            limit: 200
-            name: amazon-lens-400
-          - start: 600
-            limit: 200
-            name: amazon-lens-600
-          - start: 800
-            limit: 200
-            name: amazon-lens-800
-          - start: 1000
-            limit: 200
-            name: amazon-lens-1000
-          - start: 1200
-            limit: 200
-            name: amazon-lens-1200
-          - start: 1400
-            limit: 200
-            name: amazon-lens-1400
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download source products
+      - name: Download merged source products
         uses: actions/download-artifact@v4
         with:
-          name: source-products
+          name: merged-source-products
           path: .
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
 
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
-      - name: Install Puppeteer Chrome
-        run: npx puppeteer browsers install chrome
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
 
-      - name: Fetch Monthly Lens Amazon Matches chunk
+      - name: Refresh Amazon/Lens monthly cache
+        if: github.event_name != 'workflow_dispatch' || github.event.inputs.refresh_amazon == 'true'
         run: node scripts/fetch-monthly-lens-amazon-matches.js
-        env:
-          # Scheduled runs always start a fresh monthly Amazon refresh.
-          # Manual runs refresh when refresh_amazon is true.
-          RESET_AMAZON_CACHE: ${{ github.event_name == 'schedule' || inputs.refresh_amazon == 'true' }}
 
-          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
-          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
-
-          MONTHLY_LENS_DELAY_MS: 1500
-          AMAZON_PAGE_DELAY_MS: 4500
-          AMAZON_MIN_TITLE_MATCH: 15
-          AMAZON_CANDIDATE_LIMIT: 8
-
-          DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
-          DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
-          DECODO_3_AUTH_BASE64: ${{ secrets.DECODO_3_AUTH_BASE64 }}
-
-          DECODO_MONTHLY_LIMIT: 700
-          DECODO_2_MONTHLY_LIMIT: 700
-          DECODO_3_MONTHLY_LIMIT: 700
-
-      - name: Rename Amazon output files
+      - name: Use existing Amazon/Lens cache
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.refresh_amazon == 'false'
         run: |
-          mkdir -p amazon-lens-chunk
+          echo "Skipping Amazon/Lens refresh. Existing amazon-products.json will be used if present."
+          ls -la amazon-products.json amazon-keywords.json lens-amazon-matches.json lens-amazon-failures.json lens-amazon-meta.json lens-provider-usage.json || true
 
-          [ -f amazon-products.json ] && mv amazon-products.json amazon-lens-chunk/amazon-products-${{ matrix.start }}.json || true
-          [ -f lens-amazon-matches.json ] && mv lens-amazon-matches.json amazon-lens-chunk/lens-amazon-matches-${{ matrix.start }}.json || true
-          [ -f lens-amazon-failures.json ] && mv lens-amazon-failures.json amazon-lens-chunk/lens-amazon-failures-${{ matrix.start }}.json || true
-          [ -f lens-amazon-meta.json ] && mv lens-amazon-meta.json amazon-lens-chunk/lens-amazon-meta-${{ matrix.start }}.json || true
-          [ -f lens-provider-usage.json ] && mv lens-provider-usage.json amazon-lens-chunk/lens-provider-usage-${{ matrix.start }}.json || true
-
-      - name: Upload Amazon Lens chunk
+      - name: Upload Amazon/Lens output
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}
-          path: amazon-lens-chunk/
+          name: amazon-lens-output
+          if-no-files-found: warn
+          path: |
+            amazon-products.json
+            amazon-keywords.json
+            lens-amazon-matches.json
+            lens-amazon-failures.json
+            lens-amazon-meta.json
+            lens-provider-usage.json
 
   merge:
     needs:
@@ -418,579 +273,56 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download source products
+      - name: Download merged source products
         uses: actions/download-artifact@v4
         with:
-          name: source-products
+          name: merged-source-products
           path: .
 
       - name: Download Google Trends chunks
         uses: actions/download-artifact@v4
         with:
-          pattern: google-trends-*
-          path: google-trends-artifacts
+          pattern: google-trends-chunk-*
           merge-multiple: true
+          path: .
 
-      - name: Download Amazon Lens chunks
+      - name: Download Amazon/Lens output
         uses: actions/download-artifact@v4
         with:
-          pattern: amazon-lens-*
-          path: amazon-lens-artifacts
-          merge-multiple: true
+          name: amazon-lens-output
+          path: .
 
-      - name: Combine Google Trends chunks
+      - name: Debug downloaded merge inputs
         run: |
-          node - <<'NODE'
-          const fs = require('fs');
-
-          function readJson(file, fallback) {
-            try {
-              return JSON.parse(fs.readFileSync(file, 'utf8'));
-            } catch {
-              return fallback;
-            }
-          }
-
-          function getStartNumber(file) {
-            return Number(file.match(/-(\d+)\.json$/)?.[1] || 0);
-          }
-
-          function mergeArrayFiles(dir, pattern, outFile) {
-            const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir)
-                  .filter((f) => pattern.test(f))
-                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
-                  .map((f) => `${dir}/${f}`)
-              : [];
-
-            const merged = [];
-
-            for (const file of files) {
-              const data = readJson(file, []);
-
-              if (Array.isArray(data)) {
-                merged.push(...data);
-              } else if (Array.isArray(data.products)) {
-                merged.push(...data.products);
-              } else if (Array.isArray(data.items)) {
-                merged.push(...data.items);
-              } else if (data && typeof data === 'object') {
-                merged.push(data);
-              }
-            }
-
-            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
-            console.log(
-              `Wrote ${outFile}: ${merged.length} records from ${files.length} files`
-            );
-          }
-
-          function mergeGoogleMetaFiles(dir, pattern, outFile) {
-            const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir)
-                  .filter((f) => pattern.test(f))
-                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
-                  .map((f) => `${dir}/${f}`)
-              : [];
-
-            const chunks = files
-              .map((file) => readJson(file, {}))
-              .filter(
-                (data) =>
-                  data &&
-                  typeof data === 'object' &&
-                  !Array.isArray(data)
-              );
-
-            const first = chunks[0] || {};
-
-            const failed = [
-              ...new Set(
-                chunks.flatMap((data) =>
-                  Array.isArray(data.failed) ? data.failed : []
-                )
-              )
-            ];
-
-            const merged = {
-              ...first,
-              updatedAt: new Date().toISOString(),
-              poolKeywordCount: Math.max(
-                0,
-                ...chunks.map((data) =>
-                  Number(data.poolKeywordCount || 0)
-                )
-              ),
-              chunkStart: 0,
-              chunkSize: chunks.reduce(
-                (sum, data) =>
-                  sum +
-                  Number(
-                    data.chunkSize ||
-                    data.attemptedKeywordCount ||
-                    0
-                  ),
-                0
-              ),
-              attemptedKeywordCount: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.attemptedKeywordCount || 0),
-                0
-              ),
-              savedSignalCount: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.savedSignalCount || 0),
-                0
-              ),
-              failedCount: failed.length,
-              failed,
-              chunks: chunks.map((data) => ({
-                chunkStart: Number(data.chunkStart || 0),
-                chunkSize: Number(data.chunkSize || 0),
-                attemptedKeywordCount: Number(
-                  data.attemptedKeywordCount || 0
-                ),
-                savedSignalCount: Number(
-                  data.savedSignalCount || 0
-                ),
-                failedCount: Number(data.failedCount || 0)
-              })),
-              note:
-                "Aggregated metadata for every Google Trends matrix chunk in this workflow run. The current run replaces the previous run, while all chunks inside the current run are preserved and counted."
-            };
-
-            fs.writeFileSync(
-              outFile,
-              JSON.stringify(merged, null, 2)
-            );
-
-            console.log(
-              `Wrote ${outFile}: ${chunks.length} chunks, ` +
-              `${merged.savedSignalCount}/${merged.attemptedKeywordCount} saved`
-            );
-          }
-
-          mergeArrayFiles(
-            'google-trends-artifacts',
-            /^google-trends-\d+\.json$/,
-            'google-trends.json'
-          );
-
-          mergeArrayFiles(
-            'google-trends-artifacts',
-            /^trend-keywords-\d+\.json$/,
-            'trend-keywords.json'
-          );
-
-          mergeGoogleMetaFiles(
-            'google-trends-artifacts',
-            /^google-trends-meta-\d+\.json$/,
-            'google-trends-meta.json'
-          );
-          NODE
-
-      - name: Combine Amazon Lens chunks
-        env:
-          RESET_AMAZON_CACHE: ${{ github.event_name == 'schedule' || inputs.refresh_amazon == 'true' }}
-        run: |
-          node - <<'NODE'
-          const fs = require('fs');
-
-          function readJson(file, fallback) {
-            try {
-              return JSON.parse(fs.readFileSync(file, 'utf8'));
-            } catch {
-              return fallback;
-            }
-          }
-
-          function num(value) {
-            const parsed = Number(value);
-            return Number.isFinite(parsed) ? parsed : 0;
-          }
-
-          function getStartNumber(file) {
-            return Number(file.match(/-(\d+)\.json$/)?.[1] || 0);
-          }
-
-          function cleanKey(value) {
-            return String(value || '')
-              .toLowerCase()
-              .replace(/https?:\/\//g, '')
-              .replace(/[?#].*$/g, '')
-              .replace(/[^a-z0-9]+/g, ' ')
-              .replace(/\s+/g, ' ')
-              .trim();
-          }
-
-          function amazonKey(item) {
-            const productId = cleanKey(
-              item.productId ||
-              item.cjProductId ||
-              item.sourceProductId ||
-              item.id
-            );
-
-            if (productId) {
-              return `product:${productId}`;
-            }
-
-            const productName = cleanKey(
-              item.productName ||
-              item.cjProductName ||
-              item.originalProductName ||
-              item.keyword
-            );
-
-            if (productName) {
-              return `name:${productName}`;
-            }
-
-            const productUrl = cleanKey(
-              item.productUrl ||
-              item.url ||
-              item.amazonUrl
-            );
-
-            if (productUrl) {
-              return `url:${productUrl}`;
-            }
-
-            const title = cleanKey(
-              item.title ||
-              item.amazonTitle
-            );
-
-            if (title) {
-              return `title:${title}`;
-            }
-
-            return '';
-          }
-
-          function quality(item) {
-            return (
-              num(item.score) * 1000 +
-              num(item.matchScore) * 20 +
-              num(item.bestRating) * 20 +
-              Math.log10(num(item.bestRatingsTotal) + 1) * 60 +
-              (item.productUrl || item.url || item.amazonUrl ? 30 : 0) +
-              (item.asin ? 30 : 0) +
-              (item.isBestSeller ? 40 : 0)
-            );
-          }
-
-          function putBest(map, item) {
-            const key = amazonKey(item);
-            if (!key) return;
-
-            const previous = map.get(key);
-
-            if (!previous || quality(item) > quality(previous)) {
-              map.set(key, item);
-            }
-          }
-
-          function arrayFiles(dir, pattern) {
-            return fs.existsSync(dir)
-              ? fs.readdirSync(dir)
-                  .filter((file) => pattern.test(file))
-                  .sort(
-                    (a, b) =>
-                      getStartNumber(a) - getStartNumber(b)
-                  )
-                  .map((file) => `${dir}/${file}`)
-              : [];
-          }
-
-          function mergeArrayFiles(dir, pattern, outFile) {
-            const files = arrayFiles(dir, pattern);
-            const merged = [];
-
-            for (const file of files) {
-              const data = readJson(file, []);
-
-              if (Array.isArray(data)) {
-                merged.push(...data);
-              } else if (Array.isArray(data.products)) {
-                merged.push(...data.products);
-              } else if (Array.isArray(data.matches)) {
-                merged.push(...data.matches);
-              } else if (Array.isArray(data.items)) {
-                merged.push(...data.items);
-              } else if (
-                data &&
-                typeof data === 'object'
-              ) {
-                merged.push(data);
-              }
-            }
-
-            fs.writeFileSync(
-              outFile,
-              JSON.stringify(merged, null, 2)
-            );
-
-            console.log(
-              `Wrote ${outFile}: ${merged.length} records ` +
-              `from ${files.length} files`
-            );
-
-            return merged;
-          }
-
-          function mergeProviderUsageFiles(
-            dir,
-            pattern,
-            outFile
-          ) {
-            const files = arrayFiles(dir, pattern);
-            const merged = {};
-
-            for (const file of files) {
-              const data = readJson(file, {});
-
-              if (
-                !data ||
-                typeof data !== 'object' ||
-                Array.isArray(data)
-              ) {
-                continue;
-              }
-
-              for (const [month, providers] of Object.entries(data)) {
-                if (
-                  !providers ||
-                  typeof providers !== 'object' ||
-                  Array.isArray(providers)
-                ) {
-                  continue;
-                }
-
-                merged[month] ||= {};
-
-                for (const [provider, value] of Object.entries(providers)) {
-                  merged[month][provider] = Math.max(
-                    Number(merged[month][provider] || 0),
-                    Number(value || 0)
-                  );
-                }
-              }
-            }
-
-            fs.writeFileSync(
-              outFile,
-              JSON.stringify(merged, null, 2)
-            );
-
-            console.log(
-              `Wrote ${outFile} from ${files.length} files ` +
-              `using maximum per-provider matrix usage`
-            );
-
-            return merged;
-          }
-
-          function mergeLensMetaFiles(
-            dir,
-            pattern,
-            outFile,
-            providerUsage
-          ) {
-            const files = arrayFiles(dir, pattern);
-
-            const chunks = files
-              .map((file) => readJson(file, {}))
-              .filter(
-                (data) =>
-                  data &&
-                  typeof data === 'object' &&
-                  !Array.isArray(data)
-              );
-
-            const first = chunks[0] || {};
-
-            const month =
-              chunks.map((data) => data.month).find(Boolean) ||
-              new Date().toISOString().slice(0, 7);
-
-            const merged = {
-              ...first,
-              updatedAt: new Date().toISOString(),
-              month,
-              startIndex: 0,
-              maxProducts: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.maxProducts || 0),
-                0
-              ),
-              matches: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.matches || 0),
-                0
-              ),
-              failures: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.failures || 0),
-                0
-              ),
-              providerUsage: providerUsage?.[month] || {},
-              resetAmazonCache: chunks.some(
-                (data) => Boolean(data.resetAmazonCache)
-              ),
-              chunks: chunks.map((data) => ({
-                startIndex: Number(data.startIndex || 0),
-                maxProducts: Number(data.maxProducts || 0),
-                matches: Number(data.matches || 0),
-                failures: Number(data.failures || 0),
-                providerUsage: data.providerUsage || {}
-              })),
-              note:
-                "Aggregated metadata for every Amazon matrix chunk. Provider usage uses the maximum seeded usage reported per provider, preventing matrix chunks from overwriting one another."
-            };
-
-            fs.writeFileSync(
-              outFile,
-              JSON.stringify(merged, null, 2)
-            );
-
-            console.log(
-              `Wrote ${outFile}: ${chunks.length} chunks, ` +
-              `${merged.matches} matches, ${merged.failures} failures`
-            );
-          }
-
-          const resetAmazon =
-            /^(1|true|yes)$/i.test(
-              String(
-                process.env.RESET_AMAZON_CACHE ||
-                'false'
-              )
-            );
-
-          const previousCache = resetAmazon
-            ? []
-            : readJson('amazon-products.json', []);
-
-          const cacheMap = new Map();
-
-          for (
-            const item of Array.isArray(previousCache)
-              ? previousCache
-              : []
-          ) {
-            putBest(cacheMap, item);
-          }
-
-          const beforeCount = cacheMap.size;
-
-          const chunkRecords = mergeArrayFiles(
-            'amazon-lens-artifacts',
-            /^amazon-products-\d+\.json$/,
-            'amazon-products-new-chunks.json'
-          );
-
-          for (const item of chunkRecords) {
-            putBest(cacheMap, item);
-          }
-
-          const finalAmazon = [...cacheMap.values()];
-
-          fs.writeFileSync(
-            'amazon-products.json',
-            JSON.stringify(finalAmazon, null, 2)
-          );
-
-          console.log(
-            `Amazon cache ${resetAmazon ? 'RESET' : 'KEPT'}: ` +
-            `${beforeCount} existing + ${chunkRecords.length} ` +
-            `new chunk records -> ${finalAmazon.length} deduped records`
-          );
-
-          mergeArrayFiles(
-            'amazon-lens-artifacts',
-            /^lens-amazon-matches-\d+\.json$/,
-            'lens-amazon-matches.json'
-          );
-
-          mergeArrayFiles(
-            'amazon-lens-artifacts',
-            /^lens-amazon-failures-\d+\.json$/,
-            'lens-amazon-failures.json'
-          );
-
-          const mergedProviderUsage =
-            mergeProviderUsageFiles(
-              'amazon-lens-artifacts',
-              /^lens-provider-usage-\d+\.json$/,
-              'lens-provider-usage.json'
-            );
-
-          mergeLensMetaFiles(
-            'amazon-lens-artifacts',
-            /^lens-amazon-meta-\d+\.json$/,
-            'lens-amazon-meta.json',
-            mergedProviderUsage
-          );
-          NODE
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
+          echo "Current directory:"
+          pwd
+          echo "Downloaded files:"
+          find . -maxdepth 4 -type f | sort
+          echo "Google Trends files:"
+          find . -name 'google-trends*' -type f | sort
+          echo "Amazon/Lens files:"
+          find . -name 'amazon*' -type f | sort
+          find . -name 'lens*' -type f | sort
 
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
 
-      - name: Merge Trend Signals
+      - name: Merge Google Trends chunks
+        env:
+          GOOGLE_TRENDS_CHUNK_TOTAL: 10
+        run: node scripts/merge-google-trends-chunks.js
+
+      - name: Merge trend signals into products
         run: node scripts/merge-trend-signals.js
 
-      - name: Commit Results
+      - name: Commit updated product trend data
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git stash push -u -m "generated-trend-results" || true
-
-          git pull --rebase origin main || true
-
-          git stash pop || true
-
-          for file in \
-            products.json \
-            source-products-meta.json \
-            cj-products.json \
-            cj-products-meta.json \
-            aliexpress-products.json \
-            aliexpress-meta.json \
-            aliexpress-keywords.json \
-            google-trends.json \
-            trend-keywords.json \
-            google-trends-meta.json \
-            trend-history.json \
-            amazon-products.json \
-            lens-amazon-matches.json \
-            lens-amazon-failures.json \
-            lens-amazon-meta.json \
-            lens-provider-usage.json
-          do
-            [ -f "$file" ] && git add "$file"
-          done
-
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-
-          git commit -m "Update trending products"
-
-          git push || {
-            git pull --rebase origin main
-            git push
-          }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add products.json trend-history.json products-meta.json source-products-meta.json cj-products.json cj-products-meta.json aliexpress-products.json aliexpress-meta.json aliexpress-keywords.json amazon-products.json amazon-keywords.json lens-amazon-matches.json lens-amazon-failures.json lens-amazon-meta.json lens-provider-usage.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-failed-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json trend-keywords.json trend-keywords-all.json || true
+          git commit -m "Update product trend data" || echo "No changes to commit"
+          git push
