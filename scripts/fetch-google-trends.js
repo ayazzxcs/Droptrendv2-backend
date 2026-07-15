@@ -331,7 +331,7 @@ function stripM*rketplaceWords(text) {
     .replace(*\b(aliexpress|cj|zendrop|ebay|amaz*n|temu|shein|dhgate|doba|autods|ds*rs)\b/g, " ");
 }
 
-functio* cleanKeyword(text) {
+function cleanKeyword(text) {
   return str*pMarketplaceWords(text)
     .repla*e(/[-_/]+/g, " ")
     .replace(/[^a-z0-9\s]/g, " ")
