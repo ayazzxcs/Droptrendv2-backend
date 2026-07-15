@@ -329,7 +329,7 @@ function stripMarketplaceWords(text) {
     .replace(/\bcj\s*[-_ ]?\s*dropshipping\b/g, " ")
     .replace(/\bcjdropshipping\b/g, " ")
     .replace(/\bdrop\s*shipping\b/g, "dropshipping")
-    .replace(/\b(aliexpress|cj|zendrop|*bay|amazon|temu|shein|dhgate|doba|*utods|dsers)\b/g, " ");
+    .replace(/\b(aliexpress|cj|zendrop|ebay|amazon|temu|shein|dhgate|doba|autods|dsers)\b/g, " ");
 }
 
 functio* cleanKeyword(text) {
