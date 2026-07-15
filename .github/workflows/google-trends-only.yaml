@@ -9,17 +9,18 @@ permissions:
 jobs:
   google-trends:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 300
     strategy:
       fail-fast: false
       matrix:
-        chunk: [0, 1, 2, 3, 4]
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     env:
-      GOOGLE_TRENDS_CHUNK_TOTAL: 5
+      GOOGLE_TRENDS_CHUNK_TOTAL: 10
       GOOGLE_TRENDS_CHUNK_INDEX: ${{ matrix.chunk }}
       GOOGLE_TRENDS_CHUNK_INDEX_BASE: 0
-      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 180000
+      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 120000
       GOOGLE_TRENDS_VARIANT_CONCURRENCY: 6
+      GOOGLE_TRENDS_MAX_VARIANTS: 24
       PUPPETEER_SKIP_DOWNLOAD: "true"
     steps:
       - name: Checkout repository
@@ -28,7 +29,8 @@ jobs:
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
 
       - name: Install Playwright Chromium
@@ -38,7 +40,7 @@ jobs:
         shell: bash
         run: |
           set +e
-          timeout 330m node scripts/fetch-google-trends.js
+          timeout 240m node scripts/fetch-google-trends.js
           EXIT_CODE=$?
           echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
           exit 0
@@ -75,17 +77,18 @@ jobs:
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            sleep 10
           done
 
       - name: Merge Google Trends chunks
         env:
-          GOOGLE_TRENDS_CHUNK_TOTAL: 5
+          GOOGLE_TRENDS_CHUNK_TOTAL: 10
         run: node scripts/merge-google-trends-chunks.js
 
       - name: Merge trend signals into products
         run: node scripts/merge-trend-signals.js
-      
+
       - name: Commit Google Trends and product data
         run: |
           git config user.name "github-actions[bot]"
