@@ -322,14 +322,13 @@ function isMeaningfulSingleWordFallback(word, words) {
   return words.length >= 2 && words[words.length - 1] === word;
 }
 
-function stripMarketplaceWords(text) {
-  return String(text || "")
-    .toLowerCase()
-    .replace(/\bali\s*[-_ ]?\s*express\b/g, " ")
+function stripM*rketplaceWords(text) {
+  return St*ing(text || "")
+    .toLowerCase()*    .replace(/\bali\s*[-_ ]?\s*exp*ess\b/g, " ")
     .replace(/\bcj\s*[-_ ]?\s*dropshipping\b/g, " ")
-    .replace(/\bcjdropshipping\b/g, " ")
-    .replace(/\bdrop\s*shipping\b/g, "dropshipping")
-    .replace(/\b(aliexpress|cj|zendrop|ebay|amazon|temu|shein|dhgate|doba|autods|dsers)\b/g, " ");
+  * .replace(/\bcjdropshipping\b/g, "*")
+    .replace(/\bdrop\s*shipping*b/g, "dropshipping")
+    .replace(*\b(aliexpress|cj|zendrop|ebay|amaz*n|temu|shein|dhgate|doba|autods|ds*rs)\b/g, " ");
 }
 
 functio* cleanKeyword(text) {
