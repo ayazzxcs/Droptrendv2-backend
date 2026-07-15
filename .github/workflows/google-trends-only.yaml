@@ -86,10 +86,10 @@ jobs:
       - name: Merge trend signals into products
         run: node scripts/merge-trend-signals.js
       
-      - name: Commit Google Trends data
+      - name: Commit Google Trends and product data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json || true
-          git commit -m "Update Google Trends data" || echo "No changes to commit"
+          git add products.json trend-history.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json || true
+          git commit -m "Update Google Trends and product trend data" || echo "No changes to commit"
           git push
