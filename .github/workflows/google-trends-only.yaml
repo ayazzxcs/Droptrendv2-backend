@@ -9,19 +9,20 @@ permissions:
 jobs:
   google-trends:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 360
     strategy:
       fail-fast: false
       matrix:
         chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
     env:
       GOOGLE_TRENDS_CHUNK_TOTAL: 10
       GOOGLE_TRENDS_CHUNK_INDEX: ${{ matrix.chunk }}
       GOOGLE_TRENDS_CHUNK_INDEX_BASE: 0
-      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 120000
-      GOOGLE_TRENDS_VARIANT_CONCURRENCY: 6
-      GOOGLE_TRENDS_MAX_VARIANTS: 24
+      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 180000
+      GOOGLE_TRENDS_VARIANT_CONCURRENCY: 3
       PUPPETEER_SKIP_DOWNLOAD: "true"
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -40,10 +41,22 @@ jobs:
         shell: bash
         run: |
           set +e
-          timeout 240m node scripts/fetch-google-trends.js
+          timeout 330m node scripts/fetch-google-trends.js
           EXIT_CODE=$?
           echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
           exit 0
+
+      - name: Debug Google Trends chunk files
+        if: always()
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "All files in root:"
+          ls -la
+          echo "Google Trends files:"
+          ls -la google-trends* || true
+          echo "Trend keyword files:"
+          ls -la trend-keywords* || true
 
       - name: Upload Google Trends chunk artifact
         if: always()
@@ -52,10 +65,10 @@ jobs:
           name: google-trends-chunk-${{ matrix.chunk }}
           if-no-files-found: warn
           path: |
-            google-trends-chunk-${{ matrix.chunk }}.json
-            google-trends-failed-chunk-${{ matrix.chunk }}.json
-            google-trends-checkpoint-chunk-${{ matrix.chunk }}.json
-            google-trends-meta-chunk-${{ matrix.chunk }}.json
+            google-trends-chunk-*.json
+            google-trends-failed-chunk-*.json
+            google-trends-checkpoint-chunk-*.json
+            google-trends-meta-chunk-*.json
             trend-keywords.json
             trend-keywords-all.json
 
@@ -63,6 +76,7 @@ jobs:
     needs: google-trends
     runs-on: ubuntu-latest
     timeout-minutes: 30
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -73,6 +87,17 @@ jobs:
           pattern: google-trends-chunk-*
           merge-multiple: true
           path: .
+
+      - name: Debug downloaded Google Trends chunks
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Downloaded files:"
+          find . -maxdepth 3 -type f | sort
+          echo "Google Trends files:"
+          find . -name 'google-trends*' -type f | sort
+          echo "Trend keyword files:"
+          find . -name 'trend-keywords*' -type f | sort
 
       - name: Install dependencies
         run: |
