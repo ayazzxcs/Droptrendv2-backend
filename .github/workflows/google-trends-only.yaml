@@ -10,83 +10,54 @@ jobs:
   google-trends:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-
     strategy:
       fail-fast: false
-      max-parallel: 5
       matrix:
-        include:
-          - start: 0
-            limit: 300
-            name: google-trends-0
-          - start: 300
-            limit: 300
-            name: google-trends-300
-          - start: 600
-            limit: 300
-            name: google-trends-600
-          - start: 900
-            limit: 300
-            name: google-trends-900
-          - start: 1200
-            limit: 300
-            name: google-trends-1200
-
+        chunk: [0, 1, 2, 3, 4]
+    env:
+      GOOGLE_TRENDS_CHUNK_TOTAL: 5
+      GOOGLE_TRENDS_CHUNK_INDEX: ${{ matrix.chunk }}
+      GOOGLE_TRENDS_CHUNK_INDEX_BASE: 0
+      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 180000
+      GOOGLE_TRENDS_VARIANT_CONCURRENCY: 6
+      PUPPETEER_SKIP_DOWNLOAD: "true"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-
       - name: Install dependencies
-        run: |
-          for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
-          done
-        env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
+        run: npm ci
 
       - name: Install Playwright Chromium
         run: npx playwright install --with-deps chromium
 
       - name: Fetch Google Trends chunk
-        run: node scripts/fetch-google-trends.js
-        env:
-          GOOGLE_TRENDS_KEYWORD_POOL_LIMIT: 1500
-          GOOGLE_TRENDS_START_INDEX: ${{ matrix.start }}
-          GOOGLE_TRENDS_LIMIT: ${{ matrix.limit }}
-          GOOGLE_TRENDS_CHUNK_START: ${{ matrix.start }}
-          GOOGLE_TRENDS_CHUNK_SIZE: ${{ matrix.limit }}
-          GOOGLE_TRENDS_GEO: ""
-          GOOGLE_TRENDS_DATE: "today 3-m"
-          GOOGLE_TRENDS_MAX_VARIANTS: 0
-          GOOGLE_TRENDS_VARIANT_CONCURRENCY: 6
-
-      - name: Rename Google Trends output files
+        shell: bash
         run: |
-          mkdir -p google-trends-chunk
-          [ -f google-trends.json ] && mv google-trends.json google-trends-chunk/google-trends-${{ matrix.start }}.json || true
-          [ -f trend-keywords.json ] && mv trend-keywords.json google-trends-chunk/trend-keywords-${{ matrix.start }}.json || true
-          [ -f google-trends-meta.json ] && mv google-trends-meta.json google-trends-chunk/google-trends-meta-${{ matrix.start }}.json || true
+          set +e
+          timeout 330m node scripts/fetch-google-trends.js
+          EXIT_CODE=$?
+          echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
+          exit 0
 
-      - name: Upload Google Trends chunk
+      - name: Upload Google Trends chunk artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ matrix.name }}
-          path: google-trends-chunk/
+          name: google-trends-chunk-${{ matrix.chunk }}
+          if-no-files-found: warn
+          path: |
+            google-trends-chunk-${{ matrix.chunk }}.json
+            google-trends-failed-chunk-${{ matrix.chunk }}.json
+            google-trends-checkpoint-chunk-${{ matrix.chunk }}.json
+            google-trends-meta-chunk-${{ matrix.chunk }}.json
+            trend-keywords.json
+            trend-keywords-all.json
 
   merge:
     needs: google-trends
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -94,207 +65,22 @@ jobs:
       - name: Download Google Trends chunks
         uses: actions/download-artifact@v4
         with:
-          pattern: google-trends-*
-          path: google-trends-artifacts
+          pattern: google-trends-chunk-*
           merge-multiple: true
-
-      - name: Combine Google Trends chunks
-        run: |
-          node - <<'NODE'
-          const fs = require('fs');
-
-          function readJson(file, fallback) {
-            try {
-              return JSON.parse(fs.readFileSync(file, 'utf8'));
-            } catch {
-              return fallback;
-            }
-          }
-
-          function getStartNumber(file) {
-            return Number(file.match(/-(\d+)\.json$/)?.[1] || 0);
-          }
-
-          function mergeArrayFiles(dir, pattern, outFile) {
-            const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir)
-                  .filter((f) => pattern.test(f))
-                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
-                  .map((f) => `${dir}/${f}`)
-              : [];
-
-            const merged = [];
-
-            for (const file of files) {
-              const data = readJson(file, []);
-
-              if (Array.isArray(data)) {
-                merged.push(...data);
-              } else if (Array.isArray(data.products)) {
-                merged.push(...data.products);
-              } else if (Array.isArray(data.items)) {
-                merged.push(...data.items);
-              } else if (data && typeof data === 'object') {
-                merged.push(data);
-              }
-            }
-
-            fs.writeFileSync(outFile, JSON.stringify(merged, null, 2));
-            console.log(
-              `Wrote ${outFile}: ${merged.length} records from ${files.length} files`
-            );
-          }
-
-          function mergeGoogleMetaFiles(dir, pattern, outFile) {
-            const files = fs.existsSync(dir)
-              ? fs.readdirSync(dir)
-                  .filter((f) => pattern.test(f))
-                  .sort((a, b) => getStartNumber(a) - getStartNumber(b))
-                  .map((f) => `${dir}/${f}`)
-              : [];
-
-            const chunks = files
-              .map((file) => readJson(file, {}))
-              .filter(
-                (data) =>
-                  data &&
-                  typeof data === 'object' &&
-                  !Array.isArray(data)
-              );
-
-            const first = chunks[0] || {};
-
-            const failed = [
-              ...new Set(
-                chunks.flatMap((data) =>
-                  Array.isArray(data.failed) ? data.failed : []
-                )
-              )
-            ];
-
-            const merged = {
-              ...first,
-              updatedAt: new Date().toISOString(),
-              poolKeywordCount: Math.max(
-                0,
-                ...chunks.map((data) =>
-                  Number(data.poolKeywordCount || 0)
-                )
-              ),
-              chunkStart: 0,
-              chunkSize: chunks.reduce(
-                (sum, data) =>
-                  sum +
-                  Number(
-                    data.chunkSize ||
-                    data.attemptedKeywordCount ||
-                    0
-                  ),
-                0
-              ),
-              attemptedKeywordCount: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.attemptedKeywordCount || 0),
-                0
-              ),
-              savedSignalCount: chunks.reduce(
-                (sum, data) =>
-                  sum + Number(data.savedSignalCount || 0),
-                0
-              ),
-              failedCount: failed.length,
-              failed,
-              chunks: chunks.map((data) => ({
-                chunkStart: Number(data.chunkStart || 0),
-                chunkSize: Number(data.chunkSize || 0),
-                attemptedKeywordCount: Number(
-                  data.attemptedKeywordCount || 0
-                ),
-                savedSignalCount: Number(
-                  data.savedSignalCount || 0
-                ),
-                failedCount: Number(data.failedCount || 0)
-              })),
-              note:
-                "Aggregated metadata for every Google Trends matrix chunk in this workflow run. The current run replaces the previous run, while all chunks inside the current run are preserved and counted."
-            };
-
-            fs.writeFileSync(
-              outFile,
-              JSON.stringify(merged, null, 2)
-            );
-
-            console.log(
-              `Wrote ${outFile}: ${chunks.length} chunks, ` +
-              `${merged.savedSignalCount}/${merged.attemptedKeywordCount} saved`
-            );
-          }
-
-          mergeArrayFiles(
-            'google-trends-artifacts',
-            /^google-trends-\d+\.json$/,
-            'google-trends.json'
-          );
-
-          mergeArrayFiles(
-            'google-trends-artifacts',
-            /^trend-keywords-\d+\.json$/,
-            'trend-keywords.json'
-          );
-
-          mergeGoogleMetaFiles(
-            'google-trends-artifacts',
-            /^google-trends-meta-\d+\.json$/,
-            'google-trends-meta.json'
-          );
-          NODE
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
+          path: .
 
       - name: Install dependencies
-        run: |
-          for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break || sleep 15
-          done
+        run: npm ci
+
+      - name: Merge Google Trends chunks
         env:
-          NPM_CONFIG_FETCH_RETRIES: 10
-          NPM_CONFIG_FETCH_TIMEOUT: 600000
-          NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 30000
-          NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 120000
+          GOOGLE_TRENDS_CHUNK_TOTAL: 5
+        run: node scripts/merge-google-trends-chunks.js
 
-      - name: Merge Trend Signals
-        run: node scripts/merge-trend-signals.js
-
-      - name: Commit Results
+      - name: Commit Google Trends data
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git stash push -u -m "generated-trend-results" || true
-
-          git pull --rebase origin main || true
-
-          git stash pop || true
-
-          for file in \
-            products.json \
-            google-trends.json \
-            trend-keywords.json \
-            google-trends-meta.json \
-            trend-history.json
-          do
-            [ -f "$file" ] && git add "$file"
-          done
-
-          git diff --cached --quiet && echo "No changes to commit" && exit 0
-
-          git commit -m "Update Google Trends data only"
-
-          git push || {
-            git pull --rebase origin main
-            git push
-          }
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json || true
+          git commit -m "Update Google Trends data" || echo "No changes to commit"
+          git push
