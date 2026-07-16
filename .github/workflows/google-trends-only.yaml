@@ -80,6 +80,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download Google Trends chunks
         uses: actions/download-artifact@v4
@@ -124,9 +126,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          echo "Syncing local branch with origin/$BRANCH before committing..."
+          echo "Syncing local branch with origin/$BRANCH before applying generated changes..."
           git fetch origin "$BRANCH"
-          git pull --rebase --autostash origin "$BRANCH"
+          git reset --soft "origin/$BRANCH"
 
           git add products.json trend-history.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-failed-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json trend-keywords.json trend-keywords-all.json || true
 
@@ -138,20 +140,4 @@ jobs:
           git commit -m "Update Google Trends and product trend data"
 
           echo "Pushing changes..."
-          for attempt in 1 2 3; do
-            echo "Push attempt $attempt"
-
-            git fetch origin "$BRANCH"
-            git pull --rebase --autostash origin "$BRANCH"
-
-            if git push origin "HEAD:$BRANCH"; then
-              echo "Push successful"
-              exit 0
-            fi
-
-            echo "Push failed, retrying after 10 seconds..."
-            sleep 10
-          done
-
-          echo "Push failed after 3 attempts"
-          exit 1
+          git push origin "HEAD:$BRANCH"
