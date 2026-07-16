@@ -117,27 +117,13 @@ jobs:
         run: node scripts/merge-trend-signals.js
 
       - name: Commit Google Trends and product data
-        shell: bash
         run: |
-          set -e
-
-          BRANCH="${GITHUB_REF_NAME:-main}"
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          echo "Syncing local branch with origin/$BRANCH before applying generated changes..."
-          git fetch origin "$BRANCH"
-          git reset --soft "origin/$BRANCH"
-
           git add products.json trend-history.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-failed-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json trend-keywords.json trend-keywords-all.json || true
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
+          git commit -m "Update Google Trends and product trend data" || echo "No changes to commit"
 
-          git commit -m "Update Google Trends and product trend data"
-
-          echo "Pushing changes..."
-          git push origin "HEAD:$BRANCH"
+          git pull --rebase --autostash origin main
+          git push origin main
