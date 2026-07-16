@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T07:32:36.861Z",
+  "chunkIndex": 0,
+  "rawChunkIndex": 0,
+  "normalizedChunkIndex": 0,
+  "totalChunks": 10,
+  "chunkStart": 0,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 14,
+  "failedCount": 136,
+  "lastKeyword": "glass screen protectors protector camera",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 8716,
+  "reusedVariantChecks": 1401,
+  "variantCacheSize": 7242,
+  "keywordTimeoutMs": 180000
+}

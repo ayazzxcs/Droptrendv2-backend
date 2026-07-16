@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T03:21:31.298Z",
+  "chunkIndex": 9,
+  "rawChunkIndex": 9,
+  "normalizedChunkIndex": 9,
+  "totalChunks": 10,
+  "chunkStart": 1350,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 77,
+  "failedCount": 73,
+  "lastKeyword": "shoes",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 1515,
+  "reusedVariantChecks": 232,
+  "variantCacheSize": 1515,
+  "keywordTimeoutMs": 180000
+}

@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T04:23:13.951Z",
+  "chunkIndex": 6,
+  "rawChunkIndex": 6,
+  "normalizedChunkIndex": 6,
+  "totalChunks": 10,
+  "chunkStart": 900,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "dresses shirt dress",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2771,
+  "reusedVariantChecks": 435,
+  "variantCacheSize": 2771,
+  "keywordTimeoutMs": 180000
+}

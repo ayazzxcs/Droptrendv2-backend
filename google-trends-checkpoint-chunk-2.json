@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T06:03:02.260Z",
+  "chunkIndex": 2,
+  "rawChunkIndex": 2,
+  "normalizedChunkIndex": 2,
+  "totalChunks": 10,
+  "chunkStart": 300,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 42,
+  "failedCount": 108,
+  "lastKeyword": "controller hub",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 4796,
+  "reusedVariantChecks": 1003,
+  "variantCacheSize": 4796,
+  "keywordTimeoutMs": 180000
+}

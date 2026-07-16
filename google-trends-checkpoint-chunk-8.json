@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T03:48:41.380Z",
+  "chunkIndex": 8,
+  "rawChunkIndex": 8,
+  "normalizedChunkIndex": 8,
+  "totalChunks": 10,
+  "chunkStart": 1200,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 72,
+  "failedCount": 78,
+  "lastKeyword": "casual shoes cowhide soft-soled",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2138,
+  "reusedVariantChecks": 249,
+  "variantCacheSize": 2138,
+  "keywordTimeoutMs": 180000
+}

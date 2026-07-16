@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T04:59:30.125Z",
+  "chunkIndex": 4,
+  "rawChunkIndex": 4,
+  "normalizedChunkIndex": 4,
+  "totalChunks": 10,
+  "chunkStart": 600,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 66,
+  "failedCount": 84,
+  "lastKeyword": "cabinet light lamp tv",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 3489,
+  "reusedVariantChecks": 750,
+  "variantCacheSize": 3489,
+  "keywordTimeoutMs": 180000
+}

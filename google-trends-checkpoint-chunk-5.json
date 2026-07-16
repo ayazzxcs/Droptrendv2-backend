@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T04:31:51.488Z",
+  "chunkIndex": 5,
+  "rawChunkIndex": 5,
+  "normalizedChunkIndex": 5,
+  "totalChunks": 10,
+  "chunkStart": 750,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 53,
+  "failedCount": 97,
+  "lastKeyword": "earrings ins minimal retro",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 3021,
+  "reusedVariantChecks": 519,
+  "variantCacheSize": 3021,
+  "keywordTimeoutMs": 180000
+}

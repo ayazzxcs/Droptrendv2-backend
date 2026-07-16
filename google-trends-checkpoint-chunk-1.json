@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T07:07:03.437Z",
+  "chunkIndex": 1,
+  "rawChunkIndex": 1,
+  "normalizedChunkIndex": 1,
+  "totalChunks": 10,
+  "chunkStart": 150,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 52,
+  "failedCount": 98,
+  "lastKeyword": "bag holder case wallet cover",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 6177,
+  "reusedVariantChecks": 1139,
+  "variantCacheSize": 6177,
+  "keywordTimeoutMs": 180000
+}

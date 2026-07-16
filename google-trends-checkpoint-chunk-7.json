@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T04:03:56.424Z",
+  "chunkIndex": 7,
+  "rawChunkIndex": 7,
+  "normalizedChunkIndex": 7,
+  "totalChunks": 10,
+  "chunkStart": 1050,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "hoodies hoodie",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2339,
+  "reusedVariantChecks": 401,
+  "variantCacheSize": 2339,
+  "keywordTimeoutMs": 180000
+}

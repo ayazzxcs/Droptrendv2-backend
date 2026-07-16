@@ -1,0 +1,20 @@
+{
+  "updatedAt": "2026-07-16T05:37:29.199Z",
+  "chunkIndex": 3,
+  "rawChunkIndex": 3,
+  "normalizedChunkIndex": 3,
+  "totalChunks": 10,
+  "chunkStart": 450,
+  "chunkSize": 150,
+  "attemptedKeywordCount": 150,
+  "processedKeywordCount": 150,
+  "savedSignalCount": 39,
+  "failedCount": 111,
+  "lastKeyword": "charger cable phone",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 4323,
+  "reusedVariantChecks": 867,
+  "variantCacheSize": 4323,
+  "keywordTimeoutMs": 180000
+}
