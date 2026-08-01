@@ -73,8 +73,8 @@ jobs:
             sleep 10
           done
 
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Fetch AliExpress products
         run: node scripts/fetch-aliexpress-products.js
