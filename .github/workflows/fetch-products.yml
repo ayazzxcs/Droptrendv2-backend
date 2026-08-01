@@ -234,8 +234,8 @@ jobs:
             sleep 10
           done
 
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
 
       - name: Refresh Amazon/Lens monthly cache
         if: github.event_name != 'workflow_dispatch' || github.event.inputs.refresh_amazon == 'true'
