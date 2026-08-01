@@ -1,0 +1,405 @@
+name: Fetch Trending Products
+
+on:
+  schedule:
+    - cron: "0 18 3 * *"
+  workflow_dispatch:
+    inputs:
+      refresh_amazon:
+        description: "Refresh Amazon/Lens monthly cache?"
+        required: true
+        default: "true"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: write
+
+env:
+  PUPPETEER_SKIP_DOWNLOAD: "true"
+  NPM_CONFIG_FETCH_RETRIES: 10
+  NPM_CONFIG_FETCH_TIMEOUT: 300000
+  NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 10000
+  NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 60000
+
+concurrency:
+  group: droptrend-fetch-products
+  cancel-in-progress: false
+
+jobs:
+  fetch-cj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Fetch CJ Trending Products
+        run: node scripts/fetch-cj-products.js
+        env:
+          CJ_EMAIL: ${{ secrets.CJ_EMAIL }}
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+          CJ_REQUEST_INTERVAL_MS: 2500
+          CJ_RETRIES: 8
+          CJ_RETRY_BASE_MS: 6000
+          CJ_TIMEOUT_MS: 60000
+          CJ_TRENDING_PAGES: 10
+          CJ_NORMAL_PAGES: 30
+          CJ_MIN_PRODUCTS: 500
+          CJ_MAX_PRODUCTS: 1500
+      - name: Upload CJ products
+        uses: actions/upload-artifact@v4
+        with:
+          name: cj-products
+          path: |
+            cj-products.json
+            cj-products-meta.json
+            products.json
+            cj-sample-product.json
+
+  fetch-aliexpress:
+    needs: fetch-cj
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download CJ products
+        uses: actions/download-artifact@v4
+        with:
+          name: cj-products
+          path: .
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
+      - name: Fetch AliExpress source products
+        run: node scripts/fetch-aliexpress-products.js
+        env:
+          ALIEXPRESS_MAX_PRODUCTS: 1000
+          ALIEXPRESS_MAX_SEARCHES: 90
+          ALIEXPRESS_PRODUCTS_PER_KEYWORD: 24
+          ALIEXPRESS_MIN_PRODUCTS_PER_KEYWORD: 12
+          ALIEXPRESS_DELAY_MS: 2500
+          ALIEXPRESS_TIMEOUT_MS: 60000
+          ALIEXPRESS_SESSION_KEYWORD_BATCH_SIZE: 0
+          ALIEXPRESS_DISCOVER_KEYWORDS: "true"
+          ALIEXPRESS_DISCOVERY_CANDIDATE_LIMIT: 140
+          ALIEXPRESS_DISCOVERY_VALIDATION_LIMIT: 70
+          ALIEXPRESS_DISCOVERY_MIN_PRODUCTS: 8
+          ALIEXPRESS_STATIC_FALLBACK_ON_DISCOVERY_FAIL: "false"
+          ALIEXPRESS_DISCOVERY_IMMEDIATE_PROBE_RETRIES: 1
+          ALIEXPRESS_DISCOVERY_DEFERRED_PROBE_RETRIES: 3
+          ALIEXPRESS_DISCOVERY_PROBE_EMPTY_RESET_STREAK: 3
+          ALIEXPRESS_DISCOVERY_DEFERRED_RETRY_LIMIT: 70
+          ALIEXPRESS_PRODUCT_IMMEDIATE_FETCH_RETRIES: 1
+          ALIEXPRESS_PRODUCT_DEFERRED_FETCH_RETRIES: 3
+          ALIEXPRESS_PRODUCT_EMPTY_RESET_STREAK: 3
+          ALIEXPRESS_PRODUCT_DEFERRED_RETRY_LIMIT: 90
+          ALIEXPRESS_FALLBACK_CACHE: "true"
+          ALIEXPRESS_DETAIL_ENRICH: "true"
+          ALIEXPRESS_DETAIL_ENRICH_LIMIT: 0
+          ALIEXPRESS_DETAIL_TIMEOUT_MS: 35000
+          ALIEXPRESS_DETAIL_ENRICH_DELAY_MS: 1200
+      - name: Upload AliExpress products
+        uses: actions/upload-artifact@v4
+        with:
+          name: aliexpress-products
+          path: |
+            aliexpress-products.json
+            aliexpress-meta.json
+            aliexpress-keywords.json
+
+  merge-sources:
+    needs: [fetch-cj, fetch-aliexpress]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download CJ products
+        uses: actions/download-artifact@v4
+        with:
+          name: cj-products
+          path: .
+      - name: Download AliExpress products
+        uses: actions/download-artifact@v4
+        with:
+          name: aliexpress-products
+          path: .
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Merge CJ and AliExpress source products
+        run: node scripts/merge-source-products.js
+        env:
+          CJ_SOURCE_TARGET: 750
+          ALIEXPRESS_SOURCE_TARGET: 750
+          FINAL_MAX_PRODUCTS: 1500
+      - name: Upload merged source products
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-products
+          path: |
+            products.json
+            source-products-meta.json
+            cj-products.json
+            cj-products-meta.json
+            aliexpress-products.json
+            aliexpress-meta.json
+            aliexpress-keywords.json
+
+  google-trends:
+    needs: merge-sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    env:
+      GOOGLE_TRENDS_CHUNK_TOTAL: 10
+      GOOGLE_TRENDS_CHUNK_INDEX: ${{ matrix.chunk }}
+      GOOGLE_TRENDS_CHUNK_INDEX_BASE: 0
+      GOOGLE_TRENDS_KEYWORD_TIMEOUT_MS: 180000
+      GOOGLE_TRENDS_VARIANT_CONCURRENCY: 3
+      PUPPETEER_SKIP_DOWNLOAD: "true"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download source products
+        uses: actions/download-artifact@v4
+        with:
+          name: source-products
+          path: .
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Fetch Google Trends chunk
+        shell: bash
+        run: |
+          set +e
+          timeout 330m node scripts/fetch-google-trends.js
+          EXIT_CODE=$?
+          echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
+          exit 0
+      - name: Debug Google Trends chunk files
+        if: always()
+        run: |
+          pwd
+          ls -la
+          ls -la google-trends* || true
+          ls -la trend-keywords* || true
+      - name: Upload Google Trends chunk artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-trends-chunk-${{ matrix.chunk }}
+          if-no-files-found: warn
+          path: |
+            google-trends-chunk-*.json
+            google-trends-failed-chunk-*.json
+            google-trends-checkpoint-chunk-*.json
+            google-trends-meta-chunk-*.json
+            trend-keywords.json
+            trend-keywords-all.json
+
+  amazon-lens:
+    needs: merge-sources
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include:
+          - { start: 0, limit: 200, name: amazon-lens-0 }
+          - { start: 200, limit: 200, name: amazon-lens-200 }
+          - { start: 400, limit: 200, name: amazon-lens-400 }
+          - { start: 600, limit: 200, name: amazon-lens-600 }
+          - { start: 800, limit: 200, name: amazon-lens-800 }
+          - { start: 1000, limit: 200, name: amazon-lens-1000 }
+          - { start: 1200, limit: 200, name: amazon-lens-1200 }
+          - { start: 1400, limit: 200, name: amazon-lens-1400 }
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download source products
+        uses: actions/download-artifact@v4
+        with:
+          name: source-products
+          path: .
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Install Puppeteer Chrome
+        run: npx puppeteer browsers install chrome
+      - name: Fetch Monthly Lens Amazon Matches chunk
+        run: node scripts/fetch-monthly-lens-amazon-matches.js
+        env:
+          RESET_AMAZON_CACHE: ${{ github.event_name == 'schedule' || inputs.refresh_amazon == 'true' }}
+          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
+          MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
+          MONTHLY_LENS_DELAY_MS: 1500
+          AMAZON_PAGE_DELAY_MS: 4500
+          AMAZON_MIN_TITLE_MATCH: 15
+          AMAZON_CANDIDATE_LIMIT: 8
+          DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
+          DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
+          DECODO_3_AUTH_BASE64: ${{ secrets.DECODO_3_AUTH_BASE64 }}
+          DECODO_MONTHLY_LIMIT: 700
+          DECODO_2_MONTHLY_LIMIT: 700
+          DECODO_3_MONTHLY_LIMIT: 700
+      - name: Rename Amazon output files
+        run: |
+          mkdir -p amazon-lens-chunk
+          [ -f amazon-products.json ] && mv amazon-products.json amazon-lens-chunk/amazon-products-${{ matrix.start }}.json || true
+          [ -f lens-amazon-matches.json ] && mv lens-amazon-matches.json amazon-lens-chunk/lens-amazon-matches-${{ matrix.start }}.json || true
+          [ -f lens-amazon-failures.json ] && mv lens-amazon-failures.json amazon-lens-chunk/lens-amazon-failures-${{ matrix.start }}.json || true
+          [ -f lens-amazon-meta.json ] && mv lens-amazon-meta.json amazon-lens-chunk/lens-amazon-meta-${{ matrix.start }}.json || true
+          [ -f lens-provider-usage.json ] && mv lens-provider-usage.json amazon-lens-chunk/lens-provider-usage-${{ matrix.start }}.json || true
+      - name: Upload Amazon Lens chunk
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: amazon-lens-chunk/
+
+  merge:
+    needs: [merge-sources, google-trends, amazon-lens]
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Download source products
+        uses: actions/download-artifact@v4
+        with:
+          name: source-products
+          path: .
+      - name: Download Google Trends chunks
+        uses: actions/download-artifact@v4
+        with:
+          pattern: google-trends-chunk-*
+          merge-multiple: true
+          path: .
+      - name: Download Amazon Lens chunks
+        uses: actions/download-artifact@v4
+        with:
+          pattern: amazon-lens-*
+          path: amazon-lens-artifacts
+          merge-multiple: true
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - name: Install dependencies
+        run: |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done
+      - name: Merge Google Trends chunks
+        env:
+          GOOGLE_TRENDS_CHUNK_TOTAL: 10
+        run: node scripts/merge-google-trends-chunks.js
+      - name: Combine Amazon Lens chunks
+        env:
+          RESET_AMAZON_CACHE: ${{ github.event_name == 'schedule' || inputs.refresh_amazon == 'true' }}
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const dir = 'amazon-lens-artifacts';
+          const read = (file, fallback) => { try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch { return fallback; } };
+          const files = (pattern) => fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => pattern.test(f)).sort((a,b) => +(a.match(/-(\d+)\.json$/)?.[1]||0) - +(b.match(/-(\d+)\.json$/)?.[1]||0)).map(f => `${dir}/${f}`) : [];
+          const records = (pattern) => files(pattern).flatMap(file => { const d=read(file,[]); return Array.isArray(d) ? d : d.products || d.matches || d.items || (d && typeof d==='object' ? [d] : []); });
+          const write = (name, data) => { fs.writeFileSync(name, JSON.stringify(data,null,2)); console.log(`Wrote ${name}: ${Array.isArray(data)?data.length:Object.keys(data).length}`); };
+          const clean = v => String(v||'').toLowerCase().replace(/https?:\/\//g,'').replace(/[?#].*$/g,'').replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim();
+          const key = x => { for (const [p,v] of [['product',x.productId||x.cjProductId||x.sourceProductId||x.id],['name',x.productName||x.cjProductName||x.originalProductName||x.keyword],['url',x.productUrl||x.url||x.amazonUrl],['title',x.title||x.amazonTitle]]) { const c=clean(v); if(c) return `${p}:${c}`; } return ''; };
+          const num = v => Number.isFinite(Number(v)) ? Number(v) : 0;
+          const quality = x => num(x.score)*1000+num(x.matchScore)*20+num(x.bestRating)*20+Math.log10(num(x.bestRatingsTotal)+1)*60+(x.productUrl||x.url||x.amazonUrl?30:0)+(x.asin?30:0)+(x.isBestSeller?40:0);
+          const reset = /^(1|true|yes)$/i.test(String(process.env.RESET_AMAZON_CACHE||'false'));
+          const cache = new Map();
+          const put = x => { const k=key(x); if(k && (!cache.has(k)||quality(x)>quality(cache.get(k)))) cache.set(k,x); };
+          if(!reset) (Array.isArray(read('amazon-products.json',[]))?read('amazon-products.json',[]):[]).forEach(put);
+          records(/^amazon-products-\d+\.json$/).forEach(put);
+          write('amazon-products.json',[...cache.values()]);
+          write('lens-amazon-matches.json',records(/^lens-amazon-matches-\d+\.json$/));
+          write('lens-amazon-failures.json',records(/^lens-amazon-failures-\d+\.json$/));
+          const usage={};
+          for(const file of files(/^lens-provider-usage-\d+\.json$/)){ const d=read(file,{}); for(const [month,providers] of Object.entries(d)){ usage[month]||={}; for(const [provider,value] of Object.entries(providers||{})) usage[month][provider]=Math.max(num(usage[month][provider]),num(value)); } }
+          write('lens-provider-usage.json',usage);
+          const metas=files(/^lens-amazon-meta-\d+\.json$/).map(f=>read(f,{})).filter(x=>x&&typeof x==='object'&&!Array.isArray(x));
+          const first=metas[0]||{}, month=metas.find(x=>x.month)?.month||new Date().toISOString().slice(0,7);
+          write('lens-amazon-meta.json',{...first,updatedAt:new Date().toISOString(),month,startIndex:0,maxProducts:metas.reduce((s,x)=>s+num(x.maxProducts),0),matches:metas.reduce((s,x)=>s+num(x.matches),0),failures:metas.reduce((s,x)=>s+num(x.failures),0),providerUsage:usage[month]||{},resetAmazonCache:metas.some(x=>Boolean(x.resetAmazonCache)),chunks:metas.map(x=>({startIndex:num(x.startIndex),maxProducts:num(x.maxProducts),matches:num(x.matches),failures:num(x.failures),providerUsage:x.providerUsage||{}}))});
+          NODE
+      - name: Merge Trend Signals
+        run: node scripts/merge-trend-signals.js
+      - name: Commit Results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git stash push -u -m "generated-trend-results" || true
+          git pull --rebase origin main || true
+          git stash pop || true
+          for file in products.json source-products-meta.json cj-products.json cj-products-meta.json aliexpress-products.json aliexpress-meta.json aliexpress-keywords.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json trend-keywords.json trend-keywords-all.json trend-history.json amazon-products.json lens-amazon-matches.json lens-amazon-failures.json lens-amazon-meta.json lens-provider-usage.json; do
+            [ -f "$file" ] && git add "$file"
+          done
+          git add google-trends-chunk-*.json google-trends-failed-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json 2>/dev/null || true
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update trending products"
+          git push origin main || { git pull --rebase --autostash origin main; git push origin main; }
