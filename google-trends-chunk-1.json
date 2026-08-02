@@ -29010,4 +29010,982 @@
     ],
     "failedVariants": []
   }
+]ly cute sport",
+      "ugly cute",
+      "ugly",
+      "shoes",
+      "outdoor"
+    ],
+    "specificVariants": [
+      "sandals shoes outdoor",
+      "sandals ugly cute sport sandals hollow breathable trainer shoes soft sole casual mary janes outdoor wear",
+      "sandals shoes",
+      "shoes outdoor",
+      "ugly cute sport sandals hollow breathable trainer shoes soft sole casual mary janes outdoor wear",
+      "sandals ugly cute",
+      "mary janes outdoor wear",
+      "ugly cute sport sandals",
+      "casual mary janes outdoor",
+      "cute sport sandals hollow",
+      "breathable trainer shoes soft",
+      "hollow breathable trainer shoes",
+      "sandals ugly",
+      "cute sport sandals",
+      "janes outdoor wear",
+      "mary janes outdoor",
+      "trainer shoes soft",
+      "sport sandals hollow",
+      "breathable trainer shoes",
+      "shoes soft",
+      "outdoor wear",
+      "janes outdoor",
+      "sport sandals",
+      "trainer shoes",
+      "sandals hollow",
+      "casual mary janes outdoor wear",
+      "ugly cute sport sandals hollow",
+      "hollow breathable trainer shoes soft",
+      "ugly cute sport",
+      "ugly cute"
+    ],
+    "fallbackVariants": [
+      "sandals",
+      "ugly",
+      "shoes",
+      "outdoor"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "2026 Summer New Women's Ugly Cute Sport Sandals, Hollow Breathable Trainer Shoes, Soft Sole Casual Mary Janes For Outdoor Wear",
+      "sandals shoes outdoor"
+    ],
+    "productIds": [
+      "2083070289584492546"
+    ],
+    "primaryProductTitle": "2026 Summer New Women's Ugly Cute Sport Sandals, Hollow Breathable Trainer Shoes, Soft Sole Casual Mary Janes For Outdoor Wear",
+    "productKey": "2083070289584492546",
+    "variantSignals": [
+      {
+        "keyword": "sandals shoes outdoor",
+        "usedKeyword": "shoes outdoor",
+        "score": 13,
+        "growthPercent": -68,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "sandals shoes outdoor",
+        "usedKeyword": "outdoor wear",
+        "score": 15,
+        "growthPercent": -57,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "shoes outdoor light",
+    "usedKeyword": "shoes outdoor",
+    "score": 13,
+    "rawScore": 13,
+    "growthPercent": -68,
+    "firstAvg": 61,
+    "lastAvg": 19,
+    "latestValue": 9,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 3, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 4, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 8
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 9
+      }
+    ],
+    "timelineValues": [
+      50,
+      55,
+      55,
+      56,
+      63,
+      51,
+      44,
+      49,
+      43,
+      39,
+      48,
+      53,
+      41,
+      37,
+      39,
+      41,
+      46,
+      53,
+      61,
+      44,
+      49,
+      49,
+      56,
+      18,
+      19,
+      22,
+      16,
+      16,
+      17,
+      18,
+      17,
+      18,
+      19,
+      15,
+      15,
+      19,
+      16,
+      12,
+      14,
+      15,
+      12,
+      7,
+      7,
+      6,
+      8,
+      8,
+      8,
+      7,
+      7,
+      6,
+      7,
+      7,
+      8,
+      9,
+      8,
+      7,
+      8,
+      8,
+      8,
+      9
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-01T22:03:38.584Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "shoes casual sneakers outdoor",
+      "outdoor light",
+      "shoes outdoor",
+      "yrzl sports running black jogging shoes casual sneakers outdoor breathable mesh light shock absorption black tennis",
+      "shoes casual sneakers outdoor breathable",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "casual sneakers outdoor",
+      "mesh light shock absorption",
+      "sneakers outdoor breathable",
+      "mesh light",
+      "shoes casual",
+      "jogging shoes",
+      "running shoes",
+      "sneakers outdoor",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "yrzl sports running black",
+      "yrzl sports running",
+      "shock absorption black tennis",
+      "yrzl sports",
+      "black tennis",
+      "shoes light"
+    ],
+    "generatedVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "shoes casual sneakers outdoor",
+      "outdoor light",
+      "shoes outdoor",
+      "yrzl sports running black jogging shoes casual sneakers outdoor breathable mesh light shock absorption black tennis",
+      "shoes casual sneakers outdoor breathable",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "casual sneakers outdoor",
+      "mesh light shock absorption",
+      "sneakers outdoor breathable",
+      "mesh light",
+      "shoes casual",
+      "jogging shoes",
+      "running shoes",
+      "sneakers outdoor",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "yrzl sports running black",
+      "yrzl sports running",
+      "shock absorption black tennis",
+      "yrzl sports",
+      "black tennis",
+      "light",
+      "shoes",
+      "outdoor",
+      "shoes light"
+    ],
+    "specificVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "shoes casual sneakers outdoor",
+      "outdoor light",
+      "shoes outdoor",
+      "yrzl sports running black jogging shoes casual sneakers outdoor breathable mesh light shock absorption black tennis",
+      "shoes casual sneakers outdoor breathable",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "casual sneakers outdoor",
+      "mesh light shock absorption",
+      "sneakers outdoor breathable",
+      "mesh light",
+      "shoes casual",
+      "jogging shoes",
+      "running shoes",
+      "sneakers outdoor",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "yrzl sports running black",
+      "yrzl sports running",
+      "shock absorption black tennis",
+      "yrzl sports",
+      "black tennis",
+      "shoes light"
+    ],
+    "fallbackVariants": [
+      "light",
+      "shoes",
+      "outdoor"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "YRZL Men Sports Running Black Jogging Shoes Casual Sneakers Outdoor Breathable Mesh Women Light Shock-absorption Black Tennis",
+      "shoes outdoor light"
+    ],
+    "productIds": [
+      "aliexpress-3256807313178841"
+    ],
+    "primaryProductTitle": "YRZL Men Sports Running Black Jogging Shoes Casual Sneakers Outdoor Breathable Mesh Women Light Shock-absorption Black Tennis",
+    "productKey": "aliexpress-3256807313178841",
+    "variantSignals": [
+      {
+        "keyword": "shoes outdoor light",
+        "usedKeyword": "shoes outdoor",
+        "score": 13,
+        "growthPercent": -68,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "shoes outdoor light",
+    "usedKeyword": "shoes outdoor",
+    "score": 13,
+    "rawScore": 13,
+    "growthPercent": -68,
+    "firstAvg": 61,
+    "lastAvg": 19,
+    "latestValue": 9,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 3, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 4, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 8
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 9
+      }
+    ],
+    "timelineValues": [
+      50,
+      55,
+      55,
+      56,
+      63,
+      51,
+      44,
+      49,
+      43,
+      39,
+      48,
+      53,
+      41,
+      37,
+      39,
+      41,
+      46,
+      53,
+      61,
+      44,
+      49,
+      49,
+      56,
+      18,
+      19,
+      22,
+      16,
+      16,
+      17,
+      18,
+      17,
+      18,
+      19,
+      15,
+      15,
+      19,
+      16,
+      12,
+      14,
+      15,
+      12,
+      7,
+      7,
+      6,
+      8,
+      8,
+      8,
+      7,
+      7,
+      6,
+      7,
+      7,
+      8,
+      9,
+      8,
+      7,
+      8,
+      8,
+      8,
+      9
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-01T22:03:38.584Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "outdoor light",
+      "shoes outdoor",
+      "sports running black jogging shoes casual sneakers brown outdoor breathable mesh light shock absorption black tennis",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers brown outdoor",
+      "sneakers brown outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "sneakers brown outdoor",
+      "brown outdoor breathable",
+      "mesh light shock absorption",
+      "mesh light",
+      "shoes casual",
+      "brown outdoor",
+      "jogging shoes",
+      "running shoes",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "casual sneakers brown outdoor breathable",
+      "sports running black jogging",
+      "sports running black",
+      "shock absorption black tennis",
+      "black tennis",
+      "sports running",
+      "shoes light"
+    ],
+    "generatedVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "outdoor light",
+      "shoes outdoor",
+      "sports running black jogging shoes casual sneakers brown outdoor breathable mesh light shock absorption black tennis",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers brown outdoor",
+      "sneakers brown outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "sneakers brown outdoor",
+      "brown outdoor breathable",
+      "mesh light shock absorption",
+      "mesh light",
+      "shoes casual",
+      "brown outdoor",
+      "jogging shoes",
+      "running shoes",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "casual sneakers brown outdoor breathable",
+      "sports running black jogging",
+      "sports running black",
+      "shock absorption black tennis",
+      "black tennis",
+      "sports running",
+      "light",
+      "shoes",
+      "outdoor",
+      "shoes light"
+    ],
+    "specificVariants": [
+      "shoes outdoor light",
+      "outdoor breathable mesh light",
+      "outdoor light",
+      "shoes outdoor",
+      "sports running black jogging shoes casual sneakers brown outdoor breathable mesh light shock absorption black tennis",
+      "outdoor breathable mesh light shock absorption",
+      "black jogging shoes casual",
+      "running black jogging shoes",
+      "casual sneakers brown outdoor",
+      "sneakers brown outdoor breathable",
+      "light shock absorption black tennis",
+      "breathable mesh light shock absorption",
+      "black jogging shoes",
+      "jogging shoes casual",
+      "breathable mesh light",
+      "sneakers brown outdoor",
+      "brown outdoor breathable",
+      "mesh light shock absorption",
+      "mesh light",
+      "shoes casual",
+      "brown outdoor",
+      "jogging shoes",
+      "running shoes",
+      "outdoor breathable",
+      "light shock absorption",
+      "running black jogging shoes casual",
+      "casual sneakers brown outdoor breathable",
+      "sports running black jogging",
+      "sports running black",
+      "shock absorption black tennis",
+      "black tennis",
+      "sports running",
+      "shoes light"
+    ],
+    "fallbackVariants": [
+      "light",
+      "shoes",
+      "outdoor"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Men Sports Running Black Jogging Shoes Casual Sneakers Brown Outdoor Breathable Mesh Women Light Shock-absorption Black Tennis",
+      "shoes outdoor light"
+    ],
+    "productIds": [
+      "aliexpress-3256807353624004"
+    ],
+    "primaryProductTitle": "Men Sports Running Black Jogging Shoes Casual Sneakers Brown Outdoor Breathable Mesh Women Light Shock-absorption Black Tennis",
+    "productKey": "aliexpress-3256807353624004",
+    "variantSignals": [
+      {
+        "keyword": "shoes outdoor light",
+        "usedKeyword": "shoes outdoor",
+        "score": 13,
+        "growthPercent": -68,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  }
 ]

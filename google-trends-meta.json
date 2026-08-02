@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T07:32:59.583Z",
+  "updatedAt": "2026-08-02T12:50:11.960Z",
   "source": "google-trends-chunk-merge",
   "expectedChunks": 10,
   "foundChunkCount": 10,
@@ -16,10 +16,10 @@
     9
   ],
   "missingChunks": [],
-  "savedSignalCount": 515,
-  "rankedSignalCount": 515,
-  "productMappedSignalCount": 515,
-  "failedCount": 985,
+  "savedSignalCount": 180,
+  "rankedSignalCount": 180,
+  "productMappedSignalCount": 180,
+  "failedCount": 979,
   "chunkFiles": [
     "google-trends-chunk-0.json",
     "google-trends-chunk-1.json",
@@ -1546,7 +1546,7 @@
     {
       "file": "google-trends-checkpoint-chunk-9.json",
       "checkpoint": {
-        "updatedAt": "2026-07-16T03:21:31.298Z",
+        "updatedAt": "2026-08-02T08:09:53.484Z",
         "chunkIndex": 9,
         "rawChunkIndex": 9,
         "normalizedChunkIndex": 9,
@@ -1555,14 +1555,14 @@
         "chunkSize": 150,
         "attemptedKeywordCount": 150,
         "processedKeywordCount": 150,
-        "savedSignalCount": 77,
-        "failedCount": 73,
-        "lastKeyword": "shoes",
+        "savedSignalCount": 96,
+        "failedCount": 54,
+        "lastKeyword": "slippers",
         "status": "complete",
         "error": "",
-        "uniqueVariantsFetched": 1515,
-        "reusedVariantChecks": 232,
-        "variantCacheSize": 1515,
+        "uniqueVariantsFetched": 1189,
+        "reusedVariantChecks": 229,
+        "variantCacheSize": 1189,
         "keywordTimeoutMs": 180000
       }
     }

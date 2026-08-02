@@ -22885,4 +22885,7498 @@
     ],
     "failedVariants": []
   }
+]": 14
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 14
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 21
+      }
+    ],
+    "timelineValues": [
+      64,
+      56,
+      51,
+      49,
+      40,
+      41,
+      42,
+      47,
+      39,
+      45,
+      46,
+      39,
+      33,
+      38,
+      39,
+      40,
+      51,
+      51,
+      44,
+      48,
+      46,
+      52,
+      28,
+      27,
+      29,
+      26,
+      24,
+      22,
+      24,
+      25,
+      26,
+      28,
+      22,
+      19,
+      22,
+      21,
+      20,
+      22,
+      23,
+      18,
+      17,
+      13,
+      15,
+      17,
+      21,
+      15,
+      14,
+      13,
+      12,
+      14,
+      13,
+      16,
+      17,
+      15,
+      13,
+      14,
+      13,
+      14,
+      15,
+      21
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:49:00.880Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "cleaner tools",
+      "mountain bike maintenance tools",
+      "bike drivetrain cleaner degreaser",
+      "motorcycle bike drivetrain cleaner",
+      "bike maintenance tools",
+      "bike drivetrain cleaner",
+      "drivetrain cleaner degreaser",
+      "chain cleaner",
+      "cleaner degreaser",
+      "maintenance tools",
+      "drivetrain cleaner",
+      "100ml concentrated bicycle chain cleaning agent motorcycle bike drivetrain cleaner degreaser mountain bike maintenance tools",
+      "motorcycle bike drivetrain cleaner degreaser",
+      "100ml concentrated bicycle chain",
+      "100ml concentrated bicycle",
+      "100ml concentrated"
+    ],
+    "generatedVariants": [
+      "cleaner tools",
+      "mountain bike maintenance tools",
+      "bike drivetrain cleaner degreaser",
+      "motorcycle bike drivetrain cleaner",
+      "bike maintenance tools",
+      "bike drivetrain cleaner",
+      "drivetrain cleaner degreaser",
+      "chain cleaner",
+      "cleaner degreaser",
+      "maintenance tools",
+      "drivetrain cleaner",
+      "100ml concentrated bicycle chain cleaning agent motorcycle bike drivetrain cleaner degreaser mountain bike maintenance tools",
+      "motorcycle bike drivetrain cleaner degreaser",
+      "100ml concentrated bicycle chain",
+      "100ml concentrated bicycle",
+      "100ml concentrated",
+      "tools",
+      "cleaner",
+      "tool"
+    ],
+    "specificVariants": [
+      "cleaner tools",
+      "mountain bike maintenance tools",
+      "bike drivetrain cleaner degreaser",
+      "motorcycle bike drivetrain cleaner",
+      "bike maintenance tools",
+      "bike drivetrain cleaner",
+      "drivetrain cleaner degreaser",
+      "chain cleaner",
+      "cleaner degreaser",
+      "maintenance tools",
+      "drivetrain cleaner",
+      "100ml concentrated bicycle chain cleaning agent motorcycle bike drivetrain cleaner degreaser mountain bike maintenance tools",
+      "motorcycle bike drivetrain cleaner degreaser",
+      "100ml concentrated bicycle chain",
+      "100ml concentrated bicycle",
+      "100ml concentrated"
+    ],
+    "fallbackVariants": [
+      "tools",
+      "cleaner",
+      "tool"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "100ML Concentrated Bicycle Chain Cleaning Agent,Motorcycle Bike Drivetrain Cleaner Degreaser Mountain bike maintenance tools",
+      "cleaner tools"
+    ],
+    "productIds": [
+      "aliexpress-3256807446343906"
+    ],
+    "primaryProductTitle": "100ML Concentrated Bicycle Chain Cleaning Agent,Motorcycle Bike Drivetrain Cleaner Degreaser Mountain bike maintenance tools",
+    "productKey": "aliexpress-3256807446343906",
+    "variantSignals": [
+      {
+        "keyword": "cleaner tools",
+        "usedKeyword": "chain cleaner",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "kitchen organizer",
+    "usedKeyword": "stainless steel",
+    "score": 28,
+    "rawScore": 28,
+    "growthPercent": -43,
+    "firstAvg": 64,
+    "lastAvg": 36,
+    "latestValue": 52,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 27
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 37
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 52
+      }
+    ],
+    "timelineValues": [
+      55,
+      52,
+      49,
+      52,
+      50,
+      50,
+      54,
+      48,
+      43,
+      46,
+      49,
+      48,
+      48,
+      49,
+      50,
+      48,
+      48,
+      53,
+      54,
+      57,
+      62,
+      56,
+      35,
+      36,
+      37,
+      33,
+      33,
+      35,
+      34,
+      33,
+      34,
+      34,
+      33,
+      33,
+      38,
+      34,
+      30,
+      29,
+      31,
+      38,
+      34,
+      27,
+      24,
+      27,
+      26,
+      23,
+      25,
+      26,
+      24,
+      27,
+      29,
+      32,
+      30,
+      34,
+      40,
+      37,
+      30,
+      27,
+      37,
+      52
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:12:42.854Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "kitchen organizer",
+      "stainless steel food storage",
+      "steel food storage containers",
+      "steel food storage",
+      "food storage containers",
+      "food storage",
+      "storage containers",
+      "stainless steel food storage containers",
+      "stainless steel food",
+      "reusable camping picnics school",
+      "stainless steel",
+      "camping picnics school",
+      "picnics school",
+      "stainless steel food storage containers lids leakproof stackable reusable camping picnics school"
+    ],
+    "generatedVariants": [
+      "kitchen organizer",
+      "stainless steel food storage",
+      "steel food storage containers",
+      "steel food storage",
+      "food storage containers",
+      "food storage",
+      "storage containers",
+      "stainless steel food storage containers",
+      "stainless steel food",
+      "reusable camping picnics school",
+      "stainless steel",
+      "camping picnics school",
+      "picnics school",
+      "stainless",
+      "stainless steel food storage containers lids leakproof stackable reusable camping picnics school",
+      "kitchen",
+      "storage",
+      "organizer"
+    ],
+    "specificVariants": [
+      "kitchen organizer",
+      "stainless steel food storage",
+      "steel food storage containers",
+      "steel food storage",
+      "food storage containers",
+      "food storage",
+      "storage containers",
+      "stainless steel food storage containers",
+      "stainless steel food",
+      "reusable camping picnics school",
+      "stainless steel",
+      "camping picnics school",
+      "picnics school",
+      "stainless steel food storage containers lids leakproof stackable reusable camping picnics school"
+    ],
+    "fallbackVariants": [
+      "stainless",
+      "kitchen",
+      "storage",
+      "organizer"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "6-Piece Stainless Steel Food Storage Containers Set With Lids - Leakproof, Stackable & Reusable For Camping, Picnics, School",
+      "kitchen organizer"
+    ],
+    "productIds": [
+      "aliexpress-3256808479683783"
+    ],
+    "primaryProductTitle": "6-Piece Stainless Steel Food Storage Containers Set With Lids - Leakproof, Stackable & Reusable For Camping, Picnics, School",
+    "productKey": "aliexpress-3256808479683783",
+    "variantSignals": [
+      {
+        "keyword": "kitchen organizer",
+        "usedKeyword": "food storage",
+        "score": 19,
+        "growthPercent": -44,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "kitchen organizer",
+        "usedKeyword": "stainless steel",
+        "score": 28,
+        "growthPercent": -43,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "shorts pants",
+    "usedKeyword": "shorts sports",
+    "score": 14,
+    "rawScore": 14,
+    "growthPercent": -59,
+    "firstAvg": 58,
+    "lastAvg": 24,
+    "latestValue": 20,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 20
+      }
+    ],
+    "timelineValues": [
+      55,
+      57,
+      37,
+      40,
+      35,
+      37,
+      32,
+      35,
+      32,
+      41,
+      38,
+      32,
+      32,
+      32,
+      32,
+      36,
+      37,
+      43,
+      35,
+      37,
+      36,
+      40,
+      26,
+      27,
+      28,
+      24,
+      21,
+      23,
+      24,
+      21,
+      27,
+      27,
+      21,
+      21,
+      25,
+      21,
+      23,
+      25,
+      25,
+      21,
+      20,
+      22,
+      19,
+      18,
+      21,
+      21,
+      16,
+      16,
+      15,
+      15,
+      15,
+      16,
+      18,
+      16,
+      15,
+      20,
+      15,
+      15,
+      15,
+      20
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:01:37.398Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "shorts pants",
+      "three point tight pants",
+      "hip lifting sports shorts",
+      "lifting sports shorts waist",
+      "point tight pants",
+      "sports shorts waist",
+      "lifting sports shorts",
+      "tight pants",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "peach hip lifting sports shorts waist waist tightening slimming running hip speed drying three point tight pants",
+      "hip lifting sports shorts waist",
+      "peach hip lifting sports",
+      "peach hip lifting",
+      "peach hip"
+    ],
+    "generatedVariants": [
+      "shorts pants",
+      "three point tight pants",
+      "hip lifting sports shorts",
+      "lifting sports shorts waist",
+      "point tight pants",
+      "sports shorts waist",
+      "lifting sports shorts",
+      "tight pants",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "peach hip lifting sports shorts waist waist tightening slimming running hip speed drying three point tight pants",
+      "hip lifting sports shorts waist",
+      "peach hip lifting sports",
+      "peach hip lifting",
+      "peach hip",
+      "pants",
+      "shorts"
+    ],
+    "specificVariants": [
+      "shorts pants",
+      "three point tight pants",
+      "hip lifting sports shorts",
+      "lifting sports shorts waist",
+      "point tight pants",
+      "sports shorts waist",
+      "lifting sports shorts",
+      "tight pants",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "peach hip lifting sports shorts waist waist tightening slimming running hip speed drying three point tight pants",
+      "hip lifting sports shorts waist",
+      "peach hip lifting sports",
+      "peach hip lifting",
+      "peach hip"
+    ],
+    "fallbackVariants": [
+      "pants",
+      "shorts"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Peach Hip Lifting Sports Shorts Women High Waist and Waist Tightening Slimming Running Hip Speed Drying Three Point Tight Pants",
+      "shorts pants"
+    ],
+    "productIds": [
+      "aliexpress-3256807311362024"
+    ],
+    "primaryProductTitle": "Peach Hip Lifting Sports Shorts Women High Waist and Waist Tightening Slimming Running Hip Speed Drying Three Point Tight Pants",
+    "productKey": "aliexpress-3256807311362024",
+    "variantSignals": [
+      {
+        "keyword": "shorts pants",
+        "usedKeyword": "shorts sports",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "laptop case macbook air case neo a18 pro funda pro air macbook pro case",
+    "usedKeyword": "air case",
+    "score": 15,
+    "rawScore": 15,
+    "growthPercent": -59,
+    "firstAvg": 65,
+    "lastAvg": 27,
+    "latestValue": 19,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 12
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 14
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 19
+      }
+    ],
+    "timelineValues": [
+      64,
+      61,
+      45,
+      47,
+      51,
+      46,
+      46,
+      47,
+      41,
+      46,
+      44,
+      45,
+      41,
+      43,
+      44,
+      42,
+      51,
+      48,
+      42,
+      52,
+      51,
+      52,
+      36,
+      35,
+      36,
+      33,
+      29,
+      30,
+      31,
+      27,
+      31,
+      30,
+      27,
+      30,
+      31,
+      26,
+      22,
+      23,
+      23,
+      22,
+      17,
+      20,
+      19,
+      18,
+      19,
+      15,
+      15,
+      14,
+      13,
+      13,
+      13,
+      14,
+      15,
+      15,
+      15,
+      13,
+      13,
+      12,
+      14,
+      19
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:10:25.340Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "laptop case macbook air case neo a18 pro funda pro air macbook pro case",
+      "case macbook air case",
+      "laptop case macbook air",
+      "laptop case macbook",
+      "laptop case",
+      "case macbook air case neo",
+      "air macbook pro case",
+      "macbook air case neo",
+      "air case neo",
+      "macbook air case",
+      "macbook pro case",
+      "air case",
+      "case neo",
+      "pro case",
+      "case macbook",
+      "air case neo a18",
+      "case neo a18 pro",
+      "neo a18 pro funda",
+      "a18 pro funda pro",
+      "pro funda pro air",
+      "funda pro air macbook",
+      "pro air macbook pro",
+      "case macbook air",
+      "case neo a18",
+      "neo a18 pro",
+      "a18 pro funda",
+      "pro funda pro",
+      "funda pro air",
+      "pro air macbook",
+      "air macbook pro",
+      "macbook air",
+      "neo a18",
+      "a18 pro",
+      "pro funda",
+      "funda pro",
+      "pro air",
+      "air macbook",
+      "macbook pro"
+    ],
+    "generatedVariants": [
+      "laptop case macbook air case neo a18 pro funda pro air macbook pro case",
+      "case macbook air case",
+      "laptop case macbook air",
+      "laptop case macbook",
+      "laptop case",
+      "case macbook air case neo",
+      "air macbook pro case",
+      "macbook air case neo",
+      "air case neo",
+      "macbook air case",
+      "macbook pro case",
+      "air case",
+      "case neo",
+      "pro case",
+      "case macbook",
+      "case",
+      "laptop",
+      "air case neo a18",
+      "case neo a18 pro",
+      "neo a18 pro funda",
+      "a18 pro funda pro",
+      "pro funda pro air",
+      "funda pro air macbook",
+      "pro air macbook pro",
+      "case macbook air",
+      "case neo a18",
+      "neo a18 pro",
+      "a18 pro funda",
+      "pro funda pro",
+      "funda pro air",
+      "pro air macbook",
+      "air macbook pro",
+      "macbook air",
+      "neo a18",
+      "a18 pro",
+      "pro funda",
+      "funda pro",
+      "pro air",
+      "air macbook",
+      "macbook pro"
+    ],
+    "specificVariants": [
+      "laptop case macbook air case neo a18 pro funda pro air macbook pro case",
+      "case macbook air case",
+      "laptop case macbook air",
+      "laptop case macbook",
+      "laptop case",
+      "case macbook air case neo",
+      "air macbook pro case",
+      "macbook air case neo",
+      "air case neo",
+      "macbook air case",
+      "macbook pro case",
+      "air case",
+      "case neo",
+      "pro case",
+      "case macbook",
+      "air case neo a18",
+      "case neo a18 pro",
+      "neo a18 pro funda",
+      "a18 pro funda pro",
+      "pro funda pro air",
+      "funda pro air macbook",
+      "pro air macbook pro",
+      "case macbook air",
+      "case neo a18",
+      "neo a18 pro",
+      "a18 pro funda",
+      "pro funda pro",
+      "funda pro air",
+      "pro air macbook",
+      "air macbook pro",
+      "macbook air",
+      "neo a18",
+      "a18 pro",
+      "pro funda",
+      "funda pro",
+      "pro air",
+      "air macbook",
+      "macbook pro"
+    ],
+    "fallbackVariants": [
+      "case",
+      "laptop"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Laptop Case for Macbook Air 13 Case 2026 Neo A18 Pro 16 M3 Funda M1 Pro 13 M5 Air 13.6 15 for Macbook Pro 14 case M5 M4 2025 M2",
+      "laptop case macbook air case neo a18 pro funda pro air macbook pro case"
+    ],
+    "productIds": [
+      "aliexpress-2251832737780475"
+    ],
+    "primaryProductTitle": "Laptop Case for Macbook Air 13 Case 2026 Neo A18 Pro 16 M3 Funda M1 Pro 13 M5 Air 13.6 15 for Macbook Pro 14 case M5 M4 2025 M2",
+    "productKey": "aliexpress-2251832737780475",
+    "variantSignals": [
+      {
+        "keyword": "laptop case macbook air case neo a18 pro funda pro air macbook pro case",
+        "usedKeyword": "air case",
+        "score": 15,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "anti sun protection covers",
+    "usedKeyword": "sports cycling",
+    "score": 21,
+    "rawScore": 21,
+    "growthPercent": -18,
+    "firstAvg": 51,
+    "lastAvg": 42,
+    "latestValue": 24,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 70
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 14
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 24
+      }
+    ],
+    "timelineValues": [
+      34,
+      39,
+      39,
+      37,
+      37,
+      42,
+      35,
+      35,
+      29,
+      39,
+      38,
+      39,
+      34,
+      43,
+      47,
+      53,
+      58,
+      65,
+      57,
+      61,
+      54,
+      46,
+      54,
+      38,
+      39,
+      29,
+      35,
+      38,
+      40,
+      35,
+      59,
+      53,
+      35,
+      31,
+      45,
+      34,
+      32,
+      62,
+      62,
+      75,
+      70,
+      100,
+      71,
+      44,
+      67,
+      53,
+      51,
+      18,
+      15,
+      16,
+      17,
+      18,
+      21,
+      18,
+      16,
+      16,
+      15,
+      14,
+      15,
+      24
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:58:02.713Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "anti sun protection covers",
+      "sun protection covers driving",
+      "sun protection covers",
+      "protection covers driving",
+      "covers driving",
+      "protection covers",
+      "anti sun protection covers driving",
+      "driving golf cycling sports",
+      "pairs cooling breathable arm",
+      "golf cycling sports",
+      "pairs cooling breathable",
+      "pairs cooling",
+      "cycling sports",
+      "sports cycling",
+      "pairs cooling breathable arm sleeves anti sun protection covers driving golf cycling sports",
+      "anti sun protection",
+      "anti sun",
+      "sun protection"
+    ],
+    "generatedVariants": [
+      "anti sun protection covers",
+      "sun protection covers driving",
+      "sun protection covers",
+      "protection covers driving",
+      "covers driving",
+      "protection covers",
+      "anti sun protection covers driving",
+      "driving golf cycling sports",
+      "pairs cooling breathable arm",
+      "golf cycling sports",
+      "pairs cooling breathable",
+      "pairs cooling",
+      "cycling sports",
+      "sports cycling",
+      "pairs cooling breathable arm sleeves anti sun protection covers driving golf cycling sports",
+      "covers",
+      "cycling",
+      "anti sun protection",
+      "anti sun",
+      "sun protection"
+    ],
+    "specificVariants": [
+      "anti sun protection covers",
+      "sun protection covers driving",
+      "sun protection covers",
+      "protection covers driving",
+      "covers driving",
+      "protection covers",
+      "anti sun protection covers driving",
+      "driving golf cycling sports",
+      "pairs cooling breathable arm",
+      "golf cycling sports",
+      "pairs cooling breathable",
+      "pairs cooling",
+      "cycling sports",
+      "sports cycling",
+      "pairs cooling breathable arm sleeves anti sun protection covers driving golf cycling sports",
+      "anti sun protection",
+      "anti sun",
+      "sun protection"
+    ],
+    "fallbackVariants": [
+      "covers",
+      "cycling"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "3 Pairs Cooling Breathable Arm Sleeves Anti‑UV Sun Protection Covers For Men Women Driving Golf Cycling Sports",
+      "anti sun protection covers"
+    ],
+    "productIds": [
+      "aliexpress-3256808858847899"
+    ],
+    "primaryProductTitle": "3 Pairs Cooling Breathable Arm Sleeves Anti‑UV Sun Protection Covers For Men Women Driving Golf Cycling Sports",
+    "productKey": "aliexpress-3256808858847899",
+    "variantSignals": [
+      {
+        "keyword": "anti sun protection covers",
+        "usedKeyword": "sports cycling",
+        "score": 21,
+        "growthPercent": -18,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "bike chain cleaner bike",
+    "usedKeyword": "bike chain cleaner",
+    "score": 14,
+    "rawScore": 14,
+    "growthPercent": -56,
+    "firstAvg": 49,
+    "lastAvg": 22,
+    "latestValue": 0,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 69
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 22
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 24
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 0
+      }
+    ],
+    "timelineValues": [
+      57,
+      29,
+      50,
+      57,
+      30,
+      45,
+      48,
+      49,
+      37,
+      47,
+      54,
+      39,
+      50,
+      35,
+      0,
+      29,
+      69,
+      34,
+      29,
+      28,
+      25,
+      44,
+      30,
+      32,
+      25,
+      33,
+      24,
+      0,
+      0,
+      29,
+      33,
+      34,
+      0,
+      24,
+      0,
+      0,
+      33,
+      26,
+      37,
+      22,
+      0,
+      0,
+      0,
+      30,
+      0,
+      24,
+      21,
+      18,
+      19,
+      22,
+      19,
+      29,
+      33,
+      22,
+      23,
+      18,
+      23,
+      22,
+      24,
+      0
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:48:55.176Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain"
+    ],
+    "generatedVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain",
+      "cleaner"
+    ],
+    "specificVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain"
+    ],
+    "fallbackVariants": [
+      "cleaner"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Bike Chain Cleaner, Bike Cleaning Kit, Chain Cleaner for Cycling, Suitable for Mountain Bike, Road Bike, BMX for Drivetrain",
+      "bike chain cleaner bike"
+    ],
+    "productIds": [
+      "aliexpress-3256809510709502"
+    ],
+    "primaryProductTitle": "Bike Chain Cleaner, Bike Cleaning Kit, Chain Cleaner for Cycling, Suitable for Mountain Bike, Road Bike, BMX for Drivetrain",
+    "productKey": "aliexpress-3256809510709502",
+    "variantSignals": [
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "bike chain cleaner",
+        "score": 14,
+        "growthPercent": -56,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "chain cleaner",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "bike chain",
+        "score": 29,
+        "growthPercent": -21,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "bike chain cleaner bike",
+    "usedKeyword": "bike chain cleaner",
+    "score": 14,
+    "rawScore": 14,
+    "growthPercent": -56,
+    "firstAvg": 49,
+    "lastAvg": 22,
+    "latestValue": 0,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 69
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 22
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 24
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 0
+      }
+    ],
+    "timelineValues": [
+      57,
+      29,
+      50,
+      57,
+      30,
+      45,
+      48,
+      49,
+      37,
+      47,
+      54,
+      39,
+      50,
+      35,
+      0,
+      29,
+      69,
+      34,
+      29,
+      28,
+      25,
+      44,
+      30,
+      32,
+      25,
+      33,
+      24,
+      0,
+      0,
+      29,
+      33,
+      34,
+      0,
+      24,
+      0,
+      0,
+      33,
+      26,
+      37,
+      22,
+      0,
+      0,
+      0,
+      30,
+      0,
+      24,
+      21,
+      18,
+      19,
+      22,
+      19,
+      29,
+      33,
+      22,
+      23,
+      18,
+      23,
+      22,
+      24,
+      0
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:48:55.176Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain"
+    ],
+    "generatedVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain",
+      "cleaner"
+    ],
+    "specificVariants": [
+      "bike chain cleaner bike",
+      "kit chain cleaner cycling",
+      "cleaning kit chain cleaner",
+      "kit chain cleaner",
+      "bike chain cleaner",
+      "chain cleaner bike",
+      "chain cleaner cycling",
+      "cleaner bike",
+      "chain cleaner",
+      "cleaner cycling",
+      "bike chain cleaner bike cleaning kit chain cleaner cycling suitable mountain bike road bike bmx drivetrain",
+      "cleaning kit chain cleaner cycling",
+      "road bike bmx drivetrain",
+      "bike bmx drivetrain",
+      "bike chain",
+      "bmx drivetrain"
+    ],
+    "fallbackVariants": [
+      "cleaner"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Bike Chain Cleaner, Bike Cleaning Kit, Chain Cleaner for Cycling, Suitable for Mountain Bike, Road Bike, BMX for Drivetrain",
+      "bike chain cleaner bike"
+    ],
+    "productIds": [
+      "aliexpress-3256809902813827"
+    ],
+    "primaryProductTitle": "Bike Chain Cleaner, Bike Cleaning Kit, Chain Cleaner for Cycling, Suitable for Mountain Bike, Road Bike, BMX for Drivetrain",
+    "productKey": "aliexpress-3256809902813827",
+    "variantSignals": [
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "bike chain cleaner",
+        "score": 14,
+        "growthPercent": -56,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "chain cleaner",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "bike chain cleaner bike",
+        "usedKeyword": "bike chain",
+        "score": 29,
+        "growthPercent": -21,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "digital temperature humidity meter",
+    "usedKeyword": "weather clock",
+    "score": 24,
+    "rawScore": 24,
+    "growthPercent": -23,
+    "firstAvg": 68,
+    "lastAvg": 52,
+    "latestValue": 44,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 79
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 84
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 44
+      }
+    ],
+    "timelineValues": [
+      65,
+      68,
+      66,
+      60,
+      60,
+      56,
+      62,
+      58,
+      66,
+      64,
+      68,
+      58,
+      55,
+      68,
+      71,
+      60,
+      79,
+      100,
+      84,
+      77,
+      73,
+      77,
+      60,
+      64,
+      64,
+      53,
+      56,
+      59,
+      58,
+      59,
+      75,
+      63,
+      60,
+      42,
+      64,
+      53,
+      56,
+      58,
+      53,
+      43,
+      39,
+      32,
+      46,
+      39,
+      46,
+      37,
+      34,
+      36,
+      35,
+      36,
+      33,
+      33,
+      37,
+      36,
+      37,
+      32,
+      32,
+      32,
+      32,
+      44
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:02:24.112Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "digital temperature humidity meter",
+      "temperature humidity meter household",
+      "humidity meter household",
+      "temperature humidity meter",
+      "humidity meter",
+      "meter household",
+      "digital temperature humidity meter household",
+      "lcd electronic digital temperature",
+      "thermohygrometer weather station clock",
+      "weather station clock",
+      "lcd electronic digital",
+      "station clock",
+      "weather clock",
+      "lcd electronic",
+      "lcd electronic digital temperature humidity meter household electronic thermohygrometer weather station clock",
+      "digital temperature humidity",
+      "digital temperature",
+      "temperature humidity"
+    ],
+    "generatedVariants": [
+      "digital temperature humidity meter",
+      "temperature humidity meter household",
+      "humidity meter household",
+      "temperature humidity meter",
+      "humidity meter",
+      "meter household",
+      "digital temperature humidity meter household",
+      "lcd electronic digital temperature",
+      "thermohygrometer weather station clock",
+      "weather station clock",
+      "lcd electronic digital",
+      "station clock",
+      "weather clock",
+      "lcd electronic",
+      "lcd electronic digital temperature humidity meter household electronic thermohygrometer weather station clock",
+      "meter",
+      "clock",
+      "digital temperature humidity",
+      "digital temperature",
+      "temperature humidity"
+    ],
+    "specificVariants": [
+      "digital temperature humidity meter",
+      "temperature humidity meter household",
+      "humidity meter household",
+      "temperature humidity meter",
+      "humidity meter",
+      "meter household",
+      "digital temperature humidity meter household",
+      "lcd electronic digital temperature",
+      "thermohygrometer weather station clock",
+      "weather station clock",
+      "lcd electronic digital",
+      "station clock",
+      "weather clock",
+      "lcd electronic",
+      "lcd electronic digital temperature humidity meter household electronic thermohygrometer weather station clock",
+      "digital temperature humidity",
+      "digital temperature",
+      "temperature humidity"
+    ],
+    "fallbackVariants": [
+      "meter",
+      "clock"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "LCD Electronic Digital Temperature Humidity Meter Household Electronic Thermohygrometer Weather Station With Clock",
+      "digital temperature humidity meter"
+    ],
+    "productIds": [
+      "aliexpress-3256806400257676"
+    ],
+    "primaryProductTitle": "LCD Electronic Digital Temperature Humidity Meter Household Electronic Thermohygrometer Weather Station With Clock",
+    "productKey": "aliexpress-3256806400257676",
+    "variantSignals": [
+      {
+        "keyword": "digital temperature humidity meter",
+        "usedKeyword": "weather clock",
+        "score": 24,
+        "growthPercent": -23,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "home appliance smart life",
+    "usedKeyword": "weather clock",
+    "score": 24,
+    "rawScore": 24,
+    "growthPercent": -23,
+    "firstAvg": 68,
+    "lastAvg": 52,
+    "latestValue": 44,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 79
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 84
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 44
+      }
+    ],
+    "timelineValues": [
+      65,
+      68,
+      66,
+      60,
+      60,
+      56,
+      62,
+      58,
+      66,
+      64,
+      68,
+      58,
+      55,
+      68,
+      71,
+      60,
+      79,
+      100,
+      84,
+      77,
+      73,
+      77,
+      60,
+      64,
+      64,
+      53,
+      56,
+      59,
+      58,
+      59,
+      75,
+      63,
+      60,
+      42,
+      64,
+      53,
+      56,
+      58,
+      53,
+      43,
+      39,
+      32,
+      46,
+      39,
+      46,
+      37,
+      34,
+      36,
+      35,
+      36,
+      33,
+      33,
+      37,
+      36,
+      37,
+      32,
+      32,
+      32,
+      32,
+      44
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:02:24.112Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "home appliance smart life",
+      "humidity display home appliance",
+      "temperature humidity display home",
+      "humidity display home",
+      "display home appliance",
+      "display home",
+      "home appliance",
+      "temperature humidity display home appliance",
+      "lcd desktop alarm clock",
+      "lcd desktop alarm",
+      "appliance smart life",
+      "smart life",
+      "lcd desktop",
+      "weather clock",
+      "lcd desktop alarm clock transparent calendar weather digital temperature humidity display home appliance smart life",
+      "home appliance smart",
+      "appliance smart"
+    ],
+    "generatedVariants": [
+      "home appliance smart life",
+      "humidity display home appliance",
+      "temperature humidity display home",
+      "humidity display home",
+      "display home appliance",
+      "display home",
+      "home appliance",
+      "temperature humidity display home appliance",
+      "lcd desktop alarm clock",
+      "lcd desktop alarm",
+      "appliance smart life",
+      "smart life",
+      "lcd desktop",
+      "weather clock",
+      "lcd desktop alarm clock transparent calendar weather digital temperature humidity display home appliance smart life",
+      "home",
+      "clock",
+      "home appliance smart",
+      "appliance smart",
+      "life"
+    ],
+    "specificVariants": [
+      "home appliance smart life",
+      "humidity display home appliance",
+      "temperature humidity display home",
+      "humidity display home",
+      "display home appliance",
+      "display home",
+      "home appliance",
+      "temperature humidity display home appliance",
+      "lcd desktop alarm clock",
+      "lcd desktop alarm",
+      "appliance smart life",
+      "smart life",
+      "lcd desktop",
+      "weather clock",
+      "lcd desktop alarm clock transparent calendar weather digital temperature humidity display home appliance smart life",
+      "home appliance smart",
+      "appliance smart"
+    ],
+    "fallbackVariants": [
+      "home",
+      "clock",
+      "life"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "LCD Desktop Alarm Clock Transparent Calendar Weather and Digital Temperature and Humidity Display Home Appliance Smart Life",
+      "home appliance smart life"
+    ],
+    "productIds": [
+      "aliexpress-3256807619267990"
+    ],
+    "primaryProductTitle": "LCD Desktop Alarm Clock Transparent Calendar Weather and Digital Temperature and Humidity Display Home Appliance Smart Life",
+    "productKey": "aliexpress-3256807619267990",
+    "variantSignals": [
+      {
+        "keyword": "home appliance smart life",
+        "usedKeyword": "weather clock",
+        "score": 24,
+        "growthPercent": -23,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "jumpsuit stand-up collar zipper",
+    "usedKeyword": "stand collar",
+    "score": 8,
+    "rawScore": 8,
+    "growthPercent": -84,
+    "firstAvg": 45,
+    "lastAvg": 7,
+    "latestValue": 4,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 4
+      }
+    ],
+    "timelineValues": [
+      39,
+      39,
+      18,
+      16,
+      14,
+      14,
+      15,
+      16,
+      14,
+      15,
+      15,
+      12,
+      9,
+      12,
+      14,
+      12,
+      14,
+      14,
+      12,
+      15,
+      16,
+      14,
+      7,
+      7,
+      8,
+      7,
+      7,
+      7,
+      7,
+      4,
+      7,
+      8,
+      12,
+      8,
+      7,
+      5,
+      5,
+      4,
+      7,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      7,
+      4,
+      4,
+      4,
+      4
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:43:50.738Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "jumpsuit stand collar zipper",
+      "one jumpsuit stand collar",
+      "stand collar zipper",
+      "jumpsuit stand collar",
+      "collar zipper",
+      "stand collar",
+      "one jumpsuit stand collar zipper",
+      "rompers cross border brushed one",
+      "cross border brushed one jumpsuit",
+      "rompers cross border brushed",
+      "cross border brushed one",
+      "cross border brushed",
+      "rompers cross border",
+      "rompers cross border brushed one jumpsuit stand collar zipper",
+      "cross border brushed one jumpsuit stand collar zipper",
+      "jumpsuit stand"
+    ],
+    "generatedVariants": [
+      "jumpsuit stand collar zipper",
+      "one jumpsuit stand collar",
+      "stand collar zipper",
+      "jumpsuit stand collar",
+      "collar zipper",
+      "stand collar",
+      "one jumpsuit stand collar zipper",
+      "rompers cross border brushed one",
+      "cross border brushed one jumpsuit",
+      "rompers cross border brushed",
+      "cross border brushed one",
+      "cross border brushed",
+      "rompers cross border",
+      "rompers cross border brushed one jumpsuit stand collar zipper",
+      "cross border brushed one jumpsuit stand collar zipper",
+      "collar",
+      "rompers",
+      "jumpsuit stand"
+    ],
+    "specificVariants": [
+      "jumpsuit stand collar zipper",
+      "one jumpsuit stand collar",
+      "stand collar zipper",
+      "jumpsuit stand collar",
+      "collar zipper",
+      "stand collar",
+      "one jumpsuit stand collar zipper",
+      "rompers cross border brushed one",
+      "cross border brushed one jumpsuit",
+      "rompers cross border brushed",
+      "cross border brushed one",
+      "cross border brushed",
+      "rompers cross border",
+      "rompers cross border brushed one jumpsuit stand collar zipper",
+      "cross border brushed one jumpsuit stand collar zipper",
+      "jumpsuit stand"
+    ],
+    "fallbackVariants": [
+      "collar",
+      "rompers"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Cross-border Brushed One-piece Jumpsuit With A Stand-up Collar And Zipper",
+      "jumpsuit stand-up collar zipper"
+    ],
+    "productIds": [
+      "2608010035401612800"
+    ],
+    "primaryProductTitle": "Cross-border Brushed One-piece Jumpsuit With A Stand-up Collar And Zipper",
+    "productKey": "2608010035401612800",
+    "variantSignals": [
+      {
+        "keyword": "jumpsuit stand-up collar zipper",
+        "usedKeyword": "stand collar",
+        "score": 8,
+        "growthPercent": -84,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "pcie wifi adapter bt5",
+    "usedKeyword": "wifi adapter",
+    "score": 22,
+    "rawScore": 22,
+    "growthPercent": -29,
+    "firstAvg": 65,
+    "lastAvg": 46,
+    "latestValue": 33,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 72
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 37
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 36
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 33
+      }
+    ],
+    "timelineValues": [
+      63,
+      65,
+      65,
+      67,
+      67,
+      61,
+      63,
+      64,
+      59,
+      67,
+      64,
+      57,
+      59,
+      57,
+      60,
+      63,
+      61,
+      61,
+      61,
+      72,
+      68,
+      65,
+      53,
+      51,
+      44,
+      45,
+      51,
+      48,
+      50,
+      40,
+      50,
+      46,
+      42,
+      41,
+      50,
+      43,
+      47,
+      44,
+      45,
+      46,
+      39,
+      37,
+      37,
+      36,
+      39,
+      35,
+      40,
+      37,
+      37,
+      39,
+      37,
+      34,
+      38,
+      40,
+      38,
+      39,
+      35,
+      37,
+      36,
+      33
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:50:10.624Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "pcie wifi adapter bt5",
+      "ax900 pcie wifi adapter",
+      "wifi adapter bt5",
+      "pcie wifi adapter",
+      "adapter bt5",
+      "wifi adapter",
+      "ax900 pcie wifi adapter bt5",
+      "wifi ax900 pcie wifi",
+      "network card desktop win",
+      "wifi ax900 pcie",
+      "card desktop win",
+      "wifi ax900",
+      "desktop win",
+      "wifi desktop",
+      "wifi ax900 pcie wifi adapter bt5 11ax dual band wireless network card desktop win",
+      "pcie wifi"
+    ],
+    "generatedVariants": [
+      "pcie wifi adapter bt5",
+      "ax900 pcie wifi adapter",
+      "wifi adapter bt5",
+      "pcie wifi adapter",
+      "adapter bt5",
+      "wifi adapter",
+      "ax900 pcie wifi adapter bt5",
+      "wifi ax900 pcie wifi",
+      "network card desktop win",
+      "wifi ax900 pcie",
+      "card desktop win",
+      "wifi ax900",
+      "desktop win",
+      "wifi desktop",
+      "wifi ax900 pcie wifi adapter bt5 11ax dual band wireless network card desktop win",
+      "adapter",
+      "desktop",
+      "pcie wifi"
+    ],
+    "specificVariants": [
+      "pcie wifi adapter bt5",
+      "ax900 pcie wifi adapter",
+      "wifi adapter bt5",
+      "pcie wifi adapter",
+      "adapter bt5",
+      "wifi adapter",
+      "ax900 pcie wifi adapter bt5",
+      "wifi ax900 pcie wifi",
+      "network card desktop win",
+      "wifi ax900 pcie",
+      "card desktop win",
+      "wifi ax900",
+      "desktop win",
+      "wifi desktop",
+      "wifi ax900 pcie wifi adapter bt5 11ax dual band wireless network card desktop win",
+      "pcie wifi"
+    ],
+    "fallbackVariants": [
+      "adapter",
+      "desktop"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "WiFi 6 AX900 PCIE WiFi Adapter BT5.4 802.11AX Dual-band 2.4G/5GHz Wireless Network Card for Desktop Win 10/11",
+      "pcie wifi adapter bt5"
+    ],
+    "productIds": [
+      "aliexpress-3256809338922183"
+    ],
+    "primaryProductTitle": "WiFi 6 AX900 PCIE WiFi Adapter BT5.4 802.11AX Dual-band 2.4G/5GHz Wireless Network Card for Desktop Win 10/11",
+    "productKey": "aliexpress-3256809338922183",
+    "variantSignals": [
+      {
+        "keyword": "pcie wifi adapter bt5",
+        "usedKeyword": "wifi adapter",
+        "score": 22,
+        "growthPercent": -29,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "shorts waist yoga shorts",
+    "usedKeyword": "shorts sports",
+    "score": 14,
+    "rawScore": 14,
+    "growthPercent": -59,
+    "firstAvg": 58,
+    "lastAvg": 24,
+    "latestValue": 20,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 20
+      }
+    ],
+    "timelineValues": [
+      55,
+      57,
+      37,
+      40,
+      35,
+      37,
+      32,
+      35,
+      32,
+      41,
+      38,
+      32,
+      32,
+      32,
+      32,
+      36,
+      37,
+      43,
+      35,
+      37,
+      36,
+      40,
+      26,
+      27,
+      28,
+      24,
+      21,
+      23,
+      24,
+      21,
+      27,
+      27,
+      21,
+      21,
+      25,
+      21,
+      23,
+      25,
+      25,
+      21,
+      20,
+      22,
+      19,
+      18,
+      21,
+      21,
+      16,
+      16,
+      15,
+      15,
+      15,
+      16,
+      18,
+      16,
+      15,
+      20,
+      15,
+      15,
+      15,
+      20
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:01:37.398Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "shorts waist yoga shorts",
+      "sports shorts waist yoga shorts slim fit butt lift gym running elastic biker shorts",
+      "shorts waist yoga shorts slim",
+      "waist yoga shorts slim",
+      "sports shorts waist yoga",
+      "running elastic biker shorts",
+      "yoga shorts slim",
+      "waist yoga shorts",
+      "sports shorts waist",
+      "elastic biker shorts",
+      "shorts slim",
+      "yoga shorts",
+      "biker shorts",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "shorts waist yoga",
+      "waist yoga"
+    ],
+    "generatedVariants": [
+      "shorts waist yoga shorts",
+      "sports shorts waist yoga shorts slim fit butt lift gym running elastic biker shorts",
+      "shorts waist yoga shorts slim",
+      "waist yoga shorts slim",
+      "sports shorts waist yoga",
+      "running elastic biker shorts",
+      "yoga shorts slim",
+      "waist yoga shorts",
+      "sports shorts waist",
+      "elastic biker shorts",
+      "shorts slim",
+      "yoga shorts",
+      "biker shorts",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "shorts",
+      "shorts waist yoga",
+      "waist yoga"
+    ],
+    "specificVariants": [
+      "shorts waist yoga shorts",
+      "sports shorts waist yoga shorts slim fit butt lift gym running elastic biker shorts",
+      "shorts waist yoga shorts slim",
+      "waist yoga shorts slim",
+      "sports shorts waist yoga",
+      "running elastic biker shorts",
+      "yoga shorts slim",
+      "waist yoga shorts",
+      "sports shorts waist",
+      "elastic biker shorts",
+      "shorts slim",
+      "yoga shorts",
+      "biker shorts",
+      "shorts waist",
+      "shorts sports",
+      "sports shorts",
+      "shorts waist yoga",
+      "waist yoga"
+    ],
+    "fallbackVariants": [
+      "shorts"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Women Sports Shorts High Waist Yoga Shorts Slim Fit Butt Lift Gym Running High Elastic Biker Shorts",
+      "shorts waist yoga shorts"
+    ],
+    "productIds": [
+      "aliexpress-3256805793747318"
+    ],
+    "primaryProductTitle": "Women Sports Shorts High Waist Yoga Shorts Slim Fit Butt Lift Gym Running High Elastic Biker Shorts",
+    "productKey": "aliexpress-3256805793747318",
+    "variantSignals": [
+      {
+        "keyword": "shorts waist yoga shorts",
+        "usedKeyword": "yoga shorts",
+        "score": 9,
+        "growthPercent": -83,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "shorts waist yoga shorts",
+        "usedKeyword": "shorts sports",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "station wireless indoor outdoor",
+    "usedKeyword": "thermometer hygrometer",
+    "score": 21,
+    "rawScore": 21,
+    "growthPercent": -33,
+    "firstAvg": 63,
+    "lastAvg": 42,
+    "latestValue": 32,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 87
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 81
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 69
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 69
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 92
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 74
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 23
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 22
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 32
+      }
+    ],
+    "timelineValues": [
+      52,
+      62,
+      40,
+      77,
+      63,
+      75,
+      68,
+      73,
+      77,
+      87,
+      81,
+      56,
+      61,
+      69,
+      59,
+      73,
+      71,
+      100,
+      69,
+      71,
+      100,
+      92,
+      74,
+      46,
+      59,
+      54,
+      53,
+      34,
+      43,
+      49,
+      45,
+      51,
+      46,
+      45,
+      46,
+      45,
+      36,
+      26,
+      25,
+      41,
+      33,
+      32,
+      0,
+      23,
+      27,
+      23,
+      23,
+      25,
+      19,
+      22,
+      19,
+      17,
+      22,
+      22,
+      24,
+      25,
+      22,
+      23,
+      22,
+      32
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:57:08.314Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "station wireless indoor outdoor",
+      "wireless indoor outdoor thermometer",
+      "wireless indoor outdoor",
+      "indoor outdoor thermometer",
+      "indoor outdoor",
+      "outdoor thermometer",
+      "station wireless indoor outdoor thermometer",
+      "geevon weather station wireless",
+      "alarm clock adjustable backlight",
+      "geevon weather station",
+      "clock adjustable backlight",
+      "geevon weather",
+      "adjustable backlight",
+      "thermometer hygrometer",
+      "geevon weather station wireless indoor outdoor thermometer hygrometer touch lcd display alarm clock adjustable backlight",
+      "station wireless indoor",
+      "station wireless",
+      "wireless indoor"
+    ],
+    "generatedVariants": [
+      "station wireless indoor outdoor",
+      "wireless indoor outdoor thermometer",
+      "wireless indoor outdoor",
+      "indoor outdoor thermometer",
+      "indoor outdoor",
+      "outdoor thermometer",
+      "station wireless indoor outdoor thermometer",
+      "geevon weather station wireless",
+      "alarm clock adjustable backlight",
+      "geevon weather station",
+      "clock adjustable backlight",
+      "geevon weather",
+      "adjustable backlight",
+      "thermometer hygrometer",
+      "geevon weather station wireless indoor outdoor thermometer hygrometer touch lcd display alarm clock adjustable backlight",
+      "outdoor",
+      "hygrometer",
+      "station wireless indoor",
+      "station wireless",
+      "wireless indoor"
+    ],
+    "specificVariants": [
+      "station wireless indoor outdoor",
+      "wireless indoor outdoor thermometer",
+      "wireless indoor outdoor",
+      "indoor outdoor thermometer",
+      "indoor outdoor",
+      "outdoor thermometer",
+      "station wireless indoor outdoor thermometer",
+      "geevon weather station wireless",
+      "alarm clock adjustable backlight",
+      "geevon weather station",
+      "clock adjustable backlight",
+      "geevon weather",
+      "adjustable backlight",
+      "thermometer hygrometer",
+      "geevon weather station wireless indoor outdoor thermometer hygrometer touch lcd display alarm clock adjustable backlight",
+      "station wireless indoor",
+      "station wireless",
+      "wireless indoor"
+    ],
+    "fallbackVariants": [
+      "outdoor",
+      "hygrometer"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Geevon Weather Station Wireless Indoor Outdoor Thermometer Hygrometer Touch LCD Display with Alarm Clock Adjustable Backlight",
+      "station wireless indoor outdoor"
+    ],
+    "productIds": [
+      "aliexpress-3256807353564765"
+    ],
+    "primaryProductTitle": "Geevon Weather Station Wireless Indoor Outdoor Thermometer Hygrometer Touch LCD Display with Alarm Clock Adjustable Backlight",
+    "productKey": "aliexpress-3256807353564765",
+    "variantSignals": [
+      {
+        "keyword": "station wireless indoor outdoor",
+        "usedKeyword": "thermometer hygrometer",
+        "score": 21,
+        "growthPercent": -33,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "stock price tracker ticker",
+    "usedKeyword": "weather clock",
+    "score": 24,
+    "rawScore": 24,
+    "growthPercent": -23,
+    "firstAvg": 68,
+    "lastAvg": 52,
+    "latestValue": 44,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 79
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 84
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 44
+      }
+    ],
+    "timelineValues": [
+      65,
+      68,
+      66,
+      60,
+      60,
+      56,
+      62,
+      58,
+      66,
+      64,
+      68,
+      58,
+      55,
+      68,
+      71,
+      60,
+      79,
+      100,
+      84,
+      77,
+      73,
+      77,
+      60,
+      64,
+      64,
+      53,
+      56,
+      59,
+      58,
+      59,
+      75,
+      63,
+      60,
+      42,
+      64,
+      53,
+      56,
+      58,
+      53,
+      43,
+      39,
+      32,
+      46,
+      39,
+      46,
+      37,
+      34,
+      36,
+      35,
+      36,
+      33,
+      33,
+      37,
+      36,
+      37,
+      32,
+      32,
+      32,
+      32,
+      44
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:02:24.112Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "stock price tracker ticker",
+      "bitcoin stock price tracker",
+      "stock price tracker",
+      "price tracker ticker",
+      "price tracker",
+      "tracker ticker",
+      "bitcoin stock price tracker ticker",
+      "eth doge weather clock",
+      "geekmagic pro bitcoin stock",
+      "doge weather clock",
+      "geekmagic pro bitcoin",
+      "geekmagic pro",
+      "weather clock",
+      "geekmagic super",
+      "geekmagic pro bitcoin stock price tracker ticker cryptocurrency real time desktop gadget btc eth doge weather clock",
+      "stock price"
+    ],
+    "generatedVariants": [
+      "stock price tracker ticker",
+      "bitcoin stock price tracker",
+      "stock price tracker",
+      "price tracker ticker",
+      "price tracker",
+      "tracker ticker",
+      "bitcoin stock price tracker ticker",
+      "eth doge weather clock",
+      "geekmagic pro bitcoin stock",
+      "doge weather clock",
+      "geekmagic pro bitcoin",
+      "geekmagic pro",
+      "weather clock",
+      "geekmagic super",
+      "geekmagic pro bitcoin stock price tracker ticker cryptocurrency real time desktop gadget btc eth doge weather clock",
+      "tracker",
+      "super",
+      "stock price"
+    ],
+    "specificVariants": [
+      "stock price tracker ticker",
+      "bitcoin stock price tracker",
+      "stock price tracker",
+      "price tracker ticker",
+      "price tracker",
+      "tracker ticker",
+      "bitcoin stock price tracker ticker",
+      "eth doge weather clock",
+      "geekmagic pro bitcoin stock",
+      "doge weather clock",
+      "geekmagic pro bitcoin",
+      "geekmagic pro",
+      "weather clock",
+      "geekmagic super",
+      "geekmagic pro bitcoin stock price tracker ticker cryptocurrency real time desktop gadget btc eth doge weather clock",
+      "stock price"
+    ],
+    "fallbackVariants": [
+      "tracker",
+      "super"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "GeekMagic PRO BitCoin Stock Price Tracker Ticker Cryptocurrency in Real Time On Desktop Gadget BTC ETH DOGE Weather Clock",
+      "stock price tracker ticker"
+    ],
+    "productIds": [
+      "aliexpress-3256805513095957"
+    ],
+    "primaryProductTitle": "GeekMagic PRO BitCoin Stock Price Tracker Ticker Cryptocurrency in Real Time On Desktop Gadget BTC ETH DOGE Weather Clock",
+    "productKey": "aliexpress-3256805513095957",
+    "variantSignals": [
+      {
+        "keyword": "stock price tracker ticker",
+        "usedKeyword": "weather clock",
+        "score": 24,
+        "growthPercent": -23,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "wifi pcie wifi adapter",
+    "usedKeyword": "wifi adapter",
+    "score": 22,
+    "rawScore": 22,
+    "growthPercent": -29,
+    "firstAvg": 65,
+    "lastAvg": 46,
+    "latestValue": 33,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 72
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 37
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 36
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 33
+      }
+    ],
+    "timelineValues": [
+      63,
+      65,
+      65,
+      67,
+      67,
+      61,
+      63,
+      64,
+      59,
+      67,
+      64,
+      57,
+      59,
+      57,
+      60,
+      63,
+      61,
+      61,
+      61,
+      72,
+      68,
+      65,
+      53,
+      51,
+      44,
+      45,
+      51,
+      48,
+      50,
+      40,
+      50,
+      46,
+      42,
+      41,
+      50,
+      43,
+      47,
+      44,
+      45,
+      46,
+      39,
+      37,
+      37,
+      36,
+      39,
+      35,
+      40,
+      37,
+      37,
+      39,
+      37,
+      34,
+      38,
+      40,
+      38,
+      39,
+      35,
+      37,
+      36,
+      33
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T00:50:10.624Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "wifi pcie wifi adapter",
+      "pcie wifi adapter ac1200",
+      "pcie wifi adapter",
+      "wifi adapter ac1200",
+      "wifi adapter",
+      "adapter ac1200",
+      "wifi pcie wifi adapter ac1200",
+      "fenvi wifi pcie wifi",
+      "11ac bluetooth desktop windows",
+      "fenvi wifi pcie",
+      "bluetooth desktop windows",
+      "fenvi wifi",
+      "wifi desktop",
+      "desktop windows",
+      "fenvi wifi pcie wifi adapter ac1200 wireless network card dual band 11ac bluetooth desktop windows",
+      "wifi pcie wifi",
+      "wifi pcie",
+      "pcie wifi"
+    ],
+    "generatedVariants": [
+      "wifi pcie wifi adapter",
+      "pcie wifi adapter ac1200",
+      "pcie wifi adapter",
+      "wifi adapter ac1200",
+      "wifi adapter",
+      "adapter ac1200",
+      "wifi pcie wifi adapter ac1200",
+      "fenvi wifi pcie wifi",
+      "11ac bluetooth desktop windows",
+      "fenvi wifi pcie",
+      "bluetooth desktop windows",
+      "fenvi wifi",
+      "wifi desktop",
+      "desktop windows",
+      "fenvi wifi pcie wifi adapter ac1200 wireless network card dual band 11ac bluetooth desktop windows",
+      "adapter",
+      "desktop",
+      "wifi pcie wifi",
+      "wifi pcie",
+      "pcie wifi"
+    ],
+    "specificVariants": [
+      "wifi pcie wifi adapter",
+      "pcie wifi adapter ac1200",
+      "pcie wifi adapter",
+      "wifi adapter ac1200",
+      "wifi adapter",
+      "adapter ac1200",
+      "wifi pcie wifi adapter ac1200",
+      "fenvi wifi pcie wifi",
+      "11ac bluetooth desktop windows",
+      "fenvi wifi pcie",
+      "bluetooth desktop windows",
+      "fenvi wifi",
+      "wifi desktop",
+      "desktop windows",
+      "fenvi wifi pcie wifi adapter ac1200 wireless network card dual band 11ac bluetooth desktop windows",
+      "wifi pcie wifi",
+      "wifi pcie",
+      "pcie wifi"
+    ],
+    "fallbackVariants": [
+      "adapter",
+      "desktop"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "FENVI WiFi 5 PCIE WiFi Adapter AC1200 Wireless Network Card Dual Band 2.4G/5GHz 802.11AC For Bluetooth 4.0 Desktop Windows 10/11",
+      "wifi pcie wifi adapter"
+    ],
+    "productIds": [
+      "aliexpress-3256807978667965"
+    ],
+    "primaryProductTitle": "FENVI WiFi 5 PCIE WiFi Adapter AC1200 Wireless Network Card Dual Band 2.4G/5GHz 802.11AC For Bluetooth 4.0 Desktop Windows 10/11",
+    "productKey": "aliexpress-3256807978667965",
+    "variantSignals": [
+      {
+        "keyword": "wifi pcie wifi adapter",
+        "usedKeyword": "wifi adapter",
+        "score": 22,
+        "growthPercent": -29,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "wifi weather station bed",
+    "usedKeyword": "weather clock",
+    "score": 24,
+    "rawScore": 24,
+    "growthPercent": -23,
+    "firstAvg": 68,
+    "lastAvg": 52,
+    "latestValue": 44,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 65
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 62
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 71
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 79
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 100
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 84
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 73
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 77
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 75
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 63
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 60
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 58
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 32
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 44
+      }
+    ],
+    "timelineValues": [
+      65,
+      68,
+      66,
+      60,
+      60,
+      56,
+      62,
+      58,
+      66,
+      64,
+      68,
+      58,
+      55,
+      68,
+      71,
+      60,
+      79,
+      100,
+      84,
+      77,
+      73,
+      77,
+      60,
+      64,
+      64,
+      53,
+      56,
+      59,
+      58,
+      59,
+      75,
+      63,
+      60,
+      42,
+      64,
+      53,
+      56,
+      58,
+      53,
+      43,
+      39,
+      32,
+      46,
+      39,
+      46,
+      37,
+      34,
+      36,
+      35,
+      36,
+      33,
+      33,
+      37,
+      36,
+      37,
+      32,
+      32,
+      32,
+      32,
+      44
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:02:24.112Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "wifi weather station bed",
+      "weather station bed clock",
+      "station bed clock",
+      "weather station bed",
+      "bed clock",
+      "station bed",
+      "wifi weather station bed clock",
+      "geekmagic ultra smart wifi",
+      "gif animation desktop decoration",
+      "geekmagic ultra smart",
+      "animation desktop decoration",
+      "weather clock",
+      "geekmagic ultra",
+      "desktop decoration",
+      "geekmagic ultra smart wifi weather station bed clock photo album gif animation desktop decoration",
+      "wifi weather station",
+      "wifi weather",
+      "weather station"
+    ],
+    "generatedVariants": [
+      "wifi weather station bed",
+      "weather station bed clock",
+      "station bed clock",
+      "weather station bed",
+      "bed clock",
+      "station bed",
+      "wifi weather station bed clock",
+      "geekmagic ultra smart wifi",
+      "gif animation desktop decoration",
+      "geekmagic ultra smart",
+      "animation desktop decoration",
+      "weather clock",
+      "geekmagic ultra",
+      "desktop decoration",
+      "geekmagic ultra smart wifi weather station bed clock photo album gif animation desktop decoration",
+      "bed",
+      "clock",
+      "wifi weather station",
+      "wifi weather",
+      "weather station"
+    ],
+    "specificVariants": [
+      "wifi weather station bed",
+      "weather station bed clock",
+      "station bed clock",
+      "weather station bed",
+      "bed clock",
+      "station bed",
+      "wifi weather station bed clock",
+      "geekmagic ultra smart wifi",
+      "gif animation desktop decoration",
+      "geekmagic ultra smart",
+      "animation desktop decoration",
+      "weather clock",
+      "geekmagic ultra",
+      "desktop decoration",
+      "geekmagic ultra smart wifi weather station bed clock photo album gif animation desktop decoration",
+      "wifi weather station",
+      "wifi weather",
+      "weather station"
+    ],
+    "fallbackVariants": [
+      "bed",
+      "clock"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "GeekMagic Ultra Smart WiFi Weather Station Bed Clock with Photo Album Gif Animation Desktop Decoration",
+      "wifi weather station bed"
+    ],
+    "productIds": [
+      "aliexpress-3256807751634113"
+    ],
+    "primaryProductTitle": "GeekMagic Ultra Smart WiFi Weather Station Bed Clock with Photo Album Gif Animation Desktop Decoration",
+    "productKey": "aliexpress-3256807751634113",
+    "variantSignals": [
+      {
+        "keyword": "wifi weather station bed",
+        "usedKeyword": "weather clock",
+        "score": 24,
+        "growthPercent": -23,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "bags bag",
+    "usedKeyword": "french vintage",
+    "score": 25,
+    "rawScore": 25,
+    "growthPercent": -55,
+    "firstAvg": 61,
+    "lastAvg": 27,
+    "latestValue": 29,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 38
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 22
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 23
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 29
+      }
+    ],
+    "timelineValues": [
+      57,
+      55,
+      51,
+      53,
+      49,
+      40,
+      37,
+      40,
+      33,
+      43,
+      44,
+      38,
+      39,
+      34,
+      35,
+      37,
+      47,
+      46,
+      38,
+      38,
+      41,
+      45,
+      27,
+      33,
+      33,
+      28,
+      28,
+      29,
+      30,
+      28,
+      34,
+      35,
+      29,
+      25,
+      32,
+      29,
+      27,
+      32,
+      30,
+      28,
+      19,
+      14,
+      19,
+      18,
+      24,
+      15,
+      14,
+      16,
+      16,
+      17,
+      19,
+      20,
+      21,
+      20,
+      18,
+      19,
+      19,
+      22,
+      23,
+      29
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:03:59.094Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "bags bag",
+      "crossbody bags french",
+      "vintage shell shaped ravioli bag",
+      "crossbody bags",
+      "shell shaped ravioli bag",
+      "ravioli bag",
+      "bags french",
+      "crossbody bags french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli",
+      "french vintage shell shaped",
+      "french vintage"
+    ],
+    "generatedVariants": [
+      "bags bag",
+      "crossbody bags french",
+      "vintage shell shaped ravioli bag",
+      "crossbody bags",
+      "shell shaped ravioli bag",
+      "ravioli bag",
+      "bags french",
+      "crossbody bags french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli",
+      "french vintage shell shaped",
+      "crossbody",
+      "french vintage",
+      "bag",
+      "bags"
+    ],
+    "specificVariants": [
+      "bags bag",
+      "crossbody bags french",
+      "vintage shell shaped ravioli bag",
+      "crossbody bags",
+      "shell shaped ravioli bag",
+      "ravioli bag",
+      "bags french",
+      "crossbody bags french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli bag",
+      "french vintage shell shaped ravioli",
+      "french vintage shell shaped",
+      "french vintage"
+    ],
+    "fallbackVariants": [
+      "crossbody",
+      "bag",
+      "bags"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "French-style Vintage Shell-shaped Ravioli Bag",
+      "bags bag"
+    ],
+    "productIds": [
+      "2607301123281638800"
+    ],
+    "primaryProductTitle": "French-style Vintage Shell-shaped Ravioli Bag",
+    "productKey": "2607301123281638800",
+    "variantSignals": [
+      {
+        "keyword": "bags bag",
+        "usedKeyword": "french vintage",
+        "score": 25,
+        "growthPercent": -55,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "case cover",
+    "usedKeyword": "shockproof cover",
+    "score": 13,
+    "rawScore": 13,
+    "growthPercent": -62,
+    "firstAvg": 55,
+    "lastAvg": 21,
+    "latestValue": 18,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 72
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 56
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 50
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 66
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 68
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 53
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 59
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 69
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 55
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 11
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 11
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 11
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 17
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 17
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 18
+      }
+    ],
+    "timelineValues": [
+      44,
+      72,
+      48,
+      49,
+      59,
+      56,
+      56,
+      49,
+      50,
+      66,
+      68,
+      55,
+      41,
+      43,
+      43,
+      59,
+      46,
+      53,
+      46,
+      59,
+      69,
+      55,
+      19,
+      15,
+      25,
+      17,
+      20,
+      22,
+      23,
+      17,
+      0,
+      23,
+      16,
+      21,
+      17,
+      23,
+      12,
+      12,
+      19,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      10,
+      9,
+      9,
+      11,
+      12,
+      9,
+      10,
+      18,
+      10,
+      11,
+      17,
+      11,
+      17,
+      17,
+      18
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:10:30.635Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "case cover",
+      "pro max shockproof cover",
+      "wireless charge case iphone",
+      "transparent wireless charge case",
+      "charge case iphone",
+      "max shockproof cover",
+      "wireless charge case",
+      "case iphone",
+      "charge case",
+      "shockproof cover",
+      "magesafe magnetic transparent wireless charge case iphone air pro max shockproof cover",
+      "transparent wireless charge case iphone",
+      "magesafe magnetic transparent wireless",
+      "magesafe magnetic transparent",
+      "magesafe magnetic"
+    ],
+    "generatedVariants": [
+      "case cover",
+      "pro max shockproof cover",
+      "wireless charge case iphone",
+      "transparent wireless charge case",
+      "charge case iphone",
+      "max shockproof cover",
+      "wireless charge case",
+      "case iphone",
+      "charge case",
+      "shockproof cover",
+      "magesafe magnetic transparent wireless charge case iphone air pro max shockproof cover",
+      "transparent wireless charge case iphone",
+      "magesafe magnetic transparent wireless",
+      "magesafe magnetic transparent",
+      "magesafe magnetic",
+      "case",
+      "cover"
+    ],
+    "specificVariants": [
+      "case cover",
+      "pro max shockproof cover",
+      "wireless charge case iphone",
+      "transparent wireless charge case",
+      "charge case iphone",
+      "max shockproof cover",
+      "wireless charge case",
+      "case iphone",
+      "charge case",
+      "shockproof cover",
+      "magesafe magnetic transparent wireless charge case iphone air pro max shockproof cover",
+      "transparent wireless charge case iphone",
+      "magesafe magnetic transparent wireless",
+      "magesafe magnetic transparent",
+      "magesafe magnetic"
+    ],
+    "fallbackVariants": [
+      "case",
+      "cover"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "For Magesafe Magnetic Transparent Wireless Charge Case For iPhone 11 12 13 14 15 16 17 Air Pro Max Plus Mini Shockproof PC Cover",
+      "case cover"
+    ],
+    "productIds": [
+      "aliexpress-3256806320696798"
+    ],
+    "primaryProductTitle": "For Magesafe Magnetic Transparent Wireless Charge Case For iPhone 11 12 13 14 15 16 17 Air Pro Max Plus Mini Shockproof PC Cover",
+    "productKey": "aliexpress-3256806320696798",
+    "variantSignals": [
+      {
+        "keyword": "case cover",
+        "usedKeyword": "shockproof cover",
+        "score": 13,
+        "growthPercent": -62,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "case cover",
+    "usedKeyword": "air case",
+    "score": 15,
+    "rawScore": 15,
+    "growthPercent": -59,
+    "firstAvg": 65,
+    "lastAvg": 27,
+    "latestValue": 19,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 64
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 61
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 46
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 45
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 42
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 23
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 13
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 12
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 14
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 19
+      }
+    ],
+    "timelineValues": [
+      64,
+      61,
+      45,
+      47,
+      51,
+      46,
+      46,
+      47,
+      41,
+      46,
+      44,
+      45,
+      41,
+      43,
+      44,
+      42,
+      51,
+      48,
+      42,
+      52,
+      51,
+      52,
+      36,
+      35,
+      36,
+      33,
+      29,
+      30,
+      31,
+      27,
+      31,
+      30,
+      27,
+      30,
+      31,
+      26,
+      22,
+      23,
+      23,
+      22,
+      17,
+      20,
+      19,
+      18,
+      19,
+      15,
+      15,
+      14,
+      13,
+      13,
+      13,
+      14,
+      15,
+      15,
+      15,
+      13,
+      13,
+      12,
+      14,
+      19
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T01:10:25.340Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "case cover",
+      "leather deer case iphone",
+      "luxury leather deer case",
+      "magsafe wireless charge cover",
+      "deer case iphone",
+      "leather deer case",
+      "wireless charge cover",
+      "air case",
+      "deer case",
+      "case iphone",
+      "charge cover",
+      "luxury leather deer case iphone air pro max 16e 15pro 14pro magsafe wireless charge cover",
+      "luxury leather deer case iphone",
+      "luxury leather deer",
+      "luxury leather"
+    ],
+    "generatedVariants": [
+      "case cover",
+      "leather deer case iphone",
+      "luxury leather deer case",
+      "magsafe wireless charge cover",
+      "deer case iphone",
+      "leather deer case",
+      "wireless charge cover",
+      "air case",
+      "deer case",
+      "case iphone",
+      "charge cover",
+      "luxury leather deer case iphone air pro max 16e 15pro 14pro magsafe wireless charge cover",
+      "luxury leather deer case iphone",
+      "luxury leather deer",
+      "luxury leather",
+      "case",
+      "cover"
+    ],
+    "specificVariants": [
+      "case cover",
+      "leather deer case iphone",
+      "luxury leather deer case",
+      "magsafe wireless charge cover",
+      "deer case iphone",
+      "leather deer case",
+      "wireless charge cover",
+      "air case",
+      "deer case",
+      "case iphone",
+      "charge cover",
+      "luxury leather deer case iphone air pro max 16e 15pro 14pro magsafe wireless charge cover",
+      "luxury leather deer case iphone",
+      "luxury leather deer",
+      "luxury leather"
+    ],
+    "fallbackVariants": [
+      "case",
+      "cover"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Luxury PU Leather Deer Case For iPhone 17 Air 16 15 14 13 12 11 Pro Max Plus 16E 15Pro 14Pro for Magsafe Wireless Charge Cover",
+      "case cover"
+    ],
+    "productIds": [
+      "aliexpress-3256806445420030"
+    ],
+    "primaryProductTitle": "Luxury PU Leather Deer Case For iPhone 17 Air 16 15 14 13 12 11 Pro Max Plus 16E 15Pro 14Pro for Magsafe Wireless Charge Cover",
+    "productKey": "aliexpress-3256806445420030",
+    "variantSignals": [
+      {
+        "keyword": "case cover",
+        "usedKeyword": "air case",
+        "score": 15,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  }
 ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T10:28:35.248Z",
+  "updatedAt": "2026-08-01T21:32:03.755Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,8 +33,26 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 13,
+  "errorCount": 11,
   "errors": [
+    {
+      "keyword": "weather station",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: weather station; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "vacuum cleaner",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: vacuum cleaner; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "storage box",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: storage box; best raw count 0",
+      "deferred": true
+    },
     {
       "keyword": "stainless steel",
       "phase": "first-pass",
@@ -42,75 +60,45 @@
       "deferred": true
     },
     {
-      "keyword": "screen protector",
+      "keyword": "cool wifi",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: screen protector; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: cool wifi; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "case iphone",
+      "keyword": "shoes",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: case iphone; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: shoes; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "tool kit",
+      "keyword": "plushes makeup",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tool kit; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: plushes makeup; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "laptop sleeve",
+      "keyword": "storage container",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: laptop sleeve; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: storage container; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "squeezing toy",
+      "keyword": "wifi desktop",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: squeezing toy; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: wifi desktop; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "cleaning appliance",
+      "keyword": "egg storage",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: cleaning appliance; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: egg storage; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "case inch",
+      "keyword": "bicycle chain",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: case inch; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "women s clothing",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "blue light",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: blue light; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "jars kitchen",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: jars kitchen; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "storage boxes",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: storage boxes; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "camera lens",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: camera lens; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: bicycle chain; best raw count 0",
       "deferred": true
     }
   ],
