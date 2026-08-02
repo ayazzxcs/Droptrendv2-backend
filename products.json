@@ -119740,7 +119740,7 @@
     "aliExpressKeyword": "fully compliant",
     "aliExpressRank": 3,
     "sourceScore": 94,
-    "trend": 58,
+    "trend": 44,
     "winningScore": 134,
     "tags": [
       "AliExpress product",
@@ -119768,7 +119768,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:16:43.643Z",
-    "dropTrendScore": 58,
+    "dropTrendScore": 44,
     "scoreHistory": [
       {
         "date": "2026-07-11",
@@ -119848,17 +119848,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256808371944493",
-        "quvirlScore": 58,
-        "dropTrendScore": 58,
-        "googleScore": 36,
+        "quvirlScore": 44,
+        "dropTrendScore": 44,
+        "googleScore": 0,
         "amazonScore": 59,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "helmets bike helmet",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -119882,350 +119882,8 @@
       "pmt cycling helmet comfort lining lightweight hollow riding safety head protection bicycle mtb helmets bike helmet"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "mtb helmets bike helmet",
-        "usedKeyword": "helmets bike helmet",
-        "score": 36,
-        "rawScore": 36,
-        "growthPercent": -10,
-        "firstAvg": 65,
-        "lastAvg": 59,
-        "latestValue": 68,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 65
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 53
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 45
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 57
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 51
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 83
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 77
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 84
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 58
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 73
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 53
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 59
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 60
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 99
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 69
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 62
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 55
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 65
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 67
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 49
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 73
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 90
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 51
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 52
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 56
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 62
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 73
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 53
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 54
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 64
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 65
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 58
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 74
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 65
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 47
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 59
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 70
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 69
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 55
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 62
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 65
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 65
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 39
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 59
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 47
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 51
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 55
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 62
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 56
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 54
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 55
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 50
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 53
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 61
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 69
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 52
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 49
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 39
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 68
-          }
-        ],
-        "timelineValues": [
-          65,
-          53,
-          45,
-          57,
-          51,
-          83,
-          77,
-          84,
-          58,
-          73,
-          53,
-          59,
-          60,
-          99,
-          69,
-          62,
-          55,
-          65,
-          67,
-          49,
-          73,
-          90,
-          51,
-          52,
-          56,
-          48,
-          62,
-          73,
-          53,
-          54,
-          64,
-          65,
-          58,
-          74,
-          65,
-          47,
-          59,
-          70,
-          69,
-          55,
-          62,
-          65,
-          65,
-          39,
-          59,
-          47,
-          51,
-          55,
-          62,
-          56,
-          54,
-          55,
-          50,
-          53,
-          61,
-          69,
-          52,
-          49,
-          39,
-          68
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 36,
-        "top3Average": 36,
-        "categoryScore": 36,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "mtb helmets bike helmet",
-            "usedKeyword": "helmets bike helmet",
-            "score": 36,
-            "growthPercent": -10,
-            "matchedKeyword": "mtb helmets bike helmet",
-            "matchScore": 408,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "mtb helmets bike helmet",
-          "pmt cycling helmet comfort",
-          "pmt cycling helmet",
-          "helmets bike helmet",
-          "bike helmet",
-          "pmt cycling",
-          "fully compliant",
-          "pmt cycling helmet comfort lining lightweight hollow riding safety head protection bicycle mtb helmets bike helmet"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256808371944493",
         "score": 59,
@@ -129528,11 +129186,11 @@
           "power adapter quick charger",
           "adapter quick charger iphone",
           "adapter quick charger",
+          "adapter charger",
           "charger adapter",
           "usb charger gan type c fast charging pd power adapter quick charger iphone xiaomi poco samsung oneplus",
           "power adapter quick charger iphone",
-          "usb charger gan type",
-          "pd power adapter quick"
+          "usb charger gan type"
         ]
       },
       "amazon": {
@@ -137563,7 +137221,7 @@
     "aliExpressKeyword": "jars kitchen",
     "aliExpressRank": 2,
     "sourceScore": 92,
-    "trend": 43,
+    "trend": 37,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -137591,7 +137249,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:25:04.981Z",
-    "dropTrendScore": 43,
+    "dropTrendScore": 37,
     "scoreHistory": [
       {
         "date": "2026-07-11",
@@ -137671,17 +137329,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256808061749724",
-        "quvirlScore": 43,
-        "dropTrendScore": 43,
-        "googleScore": 15,
+        "quvirlScore": 37,
+        "dropTrendScore": 37,
+        "googleScore": 0,
         "amazonScore": 43,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "container airtight food storage",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -137705,350 +137363,8 @@
       "olive pickle strainer jar olive container hourglass jar strainer flip pickle container airtight food storage"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "container airtight food storage",
-        "usedKeyword": "container airtight food storage",
-        "score": 15,
-        "rawScore": 15,
-        "growthPercent": -51,
-        "firstAvg": 54,
-        "lastAvg": 27,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 39
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 51
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 39
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 34
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 49
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 42
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 35
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 39
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 25
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 31
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 30
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 27
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 42
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 53
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 30
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 39
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 37
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 32
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 32
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 47
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 30
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 28
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 35
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 29
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 41
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 27
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 45
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 50
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 44
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 29
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 25
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 32
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 10
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 18
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 12
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 12
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 12
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 10
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 10
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 8
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 7
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 9
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 7
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 5
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          39,
-          51,
-          39,
-          34,
-          49,
-          42,
-          35,
-          39,
-          25,
-          31,
-          30,
-          27,
-          42,
-          53,
-          30,
-          39,
-          31,
-          34,
-          37,
-          32,
-          33,
-          32,
-          47,
-          30,
-          28,
-          31,
-          31,
-          35,
-          33,
-          33,
-          29,
-          41,
-          27,
-          48,
-          45,
-          36,
-          31,
-          50,
-          44,
-          36,
-          33,
-          29,
-          25,
-          32,
-          34,
-          10,
-          14,
-          18,
-          12,
-          12,
-          13,
-          12,
-          10,
-          10,
-          8,
-          7,
-          9,
-          7,
-          5,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 15,
-        "top3Average": 15,
-        "categoryScore": 15,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "container airtight food storage",
-            "usedKeyword": "container airtight food storage",
-            "score": 15,
-            "growthPercent": -51,
-            "matchedKeyword": "container airtight food storage",
-            "matchScore": 408,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "container airtight food storage",
-          "airtight food storage",
-          "food storage",
-          "jars kitchen",
-          "olive pickle strainer jar",
-          "olive pickle strainer",
-          "olive pickle",
-          "olive pickle strainer jar olive container hourglass jar strainer flip pickle container airtight food storage"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256808061749724",
         "score": 43,
@@ -138656,7 +137972,7 @@
     "aliExpressKeyword": "women s clothing",
     "aliExpressRank": 5,
     "sourceScore": 92,
-    "trend": 40,
+    "trend": 37,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -138684,7 +138000,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:25:19.518Z",
-    "dropTrendScore": 40,
+    "dropTrendScore": 37,
     "scoreHistory": [
       {
         "date": "2026-07-07",
@@ -138809,17 +138125,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256812035523422",
-        "quvirlScore": 40,
-        "dropTrendScore": 40,
-        "googleScore": 6,
+        "quvirlScore": 37,
+        "dropTrendScore": 37,
+        "googleScore": 0,
         "amazonScore": 43,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "lace tops neck short",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -138843,350 +138159,8 @@
       "tops v-neck"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "tops shirts",
-        "usedKeyword": "lace tops neck short",
-        "score": 6,
-        "rawScore": 6,
-        "growthPercent": -72,
-        "firstAvg": 2,
-        "lastAvg": 1,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 100
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 5
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 5
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 8
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 5
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 5
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          0,
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          5,
-          5,
-          0,
-          0,
-          0,
-          0,
-          0,
-          8,
-          0,
-          0,
-          0,
-          5,
-          5,
-          0,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 6,
-        "top3Average": 6,
-        "categoryScore": 6,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "tops shirts",
-            "usedKeyword": "lace tops neck short",
-            "score": 6,
-            "growthPercent": -72,
-            "matchedKeyword": "tops shirts",
-            "matchScore": 366,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "tops shirts",
-          "lace tops v-neck short",
-          "pure desire girl shirts",
-          "lace tops v-neck",
-          "desire girl shirts",
-          "lace tops",
-          "girl shirts",
-          "tops v-neck"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256812035523422",
         "score": 43,
@@ -151238,7 +150212,7 @@
     "aliExpressKeyword": "clothing",
     "aliExpressRank": 15,
     "sourceScore": 92,
-    "trend": 48,
+    "trend": 42,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -151267,7 +150241,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:30:55.524Z",
-    "dropTrendScore": 48,
+    "dropTrendScore": 42,
     "scoreHistory": [
       {
         "date": "2026-07-05",
@@ -151407,17 +150381,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256811863239146",
-        "quvirlScore": 48,
-        "dropTrendScore": 48,
-        "googleScore": 15,
+        "quvirlScore": 42,
+        "dropTrendScore": 42,
+        "googleScore": 0,
         "amazonScore": 56,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "thermal underwear tops clothes",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -151441,350 +150415,8 @@
       "thermal underwear tops clothes thermal shirt"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "underwear tops shirt",
-        "usedKeyword": "thermal underwear tops clothes",
-        "score": 15,
-        "rawScore": 15,
-        "growthPercent": -100,
-        "firstAvg": 2,
-        "lastAvg": 0,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 15,
-        "top3Average": 15,
-        "categoryScore": 15,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "underwear tops shirt",
-            "usedKeyword": "thermal underwear tops clothes",
-            "score": 15,
-            "growthPercent": -100,
-            "matchedKeyword": "thermal underwear tops clothes",
-            "matchScore": 408,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "underwear tops shirt",
-          "tops clothes thermal shirt",
-          "thermal underwear tops clothes",
-          "thermal underwear tops",
-          "underwear tops clothes",
-          "tops shirt",
-          "underwear tops",
-          "thermal underwear tops clothes thermal shirt"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256811863239146",
         "score": 56,
@@ -161807,7 +160439,7 @@
           "laptop sleeve case inch",
           "laptop sleeve case",
           "bag bags",
-          "laptop case"
+          "case bag"
         ]
       },
       "amazon": {
@@ -164767,7 +163399,7 @@
     "aliExpressKeyword": "vacuum cleaner",
     "aliExpressRank": 19,
     "sourceScore": 92,
-    "trend": 48,
+    "trend": 40,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -164796,7 +163428,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:37:28.321Z",
-    "dropTrendScore": 48,
+    "dropTrendScore": 40,
     "scoreHistory": [
       {
         "date": "2026-07-10",
@@ -164891,17 +163523,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256810092418264",
-        "quvirlScore": 48,
-        "dropTrendScore": 48,
-        "googleScore": 18,
+        "quvirlScore": 40,
+        "dropTrendScore": 40,
+        "googleScore": 0,
         "amazonScore": 51,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "car vacuum cleaner",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -164925,350 +163557,8 @@
       "suction handheld vacuum cleaner car"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "szuk car vacuum cleaner 165000pa powerful wireless vacuum cleaner strong suction handheld vacuum cleaner car",
-        "usedKeyword": "car vacuum cleaner",
-        "score": 18,
-        "rawScore": 18,
-        "growthPercent": -51,
-        "firstAvg": 68,
-        "lastAvg": 33,
-        "latestValue": 12,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 59
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 60
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 54
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 58
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 60
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 66
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 58
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 57
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 49
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 55
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 51
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 52
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 63
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 60
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 50
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 56
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 59
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 64
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 52
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 46
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 42
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 37
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 39
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 44
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 46
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 35
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 41
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 42
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 46
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 43
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 49
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 50
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 37
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 26
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 24
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 24
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 20
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 21
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 16
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 16
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 15
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 15
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 16
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 18
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 11
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 12
-          }
-        ],
-        "timelineValues": [
-          59,
-          60,
-          54,
-          58,
-          60,
-          66,
-          58,
-          57,
-          49,
-          55,
-          51,
-          52,
-          63,
-          60,
-          50,
-          48,
-          56,
-          59,
-          64,
-          52,
-          46,
-          42,
-          37,
-          38,
-          36,
-          39,
-          44,
-          46,
-          34,
-          35,
-          33,
-          41,
-          42,
-          46,
-          48,
-          43,
-          49,
-          50,
-          48,
-          31,
-          31,
-          37,
-          26,
-          24,
-          24,
-          14,
-          14,
-          20,
-          21,
-          16,
-          16,
-          15,
-          15,
-          14,
-          16,
-          18,
-          14,
-          13,
-          11,
-          12
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 18,
-        "top3Average": 18,
-        "categoryScore": 18,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "szuk car vacuum cleaner 165000pa powerful wireless vacuum cleaner strong suction handheld vacuum cleaner car",
-            "usedKeyword": "car vacuum cleaner",
-            "score": 18,
-            "growthPercent": -51,
-            "matchedKeyword": "szuk car vacuum cleaner 165000pa powerful wireless vacuum cleaner strong suction handheld vacuum cleaner car",
-            "matchScore": 610,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "szuk car vacuum cleaner 165000pa powerful wireless vacuum cleaner strong suction handheld vacuum cleaner car",
-          "szuk car vacuum cleaner",
-          "car vacuum cleaner 165000pa",
-          "handheld vacuum cleaner car",
-          "car vacuum cleaner",
-          "vacuum cleaner car",
-          "szuk car vacuum cleaner 165000pa",
-          "suction handheld vacuum cleaner car"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256810092418264",
         "score": 51,
@@ -165355,7 +163645,7 @@
     "aliExpressKeyword": "shoes",
     "aliExpressRank": 36,
     "sourceScore": 92,
-    "trend": 43,
+    "trend": 40,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -165384,7 +163674,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:37:33.337Z",
-    "dropTrendScore": 43,
+    "dropTrendScore": 40,
     "scoreHistory": [
       {
         "date": "2026-07-11",
@@ -165464,17 +163754,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256807353875457",
-        "quvirlScore": 43,
-        "dropTrendScore": 43,
-        "googleScore": 9,
+        "quvirlScore": 40,
+        "dropTrendScore": 40,
+        "googleScore": 0,
         "amazonScore": 49,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "slides sandals indoor outdoor walking",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -165498,350 +163788,8 @@
       "non-slip beach sandals lightweight"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "slippers sandals outdoor shoes",
-        "usedKeyword": "slides sandals indoor outdoor walking",
-        "score": 9,
-        "rawScore": 9,
-        "growthPercent": 4,
-        "firstAvg": 0,
-        "lastAvg": 2,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 100
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          100,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 9,
-        "top3Average": 9,
-        "categoryScore": 9,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "slippers sandals outdoor shoes",
-            "usedKeyword": "slides sandals indoor outdoor walking",
-            "score": 9,
-            "growthPercent": 4,
-            "matchedKeyword": "platform sandals closed toe non-slip beach sandals lightweight soft bottom home comfortable sandalias",
-            "matchScore": 241,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "sandals home",
-          "platform sandals closed toe non-slip beach sandals lightweight soft bottom home comfortable sandalias",
-          "toe non-slip beach sandals",
-          "platform sandals closed toe",
-          "lightweight soft bottom home",
-          "soft bottom home comfortable",
-          "bottom home comfortable sandalias",
-          "non-slip beach sandals lightweight"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256807353875457",
         "score": 49,
@@ -176399,7 +174347,7 @@
     "aliExpressKeyword": "clothing",
     "aliExpressRank": 20,
     "sourceScore": 91,
-    "trend": 26,
+    "trend": 20,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -176428,7 +174376,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:43:37.992Z",
-    "dropTrendScore": 26,
+    "dropTrendScore": 20,
     "scoreHistory": [
       {
         "date": "2026-07-07",
@@ -176553,17 +174501,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256806808208936",
-        "quvirlScore": 26,
-        "dropTrendScore": 26,
-        "googleScore": 15,
+        "quvirlScore": 20,
+        "dropTrendScore": 20,
+        "googleScore": 0,
         "amazonScore": 0,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "neck short",
+        "googleKeyword": "",
         "amazonMatched": false,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -176587,350 +174535,8 @@
       "waffle round"
     ],
     "trendProof": {
-      "confidence": "Medium",
-      "googleTrends": {
-        "keyword": "waffle round neck short",
-        "usedKeyword": "neck short",
-        "score": 15,
-        "rawScore": 15,
-        "growthPercent": -61,
-        "firstAvg": 69,
-        "lastAvg": 27,
-        "latestValue": 15,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 64
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 62
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 53
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 49
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 50
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 53
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 42
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 39
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 41
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 40
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 41
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 39
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 41
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 53
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 40
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 40
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 42
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 50
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 44
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 40
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 42
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 37
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 39
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 35
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 30
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 32
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 29
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 33
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 31
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 37
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 20
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 21
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 21
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 18
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 19
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 20
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 11
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 14
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 13
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 12
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 10
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 15
-          }
-        ],
-        "timelineValues": [
-          64,
-          62,
-          53,
-          49,
-          50,
-          53,
-          42,
-          39,
-          41,
-          40,
-          41,
-          39,
-          41,
-          53,
-          40,
-          40,
-          42,
-          50,
-          44,
-          40,
-          42,
-          37,
-          34,
-          38,
-          36,
-          33,
-          34,
-          39,
-          35,
-          33,
-          30,
-          32,
-          29,
-          33,
-          38,
-          33,
-          31,
-          36,
-          37,
-          20,
-          21,
-          21,
-          18,
-          19,
-          20,
-          13,
-          13,
-          14,
-          14,
-          13,
-          13,
-          14,
-          14,
-          11,
-          13,
-          14,
-          13,
-          12,
-          10,
-          15
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 15,
-        "top3Average": 15,
-        "categoryScore": 15,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "waffle round neck short",
-            "usedKeyword": "neck short",
-            "score": 15,
-            "growthPercent": -61,
-            "matchedKeyword": "waffle round neck short",
-            "matchScore": 402,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "waffle round neck short",
-          "neck short sleeved t-shirt",
-          "round neck short",
-          "waffle round neck",
-          "neck short",
-          "round neck",
-          "short sleeved t-shirt",
-          "waffle round"
-        ]
-      },
+      "confidence": "Low",
+      "googleTrends": null,
       "amazon": null,
       "cjSupplier": {
         "score": 100,
@@ -180717,7 +178323,7 @@
     "aliExpressKeyword": "phone photo",
     "aliExpressRank": 34,
     "sourceScore": 91,
-    "trend": 26,
+    "trend": 20,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -180746,7 +178352,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:46:30.455Z",
-    "dropTrendScore": 26,
+    "dropTrendScore": 20,
     "scoreHistory": [
       {
         "date": "2026-07-11",
@@ -180826,17 +178432,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256806674465609",
-        "quvirlScore": 26,
-        "dropTrendScore": 26,
-        "googleScore": 16,
+        "quvirlScore": 20,
+        "dropTrendScore": 20,
+        "googleScore": 0,
         "amazonScore": 0,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "fish eye wide angle",
+        "googleKeyword": "",
         "amazonMatched": false,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -180860,350 +178466,8 @@
       "camera lens clip"
     ],
     "trendProof": {
-      "confidence": "Medium",
-      "googleTrends": {
-        "keyword": "mobile phone fish eye wide angle macro 3in1 lightweight camera lens clip universal cell phone lens iphone xiaomi huawei",
-        "usedKeyword": "fish eye wide angle",
-        "score": 16,
-        "rawScore": 16,
-        "growthPercent": 16,
-        "firstAvg": 0,
-        "lastAvg": 8,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 92
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 86
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 100
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 92
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          92,
-          0,
-          0,
-          0,
-          0,
-          86,
-          0,
-          100,
-          0,
-          92,
-          0,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 16,
-        "top3Average": 16,
-        "categoryScore": 16,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "mobile phone fish eye wide angle macro 3in1 lightweight camera lens clip universal cell phone lens iphone xiaomi huawei",
-            "usedKeyword": "fish eye wide angle",
-            "score": 16,
-            "growthPercent": 16,
-            "matchedKeyword": "mobile phone fish eye wide angle macro 3in1 lightweight camera lens clip universal cell phone lens iphone xiaomi huawei",
-            "matchScore": 677,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "mobile phone fish eye wide angle macro 3in1 lightweight camera lens clip universal cell phone lens iphone xiaomi huawei",
-          "phone camera lens",
-          "cell phone lens iphone",
-          "universal cell phone lens",
-          "3in1 lightweight camera lens",
-          "lightweight camera lens clip",
-          "cell phone lens",
-          "camera lens clip"
-        ]
-      },
+      "confidence": "Low",
+      "googleTrends": null,
       "amazon": null,
       "cjSupplier": {
         "score": 100,
@@ -223248,7 +220512,7 @@
     "aliExpressKeyword": "car vacuum",
     "aliExpressRank": 15,
     "sourceScore": 86,
-    "trend": 52,
+    "trend": 45,
     "winningScore": 126,
     "tags": [
       "AliExpress product",
@@ -223277,7 +220541,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T21:07:21.482Z",
-    "dropTrendScore": 52,
+    "dropTrendScore": 45,
     "scoreHistory": [
       {
         "date": "2026-07-08",
@@ -223387,17 +220651,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256809762741074",
-        "quvirlScore": 52,
-        "dropTrendScore": 52,
-        "googleScore": 19,
+        "quvirlScore": 45,
+        "dropTrendScore": 45,
+        "googleScore": 0,
         "amazonScore": 62,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "vacuum cleaner vacuum cleaner",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -223421,350 +220685,8 @@
       "pump handheld car vacuum"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "car vacuum cleaner vacuum cleaner multi purpose vehicles household pump handheld car vacuum cleaner",
-        "usedKeyword": "vacuum cleaner vacuum cleaner",
-        "score": 19,
-        "rawScore": 19,
-        "growthPercent": -51,
-        "firstAvg": 76,
-        "lastAvg": 38,
-        "latestValue": 19,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 63
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 62
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 57
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 61
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 61
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 67
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 63
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 64
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 53
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 61
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 54
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 61
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 62
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 71
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 58
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 54
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 61
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 55
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 59
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 44
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 49
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 43
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 40
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 40
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 43
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 45
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 38
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 42
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 48
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 44
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 54
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 54
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 52
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 34
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 35
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 36
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 29
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 28
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 30
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 23
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 23
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 27
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 28
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 24
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 24
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 24
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 22
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 25
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 26
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 26
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 26
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 26
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 21
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 19
-          }
-        ],
-        "timelineValues": [
-          63,
-          62,
-          57,
-          61,
-          61,
-          67,
-          63,
-          64,
-          53,
-          61,
-          54,
-          61,
-          62,
-          71,
-          58,
-          54,
-          61,
-          55,
-          59,
-          44,
-          48,
-          49,
-          43,
-          38,
-          40,
-          40,
-          43,
-          45,
-          38,
-          38,
-          36,
-          38,
-          42,
-          48,
-          48,
-          44,
-          54,
-          54,
-          52,
-          34,
-          35,
-          36,
-          29,
-          28,
-          30,
-          23,
-          23,
-          27,
-          28,
-          24,
-          24,
-          24,
-          22,
-          25,
-          26,
-          26,
-          26,
-          26,
-          21,
-          19
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 19,
-        "top3Average": 19,
-        "categoryScore": 19,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "car vacuum cleaner vacuum cleaner multi purpose vehicles household pump handheld car vacuum cleaner",
-            "usedKeyword": "vacuum cleaner vacuum cleaner",
-            "score": 19,
-            "growthPercent": -51,
-            "matchedKeyword": "car vacuum cleaner vacuum cleaner multi purpose vehicles household pump handheld car vacuum cleaner",
-            "matchScore": 592,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "car vacuum cleaner vacuum cleaner multi purpose vehicles household pump handheld car vacuum cleaner",
-          "car vacuum cleaner vacuum cleaner",
-          "car vacuum cleaner pump",
-          "car vacuum cleaner vacuum",
-          "vacuum cleaner vacuum cleaner",
-          "pump handheld car vacuum cleaner",
-          "vacuum cleaner vacuum cleaner multi",
-          "pump handheld car vacuum"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256809762741074",
         "score": 62,
@@ -235829,7 +232751,7 @@
     "aliExpressKeyword": "laptop sleeve",
     "aliExpressRank": 18,
     "sourceScore": 89,
-    "trend": 52,
+    "trend": 47,
     "winningScore": 129,
     "tags": [
       "AliExpress product",
@@ -235858,7 +232780,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-08-01T20:55:51.679Z",
-    "dropTrendScore": 52,
+    "dropTrendScore": 47,
     "scoreHistory": [
       {
         "date": "2026-07-08",
@@ -235968,17 +232890,17 @@
       {
         "date": "2026-08-02",
         "productId": "aliexpress-3256811986576549",
-        "quvirlScore": 52,
-        "dropTrendScore": 52,
-        "googleScore": 13,
+        "quvirlScore": 47,
+        "dropTrendScore": 47,
+        "googleScore": 0,
         "amazonScore": 68,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
-        "googleKeyword": "case tablet sleeve cover bag",
+        "googleKeyword": "",
         "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -236002,350 +232924,8 @@
       "laptop sleeve case"
     ],
     "trendProof": {
-      "confidence": "High",
-      "googleTrends": {
-        "keyword": "laptop case tablet cover bag",
-        "usedKeyword": "case tablet sleeve cover bag",
-        "score": 13,
-        "rawScore": 13,
-        "growthPercent": 11,
-        "firstAvg": 0,
-        "lastAvg": 5,
-        "latestValue": 0,
-        "maxValue": 100,
-        "timeline": [
-          {
-            "label": "May 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "May 31, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 4, 2026",
-            "value": 80
-          },
-          {
-            "label": "Jun 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 16, 2026",
-            "value": 100
-          },
-          {
-            "label": "Jun 17, 2026",
-            "value": 70
-          },
-          {
-            "label": "Jun 18, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 19, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 20, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 21, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 22, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 23, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 24, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 25, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 26, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 27, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 28, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 29, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jun 30, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 1, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 2, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 3, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 4, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 5, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 6, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 7, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 8, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 9, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 10, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 11, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 12, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 13, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 14, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 15, 2026",
-            "value": 0
-          },
-          {
-            "label": "Jul 16, 2026",
-            "value": 0
-          }
-        ],
-        "timelineValues": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          80,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          100,
-          70,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "timelinePoints": 60,
-        "match": 1,
-        "combined": false,
-        "bestKeywordScore": 13,
-        "top3Average": 13,
-        "categoryScore": 13,
-        "matchedKeywordCount": 1,
-        "keywordScores": [
-          {
-            "keyword": "laptop case tablet cover bag",
-            "usedKeyword": "case tablet sleeve cover bag",
-            "score": 13,
-            "growthPercent": 11,
-            "matchedKeyword": "haweel laptop sleeve case inch dell notebook bag carrying bag macbook air pro protective case",
-            "matchScore": 295,
-            "timelinePoints": 60
-          }
-        ],
-        "checkedKeywords": [
-          "haweel laptop sleeve case inch dell notebook bag carrying bag macbook air pro protective case",
-          "laptop case bag",
-          "laptop sleeve case inch",
-          "bag carrying bag macbook",
-          "haweel laptop sleeve case",
-          "notebook bag carrying bag",
-          "bag carrying bag",
-          "laptop sleeve case"
-        ]
-      },
+      "confidence": "Medium",
+      "googleTrends": null,
       "amazon": {
         "keyword": "aliexpress-3256811986576549",
         "score": 68,

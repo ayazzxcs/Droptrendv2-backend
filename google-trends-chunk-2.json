@@ -23061,4 +23061,2589 @@
     ],
     "failedVariants": []
   }
+]Jul 14, 2026",
+        "value": 52
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 54
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 24
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 26
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 25
+      }
+    ],
+    "timelineValues": [
+      79,
+      72,
+      74,
+      72,
+      79,
+      75,
+      80,
+      78,
+      69,
+      72,
+      81,
+      80,
+      80,
+      80,
+      73,
+      65,
+      73,
+      84,
+      84,
+      91,
+      94,
+      70,
+      71,
+      84,
+      75,
+      73,
+      65,
+      74,
+      79,
+      71,
+      75,
+      75,
+      59,
+      71,
+      74,
+      60,
+      50,
+      50,
+      57,
+      57,
+      52,
+      51,
+      39,
+      31,
+      36,
+      32,
+      31,
+      40,
+      30,
+      29,
+      26,
+      27,
+      34,
+      34,
+      32,
+      27,
+      54,
+      24,
+      26,
+      25
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:13:36.851Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "sensor monitor home",
+      "indoor thermometer monitor home",
+      "thermometer monitor home automation",
+      "monitor home automation",
+      "thermometer monitor home",
+      "monitor home",
+      "sensor monitor",
+      "ewelink smart zigbee temperature humidity sensor app control indoor thermometer monitor home automation works alexa google",
+      "control indoor thermometer monitor home",
+      "indoor thermometer monitor home automation",
+      "temperature humidity sensor app",
+      "control indoor thermometer monitor",
+      "zigbee temperature humidity sensor",
+      "humidity sensor app",
+      "indoor thermometer monitor",
+      "temperature humidity sensor",
+      "sensor app",
+      "home automation",
+      "humidity sensor",
+      "thermometer monitor",
+      "zigbee temperature humidity sensor app",
+      "automation works alexa google",
+      "ewelink smart zigbee temperature",
+      "works alexa google",
+      "ewelink smart zigbee",
+      "alexa google",
+      "ewelink smart",
+      "indoor thermometer",
+      "temperature humidity"
+    ],
+    "generatedVariants": [
+      "sensor monitor home",
+      "indoor thermometer monitor home",
+      "thermometer monitor home automation",
+      "monitor home automation",
+      "thermometer monitor home",
+      "monitor home",
+      "sensor monitor",
+      "ewelink smart zigbee temperature humidity sensor app control indoor thermometer monitor home automation works alexa google",
+      "control indoor thermometer monitor home",
+      "indoor thermometer monitor home automation",
+      "temperature humidity sensor app",
+      "control indoor thermometer monitor",
+      "zigbee temperature humidity sensor",
+      "humidity sensor app",
+      "indoor thermometer monitor",
+      "temperature humidity sensor",
+      "sensor app",
+      "home automation",
+      "humidity sensor",
+      "thermometer monitor",
+      "zigbee temperature humidity sensor app",
+      "automation works alexa google",
+      "ewelink smart zigbee temperature",
+      "works alexa google",
+      "ewelink smart zigbee",
+      "alexa google",
+      "ewelink smart",
+      "indoor thermometer",
+      "temperature humidity",
+      "home",
+      "sensor",
+      "monitor",
+      "humidity"
+    ],
+    "specificVariants": [
+      "sensor monitor home",
+      "indoor thermometer monitor home",
+      "thermometer monitor home automation",
+      "monitor home automation",
+      "thermometer monitor home",
+      "monitor home",
+      "sensor monitor",
+      "ewelink smart zigbee temperature humidity sensor app control indoor thermometer monitor home automation works alexa google",
+      "control indoor thermometer monitor home",
+      "indoor thermometer monitor home automation",
+      "temperature humidity sensor app",
+      "control indoor thermometer monitor",
+      "zigbee temperature humidity sensor",
+      "humidity sensor app",
+      "indoor thermometer monitor",
+      "temperature humidity sensor",
+      "sensor app",
+      "home automation",
+      "humidity sensor",
+      "thermometer monitor",
+      "zigbee temperature humidity sensor app",
+      "automation works alexa google",
+      "ewelink smart zigbee temperature",
+      "works alexa google",
+      "ewelink smart zigbee",
+      "alexa google",
+      "ewelink smart",
+      "indoor thermometer",
+      "temperature humidity"
+    ],
+    "fallbackVariants": [
+      "home",
+      "sensor",
+      "monitor",
+      "humidity"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "EWelink Smart Zigbee Temperature Humidity Sensor App Control Indoor Thermometer Monitor Home Automation Works With Alexa Google",
+      "sensor monitor home"
+    ],
+    "productIds": [
+      "aliexpress-3256808421169483"
+    ],
+    "primaryProductTitle": "EWelink Smart Zigbee Temperature Humidity Sensor App Control Indoor Thermometer Monitor Home Automation Works With Alexa Google",
+    "productKey": "aliexpress-3256808421169483",
+    "variantSignals": [
+      {
+        "keyword": "sensor monitor home",
+        "usedKeyword": "temperature humidity",
+        "score": 25,
+        "growthPercent": -23,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "slippers sandals outdoor",
+    "usedKeyword": "sandals outdoor",
+    "score": 10,
+    "rawScore": 10,
+    "growthPercent": -81,
+    "firstAvg": 54,
+    "lastAvg": 10,
+    "latestValue": 4,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 11
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 4
+      }
+    ],
+    "timelineValues": [
+      49,
+      48,
+      43,
+      48,
+      36,
+      31,
+      34,
+      31,
+      27,
+      35,
+      40,
+      31,
+      24,
+      25,
+      22,
+      28,
+      35,
+      39,
+      26,
+      28,
+      30,
+      36,
+      11,
+      10,
+      12,
+      8,
+      9,
+      10,
+      8,
+      10,
+      9,
+      10,
+      6,
+      7,
+      8,
+      7,
+      6,
+      6,
+      7,
+      6,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      5,
+      3,
+      4,
+      4,
+      4
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:21:00.501Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "slippers sandals outdoor",
+      "sandals outdoor",
+      "slippers sandals",
+      "slippers one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "slippers one strap",
+      "one strap slide sandals",
+      "toe sexy elegant outdoor",
+      "sexy elegant outdoor mules",
+      "strap slide sandals rhinestone",
+      "slippers one",
+      "strap slide sandals",
+      "sexy elegant outdoor",
+      "elegant outdoor mules",
+      "slide sandals rhinestone",
+      "outdoor mules",
+      "slide sandals",
+      "elegant outdoor",
+      "sandals rhinestone",
+      "one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "toe sexy elegant outdoor mules",
+      "one strap slide sandals rhinestone",
+      "one strap slide",
+      "one strap",
+      "toe sexy elegant",
+      "toe sexy",
+      "sexy elegant"
+    ],
+    "generatedVariants": [
+      "slippers sandals outdoor",
+      "sandals outdoor",
+      "slippers sandals",
+      "slippers one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "slippers one strap",
+      "one strap slide sandals",
+      "toe sexy elegant outdoor",
+      "sexy elegant outdoor mules",
+      "strap slide sandals rhinestone",
+      "slippers one",
+      "strap slide sandals",
+      "sexy elegant outdoor",
+      "elegant outdoor mules",
+      "slide sandals rhinestone",
+      "slippers",
+      "outdoor mules",
+      "slide sandals",
+      "elegant outdoor",
+      "sandals rhinestone",
+      "one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "toe sexy elegant outdoor mules",
+      "one strap slide sandals rhinestone",
+      "one strap slide",
+      "one strap",
+      "toe sexy elegant",
+      "one",
+      "toe sexy",
+      "sexy elegant",
+      "outdoor",
+      "sandals"
+    ],
+    "specificVariants": [
+      "slippers sandals outdoor",
+      "sandals outdoor",
+      "slippers sandals",
+      "slippers one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "slippers one strap",
+      "one strap slide sandals",
+      "toe sexy elegant outdoor",
+      "sexy elegant outdoor mules",
+      "strap slide sandals rhinestone",
+      "slippers one",
+      "strap slide sandals",
+      "sexy elegant outdoor",
+      "elegant outdoor mules",
+      "slide sandals rhinestone",
+      "outdoor mules",
+      "slide sandals",
+      "elegant outdoor",
+      "sandals rhinestone",
+      "one strap slide sandals rhinestone open toe stiletto heels french pointed toe sexy elegant outdoor mules",
+      "toe sexy elegant outdoor mules",
+      "one strap slide sandals rhinestone",
+      "one strap slide",
+      "one strap",
+      "toe sexy elegant",
+      "toe sexy",
+      "sexy elegant"
+    ],
+    "fallbackVariants": [
+      "slippers",
+      "one",
+      "outdoor",
+      "sandals"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "2026 Summer Women's One Strap Slide Sandals, Rhinestone Open Toe Stiletto Heels, French Pointed Toe Sexy Elegant Outdoor Mules",
+      "slippers sandals outdoor"
+    ],
+    "productIds": [
+      "2083066830520041473"
+    ],
+    "primaryProductTitle": "2026 Summer Women's One Strap Slide Sandals, Rhinestone Open Toe Stiletto Heels, French Pointed Toe Sexy Elegant Outdoor Mules",
+    "productKey": "2083066830520041473",
+    "variantSignals": [
+      {
+        "keyword": "slippers sandals outdoor",
+        "usedKeyword": "sandals outdoor",
+        "score": 10,
+        "growthPercent": -81,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "slippers sandals outdoor",
+        "usedKeyword": "slide sandals",
+        "score": 9,
+        "growthPercent": -83,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+    "usedKeyword": "roman sandals outdoor",
+    "score": 15,
+    "rawScore": 15,
+    "growthPercent": -100,
+    "firstAvg": 2,
+    "lastAvg": 0,
+    "latestValue": 0,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 0
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 0
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 0
+      }
+    ],
+    "timelineValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:20:52.264Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor",
+      "roman sandals outdoor wear",
+      "sandals outdoor wear arrival",
+      "sandals outdoor wear",
+      "roman sandals outdoor",
+      "sandals outdoor",
+      "french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor wear",
+      "block heel roman sandals outdoor",
+      "closed toe sandals slip",
+      "block heel roman sandals",
+      "sandals french hollow strap",
+      "breathable closed toe sandals",
+      "toe sandals slip",
+      "closed toe sandals",
+      "heel roman sandals",
+      "outdoor wear arrival",
+      "sandals french hollow",
+      "toe sandals",
+      "outdoor wear",
+      "sandals slip",
+      "roman sandals",
+      "sandals french",
+      "breathable closed toe sandals slip",
+      "french hollow strap breathable",
+      "french hollow strap",
+      "heel roman",
+      "wear arrival",
+      "french hollow",
+      "hollow strap breathable closed",
+      "strap breathable closed toe",
+      "toe sandals slip block",
+      "sandals slip block heel",
+      "slip block heel roman",
+      "hollow strap breathable",
+      "strap breathable closed",
+      "breathable closed toe",
+      "sandals slip block",
+      "slip block heel",
+      "block heel roman",
+      "hollow strap",
+      "strap breathable",
+      "breathable closed",
+      "closed toe",
+      "slip block",
+      "block heel"
+    ],
+    "generatedVariants": [
+      "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor",
+      "roman sandals outdoor wear",
+      "sandals outdoor wear arrival",
+      "sandals outdoor wear",
+      "roman sandals outdoor",
+      "sandals outdoor",
+      "french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor wear",
+      "block heel roman sandals outdoor",
+      "closed toe sandals slip",
+      "block heel roman sandals",
+      "sandals french hollow strap",
+      "breathable closed toe sandals",
+      "toe sandals slip",
+      "closed toe sandals",
+      "heel roman sandals",
+      "outdoor wear arrival",
+      "sandals french hollow",
+      "toe sandals",
+      "outdoor wear",
+      "sandals slip",
+      "roman sandals",
+      "sandals french",
+      "breathable closed toe sandals slip",
+      "french hollow strap breathable",
+      "french hollow strap",
+      "heel roman",
+      "wear arrival",
+      "french hollow",
+      "outdoor",
+      "sandals",
+      "hollow strap breathable closed",
+      "strap breathable closed toe",
+      "toe sandals slip block",
+      "sandals slip block heel",
+      "slip block heel roman",
+      "hollow strap breathable",
+      "strap breathable closed",
+      "breathable closed toe",
+      "sandals slip block",
+      "slip block heel",
+      "block heel roman",
+      "hollow strap",
+      "strap breathable",
+      "breathable closed",
+      "closed toe",
+      "slip block",
+      "block heel"
+    ],
+    "specificVariants": [
+      "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor",
+      "roman sandals outdoor wear",
+      "sandals outdoor wear arrival",
+      "sandals outdoor wear",
+      "roman sandals outdoor",
+      "sandals outdoor",
+      "french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+      "heel roman sandals outdoor wear",
+      "block heel roman sandals outdoor",
+      "closed toe sandals slip",
+      "block heel roman sandals",
+      "sandals french hollow strap",
+      "breathable closed toe sandals",
+      "toe sandals slip",
+      "closed toe sandals",
+      "heel roman sandals",
+      "outdoor wear arrival",
+      "sandals french hollow",
+      "toe sandals",
+      "outdoor wear",
+      "sandals slip",
+      "roman sandals",
+      "sandals french",
+      "breathable closed toe sandals slip",
+      "french hollow strap breathable",
+      "french hollow strap",
+      "heel roman",
+      "wear arrival",
+      "french hollow",
+      "hollow strap breathable closed",
+      "strap breathable closed toe",
+      "toe sandals slip block",
+      "sandals slip block heel",
+      "slip block heel roman",
+      "hollow strap breathable",
+      "strap breathable closed",
+      "breathable closed toe",
+      "sandals slip block",
+      "slip block heel",
+      "block heel roman",
+      "hollow strap",
+      "strap breathable",
+      "breathable closed",
+      "closed toe",
+      "slip block",
+      "block heel"
+    ],
+    "fallbackVariants": [
+      "outdoor",
+      "sandals"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Women French Hollow Cross Strap Breathable Closed Toe Sandals, Slip On Block Heel Roman Sandals For Outdoor Wear, New Arrival Summer 2026",
+      "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival"
+    ],
+    "productIds": [
+      "2083120364909215745"
+    ],
+    "primaryProductTitle": "Women French Hollow Cross Strap Breathable Closed Toe Sandals, Slip On Block Heel Roman Sandals For Outdoor Wear, New Arrival Summer 2026",
+    "productKey": "2083120364909215745",
+    "variantSignals": [
+      {
+        "keyword": "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+        "usedKeyword": "roman sandals outdoor",
+        "score": 15,
+        "growthPercent": -100,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+        "usedKeyword": "sandals outdoor",
+        "score": 10,
+        "growthPercent": -81,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "sandals french hollow strap breathable closed toe sandals slip block heel roman sandals outdoor wear arrival",
+        "usedKeyword": "roman sandals",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach",
+    "usedKeyword": "roman sandals",
+    "score": 14,
+    "rawScore": 14,
+    "growthPercent": -59,
+    "firstAvg": 57,
+    "lastAvg": 24,
+    "latestValue": 19,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 67
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 37
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 47
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 41
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 44
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 51
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 57
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 20
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 29
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 32
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 33
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 21
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 14
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 19
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 16
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 17
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 18
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 15
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 15
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 19
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 19
+      }
+    ],
+    "timelineValues": [
+      67,
+      43,
+      43,
+      48,
+      29,
+      37,
+      36,
+      34,
+      25,
+      40,
+      47,
+      40,
+      32,
+      31,
+      41,
+      44,
+      48,
+      43,
+      33,
+      51,
+      40,
+      57,
+      27,
+      21,
+      18,
+      20,
+      26,
+      29,
+      18,
+      21,
+      32,
+      34,
+      25,
+      16,
+      32,
+      19,
+      27,
+      21,
+      30,
+      24,
+      0,
+      0,
+      0,
+      0,
+      33,
+      21,
+      16,
+      15,
+      14,
+      15,
+      18,
+      17,
+      19,
+      16,
+      17,
+      18,
+      15,
+      15,
+      19,
+      19
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:21:34.389Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "square toe sandals thin",
+      "strap heel roman sandals",
+      "thong square toe sandals",
+      "sandals retro thong square",
+      "heel roman sandals vacation",
+      "roman sandals vacation beach",
+      "toe sandals thin",
+      "heel roman sandals",
+      "square toe sandals",
+      "sandals retro thong",
+      "roman sandals vacation",
+      "sandals vacation beach",
+      "toe sandals",
+      "sandals thin",
+      "roman sandals",
+      "sandals retro",
+      "sandals vacation",
+      "retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "thong square toe sandals thin",
+      "strap heel roman sandals vacation",
+      "retro thong square toe",
+      "strap heel roman",
+      "thong square toe",
+      "retro thong square",
+      "heel roman",
+      "square toe",
+      "strap heel",
+      "retro thong",
+      "thong square",
+      "vacation beach",
+      "toe sandals thin strap",
+      "sandals thin strap heel",
+      "thin strap heel roman",
+      "sandals thin strap",
+      "thin strap heel",
+      "thin strap"
+    ],
+    "generatedVariants": [
+      "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "square toe sandals thin",
+      "strap heel roman sandals",
+      "thong square toe sandals",
+      "sandals retro thong square",
+      "heel roman sandals vacation",
+      "roman sandals vacation beach",
+      "toe sandals thin",
+      "heel roman sandals",
+      "square toe sandals",
+      "sandals retro thong",
+      "roman sandals vacation",
+      "sandals vacation beach",
+      "toe sandals",
+      "sandals thin",
+      "roman sandals",
+      "sandals retro",
+      "sandals vacation",
+      "retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "thong square toe sandals thin",
+      "strap heel roman sandals vacation",
+      "retro thong square toe",
+      "strap heel roman",
+      "thong square toe",
+      "retro thong square",
+      "heel roman",
+      "square toe",
+      "strap heel",
+      "retro thong",
+      "thong square",
+      "vacation beach",
+      "sandals",
+      "toe sandals thin strap",
+      "sandals thin strap heel",
+      "thin strap heel roman",
+      "sandals thin strap",
+      "thin strap heel",
+      "thin strap"
+    ],
+    "specificVariants": [
+      "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "square toe sandals thin",
+      "strap heel roman sandals",
+      "thong square toe sandals",
+      "sandals retro thong square",
+      "heel roman sandals vacation",
+      "roman sandals vacation beach",
+      "toe sandals thin",
+      "heel roman sandals",
+      "square toe sandals",
+      "sandals retro thong",
+      "roman sandals vacation",
+      "sandals vacation beach",
+      "toe sandals",
+      "sandals thin",
+      "roman sandals",
+      "sandals retro",
+      "sandals vacation",
+      "retro thong square toe sandals thin strap heel roman sandals vacation beach",
+      "thong square toe sandals thin",
+      "strap heel roman sandals vacation",
+      "retro thong square toe",
+      "strap heel roman",
+      "thong square toe",
+      "retro thong square",
+      "heel roman",
+      "square toe",
+      "strap heel",
+      "retro thong",
+      "thong square",
+      "vacation beach",
+      "toe sandals thin strap",
+      "sandals thin strap heel",
+      "thin strap heel roman",
+      "sandals thin strap",
+      "thin strap heel",
+      "thin strap"
+    ],
+    "fallbackVariants": [
+      "sandals"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "2026 Summer New Women Retro Thong Square Toe Sandals, Thin Strap High Heel Roman Sandals For Vacation Beach",
+      "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach"
+    ],
+    "productIds": [
+      "2083111947876417538"
+    ],
+    "primaryProductTitle": "2026 Summer New Women Retro Thong Square Toe Sandals, Thin Strap High Heel Roman Sandals For Vacation Beach",
+    "productKey": "2083111947876417538",
+    "variantSignals": [
+      {
+        "keyword": "sandals retro thong square toe sandals thin strap heel roman sandals vacation beach",
+        "usedKeyword": "roman sandals",
+        "score": 14,
+        "growthPercent": -59,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "cloth car detailing care",
+    "usedKeyword": "cloth car detailing",
+    "score": 15,
+    "rawScore": 15,
+    "growthPercent": -94,
+    "firstAvg": 19,
+    "lastAvg": 1,
+    "latestValue": 6,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 0
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 3
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 3
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 6
+      }
+    ],
+    "timelineValues": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      5,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4,
+      4,
+      6,
+      4,
+      3,
+      3,
+      6
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:06:29.039Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "cloth car detailing care",
+      "car detailing care washing",
+      "car detailing care",
+      "car care",
+      "seametal ultra soft car wash towel microfiber water absorption cleaning drying cloth car detailing care washing towels",
+      "cloth car detailing care washing",
+      "cleaning drying cloth car",
+      "drying cloth car detailing",
+      "seametal ultra soft car wash",
+      "detailing care washing towels",
+      "drying cloth car",
+      "care washing towels",
+      "cloth car detailing",
+      "ultra soft car wash",
+      "detailing care washing",
+      "seametal ultra soft car",
+      "car wash",
+      "cloth car",
+      "wash tool",
+      "care washing",
+      "car detailing",
+      "detailing care",
+      "ultra soft car",
+      "cleaning drying cloth car detailing",
+      "cleaning drying cloth",
+      "drying cloth",
+      "washing towels",
+      "cleaning drying",
+      "seametal ultra soft"
+    ],
+    "generatedVariants": [
+      "cloth car detailing care",
+      "car detailing care washing",
+      "car detailing care",
+      "car care",
+      "seametal ultra soft car wash towel microfiber water absorption cleaning drying cloth car detailing care washing towels",
+      "cloth car detailing care washing",
+      "cleaning drying cloth car",
+      "drying cloth car detailing",
+      "seametal ultra soft car wash",
+      "detailing care washing towels",
+      "drying cloth car",
+      "care washing towels",
+      "cloth car detailing",
+      "ultra soft car wash",
+      "detailing care washing",
+      "seametal ultra soft car",
+      "car wash",
+      "cloth car",
+      "wash tool",
+      "care washing",
+      "car detailing",
+      "detailing care",
+      "ultra soft car",
+      "cleaning drying cloth car detailing",
+      "cleaning drying cloth",
+      "drying cloth",
+      "washing towels",
+      "cleaning drying",
+      "seametal ultra soft",
+      "car",
+      "care",
+      "tool"
+    ],
+    "specificVariants": [
+      "cloth car detailing care",
+      "car detailing care washing",
+      "car detailing care",
+      "car care",
+      "seametal ultra soft car wash towel microfiber water absorption cleaning drying cloth car detailing care washing towels",
+      "cloth car detailing care washing",
+      "cleaning drying cloth car",
+      "drying cloth car detailing",
+      "seametal ultra soft car wash",
+      "detailing care washing towels",
+      "drying cloth car",
+      "care washing towels",
+      "cloth car detailing",
+      "ultra soft car wash",
+      "detailing care washing",
+      "seametal ultra soft car",
+      "car wash",
+      "cloth car",
+      "wash tool",
+      "care washing",
+      "car detailing",
+      "detailing care",
+      "ultra soft car",
+      "cleaning drying cloth car detailing",
+      "cleaning drying cloth",
+      "drying cloth",
+      "washing towels",
+      "cleaning drying",
+      "seametal ultra soft"
+    ],
+    "fallbackVariants": [
+      "car",
+      "care",
+      "tool"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "SEAMETAL Ultra-Soft Car Wash Towel Microfiber High Water Absorption Cleaning Drying Cloth for Car Detailing Care Washing Towels",
+      "cloth car detailing care"
+    ],
+    "productIds": [
+      "aliexpress-3256806851989086"
+    ],
+    "primaryProductTitle": "SEAMETAL Ultra-Soft Car Wash Towel Microfiber High Water Absorption Cleaning Drying Cloth for Car Detailing Care Washing Towels",
+    "productKey": "aliexpress-3256806851989086",
+    "variantSignals": [
+      {
+        "keyword": "cloth car detailing care",
+        "usedKeyword": "cloth car detailing",
+        "score": 15,
+        "growthPercent": -94,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "cloth car detailing care",
+        "usedKeyword": "cloth car",
+        "score": 19,
+        "growthPercent": -43,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "cloth car detailing care",
+        "usedKeyword": "car detailing",
+        "score": 26,
+        "growthPercent": -20,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  },
+  {
+    "keyword": "slippers sandals outdoor dresses",
+    "usedKeyword": "sandals outdoor",
+    "score": 10,
+    "rawScore": 10,
+    "growthPercent": -81,
+    "firstAvg": 54,
+    "lastAvg": 10,
+    "latestValue": 4,
+    "maxValue": 100,
+    "timeline": [
+      {
+        "label": "Jun 4, 2026",
+        "value": 49
+      },
+      {
+        "label": "Jun 5, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 6, 2026",
+        "value": 43
+      },
+      {
+        "label": "Jun 7, 2026",
+        "value": 48
+      },
+      {
+        "label": "Jun 8, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 9, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 10, 2026",
+        "value": 34
+      },
+      {
+        "label": "Jun 11, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 12, 2026",
+        "value": 27
+      },
+      {
+        "label": "Jun 13, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 14, 2026",
+        "value": 40
+      },
+      {
+        "label": "Jun 15, 2026",
+        "value": 31
+      },
+      {
+        "label": "Jun 16, 2026",
+        "value": 24
+      },
+      {
+        "label": "Jun 17, 2026",
+        "value": 25
+      },
+      {
+        "label": "Jun 18, 2026",
+        "value": 22
+      },
+      {
+        "label": "Jun 19, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 20, 2026",
+        "value": 35
+      },
+      {
+        "label": "Jun 21, 2026",
+        "value": 39
+      },
+      {
+        "label": "Jun 22, 2026",
+        "value": 26
+      },
+      {
+        "label": "Jun 23, 2026",
+        "value": 28
+      },
+      {
+        "label": "Jun 24, 2026",
+        "value": 30
+      },
+      {
+        "label": "Jun 25, 2026",
+        "value": 36
+      },
+      {
+        "label": "Jun 26, 2026",
+        "value": 11
+      },
+      {
+        "label": "Jun 27, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jun 28, 2026",
+        "value": 12
+      },
+      {
+        "label": "Jun 29, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jun 30, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 1, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 2, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 3, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 4, 2026",
+        "value": 9
+      },
+      {
+        "label": "Jul 5, 2026",
+        "value": 10
+      },
+      {
+        "label": "Jul 6, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 7, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 8, 2026",
+        "value": 8
+      },
+      {
+        "label": "Jul 9, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 10, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 11, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 12, 2026",
+        "value": 7
+      },
+      {
+        "label": "Jul 13, 2026",
+        "value": 6
+      },
+      {
+        "label": "Jul 14, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 15, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 16, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 17, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 18, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 19, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 20, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 21, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 22, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 23, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 24, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 25, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 26, 2026",
+        "value": 4
+      },
+      {
+        "label": "Jul 27, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 28, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 29, 2026",
+        "value": 5
+      },
+      {
+        "label": "Jul 30, 2026",
+        "value": 3
+      },
+      {
+        "label": "Jul 31, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 1, 2026",
+        "value": 4
+      },
+      {
+        "label": "Aug 2, 2026",
+        "value": 4
+      }
+    ],
+    "timelineValues": [
+      49,
+      48,
+      43,
+      48,
+      36,
+      31,
+      34,
+      31,
+      27,
+      35,
+      40,
+      31,
+      24,
+      25,
+      22,
+      28,
+      35,
+      39,
+      26,
+      28,
+      30,
+      36,
+      11,
+      10,
+      12,
+      8,
+      9,
+      10,
+      8,
+      10,
+      9,
+      10,
+      6,
+      7,
+      8,
+      7,
+      6,
+      6,
+      7,
+      6,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      5,
+      3,
+      4,
+      4,
+      4
+    ],
+    "timelinePoints": 60,
+    "match": 1,
+    "source": "google-trends-network",
+    "fetchedAt": "2026-08-02T13:21:00.501Z",
+    "reusedVariantCache": true,
+    "checkedVariants": [
+      "slippers sandals outdoor dresses",
+      "sandals outdoor dresses",
+      "slippers sandals outdoor",
+      "slippers vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "loop slide sandals outdoor",
+      "slide sandals outdoor wear",
+      "sandals outdoor wear",
+      "slide sandals outdoor",
+      "outdoor dresses",
+      "sandals outdoor",
+      "slippers sandals",
+      "vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "toe loop slide sandals outdoor",
+      "loop slide sandals outdoor wear",
+      "toe loop slide sandals",
+      "french slip mules dresses",
+      "slippers vintage elegant block",
+      "loop slide sandals",
+      "slip mules dresses",
+      "slippers vintage elegant",
+      "outdoor wear",
+      "mules dresses",
+      "slide sandals",
+      "slippers vintage",
+      "vintage elegant block heel",
+      "vintage elegant block",
+      "loop slide",
+      "vintage elegant",
+      "slippers sandals dresses"
+    ],
+    "generatedVariants": [
+      "slippers sandals outdoor dresses",
+      "sandals outdoor dresses",
+      "slippers sandals outdoor",
+      "slippers vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "loop slide sandals outdoor",
+      "slide sandals outdoor wear",
+      "sandals outdoor wear",
+      "slide sandals outdoor",
+      "outdoor dresses",
+      "sandals outdoor",
+      "slippers sandals",
+      "vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "toe loop slide sandals outdoor",
+      "loop slide sandals outdoor wear",
+      "toe loop slide sandals",
+      "french slip mules dresses",
+      "slippers vintage elegant block",
+      "loop slide sandals",
+      "slip mules dresses",
+      "slippers vintage elegant",
+      "outdoor wear",
+      "mules dresses",
+      "slide sandals",
+      "slippers vintage",
+      "vintage elegant block heel",
+      "vintage elegant block",
+      "loop slide",
+      "vintage elegant",
+      "dresses",
+      "outdoor",
+      "sandals",
+      "slippers",
+      "slippers sandals dresses"
+    ],
+    "specificVariants": [
+      "slippers sandals outdoor dresses",
+      "sandals outdoor dresses",
+      "slippers sandals outdoor",
+      "slippers vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "loop slide sandals outdoor",
+      "slide sandals outdoor wear",
+      "sandals outdoor wear",
+      "slide sandals outdoor",
+      "outdoor dresses",
+      "sandals outdoor",
+      "slippers sandals",
+      "vintage elegant block heel toe loop slide sandals outdoor wear french slip mules dresses",
+      "toe loop slide sandals outdoor",
+      "loop slide sandals outdoor wear",
+      "toe loop slide sandals",
+      "french slip mules dresses",
+      "slippers vintage elegant block",
+      "loop slide sandals",
+      "slip mules dresses",
+      "slippers vintage elegant",
+      "outdoor wear",
+      "mules dresses",
+      "slide sandals",
+      "slippers vintage",
+      "vintage elegant block heel",
+      "vintage elegant block",
+      "loop slide",
+      "vintage elegant",
+      "slippers sandals dresses"
+    ],
+    "fallbackVariants": [
+      "dresses",
+      "outdoor",
+      "sandals",
+      "slippers"
+    ],
+    "singleWordFallbackUsed": false,
+    "sourceTitles": [
+      "Women Vintage Elegant Block Heel Toe Loop Slide Sandals, Outdoor Wear, 2026 New French Style Summer Slip On Mules For Dresses",
+      "slippers sandals outdoor dresses"
+    ],
+    "productIds": [
+      "2083012995644186626"
+    ],
+    "primaryProductTitle": "Women Vintage Elegant Block Heel Toe Loop Slide Sandals, Outdoor Wear, 2026 New French Style Summer Slip On Mules For Dresses",
+    "productKey": "2083012995644186626",
+    "variantSignals": [
+      {
+        "keyword": "slippers sandals outdoor dresses",
+        "usedKeyword": "sandals outdoor",
+        "score": 10,
+        "growthPercent": -81,
+        "timelinePoints": 60
+      },
+      {
+        "keyword": "slippers sandals outdoor dresses",
+        "usedKeyword": "slide sandals",
+        "score": 9,
+        "growthPercent": -83,
+        "timelinePoints": 60
+      }
+    ],
+    "failedVariants": []
+  }
 ]
