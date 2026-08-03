@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T07:07:03.437Z",
+  "updatedAt": "2026-08-03T07:59:48.247Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 52,
-  "failedCount": 98,
-  "lastKeyword": "bag holder case wallet cover",
+  "savedSignalCount": 64,
+  "failedCount": 86,
+  "lastKeyword": "shoes outdoor light",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 6177,
-  "reusedVariantChecks": 1139,
-  "variantCacheSize": 6177,
+  "uniqueVariantsFetched": 5313,
+  "reusedVariantChecks": 928,
+  "variantCacheSize": 5313,
   "keywordTimeoutMs": 180000
 }

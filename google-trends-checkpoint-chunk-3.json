@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T05:37:29.199Z",
+  "updatedAt": "2026-08-03T06:57:16.197Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 39,
-  "failedCount": 111,
-  "lastKeyword": "charger cable phone",
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "home office storage brush",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4323,
-  "reusedVariantChecks": 867,
-  "variantCacheSize": 4323,
+  "uniqueVariantsFetched": 3985,
+  "reusedVariantChecks": 656,
+  "variantCacheSize": 3985,
   "keywordTimeoutMs": 180000
 }

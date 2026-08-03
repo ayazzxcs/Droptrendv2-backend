@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T06:03:02.260Z",
+  "updatedAt": "2026-08-03T07:21:42.062Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 42,
-  "failedCount": 108,
-  "lastKeyword": "controller hub",
+  "savedSignalCount": 49,
+  "failedCount": 101,
+  "lastKeyword": "toy pillow sofa children",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4796,
-  "reusedVariantChecks": 1003,
-  "variantCacheSize": 4796,
+  "uniqueVariantsFetched": 4514,
+  "reusedVariantChecks": 864,
+  "variantCacheSize": 4514,
   "keywordTimeoutMs": 180000
 }

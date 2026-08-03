@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T03:48:41.380Z",
+  "updatedAt": "2026-08-03T05:28:15.005Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 72,
-  "failedCount": 78,
-  "lastKeyword": "casual shoes cowhide soft-soled",
+  "savedSignalCount": 64,
+  "failedCount": 86,
+  "lastKeyword": "jeans pants",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2138,
-  "reusedVariantChecks": 249,
-  "variantCacheSize": 2138,
+  "uniqueVariantsFetched": 2127,
+  "reusedVariantChecks": 363,
+  "variantCacheSize": 2127,
   "keywordTimeoutMs": 180000
 }

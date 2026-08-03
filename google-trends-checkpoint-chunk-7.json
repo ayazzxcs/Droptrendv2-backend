@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:03:56.424Z",
+  "updatedAt": "2026-08-03T05:39:16.861Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 50,
-  "failedCount": 100,
-  "lastKeyword": "hoodies hoodie",
+  "savedSignalCount": 49,
+  "failedCount": 101,
+  "lastKeyword": "dresses dress",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2339,
-  "reusedVariantChecks": 401,
-  "variantCacheSize": 2339,
+  "uniqueVariantsFetched": 2379,
+  "reusedVariantChecks": 417,
+  "variantCacheSize": 2379,
   "keywordTimeoutMs": 180000
 }

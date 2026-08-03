@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T07:32:36.861Z",
+  "updatedAt": "2026-08-03T09:03:31.940Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 14,
-  "failedCount": 136,
-  "lastKeyword": "glass screen protectors protector camera",
+  "savedSignalCount": 25,
+  "failedCount": 125,
+  "lastKeyword": "efficient refrigerator kitchen organizer shelf storage dividers eggs bottles organizer kitchen fridge",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 8716,
-  "reusedVariantChecks": 1401,
-  "variantCacheSize": 7242,
+  "uniqueVariantsFetched": 7573,
+  "reusedVariantChecks": 1675,
+  "variantCacheSize": 6742,
   "keywordTimeoutMs": 180000
 }

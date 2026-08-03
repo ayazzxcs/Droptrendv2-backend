@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:59:30.125Z",
+  "updatedAt": "2026-08-03T06:38:43.679Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 66,
-  "failedCount": 84,
-  "lastKeyword": "cabinet light lamp tv",
+  "savedSignalCount": 53,
+  "failedCount": 97,
+  "lastKeyword": "home office storage watch",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3489,
-  "reusedVariantChecks": 750,
-  "variantCacheSize": 3489,
+  "uniqueVariantsFetched": 3630,
+  "reusedVariantChecks": 503,
+  "variantCacheSize": 3630,
   "keywordTimeoutMs": 180000
 }

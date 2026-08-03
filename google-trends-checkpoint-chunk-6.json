@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:23:13.951Z",
+  "updatedAt": "2026-08-03T06:03:06.811Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 50,
-  "failedCount": 100,
-  "lastKeyword": "dresses shirt dress",
+  "savedSignalCount": 54,
+  "failedCount": 96,
+  "lastKeyword": "skirts navy blue bubble-pleat",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2771,
-  "reusedVariantChecks": 435,
-  "variantCacheSize": 2771,
+  "uniqueVariantsFetched": 2901,
+  "reusedVariantChecks": 378,
+  "variantCacheSize": 2901,
   "keywordTimeoutMs": 180000
 }

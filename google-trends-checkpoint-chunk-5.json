@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T15:37:37.086Z",
+  "updatedAt": "2026-08-03T06:15:25.893Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 60,
-  "failedCount": 90,
+  "savedSignalCount": 45,
+  "failedCount": 105,
   "lastKeyword": "off shoulder halter tops",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3114,
-  "reusedVariantChecks": 339,
-  "variantCacheSize": 3114,
+  "uniqueVariantsFetched": 3126,
+  "reusedVariantChecks": 366,
+  "variantCacheSize": 3126,
   "keywordTimeoutMs": 180000
 }
