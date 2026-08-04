@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T09:03:31.940Z",
+  "updatedAt": "2026-08-04T05:19:02.645Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 25,
-  "failedCount": 125,
-  "lastKeyword": "efficient refrigerator kitchen organizer shelf storage dividers eggs bottles organizer kitchen fridge",
+  "savedSignalCount": 23,
+  "failedCount": 127,
+  "lastKeyword": "cleaner brush tools tool",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7573,
-  "reusedVariantChecks": 1675,
-  "variantCacheSize": 6742,
+  "uniqueVariantsFetched": 7237,
+  "reusedVariantChecks": 1583,
+  "variantCacheSize": 6701,
   "keywordTimeoutMs": 180000
 }

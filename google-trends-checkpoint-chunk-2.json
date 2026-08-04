@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T07:21:42.062Z",
+  "updatedAt": "2026-08-04T03:31:41.395Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 49,
-  "failedCount": 101,
-  "lastKeyword": "toy pillow sofa children",
+  "savedSignalCount": 53,
+  "failedCount": 97,
+  "lastKeyword": "ultra thin laptop case macbook air case funda macbook pro case neo a18",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4514,
-  "reusedVariantChecks": 864,
-  "variantCacheSize": 4514,
+  "uniqueVariantsFetched": 4373,
+  "reusedVariantChecks": 829,
+  "variantCacheSize": 4373,
   "keywordTimeoutMs": 180000
 }

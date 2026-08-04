@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:15:25.893Z",
+  "updatedAt": "2026-08-04T05:04:21.700Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 45,
-  "failedCount": 105,
-  "lastKeyword": "off shoulder halter tops",
+  "savedSignalCount": 37,
+  "failedCount": 113,
+  "lastKeyword": "mary jane flat shoes",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3126,
-  "reusedVariantChecks": 366,
-  "variantCacheSize": 3126,
+  "uniqueVariantsFetched": 2789,
+  "reusedVariantChecks": 442,
+  "variantCacheSize": 2789,
   "keywordTimeoutMs": 180000
 }

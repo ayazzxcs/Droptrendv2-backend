@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:03:06.811Z",
+  "updatedAt": "2026-08-04T05:22:35.238Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 54,
-  "failedCount": 96,
-  "lastKeyword": "skirts navy blue bubble-pleat",
+  "savedSignalCount": 51,
+  "failedCount": 99,
+  "lastKeyword": "malt squeeze toy super",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2901,
-  "reusedVariantChecks": 378,
-  "variantCacheSize": 2901,
+  "uniqueVariantsFetched": 2575,
+  "reusedVariantChecks": 326,
+  "variantCacheSize": 2575,
   "keywordTimeoutMs": 180000
 }

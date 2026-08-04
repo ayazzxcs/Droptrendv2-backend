@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T04:55:57.282Z",
+  "updatedAt": "2026-08-04T06:14:43.867Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 52,
-  "failedCount": 98,
+  "savedSignalCount": 94,
+  "failedCount": 56,
   "lastKeyword": "slippers",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1512,
-  "reusedVariantChecks": 240,
-  "variantCacheSize": 1512,
+  "uniqueVariantsFetched": 1268,
+  "reusedVariantChecks": 213,
+  "variantCacheSize": 1268,
   "keywordTimeoutMs": 180000
 }

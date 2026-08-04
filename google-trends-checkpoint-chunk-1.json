@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T07:59:48.247Z",
+  "updatedAt": "2026-08-04T04:15:00.611Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 64,
-  "failedCount": 86,
-  "lastKeyword": "shoes outdoor light",
+  "savedSignalCount": 46,
+  "failedCount": 104,
+  "lastKeyword": "7800000rph air blower brushless motor electric turbo jet fan high-speed violent fan usb rechargeable powerful dust blower 60m s",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5313,
-  "reusedVariantChecks": 928,
-  "variantCacheSize": 5313,
+  "uniqueVariantsFetched": 5306,
+  "reusedVariantChecks": 804,
+  "variantCacheSize": 5306,
   "keywordTimeoutMs": 180000
 }

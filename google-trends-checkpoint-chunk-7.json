@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T05:39:16.861Z",
+  "updatedAt": "2026-08-04T05:19:52.993Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 49,
-  "failedCount": 101,
-  "lastKeyword": "dresses dress",
+  "savedSignalCount": 67,
+  "failedCount": 83,
+  "lastKeyword": "blazers jacket",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2379,
-  "reusedVariantChecks": 417,
-  "variantCacheSize": 2379,
+  "uniqueVariantsFetched": 1940,
+  "reusedVariantChecks": 280,
+  "variantCacheSize": 1940,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T05:28:15.005Z",
+  "updatedAt": "2026-08-04T05:58:12.918Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 64,
-  "failedCount": 86,
-  "lastKeyword": "jeans pants",
+  "savedSignalCount": 72,
+  "failedCount": 78,
+  "lastKeyword": "sweaters sweater",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2127,
-  "reusedVariantChecks": 363,
-  "variantCacheSize": 2127,
+  "uniqueVariantsFetched": 1930,
+  "reusedVariantChecks": 194,
+  "variantCacheSize": 1930,
   "keywordTimeoutMs": 180000
 }

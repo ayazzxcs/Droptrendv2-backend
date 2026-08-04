@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:38:43.679Z",
+  "updatedAt": "2026-08-04T02:32:23.474Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 53,
-  "failedCount": 97,
-  "lastKeyword": "home office storage watch",
+  "savedSignalCount": 54,
+  "failedCount": 96,
+  "lastKeyword": "home slippers shoes",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3630,
-  "reusedVariantChecks": 503,
-  "variantCacheSize": 3630,
+  "uniqueVariantsFetched": 3161,
+  "reusedVariantChecks": 486,
+  "variantCacheSize": 3161,
   "keywordTimeoutMs": 180000
 }

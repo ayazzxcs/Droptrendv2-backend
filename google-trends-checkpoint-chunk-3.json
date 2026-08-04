@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:57:16.197Z",
+  "updatedAt": "2026-08-04T03:06:06.977Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 50,
-  "failedCount": 100,
-  "lastKeyword": "home office storage brush",
+  "savedSignalCount": 59,
+  "failedCount": 91,
+  "lastKeyword": "hifi switch gaming keyboard",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3985,
-  "reusedVariantChecks": 656,
-  "variantCacheSize": 3985,
+  "uniqueVariantsFetched": 3807,
+  "reusedVariantChecks": 515,
+  "variantCacheSize": 3807,
   "keywordTimeoutMs": 180000
 }
