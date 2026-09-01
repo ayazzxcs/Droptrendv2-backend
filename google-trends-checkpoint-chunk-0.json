@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:19:02.645Z",
+  "updatedAt": "2026-09-01T21:25:39.117Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 23,
-  "failedCount": 127,
-  "lastKeyword": "cleaner brush tools tool",
+  "savedSignalCount": 20,
+  "failedCount": 130,
+  "lastKeyword": "bathroom storage bathroom five-piece shower curtain three-piece mat aluminum alloy decorative painting",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7237,
-  "reusedVariantChecks": 1583,
-  "variantCacheSize": 6701,
+  "uniqueVariantsFetched": 7698,
+  "reusedVariantChecks": 1520,
+  "variantCacheSize": 6833,
   "keywordTimeoutMs": 180000
 }

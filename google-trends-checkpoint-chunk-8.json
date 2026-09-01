@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:58:12.918Z",
+  "updatedAt": "2026-09-01T22:07:28.437Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -10,11 +10,11 @@
   "processedKeywordCount": 150,
   "savedSignalCount": 72,
   "failedCount": 78,
-  "lastKeyword": "sweaters sweater",
+  "lastKeyword": "earrings european american-style vintage earrings",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1930,
-  "reusedVariantChecks": 194,
-  "variantCacheSize": 1930,
+  "uniqueVariantsFetched": 1878,
+  "reusedVariantChecks": 188,
+  "variantCacheSize": 1878,
   "keywordTimeoutMs": 180000
 }

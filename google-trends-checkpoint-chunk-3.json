@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T03:06:06.977Z",
+  "updatedAt": "2026-09-01T18:48:11.576Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 59,
-  "failedCount": 91,
-  "lastKeyword": "hifi switch gaming keyboard",
+  "savedSignalCount": 46,
+  "failedCount": 104,
+  "lastKeyword": "children watches watch",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3807,
-  "reusedVariantChecks": 515,
-  "variantCacheSize": 3807,
+  "uniqueVariantsFetched": 3371,
+  "reusedVariantChecks": 617,
+  "variantCacheSize": 3371,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:04:21.700Z",
+  "updatedAt": "2026-09-01T20:31:51.716Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 37,
-  "failedCount": 113,
-  "lastKeyword": "mary jane flat shoes",
+  "savedSignalCount": 58,
+  "failedCount": 92,
+  "lastKeyword": "fluffy home slippers soft",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2789,
-  "reusedVariantChecks": 442,
-  "variantCacheSize": 2789,
+  "uniqueVariantsFetched": 2532,
+  "reusedVariantChecks": 395,
+  "variantCacheSize": 2532,
   "keywordTimeoutMs": 180000
 }

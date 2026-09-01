@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T03:31:41.395Z",
+  "updatedAt": "2026-09-01T19:36:29.960Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 53,
-  "failedCount": 97,
-  "lastKeyword": "ultra thin laptop case macbook air case funda macbook pro case neo a18",
+  "savedSignalCount": 46,
+  "failedCount": 104,
+  "lastKeyword": "necklace drop earrings retro",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4373,
-  "reusedVariantChecks": 829,
-  "variantCacheSize": 4373,
+  "uniqueVariantsFetched": 4306,
+  "reusedVariantChecks": 714,
+  "variantCacheSize": 4305,
   "keywordTimeoutMs": 180000
 }

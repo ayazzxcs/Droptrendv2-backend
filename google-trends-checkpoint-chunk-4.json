@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T02:32:23.474Z",
+  "updatedAt": "2026-09-01T18:19:56.178Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 54,
-  "failedCount": 96,
-  "lastKeyword": "home slippers shoes",
+  "savedSignalCount": 63,
+  "failedCount": 87,
+  "lastKeyword": "top box",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3161,
-  "reusedVariantChecks": 486,
-  "variantCacheSize": 3161,
+  "uniqueVariantsFetched": 2798,
+  "reusedVariantChecks": 505,
+  "variantCacheSize": 2798,
   "keywordTimeoutMs": 180000
 }

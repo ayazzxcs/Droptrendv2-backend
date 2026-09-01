@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:22:35.238Z",
+  "updatedAt": "2026-09-01T20:43:14.202Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 51,
-  "failedCount": 99,
-  "lastKeyword": "malt squeeze toy super",
+  "savedSignalCount": 70,
+  "failedCount": 80,
+  "lastKeyword": "watch accessories assembled watch",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2575,
-  "reusedVariantChecks": 326,
-  "variantCacheSize": 2575,
+  "uniqueVariantsFetched": 2142,
+  "reusedVariantChecks": 321,
+  "variantCacheSize": 2142,
   "keywordTimeoutMs": 180000
 }

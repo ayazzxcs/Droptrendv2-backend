@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T05:19:52.993Z",
+  "updatedAt": "2026-09-01T21:15:37.136Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 67,
-  "failedCount": 83,
-  "lastKeyword": "blazers jacket",
+  "savedSignalCount": 83,
+  "failedCount": 67,
+  "lastKeyword": "blazers european american fall",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1940,
-  "reusedVariantChecks": 280,
-  "variantCacheSize": 1940,
+  "uniqueVariantsFetched": 1734,
+  "reusedVariantChecks": 268,
+  "variantCacheSize": 1734,
   "keywordTimeoutMs": 180000
 }

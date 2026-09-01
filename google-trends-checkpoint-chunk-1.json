@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T04:15:00.611Z",
+  "updatedAt": "2026-09-01T20:30:40.001Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 46,
-  "failedCount": 104,
-  "lastKeyword": "7800000rph air blower brushless motor electric turbo jet fan high-speed violent fan usb rechargeable powerful dust blower 60m s",
+  "savedSignalCount": 53,
+  "failedCount": 97,
+  "lastKeyword": "onemix white road running shoes air cushion outdoor sport shoes trainers jogging shoes footwear",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5306,
-  "reusedVariantChecks": 804,
-  "variantCacheSize": 5306,
+  "uniqueVariantsFetched": 5389,
+  "reusedVariantChecks": 1074,
+  "variantCacheSize": 5389,
   "keywordTimeoutMs": 180000
 }

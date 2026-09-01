@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T23:45:46.089Z",
+  "updatedAt": "2026-09-01T15:51:16.000Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,24 +33,54 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 14,
+  "errorCount": 22,
   "errors": [
     {
-      "keyword": "type cable",
+      "keyword": "women s clothing",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: type cable; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "usb charger",
+      "keyword": "gun toys",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: usb charger; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: gun toys; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "series netflix",
+      "keyword": "grain storage",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: series netflix; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: grain storage; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "shoe storage",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: shoe storage; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "laptop tool",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: laptop tool; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "micro memory",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: micro memory; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "sealed jar",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: sealed jar; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "vacuum sealed",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: vacuum sealed; best raw count 0",
       "deferred": true
     },
     {
@@ -60,27 +90,15 @@
       "deferred": true
     },
     {
-      "keyword": "fast charging",
+      "keyword": "memory card",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: fast charging; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: memory card; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "women s clothing",
+      "keyword": "charging cable",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "camping hunting",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: camping hunting; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "type charger",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: type charger; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: charging cable; best raw count 0",
       "deferred": true
     },
     {
@@ -90,33 +108,63 @@
       "deferred": true
     },
     {
-      "keyword": "easy fan",
+      "keyword": "o-ring pickup",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: easy fan; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: o-ring pickup; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "toys games",
+      "keyword": "tool o-ring",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: toys games; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: tool o-ring; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "kitchen organizer",
+      "keyword": "magnetic phone",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: kitchen organizer; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: magnetic phone; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "hair inch",
+      "keyword": "steel precision",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: hair inch; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: steel precision; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "type cable",
-      "phase": "deferred-retry",
-      "error": "AliExpress low/empty product page for keyword: type cable; best raw count 0",
+      "keyword": "full video",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: full video; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "cable fast",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: cable fast; best raw count 0",
+      "deferred": false
+    },
+    {
+      "keyword": "pickup hand",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: pickup hand; best raw count 0",
+      "deferred": false
+    },
+    {
+      "keyword": "holder rfid",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: holder rfid; best raw count 0",
+      "deferred": false
+    },
+    {
+      "keyword": "stainless steel",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
+      "deferred": false
+    },
+    {
+      "keyword": "card holder",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: card holder; best raw count 0",
       "deferred": false
     }
   ],
