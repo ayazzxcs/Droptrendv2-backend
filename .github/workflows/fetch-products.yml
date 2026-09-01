@@ -2,7 +2,7 @@ name: Fetch Trending Products
 
 on:
   schedule:
-    - cron: "0 18 3 * *"
+    - cron: "0 12 1 * *"
   workflow_dispatch:
     inputs:
       refresh_amazon:
