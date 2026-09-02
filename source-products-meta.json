@@ -1,18 +1,30 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T15:51:36.124Z",
+=======
+  "updatedAt": "2026-09-02T03:12:56.742Z",
+>>>>>>> Stashed changes
   "finalCount": 1500,
   "finalMaxProducts": 1500,
   "cj": {
     "rawCount": 1500,
     "dedupedCount": 1500,
     "target": 750,
+<<<<<<< Updated upstream
     "selectedCount": 694
+=======
+    "selectedCount": 665
+>>>>>>> Stashed changes
   },
   "aliexpress": {
     "rawCount": 1000,
-    "dedupedCount": 1000,
+    "dedupedCount": 999,
     "target": 750,
+<<<<<<< Updated upstream
     "selectedCount": 806
+=======
+    "selectedCount": 835
+>>>>>>> Stashed changes
   },
   "note": "Final products.json is built from balanced source ingestion: 750 CJ + 750 AliExpress target, with dedupe and fallback fill if one source has fewer valid products."
 }

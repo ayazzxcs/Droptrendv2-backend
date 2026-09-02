@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T22:07:28.437Z",
+=======
+  "updatedAt": "2026-09-02T08:58:47.925Z",
+>>>>>>> Stashed changes
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 72,
   "failedCount": 78,
   "lastKeyword": "earrings european american-style vintage earrings",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 1878,
   "reusedVariantChecks": 188,
   "variantCacheSize": 1878,
+=======
+  "savedSignalCount": 75,
+  "failedCount": 75,
+  "lastKeyword": "memory card minisd phone",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 1677,
+  "reusedVariantChecks": 229,
+  "variantCacheSize": 1677,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

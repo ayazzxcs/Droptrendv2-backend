@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T21:30:52.870Z",
+=======
+  "updatedAt": "2026-09-02T08:23:07.704Z",
+>>>>>>> Stashed changes
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 93,
   "failedCount": 57,
   "lastKeyword": "slippers",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 1128,
   "reusedVariantChecks": 206,
   "variantCacheSize": 1128,
+=======
+  "savedSignalCount": 102,
+  "failedCount": 48,
+  "lastKeyword": "slippers",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 952,
+  "reusedVariantChecks": 244,
+  "variantCacheSize": 952,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }
