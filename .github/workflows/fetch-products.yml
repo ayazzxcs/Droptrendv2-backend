@@ -87,12 +87,10 @@ jobs:
           cache: npm
       
       - name: Install dependencies
-        run: npm install
-        working-directory: ./Droptrendv2-backend  # Adjust to your exact subfolder path
+        run: npm install  # Adjust to your exact subfolder path
 
       - name: Install Puppeteer Chrome
-        run: node ./node_modules/puppeteer/lib/esm/puppeteer/node/cli.js browsers install chrome
-        working-directory: ./Droptrendv2-backend  # Must match the install directory
+        run:  npx puppeteer browsers install chrome # Must match the install directory
 
       - name: Fetch AliExpress source products
         run: node scripts/fetch-aliexpress-products.js
