@@ -248,14 +248,305 @@ jobs:
           node-version: 24
           cache: npm
       - name: Install dependencies
+        shell: bash
         run: |
+          set +e
+
+          SUCCESS=0
+
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
-            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
-            sleep 10
+            echo "============================================================"
+            echo "npm install attempt $i/3"
+            echo "============================================================"
+
+            npm install \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ $? -eq 0 ]; then
+              SUCCESS=1
+              break
+            fi
+
+            echo "npm install attempt $i failed"
+
+            if [ "$i" -lt 3 ]; then
+              echo "Waiting 10 seconds before retry..."
+              sleep 10
+            fi
           done
+
+          if [ "$SUCCESS" -ne 1 ]; then
+            echo "❌ npm install failed after 3 attempts"
+            exit 1
+          fi
+
+          echo ""
+          echo "============================================================"
+          echo "Playwright versions"
+          echo "============================================================"
+
+          npm ls playwright playwright-core || true
+
+          echo ""
+          echo "============================================================"
+          echo "Checking Playwright installation"
+          echo "============================================================"
+
+          if [ -d "node_modules/playwright-core" ]; then
+            echo "✅ playwright-core directory exists"
+          else
+            echo "❌ playwright-core directory missing"
+          fi
+
+          ls -la node_modules/playwright-core/ 2>/dev/null || true
+          ls -la node_modules/playwright-core/lib/ 2>/dev/null || true
+
+
+      # ============================================================
+      # REPAIR PLAYWRIGHT
+      # ============================================================
+
+      - name: Repair Playwright installation
+        shell: bash
+        run: |
+          set +e
+
+          echo "============================================================"
+          echo "Checking Playwright installation"
+          echo "============================================================"
+
+          PLAYWRIGHT_OK=0
+
+          if [ -f "node_modules/playwright-core/lib/bootstrap.js" ]; then
+            echo "✅ Playwright bootstrap.js exists"
+            PLAYWRIGHT_OK=1
+          else
+            echo "⚠️ Playwright bootstrap.js is missing"
+          fi
+
+          if [ "$PLAYWRIGHT_OK" -eq 0 ]; then
+            echo ""
+            echo "============================================================"
+            echo "Repairing Playwright"
+            echo "============================================================"
+
+            rm -rf node_modules/playwright
+            rm -rf node_modules/playwright-core
+
+            npm install \
+              playwright@latest \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ -f "node_modules/playwright-core/lib/bootstrap.js" ]; then
+              echo "✅ Playwright repaired successfully"
+            else
+              echo "❌ Playwright repair failed"
+              exit 1
+            fi
+          fi
+
+          echo ""
+          echo "============================================================"
+          echo "Final Playwright check"
+          echo "============================================================"
+
+          node -e "const p=require('playwright'); console.log('Playwright loaded successfully:', p.chromium ? 'YES' : 'NO')" || {
+            echo "❌ Playwright cannot be loaded"
+            exit 1
+          }
+
+
+      # ============================================================
+      # REPAIR CONFLICTED JSON FILES
+      # ============================================================
+
+      - name: Repair conflicted JSON files
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Searching for Git conflict markers in JSON files"
+          echo "============================================================"
+
+          CONFLICT_FOUND=0
+
+          while IFS= read -r -d '' file; do
+            if grep -qE '^(<<<<<<<|=======|>>>>>>>)' "$file"; then
+              echo "⚠️ Conflict markers found:"
+              echo "   $file"
+
+              CONFLICT_FOUND=1
+
+              python3 - "$file" <<'PY'
+          import sys
+
+          path = sys.argv[1]
+
+          with open(path, "r", encoding="utf-8") as f:
+              lines = f.readlines()
+
+          output = []
+          state = "normal"
+
+          for line in lines:
+              marker = line.strip()
+
+              if marker.startswith("<<<<<<<"):
+                  state = "keep"
+                  continue
+
+              if marker == "=======":
+                  state = "discard"
+                  continue
+
+              if marker.startswith(">>>>>>>"):
+                  state = "normal"
+                  continue
+
+              if state != "discard":
+                  output.append(line)
+
+          with open(path, "w", encoding="utf-8") as f:
+              f.writelines(output)
+          PY
+
+              echo "   ✅ Repaired $file"
+            fi
+          done < <(find . -type f -name "*.json" -not -path "./node_modules/*" -print0)
+
+          echo ""
+          echo "============================================================"
+          echo "Conflict repair verification"
+          echo "============================================================"
+
+          if grep -RInE '^(<<<<<<<|=======|>>>>>>>)' \
+            --include="*.json" \
+            --exclude-dir=node_modules \
+            .; then
+
+            echo "❌ Merge conflict markers are still present"
+            exit 1
+          fi
+
+          if [ "$CONFLICT_FOUND" -eq 0 ]; then
+            echo "✅ No JSON conflict markers found"
+          else
+            echo "✅ All JSON conflict markers repaired"
+          fi
+      - name: Validate existing JSON files
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Validating JSON files"
+          echo "============================================================"
+
+          FAILED=0
+
+          while IFS= read -r -d '' file; do
+            if ! python3 - "$file" <<'PY'
+          import json
+          import sys
+
+          path = sys.argv[1]
+
+          try:
+              with open(path, "r", encoding="utf-8") as f:
+                  json.load(f)
+          except Exception as exc:
+              print(f"INVALID JSON: {path}")
+              print(exc)
+              sys.exit(1)
+
+          print(f"VALID JSON: {path}")
+          PY
+            then
+              FAILED=1
+            fi
+          done < <(find . -type f -name "*.json" -not -path "./node_modules/*" -print0)
+
+          if [ "$FAILED" -ne 0 ]; then
+            echo "❌ One or more JSON files are invalid"
+            exit 1
+          fi
+
+          echo "✅ JSON validation completed successfully"
+
       - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Installing Playwright Chromium"
+          echo "============================================================"
+
+          npx --yes playwright install --with-deps chromium
+
+          echo ""
+          echo "============================================================"
+          echo "Installed Playwright browsers"
+          echo "============================================================"
+
+          npx --yes playwright install --list || true
+
+
+      # ============================================================
+      # VERIFY PLAYWRIGHT CHROMIUM
+      # ============================================================
+
+      - name: Verify Playwright Chromium
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Verifying Playwright Chromium"
+          echo "============================================================"
+
+          node <<'NODE'
+          const { chromium } = require("playwright");
+
+          (async () => {
+            const browser = await chromium.launch({
+              headless: true
+            });
+
+            console.log("✅ Chromium launched successfully");
+
+            const page = await browser.newPage();
+
+            await page.goto("https://www.google.com", {
+              waitUntil: "domcontentloaded",
+              timeout: 60000
+            });
+
+            console.log("✅ Chromium can load web pages");
+            console.log("Page title:", await page.title());
+
+            await browser.close();
+          })().catch((error) => {
+            console.error("❌ Chromium verification failed");
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+
+      # ============================================================
+      # FETCH GOOGLE TRENDS CHUNK
+      # ============================================================
+
       - name: Fetch Google Trends chunk
         shell: bash
         run: |
