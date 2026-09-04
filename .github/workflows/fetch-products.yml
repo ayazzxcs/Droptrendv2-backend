@@ -99,6 +99,26 @@ jobs:
            echo "=== Checking Puppeteer files ==="
            ls -la node_modules/puppeteer-core/lib/puppeteer/ || true
 
+      - name: Repair Puppeteer installation
+        run: |
+          rm -rf node_modules/puppeteer-core
+          rm -rf node_modules/puppeteer
+
+          npm install puppeteer@25.3.0 puppeteer-core@25.3.0 \
+           --save \
+           --no-package-lock \
+           --ignore-scripts \
+           --registry https://registry.npmjs.org/ \
+           --no-audit \
+           --no-fund \
+           --legacy-peer-deps
+
+          echo "=== Verify Puppeteer ==="
+          npm ls puppeteer puppeteer-core || true
+
+          echo "=== Verify Puppeteer Core file ==="
+          test -f node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js
+
       - name: Install Puppeteer Chrome
         run: |
            npx --yes @puppeteer/browsers@latest install chrome@stable
