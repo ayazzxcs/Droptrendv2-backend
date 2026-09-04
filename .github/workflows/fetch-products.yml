@@ -96,9 +96,7 @@ jobs:
 
       - name: Install Puppeteer Chrome
         run: |
-           npm install puppeteer --save --ignore-scripts
-           npx puppeteer browsers install chrome # Must match the install directory
-
+           npx --yes @puppeteer/browsers@latest install chrome@stable
       - name: Fetch AliExpress source products
         run: node scripts/fetch-aliexpress-products.js
         env:
