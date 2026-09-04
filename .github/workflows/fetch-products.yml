@@ -337,14 +337,52 @@ jobs:
           node-version: 24
           cache: npm
       - name: Install dependencies
-        run: |
+        run:  |
           for i in 1 2 3; do
             npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
             if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
             sleep 10
-          done
+          done 
+           echo "=== Puppeteer versions ==="
+           npm ls puppeteer puppeteer-core @puppeteer/browsers || true
+
+           echo "=== Checking Puppeteer files ==="
+           ls -la node_modules/puppeteer-core/lib/puppeteer/ || true
+
+      - name: Repair Puppeteer installation
+        run: |
+          rm -rf node_modules/puppeteer-core
+          rm -rf node_modules/puppeteer
+
+          npm install puppeteer@25.3.0 puppeteer-core@25.3.0 \
+           --save \
+           --no-package-lock \
+           --ignore-scripts \
+           --registry https://registry.npmjs.org/ \
+           --no-audit \
+           --no-fund \
+           --legacy-peer-deps
+
+          echo "=== Verify Puppeteer ==="
+          npm ls puppeteer puppeteer-core || true
+
+          echo "=== Verify Puppeteer Core file ==="
+          test -f node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js
+ 
       - name: Install Puppeteer Chrome
-        run: npx puppeteer browsers install chrome
+        run: |
+          npx --yes @puppeteer/browsers@latest install chrome@stable
+
+          CHROME_PATH=$(find "$GITHUB_WORKSPACE/chrome" -type f -name chrome | head -n 1)
+
+          if [ -z "$CHROME_PATH" ]; then
+          echo "Chrome executable not found"
+           exit 1
+          fi
+
+          echo "Chrome found at: $CHROME_PATH"
+          echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV" 
+
       - name: Fetch Monthly Lens Amazon Matches chunk
         run: node scripts/fetch-monthly-lens-amazon-matches.js
         env:
