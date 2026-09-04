@@ -77,7 +77,19 @@ jobs:
          echo "=== Verify Chromium installation ==="
          npx --yes playwright install --list
 
+      - name: Find corrupted JSON files
+        run: |
+          echo "=== Searching for merge conflict markers ==="
 
+          if grep -R -n -E '^(<<<<<<<|=======|>>>>>>>)' \
+          --include="*.json" .; then
+          echo ""
+          echo "❌ Merge conflict markers found in JSON files"
+           exit 1
+          fi
+
+          echo "✅ No merge conflict markers found"
+ 
       - name: Validate Google Trends chunk JSON
         shell: bash
         run: |
