@@ -87,10 +87,17 @@ jobs:
           cache: npm
       
       - name: Install dependencies
-        run: npm install  # Adjust to your exact subfolder path
+        run:  |
+          for i in 1 2 3; do
+            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
+            if [ "$i" -eq 3 ]; then echo "npm install failed after 3 attempts"; exit 1; fi
+            sleep 10
+          done 
 
       - name: Install Puppeteer Chrome
-        run:  npx puppeteer browsers install chrome # Must match the install directory
+        run: |
+           npm install puppeteer --save
+           npx puppeteer browsers install chrome # Must match the install directory
 
       - name: Fetch AliExpress source products
         run: node scripts/fetch-aliexpress-products.js
