@@ -30,21 +30,53 @@ jobs:
       - name: Install dependencies
         run: |
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
-            sleep 10
+          npm install --no-package-lock \
+          --registry https://registry.npmjs.org/ \
+          --no-audit \
+          --no-fund \
+          --legacy-peer-deps && break
+
+          if [ "$i" -eq 3 ]; then
+          echo "npm install failed after 3 attempts"
+           exit 1
+          fi
+
+          sleep 10
           done
 
-      - name: Install Playwright Chromium
-        run: npx playwright install --with-deps chromium
+          echo "=== Playwright versions ==="
+          npm ls playwright playwright-core || true
 
-      - name: Fetch Google Trends chunk
-        shell: bash
+          echo "=== Checking Playwright files ==="
+          ls -la node_modules/playwright-core/lib/ || true
+
+      - name: Repair Playwright installation
         run: |
-          set +e
-          timeout 330m node scripts/fetch-google-trends.js
-          EXIT_CODE=$?
-          echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
-          exit 0
+          rm -rf node_modules/playwright-core
+          rm -rf node_modules/playwright
+
+          npm install playwright@latest playwright-core@latest \
+           --save \
+           --no-package-lock \
+           --ignore-scripts \
+           --registry https://registry.npmjs.org/ \
+           --no-audit \
+           --no-fund \
+           --legacy-peer-deps
+
+          echo "=== Verify Playwright ==="
+          npm ls playwright playwright-core || true
+
+          echo "=== Verify Playwright Core file ==="
+          test -f node_modules/playwright-core/lib/bootstrap.js
+
+      - name: Install Playwright Chromium
+        run: |
+         npx --yes playwright install --with-deps chromium
+
+         echo "=== Verify Chromium installation ==="
+         npx --yes playwright install --list
+
 
       - name: Validate Google Trends chunk JSON
         shell: bash
