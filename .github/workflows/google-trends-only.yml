@@ -10,6 +10,7 @@ jobs:
   google-trends:
     runs-on: ubuntu-latest
     timeout-minutes: 360
+
     strategy:
       fail-fast: false
       matrix:
@@ -24,173 +25,387 @@ jobs:
       PUPPETEER_SKIP_DOWNLOAD: "true"
 
     steps:
+
+      # ---------------------------------------------------------
+      # CHECKOUT
+      # ---------------------------------------------------------
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # ---------------------------------------------------------
+      # INSTALL NODE DEPENDENCIES
+      # ---------------------------------------------------------
+
       - name: Install dependencies
+        shell: bash
         run: |
+          set +e
+
+          SUCCESS=0
+
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
-            sleep 10
+            echo "=== npm install attempt $i/3 ==="
+
+            npm install \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ $? -eq 0 ]; then
+              SUCCESS=1
+              break
+            fi
+
+            echo "npm install attempt $i failed"
+
+            if [ "$i" -lt 3 ]; then
+              echo "Waiting 10 seconds before retry..."
+              sleep 10
+            fi
           done
+
+          if [ "$SUCCESS" -ne 1 ]; then
+            echo "❌ npm install failed after 3 attempts"
+            exit 1
+          fi
+
+          echo "✅ npm install completed"
+
+          echo ""
           echo "=== Playwright versions ==="
           npm ls playwright playwright-core || true
 
+          echo ""
+          echo "=== Puppeteer versions ==="
+          npm ls puppeteer puppeteer-core || true
+
+          echo ""
           echo "=== Checking Playwright files ==="
           ls -la node_modules/playwright-core/lib/ || true
+
+      # ---------------------------------------------------------
+      # REPAIR CONFLICTED JSON FILES
+      # ---------------------------------------------------------
 
       - name: Repair conflicted JSON files
         shell: bash
         run: |
           set -e
 
-          CONFLICT_FILES=$(grep -Rl \
-          -E '^(<<<<<<< Updated upstream|=======|>>>>>>> Stashed changes)$' \
-          --include='*.json' . || true)
+          echo "=== Searching for Git conflict markers in JSON files ==="
+
+          CONFLICT_FILES=$(
+            grep -Rl \
+              -E '^<<<<<<<|^=======|^>>>>>>>' \
+              --include='*.json' \
+              . \
+              --exclude-dir=node_modules \
+              --exclude-dir=.git \
+              || true
+          )
 
           if [ -z "$CONFLICT_FILES" ]; then
-           echo "✅ No conflicted JSON files found"
-           exit 0
+            echo "✅ No conflicted JSON files found"
+            exit 0
           fi
 
-          echo "⚠️ Repairing conflicted JSON files:"
+          echo ""
+          echo "⚠️ Conflicted JSON files found:"
           echo "$CONFLICT_FILES"
+          echo ""
 
           while IFS= read -r file; do
-          [ -z "$file" ] && continue
 
-          python3 - "$file" <<'PY'
-          import sys
+            [ -z "$file" ] && continue
 
-          path = sys.argv[1]
+            echo "========================================"
+            echo "Repairing: $file"
+            echo "========================================"
 
-          with open(path, "r", encoding="utf-8") as f:
-          lines = f.readlines()
+            python3 - "$file" <<'PY'
+import sys
 
-          out = []
-          state = "normal"
+path = sys.argv[1]
 
-          for line in lines:
-           marker = line.strip()
+with open(path, "r", encoding="utf-8") as f:
+    lines = f.readlines()
 
-          if marker == "<<<<<<< Updated upstream":
-           state = "upstream"
-           continue
+output = []
+state = "normal"
 
-          if marker == "=======":
-          state = "discard"
-          continue
+for line in lines:
+    marker = line.strip()
 
-          if marker == ">>>>>>> Stashed changes":
-          state = "normal"
-          continue
+    if marker.startswith("<<<<<<<"):
+        state = "keep"
+        continue
 
-          if state != "discard":
-           out.append(line)
+    if marker == "=======":
+        state = "discard"
+        continue
 
-          with open(path, "w", encoding="utf-8") as f:
-          f.writelines(out)
+    if marker.startswith(">>>>>>>"):
+        state = "normal"
+        continue
 
-          PY
+    if state != "discard":
+        output.append(line)
+
+with open(path, "w", encoding="utf-8") as f:
+    f.writelines(output)
+
+print(f"✅ Repaired {path}")
+PY
+
           done <<< "$CONFLICT_FILES"
 
-          echo "=== Checking JSON ==="
+          echo ""
+          echo "=== Checking for remaining conflict markers ==="
+
+          REMAINING_CONFLICTS=$(
+            grep -Rl \
+              -E '^<<<<<<<|^=======|^>>>>>>>' \
+              --include='*.json' \
+              . \
+              --exclude-dir=node_modules \
+              --exclude-dir=.git \
+              || true
+          )
+
+          if [ -n "$REMAINING_CONFLICTS" ]; then
+            echo "❌ Conflict markers still remain:"
+            echo "$REMAINING_CONFLICTS"
+            exit 1
+          fi
+
+          echo "✅ No conflict markers remain"
+
+          echo ""
+          echo "=== Validating JSON files ==="
 
           python3 - <<'PY'
-          import json
-          import pathlib
-          import sys
+import json
+import pathlib
+import sys
 
-          bad = []
+bad = []
 
-          for p in pathlib.Path(".").rglob("*.json"):
-           if "node_modules" in p.parts:
-           continue
+for path in pathlib.Path(".").rglob("*.json"):
 
-          try:
-          json.loads(p.read_text(encoding="utf-8"))
-          except Exception as e:
-          bad.append(f"{p}: {e}")
+    if "node_modules" in path.parts:
+        continue
 
-          if bad:
-          print("\n".join(bad))
-          sys.exit(1)
+    if ".git" in path.parts:
+        continue
 
-          print("✅ JSON validation passed")
-          PY
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            json.load(f)
+
+    except Exception as e:
+        bad.append(f"{path}: {e}")
+
+if bad:
+    print("❌ Invalid JSON files found:")
+
+    for item in bad:
+        print(item)
+
+    sys.exit(1)
+
+print("✅ JSON validation passed")
+PY
+
+      # ---------------------------------------------------------
+      # INSTALL PLAYWRIGHT CHROMIUM
+      # ---------------------------------------------------------
 
       - name: Install Playwright Chromium
-        run: npx --yes playwright install --with-deps chromium
+        shell: bash
+        run: |
+          set -e
 
-             echo "=== Verify Chromium installation ==="
-             npx --yes playwright install --list
-      
+          echo "=== Installing Playwright Chromium ==="
+
+          npx --yes playwright install --with-deps chromium
+
+          echo ""
+          echo "=== Verify Chromium installation ==="
+
+          npx --yes playwright install --list
+
+          echo ""
+          echo "✅ Playwright Chromium installation completed"
+
+      # ---------------------------------------------------------
+      # FETCH GOOGLE TRENDS
+      # ---------------------------------------------------------
+
       - name: Fetch Google Trends chunk
         shell: bash
         run: |
           set +e
+
+          echo "========================================"
+          echo "Google Trends chunk: $GOOGLE_TRENDS_CHUNK_INDEX"
+          echo "========================================"
+
           timeout 330m node scripts/fetch-google-trends.js
+
           EXIT_CODE=$?
+
+          echo ""
           echo "Google Trends chunk $GOOGLE_TRENDS_CHUNK_INDEX exited with code $EXIT_CODE"
+
+          # Do not immediately kill the job.
+          # The validation step below will determine whether
+          # the generated JSON is usable.
           exit 0
+
+      # ---------------------------------------------------------
+      # VALIDATE GOOGLE TRENDS CHUNK
+      # ---------------------------------------------------------
 
       - name: Validate Google Trends chunk JSON
         shell: bash
         run: |
-          node - <<'NODE'
+          node <<'NODE'
           const fs = require("fs");
+
           const index = process.env.GOOGLE_TRENDS_CHUNK_INDEX;
-          const chunkFile = `google-trends-chunk-${index}.json`;
-          const metaFile = `google-trends-meta-chunk-${index}.json`;
-          const signals = JSON.parse(fs.readFileSync(chunkFile, "utf8"));
-          const meta = JSON.parse(fs.readFileSync(metaFile, "utf8"));
 
-          if (!Array.isArray(signals)) {
-            throw new Error(`${chunkFile} must contain a JSON array`);
-          }
+          const chunkFile =
+            `google-trends-chunk-${index}.json`;
 
-          if (signals.length !== Number(meta.savedSignalCount || 0)) {
+          const metaFile =
+            `google-trends-meta-chunk-${index}.json`;
+
+          console.log(`Checking ${chunkFile}`);
+          console.log(`Checking ${metaFile}`);
+
+          if (!fs.existsSync(chunkFile)) {
             throw new Error(
-              `${chunkFile} contains ${signals.length} signals, but metadata reports ${meta.savedSignalCount}`
+              `${chunkFile} does not exist`
             );
           }
 
-          console.log(`Validated ${chunkFile}: ${signals.length} signals`);
+          if (!fs.existsSync(metaFile)) {
+            throw new Error(
+              `${metaFile} does not exist`
+            );
+          }
+
+          const signals =
+            JSON.parse(
+              fs.readFileSync(chunkFile, "utf8")
+            );
+
+          const meta =
+            JSON.parse(
+              fs.readFileSync(metaFile, "utf8")
+            );
+
+          if (!Array.isArray(signals)) {
+            throw new Error(
+              `${chunkFile} must contain a JSON array`
+            );
+          }
+
+          const expected =
+            Number(meta.savedSignalCount || 0);
+
+          if (signals.length !== expected) {
+            throw new Error(
+              `${chunkFile} contains ${signals.length} signals, ` +
+              `but metadata reports ${expected}`
+            );
+          }
+
+          console.log(
+            `✅ Validated ${chunkFile}: ${signals.length} signals`
+          );
           NODE
+
+      # ---------------------------------------------------------
+      # DEBUG
+      # ---------------------------------------------------------
 
       - name: Debug Google Trends chunk files
         if: always()
+        shell: bash
         run: |
-          echo "Current directory:"
+          echo "========================================"
+          echo "Current directory"
+          echo "========================================"
+
           pwd
-          echo "All files in root:"
+
+          echo ""
+          echo "========================================"
+          echo "All files in root"
+          echo "========================================"
+
           ls -la
-          echo "Google Trends files:"
-          ls -la google-trends* || true
-          echo "Trend keyword files:"
-          ls -la trend-keywords* || true
+
+          echo ""
+          echo "========================================"
+          echo "Google Trends files"
+          echo "========================================"
+
+          ls -la google-trends* 2>/dev/null || true
+
+          echo ""
+          echo "========================================"
+          echo "Trend keyword files"
+          echo "========================================"
+
+          ls -la trend-keywords* 2>/dev/null || true
+
+      # ---------------------------------------------------------
+      # UPLOAD ARTIFACT
+      # ---------------------------------------------------------
 
       - name: Upload Google Trends chunk artifact
         uses: actions/upload-artifact@v4
         with:
           name: google-trends-chunk-${{ matrix.chunk }}
+
           if-no-files-found: warn
+
           path: |
             google-trends-chunk-${{ matrix.chunk }}.json
             google-trends-failed-chunk-${{ matrix.chunk }}.json
             google-trends-checkpoint-chunk-${{ matrix.chunk }}.json
             google-trends-meta-chunk-${{ matrix.chunk }}.json
 
+
+  # =============================================================
+  # MERGE JOB
+  # =============================================================
+
   merge:
     needs: google-trends
+
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
+
+      # ---------------------------------------------------------
+      # CHECKOUT
+      # ---------------------------------------------------------
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # ---------------------------------------------------------
+      # DOWNLOAD ALL CHUNKS
+      # ---------------------------------------------------------
 
       - name: Download Google Trends chunks
         uses: actions/download-artifact@v4
@@ -199,40 +414,181 @@ jobs:
           merge-multiple: true
           path: .
 
+      # ---------------------------------------------------------
+      # DEBUG DOWNLOADED FILES
+      # ---------------------------------------------------------
+
       - name: Debug downloaded Google Trends chunks
+        shell: bash
         run: |
-          echo "Current directory:"
+          echo "========================================"
+          echo "Current directory"
+          echo "========================================"
+
           pwd
-          echo "Downloaded files:"
+
+          echo ""
+          echo "========================================"
+          echo "Downloaded files"
+          echo "========================================"
+
           find . -maxdepth 4 -type f | sort
-          echo "Google Trends files:"
-          find . -name 'google-trends*' -type f | sort
-          echo "Trend keyword files:"
-          find . -name 'trend-keywords*' -type f | sort
+
+          echo ""
+          echo "========================================"
+          echo "Google Trends files"
+          echo "========================================"
+
+          find . \
+            -name 'google-trends*' \
+            -type f \
+            | sort
+
+          echo ""
+          echo "========================================"
+          echo "Trend keyword files"
+          echo "========================================"
+
+          find . \
+            -name 'trend-keywords*' \
+            -type f \
+            | sort
+
+      # ---------------------------------------------------------
+      # INSTALL DEPENDENCIES
+      # ---------------------------------------------------------
 
       - name: Install dependencies
+        shell: bash
         run: |
+          set +e
+
+          SUCCESS=0
+
           for i in 1 2 3; do
-            npm install --no-package-lock --registry https://registry.npmjs.org/ --no-audit --no-fund --legacy-peer-deps && break
-            sleep 10
+            echo "=== npm install attempt $i/3 ==="
+
+            npm install \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ $? -eq 0 ]; then
+              SUCCESS=1
+              break
+            fi
+
+            echo "npm install attempt $i failed"
+
+            if [ "$i" -lt 3 ]; then
+              sleep 10
+            fi
           done
+
+          if [ "$SUCCESS" -ne 1 ]; then
+            echo "❌ npm install failed after 3 attempts"
+            exit 1
+          fi
+
+          echo "✅ npm install completed"
+
+      # ---------------------------------------------------------
+      # MERGE GOOGLE TRENDS CHUNKS
+      # ---------------------------------------------------------
 
       - name: Merge Google Trends chunks
         env:
           GOOGLE_TRENDS_CHUNK_TOTAL: 10
-        run: node scripts/merge-google-trends-chunks.js
+        run: |
+          node scripts/merge-google-trends-chunks.js
+
+      # ---------------------------------------------------------
+      # MERGE TREND SIGNALS INTO PRODUCTS
+      # ---------------------------------------------------------
 
       - name: Merge trend signals into products
-        run: node scripts/merge-trend-signals.js
+        run: |
+          node scripts/merge-trend-signals.js
+
+      # ---------------------------------------------------------
+      # COMMIT RESULTS
+      # ---------------------------------------------------------
 
       - name: Commit Google Trends and product data
+        shell: bash
         run: |
+          set +e
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add products.json trend-history.json google-trends.json google-trends-ranked.json google-trends-by-product.json google-trends-meta.json google-trends-chunk-*.json google-trends-failed-chunk-*.json google-trends-checkpoint-chunk-*.json google-trends-meta-chunk-*.json trend-keywords.json trend-keywords-all.json || true
+          echo "=== Git status before commit ==="
+          git status --short
 
-          git commit -m "Update Google Trends and product trend data" || echo "No changes to commit"
+          echo ""
+          echo "=== Adding generated files ==="
 
-          git pull --rebase --autostash origin main
+          git add \
+            products.json \
+            trend-history.json \
+            google-trends.json \
+            google-trends-ranked.json \
+            google-trends-by-product.json \
+            google-trends-meta.json \
+            google-trends-chunk-*.json \
+            google-trends-failed-chunk-*.json \
+            google-trends-checkpoint-chunk-*.json \
+            google-trends-meta-chunk-*.json \
+            trend-keywords.json \
+            trend-keywords-all.json
+
+          echo ""
+          echo "=== Git status after add ==="
+
+          git status --short
+
+          echo ""
+          echo "=== Creating commit ==="
+
+          git commit \
+            -m "Update Google Trends and product trend data"
+
+          COMMIT_CODE=$?
+
+          if [ "$COMMIT_CODE" -ne 0 ]; then
+            echo "No changes to commit"
+          fi
+
+          echo ""
+          echo "=== Pulling latest main branch ==="
+
+          git pull \
+            --rebase \
+            --autostash \
+            origin main
+
+          PULL_CODE=$?
+
+          if [ "$PULL_CODE" -ne 0 ]; then
+            echo "❌ git pull --rebase failed"
+            exit 1
+          fi
+
+          echo ""
+          echo "=== Pushing changes ==="
+
           git push origin main
+
+          PUSH_CODE=$?
+
+          if [ "$PUSH_CODE" -ne 0 ]; then
+            echo "❌ git push failed"
+            exit 1
+          fi
+
+          echo ""
+          echo "========================================"
+          echo "✅ Google Trends workflow completed"
+          echo "========================================"
