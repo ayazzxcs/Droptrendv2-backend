@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T18:19:56.178Z",
-=======
-  "updatedAt": "2026-09-02T05:32:22.213Z",
->>>>>>> Stashed changes
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 63,
   "failedCount": 87,
   "lastKeyword": "top box",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 2798,
   "reusedVariantChecks": 505,
   "variantCacheSize": 2798,
-=======
-  "savedSignalCount": 64,
-  "failedCount": 86,
-  "lastKeyword": "metal versatile stud earrings",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 2621,
-  "reusedVariantChecks": 440,
-  "variantCacheSize": 2621,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

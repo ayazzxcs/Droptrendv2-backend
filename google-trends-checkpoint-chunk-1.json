@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T20:30:40.001Z",
-=======
-  "updatedAt": "2026-09-02T07:27:17.813Z",
->>>>>>> Stashed changes
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 53,
   "failedCount": 97,
   "lastKeyword": "onemix white road running shoes air cushion outdoor sport shoes trainers jogging shoes footwear",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 5389,
   "reusedVariantChecks": 1074,
   "variantCacheSize": 5389,
-=======
-  "savedSignalCount": 56,
-  "failedCount": 94,
-  "lastKeyword": "bag holder phone case cover",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 4990,
-  "reusedVariantChecks": 1024,
-  "variantCacheSize": 4990,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

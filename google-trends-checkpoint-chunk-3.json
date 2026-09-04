@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T18:48:11.576Z",
-=======
-  "updatedAt": "2026-09-02T06:04:58.165Z",
->>>>>>> Stashed changes
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 46,
   "failedCount": 104,
   "lastKeyword": "children watches watch",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 3371,
   "reusedVariantChecks": 617,
   "variantCacheSize": 3371,
-=======
-  "savedSignalCount": 56,
-  "failedCount": 94,
-  "lastKeyword": "bags bag handbag",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 3396,
-  "reusedVariantChecks": 435,
-  "variantCacheSize": 3396,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

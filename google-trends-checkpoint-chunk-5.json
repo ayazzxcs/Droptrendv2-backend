@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T20:31:51.716Z",
-=======
-  "updatedAt": "2026-09-02T07:33:02.524Z",
->>>>>>> Stashed changes
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 58,
   "failedCount": 92,
   "lastKeyword": "fluffy home slippers soft",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 2532,
   "reusedVariantChecks": 395,
   "variantCacheSize": 2532,
-=======
-  "savedSignalCount": 70,
-  "failedCount": 80,
-  "lastKeyword": "body care cream",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 2265,
-  "reusedVariantChecks": 328,
-  "variantCacheSize": 2265,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

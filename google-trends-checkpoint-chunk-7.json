@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T21:15:37.136Z",
-=======
-  "updatedAt": "2026-09-02T08:02:49.847Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-04T16:39:01.470Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 83,
-  "failedCount": 67,
-  "lastKeyword": "blazers european american fall",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1734,
-  "reusedVariantChecks": 268,
-  "variantCacheSize": 1734,
-=======
-  "savedSignalCount": 76,
-  "failedCount": 74,
+  "savedSignalCount": 67,
+  "failedCount": 83,
   "lastKeyword": "dresses dress",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1884,
-  "reusedVariantChecks": 257,
-  "variantCacheSize": 1884,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 2378,
+  "reusedVariantChecks": 306,
+  "variantCacheSize": 2378,
   "keywordTimeoutMs": 180000
 }

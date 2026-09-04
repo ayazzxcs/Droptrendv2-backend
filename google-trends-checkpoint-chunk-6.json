@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T20:43:14.202Z",
-=======
-  "updatedAt": "2026-09-02T07:39:40.452Z",
->>>>>>> Stashed changes
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 70,
   "failedCount": 80,
   "lastKeyword": "watch accessories assembled watch",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 2142,
   "reusedVariantChecks": 321,
   "variantCacheSize": 2142,
-=======
-  "savedSignalCount": 73,
-  "failedCount": 77,
-  "lastKeyword": "anime collectible cards toys",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1704,
-  "reusedVariantChecks": 418,
-  "variantCacheSize": 1704,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }
