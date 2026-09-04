@@ -121,7 +121,18 @@ jobs:
 
       - name: Install Puppeteer Chrome
         run: |
-           npx --yes @puppeteer/browsers@latest install chrome@stable
+          npx --yes @puppeteer/browsers@latest install chrome@stable
+
+          CHROME_PATH=$(find "$GITHUB_WORKSPACE/chrome" -type f -name chrome | head -n 1)
+
+          if [ -z "$CHROME_PATH" ]; then
+          echo "Chrome executable not found"
+           exit 1
+          fi
+
+          echo "Chrome found at: $CHROME_PATH"
+          echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+ 
       - name: Fetch AliExpress source products
         run: node scripts/fetch-aliexpress-products.js
         env:
