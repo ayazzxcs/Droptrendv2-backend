@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T20:31:51.716Z",
+=======
+  "updatedAt": "2026-09-05T02:27:24.480Z",
+>>>>>>> Stashed changes
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 58,
   "failedCount": 92,
   "lastKeyword": "fluffy home slippers soft",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 2532,
   "reusedVariantChecks": 395,
   "variantCacheSize": 2532,
+=======
+  "savedSignalCount": 61,
+  "failedCount": 89,
+  "lastKeyword": "fruit meat vegetable storage",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2422,
+  "reusedVariantChecks": 329,
+  "variantCacheSize": 2422,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

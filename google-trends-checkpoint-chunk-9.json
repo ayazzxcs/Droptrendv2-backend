@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-04T16:10:58.146Z",
+=======
+  "updatedAt": "2026-09-05T03:26:55.896Z",
+>>>>>>> Stashed changes
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 77,
   "failedCount": 73,
   "lastKeyword": "rompers printed sleeveless jumpsuit",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 1784,
   "reusedVariantChecks": 274,
   "variantCacheSize": 1784,
+=======
+  "savedSignalCount": 105,
+  "failedCount": 45,
+  "lastKeyword": "shoes",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 1105,
+  "reusedVariantChecks": 190,
+  "variantCacheSize": 1105,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

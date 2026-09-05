@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-01T21:25:39.117Z",
+=======
+  "updatedAt": "2026-09-05T03:21:13.798Z",
+>>>>>>> Stashed changes
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 20,
   "failedCount": 130,
   "lastKeyword": "bathroom storage bathroom five-piece shower curtain three-piece mat aluminum alloy decorative painting",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 7698,
   "reusedVariantChecks": 1520,
   "variantCacheSize": 6833,
+=======
+  "savedSignalCount": 27,
+  "failedCount": 123,
+  "lastKeyword": "3pcs multi-functional storage box curved space-saving design stackable organizer bins home organization kitchen",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 7889,
+  "reusedVariantChecks": 1369,
+  "variantCacheSize": 7005,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T15:51:16.000Z",
-=======
-  "updatedAt": "2026-09-02T03:12:37.082Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-04T21:46:50.509Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -37,155 +33,12 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-<<<<<<< Updated upstream
-  "errorCount": 22,
+  "errorCount": 21,
   "errors": [
     {
-      "keyword": "women s clothing",
+      "keyword": "tooth cleaning",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "gun toys",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: gun toys; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "grain storage",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: grain storage; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "shoe storage",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: shoe storage; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "laptop tool",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: laptop tool; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "micro memory",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: micro memory; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "sealed jar",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: sealed jar; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "vacuum sealed",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: vacuum sealed; best raw count 0",
-      "deferred": true
-    },
-    {
-=======
-  "errorCount": 20,
-  "errors": [
-    {
->>>>>>> Stashed changes
-      "keyword": "furniture",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: furniture; best raw count 0",
-      "deferred": true
-    },
-    {
-<<<<<<< Updated upstream
-      "keyword": "memory card",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: memory card; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "charging cable",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: charging cable; best raw count 0",
-=======
-      "keyword": "led ceiling",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: led ceiling; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "135pcs sanrio",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: 135pcs sanrio; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "lenovo speed",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: lenovo speed; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "pcie3 internal",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: pcie3 internal; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "micro memory",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: micro memory; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "nvme ssd",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: nvme ssd; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "phone telescope",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: phone telescope; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "hard drive",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: hard drive; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "memory card",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: memory card; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "telescope holder",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: telescope holder; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "camera 1080p",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: camera 1080p; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "internal solid",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: internal solid; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "ssd nvme",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: ssd nvme; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: tooth cleaning; best raw count 0",
       "deferred": true
     },
     {
@@ -198,7 +51,48 @@
       "keyword": "laptop tool",
       "phase": "first-pass",
       "error": "AliExpress low/empty product page for keyword: laptop tool; best raw count 0",
->>>>>>> Stashed changes
+      "deferred": true
+    },
+    {
+      "keyword": "internal solid",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: internal solid; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "eggs organizer",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: eggs organizer; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "drive pcie3",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: drive pcie3; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "squeeze toy",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: squeeze toy; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "weather station",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: weather station; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "women s clothing",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "ssd nvme",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: ssd nvme; best raw count 0",
       "deferred": true
     },
     {
@@ -208,81 +102,63 @@
       "deferred": true
     },
     {
-<<<<<<< Updated upstream
-      "keyword": "o-ring pickup",
+      "keyword": "thermometer hygrometer",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: o-ring pickup; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: thermometer hygrometer; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "tool o-ring",
+      "keyword": "station animation",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tool o-ring; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: station animation; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "magnetic phone",
+      "keyword": "cusu ssd",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: magnetic phone; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: cusu ssd; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "steel precision",
+      "keyword": "watch message",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: steel precision; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: watch message; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "full video",
+      "keyword": "pcie3 internal",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: full video; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: pcie3 internal; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "cable fast",
+      "keyword": "egg storage",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: egg storage; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "nvme ssd",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: cable fast; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: nvme ssd; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "pickup hand",
+      "keyword": "fully compliant",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: pickup hand; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: fully compliant; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "holder rfid",
+      "keyword": "beauty makeup",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: holder rfid; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: beauty makeup; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "stainless steel",
+      "keyword": "men s clothing",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "card holder",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: card holder; best raw count 0",
-=======
-      "keyword": "led bulb",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: led bulb; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "cartoon pimples",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: cartoon pimples; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "beauty health",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: beauty health; best raw count 0",
->>>>>>> Stashed changes
+      "error": "AliExpress low/empty product page for keyword: men s clothing; best raw count 0",
       "deferred": false
     }
   ],
