@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T18:48:11.576Z",
-=======
-  "updatedAt": "2026-09-05T00:32:08.583Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T19:48:42.730Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 46,
-  "failedCount": 104,
-  "lastKeyword": "children watches watch",
+  "savedSignalCount": 60,
+  "failedCount": 90,
+  "lastKeyword": "meter weather station home",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3371,
-  "reusedVariantChecks": 617,
-  "variantCacheSize": 3371,
-=======
-  "savedSignalCount": 54,
-  "failedCount": 96,
-  "lastKeyword": "office supplies computer",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 3169,
-  "reusedVariantChecks": 585,
-  "variantCacheSize": 3169,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 3606,
+  "reusedVariantChecks": 634,
+  "variantCacheSize": 3606,
   "keywordTimeoutMs": 180000
 }

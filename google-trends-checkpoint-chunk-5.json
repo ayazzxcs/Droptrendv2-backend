@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T20:31:51.716Z",
-=======
-  "updatedAt": "2026-09-05T02:27:24.480Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T19:14:31.583Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 58,
-  "failedCount": 92,
-  "lastKeyword": "fluffy home slippers soft",
+  "savedSignalCount": 64,
+  "failedCount": 86,
+  "lastKeyword": "necklace party",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2532,
-  "reusedVariantChecks": 395,
-  "variantCacheSize": 2532,
-=======
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "fruit meat vegetable storage",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 2422,
-  "reusedVariantChecks": 329,
-  "variantCacheSize": 2422,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 2993,
+  "reusedVariantChecks": 267,
+  "variantCacheSize": 2993,
   "keywordTimeoutMs": 180000
 }

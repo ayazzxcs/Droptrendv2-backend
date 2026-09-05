@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-04T16:39:01.470Z",
-=======
-  "updatedAt": "2026-09-05T02:55:46.097Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T18:41:48.960Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 67,
-  "failedCount": 83,
-  "lastKeyword": "dresses dress",
+  "savedSignalCount": 73,
+  "failedCount": 77,
+  "lastKeyword": "jacket sensory anti-aging skirt",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2378,
-  "reusedVariantChecks": 306,
-  "variantCacheSize": 2378,
-=======
-  "savedSignalCount": 80,
-  "failedCount": 70,
-  "lastKeyword": "jumpsuit pajamas strappy homewear",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1815,
-  "reusedVariantChecks": 276,
-  "variantCacheSize": 1815,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 2161,
+  "reusedVariantChecks": 380,
+  "variantCacheSize": 2161,
   "keywordTimeoutMs": 180000
 }

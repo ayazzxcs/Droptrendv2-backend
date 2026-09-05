@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T20:43:14.202Z",
-=======
-  "updatedAt": "2026-09-05T02:28:30.219Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T19:00:24.883Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 70,
-  "failedCount": 80,
-  "lastKeyword": "watch accessories assembled watch",
+  "savedSignalCount": 60,
+  "failedCount": 90,
+  "lastKeyword": "gege bear sunflower false",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2142,
-  "reusedVariantChecks": 321,
-  "variantCacheSize": 2142,
-=======
-  "savedSignalCount": 91,
-  "failedCount": 59,
-  "lastKeyword": "dresses dress",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 2173,
-  "reusedVariantChecks": 231,
-  "variantCacheSize": 2173,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 2618,
+  "reusedVariantChecks": 295,
+  "variantCacheSize": 2618,
   "keywordTimeoutMs": 180000
 }

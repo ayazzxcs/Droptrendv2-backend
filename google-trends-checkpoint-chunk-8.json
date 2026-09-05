@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-04T16:31:35.051Z",
-=======
-  "updatedAt": "2026-09-05T03:40:40.380Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T18:26:58.680Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "use metric measuring tool",
+  "savedSignalCount": 89,
+  "failedCount": 61,
+  "lastKeyword": "brush metallic paint markers",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2185,
-  "reusedVariantChecks": 309,
-  "variantCacheSize": 2185,
-=======
-  "savedSignalCount": 78,
-  "failedCount": 72,
-  "lastKeyword": "goldenfir t800 ssd -inch",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1703,
-  "reusedVariantChecks": 176,
-  "variantCacheSize": 1703,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 1963,
+  "reusedVariantChecks": 298,
+  "variantCacheSize": 1963,
   "keywordTimeoutMs": 180000
 }

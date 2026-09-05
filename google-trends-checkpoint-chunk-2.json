@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T19:36:29.960Z",
-=======
-  "updatedAt": "2026-09-05T01:15:54.555Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T20:26:20.076Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 46,
-  "failedCount": 104,
-  "lastKeyword": "necklace drop earrings retro",
+  "savedSignalCount": 63,
+  "failedCount": 87,
+  "lastKeyword": "light table",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4306,
-  "reusedVariantChecks": 714,
-  "variantCacheSize": 4305,
-=======
-  "savedSignalCount": 52,
-  "failedCount": 98,
-  "lastKeyword": "toy toys kids",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 4059,
-  "reusedVariantChecks": 536,
-  "variantCacheSize": 4059,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 4394,
+  "reusedVariantChecks": 570,
+  "variantCacheSize": 4394,
   "keywordTimeoutMs": 180000
 }

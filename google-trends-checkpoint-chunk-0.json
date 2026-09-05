@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T21:25:39.117Z",
-=======
-  "updatedAt": "2026-09-05T03:21:13.798Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T22:18:10.414Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 20,
-  "failedCount": 130,
-  "lastKeyword": "bathroom storage bathroom five-piece shower curtain three-piece mat aluminum alloy decorative painting",
+  "savedSignalCount": 23,
+  "failedCount": 127,
+  "lastKeyword": "kids outdoor rocket foot pump outdoor air pressing soaring rocket suit jumps air powered rocket launcher game children toy gifts",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7698,
-  "reusedVariantChecks": 1520,
-  "variantCacheSize": 6833,
-=======
-  "savedSignalCount": 27,
-  "failedCount": 123,
-  "lastKeyword": "3pcs multi-functional storage box curved space-saving design stackable organizer bins home organization kitchen",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 7889,
-  "reusedVariantChecks": 1369,
-  "variantCacheSize": 7005,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 8341,
+  "reusedVariantChecks": 1438,
+  "variantCacheSize": 7226,
   "keywordTimeoutMs": 180000
 }

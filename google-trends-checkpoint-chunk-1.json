@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-01T20:30:40.001Z",
-=======
-  "updatedAt": "2026-09-05T02:08:06.008Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-05T21:17:46.158Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -12,24 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
-  "savedSignalCount": 53,
-  "failedCount": 97,
-  "lastKeyword": "onemix white road running shoes air cushion outdoor sport shoes trainers jogging shoes footwear",
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "top pants",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5389,
-  "reusedVariantChecks": 1074,
-  "variantCacheSize": 5389,
-=======
-  "savedSignalCount": 54,
-  "failedCount": 96,
-  "lastKeyword": "naturehike camping chair ultralight load folding quick build garden chair outdoor foldable picnic beach moon chair",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 5147,
-  "reusedVariantChecks": 839,
-  "variantCacheSize": 5147,
->>>>>>> Stashed changes
+  "uniqueVariantsFetched": 5394,
+  "reusedVariantChecks": 853,
+  "variantCacheSize": 5390,
   "keywordTimeoutMs": 180000
 }
