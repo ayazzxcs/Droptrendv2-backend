@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:48:42.730Z",
+  "updatedAt": "2026-09-06T17:26:15.746Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 60,
-  "failedCount": 90,
+  "savedSignalCount": 65,
+  "failedCount": 85,
   "lastKeyword": "meter weather station home",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3606,
-  "reusedVariantChecks": 634,
-  "variantCacheSize": 3606,
+  "uniqueVariantsFetched": 3598,
+  "reusedVariantChecks": 623,
+  "variantCacheSize": 3598,
   "keywordTimeoutMs": 180000
 }

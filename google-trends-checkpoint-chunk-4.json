@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:24:41.955Z",
+  "updatedAt": "2026-09-06T17:07:10.829Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 60,
-  "failedCount": 90,
+  "savedSignalCount": 55,
+  "failedCount": 95,
   "lastKeyword": "projector home",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3179,
-  "reusedVariantChecks": 404,
-  "variantCacheSize": 3179,
+  "uniqueVariantsFetched": 3182,
+  "reusedVariantChecks": 408,
+  "variantCacheSize": 3182,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:14:31.583Z",
+  "updatedAt": "2026-09-06T16:54:53.120Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 64,
-  "failedCount": 86,
+  "savedSignalCount": 61,
+  "failedCount": 89,
   "lastKeyword": "necklace party",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2993,
-  "reusedVariantChecks": 267,
-  "variantCacheSize": 2993,
+  "uniqueVariantsFetched": 3000,
+  "reusedVariantChecks": 270,
+  "variantCacheSize": 3000,
   "keywordTimeoutMs": 180000
 }

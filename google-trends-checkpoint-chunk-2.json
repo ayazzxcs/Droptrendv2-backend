@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T20:26:20.076Z",
+  "updatedAt": "2026-09-06T18:08:02.402Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 63,
-  "failedCount": 87,
+  "savedSignalCount": 62,
+  "failedCount": 88,
   "lastKeyword": "light table",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4394,
-  "reusedVariantChecks": 570,
-  "variantCacheSize": 4394,
+  "uniqueVariantsFetched": 4397,
+  "reusedVariantChecks": 567,
+  "variantCacheSize": 4397,
   "keywordTimeoutMs": 180000
 }

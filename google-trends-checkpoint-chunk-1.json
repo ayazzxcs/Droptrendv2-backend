@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T21:17:46.158Z",
+  "updatedAt": "2026-09-06T18:56:33.825Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 50,
-  "failedCount": 100,
+  "savedSignalCount": 47,
+  "failedCount": 103,
   "lastKeyword": "top pants",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5394,
-  "reusedVariantChecks": 853,
-  "variantCacheSize": 5390,
+  "uniqueVariantsFetched": 5386,
+  "reusedVariantChecks": 868,
+  "variantCacheSize": 5383,
   "keywordTimeoutMs": 180000
 }

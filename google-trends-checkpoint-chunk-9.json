@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:06:37.055Z",
+  "updatedAt": "2026-09-06T15:46:01.413Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 74,
-  "failedCount": 76,
+  "savedSignalCount": 70,
+  "failedCount": 80,
   "lastKeyword": "shoes",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1466,
-  "reusedVariantChecks": 180,
-  "variantCacheSize": 1466,
+  "uniqueVariantsFetched": 1468,
+  "reusedVariantChecks": 185,
+  "variantCacheSize": 1468,
   "keywordTimeoutMs": 180000
 }

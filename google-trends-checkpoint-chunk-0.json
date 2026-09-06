@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T22:18:10.414Z",
+  "updatedAt": "2026-09-06T19:59:17.710Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 23,
-  "failedCount": 127,
+  "savedSignalCount": 22,
+  "failedCount": 128,
   "lastKeyword": "kids outdoor rocket foot pump outdoor air pressing soaring rocket suit jumps air powered rocket launcher game children toy gifts",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 8341,
-  "reusedVariantChecks": 1438,
-  "variantCacheSize": 7226,
+  "uniqueVariantsFetched": 8352,
+  "reusedVariantChecks": 1448,
+  "variantCacheSize": 7221,
   "keywordTimeoutMs": 180000
 }

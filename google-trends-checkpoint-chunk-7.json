@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T18:41:48.960Z",
+  "updatedAt": "2026-09-06T16:23:27.758Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 73,
-  "failedCount": 77,
+  "savedSignalCount": 72,
+  "failedCount": 78,
   "lastKeyword": "jacket sensory anti-aging skirt",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2161,
+  "uniqueVariantsFetched": 2163,
   "reusedVariantChecks": 380,
-  "variantCacheSize": 2161,
+  "variantCacheSize": 2163,
   "keywordTimeoutMs": 180000
 }
