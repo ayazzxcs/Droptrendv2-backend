@@ -684,12 +684,12 @@ jobs:
           AMAZON_PAGE_DELAY_MS: 4500
           AMAZON_MIN_TITLE_MATCH: 15
           AMAZON_CANDIDATE_LIMIT: 8
-          DECODO_AUTH_BASE64: ${{ secrets.BRIGHTDATA_API_KEY_1 }}
-          DECODO_2_AUTH_BASE64: ${{ secrets.BRIGHTDATA_API_KEY_2 }}
-          DECODO_3_AUTH_BASE64: ${{ secrets.BRIGHTDATA_API_KEY_3 }}
-          DECODO_MONTHLY_LIMIT: 700
-          DECODO_2_MONTHLY_LIMIT: 700
-          DECODO_3_MONTHLY_LIMIT: 700
+          BRIGHTDATA_API_KEY_1: ${{ secrets.BRIGHTDATA_API_KEY_1 }}
+          BRIGHTDATA_API_KEY_2: ${{ secrets.BRIGHTDATA_API_KEY_2 }}
+          BRIGHTDATA_API_KEY_3: ${{ secrets.BRIGHTDATA_API_KEY_3 }}
+          BRIGHTDATA_1_MONTHLY_LIMIT: 700
+          BRIGHTDATA_2_MONTHLY_LIMIT: 700
+          BRIGHTDATA_3_MONTHLY_LIMIT: 700
       - name: Rename Amazon output files
         run: |
           mkdir -p amazon-lens-chunk
