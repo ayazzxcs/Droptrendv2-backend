@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T21:46:50.509Z",
+  "updatedAt": "2026-09-06T18:47:04.363Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,133 +33,103 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 21,
+  "errorCount": 16,
   "errors": [
     {
-      "keyword": "tooth cleaning",
+      "keyword": "suction cup",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tooth cleaning; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: suction cup; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "ssd hard",
+      "keyword": "phone telescope",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: ssd hard; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: phone telescope; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "laptop tool",
+      "keyword": "car vacuum",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: laptop tool; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: car vacuum; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "internal solid",
+      "keyword": "clothing",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: internal solid; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: clothing; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "eggs organizer",
+      "keyword": "spirit level",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: eggs organizer; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: spirit level; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "drive pcie3",
+      "keyword": "tpu filament",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: drive pcie3; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: tpu filament; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "squeeze toy",
+      "keyword": "phone holder",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: squeeze toy; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: phone holder; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "weather station",
+      "keyword": "ugreen dual",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: weather station; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: ugreen dual; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "women s clothing",
+      "keyword": "holder outdoor",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: women s clothing; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: holder outdoor; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "ssd nvme",
+      "keyword": "camera 1080p",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: ssd nvme; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: camera 1080p; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "automotive",
+      "keyword": "apple find",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: automotive; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: apple find; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "thermometer hygrometer",
+      "keyword": "display home",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: thermometer hygrometer; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: display home; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "station animation",
+      "keyword": "finder apple",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: station animation; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: finder apple; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "cusu ssd",
+      "keyword": "bathroom suction",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: cusu ssd; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: bathroom suction; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "watch message",
+      "keyword": "home companies",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: watch message; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: home companies; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "pcie3 internal",
+      "keyword": "outdoor camping",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: pcie3 internal; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: outdoor camping; best raw count 0",
       "deferred": true
-    },
-    {
-      "keyword": "egg storage",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: egg storage; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "nvme ssd",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: nvme ssd; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "fully compliant",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: fully compliant; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "beauty makeup",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: beauty makeup; best raw count 0",
-      "deferred": false
-    },
-    {
-      "keyword": "men s clothing",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: men s clothing; best raw count 0",
-      "deferred": false
     }
   ],
   "note": "AliExpress is treated as a product source like CJ. The keyword/category pool is discovered from AliExpress itself: homepage/category links, AliExpress product-title clusters, and validation pages sorted by orders/sales. It then fetches page 1 sorted by orders/sales for the strongest validated AliExpress-discovered keywords/categories. This version uses Puppeteer with a persistent warm AliExpress session, no scheduled batch reset, session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Discovery and product fetch now defer empty/blocked keywords to a second retry pass instead of resetting the browser session on every single empty result. Product fetching also reserves slots for high-probe-score keywords, retries those saved slots first, and only then lets lower-ranked remaining keywords fill any still-empty capacity. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. Emergency static fallback is used only if AliExpress keyword discovery completely fails."

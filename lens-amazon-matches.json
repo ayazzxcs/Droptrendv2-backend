@@ -1,1 +1,660 @@
-[]
+[
+  {
+    "productId": "2609040624471625200",
+    "productName": "New Nylon Oxford Cloth Shoulder Lightweight Crossbody Bag",
+    "productImage": "https://cf.cjdropshipping.com/quick/product/8e12cf6a-4e7f-4234-8df3-ec8a1eb6b487.jpg",
+    "provider": "brightdata_1",
+    "amazonCandidatesChecked": 1,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "Women's Black Nylon Crossbody Handbag, Colorful Strap Adjustable Lightweight Messenger, Zipper Closure Casual Daily-Beige",
+      "url": "https://www.amazon.es/Gyios-Crossbody-Ajustable-Cremallera-Diario-Beige/dp/B0H87NKC6C",
+      "asin": "B0H87NKC6C",
+      "rating": 3.8,
+      "ratingsTotal": 13,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 43,
+      "score": 39,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:03:30.221Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "2609051247401601200",
+    "productName": "Inflatable AchillesTendon Boot AnkleJoint Immobilization Sports Rehabilitation Brace",
+    "productImage": "https://cf.cjdropshipping.com/quick/product/92621cdd-a643-40c7-97fb-f4aa37742d8e.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 4,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ae/honarry-Walking-Boot-Broken-Injuries/dp/B0C1RTYV12",
+        "title": "Walking Boot for Broken Foot & Injuries - Lightweight Medical Boot with Anti-Slip Sole, Adjustable Straps & Rigid Support for Ankle/Foot Recovery L",
+        "rating": 4.3,
+        "ratingsTotal": 294,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com.be/-/en/Jewlri-Walking-Injuries-Fractures-Sprains/dp/B09YPT42D5",
+        "title": "Jewlri Air Walker Short Walking Boots for Left or Right Foot Injuries, Fractures, Sprains, Black, M",
+        "rating": 4.2,
+        "ratingsTotal": 1457,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com.be/-/en/honarry-Walker-Sprain-Broken-Walking/dp/B0C7Q2V3PZ",
+        "title": "Air Walker Ankle Sprain Broken Foot Walking Boots Small",
+        "rating": 4.5,
+        "ratingsTotal": 66,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "SFKLYU Forefoot Off Loading Healing Shoe, Offloading Walking Boot, Inflatable Walker Fracture Boot for Metatarsalgia Pain, Post Bunion, Broken Toe,A2 Left,L",
+      "url": "https://www.amazon.com/SFKLYU-Forefoot-Offloading-Inflatable-Metatarsalgia/dp/B0F7HGPLW3",
+      "asin": "B0F7HGPLW3",
+      "rating": 4.1,
+      "ratingsTotal": 15,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 25,
+      "score": 42,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:03:45.512Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "2096074553522831362",
+    "productName": "Halloween Decorations Crawling Ghost Voice Control Hair Electric Crawling Ghost Bar Haunted House Props Horror Layout Wholesale",
+    "productImage": "https://cj-product-center.oss-accelerate.aliyuncs.com/supplier/1688/8136eb5b-692f-4eab-805f-73bfb4a9f70e.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 4,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "Halloween Decoration Crawling Ghost, Electric Scary Animated Crawling Ghost with Horror Voice Sound Control, Creeping Bloody Ghost Zombie Props Haunted House Yard Decorations",
+      "url": "https://www.amazon.ca/J-ouuo-Halloween-Decoration-Crawling-Decorations/dp/B0B9S3ZPP7",
+      "asin": "B0B9S3ZPP7",
+      "rating": 2.5,
+      "ratingsTotal": 4,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 81,
+      "score": 31,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:08:30.406Z",
+      "candidatePosition": 3
+    }
+  },
+  {
+    "productId": "aliexpress-3256806852474453",
+    "productName": "GreenYi AHD 1920x1080P Car Rear View Camera 170° Fisheye Golden Lens Full HD Night Vision Vehicle Reversing Front Cameras G899",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S0e0009f3417048408a5dea6d7309f102T.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 5,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ca/Front-Inside-Camera-Recording-Vision/dp/B0GX9S4MMJ",
+        "title": "Dash Cam Front and Inside, Front Camera 1080P & Inside Camera 720P Recording Car DVR Cam with 170° Wide Angle, Night Vision, Small Dash Camera for Cars",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.ca/vdp/0843e8dc779545e9922ff41114fe6e29",
+        "title": "About the Rear Cam - Biuone dash cam front and rear",
+        "rating": 4,
+        "ratingsTotal": 4,
+        "matchScore": 11,
+        "reason": "weak amazon title match: 11"
+      }
+    ],
+    "amazon": {
+      "title": "Shkalacar Car Dash Cam HD 1080P with 3 Cameras, Night Vision, 170° Wide Angle, G-Sensor, Motion Detection, Parking Monitoring, Car Driving Recorder",
+      "url": "https://www.amazon.com.be/-/en/Shkalacar-G-Sensor-Detection-Monitoring-Recorder/dp/B0CFXR22QG",
+      "asin": "B0CFXR22QG",
+      "rating": 3.4,
+      "ratingsTotal": 14,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 26,
+      "score": 37,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T18:59:26.795Z",
+      "candidatePosition": 5
+    }
+  },
+  {
+    "productId": "aliexpress-3256809687964420",
+    "productName": "Ultra Bright LED Flashlight 2000LM Type-C Rechargeable Long Range Zoom Tactical Torch Outdoor Emergency Camping Fishing Lantern",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sea1523f3899d44b88dda45723abbda87H.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 4,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.co.uk/Flashlight-Rechargeable-Searchlight-Emergencies-Activities/dp/B0GVBLDSS5",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.co.uk/Flashlight-Rechargeable-Portable-Lantern-Commuting/dp/B0GXY1ZY9F",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.co.uk/Handheld-Flashlights-Rechargeable-Outdoor-Commuting/dp/B0FZXPFHN1",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "amazon": {
+      "title": "Small Flashlight LED Bright Flashlight",
+      "url": "https://www.amazon.co.uk/LED-Flashlight-Bright-Rechargeable-Multifunctional/dp/B0GXXFWGTF",
+      "asin": "B0GXXFWGTF",
+      "rating": 5,
+      "ratingsTotal": 0,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 18,
+      "score": 35,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:06:35.742Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256809335853930",
+    "productName": "NEW ABS Wireless Car Vacuum Cleaner Home Appliance Sofa Office High-Power Household Cleaning Machine Mini Vacuum Carpet Cleaner",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sfbffbe17996d44f4a002c11d897abc773.jpg_480x480q75.jpg_.avif",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "Vacuum Crumbs Electric Wireless Vacuum Cleaner Car and Blower 2 in 1 Mini Portable Powerful Vacuum Cleaner Small Machine Tx Air Duster Aspirapro Pro Professional 3000mAh Hand",
+      "url": "https://www.amazon.com.be/-/en/Electric-Wireless-Portable-Aspirapro-Professional/dp/B0D54CNCVX",
+      "asin": "B0D54CNCVX",
+      "rating": 3.6,
+      "ratingsTotal": 37,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 47,
+      "score": 43,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:17:06.884Z",
+      "candidatePosition": 2
+    }
+  },
+  {
+    "productId": "aliexpress-3256812350026834",
+    "productName": "2pcs Leather Hand Stitching Awl Tool Leather Craft Hole Punch Tools Sewing Punching Hole Maker Stitching Over Stitch",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4566cc0bb3c4a0da7a0a4fd46329332K.jpg_480x480q75.jpg_.avif",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 3,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/Utoolmart-Leather-Stitching-Groover-18pcs-set/dp/B0834XYRST",
+        "title": "Utoolmart Kit de herramientas de cuero, 18 en 1, herramientas de costura de cuero, herramienta de artesanía de cuero, herramientas de costura a mano con ranuradora para coser cuero, lona",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/Leather-Upholstery-Stitching-Needles-Supplies/dp/B0D41RKFV6",
+        "title": "Kit de costura de cuero, kit de costura de reparación de tapicería, kit de costura de cuero básico, 16 colores, hilo encerado, agujas de costura de ojos grandes, punzón, dedal, herramientas de trabajo",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "amazon": {
+      "title": "Ouligay Leather Sewing Needles 10 Pcs Leather Sewing Needles Leather Tool Kit with Punch Thimble and Waxed Thread for Carpet Hand Curved Needles",
+      "url": "https://www.amazon.com.be/-/en/Ouligay-Leather-Sewing-Needles-Thimble/dp/B0CLVHS6VM",
+      "asin": "B0CLVHS6VM",
+      "rating": 4.5,
+      "ratingsTotal": 160,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 33,
+      "score": 56,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:20:51.710Z",
+      "candidatePosition": 3
+    }
+  },
+  {
+    "productId": "aliexpress-3256805949603155",
+    "productName": "25/115/135/140 in1 Screwdriver Set Magnetic Torx Phillips Screw Bit Kit With Electrical Remover Wrench Repair Phone PC Tools",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S9d32ab3e2cb9449eabed437737c9023eg.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 5,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.it/iFixit-Spudger-Pack-riparazione-elettronica/dp/B0DD926337",
+        "title": "iFixit Spudger 3 Pack Electronic Repair Opening Tools",
+        "rating": 4.7,
+        "ratingsTotal": 8,
+        "matchScore": 11,
+        "reason": "weak amazon title match: 11"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.it/-/en/Lioaeust-LH589QCACN1HY5K841DJ63/dp/B0G5XN3MN6",
+        "title": "Spudger - Kit di strumenti per la riparazione elettronica di 13 pezzi, con barre di leva in acciaio inossidabile e plastica per smontaggio sicuro del dispositivo, design versatile, compatto per",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.it/Spudger-strumenti-riparazione-elettronica-plastica/dp/B0H1Z2QZ45",
+        "title": "Spudger - Kit di strumenti per la riparazione elettronica, 13 pezzi, con barre di leva in metallo e plastica, per laptop, telefono, tablet",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      }
+    ],
+    "amazon": {
+      "title": "Electronic Repair Tools Metal Spudger Set Double End Disassembly Tools for iPad Tablets Computer Phone (Pack of 6)",
+      "url": "https://www.amazon.com.be/-/en/Electronic-Spudger-Disassembly-Tablets-Computer/dp/B09TSHQF7T",
+      "asin": "B09TSHQF7T",
+      "rating": 4.1,
+      "ratingsTotal": 164,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 22,
+      "score": 53,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:17:12.051Z",
+      "candidatePosition": 3
+    }
+  },
+  {
+    "productId": "aliexpress-3256811555100710",
+    "productName": "Portable Outdoor Electric Shower Unit, with Long Battery Life, Suitable for Use in Camping, Bathrooms, and Construction Sites.",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sd402daa562a84e79b4dc626459fcac023.jpg_480x480q75.jpg_.avif",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 1,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "Portable Camping Shower, 6000 mAh Portable Shower, IPX7 Waterproof Rechargeable Shower, Portable Mobile Shower, with Shower Head and 2 M Hose, Camping Shower for Camping, Beach, Car Wash",
+      "url": "https://www.amazon.es/-/en/BARAKYEG-Portable-Camping-Waterproof-Rechargeable/dp/B0G6K9XRYS",
+      "asin": "B0G6K9XRYS",
+      "rating": 4.6,
+      "ratingsTotal": 25,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 21,
+      "score": 48,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:24:14.023Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256805031013690",
+    "productName": "Portable Mini Thermal Printer Wirelessly BT 203dpi Photo Label Memo Wrong Question Printing With USB Cable Imprimante Portable",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2f1f047758514fbd9d80a0710920ef85E.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 3,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/Best-Sellers-Portable-Thermal-Printers/zgbs/office-products/121190455011",
+        "title": "Amazon Best Sellers",
+        "rating": 4.3,
+        "ratingsTotal": 4,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/portable-mini-thermal-printer/s",
+        "title": "Amazon.com. Spend less. Smile more.",
+        "rating": 4.4,
+        "ratingsTotal": 4,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "Mini Pocket Printer, Portable Thermal Printer with 8 Rolls Printing Paper, Bluetooth Wireless Tiny Printer for Photos/Stickers/Labels/Notes/Receipts, Compatible with iOS and Android, Blue",
+      "url": "https://www.amazon.com/Vicbear-Portable-Printing-Bluetooth-Compatible/dp/B0BG5S1LL4",
+      "asin": "B0BG5S1LL4",
+      "rating": 4.3,
+      "ratingsTotal": 138,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 38,
+      "score": 54,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:25:24.585Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256809691644740",
+    "productName": "BNG 140Pcs Poly Extension Gel Dual Nail Forms Reusable Nail Molds for Builder Extension 14 Size Top Forms for Nail Art Design",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sc8fe4d2d6d0d479c8d94b7ec854750d9o.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 1,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "ABS Crystal Nails Doble Forma: Extensión Rápida Durabilidad Salón Para Profesionales ABS Nail Tips",
+      "url": "https://www.amazon.com.mx/Crystal-Nails-Doble-Forma-Profesionales/dp/B0G88FHJCY",
+      "asin": "B0G88FHJCY",
+      "rating": 5,
+      "ratingsTotal": 0,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 17,
+      "score": 35,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:21:13.735Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256807159070150",
+    "productName": "132 in 1 Precision Screwdriver Set Phillips Torx Magnetic Screwdriver Head with Storage Box 152 Bit Small Hand Repair Tool Kit",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S019ee58ec5f543b4b20681d2ccb81d3aS.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.pl/elektryczny-Powergiant-precyzyjna-elektryczna-akumulatorowa/dp/B07R6LPHRL",
+        "title": "Wkrętak elektryczny mini, Powergiant 57 w 1, precyzyjna wkrętarka elektryczna, wkrętarka akumulatorowa z ładowaniem USB, zestaw do naprawy laptopa, zegarków, iPhone'a, smartfona, iPada, PC",
+        "rating": 4,
+        "ratingsTotal": 337,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "Efekol 27 in 1 Precision Screwdriver Set Small Electronic Torx Screwdriver Repair Tool Kit for Doorbell Laptop Switch PS5 Xbox Macbook iPhone Watch",
+      "url": "https://www.amazon.com.be/-/en/Precision-Screwdriver-Electronic-Doorbell-Macbook/dp/B0D8KDRXPC",
+      "asin": "B0D8KDRXPC",
+      "rating": 4.6,
+      "ratingsTotal": 558,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 50,
+      "score": 62,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:24:02.105Z",
+      "candidatePosition": 2
+    }
+  },
+  {
+    "productId": "aliexpress-3256811986482933",
+    "productName": "Foundation Concealer Brush Premium Contour Blusher Brushes Flawless Under Eye Dense Face Makeup Brush For Blending",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sd447b1f0d56440feb302358ecd7cc01b0.jpg_480x480q75.jpg_.avif",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com.be/toothbrush-makeup/s",
+        "title": "Amazon.com.be: Low Prices in Electronics, Books, Sports Equipment & more",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "amazon": {
+      "title": "3 Pcs Professional Foundation Concealer Brush BB Cream Contour Brush Beauty Tools for Women",
+      "url": "https://www.amazon.it/-/en/Professional-Foundation-Concealer-Contour-Beauty/dp/B0FGDHGYJD",
+      "asin": "B0FGDHGYJD",
+      "rating": 3,
+      "ratingsTotal": 4,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 33,
+      "score": 29,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:28:48.466Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256806494844459",
+    "productName": "10X New W5W LED T10 Car Lights COB Glass Interior Parts Bulbs White ice blue Yellow Auto License Plate Lamp Dome Read Light 12V",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S5e0fc1d2dad641ae9d15ec2d0d1e5cdbC.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "Interior Reading Light Car Touch Lights Rechargeable Interior Dome Light Roof Ceiling Reading Lamps Trunk Magnetic Mini Lamp",
+      "url": "https://www.amazon.com/Interior-Reading-Rechargeable-Ceiling-Magnetic/dp/B0H87JWQ3N",
+      "asin": "B0H87JWQ3N",
+      "rating": 5,
+      "ratingsTotal": 0,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 26,
+      "score": 35,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:31:50.426Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256809958092780",
+    "productName": "1pc Acrylic Clear Stand Acrylic Easel Display Stand Multi-functional Display Stand For Plate Cards",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S71d72ba838f44d6db41bd16fe594ee7fG.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "2 Pack Action Figure Stand with 1 Screwdriver, Clear",
+      "url": "https://www.amazon.com.be/-/en/XISTEST-Action-Figure-Stand-Screwdriver/dp/B0CQPDQ416",
+      "asin": "B0CQPDQ416",
+      "rating": 3.8,
+      "ratingsTotal": 189,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 31,
+      "score": 52,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:35:26.113Z",
+      "candidatePosition": 2
+    }
+  },
+  {
+    "productId": "aliexpress-3256807801510455",
+    "productName": "Naturehike 2024 Camping Chair Ultralight High Load Folding Quick Build Garden Chair Outdoor Foldable Picnic Beach Moon Chair",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S192f868e46374d1cbb57c5130f4ae8feX.jpg",
+    "provider": "brightdata_2",
+    "amazonCandidatesChecked": 3,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com.br/Cadeira-Espregui%C3%A7adeira-Port%C3%A1til-Ajust%C3%A1vel-Atividades/dp/B0D8H7XR39",
+        "title": "Cadeira Espreguiçadeira de Praia Portátil, Encosto Ajustável, Bolso Grande Com Zíper, Tecido Oxford 600D, para Atividades Ao Ar Livre, Preto (Cáqui)",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com.br/JQlabeit-acampamento-ultraleve-relaxante-transporte/dp/B0CYKMDYSK",
+        "title": "Cadeira dobrável de acampamento ultraleve com encosto, cadeira relaxante ao ar livre com bolsa de transporte para acampamento na praia",
+        "rating": 3,
+        "ratingsTotal": 45,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "Portable Adult Beach Lounger Outdoor Lounger Park Beach Chair Portable Folding Adult Beach Lounger Khaki Sunbathing Lounger Pool Chair Patio Lounger (Khaki)",
+      "url": "https://www.amazon.com/lvifloae-Portable-Lounger-Outdoor-Sunbathing/dp/B0DSW8YZHQ",
+      "asin": "B0DSW8YZHQ",
+      "rating": 4.3,
+      "ratingsTotal": 22,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 35,
+      "score": 45,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 0,
+      "fetchedAt": "2026-09-06T19:36:45.514Z",
+      "candidatePosition": 3
+    }
+  },
+  {
+    "productId": "aliexpress-3256806771039009",
+    "productName": "Hand Controlled Flying Ball with Colorful LED Lights, 360° Rotating Suspension Orb, Indoor Outdoor Sports Toy for Teens & Adults",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S22f5e79114ff4025abac95bc3077c87ac.jpg_480x480q75.jpg_.avif",
+    "provider": "brightdata_3",
+    "amazonCandidatesChecked": 1,
+    "candidateFailures": [],
+    "amazon": {
+      "title": "XINHOME Flying Ball Orb Toys Hover Soaring Flying Toy Globe Shape Magic Boomerang Spinner Hand Controller Mini Drone For Kids Adults Outdoor Indoor by (Blue)",
+      "url": "https://www.amazon.com.mx/XINHOME-Fliegender-Ball/dp/B0FBS6KY5X",
+      "asin": "B0FBS6KY5X",
+      "rating": 4.1,
+      "ratingsTotal": 2304,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 47,
+      "score": 66,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:21:42.860Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256808045408807",
+    "productName": "Cute Pink Heart Bow Phone Case for IPhone 18 17 16 15 14 13 12 11 Pro Max 13 12 Mini 17Air 16e Shockproof Soft Clear Cases Coque",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S85f246a03b1a42c890ea4fd35102b486p.jpg",
+    "provider": "brightdata_3",
+    "amazonCandidatesChecked": 2,
+    "candidateFailures": [
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.it/CAUHENYEE-Trasparente-Custodia-Schermo-Temperato/dp/B0FMRVQ5WS",
+        "title": "Transparent Cover for Realme Note 70 4G / 70T Case, with 1 Piece Tempered Glass Screen, Slim and Soft Transparent TPU Cover",
+        "rating": 4.5,
+        "ratingsTotal": 1903,
+        "matchScore": 12,
+        "reason": "weak amazon title match: 12"
+      }
+    ],
+    "amazon": {
+      "title": "Yirlbey Cover for iPhone 14 Pro Max 6.7 inch, Aesthetic Summer Mobile Phone Case Cute Flowers Designs Pattern Silicone Translucent Soft Thin TPU Shockproof Protection Girls Case, Blue",
+      "url": "https://www.amazon.it/Yirlbey-iPhone-14-Pro-Max/dp/B0H1KYZ1TJ",
+      "asin": "B0H1KYZ1TJ",
+      "rating": 5,
+      "ratingsTotal": 2,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 47,
+      "score": 40,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:26:53.963Z",
+      "candidatePosition": 1
+    }
+  },
+  {
+    "productId": "aliexpress-3256808490973969",
+    "productName": "1pc Mini T Type Spirit Level Measurement Instrument Triangular Level T-type calibrator Spirit Bubble Shell Measuring Tools",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S2ad94b75d8c04af79eb5c6c512e3daa7C.jpg",
+    "provider": "brightdata_3",
+    "amazonCandidatesChecked": 3,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/clp/B09LH9FWVH",
+        "title": "More to explore",
+        "rating": 4,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/clp/B09Z6CMJSP",
+        "title": "More to explore",
+        "rating": 4,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "Spirit Level 230mm, Plastic Spirit Level Ruler, Magnetic Torpedo Level, Heavy Duty Building Tool, 45°, 90°, 180°, Yellow",
+      "url": "https://www.amazon.com.be/-/en/Spirit-Plastic-Magnetic-Torpedo-Building/dp/B099Q7NGPH",
+      "asin": "B099Q7NGPH",
+      "rating": 4.6,
+      "ratingsTotal": 99,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 25,
+      "score": 54,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-06T19:39:07.752Z",
+      "candidatePosition": 3
+    }
+  }
+]

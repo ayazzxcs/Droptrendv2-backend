@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:07:10.829Z",
+=======
+  "updatedAt": "2026-09-06T21:18:39.088Z",
+>>>>>>> Stashed changes
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 55,
   "failedCount": 95,
   "lastKeyword": "projector home",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 3182,
   "reusedVariantChecks": 408,
   "variantCacheSize": 3182,
+=======
+  "savedSignalCount": 59,
+  "failedCount": 91,
+  "lastKeyword": "dresses dress",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2865,
+  "reusedVariantChecks": 371,
+  "variantCacheSize": 2865,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

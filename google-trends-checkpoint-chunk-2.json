@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T18:08:02.402Z",
+=======
+  "updatedAt": "2026-09-06T22:28:17.444Z",
+>>>>>>> Stashed changes
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 62,
   "failedCount": 88,
   "lastKeyword": "light table",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 4397,
   "reusedVariantChecks": 567,
   "variantCacheSize": 4397,
+=======
+  "savedSignalCount": 55,
+  "failedCount": 95,
+  "lastKeyword": "switch controller tool",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 4315,
+  "reusedVariantChecks": 533,
+  "variantCacheSize": 4315,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

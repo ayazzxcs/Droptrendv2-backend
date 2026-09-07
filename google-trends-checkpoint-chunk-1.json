@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T18:56:33.825Z",
+=======
+  "updatedAt": "2026-09-06T23:08:11.776Z",
+>>>>>>> Stashed changes
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 47,
   "failedCount": 103,
   "lastKeyword": "top pants",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 5386,
   "reusedVariantChecks": 868,
   "variantCacheSize": 5383,
+=======
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "sensor switch controller",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 5134,
+  "reusedVariantChecks": 917,
+  "variantCacheSize": 5134,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

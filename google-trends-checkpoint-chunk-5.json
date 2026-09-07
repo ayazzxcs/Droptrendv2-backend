@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:54:53.120Z",
+=======
+  "updatedAt": "2026-09-06T23:27:32.944Z",
+>>>>>>> Stashed changes
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 61,
   "failedCount": 89,
   "lastKeyword": "necklace party",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 3000,
   "reusedVariantChecks": 270,
   "variantCacheSize": 3000,
+=======
+  "savedSignalCount": 54,
+  "failedCount": 96,
+  "lastKeyword": "home office storage universal",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2437,
+  "reusedVariantChecks": 416,
+  "variantCacheSize": 2437,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

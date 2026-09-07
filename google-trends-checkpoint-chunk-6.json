@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:41:33.952Z",
+=======
+  "updatedAt": "2026-09-06T23:40:20.054Z",
+>>>>>>> Stashed changes
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 61,
   "failedCount": 89,
   "lastKeyword": "gege bear sunflower false",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 2615,
   "reusedVariantChecks": 295,
   "variantCacheSize": 2615,
+=======
+  "savedSignalCount": 68,
+  "failedCount": 82,
+  "lastKeyword": "home office storage bookshelf",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 2206,
+  "reusedVariantChecks": 249,
+  "variantCacheSize": 2206,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }
