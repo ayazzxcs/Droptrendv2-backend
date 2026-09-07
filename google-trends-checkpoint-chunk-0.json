@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T19:59:17.710Z",
-=======
-  "updatedAt": "2026-09-07T00:20:19.644Z",
->>>>>>> Stashed changes
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 22,
   "failedCount": 128,
   "lastKeyword": "kids outdoor rocket foot pump outdoor air pressing soaring rocket suit jumps air powered rocket launcher game children toy gifts",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 8352,
   "reusedVariantChecks": 1448,
   "variantCacheSize": 7221,
-=======
-  "savedSignalCount": 35,
-  "failedCount": 115,
-  "lastKeyword": "outdoor table basket storage",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 7233,
-  "reusedVariantChecks": 1493,
-  "variantCacheSize": 6699,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

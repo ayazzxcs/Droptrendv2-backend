@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T15:46:01.413Z",
-=======
-  "updatedAt": "2026-09-07T00:36:46.782Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,26 +11,16 @@
   "chunkStart": 1350,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 70,
   "productMappedSignalCount": 70,
   "failedCount": 80,
   "uniqueVariantsFetched": 1468,
   "reusedVariantChecks": 185,
   "variantCacheSize": 1468,
-=======
-  "savedSignalCount": 87,
-  "productMappedSignalCount": 87,
-  "failedCount": 63,
-  "uniqueVariantsFetched": 1314,
-  "reusedVariantChecks": 182,
-  "variantCacheSize": 1314,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "dresses dress",
     "dresses dress",
     "jacket cardigan",
@@ -99,20 +85,6 @@
     "industrial endoscope camera",
     "outdoor foldable director",
     "100ml marie",
-=======
-    "steel quartz business watch",
-    "suitable living room bedroom",
-    "wifi bluetooth module arduino",
-    "camera 1080p",
-    "display home",
-    "display home",
-    "display home",
-    "display home",
-    "laptop tool",
-    "printer filament",
-    "printer filament",
-    "tool kit",
->>>>>>> Stashed changes
     "toys games",
     "necklace pendants flower pendant necklace",
     "1pcs hall effect rocker",

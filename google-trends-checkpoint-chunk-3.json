@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:26:15.746Z",
-=======
-  "updatedAt": "2026-09-06T21:44:17.234Z",
->>>>>>> Stashed changes
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 65,
   "failedCount": 85,
   "lastKeyword": "meter weather station home",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 3598,
   "reusedVariantChecks": 623,
   "variantCacheSize": 3598,
-=======
-  "savedSignalCount": 52,
-  "failedCount": 98,
-  "lastKeyword": "belt elastic band outdoor",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 3459,
-  "reusedVariantChecks": 550,
-  "variantCacheSize": 3459,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

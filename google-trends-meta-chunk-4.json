@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:07:10.828Z",
-=======
-  "updatedAt": "2026-09-06T21:18:39.088Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,26 +11,16 @@
   "chunkStart": 600,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 55,
   "productMappedSignalCount": 55,
   "failedCount": 95,
   "uniqueVariantsFetched": 3182,
   "reusedVariantChecks": 408,
   "variantCacheSize": 3182,
-=======
-  "savedSignalCount": 59,
-  "productMappedSignalCount": 59,
-  "failedCount": 91,
-  "uniqueVariantsFetched": 2865,
-  "reusedVariantChecks": 371,
-  "variantCacheSize": 2865,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "shirt drawstring shorts two-piece",
     "translation glasses camera ai",
     "bathroom brush tools",
@@ -75,17 +61,6 @@
     "blazers sweater coat",
     "car bulbs lights",
     "chair computer pillow",
-=======
-    "pack bags accessories bag",
-    "ring phone stand holder",
-    "save cut keyboard one",
-    "speaker cup outdoor bathroom",
-    "steel splatter screen gas",
-    "storage bags cases boxes",
-    "sweaters cardigan sweater jacket",
-    "tool kit router bit",
-    "dresses collar dress",
->>>>>>> Stashed changes
     "dresses dress skirt",
     "hoodies hoodie top",
     "jackets jacket coat",
@@ -110,7 +85,6 @@
     "cardigan youthful topsweater jacket",
     "charger pd3 fast charger",
     "crossbody bags raffia-woven handbag",
-<<<<<<< Updated upstream
     "foldable iron pvc chairs",
     "hair wig body wave",
     "hiking camping outdoor travel",
@@ -133,24 +107,6 @@
     "zircon necklace earring bracelet",
     "dresses party dress",
     "dresses skirt dress",
-=======
-    "dad pants lantern pants",
-    "display stand photo home",
-    "easy install home office",
-    "heavy duty home kitchen",
-    "ipad tablet fast charger",
-    "knot necklace bracelets girl",
-    "leather glasses clip cars",
-    "leg pants elastic-corded outdoor",
-    "o-ring kit hand tool",
-    "rear door storage box",
-    "shirts elegant v-neck shirt",
-    "shirts plus-size round-neck top",
-    "sleeve shirt tops tees",
-    "stand room desk home",
-    "suction hook home storage",
-    "jacket cardigan top",
->>>>>>> Stashed changes
     "kitchen storage pot",
     "storage bottles pot",
     "capes travel",

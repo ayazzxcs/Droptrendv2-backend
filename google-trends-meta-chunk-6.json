@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:41:33.951Z",
-=======
-  "updatedAt": "2026-09-06T23:40:20.053Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,36 +11,22 @@
   "chunkStart": 900,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 61,
   "productMappedSignalCount": 61,
   "failedCount": 89,
   "uniqueVariantsFetched": 2615,
   "reusedVariantChecks": 295,
   "variantCacheSize": 2615,
-=======
-  "savedSignalCount": 68,
-  "productMappedSignalCount": 68,
-  "failedCount": 82,
-  "uniqueVariantsFetched": 2206,
-  "reusedVariantChecks": 249,
-  "variantCacheSize": 2206,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "pants linen beach shorts",
     "red heart pendant necklace",
     "retro sequined dress sizes",
     "s s hoodies casual",
     "seametal car door shock",
     "shirts hawaiian linen shirt",
-=======
-    "short oval square top",
-    "shoulder crossbody bag retro",
->>>>>>> Stashed changes
     "slope single shoe girl",
     "suits blazer tailored blazer",
     "suits european american-style outdoor",
@@ -53,7 +35,6 @@
     "blouses shirts sweater",
     "bracelets light bracelet",
     "hats caps cap",
-<<<<<<< Updated upstream
     "jacket cardigan sweater",
     "party supplies lights",
     "brush tools",
@@ -100,10 +81,6 @@
     "vulcanize shoe twill sporty-casual",
     "blazers sweater top",
     "hoodies top hoodie",
-=======
-    "hats caps hat",
-    "adapter console",
->>>>>>> Stashed changes
     "bags bag",
     "dresses dress",
     "holder protector",
