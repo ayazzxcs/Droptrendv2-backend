@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T15:46:01.413Z",
+=======
+  "updatedAt": "2026-09-07T13:44:22.511Z",
+>>>>>>> Stashed changes
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,6 +12,7 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
+<<<<<<< Updated upstream
   "savedSignalCount": 70,
   "failedCount": 80,
   "lastKeyword": "shoes",
@@ -16,5 +21,15 @@
   "uniqueVariantsFetched": 1468,
   "reusedVariantChecks": 185,
   "variantCacheSize": 1468,
+=======
+  "savedSignalCount": 98,
+  "failedCount": 52,
+  "lastKeyword": "shoes",
+  "status": "complete",
+  "error": "",
+  "uniqueVariantsFetched": 1126,
+  "reusedVariantChecks": 228,
+  "variantCacheSize": 1126,
+>>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

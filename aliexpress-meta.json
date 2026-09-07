@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:47:04.363Z",
+  "updatedAt": "2026-09-07T08:09:23.884Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,24 +33,30 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 16,
+  "errorCount": 17,
   "errors": [
     {
-      "keyword": "suction cup",
+      "keyword": "watch message",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: suction cup; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: watch message; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "phone telescope",
+      "keyword": "fitness monitor",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: phone telescope; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: fitness monitor; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "car vacuum",
+      "keyword": "message fitness",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: car vacuum; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: message fitness; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "memory card",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: memory card; best raw count 0",
       "deferred": true
     },
     {
@@ -60,27 +66,27 @@
       "deferred": true
     },
     {
-      "keyword": "spirit level",
+      "keyword": "gun toys",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: spirit level; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: gun toys; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "tpu filament",
+      "keyword": "micro memory",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tpu filament; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: micro memory; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "phone holder",
+      "keyword": "deep cleaning",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: phone holder; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: deep cleaning; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "ugreen dual",
+      "keyword": "tooth cleaning",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: ugreen dual; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: tooth cleaning; best raw count 0",
       "deferred": true
     },
     {
@@ -90,45 +96,45 @@
       "deferred": true
     },
     {
-      "keyword": "camera 1080p",
+      "keyword": "eggs organizer",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: camera 1080p; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: eggs organizer; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "apple find",
+      "keyword": "toy slow",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: apple find; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: toy slow; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "display home",
+      "keyword": "egg storage",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: display home; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: egg storage; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "finder apple",
+      "keyword": "toy crunchy",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: finder apple; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: toy crunchy; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "bathroom suction",
+      "keyword": "full video",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: bathroom suction; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: full video; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "home companies",
+      "keyword": "card class",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: home companies; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: card class; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "outdoor camping",
+      "keyword": "road motorcycle",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: outdoor camping; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: road motorcycle; best raw count 0",
       "deferred": true
     }
   ],

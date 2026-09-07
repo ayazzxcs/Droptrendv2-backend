@@ -1,71 +1,67 @@
 [
   {
-    "keyword": "stainless steel",
-    "weight": 2164,
+    "keyword": "storage box",
+    "weight": 1891,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "gps tracker",
-    "weight": 1675,
+    "keyword": "micro card",
+    "weight": 1626,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "case iphone",
-    "weight": 1282,
+    "keyword": "remote control",
+    "weight": 1302,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "printer filament",
-    "weight": 1271,
+    "keyword": "eyelash extension",
+    "weight": 1240,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "easythreed printer",
-    "weight": 1101,
+    "keyword": "stress ball",
+    "weight": 1194,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
+    ]
+  },
+  {
+    "keyword": "monocular telescope",
+    "weight": 1083,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
     "sources": [
-      "aliexpress-page-text-title-cluster",
       "aliexpress-home-product-title"
     ]
   },
   {
-    "keyword": "printer entry",
-    "weight": 1081,
+    "keyword": "storage container",
+    "weight": 1073,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
-    "rawProducts": 60,
+    "rawProducts": 72,
     "sources": [
-      "aliexpress-page-text-title-cluster",
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "entry level",
-    "weight": 1075,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
+      "aliexpress-page-text-title-cluster"
     ]
   },
   {
     "keyword": "shoes",
-    "weight": 1058,
+    "weight": 1072,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
@@ -77,8 +73,8 @@
     ]
   },
   {
-    "keyword": "vacuum cleaner",
-    "weight": 1054,
+    "keyword": "fan light",
+    "weight": 1065,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
@@ -87,28 +83,16 @@
     ]
   },
   {
-    "keyword": "bluetooth speaker",
-    "weight": 1053,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
+    "keyword": "stress relief",
+    "weight": 1063,
+    "source": "aliexpress-product-title-cluster",
     "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "level compatible",
-    "weight": 1050,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
+      "aliexpress-validated-product-title"
     ]
   },
   {
     "keyword": "furniture",
-    "weight": 1045,
+    "weight": 1061,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
@@ -120,18 +104,19 @@
     ]
   },
   {
-    "keyword": "magnetic phone",
-    "weight": 1041,
+    "keyword": "women s clothing",
+    "weight": 1057,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-category-link",
+      "aliexpress-page-text"
     ]
   },
   {
-    "keyword": "dual system",
-    "weight": 1040,
+    "keyword": "card full",
+    "weight": 1044,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -140,18 +125,19 @@
     ]
   },
   {
-    "keyword": "makeup brush",
-    "weight": 1038,
+    "keyword": "telescope holder",
+    "weight": 1044,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
-    "rawProducts": 72,
+    "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   },
   {
-    "keyword": "cleaning appliance",
-    "weight": 1038,
+    "keyword": "led ceiling",
+    "weight": 1043,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -160,54 +146,68 @@
     ]
   },
   {
-    "keyword": "suction cup",
-    "weight": 1035,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "phone telescope",
-    "weight": 1033,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "car vacuum",
-    "weight": 1030,
+    "keyword": "kit beauty",
+    "weight": 1038,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   },
   {
-    "keyword": "clothing",
+    "keyword": "camera 1080p",
     "weight": 1028,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
-    "rawProducts": 68,
+    "rawProducts": 60,
     "sources": [
-      "aliexpress-category-link-title-cluster",
       "aliexpress-page-text-title-cluster"
     ]
   },
   {
-    "keyword": "spirit level",
-    "weight": 1019,
-    "source": "aliexpress-product-title-cluster",
+    "keyword": "ceiling fan",
+    "weight": 1025,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
     "sources": [
-      "aliexpress-validated-product-title"
+      "aliexpress-page-text-title-cluster"
     ]
   },
   {
-    "keyword": "tpu filament",
+    "keyword": "watch message",
+    "weight": 1021,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "fitness monitor",
+    "weight": 1021,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "message fitness",
+    "weight": 1021,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "memory card",
     "weight": 1018,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
@@ -217,26 +217,128 @@
     ]
   },
   {
-    "keyword": "phone holder",
-    "weight": 1015,
+    "keyword": "clothing",
+    "weight": 1017,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 68,
+    "sources": [
+      "aliexpress-category-link-title-cluster",
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "gun toys",
+    "weight": 1017,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "micro memory",
+    "weight": 1016,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "deep cleaning",
+    "weight": 1014,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 59,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "tooth cleaning",
+    "weight": 1014,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "holder outdoor",
+    "weight": 1013,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "eggs organizer",
+    "weight": 1008,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "toy slow",
+    "weight": 1004,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "egg storage",
+    "weight": 1003,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "toy crunchy",
+    "weight": 1002,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "full video",
+    "weight": 1001,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "card class",
+    "weight": 992,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "ugreen dual",
-    "weight": 1014,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "holder outdoor",
-    "weight": 1014,
+    "keyword": "road motorcycle",
+    "weight": 987,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -245,101 +347,72 @@
     ]
   },
   {
-    "keyword": "camera 1080p",
-    "weight": 1012,
+    "keyword": "men s clothing",
+    "weight": 986,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "apple find",
-    "weight": 1006,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "display home",
-    "weight": 1006,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "finder apple",
-    "weight": 1004,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "bathroom suction",
-    "weight": 1001,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "home companies",
-    "weight": 998,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "outdoor camping",
-    "weight": 998,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "toys games",
-    "weight": 996,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
+    "rawProducts": 70,
     "sources": [
       "aliexpress-category-link",
-      "aliexpress-category-link-title-cluster",
-      "aliexpress-page-text",
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text"
     ]
   },
   {
-    "keyword": "laptop tool",
-    "weight": 992,
+    "keyword": "makeup kit",
+    "weight": 985,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "phone telescope",
+    "weight": 983,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "speed micro",
+    "weight": 978,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 59,
+    "sources": [
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "flawless makeup",
+    "weight": 978,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "toys children",
+    "weight": 963,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
     "sources": [
       "aliexpress-page-text-title-cluster"
     ]
   },
   {
     "keyword": "automotive",
-    "weight": 987,
+    "weight": 955,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 63,
@@ -351,29 +424,8 @@
     ]
   },
   {
-    "keyword": "keyboard shortcuts",
-    "weight": 987,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text",
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "fully compliant",
-    "weight": 984,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-category-link-title-cluster"
-    ]
-  },
-  {
-    "keyword": "outdoor bathroom",
-    "weight": 982,
+    "keyword": "stress-relief toy",
+    "weight": 951,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -382,128 +434,19 @@
     ]
   },
   {
-    "keyword": "system compatibility",
-    "weight": 982,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "silicone wrist",
-    "weight": 980,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "ios find",
-    "weight": 978,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "tool kit",
-    "weight": 974,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "find ios",
-    "weight": 973,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "compatibility finder",
-    "weight": 973,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-home-product-title"
-    ]
-  },
-  {
-    "keyword": "men s clothing",
-    "weight": 967,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 70,
-    "sources": [
-      "aliexpress-category-link",
-      "aliexpress-page-text"
-    ]
-  },
-  {
-    "keyword": "women s clothing",
-    "weight": 962,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-category-link",
-      "aliexpress-page-text"
-    ]
-  },
-  {
-    "keyword": "card holder",
-    "weight": 953,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "accessibility fully",
-    "weight": 953,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-category-link-title-cluster"
-    ]
-  },
-  {
-    "keyword": "credit card",
+    "keyword": "makeup application",
     "weight": 948,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "telescope holder",
-    "weight": 947,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   },
   {
     "keyword": "accessibility fully compliant",
-    "weight": 946,
+    "weight": 943,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -513,8 +456,8 @@
     ]
   },
   {
-    "keyword": "pla tpu",
-    "weight": 944,
+    "keyword": "video compatible",
+    "weight": 935,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -523,36 +466,19 @@
     ]
   },
   {
-    "keyword": "metallic skin",
-    "weight": 941,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "fidget toy",
-    "weight": 936,
+    "keyword": "outdoor camping",
+    "weight": 932,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   },
   {
-    "keyword": "usb charging",
-    "weight": 917,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "filament include",
-    "weight": 910,
+    "keyword": "lenovo speed",
+    "weight": 928,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -561,41 +487,32 @@
     ]
   },
   {
-    "keyword": "compatible phone",
-    "weight": 908,
+    "keyword": "beauty makeup",
+    "weight": 927,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   },
   {
-    "keyword": "necklace simple",
-    "weight": 901,
+    "keyword": "fully compliant",
+    "weight": 916,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "charging cleaning",
-    "weight": 886,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-category-link-title-cluster"
     ]
   },
   {
     "keyword": "beauty health",
-    "weight": 885,
+    "weight": 912,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
-    "rawProducts": 66,
+    "rawProducts": 65,
     "sources": [
       "aliexpress-category-link",
       "aliexpress-category-link-title-cluster",
@@ -604,18 +521,8 @@
     ]
   },
   {
-    "keyword": "choker necklace",
-    "weight": 876,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 72,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "compatible pla",
-    "weight": 872,
+    "keyword": "sponges flawless",
+    "weight": 908,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -624,16 +531,21 @@
     ]
   },
   {
-    "keyword": "ugreen gan",
-    "weight": 867,
-    "source": "aliexpress-product-title-cluster",
+    "keyword": "toys games",
+    "weight": 902,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
     "sources": [
-      "aliexpress-validated-product-title"
+      "aliexpress-category-link",
+      "aliexpress-category-link-title-cluster",
+      "aliexpress-page-text",
+      "aliexpress-page-text-title-cluster"
     ]
   },
   {
-    "keyword": "holder rfid",
-    "weight": 865,
+    "keyword": "toy cube",
+    "weight": 901,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
@@ -642,8 +554,18 @@
     ]
   },
   {
-    "keyword": "phone card",
-    "weight": 860,
+    "keyword": "light e27",
+    "weight": 893,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 59,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "bathroom suction",
+    "weight": 874,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
@@ -652,28 +574,113 @@
     ]
   },
   {
-    "keyword": "steel home",
-    "weight": 815,
+    "keyword": "beauty sponges",
+    "weight": 867,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "long range",
+    "weight": 863,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
+    ]
+  },
+  {
+    "keyword": "33pcs beauty",
+    "weight": 853,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "led bulb",
+    "weight": 850,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
+    ]
+  },
+  {
+    "keyword": "accessibility fully",
+    "weight": 849,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-category-link-title-cluster"
+    ]
+  },
+  {
+    "keyword": "surron light",
+    "weight": 844,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 72,
     "sources": [
       "aliexpress-page-text-title-cluster"
     ]
   },
   {
-    "keyword": "toy cheese",
-    "weight": 809,
+    "keyword": "cozy home",
+    "weight": 842,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 60,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-link",
+      "aliexpress-link-title-cluster"
+    ]
+  },
+  {
+    "keyword": "telescope mobile",
+    "weight": 841,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "2000x25 monocular",
+    "weight": 838,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "fidget toy",
+    "weight": 830,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
+    ]
+  },
+  {
+    "keyword": "heart rate",
+    "weight": 816,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
     ]
   },
   {
     "keyword": "cat eyelashes",
-    "weight": 795,
+    "weight": 812,
     "source": "aliexpress-discovered-validated",
     "usableProducts": 24,
     "rawProducts": 72,
@@ -682,127 +689,142 @@
     ]
   },
   {
-    "keyword": "tracker apple",
-    "weight": 790,
+    "keyword": "makeup sponge",
+    "weight": 794,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "cleaner usb",
+    "keyword": "suction cup",
+    "weight": 785,
+    "source": "aliexpress-product-title-cluster",
+    "sources": [
+      "aliexpress-validated-product-title"
+    ]
+  },
+  {
+    "keyword": "compatible phone",
     "weight": 775,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
+    ]
+  },
+  {
+    "keyword": "cleaning powder",
+    "weight": 747,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "led light",
+    "weight": 745,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "pla petg",
-    "weight": 768,
+    "keyword": "led lamp",
+    "weight": 723,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "gan charger",
-    "weight": 765,
+    "keyword": "makeup brush",
+    "weight": 718,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "bubble level",
-    "weight": 751,
+    "keyword": "eye lashes",
+    "weight": 697,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "tag apple",
-    "weight": 693,
+    "keyword": "clusters cat",
+    "weight": 671,
+    "source": "aliexpress-discovered-validated",
+    "usableProducts": 24,
+    "rawProducts": 60,
+    "sources": [
+      "aliexpress-page-text-title-cluster"
+    ]
+  },
+  {
+    "keyword": "e27 remote",
+    "weight": 661,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "strong suction",
-    "weight": 684,
+    "keyword": "action camera",
+    "weight": 651,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "ultra thin",
-    "weight": 675,
+    "keyword": "cat eye",
+    "weight": 644,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "phone case",
-    "weight": 654,
+    "keyword": "speed memory",
+    "weight": 634,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "petg silk",
-    "weight": 624,
+    "keyword": "stainless steel",
+    "weight": 626,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "precision screwdriver",
-    "weight": 598,
+    "keyword": "light remote",
+    "weight": 604,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "gps locator",
-    "weight": 594,
+    "keyword": "squeeze toy",
+    "weight": 596,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "short sleeve",
-    "weight": 594,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "cleaner powerful",
-    "weight": 574,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "charging port",
-    "weight": 573,
-    "source": "aliexpress-product-title-cluster",
-    "sources": [
-      "aliexpress-validated-product-title"
-    ]
-  },
-  {
-    "keyword": "dual forms",
+    "keyword": "holder camping",
     "weight": 572,
     "source": "aliexpress-product-title-cluster",
     "sources": [
@@ -810,42 +832,32 @@
     ]
   },
   {
-    "keyword": "appliance wet",
-    "weight": 567,
+    "keyword": "short sleeve",
+    "weight": 563,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "9000pa car",
-    "weight": 566,
-    "source": "aliexpress-discovered-validated",
-    "usableProducts": 24,
-    "rawProducts": 60,
-    "sources": [
-      "aliexpress-page-text-title-cluster"
-    ]
-  },
-  {
-    "keyword": "photo frame",
-    "weight": 559,
+    "keyword": "fitness tracker",
+    "weight": 561,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "anti lost",
-    "weight": 543,
+    "keyword": "lash clusters",
+    "weight": 552,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
     ]
   },
   {
-    "keyword": "rfid blocking",
-    "weight": 531,
+    "keyword": "diy lash",
+    "weight": 549,
     "source": "aliexpress-product-title-cluster",
     "sources": [
       "aliexpress-validated-product-title"
@@ -853,12 +865,13 @@
   },
   {
     "keyword": "mobile phone",
-    "weight": 285,
+    "weight": 365,
     "source": "aliexpress-discovered-validated",
-    "usableProducts": 5,
+    "usableProducts": 6,
     "rawProducts": 72,
     "sources": [
-      "aliexpress-page-text-title-cluster"
+      "aliexpress-page-text-title-cluster",
+      "aliexpress-home-product-title"
     ]
   }
 ]
