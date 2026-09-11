@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:26:15.746Z",
-=======
-  "updatedAt": "2026-09-07T10:55:59.829Z",
->>>>>>> Stashed changes
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 65,
   "failedCount": 85,
   "lastKeyword": "meter weather station home",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 3598,
   "reusedVariantChecks": 623,
   "variantCacheSize": 3598,
-=======
-  "savedSignalCount": 64,
-  "failedCount": 86,
-  "lastKeyword": "blouses shirts pants",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 3105,
-  "reusedVariantChecks": 686,
-  "variantCacheSize": 3105,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

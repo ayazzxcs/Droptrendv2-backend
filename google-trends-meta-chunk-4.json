@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:07:10.828Z",
-=======
-  "updatedAt": "2026-09-07T10:40:13.373Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,26 +11,16 @@
   "chunkStart": 600,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 55,
   "productMappedSignalCount": 55,
   "failedCount": 95,
   "uniqueVariantsFetched": 3182,
   "reusedVariantChecks": 408,
   "variantCacheSize": 3182,
-=======
-  "savedSignalCount": 63,
-  "productMappedSignalCount": 63,
-  "failedCount": 87,
-  "uniqueVariantsFetched": 2797,
-  "reusedVariantChecks": 392,
-  "variantCacheSize": 2797,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "shirt drawstring shorts two-piece",
     "translation glasses camera ai",
     "bathroom brush tools",
@@ -92,11 +78,6 @@
     "jackets coat",
     "sweater shirt",
     "office school supplies modern office desk easy clean adjustable foot office",
-=======
-    "socks fleece-lined floor socks non-slip soft-soled indoor shoes socks",
-    "fan light ceiling fan light",
-    "fan light ceiling fan light",
->>>>>>> Stashed changes
     "kitchen appliances kitchen stand mixer",
     "alcance tripod phone clip",
     "atmosphere car decorative lamp",
@@ -104,7 +85,6 @@
     "brush household salon makeup",
     "camera action camera retro",
     "cardigan youthful topsweater jacket",
-<<<<<<< Updated upstream
     "charger pd3 fast charger",
     "crossbody bags raffia-woven handbag",
     "foldable iron pvc chairs",
@@ -130,25 +110,6 @@
     "dresses party dress",
     "dresses skirt dress",
     "kitchen storage pot",
-=======
-    "costume skirt dance skirt",
-    "dad pants lantern pants",
-    "heavy duty home kitchen",
-    "home office storage parties",
-    "leather glasses clip cars",
-    "leg pants elastic-corded outdoor",
-    "magnifier mount ring air",
-    "makeup kit eyeshadow brushes",
-    "p30 type c cable",
-    "pants gym sport trousers",
-    "perfect beauty modeling makeup",
-    "rag kitchen bathroom cleaning",
-    "rear door storage box",
-    "shirts elegant v-neck shirt",
-    "turn signal light bulbs",
-    "jacket cardigan top",
-    "outdoor holder tools",
->>>>>>> Stashed changes
     "storage bottles pot",
     "bulbs light",
     "capes travel",

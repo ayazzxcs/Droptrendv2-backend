@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:12:52.339Z",
-=======
-  "updatedAt": "2026-09-07T13:50:57.614Z",
->>>>>>> Stashed changes
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 91,
   "failedCount": 59,
   "lastKeyword": "brush metallic paint markers",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 1963,
   "reusedVariantChecks": 294,
   "variantCacheSize": 1963,
-=======
-  "savedSignalCount": 80,
-  "failedCount": 70,
-  "lastKeyword": "card class uhs-i camera",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1733,
-  "reusedVariantChecks": 194,
-  "variantCacheSize": 1733,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

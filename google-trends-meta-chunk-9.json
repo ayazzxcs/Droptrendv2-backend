@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T15:46:01.413Z",
-=======
-  "updatedAt": "2026-09-07T13:44:22.511Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,26 +11,16 @@
   "chunkStart": 1350,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 70,
   "productMappedSignalCount": 70,
   "failedCount": 80,
   "uniqueVariantsFetched": 1468,
   "reusedVariantChecks": 185,
   "variantCacheSize": 1468,
-=======
-  "savedSignalCount": 98,
-  "productMappedSignalCount": 98,
-  "failedCount": 52,
-  "uniqueVariantsFetched": 1126,
-  "reusedVariantChecks": 228,
-  "variantCacheSize": 1126,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "dresses dress",
     "dresses dress",
     "jacket cardigan",
@@ -112,10 +98,6 @@
     "lady dresses s dress",
     "non-slip plastic benches kitchen",
     "petg plastic 3d printer",
-=======
-    "navy blue hooded sweatshirt",
-    "original remote control bn59-01358d",
->>>>>>> Stashed changes
     "pumps elegant high-heeled sandals",
     "rings gold-colored ring gemstone",
     "rings zircon-gold-plated three-piece ring",

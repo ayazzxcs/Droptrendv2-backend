@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:41:33.951Z",
-=======
-  "updatedAt": "2026-09-07T12:43:40.799Z",
->>>>>>> Stashed changes
   "source": "google-trends-network",
   "geo": "",
   "dateRange": "today 3-m",
@@ -15,26 +11,16 @@
   "chunkStart": 900,
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 61,
   "productMappedSignalCount": 61,
   "failedCount": 89,
   "uniqueVariantsFetched": 2615,
   "reusedVariantChecks": 295,
   "variantCacheSize": 2615,
-=======
-  "savedSignalCount": 72,
-  "productMappedSignalCount": 72,
-  "failedCount": 78,
-  "uniqueVariantsFetched": 1980,
-  "reusedVariantChecks": 342,
-  "variantCacheSize": 1980,
->>>>>>> Stashed changes
   "variantConcurrency": 3,
   "keywordTimeoutMs": 180000,
   "note": "Chunk-level Google Trends output. Final google-trends.json should be produced by scripts/merge-google-trends-chunks.js in matrix runs.",
   "failed": [
-<<<<<<< Updated upstream
     "pants linen beach shorts",
     "red heart pendant necklace",
     "retro sequined dress sizes",
@@ -120,9 +106,6 @@
     "angle cube level box",
     "business watches round dial",
     "capacitive liquid level sensor",
-=======
-    "camera autofocus vlogging camera",
->>>>>>> Stashed changes
     "casual soft fitness thin",
     "christmas decoration supplies halloween",
     "christmas decoration supplies halloween",

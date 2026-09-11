@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< Updated upstream
     "keyword": "screen outdoor",
     "usedKeyword": "led display panel module",
     "score": 6,
@@ -2017,10 +2016,6 @@
   {
     "keyword": "table watch",
     "usedKeyword": "funtion led clocks watch",
-=======
-    "keyword": "s long-sleeved top street",
-    "usedKeyword": "long sleeved trendy long sleeved",
->>>>>>> Stashed changes
     "score": 15,
     "rawScore": 15,
     "growthPercent": -100,
@@ -2030,13 +2025,10 @@
     "maxValue": 100,
     "timeline": [
       {
-<<<<<<< Updated upstream
         "label": "Jul 9, 2026",
         "value": 0
       },
       {
-=======
->>>>>>> Stashed changes
         "label": "Jul 10, 2026",
         "value": 0
       },
@@ -2046,7 +2038,6 @@
       },
       {
         "label": "Jul 12, 2026",
-<<<<<<< Updated upstream
         "value": 0
       },
       {
@@ -2638,127 +2629,6 @@
         "value": 100
       },
       {
-=======
-        "value": 100
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 14, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 15, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 16, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 19, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 20, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 22, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 23, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 24, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 25, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 26, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 27, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 28, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 29, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 30, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 31, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 1, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 2, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 3, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 4, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 5, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 6, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 7, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 8, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 9, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 10, 2026",
-        "value": 0
-      },
-      {
->>>>>>> Stashed changes
         "label": "Aug 11, 2026",
         "value": 0
       },
@@ -2865,19 +2735,11 @@
       {
         "label": "Sep 6, 2026",
         "value": 0
-<<<<<<< Updated upstream
-=======
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 0
->>>>>>> Stashed changes
       }
     ],
     "timelineValues": [
       0,
       0,
-<<<<<<< Updated upstream
       0,
       0,
       0,
@@ -2908,8 +2770,6 @@
       0,
       0,
       0,
-=======
->>>>>>> Stashed changes
       100,
       0,
       0,
@@ -2937,45 +2797,11 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
-=======
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
->>>>>>> Stashed changes
       0
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:29:38.525Z",
     "reusedVariantCache": false,
     "checkedVariants": [
@@ -8542,85 +8368,6 @@
       {
         "keyword": "brush stationery art supplies",
         "usedKeyword": "art supplies",
-=======
-    "fetchedAt": "2026-09-07T10:41:25.083Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "long sleeved top street",
-      "european long sleeved top",
-      "long sleeved top",
-      "top street",
-      "european long sleeved top street",
-      "kong cotton inner shirt",
-      "long sleeved trendy long sleeved",
-      "trendy long sleeved european",
-      "cotton inner shirt",
-      "long sleeved trendy",
-      "inner shirt",
-      "long sleeved",
-      "trendy long sleeved",
-      "long sleeved trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "sleeved top street",
-      "sleeved top"
-    ],
-    "generatedVariants": [
-      "long sleeved top street",
-      "european long sleeved top",
-      "long sleeved top",
-      "top street",
-      "european long sleeved top street",
-      "kong cotton inner shirt",
-      "long sleeved trendy long sleeved",
-      "trendy long sleeved european",
-      "cotton inner shirt",
-      "long sleeved trendy",
-      "inner shirt",
-      "long sleeved",
-      "trendy long sleeved",
-      "long sleeved trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "top",
-      "sleeved top street",
-      "sleeved top"
-    ],
-    "specificVariants": [
-      "long sleeved top street",
-      "european long sleeved top",
-      "long sleeved top",
-      "top street",
-      "european long sleeved top street",
-      "kong cotton inner shirt",
-      "long sleeved trendy long sleeved",
-      "trendy long sleeved european",
-      "cotton inner shirt",
-      "long sleeved trendy",
-      "inner shirt",
-      "long sleeved",
-      "trendy long sleeved",
-      "long sleeved trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "trendy long sleeved european long sleeved top street hong kong cotton inner shirt",
-      "sleeved top street",
-      "sleeved top"
-    ],
-    "fallbackVariants": [
-      "top"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Autumn Trendy Long-sleeved New European-style Men's Solid Color Long-sleeved Top High Street Men's Hong Kong-style Cotton Inner T-shirt",
-      "s long-sleeved top street"
-    ],
-    "productIds": [
-      "2096112098877030401"
-    ],
-    "primaryProductTitle": "Autumn Trendy Long-sleeved New European-style Men's Solid Color Long-sleeved Top High Street Men's Hong Kong-style Cotton Inner T-shirt",
-    "productKey": "2096112098877030401",
-    "variantSignals": [
-      {
-        "keyword": "s long-sleeved top street",
-        "usedKeyword": "top street",
->>>>>>> Stashed changes
         "score": 16,
         "growthPercent": -52,
         "timelinePoints": 60
@@ -8633,7 +8380,6 @@
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "brushes dental cleaning tools",
         "usedKeyword": "tools daily oral",
         "score": 6,
@@ -9185,10 +8931,6 @@
       {
         "keyword": "camera action camera retro",
         "usedKeyword": "keychain camera action",
-=======
-        "keyword": "s long-sleeved top street",
-        "usedKeyword": "cotton inner shirt",
->>>>>>> Stashed changes
         "score": 27,
         "growthPercent": 33,
         "timelinePoints": 60
@@ -9211,19 +8953,11 @@
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "camisole bra built-in padding",
     "usedKeyword": "modal ribbed lace sexy spaghetti strapped camisole bra built padding",
     "score": 15,
     "rawScore": 15,
     "growthPercent": -100,
-=======
-    "keyword": "shaker stress-relief toy panda",
-    "usedKeyword": "panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-    "score": 7,
-    "rawScore": 7,
-    "growthPercent": -4,
->>>>>>> Stashed changes
     "firstAvg": 2,
     "lastAvg": 2,
     "latestValue": 0,
@@ -9535,7 +9269,6 @@
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:42:22.768Z",
     "reusedVariantCache": false,
     "checkedVariants": [
@@ -9625,111 +9358,11 @@
       {
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "sexy spaghetti strapped camisole bra",
-=======
-    "fetchedAt": "2026-09-07T10:42:37.856Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "shaker stress relief toy panda",
-      "cartoon shaker stress relief toy",
-      "stress relief toy panda",
-      "shaker stress relief toy",
-      "toy panda",
-      "stress relief toy",
-      "cartoon shaker stress relief toy panda",
-      "panda charm keychain gift",
-      "panda squeaking hammer cartoon",
-      "keychains panda squeaking hammer",
-      "charm keychain gift",
-      "panda squeaking hammer",
-      "keychains panda squeaking",
-      "keychain gift",
-      "keychains panda",
-      "panda squeaking",
-      "keychains panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "shaker stress relief",
-      "relief toy panda",
-      "shaker stress",
-      "stress relief",
-      "relief toy"
-    ],
-    "generatedVariants": [
-      "shaker stress relief toy panda",
-      "cartoon shaker stress relief toy",
-      "stress relief toy panda",
-      "shaker stress relief toy",
-      "toy panda",
-      "stress relief toy",
-      "cartoon shaker stress relief toy panda",
-      "panda charm keychain gift",
-      "panda squeaking hammer cartoon",
-      "keychains panda squeaking hammer",
-      "charm keychain gift",
-      "panda squeaking hammer",
-      "keychains panda squeaking",
-      "keychain gift",
-      "keychains panda",
-      "panda squeaking",
-      "keychains panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "toy",
-      "keychains",
-      "shaker stress relief",
-      "relief toy panda",
-      "shaker stress",
-      "stress relief",
-      "relief toy"
-    ],
-    "specificVariants": [
-      "shaker stress relief toy panda",
-      "cartoon shaker stress relief toy",
-      "stress relief toy panda",
-      "shaker stress relief toy",
-      "toy panda",
-      "stress relief toy",
-      "cartoon shaker stress relief toy panda",
-      "panda charm keychain gift",
-      "panda squeaking hammer cartoon",
-      "keychains panda squeaking hammer",
-      "charm keychain gift",
-      "panda squeaking hammer",
-      "keychains panda squeaking",
-      "keychain gift",
-      "keychains panda",
-      "panda squeaking",
-      "keychains panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-      "shaker stress relief",
-      "relief toy panda",
-      "shaker stress",
-      "stress relief",
-      "relief toy"
-    ],
-    "fallbackVariants": [
-      "toy",
-      "keychains"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Panda Squeaking Hammer Cartoon Shaker Stress-relief Toy Panda Charm Keychain Small Gift",
-      "shaker stress-relief toy panda"
-    ],
-    "productIds": [
-      "2609041322251618900"
-    ],
-    "primaryProductTitle": "Panda Squeaking Hammer Cartoon Shaker Stress-relief Toy Panda Charm Keychain Small Gift",
-    "productKey": "2609041322251618900",
-    "variantSignals": [
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "shaker stress relief toy",
->>>>>>> Stashed changes
         "score": 15,
         "growthPercent": -100,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "spaghetti strapped camisole bra built",
         "score": 15,
@@ -9768,16 +9401,10 @@
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "camisole bra",
         "score": 18,
-=======
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "toy panda",
-        "score": 20,
->>>>>>> Stashed changes
         "growthPercent": -20,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "modal ribbed lace",
         "score": 11,
@@ -9801,115 +9428,36 @@
       {
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "camis modal ribbed lace sexy spaghetti strapped camisole bra built padding",
-=======
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "stress relief toy",
-        "score": 26,
-        "growthPercent": -30,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "panda charm keychain gift",
->>>>>>> Stashed changes
         "score": 9,
         "growthPercent": 4,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "camisole bra built-in padding",
         "usedKeyword": "modal ribbed lace sexy spaghetti strapped camisole bra built padding",
         "score": 15,
         "growthPercent": -100,
-=======
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "keychains panda squeaking hammer",
-        "score": 9,
-        "growthPercent": 4,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "charm keychain gift",
-        "score": 41,
-        "growthPercent": 52,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "keychain gift",
-        "score": 22,
-        "growthPercent": -11,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "keychains panda",
-        "score": 9,
-        "growthPercent": 5,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "panda squeaking hammer cartoon shaker stress relief toy panda charm keychain gift",
-        "score": 7,
-        "growthPercent": -4,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "shaker stress",
-        "score": 7,
-        "growthPercent": -76,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "stress relief",
-        "score": 16,
-        "growthPercent": -36,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shaker stress-relief toy panda",
-        "usedKeyword": "relief toy",
-        "score": 16,
-        "growthPercent": -41,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "card 4x32gbps host controller",
     "usedKeyword": "card 4x32gbps host controller",
     "score": 15,
     "rawScore": 15,
     "growthPercent": -100,
     "firstAvg": 4,
-=======
-    "keyword": "shirts hawaiian linen shirt",
-    "usedKeyword": "hawaiian linen shirt multiple",
-    "score": 15,
-    "rawScore": 15,
-    "growthPercent": -100,
-    "firstAvg": 2,
->>>>>>> Stashed changes
     "lastAvg": 0,
     "latestValue": 0,
     "maxValue": 100,
     "timeline": [
       {
-<<<<<<< Updated upstream
         "label": "Jul 9, 2026",
         "value": 0
       },
       {
-=======
->>>>>>> Stashed changes
         "label": "Jul 10, 2026",
         "value": 0
       },
@@ -9939,11 +9487,7 @@
       },
       {
         "label": "Jul 17, 2026",
-<<<<<<< Updated upstream
         "value": 100
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 18, 2026",
@@ -10148,13 +9692,6 @@
       {
         "label": "Sep 6, 2026",
         "value": 0
-<<<<<<< Updated upstream
-=======
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 0
->>>>>>> Stashed changes
       }
     ],
     "timelineValues": [
@@ -10166,11 +9703,7 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
       100,
-=======
-      0,
->>>>>>> Stashed changes
       0,
       0,
       0,
@@ -10226,7 +9759,6 @@
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:42:28.016Z",
     "reusedVariantCache": false,
     "checkedVariants": [
@@ -10311,111 +9843,11 @@
       {
         "keyword": "card 4x32gbps host controller",
         "usedKeyword": "card 4x32gbps host controller",
-=======
-    "fetchedAt": "2026-09-07T10:43:07.481Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "shirts hawaiian linen shirt",
-      "shirts shirt",
-      "shirts hawaiian linen shirt multiple",
-      "shirts hawaiian linen",
-      "linen shirt multiple pockets",
-      "hawaiian linen shirt multiple",
-      "shirts hawaiian",
-      "hawaiian linen shirt",
-      "linen shirt multiple",
-      "shirt multiple pockets",
-      "linen shirt",
-      "shirt multiple",
-      "shirts hawaiian linen shirt multiple pockets",
-      "hawaiian linen shirt multiple pockets",
-      "hawaiian linen",
-      "multiple pockets"
-    ],
-    "generatedVariants": [
-      "shirts hawaiian linen shirt",
-      "shirts shirt",
-      "shirts hawaiian linen shirt multiple",
-      "shirts hawaiian linen",
-      "linen shirt multiple pockets",
-      "hawaiian linen shirt multiple",
-      "shirts hawaiian",
-      "hawaiian linen shirt",
-      "linen shirt multiple",
-      "shirt multiple pockets",
-      "shirts",
-      "linen shirt",
-      "shirt multiple",
-      "shirts hawaiian linen shirt multiple pockets",
-      "hawaiian linen shirt multiple pockets",
-      "hawaiian linen",
-      "multiple pockets",
-      "shirt"
-    ],
-    "specificVariants": [
-      "shirts hawaiian linen shirt",
-      "shirts shirt",
-      "shirts hawaiian linen shirt multiple",
-      "shirts hawaiian linen",
-      "linen shirt multiple pockets",
-      "hawaiian linen shirt multiple",
-      "shirts hawaiian",
-      "hawaiian linen shirt",
-      "linen shirt multiple",
-      "shirt multiple pockets",
-      "linen shirt",
-      "shirt multiple",
-      "shirts hawaiian linen shirt multiple pockets",
-      "hawaiian linen shirt multiple pockets",
-      "hawaiian linen",
-      "multiple pockets"
-    ],
-    "fallbackVariants": [
-      "shirts",
-      "shirt"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Mens Hawaiian Linen Shirt With Multiple Pockets",
-      "shirts hawaiian linen shirt"
-    ],
-    "productIds": [
-      "2609040806341600100"
-    ],
-    "primaryProductTitle": "Mens Hawaiian Linen Shirt With Multiple Pockets",
-    "productKey": "2609040806341600100",
-    "variantSignals": [
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "shirts hawaiian linen shirt",
-        "score": 9,
-        "growthPercent": 5,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "shirts shirt",
-        "score": 32,
-        "growthPercent": -6,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "shirts hawaiian linen",
-        "score": 23,
-        "growthPercent": 27,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "hawaiian linen shirt multiple",
->>>>>>> Stashed changes
         "score": 15,
         "growthPercent": -100,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "card 4x32gbps host controller",
         "usedKeyword": "host controller expansion",
         "score": 15,
@@ -10462,60 +9894,14 @@
         "usedKeyword": "raid led",
         "score": 15,
         "growthPercent": -54,
-=======
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "shirts hawaiian",
-        "score": 22,
-        "growthPercent": -17,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "hawaiian linen shirt",
-        "score": 7,
-        "growthPercent": -37,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "linen shirt multiple",
-        "score": 6,
-        "growthPercent": -83,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "linen shirt",
-        "score": 23,
-        "growthPercent": -26,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "shirt multiple",
-        "score": 17,
-        "growthPercent": -52,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "shirts hawaiian linen shirt",
-        "usedKeyword": "multiple pockets",
-        "score": 19,
-        "growthPercent": -23,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "card nfc station table",
     "usedKeyword": "hilo programmable nfc square google review card nfc station table code editable standing card",
-=======
-    "keyword": "sleeve lace-up pants suit",
-    "usedKeyword": "short sleeve lace pants suit",
->>>>>>> Stashed changes
     "score": 9,
     "rawScore": 9,
     "growthPercent": 4,
@@ -10525,13 +9911,10 @@
     "maxValue": 100,
     "timeline": [
       {
-<<<<<<< Updated upstream
         "label": "Jul 9, 2026",
         "value": 0
       },
       {
-=======
->>>>>>> Stashed changes
         "label": "Jul 10, 2026",
         "value": 0
       },
@@ -10653,11 +10036,7 @@
       },
       {
         "label": "Aug 9, 2026",
-<<<<<<< Updated upstream
         "value": 0
-=======
-        "value": 100
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 10, 2026",
@@ -10681,11 +10060,7 @@
       },
       {
         "label": "Aug 15, 2026",
-<<<<<<< Updated upstream
         "value": 100
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 16, 2026",
@@ -10774,13 +10149,6 @@
       {
         "label": "Sep 6, 2026",
         "value": 0
-<<<<<<< Updated upstream
-=======
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 0
->>>>>>> Stashed changes
       }
     ],
     "timelineValues": [
@@ -10814,7 +10182,6 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
       0,
       0,
       0,
@@ -10822,8 +10189,6 @@
       0,
       0,
       0,
-=======
->>>>>>> Stashed changes
       100,
       0,
       0,
@@ -10846,22 +10211,11 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
-=======
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
->>>>>>> Stashed changes
       0
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:43:54.645Z",
     "reusedVariantCache": false,
     "checkedVariants": [
@@ -11002,124 +10356,10 @@
         "keyword": "card nfc station table",
         "usedKeyword": "card nfc",
         "score": 31,
-=======
-    "fetchedAt": "2026-09-07T10:43:54.382Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "sleeve lace pants suit",
-      "short sleeve lace pants",
-      "lace pants suit",
-      "sleeve lace pants",
-      "pants suit",
-      "lace pants",
-      "short sleeve lace pants suit",
-      "cross border clothing batch",
-      "suits french sweet atmosphere",
-      "french sweet atmosphere neck",
-      "clothing batch",
-      "suits french sweet",
-      "french sweet atmosphere",
-      "french sweet",
-      "suits french",
-      "suits french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "sleeve lace"
-    ],
-    "generatedVariants": [
-      "sleeve lace pants suit",
-      "short sleeve lace pants",
-      "lace pants suit",
-      "sleeve lace pants",
-      "pants suit",
-      "lace pants",
-      "short sleeve lace pants suit",
-      "cross border clothing batch",
-      "suits french sweet atmosphere",
-      "french sweet atmosphere neck",
-      "clothing batch",
-      "suits french sweet",
-      "french sweet atmosphere",
-      "french sweet",
-      "suits french",
-      "suits french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "pants",
-      "suits",
-      "sleeve lace"
-    ],
-    "specificVariants": [
-      "sleeve lace pants suit",
-      "short sleeve lace pants",
-      "lace pants suit",
-      "sleeve lace pants",
-      "pants suit",
-      "lace pants",
-      "short sleeve lace pants suit",
-      "cross border clothing batch",
-      "suits french sweet atmosphere",
-      "french sweet atmosphere neck",
-      "clothing batch",
-      "suits french sweet",
-      "french sweet atmosphere",
-      "french sweet",
-      "suits french",
-      "suits french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "french sweet atmosphere neck bubble short sleeve lace pants suit foreign trade cross border clothing batch",
-      "sleeve lace"
-    ],
-    "fallbackVariants": [
-      "pants",
-      "suits"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "French Sweet Atmosphere Solid Color V-neck Bubble Short Sleeve Lace-up Pants Suit Foreign Trade Cross-border Women's Clothing Batch",
-      "sleeve lace-up pants suit"
-    ],
-    "productIds": [
-      "2096148365102051329"
-    ],
-    "primaryProductTitle": "French Sweet Atmosphere Solid Color V-neck Bubble Short Sleeve Lace-up Pants Suit Foreign Trade Cross-border Women's Clothing Batch",
-    "productKey": "2096148365102051329",
-    "variantSignals": [
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "short sleeve lace pants",
-        "score": 73,
-        "growthPercent": 246,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "lace pants suit",
-        "score": 26,
-        "growthPercent": 17,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "sleeve lace pants",
-        "score": 29,
-        "growthPercent": 12,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "pants suit",
-        "score": 26,
-        "growthPercent": -9,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "lace pants",
-        "score": 22,
->>>>>>> Stashed changes
         "growthPercent": -13,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "card nfc station table",
         "usedKeyword": "nfc station",
         "score": 19,
@@ -11143,16 +10383,11 @@
       {
         "keyword": "card nfc station table",
         "usedKeyword": "hilo programmable",
-=======
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "short sleeve lace pants suit",
->>>>>>> Stashed changes
         "score": 9,
         "growthPercent": 4,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "card nfc station table",
         "usedKeyword": "station animation",
         "score": 12,
@@ -11625,43 +10860,13 @@
       {
         "keyword": "card pci-e adapter pci",
         "usedKeyword": "hdd ipfs mining",
-=======
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "cross border clothing batch",
-        "score": 6,
-        "growthPercent": -41,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "suits french sweet atmosphere",
->>>>>>> Stashed changes
         "score": 15,
         "growthPercent": -100,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "card pci-e adapter pci",
         "usedKeyword": "sata card pci",
-=======
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "clothing batch",
-        "score": 11,
-        "growthPercent": -71,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "french sweet",
-        "score": 19,
-        "growthPercent": -33,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sleeve lace-up pants suit",
-        "usedKeyword": "suits french",
->>>>>>> Stashed changes
         "score": 15,
         "growthPercent": -41,
         "timelinePoints": 60
@@ -11670,7 +10875,6 @@
         "keyword": "sleeve lace-up pants suit",
         "usedKeyword": "sleeve lace",
         "score": 25,
-<<<<<<< Updated upstream
         "growthPercent": -19,
         "timelinePoints": 60
       },
@@ -16275,9 +15479,6 @@
         "usedKeyword": "album inner",
         "score": 15,
         "growthPercent": -50,
-=======
-        "growthPercent": -6,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
@@ -16285,7 +15486,6 @@
   },
   {
     "keyword": "sports suit pants gary",
-<<<<<<< Updated upstream
     "usedKeyword": "zipper sports",
     "score": 19,
     "rawScore": 19,
@@ -16326,9 +15526,6 @@
   {
     "keyword": "lady dresses 3d floral",
     "usedKeyword": "lady dresses floral applique flare sleeve line maxi evening gown",
-=======
-    "usedKeyword": "zipper sports suit pants",
->>>>>>> Stashed changes
     "score": 9,
     "rawScore": 9,
     "growthPercent": 4,
@@ -16643,7 +15840,6 @@
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:54:48.518Z",
     "reusedVariantCache": false,
     "checkedVariants": [
@@ -16784,89 +15980,11 @@
       {
         "keyword": "lady dresses 3d floral",
         "usedKeyword": "lady dresses floral applique flare sleeve line maxi evening gown",
-=======
-    "fetchedAt": "2026-09-07T10:44:26.223Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "sports suit pants gary",
-      "zipper sports suit pants",
-      "suit pants gary",
-      "sports suit pants",
-      "pants gary",
-      "suit pants",
-      "zipper sports suit pants gary",
-      "zipper sports suit",
-      "activewear zipper",
-      "casual hooded sports suit",
-      "zipper sports",
-      "hooded sports suit",
-      "sports suit",
-      "activewear zipper sports suit pants gary casual two casual hooded sports suit",
-      "zipper sports suit pants gary casual two casual hooded sports suit"
-    ],
-    "generatedVariants": [
-      "sports suit pants gary",
-      "zipper sports suit pants",
-      "suit pants gary",
-      "sports suit pants",
-      "pants gary",
-      "suit pants",
-      "zipper sports suit pants gary",
-      "zipper sports suit",
-      "activewear zipper",
-      "casual hooded sports suit",
-      "activewear",
-      "zipper sports",
-      "hooded sports suit",
-      "zipper",
-      "sports suit",
-      "activewear zipper sports suit pants gary casual two casual hooded sports suit",
-      "zipper sports suit pants gary casual two casual hooded sports suit",
-      "pants"
-    ],
-    "specificVariants": [
-      "sports suit pants gary",
-      "zipper sports suit pants",
-      "suit pants gary",
-      "sports suit pants",
-      "pants gary",
-      "suit pants",
-      "zipper sports suit pants gary",
-      "zipper sports suit",
-      "activewear zipper",
-      "casual hooded sports suit",
-      "zipper sports",
-      "hooded sports suit",
-      "sports suit",
-      "activewear zipper sports suit pants gary casual two casual hooded sports suit",
-      "zipper sports suit pants gary casual two casual hooded sports suit"
-    ],
-    "fallbackVariants": [
-      "activewear",
-      "zipper",
-      "pants"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Women's Zipper Sports Suit And Pants Gary Casual Two-Piece Women's Casual Hooded Sports Suit",
-      "sports suit pants gary"
-    ],
-    "productIds": [
-      "2096142581432758273"
-    ],
-    "primaryProductTitle": "Women's Zipper Sports Suit And Pants Gary Casual Two-Piece Women's Casual Hooded Sports Suit",
-    "productKey": "2096142581432758273",
-    "variantSignals": [
-      {
-        "keyword": "sports suit pants gary",
-        "usedKeyword": "zipper sports suit pants",
->>>>>>> Stashed changes
         "score": 9,
         "growthPercent": 4,
         "timelinePoints": 60
       },
       {
-<<<<<<< Updated upstream
         "keyword": "lady dresses 3d floral",
         "usedKeyword": "flare sleeve",
         "score": 17,
@@ -17415,33 +16533,6 @@
         "usedKeyword": "puff sleeve",
         "score": 22,
         "growthPercent": -23,
-=======
-        "keyword": "sports suit pants gary",
-        "usedKeyword": "sports suit pants",
-        "score": 17,
-        "growthPercent": -69,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sports suit pants gary",
-        "usedKeyword": "pants gary",
-        "score": 73,
-        "growthPercent": 347,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sports suit pants gary",
-        "usedKeyword": "suit pants",
-        "score": 26,
-        "growthPercent": -9,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "sports suit pants gary",
-        "usedKeyword": "zipper sports",
-        "score": 17,
-        "growthPercent": -38,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
@@ -18624,7 +17715,6 @@
       },
       {
         "label": "Sep 2, 2026",
-<<<<<<< Updated upstream
         "value": 72
       },
       {
@@ -18794,9 +17884,6 @@
       {
         "label": "Sep 2, 2026",
         "value": 56
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Sep 3, 2026",
@@ -18804,11 +17891,7 @@
       },
       {
         "label": "Sep 4, 2026",
-<<<<<<< Updated upstream
         "value": 67
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Sep 5, 2026",
@@ -18824,7 +17907,6 @@
       }
     ],
     "timelineValues": [
-<<<<<<< Updated upstream
       62,
       58,
       64,
@@ -18885,541 +17967,12 @@
       67,
       68,
       75
-=======
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
->>>>>>> Stashed changes
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:56:51.693Z",
     "reusedVariantCache": true,
-=======
-    "fetchedAt": "2026-09-07T10:47:04.323Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "trade ladies collar slim",
-      "foreign trade ladies collar",
-      "ladies collar slim",
-      "trade ladies collar",
-      "collar slim",
-      "ladies collar",
-      "foreign trade ladies collar slim",
-      "long sleeve leisure suit",
-      "casual independent station",
-      "independent station europe united",
-      "sleeve leisure suit",
-      "casual independent",
-      "independent station europe",
-      "leisure suit",
-      "independent station",
-      "casual independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "trade ladies"
-    ],
-    "generatedVariants": [
-      "trade ladies collar slim",
-      "foreign trade ladies collar",
-      "ladies collar slim",
-      "trade ladies collar",
-      "collar slim",
-      "ladies collar",
-      "foreign trade ladies collar slim",
-      "long sleeve leisure suit",
-      "casual independent station",
-      "independent station europe united",
-      "sleeve leisure suit",
-      "casual independent",
-      "independent station europe",
-      "casual",
-      "leisure suit",
-      "independent station",
-      "casual independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "collar",
-      "trade ladies"
-    ],
-    "specificVariants": [
-      "trade ladies collar slim",
-      "foreign trade ladies collar",
-      "ladies collar slim",
-      "trade ladies collar",
-      "collar slim",
-      "ladies collar",
-      "foreign trade ladies collar slim",
-      "long sleeve leisure suit",
-      "casual independent station",
-      "independent station europe united",
-      "sleeve leisure suit",
-      "casual independent",
-      "independent station europe",
-      "leisure suit",
-      "independent station",
-      "casual independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "independent station europe united states foreign trade ladies collar slim long sleeve leisure suit",
-      "trade ladies"
-    ],
-    "fallbackVariants": [
-      "casual",
-      "collar"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Independent Station Europe And The United States Foreign Trade New Autumn And Winter Ladies High Collar Slim Long Sleeve Leisure Suit",
-      "trade ladies collar slim"
-    ],
-    "productIds": [
-      "2096150812351705090"
-    ],
-    "primaryProductTitle": "Independent Station Europe And The United States Foreign Trade New Autumn And Winter Ladies High Collar Slim Long Sleeve Leisure Suit",
-    "productKey": "2096150812351705090",
-    "variantSignals": [
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "ladies collar slim",
-        "score": 15,
-        "growthPercent": -100,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "collar slim",
-        "score": 17,
-        "growthPercent": -28,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "ladies collar",
-        "score": 20,
-        "growthPercent": -15,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "independent station europe united",
-        "score": 15,
-        "growthPercent": -100,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "casual independent",
-        "score": 16,
-        "growthPercent": -45,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "independent station europe",
-        "score": 6,
-        "growthPercent": -78,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "leisure suit",
-        "score": 27,
-        "growthPercent": -8,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "independent station",
-        "score": 14,
-        "growthPercent": -59,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "trade ladies collar slim",
-        "usedKeyword": "trade ladies",
-        "score": 15,
-        "growthPercent": -50,
-        "timelinePoints": 60
-      }
-    ],
-    "failedVariants": []
-  },
-  {
-    "keyword": "wide-leg pants casual lounge",
-    "usedKeyword": "wide leg pants casual lounge",
-    "score": 49,
-    "rawScore": 49,
-    "growthPercent": 66,
-    "firstAvg": 7,
-    "lastAvg": 12,
-    "latestValue": 23,
-    "maxValue": 100,
-    "timeline": [
-      {
-        "label": "Jul 10, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 11, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 12, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 14, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 15, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 16, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 19, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 20, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 22, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 23, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 24, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 25, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 26, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 27, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 28, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 29, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 30, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 31, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 1, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 2, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 3, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 4, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 5, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 6, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 7, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 8, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 9, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 10, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 11, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 12, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 13, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 14, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 15, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 16, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 17, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 18, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 19, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 20, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 21, 2026",
-        "value": 82
-      },
-      {
-        "label": "Aug 22, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 23, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 24, 2026",
-        "value": 22
-      },
-      {
-        "label": "Aug 25, 2026",
-        "value": 18
-      },
-      {
-        "label": "Aug 26, 2026",
-        "value": 19
-      },
-      {
-        "label": "Aug 27, 2026",
-        "value": 20
-      },
-      {
-        "label": "Aug 28, 2026",
-        "value": 44
-      },
-      {
-        "label": "Aug 29, 2026",
-        "value": 48
-      },
-      {
-        "label": "Aug 30, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 31, 2026",
-        "value": 40
-      },
-      {
-        "label": "Sep 1, 2026",
-        "value": 30
-      },
-      {
-        "label": "Sep 2, 2026",
-        "value": 22
-      },
-      {
-        "label": "Sep 3, 2026",
-        "value": 27
-      },
-      {
-        "label": "Sep 4, 2026",
-        "value": 42
-      },
-      {
-        "label": "Sep 5, 2026",
-        "value": 25
-      },
-      {
-        "label": "Sep 6, 2026",
-        "value": 24
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 23
-      }
-    ],
-    "timelineValues": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      82,
-      0,
-      0,
-      22,
-      18,
-      19,
-      20,
-      44,
-      48,
-      62,
-      40,
-      30,
-      22,
-      27,
-      42,
-      25,
-      24,
-      23
-    ],
-    "timelinePoints": 60,
-    "match": 1,
-    "source": "google-trends-network",
-    "fetchedAt": "2026-09-07T10:47:25.802Z",
-    "reusedVariantCache": false,
->>>>>>> Stashed changes
     "checkedVariants": [
       "wide leg pants casual lounge",
       "sweatshirt wide leg pants casual",
@@ -19510,122 +18063,16 @@
     "productKey": "2609060115071610400",
     "variantSignals": [
       {
-<<<<<<< Updated upstream
         "keyword": "pajamas long-sleeve wide-leg pants",
         "usedKeyword": "long sleeve",
         "score": 38,
         "growthPercent": -5,
-=======
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "wide leg pants casual lounge",
-        "score": 49,
-        "growthPercent": 66,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "sweatshirt wide leg pants casual",
-        "score": 12,
-        "growthPercent": 10,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "pants casual lounge",
-        "score": 21,
-        "growthPercent": -27,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "wide leg pants casual",
-        "score": 19,
-        "growthPercent": -22,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "sweatshirt wide leg pants",
-        "score": 73,
-        "growthPercent": 349,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "pants casual",
-        "score": 25,
-        "growthPercent": -10,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "wide leg pants",
-        "score": 26,
-        "growthPercent": -14,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "neck striped sweatshirt",
-        "score": 15,
-        "growthPercent": 15,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "suits neck",
-        "score": 30,
-        "growthPercent": -17,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "casual lounge",
-        "score": 27,
-        "growthPercent": -33,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "neck striped",
-        "score": 22,
-        "growthPercent": -14,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "leg pants casual lounge",
-        "score": 18,
-        "growthPercent": -11,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "leg pants casual",
-        "score": 20,
-        "growthPercent": -19,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "wide leg",
-        "score": 32,
-        "growthPercent": 3,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "wide-leg pants casual lounge",
-        "usedKeyword": "leg pants",
-        "score": 25,
-        "growthPercent": -14,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "photo photocard holder book",
     "usedKeyword": "kpop photocard binder",
     "score": 42,
@@ -19634,16 +18081,6 @@
     "firstAvg": 0,
     "lastAvg": 21,
     "latestValue": 37,
-=======
-    "keyword": "wine red suit pants",
-    "usedKeyword": "suit pants business suit",
-    "score": 20,
-    "rawScore": 20,
-    "growthPercent": -46,
-    "firstAvg": 24,
-    "lastAvg": 13,
-    "latestValue": 26,
->>>>>>> Stashed changes
     "maxValue": 100,
     "timeline": [
       {
@@ -23535,11 +21972,7 @@
     "timeline": [
       {
         "label": "Jul 10, 2026",
-<<<<<<< Updated upstream
         "value": 40
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 11, 2026",
@@ -23563,7 +21996,6 @@
       },
       {
         "label": "Jul 16, 2026",
-<<<<<<< Updated upstream
         "value": 40
       },
       {
@@ -23593,37 +22025,6 @@
       {
         "label": "Jul 23, 2026",
         "value": 42
-=======
-        "value": 0
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 19, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 20, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 22, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 23, 2026",
-        "value": 65
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 24, 2026",
@@ -23631,11 +22032,7 @@
       },
       {
         "label": "Jul 25, 2026",
-<<<<<<< Updated upstream
         "value": 42
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 26, 2026",
@@ -23643,11 +22040,7 @@
       },
       {
         "label": "Jul 27, 2026",
-<<<<<<< Updated upstream
         "value": 33
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 28, 2026",
@@ -23659,11 +22052,7 @@
       },
       {
         "label": "Jul 30, 2026",
-<<<<<<< Updated upstream
         "value": 43
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 31, 2026",
@@ -23671,19 +22060,11 @@
       },
       {
         "label": "Aug 1, 2026",
-<<<<<<< Updated upstream
         "value": 48
       },
       {
         "label": "Aug 2, 2026",
         "value": 46
-=======
-        "value": 0
-      },
-      {
-        "label": "Aug 2, 2026",
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 3, 2026",
@@ -23691,11 +22072,7 @@
       },
       {
         "label": "Aug 4, 2026",
-<<<<<<< Updated upstream
         "value": 47
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 5, 2026",
@@ -23707,11 +22084,7 @@
       },
       {
         "label": "Aug 7, 2026",
-<<<<<<< Updated upstream
         "value": 50
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 8, 2026",
@@ -23739,7 +22112,6 @@
       },
       {
         "label": "Aug 14, 2026",
-<<<<<<< Updated upstream
         "value": 77
       },
       {
@@ -23769,13 +22141,6 @@
       {
         "label": "Aug 15, 2026",
         "value": 91
-=======
-        "value": 0
-      },
-      {
-        "label": "Aug 15, 2026",
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 16, 2026",
@@ -28523,15 +26888,11 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
       0,
       20,
       0,
       24,
       24,
-=======
-      100,
->>>>>>> Stashed changes
       0,
       0,
       0,
@@ -28541,7 +26902,6 @@
       0,
       0,
       0,
-<<<<<<< Updated upstream
       23,
       0,
       21,
@@ -28577,53 +26937,10 @@
       34,
       23,
       22
-=======
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
->>>>>>> Stashed changes
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:31:06.257Z",
     "reusedVariantCache": true,
     "checkedVariants": [
@@ -28729,142 +27046,12 @@
         "usedKeyword": "sensory fidget",
         "score": 19,
         "growthPercent": -25,
-=======
-    "fetchedAt": "2026-09-07T11:02:29.613Z",
-    "reusedVariantCache": false,
-    "checkedVariants": [
-      "remote light",
-      "brands light night",
-      "models brands light",
-      "g008 replcement remote control",
-      "universal g008 replcement remote",
-      "light night",
-      "brands light",
-      "g008 replcement remote",
-      "replcement remote control",
-      "remote control",
-      "replcement remote",
-      "universal g008 replcement remote control all models brands light night",
-      "models brands light night",
-      "universal g008 replcement remote control",
-      "universal g008 replcement",
-      "universal g008"
-    ],
-    "generatedVariants": [
-      "remote light",
-      "brands light night",
-      "models brands light",
-      "g008 replcement remote control",
-      "universal g008 replcement remote",
-      "light night",
-      "brands light",
-      "g008 replcement remote",
-      "replcement remote control",
-      "light",
-      "remote control",
-      "replcement remote",
-      "universal g008 replcement remote control all models brands light night",
-      "models brands light night",
-      "universal g008 replcement remote control",
-      "universal g008 replcement",
-      "universal g008",
-      "remote"
-    ],
-    "specificVariants": [
-      "remote light",
-      "brands light night",
-      "models brands light",
-      "g008 replcement remote control",
-      "universal g008 replcement remote",
-      "light night",
-      "brands light",
-      "g008 replcement remote",
-      "replcement remote control",
-      "remote control",
-      "replcement remote",
-      "universal g008 replcement remote control all models brands light night",
-      "models brands light night",
-      "universal g008 replcement remote control",
-      "universal g008 replcement",
-      "universal g008"
-    ],
-    "fallbackVariants": [
-      "light",
-      "remote"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Universal RC-G008 Replcement Remote Control for All models and brands TV with Light in the night",
-      "remote light"
-    ],
-    "productIds": [
-      "aliexpress-3256807104988805"
-    ],
-    "primaryProductTitle": "Universal RC-G008 Replcement Remote Control for All models and brands TV with Light in the night",
-    "productKey": "aliexpress-3256807104988805",
-    "variantSignals": [
-      {
-        "keyword": "remote light",
-        "usedKeyword": "remote light",
-        "score": 19,
-        "growthPercent": -39,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "brands light night",
-        "score": 16,
-        "growthPercent": -66,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "models brands light",
-        "score": 16,
-        "growthPercent": -72,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "light night",
-        "score": 28,
-        "growthPercent": -18,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "brands light",
-        "score": 17,
-        "growthPercent": -51,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "remote control",
-        "score": 24,
-        "growthPercent": -28,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "replcement remote",
-        "score": 9,
-        "growthPercent": 4,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "remote light",
-        "usedKeyword": "models brands light night",
-        "score": 15,
-        "growthPercent": -100,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "photo album page protector",
     "usedKeyword": "photo album",
     "score": 30,
@@ -28914,53 +27101,6 @@
       {
         "label": "Jul 18, 2026",
         "value": 63
-=======
-    "keyword": "rings ring",
-    "usedKeyword": "hip hop punk skull ring open",
-    "score": 7,
-    "rawScore": 7,
-    "growthPercent": -20,
-    "firstAvg": 2,
-    "lastAvg": 2,
-    "latestValue": 0,
-    "maxValue": 100,
-    "timeline": [
-      {
-        "label": "Jul 10, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 11, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 12, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 14, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 15, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 16, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 19, 2026",
@@ -28968,11 +27108,7 @@
       },
       {
         "label": "Jul 20, 2026",
-<<<<<<< Updated upstream
         "value": 75
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 21, 2026",
@@ -28984,11 +27120,7 @@
       },
       {
         "label": "Jul 23, 2026",
-<<<<<<< Updated upstream
         "value": 67
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 24, 2026",
@@ -29008,11 +27140,7 @@
       },
       {
         "label": "Jul 28, 2026",
-<<<<<<< Updated upstream
         "value": 69
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 29, 2026",
@@ -29072,7 +27200,6 @@
       },
       {
         "label": "Aug 12, 2026",
-<<<<<<< Updated upstream
         "value": 62
       },
       {
@@ -29930,8 +28057,6 @@
       },
       {
         "label": "Aug 19, 2026",
-=======
->>>>>>> Stashed changes
         "value": 82
       },
       {
@@ -30000,11 +28125,7 @@
       },
       {
         "label": "Aug 29, 2026",
-<<<<<<< Updated upstream
         "value": 71
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 30, 2026",
@@ -30078,7 +28199,6 @@
       0,
       0,
       82,
-<<<<<<< Updated upstream
       82,
       85,
       70,
@@ -30097,45 +28217,12 @@
       54,
       48,
       56
-=======
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
->>>>>>> Stashed changes
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:35:06.208Z",
     "reusedVariantCache": true,
-=======
-    "fetchedAt": "2026-09-07T11:03:16.568Z",
-    "reusedVariantCache": false,
->>>>>>> Stashed changes
     "checkedVariants": [
       "rings ring",
       "rings european american hip hop punk skull ring open trendy stylish rock dark stereo skull ring",
@@ -30214,94 +28301,16 @@
     "productKey": "2096075917798453249",
     "variantSignals": [
       {
-<<<<<<< Updated upstream
         "keyword": "shiny crystal necklace zircon",
         "usedKeyword": "pendant necklace",
         "score": 34,
         "growthPercent": -15,
-=======
-        "keyword": "rings ring",
-        "usedKeyword": "rings ring",
-        "score": 34,
-        "growthPercent": -1,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "punk skull ring open",
-        "score": 15,
-        "growthPercent": -100,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "hip hop punk skull ring",
-        "score": 15,
-        "growthPercent": -100,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "punk skull ring",
-        "score": 17,
-        "growthPercent": 17,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "skull ring open",
-        "score": 9,
-        "growthPercent": 4,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "rings european american",
-        "score": 14,
-        "growthPercent": 12,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "ring open",
-        "score": 18,
-        "growthPercent": -46,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "skull ring",
-        "score": 16,
-        "growthPercent": -23,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "rings european",
-        "score": 15,
-        "growthPercent": -44,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "hip hop punk skull ring open",
-        "score": 7,
-        "growthPercent": -20,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "rings ring",
-        "usedKeyword": "european american",
-        "score": 15,
-        "growthPercent": -44,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "ssd drive laptop hd",
     "usedKeyword": "drive laptop",
     "score": 23,
@@ -30317,19 +28326,6 @@
         "value": 49
       },
       {
-=======
-    "keyword": "rings ring",
-    "usedKeyword": "heavy industry floral design ring zircon",
-    "score": 15,
-    "rawScore": 15,
-    "growthPercent": -100,
-    "firstAvg": 2,
-    "lastAvg": 0,
-    "latestValue": 0,
-    "maxValue": 100,
-    "timeline": [
-      {
->>>>>>> Stashed changes
         "label": "Jul 10, 2026",
         "value": 0
       },
@@ -30801,11 +28797,7 @@
       },
       {
         "label": "Jul 12, 2026",
-<<<<<<< Updated upstream
         "value": 42
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 13, 2026",
@@ -30813,11 +28805,7 @@
       },
       {
         "label": "Jul 14, 2026",
-<<<<<<< Updated upstream
         "value": 36
-=======
-        "value": 0
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 15, 2026",
@@ -38229,11 +36217,7 @@
       },
       {
         "label": "Jul 17, 2026",
-<<<<<<< Updated upstream
         "value": 45
-=======
-        "value": 44
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 18, 2026",
@@ -38245,19 +36229,11 @@
       },
       {
         "label": "Jul 20, 2026",
-<<<<<<< Updated upstream
         "value": 49
       },
       {
         "label": "Jul 21, 2026",
         "value": 52
-=======
-        "value": 48
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 50
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 22, 2026",
@@ -38269,11 +36245,7 @@
       },
       {
         "label": "Jul 24, 2026",
-<<<<<<< Updated upstream
         "value": 56
-=======
-        "value": 54
->>>>>>> Stashed changes
       },
       {
         "label": "Jul 25, 2026",
@@ -38305,11 +36277,7 @@
       },
       {
         "label": "Aug 1, 2026",
-<<<<<<< Updated upstream
         "value": 70
-=======
-        "value": 69
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 2, 2026",
@@ -38324,826 +36292,11 @@
         "value": 50
       },
       {
-<<<<<<< Updated upstream
-=======
-        "label": "Aug 5, 2026",
-        "value": 50
-      },
-      {
-        "label": "Aug 6, 2026",
-        "value": 56
-      },
-      {
-        "label": "Aug 7, 2026",
-        "value": 59
-      },
-      {
-        "label": "Aug 8, 2026",
-        "value": 47
-      },
-      {
-        "label": "Aug 9, 2026",
-        "value": 59
-      },
-      {
-        "label": "Aug 10, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 11, 2026",
-        "value": 65
-      },
-      {
-        "label": "Aug 12, 2026",
-        "value": 59
-      },
-      {
-        "label": "Aug 13, 2026",
-        "value": 63
-      },
-      {
-        "label": "Aug 14, 2026",
-        "value": 74
-      },
-      {
-        "label": "Aug 15, 2026",
-        "value": 80
-      },
-      {
-        "label": "Aug 16, 2026",
-        "value": 74
-      },
-      {
-        "label": "Aug 17, 2026",
-        "value": 73
-      },
-      {
-        "label": "Aug 18, 2026",
-        "value": 73
-      },
-      {
-        "label": "Aug 19, 2026",
-        "value": 77
-      },
-      {
-        "label": "Aug 20, 2026",
-        "value": 71
-      },
-      {
-        "label": "Aug 21, 2026",
-        "value": 69
-      },
-      {
-        "label": "Aug 22, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 23, 2026",
-        "value": 51
-      },
-      {
-        "label": "Aug 24, 2026",
-        "value": 45
-      },
-      {
-        "label": "Aug 25, 2026",
-        "value": 47
-      },
-      {
-        "label": "Aug 26, 2026",
-        "value": 53
-      },
-      {
-        "label": "Aug 27, 2026",
-        "value": 57
-      },
-      {
-        "label": "Aug 28, 2026",
-        "value": 59
-      },
-      {
-        "label": "Aug 29, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 30, 2026",
-        "value": 67
-      },
-      {
-        "label": "Aug 31, 2026",
-        "value": 61
-      },
-      {
-        "label": "Sep 1, 2026",
-        "value": 62
-      },
-      {
-        "label": "Sep 2, 2026",
-        "value": 64
-      },
-      {
-        "label": "Sep 3, 2026",
-        "value": 64
-      },
-      {
-        "label": "Sep 4, 2026",
-        "value": 60
-      },
-      {
-        "label": "Sep 5, 2026",
-        "value": 58
-      },
-      {
-        "label": "Sep 6, 2026",
-        "value": 64
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 70
-      }
-    ],
-    "timelineValues": [
-      51,
-      50,
-      52,
-      61,
-      56,
-      44,
-      41,
-      44,
-      43,
-      75,
-      48,
-      50,
-      46,
-      50,
-      54,
-      58,
-      59,
-      66,
-      76,
-      67,
-      60,
-      53,
-      69,
-      74,
-      70,
-      50,
-      50,
-      56,
-      59,
-      47,
-      59,
-      62,
-      65,
-      59,
-      63,
-      74,
-      80,
-      74,
-      73,
-      73,
-      77,
-      71,
-      69,
-      54,
-      51,
-      45,
-      47,
-      53,
-      57,
-      59,
-      62,
-      67,
-      61,
-      62,
-      64,
-      64,
-      60,
-      58,
-      64,
-      70
-    ],
-    "timelinePoints": 60,
-    "match": 1,
-    "source": "google-trends-network",
-    "fetchedAt": "2026-09-07T10:55:57.719Z",
-    "reusedVariantCache": true,
-    "checkedVariants": [
-      "moon pendant necklace",
-      "steel moon pendant necklace",
-      "necklace pendants stainless steel",
-      "pendant necklace",
-      "necklace pendants stainless",
-      "necklace pendants",
-      "necklace pendants stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "niche design daily wear",
-      "stainless steel moon pendant",
-      "design daily wear",
-      "stainless steel moon",
-      "daily wear",
-      "stainless steel",
-      "stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "moon pendant"
-    ],
-    "generatedVariants": [
-      "moon pendant necklace",
-      "steel moon pendant necklace",
-      "necklace pendants stainless steel",
-      "pendant necklace",
-      "necklace pendants stainless",
-      "necklace",
-      "necklace pendants",
-      "necklace pendants stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "niche design daily wear",
-      "stainless steel moon pendant",
-      "design daily wear",
-      "stainless steel moon",
-      "daily wear",
-      "stainless steel",
-      "stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "moon pendant"
-    ],
-    "specificVariants": [
-      "moon pendant necklace",
-      "steel moon pendant necklace",
-      "necklace pendants stainless steel",
-      "pendant necklace",
-      "necklace pendants stainless",
-      "necklace pendants",
-      "necklace pendants stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "niche design daily wear",
-      "stainless steel moon pendant",
-      "design daily wear",
-      "stainless steel moon",
-      "daily wear",
-      "stainless steel",
-      "stainless steel moon pendant necklace clavicle chain metallic texture niche design daily wear",
-      "moon pendant"
-    ],
-    "fallbackVariants": [
-      "necklace"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Stainless Steel Moon Pendant Necklace - Women's Clavicle Chain with Metallic Texture and Niche Design for Daily Wear",
-      "moon pendant necklace s"
-    ],
-    "productIds": [
-      "2609040758171607700"
-    ],
-    "primaryProductTitle": "Stainless Steel Moon Pendant Necklace - Women's Clavicle Chain with Metallic Texture and Niche Design for Daily Wear",
-    "productKey": "2609040758171607700",
-    "variantSignals": [
-      {
-        "keyword": "moon pendant necklace s",
-        "usedKeyword": "stainless steel",
-        "score": 37,
-        "growthPercent": -7,
-        "timelinePoints": 60
-      }
-    ],
-    "failedVariants": []
-  },
-  {
-    "keyword": "stress relief toy parties",
-    "usedKeyword": "stress relief toy",
-    "score": 26,
-    "rawScore": 26,
-    "growthPercent": -30,
-    "firstAvg": 45,
-    "lastAvg": 31,
-    "latestValue": 35,
-    "maxValue": 100,
-    "timeline": [
-      {
-        "label": "Jul 10, 2026",
-        "value": 19
-      },
-      {
-        "label": "Jul 11, 2026",
-        "value": 17
-      },
-      {
-        "label": "Jul 12, 2026",
-        "value": 18
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 14, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 15, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 16, 2026",
-        "value": 17
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 19
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 19, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 20, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 21
-      },
-      {
-        "label": "Jul 22, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 23, 2026",
-        "value": 20
-      },
-      {
-        "label": "Jul 24, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 25, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 26, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 27, 2026",
-        "value": 18
-      },
-      {
-        "label": "Jul 28, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 29, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 30, 2026",
-        "value": 0
-      },
-      {
-        "label": "Jul 31, 2026",
-        "value": 18
-      },
-      {
-        "label": "Aug 1, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 2, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 3, 2026",
-        "value": 22
-      },
-      {
-        "label": "Aug 4, 2026",
-        "value": 23
-      },
-      {
-        "label": "Aug 5, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 6, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 7, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 8, 2026",
-        "value": 20
-      },
-      {
-        "label": "Aug 9, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 10, 2026",
-        "value": 16
-      },
-      {
-        "label": "Aug 11, 2026",
-        "value": 0
-      },
-      {
-        "label": "Aug 12, 2026",
-        "value": 29
-      },
-      {
-        "label": "Aug 13, 2026",
-        "value": 26
-      },
-      {
-        "label": "Aug 14, 2026",
-        "value": 77
-      },
-      {
-        "label": "Aug 15, 2026",
-        "value": 99
-      },
-      {
-        "label": "Aug 16, 2026",
-        "value": 76
-      },
-      {
-        "label": "Aug 17, 2026",
-        "value": 71
-      },
-      {
-        "label": "Aug 18, 2026",
-        "value": 51
-      },
-      {
-        "label": "Aug 19, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 20, 2026",
-        "value": 56
-      },
-      {
-        "label": "Aug 21, 2026",
-        "value": 75
-      },
-      {
-        "label": "Aug 22, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 23, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 24, 2026",
-        "value": 39
-      },
-      {
-        "label": "Aug 25, 2026",
-        "value": 40
-      },
-      {
-        "label": "Aug 26, 2026",
-        "value": 38
-      },
-      {
-        "label": "Aug 27, 2026",
-        "value": 42
-      },
-      {
-        "label": "Aug 28, 2026",
-        "value": 53
-      },
-      {
-        "label": "Aug 29, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 30, 2026",
-        "value": 65
-      },
-      {
-        "label": "Aug 31, 2026",
-        "value": 36
-      },
-      {
-        "label": "Sep 1, 2026",
-        "value": 39
-      },
-      {
-        "label": "Sep 2, 2026",
-        "value": 31
-      },
-      {
-        "label": "Sep 3, 2026",
-        "value": 26
-      },
-      {
-        "label": "Sep 4, 2026",
-        "value": 42
-      },
-      {
-        "label": "Sep 5, 2026",
-        "value": 26
-      },
-      {
-        "label": "Sep 6, 2026",
-        "value": 26
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 35
-      }
-    ],
-    "timelineValues": [
-      19,
-      17,
-      18,
-      0,
-      0,
-      0,
-      17,
-      19,
-      0,
-      0,
-      0,
-      21,
-      0,
-      20,
-      0,
-      0,
-      0,
-      18,
-      0,
-      0,
-      0,
-      18,
-      0,
-      0,
-      22,
-      23,
-      0,
-      0,
-      0,
-      20,
-      0,
-      16,
-      0,
-      29,
-      26,
-      77,
-      99,
-      76,
-      71,
-      51,
-      62,
-      56,
-      75,
-      54,
-      54,
-      39,
-      40,
-      38,
-      42,
-      53,
-      62,
-      65,
-      36,
-      39,
-      31,
-      26,
-      42,
-      26,
-      26,
-      35
-    ],
-    "timelinePoints": 60,
-    "match": 1,
-    "source": "google-trends-network",
-    "fetchedAt": "2026-09-07T10:42:08.891Z",
-    "reusedVariantCache": true,
-    "checkedVariants": [
-      "stress relief toy parties",
-      "relief toy parties birthdays",
-      "relief toy parties",
-      "toy parties birthdays",
-      "toy parties",
-      "malt stress relief toy parties",
-      "stress relief toy parties birthdays",
-      "malt stress relief toy",
-      "stress relief toy",
-      "relief toy",
-      "parties birthdays",
-      "plush slow return coconut oil handmade squeeze ball decompression squeeze round malt stress relief toy parties birthdays",
-      "plush slow return coconut oil",
-      "plush slow return coconut",
-      "plush slow return",
-      "stress relief"
-    ],
-    "generatedVariants": [
-      "stress relief toy parties",
-      "relief toy parties birthdays",
-      "relief toy parties",
-      "toy parties birthdays",
-      "toy parties",
-      "malt stress relief toy parties",
-      "stress relief toy parties birthdays",
-      "malt stress relief toy",
-      "stress relief toy",
-      "relief toy",
-      "parties birthdays",
-      "plush slow return coconut oil handmade squeeze ball decompression squeeze round malt stress relief toy parties birthdays",
-      "plush slow return coconut oil",
-      "plush slow return coconut",
-      "plush slow return",
-      "toy",
-      "party",
-      "parties",
-      "stress relief"
-    ],
-    "specificVariants": [
-      "stress relief toy parties",
-      "relief toy parties birthdays",
-      "relief toy parties",
-      "toy parties birthdays",
-      "toy parties",
-      "malt stress relief toy parties",
-      "stress relief toy parties birthdays",
-      "malt stress relief toy",
-      "stress relief toy",
-      "relief toy",
-      "parties birthdays",
-      "plush slow return coconut oil handmade squeeze ball decompression squeeze round malt stress relief toy parties birthdays",
-      "plush slow return coconut oil",
-      "plush slow return coconut",
-      "plush slow return",
-      "stress relief"
-    ],
-    "fallbackVariants": [
-      "toy",
-      "party",
-      "parties"
-    ],
-    "singleWordFallbackUsed": false,
-    "sourceTitles": [
-      "Plush Slow-Return Coconut Oil Handmade Squeeze Ball,Decompression Squeeze,6cm Round Malt Stress Relief Toy,Parties, Birthdays",
-      "stress relief toy parties"
-    ],
-    "productIds": [
-      "aliexpress-3256812035471701"
-    ],
-    "primaryProductTitle": "Plush Slow-Return Coconut Oil Handmade Squeeze Ball,Decompression Squeeze,6cm Round Malt Stress Relief Toy,Parties, Birthdays",
-    "productKey": "aliexpress-3256812035471701",
-    "variantSignals": [
-      {
-        "keyword": "stress relief toy parties",
-        "usedKeyword": "stress relief toy",
-        "score": 26,
-        "growthPercent": -30,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "stress relief toy parties",
-        "usedKeyword": "relief toy",
-        "score": 16,
-        "growthPercent": -41,
-        "timelinePoints": 60
-      },
-      {
-        "keyword": "stress relief toy parties",
-        "usedKeyword": "stress relief",
-        "score": 16,
-        "growthPercent": -36,
-        "timelinePoints": 60
-      }
-    ],
-    "failedVariants": []
-  },
-  {
-    "keyword": "light pants",
-    "usedKeyword": "pants suit",
-    "score": 26,
-    "rawScore": 26,
-    "growthPercent": -9,
-    "firstAvg": 62,
-    "lastAvg": 56,
-    "latestValue": 51,
-    "maxValue": 100,
-    "timeline": [
-      {
-        "label": "Jul 10, 2026",
-        "value": 43
-      },
-      {
-        "label": "Jul 11, 2026",
-        "value": 54
-      },
-      {
-        "label": "Jul 12, 2026",
-        "value": 54
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 48
-      },
-      {
-        "label": "Jul 14, 2026",
-        "value": 43
-      },
-      {
-        "label": "Jul 15, 2026",
-        "value": 41
-      },
-      {
-        "label": "Jul 16, 2026",
-        "value": 45
-      },
-      {
-        "label": "Jul 17, 2026",
-        "value": 43
-      },
-      {
-        "label": "Jul 18, 2026",
-        "value": 50
-      },
-      {
-        "label": "Jul 19, 2026",
-        "value": 63
-      },
-      {
-        "label": "Jul 20, 2026",
-        "value": 61
-      },
-      {
-        "label": "Jul 21, 2026",
-        "value": 42
-      },
-      {
-        "label": "Jul 22, 2026",
-        "value": 42
-      },
-      {
-        "label": "Jul 23, 2026",
-        "value": 45
-      },
-      {
-        "label": "Jul 24, 2026",
-        "value": 43
-      },
-      {
-        "label": "Jul 25, 2026",
-        "value": 50
-      },
-      {
-        "label": "Jul 26, 2026",
-        "value": 51
-      },
-      {
-        "label": "Jul 27, 2026",
-        "value": 41
-      },
-      {
-        "label": "Jul 28, 2026",
-        "value": 44
-      },
-      {
-        "label": "Jul 29, 2026",
-        "value": 67
-      },
-      {
-        "label": "Jul 30, 2026",
-        "value": 53
-      },
-      {
-        "label": "Jul 31, 2026",
-        "value": 50
-      },
-      {
-        "label": "Aug 1, 2026",
-        "value": 49
-      },
-      {
-        "label": "Aug 2, 2026",
-        "value": 61
-      },
-      {
-        "label": "Aug 3, 2026",
-        "value": 52
-      },
-      {
-        "label": "Aug 4, 2026",
-        "value": 54
-      },
-      {
->>>>>>> Stashed changes
         "label": "Aug 5, 2026",
         "value": 49
       },
       {
         "label": "Aug 6, 2026",
-<<<<<<< Updated upstream
         "value": 58
       },
       {
@@ -39192,48 +36345,6 @@
       },
       {
         "label": "Aug 18, 2026",
-=======
-        "value": 47
-      },
-      {
-        "label": "Aug 7, 2026",
-        "value": 51
-      },
-      {
-        "label": "Aug 8, 2026",
-        "value": 60
-      },
-      {
-        "label": "Aug 9, 2026",
-        "value": 62
-      },
-      {
-        "label": "Aug 10, 2026",
-        "value": 52
-      },
-      {
-        "label": "Aug 11, 2026",
-        "value": 50
-      },
-      {
-        "label": "Aug 12, 2026",
-        "value": 49
-      },
-      {
-        "label": "Aug 13, 2026",
-        "value": 56
-      },
-      {
-        "label": "Aug 14, 2026",
-        "value": 61
-      },
-      {
-        "label": "Aug 15, 2026",
-        "value": 71
-      },
-      {
-        "label": "Aug 16, 2026",
->>>>>>> Stashed changes
         "value": 74
       },
       {
@@ -39242,7 +36353,6 @@
       },
       {
         "label": "Aug 18, 2026",
-<<<<<<< Updated upstream
         "value": 60
       },
       {
@@ -39287,8 +36397,6 @@
       },
       {
         "label": "Aug 28, 2026",
-=======
->>>>>>> Stashed changes
         "value": 59
       },
       {
@@ -39312,33 +36420,8 @@
         "value": 67
       },
       {
-<<<<<<< Updated upstream
         "label": "Aug 31, 2026",
         "value": 63
-=======
-        "label": "Aug 24, 2026",
-        "value": 52
-      },
-      {
-        "label": "Aug 25, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 26, 2026",
-        "value": 55
-      },
-      {
-        "label": "Aug 27, 2026",
-        "value": 51
-      },
-      {
-        "label": "Aug 28, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 29, 2026",
-        "value": 64
->>>>>>> Stashed changes
       },
       {
         "label": "Aug 30, 2026",
@@ -39354,19 +36437,11 @@
       },
       {
         "label": "Sep 2, 2026",
-<<<<<<< Updated upstream
         "value": 67
       },
       {
         "label": "Sep 3, 2026",
         "value": 65
-=======
-        "value": 52
-      },
-      {
-        "label": "Sep 3, 2026",
-        "value": 53
->>>>>>> Stashed changes
       },
       {
         "label": "Sep 4, 2026",
@@ -39374,13 +36449,6 @@
       },
       {
         "label": "Sep 5, 2026",
-<<<<<<< Updated upstream
-=======
-        "value": 60
-      },
-      {
-        "label": "Sep 6, 2026",
->>>>>>> Stashed changes
         "value": 57
       },
       {
@@ -39399,74 +36467,17 @@
       43,
       50,
       63,
-<<<<<<< Updated upstream
       60,
       67,
       65,
       60,
       57,
       67
-=======
-      61,
-      42,
-      42,
-      45,
-      43,
-      50,
-      51,
-      41,
-      44,
-      67,
-      53,
-      50,
-      49,
-      61,
-      52,
-      54,
-      49,
-      47,
-      51,
-      60,
-      62,
-      52,
-      50,
-      49,
-      56,
-      61,
-      71,
-      74,
-      67,
-      59,
-      63,
-      61,
-      72,
-      66,
-      67,
-      52,
-      54,
-      55,
-      51,
-      54,
-      64,
-      68,
-      55,
-      53,
-      52,
-      53,
-      55,
-      60,
-      57,
-      51
->>>>>>> Stashed changes
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:39:09.195Z",
-=======
-    "fetchedAt": "2026-09-07T10:43:50.712Z",
->>>>>>> Stashed changes
     "reusedVariantCache": true,
     "checkedVariants": [
       "light pants",
@@ -39542,24 +36553,16 @@
     "productKey": "2609050644441612600",
     "variantSignals": [
       {
-<<<<<<< Updated upstream
         "keyword": "tea steeper diffuser leaf",
         "usedKeyword": "stainless steel",
         "score": 37,
         "growthPercent": -10,
-=======
-        "keyword": "light pants",
-        "usedKeyword": "pants suit",
-        "score": 26,
-        "growthPercent": -9,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],
     "failedVariants": []
   },
   {
-<<<<<<< Updated upstream
     "keyword": "console laptop",
     "usedKeyword": "internal state drive laptop",
     "score": 18,
@@ -39568,21 +36571,10 @@
     "firstAvg": 12,
     "lastAvg": 10,
     "latestValue": 11,
-=======
-    "keyword": "machine massager",
-    "usedKeyword": "stress relief toy",
-    "score": 26,
-    "rawScore": 26,
-    "growthPercent": -30,
-    "firstAvg": 45,
-    "lastAvg": 31,
-    "latestValue": 35,
->>>>>>> Stashed changes
     "maxValue": 100,
     "timeline": [
       {
         "label": "Jul 10, 2026",
-<<<<<<< Updated upstream
         "value": 0
       },
       {
@@ -39767,8 +36759,6 @@
       },
       {
         "label": "Aug 25, 2026",
-=======
->>>>>>> Stashed changes
         "value": 19
       },
       {
@@ -40586,7 +37576,6 @@
     "timeline": [
       {
         "label": "Jul 10, 2026",
-<<<<<<< Updated upstream
         "value": 39
       },
       {
@@ -40675,24 +37664,6 @@
       },
       {
         "label": "Aug 1, 2026",
-=======
-        "value": 51
-      },
-      {
-        "label": "Jul 11, 2026",
-        "value": 50
-      },
-      {
-        "label": "Jul 12, 2026",
-        "value": 52
-      },
-      {
-        "label": "Jul 13, 2026",
-        "value": 61
-      },
-      {
-        "label": "Jul 14, 2026",
->>>>>>> Stashed changes
         "value": 56
       },
       {
@@ -41645,7 +38616,6 @@
       },
       {
         "label": "Aug 20, 2026",
-<<<<<<< Updated upstream
         "value": 82
       },
       {
@@ -41778,153 +38748,11 @@
       54,
       48,
       56
-=======
-        "value": 52
-      },
-      {
-        "label": "Aug 21, 2026",
-        "value": 74
-      },
-      {
-        "label": "Aug 22, 2026",
-        "value": 71
-      },
-      {
-        "label": "Aug 23, 2026",
-        "value": 71
-      },
-      {
-        "label": "Aug 24, 2026",
-        "value": 46
-      },
-      {
-        "label": "Aug 25, 2026",
-        "value": 54
-      },
-      {
-        "label": "Aug 26, 2026",
-        "value": 39
-      },
-      {
-        "label": "Aug 27, 2026",
-        "value": 42
-      },
-      {
-        "label": "Aug 28, 2026",
-        "value": 56
-      },
-      {
-        "label": "Aug 29, 2026",
-        "value": 51
-      },
-      {
-        "label": "Aug 30, 2026",
-        "value": 56
-      },
-      {
-        "label": "Aug 31, 2026",
-        "value": 36
-      },
-      {
-        "label": "Sep 1, 2026",
-        "value": 32
-      },
-      {
-        "label": "Sep 2, 2026",
-        "value": 29
-      },
-      {
-        "label": "Sep 3, 2026",
-        "value": 30
-      },
-      {
-        "label": "Sep 4, 2026",
-        "value": 38
-      },
-      {
-        "label": "Sep 5, 2026",
-        "value": 31
-      },
-      {
-        "label": "Sep 6, 2026",
-        "value": 36
-      },
-      {
-        "label": "Sep 7, 2026",
-        "value": 36
-      }
-    ],
-    "timelineValues": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      87,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      65,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      92,
-      52,
-      77,
-      100,
-      65,
-      52,
-      74,
-      71,
-      71,
-      46,
-      54,
-      39,
-      42,
-      56,
-      51,
-      56,
-      36,
-      32,
-      29,
-      30,
-      38,
-      31,
-      36,
-      36
->>>>>>> Stashed changes
     ],
     "timelinePoints": 60,
     "match": 1,
     "source": "google-trends-network",
-<<<<<<< Updated upstream
     "fetchedAt": "2026-09-06T14:35:06.208Z",
-=======
-    "fetchedAt": "2026-09-07T11:08:08.233Z",
->>>>>>> Stashed changes
     "reusedVariantCache": true,
     "checkedVariants": [
       "1000x20 magnification zoom outdoor",
@@ -42904,17 +39732,10 @@
     "productKey": "aliexpress-3256809007533967",
     "variantSignals": [
       {
-<<<<<<< Updated upstream
         "keyword": "necklace party",
         "usedKeyword": "pendant necklace",
         "score": 34,
         "growthPercent": -15,
-=======
-        "keyword": "figure snake egg toys",
-        "usedKeyword": "stress relief toy",
-        "score": 26,
-        "growthPercent": -30,
->>>>>>> Stashed changes
         "timelinePoints": 60
       }
     ],

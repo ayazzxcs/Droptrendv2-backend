@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T19:59:17.710Z",
-=======
-  "updatedAt": "2026-09-07T13:42:32.432Z",
->>>>>>> Stashed changes
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 22,
   "failedCount": 128,
   "lastKeyword": "kids outdoor rocket foot pump outdoor air pressing soaring rocket suit jumps air powered rocket launcher game children toy gifts",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 8352,
   "reusedVariantChecks": 1448,
   "variantCacheSize": 7221,
-=======
-  "savedSignalCount": 17,
-  "failedCount": 133,
-  "lastKeyword": "hxao top halter satin tops backless corset top vest yellow pink black elegant sexy tops tank vestidos",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 7070,
-  "reusedVariantChecks": 1607,
-  "variantCacheSize": 6542,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

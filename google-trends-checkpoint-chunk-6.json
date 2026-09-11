@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T16:41:33.952Z",
-=======
-  "updatedAt": "2026-09-07T12:43:40.799Z",
->>>>>>> Stashed changes
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 61,
   "failedCount": 89,
   "lastKeyword": "gege bear sunflower false",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 2615,
   "reusedVariantChecks": 295,
   "variantCacheSize": 2615,
-=======
-  "savedSignalCount": 72,
-  "failedCount": 78,
-  "lastKeyword": "dresses dress",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 1980,
-  "reusedVariantChecks": 342,
-  "variantCacheSize": 1980,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }

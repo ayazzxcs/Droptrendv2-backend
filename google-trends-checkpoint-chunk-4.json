@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
   "updatedAt": "2026-09-06T17:07:10.829Z",
-=======
-  "updatedAt": "2026-09-07T10:40:13.373Z",
->>>>>>> Stashed changes
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -12,7 +8,6 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-<<<<<<< Updated upstream
   "savedSignalCount": 55,
   "failedCount": 95,
   "lastKeyword": "projector home",
@@ -21,15 +16,5 @@
   "uniqueVariantsFetched": 3182,
   "reusedVariantChecks": 408,
   "variantCacheSize": 3182,
-=======
-  "savedSignalCount": 63,
-  "failedCount": 87,
-  "lastKeyword": "s cotton polo shirt",
-  "status": "complete",
-  "error": "",
-  "uniqueVariantsFetched": 2797,
-  "reusedVariantChecks": 392,
-  "variantCacheSize": 2797,
->>>>>>> Stashed changes
   "keywordTimeoutMs": 180000
 }
