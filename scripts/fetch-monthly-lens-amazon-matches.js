@@ -56,9 +56,9 @@ const BUDGETS = {
   serpapi_2: Number(process.env.SERPAPI_2_MONTHLY_LIMIT || 250),
   searchapi: Number(process.env.SEARCHAPI_MONTHLY_LIMIT || 100),
   scrapingdog: Number(process.env.SCRAPINGDOG_MONTHLY_LIMIT || 200),
-  brightdata_1: Number(process.env.BRIGHTDATA_1_MONTHLY_LIMIT || 5000),
-  brightdata_2: Number(process.env.BRIGHTDATA_2_MONTHLY_LIMIT || 5000),
-  brightdata_3: Number(process.env.BRIGHTDATA_3_MONTHLY_LIMIT || 5000)
+  decodo: Number(process.env.DECODO_MONTHLY_LIMIT || 700),
+  decodo_2: Number(process.env.DECODO_2_MONTHLY_LIMIT || 700),
+  decodo_3: Number(process.env.DECODO_3_MONTHLY_LIMIT || 700)
 };
 
 function used(provider) {
@@ -306,22 +306,7 @@ function extractAmazonLinks(data) {
     if (!node) return;
 
     if (typeof node === "string") {
-      // Bright Data can return raw HTML/text or JSON-encoded payloads.
-      // Do not require the entire string to be an Amazon URL: extract Amazon
-      // URLs embedded inside Google/Lens redirects, HTML, or escaped JSON too.
-      const raw = String(node);
-      const normalized = raw
-        .replace(/\\\//g, "/")
-        .replace(/\\u0026/gi, "&")
-        .replace(/&amp;/gi, "&");
-
-      addCandidate(normalized, {}, inheritedTitle);
-
-      const amazonUrlPattern = /https?:\/\/(?:[^\s"'<>]+\.)?amazon\.[a-z.]{2,}\/[^\s"'<>]*/gi;
-      for (const match of normalized.matchAll(amazonUrlPattern)) {
-        const candidateUrl = String(match[0]).replace(/[\"'<>),;]+$/g, "");
-        addCandidate(candidateUrl, {}, inheritedTitle);
-      }
+      addCandidate(node, {}, inheritedTitle);
       return;
     }
 
@@ -357,18 +342,6 @@ function extractAmazonLinks(data) {
       for (const value of Object.values(node)) {
         walk(value, possibleTitle);
       }
-    }
-  }
-
-  // Bright Data normally returns parsed JSON, but if the response is wrapped
-  // as rawText, parse JSON when possible and otherwise scan the raw body for
-  // embedded Amazon URLs. This makes the parser tolerant of raw/HTML responses.
-  if (data && typeof data === "object" && typeof data.rawText === "string") {
-    try {
-      const parsed = JSON.parse(data.rawText);
-      walk(parsed);
-    } catch {
-      walk(data.rawText);
     }
   }
 
@@ -413,54 +386,35 @@ async function searchapiLens(imageUrl) {
   return extractAmazonLinks(await fetchJson(url.toString()));
 }
 
-async function brightDataLensWithKey(imageUrl, apiKey, zone, label) {
-  if (!apiKey) throw new Error(`Missing ${label}`);
+async function decodoLensWithAuth(imageUrl, authBase64, label) {
+  if (!authBase64) throw new Error(`Missing ${label}`);
 
-  const lensUrl = new URL("https://lens.google.com/uploadbyurl");
-  lensUrl.searchParams.set("url", imageUrl);
-  lensUrl.searchParams.set("brd_lens", "products");
-  lensUrl.searchParams.set("brd_json", "json");
-
-  return extractAmazonLinks(await fetchJson("https://api.brightdata.com/request", {
+  return extractAmazonLinks(await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
     headers: {
       "Accept": "application/json",
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${apiKey}`
+      "Authorization": `Basic ${authBase64}`
     },
     body: JSON.stringify({
-      zone: zone || "serp_api1",
-      url: lensUrl.toString(),
-      format: "raw"
+      target: "google_lens",
+      query: imageUrl,
+      headless: "html",
+      parse: true
     })
   }));
 }
 
-async function brightDataLens(imageUrl) {
-  return brightDataLensWithKey(
-    imageUrl,
-    process.env.BRIGHTDATA_API_KEY_1,
-    process.env.BRIGHTDATA_ZONE_1 || "serp_api1",
-    "BRIGHTDATA_API_KEY_1"
-  );
+async function decodoLens(imageUrl) {
+  return decodoLensWithAuth(imageUrl, process.env.DECODO_AUTH_BASE64, "DECODO_AUTH_BASE64");
 }
 
-async function brightDataLens2(imageUrl) {
-  return brightDataLensWithKey(
-    imageUrl,
-    process.env.BRIGHTDATA_API_KEY_2,
-    process.env.BRIGHTDATA_ZONE_2 || "serp_api1",
-    "BRIGHTDATA_API_KEY_2"
-  );
+async function decodoLens2(imageUrl) {
+  return decodoLensWithAuth(imageUrl, process.env.DECODO_2_AUTH_BASE64, "DECODO_2_AUTH_BASE64");
 }
 
-async function brightDataLens3(imageUrl) {
-  return brightDataLensWithKey(
-    imageUrl,
-    process.env.BRIGHTDATA_API_KEY_3,
-    process.env.BRIGHTDATA_ZONE_3 || "serp_api1",
-    "BRIGHTDATA_API_KEY_3"
-  );
+async function decodoLens3(imageUrl) {
+  return decodoLensWithAuth(imageUrl, process.env.DECODO_3_AUTH_BASE64, "DECODO_3_AUTH_BASE64");
 }
 
 async function scrapingdogLens(imageUrl) {
@@ -498,9 +452,9 @@ function providerQueue() {
   if (process.env.SERPAPI_KEY_2) q.push(["serpapi_2", img => serpapiLens(img, process.env.SERPAPI_KEY_2)]);
   if (process.env.SEARCHAPI_KEY) q.push(["searchapi", searchapiLens]);
   if (process.env.SCRAPINGDOG_API_KEY) q.push(["scrapingdog", scrapingdogLens]);
-  if (process.env.BRIGHTDATA_API_KEY_1) q.push(["brightdata_1", brightDataLens]);
-  if (process.env.BRIGHTDATA_API_KEY_2) q.push(["brightdata_2", brightDataLens2]);
-  if (process.env.BRIGHTDATA_API_KEY_3) q.push(["brightdata_3", brightDataLens3]);
+  if (process.env.DECODO_AUTH_BASE64) q.push(["decodo", decodoLens]);
+  if (process.env.DECODO_2_AUTH_BASE64) q.push(["decodo_2", decodoLens2]);
+  if (process.env.DECODO_3_AUTH_BASE64) q.push(["decodo_3", decodoLens3]);
 
   return q;
 }
@@ -510,8 +464,8 @@ function seedFreshMatrixChunkUsage() {
 
   // Every matrix job gets its own copy of the usage file. Seed each job from its
   // absolute product offset so all jobs consume non-overlapping provider quota ranges.
-  // Example with 5,000-request Bright Data accounts: start=4,900 begins at Bright Data 1 usage 4,900,
-  // then automatically switches to Bright Data 2 after another 100 requests.
+  // Example with 700-request accounts: start=600 begins at Decodo 1 usage 600,
+  // then automatically switches to Decodo 2 after another 100 requests.
   let remainingOffset = Math.max(0, START_INDEX);
   const availableProviders = providerQueue();
 
@@ -1205,7 +1159,7 @@ writeJson("lens-amazon-meta.json", {
   failures: failures.length,
   resetAmazonCache: FORCE_REFRESH,
   matrixQuotaSeededFromStartIndex: FORCE_REFRESH || !sameMonthCache,
-  note: "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Bright Data 1, Bright Data 2 and Bright Data 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider."
+  note: "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Decodo 1, Decodo 2 and Decodo 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider."
 });
 
 console.log(`Monthly Lens complete. Matches: ${matches.length}, failures: ${failures.length}`);
