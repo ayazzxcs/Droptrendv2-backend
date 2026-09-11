@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:07:10.829Z",
+  "updatedAt": "2026-09-11T12:49:57.317Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 55,
-  "failedCount": 95,
-  "lastKeyword": "projector home",
+  "savedSignalCount": 62,
+  "failedCount": 88,
+  "lastKeyword": "jackets light coat",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3182,
-  "reusedVariantChecks": 408,
-  "variantCacheSize": 3182,
+  "uniqueVariantsFetched": 2959,
+  "reusedVariantChecks": 580,
+  "variantCacheSize": 2959,
   "keywordTimeoutMs": 180000
 }

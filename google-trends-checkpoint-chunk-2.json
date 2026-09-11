@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:08:02.402Z",
+  "updatedAt": "2026-09-11T14:03:47.401Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 62,
-  "failedCount": 88,
-  "lastKeyword": "light table",
+  "savedSignalCount": 52,
+  "failedCount": 98,
+  "lastKeyword": "cable phone cables",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4397,
-  "reusedVariantChecks": 567,
-  "variantCacheSize": 4397,
+  "uniqueVariantsFetched": 4364,
+  "reusedVariantChecks": 784,
+  "variantCacheSize": 4364,
   "keywordTimeoutMs": 180000
 }

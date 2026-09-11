@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T17:26:15.746Z",
+  "updatedAt": "2026-09-11T13:22:03.617Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 65,
-  "failedCount": 85,
-  "lastKeyword": "meter weather station home",
+  "savedSignalCount": 49,
+  "failedCount": 101,
+  "lastKeyword": "bag thigh belt hip",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3598,
-  "reusedVariantChecks": 623,
-  "variantCacheSize": 3598,
+  "uniqueVariantsFetched": 3563,
+  "reusedVariantChecks": 674,
+  "variantCacheSize": 3563,
   "keywordTimeoutMs": 180000
 }

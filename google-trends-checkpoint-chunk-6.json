@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:41:33.952Z",
+  "updatedAt": "2026-09-11T15:18:35.507Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "gege bear sunflower false",
+  "savedSignalCount": 66,
+  "failedCount": 84,
+  "lastKeyword": "home office storage retro",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2615,
-  "reusedVariantChecks": 295,
-  "variantCacheSize": 2615,
+  "uniqueVariantsFetched": 2151,
+  "reusedVariantChecks": 348,
+  "variantCacheSize": 2151,
   "keywordTimeoutMs": 180000
 }

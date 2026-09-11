@@ -1,39 +1,39 @@
 {
-  "updatedAt": "2026-09-07T13:51:30.058Z",
+  "updatedAt": "2026-09-11T16:23:52.457Z",
   "month": "2026-09",
   "mode": "sequential quota provider pool + best Amazon candidate per product",
   "startIndex": 0,
   "maxProducts": 1600,
   "providerUsage": {
-    "brightdata_1": 700,
-    "brightdata_2": 700,
-    "brightdata_3": 100
+    "decodo": 700,
+    "decodo_2": 700,
+    "decodo_3": 100
   },
   "providerBudgets": {
     "serpapi_1": 250,
     "serpapi_2": 250,
     "searchapi": 100,
     "scrapingdog": 200,
-    "brightdata_1": 700,
-    "brightdata_2": 700,
-    "brightdata_3": 700
+    "decodo": 700,
+    "decodo_2": 700,
+    "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 20,
-  "failures": 1480,
+  "matches": 0,
+  "failures": 1500,
   "resetAmazonCache": true,
   "matrixQuotaSeededFromStartIndex": true,
-  "note": "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Bright Data 1, Bright Data 2 and Bright Data 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider.",
+  "note": "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Decodo 1, Decodo 2 and Decodo 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider.",
   "chunks": [
     {
       "startIndex": 0,
       "maxProducts": 200,
-      "matches": 4,
-      "failures": 196,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 200,
-        "brightdata_2": 0,
-        "brightdata_3": 0
+        "decodo": 200,
+        "decodo_2": 0,
+        "decodo_3": 0
       }
     },
     {
@@ -42,75 +42,75 @@
       "matches": 0,
       "failures": 200,
       "providerUsage": {
-        "brightdata_1": 400,
-        "brightdata_2": 0,
-        "brightdata_3": 0
+        "decodo": 400,
+        "decodo_2": 0,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 400,
       "maxProducts": 200,
-      "matches": 2,
-      "failures": 198,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 600,
-        "brightdata_2": 0,
-        "brightdata_3": 0
+        "decodo": 600,
+        "decodo_2": 0,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 600,
       "maxProducts": 200,
-      "matches": 3,
-      "failures": 197,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 700,
-        "brightdata_2": 100,
-        "brightdata_3": 0
+        "decodo": 700,
+        "decodo_2": 100,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 800,
       "maxProducts": 200,
-      "matches": 5,
-      "failures": 195,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 700,
-        "brightdata_2": 300,
-        "brightdata_3": 0
+        "decodo": 700,
+        "decodo_2": 300,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 1000,
       "maxProducts": 200,
-      "matches": 1,
-      "failures": 199,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 700,
-        "brightdata_2": 500,
-        "brightdata_3": 0
+        "decodo": 700,
+        "decodo_2": 500,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 1200,
       "maxProducts": 200,
-      "matches": 3,
-      "failures": 197,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "brightdata_1": 700,
-        "brightdata_2": 700,
-        "brightdata_3": 0
+        "decodo": 700,
+        "decodo_2": 700,
+        "decodo_3": 0
       }
     },
     {
       "startIndex": 1400,
       "maxProducts": 200,
-      "matches": 2,
-      "failures": 98,
+      "matches": 0,
+      "failures": 100,
       "providerUsage": {
-        "brightdata_1": 700,
-        "brightdata_2": 700,
-        "brightdata_3": 100
+        "decodo": 700,
+        "decodo_2": 700,
+        "decodo_3": 100
       }
     }
   ]

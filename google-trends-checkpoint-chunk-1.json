@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T18:56:33.825Z",
+  "updatedAt": "2026-09-11T14:29:11.664Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 47,
-  "failedCount": 103,
-  "lastKeyword": "top pants",
+  "savedSignalCount": 61,
+  "failedCount": 89,
+  "lastKeyword": "onemix white road running shoes air cushion outdoor sport shoes trainers jogging shoes footwear",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5386,
-  "reusedVariantChecks": 868,
-  "variantCacheSize": 5383,
+  "uniqueVariantsFetched": 4927,
+  "reusedVariantChecks": 1348,
+  "variantCacheSize": 4927,
   "keywordTimeoutMs": 180000
 }
