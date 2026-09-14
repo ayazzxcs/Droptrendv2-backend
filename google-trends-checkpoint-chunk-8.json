@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:09:07.985Z",
+  "updatedAt": "2026-09-14T06:47:36.646Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 74,
-  "failedCount": 76,
-  "lastKeyword": "man shorts s breathable",
+  "savedSignalCount": 72,
+  "failedCount": 78,
+  "lastKeyword": "rings ring",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1840,
-  "reusedVariantChecks": 185,
-  "variantCacheSize": 1840,
+  "uniqueVariantsFetched": 2107,
+  "reusedVariantChecks": 277,
+  "variantCacheSize": 2107,
   "keywordTimeoutMs": 180000
 }

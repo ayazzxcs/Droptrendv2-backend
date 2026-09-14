@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:48:28.562Z",
+  "updatedAt": "2026-09-14T10:28:20.826Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 51,
-  "failedCount": 99,
-  "lastKeyword": "bathroom storage home dispenser machine",
+  "savedSignalCount": 35,
+  "failedCount": 115,
+  "lastKeyword": "cenrr 98000pa car vacuum cleaner wireless cleaner powerful strong suction handheld cleaning machine home appliance",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7046,
-  "reusedVariantChecks": 1342,
-  "variantCacheSize": 6550,
+  "uniqueVariantsFetched": 7419,
+  "reusedVariantChecks": 1536,
+  "variantCacheSize": 6733,
   "keywordTimeoutMs": 180000
 }

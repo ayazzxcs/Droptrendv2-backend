@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T14:03:47.401Z",
+  "updatedAt": "2026-09-14T08:43:05.243Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 52,
-  "failedCount": 98,
-  "lastKeyword": "cable phone cables",
+  "savedSignalCount": 55,
+  "failedCount": 95,
+  "lastKeyword": "necklace earrings party",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4364,
-  "reusedVariantChecks": 784,
-  "variantCacheSize": 4364,
+  "uniqueVariantsFetched": 4389,
+  "reusedVariantChecks": 1007,
+  "variantCacheSize": 4389,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T13:22:03.617Z",
+  "updatedAt": "2026-09-14T08:17:44.616Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 49,
-  "failedCount": 101,
-  "lastKeyword": "bag thigh belt hip",
+  "savedSignalCount": 55,
+  "failedCount": 95,
+  "lastKeyword": "light party supplies",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3563,
-  "reusedVariantChecks": 674,
-  "variantCacheSize": 3563,
+  "uniqueVariantsFetched": 3978,
+  "reusedVariantChecks": 671,
+  "variantCacheSize": 3978,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T16:23:29.434Z",
+  "updatedAt": "2026-09-14T06:18:46.554Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 81,
-  "failedCount": 69,
+  "savedSignalCount": 60,
+  "failedCount": 90,
   "lastKeyword": "running shoes",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1303,
-  "reusedVariantChecks": 156,
-  "variantCacheSize": 1303,
+  "uniqueVariantsFetched": 1545,
+  "reusedVariantChecks": 203,
+  "variantCacheSize": 1545,
   "keywordTimeoutMs": 180000
 }

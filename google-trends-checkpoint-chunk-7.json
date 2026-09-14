@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:41:40.432Z",
+  "updatedAt": "2026-09-14T06:51:22.365Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 78,
-  "failedCount": 72,
-  "lastKeyword": "bracelets bracelet",
+  "savedSignalCount": 61,
+  "failedCount": 89,
+  "lastKeyword": "jackets jacket",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1729,
-  "reusedVariantChecks": 363,
-  "variantCacheSize": 1729,
+  "uniqueVariantsFetched": 2153,
+  "reusedVariantChecks": 426,
+  "variantCacheSize": 2153,
   "keywordTimeoutMs": 180000
 }

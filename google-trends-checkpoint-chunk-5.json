@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:11:51.644Z",
+  "updatedAt": "2026-09-14T07:34:48.439Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 63,
-  "failedCount": 87,
-  "lastKeyword": "machine tools",
+  "savedSignalCount": 57,
+  "failedCount": 93,
+  "lastKeyword": "dresses dress",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2649,
-  "reusedVariantChecks": 343,
-  "variantCacheSize": 2649,
+  "uniqueVariantsFetched": 3137,
+  "reusedVariantChecks": 299,
+  "variantCacheSize": 3137,
   "keywordTimeoutMs": 180000
 }

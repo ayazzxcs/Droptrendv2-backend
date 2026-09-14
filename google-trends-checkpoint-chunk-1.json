@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T14:29:11.664Z",
+  "updatedAt": "2026-09-14T09:23:49.919Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "onemix white road running shoes air cushion outdoor sport shoes trainers jogging shoes footwear",
+  "savedSignalCount": 67,
+  "failedCount": 83,
+  "lastKeyword": "charger adapter",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4927,
-  "reusedVariantChecks": 1348,
-  "variantCacheSize": 4927,
+  "uniqueVariantsFetched": 5190,
+  "reusedVariantChecks": 1231,
+  "variantCacheSize": 5190,
   "keywordTimeoutMs": 180000
 }

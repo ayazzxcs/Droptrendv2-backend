@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T15:18:35.507Z",
+  "updatedAt": "2026-09-14T07:12:22.975Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 66,
-  "failedCount": 84,
-  "lastKeyword": "home office storage retro",
+  "savedSignalCount": 58,
+  "failedCount": 92,
+  "lastKeyword": "ear cuff tiny earrings",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2151,
-  "reusedVariantChecks": 348,
-  "variantCacheSize": 2151,
+  "uniqueVariantsFetched": 2622,
+  "reusedVariantChecks": 369,
+  "variantCacheSize": 2622,
   "keywordTimeoutMs": 180000
 }
