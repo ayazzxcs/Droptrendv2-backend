@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T10:15:26.499Z",
+  "updatedAt": "2026-09-14T21:59:49.613Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,138 +33,144 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 22,
+  "errorCount": 23,
   "errors": [
     {
-      "keyword": "thickened speaker",
+      "keyword": "headset tws",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: thickened speaker; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: headset tws; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "keyboard shortcuts",
+      "keyword": "clip bluetooth",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: keyboard shortcuts; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: clip bluetooth; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "phone charging",
+      "keyword": "light keyboard",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: phone charging; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: light keyboard; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "appliance wet",
+      "keyword": "fan light",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: appliance wet; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: fan light; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "eggs organizer",
+      "keyword": "air humidifier",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: eggs organizer; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: air humidifier; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "telescope holder",
+      "keyword": "led ceiling",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: telescope holder; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: led ceiling; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "bag waist",
+      "keyword": "earphone clip",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: bag waist; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: earphone clip; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "egg storage",
+      "keyword": "fitness waist",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: egg storage; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: fitness waist; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "ceiling fan",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: ceiling fan; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "lashes extensions",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: lashes extensions; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "watch message",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: watch message; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "light e27",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: light e27; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "cat eyelashes",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: cat eyelashes; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "laptop tool",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: laptop tool; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "button switch",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: button switch; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "grain storage",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: grain storage; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "earphones bluetooth",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: earphones bluetooth; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "tool kit",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: tool kit; best raw count 0",
       "deferred": true
     },
     {
       "keyword": "humidifier usb",
-      "phase": "first-pass",
+      "phase": "remaining-fill",
       "error": "AliExpress low/empty product page for keyword: humidifier usb; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "cleaning polishing",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: cleaning polishing; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "toy transparent",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: toy transparent; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "light foam",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: light foam; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "precision tool",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: precision tool; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "fitness monitor",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: fitness monitor; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "cleaner usb",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: cleaner usb; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "phone telescope",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: phone telescope; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "sideways necklace",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: sideways necklace; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "deep cleaning",
-      "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: deep cleaning; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "strap accessories",
+      "keyword": "nvme ssd",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: strap accessories; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: nvme ssd; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "metallic skin",
+      "keyword": "ssd nvme",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: metallic skin; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: ssd nvme; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "usb type",
+      "keyword": "headphone bone",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: usb type; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: headphone bone; best raw count 0",
       "deferred": false
     },
     {
-      "keyword": "shoes light",
+      "keyword": "ssd hard",
       "phase": "remaining-fill",
-      "error": "AliExpress low/empty product page for keyword: shoes light; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: ssd hard; best raw count 0",
       "deferred": false
     }
   ],

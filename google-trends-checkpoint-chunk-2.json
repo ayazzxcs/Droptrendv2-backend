@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T08:43:05.243Z",
+  "updatedAt": "2026-09-15T01:22:10.585Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 55,
-  "failedCount": 95,
-  "lastKeyword": "necklace earrings party",
+  "savedSignalCount": 78,
+  "failedCount": 72,
+  "lastKeyword": "headphones headset earphone",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4389,
-  "reusedVariantChecks": 1007,
-  "variantCacheSize": 4389,
+  "uniqueVariantsFetched": 3768,
+  "reusedVariantChecks": 927,
+  "variantCacheSize": 3768,
   "keywordTimeoutMs": 180000
 }

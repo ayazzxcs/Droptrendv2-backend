@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:45:17.103Z",
+  "updatedAt": "2026-09-15T00:24:35.749Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 44,
-  "failedCount": 106,
-  "lastKeyword": "slippers cloud thick-soled sandals",
+  "savedSignalCount": 71,
+  "failedCount": 79,
+  "lastKeyword": "seamless top skirt cotton",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3332,
-  "reusedVariantChecks": 612,
-  "variantCacheSize": 3332,
+  "uniqueVariantsFetched": 2765,
+  "reusedVariantChecks": 496,
+  "variantCacheSize": 2765,
   "keywordTimeoutMs": 180000
 }

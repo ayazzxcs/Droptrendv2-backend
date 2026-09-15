@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:34:48.439Z",
+  "updatedAt": "2026-09-15T02:29:52.448Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 57,
-  "failedCount": 93,
-  "lastKeyword": "dresses dress",
+  "savedSignalCount": 65,
+  "failedCount": 85,
+  "lastKeyword": "cups pot",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3137,
-  "reusedVariantChecks": 299,
-  "variantCacheSize": 3137,
+  "uniqueVariantsFetched": 2352,
+  "reusedVariantChecks": 607,
+  "variantCacheSize": 2352,
   "keywordTimeoutMs": 180000
 }

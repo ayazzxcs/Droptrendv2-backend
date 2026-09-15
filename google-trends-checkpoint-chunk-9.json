@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T06:18:46.554Z",
+  "updatedAt": "2026-09-15T03:34:54.623Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 60,
-  "failedCount": 90,
-  "lastKeyword": "running shoes",
+  "savedSignalCount": 109,
+  "failedCount": 41,
+  "lastKeyword": "netac",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1545,
-  "reusedVariantChecks": 203,
-  "variantCacheSize": 1545,
+  "uniqueVariantsFetched": 1189,
+  "reusedVariantChecks": 256,
+  "variantCacheSize": 1189,
   "keywordTimeoutMs": 180000
 }

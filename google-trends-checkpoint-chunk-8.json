@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T06:47:36.646Z",
+  "updatedAt": "2026-09-15T03:53:57.274Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 72,
-  "failedCount": 78,
-  "lastKeyword": "rings ring",
+  "savedSignalCount": 86,
+  "failedCount": 64,
+  "lastKeyword": "suits athletic sweatshirt pants",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2107,
-  "reusedVariantChecks": 277,
-  "variantCacheSize": 2107,
+  "uniqueVariantsFetched": 1710,
+  "reusedVariantChecks": 267,
+  "variantCacheSize": 1710,
   "keywordTimeoutMs": 180000
 }

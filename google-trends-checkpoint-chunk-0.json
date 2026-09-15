@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T10:28:20.826Z",
+  "updatedAt": "2026-09-15T03:33:26.341Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 35,
-  "failedCount": 115,
-  "lastKeyword": "cenrr 98000pa car vacuum cleaner wireless cleaner powerful strong suction handheld cleaning machine home appliance",
+  "savedSignalCount": 31,
+  "failedCount": 119,
+  "lastKeyword": "event party supplies halloween trick treat bags pcs designs plastic goodie candy bags kids party favors events",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7419,
-  "reusedVariantChecks": 1536,
-  "variantCacheSize": 6733,
+  "uniqueVariantsFetched": 7300,
+  "reusedVariantChecks": 1537,
+  "variantCacheSize": 6655,
   "keywordTimeoutMs": 180000
 }

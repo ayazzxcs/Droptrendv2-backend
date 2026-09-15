@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T09:23:49.919Z",
+  "updatedAt": "2026-09-15T02:21:57.792Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 67,
-  "failedCount": 83,
-  "lastKeyword": "charger adapter",
+  "savedSignalCount": 70,
+  "failedCount": 80,
+  "lastKeyword": "shoe cat shoes",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 5190,
-  "reusedVariantChecks": 1231,
-  "variantCacheSize": 5190,
+  "uniqueVariantsFetched": 4993,
+  "reusedVariantChecks": 1034,
+  "variantCacheSize": 4993,
   "keywordTimeoutMs": 180000
 }

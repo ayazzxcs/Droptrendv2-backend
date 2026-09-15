@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T06:51:22.365Z",
+  "updatedAt": "2026-09-15T02:55:35.639Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "jackets jacket",
+  "savedSignalCount": 87,
+  "failedCount": 63,
+  "lastKeyword": "blazers hoodie",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2153,
-  "reusedVariantChecks": 426,
-  "variantCacheSize": 2153,
+  "uniqueVariantsFetched": 1669,
+  "reusedVariantChecks": 369,
+  "variantCacheSize": 1669,
   "keywordTimeoutMs": 180000
 }
