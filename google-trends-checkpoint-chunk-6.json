@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T02:28:47.685Z",
+  "updatedAt": "2026-09-21T14:03:32.793Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 73,
-  "failedCount": 77,
-  "lastKeyword": "full-face transparent protection mask",
+  "savedSignalCount": 78,
+  "failedCount": 72,
+  "lastKeyword": "pull resistance band fitness",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2166,
-  "reusedVariantChecks": 330,
-  "variantCacheSize": 2166,
+  "uniqueVariantsFetched": 2124,
+  "reusedVariantChecks": 367,
+  "variantCacheSize": 2124,
   "keywordTimeoutMs": 180000
 }

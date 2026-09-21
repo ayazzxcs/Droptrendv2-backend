@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T02:29:52.448Z",
+  "updatedAt": "2026-09-21T13:53:59.707Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -10,11 +10,11 @@
   "processedKeywordCount": 150,
   "savedSignalCount": 65,
   "failedCount": 85,
-  "lastKeyword": "cups pot",
+  "lastKeyword": "slippers cloud thick-soled sandals",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2352,
-  "reusedVariantChecks": 607,
-  "variantCacheSize": 2352,
+  "uniqueVariantsFetched": 2417,
+  "reusedVariantChecks": 469,
+  "variantCacheSize": 2417,
   "keywordTimeoutMs": 180000
 }

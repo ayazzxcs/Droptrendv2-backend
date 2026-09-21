@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:34:54.623Z",
+  "updatedAt": "2026-09-21T15:01:02.435Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 109,
-  "failedCount": 41,
-  "lastKeyword": "netac",
+  "savedSignalCount": 95,
+  "failedCount": 55,
+  "lastKeyword": "slippers",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1189,
-  "reusedVariantChecks": 256,
-  "variantCacheSize": 1189,
+  "uniqueVariantsFetched": 1270,
+  "reusedVariantChecks": 237,
+  "variantCacheSize": 1270,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:24:35.749Z",
+  "updatedAt": "2026-09-21T11:42:38.012Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 71,
-  "failedCount": 79,
-  "lastKeyword": "seamless top skirt cotton",
+  "savedSignalCount": 65,
+  "failedCount": 85,
+  "lastKeyword": "dresses dress",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2765,
-  "reusedVariantChecks": 496,
-  "variantCacheSize": 2765,
+  "uniqueVariantsFetched": 2846,
+  "reusedVariantChecks": 409,
+  "variantCacheSize": 2846,
   "keywordTimeoutMs": 180000
 }

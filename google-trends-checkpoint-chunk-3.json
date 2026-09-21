@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:35:02.702Z",
+  "updatedAt": "2026-09-21T12:09:51.196Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 65,
-  "failedCount": 85,
-  "lastKeyword": "cable charger",
+  "savedSignalCount": 57,
+  "failedCount": 93,
+  "lastKeyword": "door hanging cat toy",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2839,
-  "reusedVariantChecks": 928,
-  "variantCacheSize": 2839,
+  "uniqueVariantsFetched": 3471,
+  "reusedVariantChecks": 512,
+  "variantCacheSize": 3471,
   "keywordTimeoutMs": 180000
 }

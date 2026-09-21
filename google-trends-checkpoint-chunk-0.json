@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:33:26.341Z",
+  "updatedAt": "2026-09-21T14:44:16.776Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 31,
-  "failedCount": 119,
-  "lastKeyword": "event party supplies halloween trick treat bags pcs designs plastic goodie candy bags kids party favors events",
+  "savedSignalCount": 41,
+  "failedCount": 109,
+  "lastKeyword": "coffee bean vacuum sealed tank stainless steel grain tea nut storage vacuum airtight sealed cans kitchen storage organizer",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 7300,
-  "reusedVariantChecks": 1537,
-  "variantCacheSize": 6655,
+  "uniqueVariantsFetched": 6848,
+  "reusedVariantChecks": 996,
+  "variantCacheSize": 6689,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:54:27.603Z",
+  "updatedAt": "2026-09-21T15:01:29.686Z",
   "month": "2026-09",
   "mode": "sequential quota provider pool + best Amazon candidate per product",
   "startIndex": 0,
@@ -7,7 +7,7 @@
   "providerUsage": {
     "decodo": 700,
     "decodo_2": 700,
-    "decodo_3": 100
+    "decodo_3": 700
   },
   "providerBudgets": {
     "serpapi_1": 250,
@@ -19,8 +19,8 @@
     "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 8,
-  "failures": 1492,
+  "matches": 5,
+  "failures": 1148,
   "resetAmazonCache": true,
   "matrixQuotaSeededFromStartIndex": true,
   "note": "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Decodo 1, Decodo 2 and Decodo 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider.",
@@ -28,12 +28,12 @@
     {
       "startIndex": 0,
       "maxProducts": 200,
-      "matches": 1,
-      "failures": 199,
+      "matches": 2,
+      "failures": 198,
       "providerUsage": {
-        "decodo": 200,
-        "decodo_2": 0,
-        "decodo_3": 0
+        "decodo": 700,
+        "decodo_2": 700,
+        "decodo_3": 149
       }
     },
     {
@@ -42,75 +42,75 @@
       "matches": 1,
       "failures": 199,
       "providerUsage": {
-        "decodo": 400,
-        "decodo_2": 0,
-        "decodo_3": 0
+        "decodo": 700,
+        "decodo_2": 700,
+        "decodo_3": 150
       }
     },
     {
       "startIndex": 400,
       "maxProducts": 200,
-      "matches": 1,
-      "failures": 199,
+      "matches": 0,
+      "failures": 200,
       "providerUsage": {
-        "decodo": 600,
-        "decodo_2": 0,
-        "decodo_3": 0
+        "decodo": 700,
+        "decodo_2": 700,
+        "decodo_3": 150
       }
     },
     {
       "startIndex": 600,
       "maxProducts": 200,
-      "matches": 0,
-      "failures": 200,
+      "matches": 1,
+      "failures": 199,
       "providerUsage": {
         "decodo": 700,
-        "decodo_2": 100,
-        "decodo_3": 0
+        "decodo_2": 700,
+        "decodo_3": 150
       }
     },
     {
       "startIndex": 800,
       "maxProducts": 200,
-      "matches": 0,
-      "failures": 200,
+      "matches": 1,
+      "failures": 199,
       "providerUsage": {
         "decodo": 700,
-        "decodo_2": 300,
-        "decodo_3": 0
+        "decodo_2": 700,
+        "decodo_3": 152
       }
     },
     {
       "startIndex": 1000,
       "maxProducts": 200,
-      "matches": 3,
-      "failures": 197,
+      "matches": 0,
+      "failures": 53,
       "providerUsage": {
         "decodo": 700,
-        "decodo_2": 500,
-        "decodo_3": 0
+        "decodo_2": 700,
+        "decodo_3": 700
       }
     },
     {
       "startIndex": 1200,
       "maxProducts": 200,
-      "matches": 2,
-      "failures": 198,
+      "matches": 0,
+      "failures": 52,
       "providerUsage": {
         "decodo": 700,
         "decodo_2": 700,
-        "decodo_3": 0
+        "decodo_3": 700
       }
     },
     {
       "startIndex": 1400,
       "maxProducts": 200,
       "matches": 0,
-      "failures": 100,
+      "failures": 48,
       "providerUsage": {
         "decodo": 700,
         "decodo_2": 700,
-        "decodo_3": 100
+        "decodo_3": 700
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:22:10.585Z",
+  "updatedAt": "2026-09-21T12:35:24.858Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 78,
-  "failedCount": 72,
-  "lastKeyword": "headphones headset earphone",
+  "savedSignalCount": 66,
+  "failedCount": 84,
+  "lastKeyword": "mount converter adapter",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3768,
-  "reusedVariantChecks": 927,
-  "variantCacheSize": 3768,
+  "uniqueVariantsFetched": 3894,
+  "reusedVariantChecks": 614,
+  "variantCacheSize": 3894,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T02:21:57.792Z",
+  "updatedAt": "2026-09-21T13:17:29.288Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 70,
-  "failedCount": 80,
-  "lastKeyword": "shoe cat shoes",
+  "savedSignalCount": 44,
+  "failedCount": 106,
+  "lastKeyword": "home office storage shoe rack",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4993,
-  "reusedVariantChecks": 1034,
-  "variantCacheSize": 4993,
+  "uniqueVariantsFetched": 4865,
+  "reusedVariantChecks": 663,
+  "variantCacheSize": 4865,
   "keywordTimeoutMs": 180000
 }

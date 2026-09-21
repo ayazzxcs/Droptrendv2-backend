@@ -1,445 +1,137 @@
 [
   {
-    "productId": "2609121948301614100",
-    "productName": "Elegant Black-and-white Color-blocked Coat And Slip Dress Two-piece Set",
-    "productImage": "https://cf.cjdropshipping.com/quick/product/395dfae8-765c-4fa6-b6fc-acef4014d1a5.jpg",
-    "provider": "decodo",
-    "amazonCandidatesChecked": 8,
+    "productId": "2609200331061618600",
+    "productName": "Women's Fashion Long-Sleeved V-Neck Knitted Patchwork Floral Dress",
+    "productImage": "https://cf.cjdropshipping.com/quick/product/245dd286-1c32-483a-8e35-32c19474aea7.jpg",
+    "provider": "decodo_3",
+    "amazonCandidatesChecked": 6,
     "candidateFailures": [
       {
-        "candidate": 1,
-        "amazonUrl": "https://www.amazon.com/clp/B0D83QX78R",
-        "title": "More to explore",
-        "rating": 4,
-        "ratingsTotal": 0,
-        "matchScore": 0,
-        "reason": "weak amazon title match: 0"
-      },
-      {
-        "candidate": 3,
-        "amazonUrl": "https://www.amazon.com/GORGLITTER-Fi",
-        "title": "Page Not Found",
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/PR",
+        "title": "Amazon Global Press Center",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
         "candidate": 4,
-        "amazonUrl": "https://www.amazon.co.uk/ZESICA-Spaghetti-Sleeveless-Bodycon-Contrast/dp/B0D3CGWVHM",
-        "title": "ZESICA Women's 2025 Summer Spaghetti Straps Maxi Dress Sleeveless Square Neck Lightweight Long Beach Dresses",
-        "rating": 4.2,
-        "ratingsTotal": 379,
-        "matchScore": 13,
-        "reason": "weak amazon title match: 13"
-      },
-      {
-        "candidate": 5,
-        "amazonUrl": "https://www.amazon.co.uk/ZE",
+        "amazonUrl": "https://www.amazon.com/Allegra-Women",
         "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.ae/bridgeport-Womens-Skirt-37229085-BR02-Beige/dp/B0CNS3JRW3",
+        "title": "bridgeport Women's Maxi Skirt",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      },
+      {
         "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/shop/bonniewyrick/photo/amzn1.shoppablemedia.v1.ed5f0dbf-992a-4198-8e2d-a65aae4581d0",
-        "title": "Bonnie Wyrick's Amazon Page",
+        "amazonUrl": "https://www.amazon.ae/bridgeport-Women",
+        "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 7,
-        "amazonUrl": "https://www.amazon.com/",
-        "title": "Amazon.com. Spend less. Smile more.",
-        "rating": 3.5,
-        "ratingsTotal": 4,
-        "matchScore": 0,
-        "reason": "weak amazon title match: 0"
-      },
-      {
-        "candidate": 8,
-        "amazonUrl": "https://www.amazon.com/GORGLITTER-Bodycon-Sleeveless-Sweetheart-Backless/dp/B0DTYCYY6Z",
-        "title": "GORGLITTER Women's Floral Bodycon Midi Dress Sleeveless Sweetheart Neck Backless Dresses Wedding Guest Summer Dress",
-        "rating": 3.1,
-        "ratingsTotal": 17,
-        "matchScore": 13,
-        "reason": "weak amazon title match: 13"
       }
     ],
     "amazon": {
-      "title": "GORGLITTER Women's Lace Fishtail Bodycon Maxi Dress Elegant Classy Fall Long Sleeve Mock Neck Cocktail Patchwork Dress",
-      "url": "https://www.amazon.com/GORGLITTER-Fishtail-Bodycon-Cocktail-Patchwork/dp/B0FHKKBJZT",
-      "asin": "B0FHKK643N",
-      "rating": 3.2,
-      "ratingsTotal": 12,
+      "title": "Women's Boho Maxi Skirt Floral Smocked High Waist Long Skirts with Pockets",
+      "url": "https://www.amazon.com/PRSFPN-Womens-Printed-Smocked-Pockets/dp/B0G2S5J5MQ",
+      "asin": "B0G2S615FY",
+      "rating": 4.1,
+      "ratingsTotal": 236,
       "isBestSeller": false,
       "badgeText": "",
       "matchScore": 25,
-      "score": 35,
-      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-      "blocked": false,
-      "httpStatus": 0,
-      "fetchedAt": "2026-09-14T22:12:55.375Z",
-      "candidatePosition": 2
-    }
-  },
-  {
-    "productId": "2099423300064346114",
-    "productName": "Power Orange Leatheraire Lift Recliner Chair Dual Motor Infinite Position Up to 350 LBS with Solid Wood Armrests, Heat Massage and Heavy Duty Motion Mechanism",
-    "productImage": "https://cf.cjdropshipping.com/giga-import/05c6478858694fac863acd900ccb8fa5.jpg",
-    "provider": "decodo",
-    "amazonCandidatesChecked": 8,
-    "candidateFailures": [
-      {
-        "candidate": 1,
-        "amazonUrl": "https://www.amazon.com/GarveeHome-Recliner-Oversized-Electric-Adjustable/dp/B0FH64PMPH",
-        "title": "Amazon.com",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/GarveeHome-Recliner-Over",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 4,
-        "amazonUrl": "https://www.amazon.eg/-/en/Recliner-Adju",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 5,
-        "amazonUrl": "https://www.amazon.com/MCombo-Recliner-Massage-Adjustable-Headrest/dp/B0CNVDF23Z",
-        "title": "Amazon.com",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/MCombo-Recliner-Ma",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 8,
-        "amazonUrl": "https://www.amazon.com/Wat",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      }
-    ],
-    "amazon": {
-      "title": "Power Lift Recliner Chair for Elderly with Adjustable Headrest, Oversized Lay Flat Recliner with Massage and Heat,28\" Extra Wide Lift Chair for Big and Tall,Infinite Position,Extended Footrest, Camel",
-      "url": "https://www.amazon.eg/-/en/Recliner-Adjustable-Headrest-Oversized-Infinite/dp/B0F8V2DLZQ",
-      "asin": "B0F8V2DLZQ",
-      "rating": 4.2,
-      "ratingsTotal": 8,
-      "isBestSeller": false,
-      "badgeText": "",
-      "matchScore": 38,
-      "score": 40,
+      "score": 55,
       "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
       "blocked": false,
       "httpStatus": 200,
-      "fetchedAt": "2026-09-14T22:13:37.576Z",
-      "candidatePosition": 3
+      "fetchedAt": "2026-09-21T09:28:12.015Z",
+      "candidatePosition": 1
     }
   },
   {
-    "productId": "2609121150581639100",
-    "productName": "Hooded Zip-up Casual Loose-fitting Jumpsuit",
-    "productImage": "https://oss-cf.cjdropshipping.com/product/2026/09/12/11/d92622d2-630a-485c-85e5-5703624c31aa.jpg",
-    "provider": "decodo",
-    "amazonCandidatesChecked": 8,
+    "productId": "2609200231331622400",
+    "productName": "Women's Solid-color Warm Cotton-padded Coat With A Large Fur-lined Hood",
+    "productImage": "https://cf.cjdropshipping.com/quick/product/8a48d3b7-c8fb-4362-912a-4672f88c49a9.jpg",
+    "provider": "decodo_3",
+    "amazonCandidatesChecked": 7,
     "candidateFailures": [
       {
         "candidate": 1,
-        "amazonUrl": "https://www.amazon.fr/-/en/Unisex-Adult-Coral-Pajamas-Onesie/dp/B0CMXHVLXF",
-        "title": "Unisex Adult Coral Pink Pajamas Onesie",
-        "rating": 5,
-        "ratingsTotal": 0,
-        "matchScore": 0,
-        "reason": "weak amazon title match: 0"
-      },
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.fr/-/en/Uni",
-        "title": "Page introuvable",
+        "amazonUrl": "https://www.amazon.com.au/Belted-Hooded-Puffer-Padded-Winter/dp/B0G136BF73",
+        "title": "Server Busy",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
         "candidate": 3,
-        "amazonUrl": "https://www.amazon.com/PajamaGram-Womens-Onesie-Footie-Pajamas/dp/B0F3GTGLSP",
-        "title": "Amazon.com",
+        "amazonUrl": "https://www.amazon.de/-/en/Chnnamzu-Rever",
+        "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
         "candidate": 4,
-        "amazonUrl": "https://www.amazon.com/PajamaGram-Women",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/One",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 7,
-        "amazonUrl": "https://www.amazon.ca/Sinestour-Pajamas-Costume-Jumpsuit-Multicolor/dp/B0CJJFJ3XC",
+        "amazonUrl": "https://www.amazon.ca/Womens-Winter-Resistant-Medium-Jacket/dp/B0DLG3KQ27",
         "title": "Amazon.ca",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
-        "candidate": 8,
-        "amazonUrl": "https://www.amazon.ca/",
-        "title": "Amazon.ca: Low Prices – Fast Shipping – Millions of Items",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      }
-    ],
-    "amazon": {
-      "title": "Sexy Adult Onesie Pajamas for Women Butt Flap Fleece Hooded One Piece Pajamas Womens Fluffy Sleepwear",
-      "url": "https://www.amazon.com/Onesie-Pajamas-Fleece-Hooded-Sleepwear/dp/B0CL8VJMP2",
-      "asin": "B0CKQFP1X9",
-      "rating": 3.8,
-      "ratingsTotal": 169,
-      "isBestSeller": false,
-      "badgeText": "",
-      "matchScore": 20,
-      "score": 51,
-      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-      "blocked": false,
-      "httpStatus": 200,
-      "fetchedAt": "2026-09-14T22:14:06.818Z",
-      "candidatePosition": 5
-    }
-  },
-  {
-    "productId": "aliexpress-3256812556837342",
-    "productName": "HTC NE58 Wireless Earphones Bluetooth LED Touch Screen AI Translate Earbuds HiFi Sound HD Call Headphones Bone Conduction",
-    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S1b6dc4a6610c4578bb0902da4e99f0d0g.jpg",
-    "provider": "decodo_2",
-    "amazonCandidatesChecked": 8,
-    "candidateFailures": [
-      {
-        "candidate": 1,
-        "amazonUrl": "https://www.amazon.com/ABCDONG-Conduction-Headphones-Bluetooth-Earphones/dp/B0D7TH5R2T",
-        "title": "Amazon.com",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/ABCDONG-Conduction-Headphone",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 4,
-        "amazonUrl": "https://www.amazon.co.uk/GYQX-Bluetooth-Earphone",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
         "candidate": 5,
-        "amazonUrl": "https://www.amazon.com/clp/B0D7J25C6X",
-        "title": "More to explore",
-        "rating": 4,
-        "ratingsTotal": 0,
-        "matchScore": 0,
-        "reason": "weak amazon title match: 0"
-      },
-      {
-        "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/clp/B0F8HNLTPW",
-        "title": "More to explore",
-        "rating": 4,
-        "ratingsTotal": 0,
-        "matchScore": 0,
-        "reason": "weak amazon title match: 0"
-      },
-      {
-        "candidate": 8,
-        "amazonUrl": "https://www.amazon.com/Bluetooth-earphone",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      }
-    ],
-    "amazon": {
-      "title": "A90 Bluetooth earphones, equipped with an intelligent color touch screen, supporting ANC and ENC active noise reduction functions, wireless audio earbuds for better sound quality and comfort (BLACK)",
-      "url": "https://www.amazon.com/Bluetooth-earphones-intelligent-supporting-reduction/dp/B0FC6W61TT",
-      "asin": "B0FC6W61TT",
-      "rating": 5,
-      "ratingsTotal": 2,
-      "isBestSeller": false,
-      "badgeText": "",
-      "matchScore": 44,
-      "score": 40,
-      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-      "blocked": false,
-      "httpStatus": 0,
-      "fetchedAt": "2026-09-14T22:31:47.427Z",
-      "candidatePosition": 7
-    }
-  },
-  {
-    "productId": "aliexpress-3256809091603850",
-    "productName": "New 10 Pairs Of Natural Full False Eyelashes,Thick Curling Fluffy Eyelashes For Party Use Manga Eyelashes, Travel Essentials",
-    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S60eef0d30ec642a58ef80974dc456643W.jpg",
-    "provider": "decodo_2",
-    "amazonCandidatesChecked": 6,
-    "candidateFailures": [
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/HBZGTLAD-Natural-Eyela",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/Eyela",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      }
-    ],
-    "amazon": {
-      "title": "5Pairs 3D Faux Mink Lashes Natural Long Fluffy False Eyelashes Soft Eye Lashes Reusable Makeup Short Lashes Extension for Beauty (FG-005)",
-      "url": "https://www.amazon.com/HBZGTLAD-Natural-Eyelashes-Reusable-Extension/dp/B09ZXKY3KN",
-      "asin": "B09ZXKY3KN",
-      "rating": 3.9,
-      "ratingsTotal": 22,
-      "isBestSeller": false,
-      "badgeText": "",
-      "matchScore": 40,
-      "score": 42,
-      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-      "blocked": false,
-      "httpStatus": 0,
-      "fetchedAt": "2026-09-14T22:32:30.802Z",
-      "candidatePosition": 1
-    }
-  },
-  {
-    "productId": "aliexpress-3256807290176159",
-    "productName": "1-4PCS Sealed Jars Kitchen Organizer Grain Storage Boxes Large Capacity Sealed Container Seasoning Jars Set Fresh-keeping Tank",
-    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S95b28c396b804981821f9acff86cbd01Y.jpg",
-    "provider": "decodo_2",
-    "amazonCandidatesChecked": 8,
-    "candidateFailures": [
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/Fre",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 4,
-        "amazonUrl": "https://www.amazon.com/PRAKI-Airtight-Food-",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 5,
-        "amazonUrl": "https://www.amazon.com/Airtight-Containers-Organization-PRAKI-Canisters/dp/B09ZL99MRJ",
-        "title": "PRAKI 30 Pack Airtight Food Storage Containers for Organizers and Storage",
-        "rating": 4.5,
-        "ratingsTotal": 3721,
-        "matchScore": 6,
-        "reason": "weak amazon title match: 6"
-      },
-      {
-        "candidate": 6,
-        "amazonUrl": "https://www.amazon.com/Airtight-Container",
-        "title": "Page Not Found",
+        "amazonUrl": "https://www.amazon.ca/Women",
+        "title": "Amazon.ca Something Went Wrong / Quelque chose s'est mal passé",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       },
       {
         "candidate": 7,
-        "amazonUrl": "https://www.amazon.com/Airtight-Storage-Containers-PRAKI-Plastic/dp/B08ZHLXPJ1",
-        "title": "PRAKI 10 PCS Flour Sugar Storage Containers for Organizers and Storage",
-        "rating": 4.6,
-        "ratingsTotal": 4563,
-        "matchScore": 6,
-        "reason": "weak amazon title match: 6"
-      },
-      {
-        "candidate": 8,
-        "amazonUrl": "https://www.amazon.com/Airtight-",
-        "title": "Page Not Found",
+        "amazonUrl": "https://www.amazon.it/-/en/LANGWEI-Women",
+        "title": "Impossibile trovare la pagina",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
       }
     ],
     "amazon": {
-      "title": "Cereal Containers Storage Set, Airtight Food Storage Container with Lid 4L/135.2oz,4PCS BPA-FREE Plastic Pantry Organization Canisters for Rice Cereal Flour Sugar Dry Food in Kitchen",
-      "url": "https://www.amazon.com/FreshKeeper-Containers-Container-4PCS-Organization/dp/B0BFQ54P6X",
-      "asin": "B0BFQ54P6X",
-      "rating": 4.6,
-      "ratingsTotal": 3136,
+      "title": "Chnnamzu Down Coat Women's Long Down Jacket Women's Winter Reversible Wear Puffer Jacket Coat Lightweight Quilted Jacket Knee-Length Winter Jacket Warm Winter Coat with Hood",
+      "url": "https://www.amazon.de/-/en/Chnnamzu-Reversible-Lightweight-Quilted-Knee-Length/dp/B0CKSC52TW",
+      "asin": "B0CKSGQGX6",
+      "rating": 5,
+      "ratingsTotal": 0,
       "isBestSeller": false,
       "badgeText": "",
-      "matchScore": 24,
-      "score": 71,
+      "matchScore": 50,
+      "score": 35,
       "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
       "blocked": false,
-      "httpStatus": 0,
-      "fetchedAt": "2026-09-14T22:34:17.618Z",
-      "candidatePosition": 1
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-21T09:30:30.368Z",
+      "candidatePosition": 2
     }
   },
   {
-    "productId": "aliexpress-3256809276578883",
-    "productName": "Baseus Inspire XH1 Sound by Bose ANC Wireless Headphone Bluetooth 6.1 48dB Adaptive Noise Cancellation Headset Hi-Res LDAC 100Hr",
-    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sd99c82d5907d4af3856b8565b461d1a6F.jpg",
-    "provider": "decodo_2",
+    "productId": "2101136935460401153",
+    "productName": "SUXXAN Garage Storage Cabinet With Pegboard,5 Adjustable Shelves,Black-red",
+    "productImage": "https://cf.cjdropshipping.com/42949f4d-4122-43b8-a90e-4ca46fbcae44.jpg",
+    "provider": "decodo_3",
     "amazonCandidatesChecked": 8,
     "candidateFailures": [
       {
         "candidate": 1,
-        "amazonUrl": "https://www.amazon.com/QCY-H3-ANC-Headphones-Microphones/dp/B0CFZVJ9VZ",
+        "amazonUrl": "https://us.amazon.com/Aobabo-Cabinet-Pegboard-Assembly-Black/dp/B0CXP95H36",
         "title": "Amazon.com",
         "rating": "",
         "ratingsTotal": 0,
@@ -447,7 +139,139 @@
       },
       {
         "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/QCY-H3-ANC-Headphone",
+        "amazonUrl": "https://www.amazon.com/GangMei-Storage-Cabinet-cabinets-Warehouse/dp/B0CT8D13MF",
+        "title": "Amazon.com",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/GangMei-",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.com/",
+        "title": "Amazon.com. Spend less. Smile more.",
+        "rating": 4.3,
+        "ratingsTotal": 4,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.com/Fe",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "amazon": {
+      "title": "Garage Storage Cabinet with 5 Adjustable Shelves,Metal Storage Cabinet with Lock,Red Black Metal Cabinet with Locking Doors,Steel Cabinet,71\" Lockable Storage Cabinet for Home,Office,Garage Cabinets",
+      "url": "https://www.amazon.ae/Storage-Cabinet-Adjustable-Lockable-Cabinets/dp/B0D4H318ZF",
+      "asin": "B0D4H318ZF",
+      "rating": 4.6,
+      "ratingsTotal": 53,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 63,
+      "score": 54,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-21T09:30:48.032Z",
+      "candidatePosition": 8
+    }
+  },
+  {
+    "productId": "aliexpress-3256808545893859",
+    "productName": "3pcs Unisex Square Frame Blue Light Blocking Glasses - Stylish Campus Look, Face-Flattering Optical Eyewea",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd883473cdd14ad68e151a94347c62bcv.jpg",
+    "provider": "decodo_3",
+    "amazonCandidatesChecked": 7,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/Bloomoak-Blocking-Glasses-Relieve-Fatigue/dp/B0DQV3LBG9",
+        "title": "Amazon.com",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/Bloomoak-Blocking-Gla",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/LJCZKA-Blocking-Gla",
+        "title": "Page Not Found",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.in/",
+        "title": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.com/clp/B0FDQ9ZX2N",
+        "title": "More to explore",
+        "rating": 4,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "amazon": {
+      "title": "High Tech Blue Light Blocking Gaming Glasses",
+      "url": "https://www.amazon.in/SLR-Eyewear-Blocking-Gaming-Glasses/dp/B0HJMGLJ7Y",
+      "asin": "B0HJMGLJ7Y",
+      "rating": 4,
+      "ratingsTotal": 499,
+      "isBestSeller": false,
+      "badgeText": "",
+      "matchScore": 29,
+      "score": 58,
+      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+      "blocked": false,
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-21T09:29:12.034Z",
+      "candidatePosition": 5
+    }
+  },
+  {
+    "productId": "aliexpress-3256809322439073",
+    "productName": "1/3pcs Multi-Functional Storage Box Set, Curved Space-Saving Design, Stackable Organizer Bins for Home Organization, Kitchen",
+    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/S3eb4aea9de3c4c678a0ae9eca4762b79m.jpg",
+    "provider": "decodo_3",
+    "amazonCandidatesChecked": 8,
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/Plastic-Pedicure-Container-Storage-Manicure/dp/B0C65MDNP9",
+        "title": "Amazon.com",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/Pla",
         "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
@@ -455,90 +279,24 @@
       },
       {
         "candidate": 3,
-        "amazonUrl": "https://www.amazon.com/VOKALEN-Adaptive-Noise-Cancelling-Headphones-Bluetooth/dp/B0DHFLC5SS",
-        "title": "Amazon.com",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
+        "amazonUrl": "https://www.amazon.com/Transparent-Organizer-Container-Organizing-7-1x1-96x1-18/dp/B09K65171J",
+        "title": "Lokyango Manicure Tool Box, 8PCS Clear Box for Nail Tool (7.1x1.96x1.18)",
+        "rating": 4.7,
+        "ratingsTotal": 249,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
       },
       {
         "candidate": 4,
-        "amazonUrl": "https://www.amazon.com/VOKALEN-Adaptive-Noi",
+        "amazonUrl": "https://www.amazon.com/Tran",
         "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
         "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 7,
-        "amazonUrl": "https://www.amazon.com/QCY-H3",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      }
-    ],
-    "amazon": {
-      "title": "QCY H3 ANC Bluetooth Headphones Active Noise Cancellation, Wireless Over Ear Headphones with Hi-Res Audio, Clear Calls, 60 Hours Playback, MultiPoint Connection, Customisable EQ, Bluetooth 5.4",
-      "url": "https://www.amazon.eg/-/en/QCY-Headphones-Cancellation-MultiPoint-Customisable/dp/B0CFZVJ9VZ",
-      "asin": "B0CFZVJ9VZ",
-      "rating": 4.6,
-      "ratingsTotal": 1922,
-      "isBestSeller": false,
-      "badgeText": "",
-      "matchScore": 35,
-      "score": 68,
-      "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-      "blocked": false,
-      "httpStatus": 200,
-      "fetchedAt": "2026-09-14T22:32:06.508Z",
-      "candidatePosition": 8
-    }
-  },
-  {
-    "productId": "aliexpress-3256808598834675",
-    "productName": "CUSU M2 SSD 256gb 512gb 1tb 2tb SSD NVMe M.2 2280 PCIe 3.0x4 Hard Disk Internal Solid State Drive for Computer Laptop",
-    "productImage": "https://ae-pic-a1.aliexpress-media.com/kf/H387be2bca4204183aa7656722f3275c4K.jpg",
-    "provider": "decodo_2",
-    "amazonCandidatesChecked": 8,
-    "candidateFailures": [
-      {
-        "candidate": 1,
-        "amazonUrl": "https://www.amazon.com/Diyeeni-Controller-Expansion-Profile-Interface/dp/B085NQVHLQ",
-        "title": "PCIE SATA Cards, Ports SATA III 6Gbps Controller Cards with Low Bracket, PCIE (1X 2X 4X 8X 16X) SATA3.0 Interface Expansion Cards for for Linux",
-        "rating": 4.4,
-        "ratingsTotal": 109,
-        "matchScore": 5,
-        "reason": "weak amazon title match: 5"
-      },
-      {
-        "candidate": 2,
-        "amazonUrl": "https://www.amazon.com/Diyeeni-Controller-Expan",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 4,
-        "amazonUrl": "https://www.amazon.com/Zop",
-        "title": "Page Not Found",
-        "rating": "",
-        "ratingsTotal": 0,
-        "reason": "amazon candidate missing title and usable rating/review/badge data"
-      },
-      {
-        "candidate": 5,
-        "amazonUrl": "https://www.amazon.in/Expansion-SATA3-0-Interface-Controller-Windows/dp/B0CBVRN63D",
-        "title": "SATA Card, PCIE to SATA 3.0 Expansion Board, 8 Port SATA3.0 Interface, 6Gbps PCI E X1 X4 X8 X16 SATA 3.0 Controller Card, for Windows Linux",
-        "rating": 3.7,
-        "ratingsTotal": 4,
-        "matchScore": 5,
-        "reason": "weak amazon title match: 5"
       },
       {
         "candidate": 6,
-        "amazonUrl": "https://www.amazon.in/Expan",
+        "amazonUrl": "https://www.amazon.de/Ko",
         "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
@@ -546,16 +304,16 @@
       },
       {
         "candidate": 7,
-        "amazonUrl": "https://www.amazon.com/Expansion-Baffle-Windows-Support-Swappable/dp/B0C9JXLT98",
-        "title": "Pomya 8 Port SATA Card, PCIE to SATA 3.0 Expansion Board with Large Heat Sink, Short Baffle for and Linux, Support Hot Swappable Boot System Disk",
-        "rating": 3.2,
-        "ratingsTotal": 3,
-        "matchScore": 11,
-        "reason": "weak amazon title match: 11"
+        "amazonUrl": "https://www.amazon.com/Rolabling-Transparent-Plastic-Equipment-Manicure/dp/B079BMY9B6",
+        "title": "Transparent Box Storage Case for Nail Art Equipment Manicure Tool",
+        "rating": 4.6,
+        "ratingsTotal": 432,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
       },
       {
         "candidate": 8,
-        "amazonUrl": "https://www.amazon.com/Expan",
+        "amazonUrl": "https://www.amazon.com/Rolabling-Tran",
         "title": "Page Not Found",
         "rating": "",
         "ratingsTotal": 0,
@@ -563,20 +321,20 @@
       }
     ],
     "amazon": {
-      "title": "PCIe Expansion Card, High Speed 8 Port 3.0 Controller Board with PCIE to Adapter for Internal SSD HDD Storage Upgrade",
-      "url": "https://www.amazon.com/Zopsc-Controller-Expansion-Interface-Compatible/dp/B085C5VGPG",
-      "asin": "B085C5VGPG",
-      "rating": 4.6,
-      "ratingsTotal": 3,
+      "title": "Kosmetex File Box Transparent and Pink for Files and Make-Up Brushes Removable Shelf Storage Box Set of 2",
+      "url": "https://www.amazon.de/Kosmetex-transparent-Schminkpinsel-herausnehmbarer-Aufbewahrungsbox/dp/B01I6X0UTI",
+      "asin": "B01I6X0UTI",
+      "rating": 4,
+      "ratingsTotal": 1,
       "isBestSeller": false,
       "badgeText": "",
       "matchScore": 21,
-      "score": 39,
+      "score": 31,
       "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
       "blocked": false,
-      "httpStatus": 0,
-      "fetchedAt": "2026-09-14T22:33:16.213Z",
-      "candidatePosition": 3
+      "httpStatus": 200,
+      "fetchedAt": "2026-09-21T09:29:16.248Z",
+      "candidatePosition": 5
     }
   }
 ]
