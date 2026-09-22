@@ -644,6 +644,22 @@ function extractEmbeddedAmazonData(html) {
   return { title, rating, ratingsTotal };
 }
 
+function betterAmazonCandidate(candidate, best) {
+  if (!best) return true;
+
+  // Prefer stronger title match first, then demand score,
+  // then the total number of reviews.
+  if (num(candidate.matchScore) !== num(best.matchScore)) {
+    return num(candidate.matchScore) > num(best.matchScore);
+  }
+
+  if (num(candidate.score) !== num(best.score)) {
+    return num(candidate.score) > num(best.score);
+  }
+
+  return num(candidate.ratingsTotal) > num(best.ratingsTotal);
+}
+
 async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
   const amazonUrl = candidate.url;
   const page = await browser.newPage();
