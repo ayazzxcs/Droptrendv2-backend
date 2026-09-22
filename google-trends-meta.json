@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-09-21T04:53:45.965Z",
-=======
-  "updatedAt": "2026-09-21T15:01:29.620Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-09-22T08:53:30.419Z",
   "source": "google-trends-chunk-merge",
   "expectedChunks": 0,
   "foundChunkCount": 10,
