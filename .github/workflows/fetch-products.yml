@@ -661,18 +661,31 @@ jobs:
           test -f node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js
  
       - name: Install Puppeteer Chrome
+        shell: bash
         run: |
-          npx --yes @puppeteer/browsers@latest install chrome@stable
+           set -euo pipefail
 
-          CHROME_PATH=$(find "$GITHUB_WORKSPACE/chrome" -type f -name chrome | head -n 1)
+           rm -rf "$GITHUB_WORKSPACE/chrome"
 
-          if [ -z "$CHROME_PATH" ]; then
-          echo "Chrome executable not found"
+           npx --yes @puppeteer/browsers@25.3.0 install \
+            chrome@stable \
+            --path "$GITHUB_WORKSPACE/chrome"
+     
+           CHROME_PATH="$(
+            find "$GITHUB_WORKSPACE/chrome" -type f \
+            \( -name chrome -o -name chrome-linux \) \
+            -print -quit
+            )"
+
+           if [ -z "$CHROME_PATH" ]; then
+           echo "Chrome executable not found under $GITHUB_WORKSPACE/chrome"
+           find "$GITHUB_WORKSPACE/chrome" -maxdepth 5 -type f -print || true
            exit 1
-          fi
+           fi
 
-          echo "Chrome found at: $CHROME_PATH"
-          echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV" 
+           chmod +x "$CHROME_PATH"
+           echo "Chrome found at: $CHROME_PATH"
+           echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
 
       - name: Fetch Monthly Lens Amazon Matches chunk
         run: node scripts/fetch-monthly-lens-amazon-matches.js
