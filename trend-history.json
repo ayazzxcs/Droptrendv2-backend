@@ -8497,17 +8497,17 @@
     {
       "date": "2026-09-30",
       "productId": "2609200331061618600",
-      "quvirlScore": 39,
-      "dropTrendScore": 39,
+      "quvirlScore": 17,
+      "dropTrendScore": 17,
       "googleScore": 10,
-      "amazonScore": 55,
+      "amazonScore": 0,
       "supplierScore": 66,
       "cjScore": 66,
       "aliExpressScore": 0,
       "googleKeyword": "long sleeved neck knitted patchwork floral dress",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "2609190646221638600": [
@@ -8730,17 +8730,17 @@
     {
       "date": "2026-09-30",
       "productId": "2609200231331622400",
-      "quvirlScore": 33,
-      "dropTrendScore": 33,
+      "quvirlScore": 19,
+      "dropTrendScore": 19,
       "googleScore": 15,
-      "amazonScore": 35,
+      "amazonScore": 0,
       "supplierScore": 65,
       "cjScore": 65,
       "aliExpressScore": 0,
       "googleKeyword": "warm cotton padded coat fur lined",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "2101146905576861697": [
@@ -18653,17 +18653,17 @@
     {
       "date": "2026-09-30",
       "productId": "2101136935460401153",
-      "quvirlScore": 34,
-      "dropTrendScore": 34,
+      "quvirlScore": 12,
+      "dropTrendScore": 12,
       "googleScore": 0,
-      "amazonScore": 54,
+      "amazonScore": 0,
       "supplierScore": 62,
       "cjScore": 62,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2609200826241605600": [
@@ -37913,17 +37913,17 @@
     {
       "date": "2026-09-30",
       "productId": "aliexpress-3256808545893859",
-      "quvirlScore": 60,
-      "dropTrendScore": 60,
+      "quvirlScore": 37,
+      "dropTrendScore": 37,
       "googleScore": 42,
-      "amazonScore": 58,
+      "amazonScore": 0,
       "supplierScore": 100,
       "cjScore": 0,
       "aliExpressScore": 100,
       "googleKeyword": "blue light",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "AliExpress",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "aliexpress-3256807605957648": [
@@ -48385,17 +48385,17 @@
     {
       "date": "2026-09-30",
       "productId": "aliexpress-3256809322439073",
-      "quvirlScore": 32,
-      "dropTrendScore": 32,
+      "quvirlScore": 20,
+      "dropTrendScore": 20,
       "googleScore": 0,
-      "amazonScore": 31,
+      "amazonScore": 0,
       "supplierScore": 100,
       "cjScore": 0,
       "aliExpressScore": 100,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "AliExpress",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "aliexpress-3256805977584892": [
