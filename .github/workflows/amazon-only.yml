@@ -2,41 +2,10 @@ name: Amazon Only
 
 on:
   workflow_dispatch:
-    inputs:
-      chunk:
-        description: "Chunk to run (or 'all' for full matrix)"
-        required: false
-        default: "all"
-        type: choice
-        options:
-          - "all"
-          - "amazon-lens-0"
-          - "amazon-lens-200"
-          - "amazon-lens-400"
-          - "amazon-lens-600"
-          - "amazon-lens-800"
-          - "amazon-lens-1000"
-          - "amazon-lens-1200"
-          - "amazon-lens-1400"
-      test_limit:
-        description: "Max products per chunk (leave empty for default 200, or enter e.g. 5, 10, 20 for fast testing)"
-        required: false
-        default: ""
-      refresh_amazon:
-        description: "Force refresh Amazon monthly cache?"
-        required: false
-        default: "true"
-        type: choice
-        options:
-          - "true"
-          - "false"
 
   push:
     branches:
       - main
-    paths:
-      - "scripts/fetch-monthly-lens-amazon-matches.js"
-      - ".github/workflows/amazon-only.yml"
 
 permissions:
   contents: write
@@ -47,8 +16,6 @@ jobs:
   # =================================================================
 
   amazon-lens:
-    name: ${{ matrix.name }}
-    if: ${{ github.event_name != 'workflow_dispatch' || !inputs.chunk || inputs.chunk == 'all' || inputs.chunk == matrix.name }}
     runs-on: ubuntu-latest
     timeout-minutes: 360
 
@@ -72,6 +39,19 @@ jobs:
       NPM_CONFIG_FETCH_TIMEOUT: 300000
       NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 10000
       NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 60000
+      RESET_AMAZON_CACHE: "true"
+      MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
+      MONTHLY_LENS_MAX_PRODUCTS: ${{ matrix.limit }}
+      MONTHLY_LENS_DELAY_MS: 1500
+      AMAZON_PAGE_DELAY_MS: 4500
+      AMAZON_MIN_TITLE_MATCH: 15
+      AMAZON_CANDIDATE_LIMIT: 8
+      DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
+      DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
+      DECODO_3_AUTH_BASE64: ${{ secrets.DECODO_3_AUTH_BASE64 }}
+      DECODO_MONTHLY_LIMIT: 700
+      DECODO_2_MONTHLY_LIMIT: 700
+      DECODO_3_MONTHLY_LIMIT: 700
 
     steps:
 
@@ -267,6 +247,50 @@ jobs:
           fi
 
       # ============================================================
+      # VALIDATE EXISTING JSON FILES
+      # ============================================================
+
+      - name: Validate existing JSON files
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Validating JSON files"
+          echo "============================================================"
+
+          FAILED=0
+
+          while IFS= read -r -d '' file; do
+            if ! python3 - "$file" <<'PY'
+          import json
+          import sys
+
+          path = sys.argv[1]
+
+          try:
+              with open(path, "r", encoding="utf-8") as f:
+                  json.load(f)
+          except Exception as exc:
+              print(f"INVALID JSON: {path}")
+              print(exc)
+              sys.exit(1)
+
+          print(f"VALID JSON: {path}")
+          PY
+            then
+              FAILED=1
+            fi
+          done < <(find . -type f -name "*.json" -not -path "./node_modules/*" -print0)
+
+          if [ "$FAILED" -ne 0 ]; then
+            echo "❌ One or more JSON files are invalid"
+            exit 1
+          fi
+
+          echo "✅ JSON validation completed successfully"
+
+      # ============================================================
       # INSTALL PUPPETEER CHROME
       # ============================================================
 
@@ -314,33 +338,22 @@ jobs:
           echo "Verifying Puppeteer Chrome launch"
           echo "============================================================"
 
-          node <<'NODE'
-          import puppeteer from "puppeteer-extra";
-          import StealthPlugin from "puppeteer-extra-plugin-stealth";
-
-          puppeteer.use(StealthPlugin());
-
-          (async () => {
+          node -e '
+          import("puppeteer-extra").then(async ({ default: puppeteer }) => {
             const browser = await puppeteer.launch({
               headless: "new",
               executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
-              args: [
-                "--no-sandbox",
-                "--disable-dev-shm-usage",
-                "--disable-setuid-sandbox"
-              ]
+              args: ["--no-sandbox", "--disable-dev-shm-usage", "--disable-setuid-sandbox"]
             });
-
             console.log("✅ Chrome launched successfully via Puppeteer");
             const page = await browser.newPage();
             console.log("✅ New page opened successfully");
             await browser.close();
-          })().catch((error) => {
-            console.error("❌ Puppeteer Chrome verification failed");
-            console.error(error);
+          }).catch(err => {
+            console.error("❌ Puppeteer Chrome verification failed:", err);
             process.exit(1);
           });
-          NODE
+          '
 
       # ============================================================
       # FETCH AMAZON LENS CHUNK
@@ -354,8 +367,7 @@ jobs:
           echo "============================================================"
           echo "Starting Amazon Lens chunk: ${{ matrix.name }}"
           echo "Start Index: ${{ matrix.start }}"
-          echo "Limit: $EFFECTIVE_LIMIT"
-          echo "Reset Cache: $RESET_AMAZON_CACHE"
+          echo "Limit: ${{ matrix.limit }}"
           echo "============================================================"
 
           node scripts/fetch-monthly-lens-amazon-matches.js
@@ -372,21 +384,6 @@ jobs:
             echo "❌ Amazon Lens chunk failed with exit code $EXIT_CODE"
             exit $EXIT_CODE
           fi
-        env:
-          RESET_AMAZON_CACHE: ${{ inputs.refresh_amazon == 'true' || github.event_name == 'push' }}
-          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
-          MONTHLY_LENS_MAX_PRODUCTS: ${{ inputs.test_limit != '' && inputs.test_limit || matrix.limit }}
-          EFFECTIVE_LIMIT: ${{ inputs.test_limit != '' && inputs.test_limit || matrix.limit }}
-          MONTHLY_LENS_DELAY_MS: 1500
-          AMAZON_PAGE_DELAY_MS: 4500
-          AMAZON_MIN_TITLE_MATCH: 15
-          AMAZON_CANDIDATE_LIMIT: 8
-          DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
-          DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
-          DECODO_3_AUTH_BASE64: ${{ secrets.DECODO_3_AUTH_BASE64 }}
-          DECODO_MONTHLY_LIMIT: 700
-          DECODO_2_MONTHLY_LIMIT: 700
-          DECODO_3_MONTHLY_LIMIT: 700
 
       # ============================================================
       # RENAME AND ORGANIZE CHUNK OUTPUT FILES
@@ -411,7 +408,7 @@ jobs:
       # UPLOAD AMAZON LENS CHUNK ARTIFACT
       # ============================================================
 
-      - name: Upload Amazon Lens chunk
+      - name: Upload Amazon Lens chunk artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.name }}
@@ -507,7 +504,7 @@ jobs:
 
       - name: Combine Amazon Lens chunks
         env:
-          RESET_AMAZON_CACHE: ${{ inputs.refresh_amazon == 'true' || github.event_name == 'push' }}
+          RESET_AMAZON_CACHE: "true"
         run: |
           echo "============================================================"
           echo "Combining Amazon Lens chunk artifacts"
