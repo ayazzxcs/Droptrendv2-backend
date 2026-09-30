@@ -447,6 +447,30 @@ function extractAmazonLinks(data) {
   return [...byUrl.values()];
 }
 
+let warpChecked = false;
+let warpProxyUrl = null;
+
+async function detectWarpProxy() {
+  if (warpChecked) return warpProxyUrl;
+  warpChecked = true;
+  const envWarp = process.env.WARP_PROXY || "socks5://127.0.0.1:40000";
+  try {
+    const u = new URL(envWarp);
+    const host = u.hostname || "127.0.0.1";
+    const port = Number(u.port) || 40000;
+    const isAlive = await checkProxySocket(host, port, 1500);
+    if (isAlive) {
+      console.log(`Cloudflare WARP proxy active on ${host}:${port}! Routing through Cloudflare network.`);
+      warpProxyUrl = envWarp;
+    } else {
+      console.log(`Cloudflare WARP not detected on ${host}:${port}. Running standard connection.`);
+    }
+  } catch {
+    warpProxyUrl = null;
+  }
+  return warpProxyUrl;
+}
+
 let lensDirectBrowser = null;
 
 async function getLensDirectBrowser() {
@@ -454,14 +478,22 @@ async function getLensDirectBrowser() {
     try {
       if (lensDirectBrowser) await lensDirectBrowser.close().catch(() => {});
     } catch {}
+
+    const warp = await detectWarpProxy();
+    const args = [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-setuid-sandbox",
+      "--disable-blink-features=AutomationControlled"
+    ];
+    if (warp) {
+      args.push(`--proxy-server=${warp}`);
+    }
+
     lensDirectBrowser = await puppeteer.launch({
       headless: "new",
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
-      args: [
-        "--no-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-setuid-sandbox"
-      ]
+      args
     });
   }
   return lensDirectBrowser;
@@ -485,6 +517,7 @@ async function scrapeGoogleLensFree(imageUrl) {
       const browser = await getLensDirectBrowser();
       page = await browser.newPage();
       await page.setViewport(randomViewport());
+      await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36");
       await page.setExtraHTTPHeaders({
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": "https://www.google.com/"
@@ -693,7 +726,12 @@ function randomViewport() {
 
 async function setupAmazonPage(page) {
   await page.setViewport(randomViewport());
-  await page.setExtraHTTPHeaders({ "Accept-Language": "en-US,en;q=0.9" });
+  await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36");
+  await page.setExtraHTTPHeaders({
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Upgrade-Insecure-Requests": "1"
+  });
 
   await page.setRequestInterception(true);
   page.on("request", req => {
@@ -1172,14 +1210,22 @@ async function getAmazonBrowser() {
     try {
       if (mainAmazonBrowser) await mainAmazonBrowser.close().catch(() => {});
     } catch {}
+
+    const warp = await detectWarpProxy();
+    const args = [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--disable-setuid-sandbox",
+      "--disable-blink-features=AutomationControlled"
+    ];
+    if (warp) {
+      args.push(`--proxy-server=${warp}`);
+    }
+
     mainAmazonBrowser = await puppeteer.launch({
       headless: "new",
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
-      args: [
-        "--no-sandbox",
-        "--disable-dev-shm-usage",
-        "--disable-setuid-sandbox"
-      ]
+      args
     });
   }
   return mainAmazonBrowser;
