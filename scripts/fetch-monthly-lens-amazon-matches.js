@@ -429,7 +429,10 @@ function extractAmazonLinks(data) {
 let lensDirectBrowser = null;
 
 async function getLensDirectBrowser() {
-  if (!lensDirectBrowser || !lensDirectBrowser.isConnected()) {
+  if (!lensDirectBrowser || !lensDirectBrowser.connected) {
+    try {
+      if (lensDirectBrowser) await lensDirectBrowser.close().catch(() => {});
+    } catch {}
     lensDirectBrowser = await puppeteer.launch({
       headless: "new",
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
@@ -1060,7 +1063,10 @@ async function searchAmazonFallback(browser, name, p, image) {
 let mainAmazonBrowser = null;
 
 async function getAmazonBrowser() {
-  if (!mainAmazonBrowser || !mainAmazonBrowser.isConnected()) {
+  if (!mainAmazonBrowser || !mainAmazonBrowser.connected) {
+    try {
+      if (mainAmazonBrowser) await mainAmazonBrowser.close().catch(() => {});
+    } catch {}
     mainAmazonBrowser = await puppeteer.launch({
       headless: "new",
       executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
