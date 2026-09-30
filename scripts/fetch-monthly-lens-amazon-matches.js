@@ -1,3 +1,4 @@
+import net from "net";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { readJson, writeJson, sleep, num } from "./utils.js";
@@ -48,11 +49,16 @@ async function fetchProxyPool() {
     
     if (data && Array.isArray(data.data)) {
       proxyPool = data.data.map(p => {
-        const proto = p.protocols || "http";
-        return `${proto}://${p.ip}:${p.port}`;
-      });
+        const proto = Array.isArray(p.protocols) ? p.protocols[0] : (p.protocols || "http");
+        return {
+          ip: p.ip,
+          port: Number(p.port),
+          proto,
+          url: `${proto}://${p.ip}:${p.port}`
+        };
+      }).filter(p => p.ip && p.port);
       currentProxyIndex = 0;
-      console.log(`Successfully built a pool of ${proxyPool.length} Google-passed proxies.`);
+      console.log(`Successfully built a pool of ${proxyPool.length} proxies from Geonode.`);
     }
   } catch (err) {
     console.error("Failed to fetch proxy pool from Geonode API:", err.message);
@@ -60,51 +66,67 @@ async function fetchProxyPool() {
 }
 
 /**
- * Step 2: Live Proxy Validation
- * Validates the proxy asynchronously with a strict 3-second constraint.
+ * Step 2: Live Proxy Validation via rapid TCP socket probe
+ * Checks if the remote host and port accept a socket connection within 1.5 seconds.
  */
-async function validateProxy(proxyUrl) {
-  try {
-    const controller = new AbortController();
-    const id = setTimeout(() => controller.abort(), 3000); // 3-second short timeout
-    
-    const res = await fetch("https://www.google.com", {
-      signal: controller.signal,
-      headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" }
+function checkProxySocket(host, port, timeout = 1500) {
+  return new Promise(resolve => {
+    const socket = new net.Socket();
+    let settled = false;
+
+    const cleanup = () => {
+      if (!settled) {
+        settled = true;
+        socket.destroy();
+      }
+    };
+
+    socket.setTimeout(timeout);
+    socket.once("connect", () => {
+      cleanup();
+      resolve(true);
     });
-    
-    clearTimeout(id);
-    return res.ok;
-  } catch {
-    return false;
-  }
+    socket.once("timeout", () => {
+      cleanup();
+      resolve(false);
+    });
+    socket.once("error", () => {
+      cleanup();
+      resolve(false);
+    });
+
+    try {
+      socket.connect(port, host);
+    } catch {
+      cleanup();
+      resolve(false);
+    }
+  });
 }
 
 /**
- * Step 3: Automated Failover & Rotation Pool manager
+ * Step 3: Fast failover proxy selector
+ * Validates candidate proxies with socket probes, rejecting dead ones in <1.5s.
+ * Returns null if no live proxy found within maxChecks to prevent hanging.
  */
-async function getNextValidProxy() {
-  while (true) {
+async function getNextValidProxy(maxChecks = 15) {
+  let checked = 0;
+  while (checked < maxChecks) {
     if (proxyPool.length === 0 || currentProxyIndex >= proxyPool.length) {
       await fetchProxyPool();
-      if (proxyPool.length === 0) {
-        console.log("No proxies available from Geonode. Sleeping 10s before retry...");
-        await sleep(10000);
-        continue;
-      }
+      if (proxyPool.length === 0) return null;
     }
 
-    const proxy = proxyPool[currentProxyIndex];
-    currentProxyIndex++;
-    
-    console.log(`Validating proxy: ${proxy}...`);
-    const isValid = await validateProxy(proxy);
-    if (isValid) {
-      console.log(`Proxy ${proxy} passed! Deploying to browser initialization context.`);
-      return proxy;
+    const item = proxyPool[currentProxyIndex++];
+    checked++;
+
+    const isLive = await checkProxySocket(item.ip, item.port, 1500);
+    if (isLive) {
+      console.log(`Proxy socket verified alive: ${item.url}`);
+      return item.url;
     }
-    console.log(`Proxy ${proxy} failed or timed out. Discarding...`);
   }
+  return null;
 }
 
 function safeUrl(value) {
@@ -394,82 +416,162 @@ function extractAmazonLinks(data) {
     }
   }
 
+  if (data?.domLinks && Array.isArray(data.domLinks)) {
+    for (const dl of data.domLinks) {
+      if (dl?.url) addCandidate(dl.url, {}, dl.title || "");
+    }
+  }
+
   walk(data);
   return [...byUrl.values()];
 }
 
+let lensDirectBrowser = null;
+
+async function getLensDirectBrowser() {
+  if (!lensDirectBrowser || !lensDirectBrowser.isConnected()) {
+    lensDirectBrowser = await puppeteer.launch({
+      headless: "new",
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+      args: [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-setuid-sandbox"
+      ]
+    });
+  }
+  return lensDirectBrowser;
+}
+
+let directLensBlocked = false;
+
 /**
- * Free Google Lens HTML Engine via Rotated Puppeteer Instances
- * Replaces the SerpApi / SearchApi logic.
+ * Free Google Lens HTML Engine
+ * Step 1: Direct Stealth Connection (no proxy, 15s timeout).
+ * Step 2: Live Proxy Fallback if direct is blocked by Google (429 or CAPTCHA).
  */
 async function scrapeGoogleLensFree(imageUrl) {
-  let attempts = 0;
-  const maxAttempts = 5;
+  const targetLensUrl = `https://lens.google.com/uploadbyurl?url=${encodeURIComponent(imageUrl)}`;
 
-  while (attempts < maxAttempts) {
-    attempts++;
-    const currentProxy = await getNextValidProxy();
-    let freeBrowser = null;
-    
+  // Attempt 1: Direct connection
+  if (!directLensBlocked) {
+    let page = null;
     try {
-      console.log(`[Attempt ${attempts}/${maxAttempts}] Launching free scraping context via proxy: ${currentProxy}`);
-      
-      freeBrowser = await puppeteer.launch({
-        headless: "new",
-        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
-        args: [
-          "--no-sandbox",
-          "--disable-dev-shm-usage",
-          "--disable-setuid-sandbox",
-          `--proxy-server=${currentProxy}`
-        ]
-      });
-
-      const page = await freeBrowser.newPage();
+      console.log(`[Google Lens] Querying via direct connection (no proxy)...`);
+      const browser = await getLensDirectBrowser();
+      page = await browser.newPage();
       await page.setViewport(randomViewport());
-      // Step 4: Robust Universal Headers
       await page.setExtraHTTPHeaders({
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": "https://www.google.com/"
       });
 
-      // Target URL generation pattern for structural Google Lens requests
-      // PLUG IN YOUR TARGET GOOGLE LENS URL CONFIGURATION HERE IF NEEDED:
-      const targetLensUrl = `https://lens.google.com/uploadbyurl?url=${encodeURIComponent(imageUrl)}`;
-      
       const response = await page.goto(targetLensUrl, {
         waitUntil: "domcontentloaded",
-        timeout: 45000
+        timeout: 15000
       });
 
       const status = response?.status?.() || 0;
       const bodyTextStr = await page.evaluate(() => document.body?.innerText || "");
-      
-      // Step 3: Catch 429 errors, Captchas or connection drops
+
       if (status === 429 || /captcha|verify you are human|automated access/i.test(bodyTextStr)) {
-        throw new Error(`Google block detected (Status: ${status} / CAPTCHA triggered). Rotating proxy.`);
+        console.log(`[Google Lens] Direct connection blocked (Status: ${status} / CAPTCHA). Switching to proxy fallback.`);
+        directLensBlocked = true;
+      } else {
+        await sleep(2000);
+
+        const domLinks = await page.evaluate(() => {
+          const links = [];
+          const anchors = document.querySelectorAll('a[href*="amazon."]');
+          for (const a of anchors) {
+            const href = a.getAttribute("href") || "";
+            const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
+            if (href) links.push({ url: href, title });
+          }
+          return links;
+        });
+
+        const htmlContent = await page.content();
+        const candidates = extractAmazonLinks({
+          rawHtmlPayload: htmlContent,
+          domLinks
+        });
+
+        await page.close().catch(() => {});
+        return { links: candidates, error: null };
       }
-
-      // Allow the page extra window time to execute internal dynamic network calls
-      await sleep(5000);
-      const htmlContent = await page.content();
-      
-      // Pass the fully structured HTML tree to the internal engine mapper
-      const candidates = extractAmazonLinks({ rawHtmlPayload: htmlContent });
-      
-      await freeBrowser.close();
-      return { links: candidates, error: null };
-
     } catch (err) {
-      console.log(`Scrape failed using proxy ${currentProxy}: ${err.message}`);
-      if (freeBrowser) {
-        await freeBrowser.close().catch(() => {});
-      }
-      // Loop gracefully picks up next validated proxy next time around
+      console.log(`[Google Lens] Direct attempt failed: ${err.message}`);
+    } finally {
+      if (page) await page.close().catch(() => {});
     }
   }
-  
-  return { links: [], error: "All fallback rotation proxy attempts exhausted for this item." };
+
+  // Attempt 2: Live Proxy Fallback
+  const proxy = await getNextValidProxy(10);
+  if (!proxy) {
+    return { links: [], error: "Google Lens rate limited and no live proxy available" };
+  }
+
+  let proxyBrowser = null;
+  try {
+    console.log(`[Google Lens] Fallback query via verified live proxy: ${proxy}...`);
+    proxyBrowser = await puppeteer.launch({
+      headless: "new",
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+      args: [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-setuid-sandbox",
+        `--proxy-server=${proxy}`
+      ]
+    });
+
+    const page = await proxyBrowser.newPage();
+    await page.setViewport(randomViewport());
+    await page.setExtraHTTPHeaders({
+      "Accept-Language": "en-US,en;q=0.9",
+      "Referer": "https://www.google.com/"
+    });
+
+    const response = await page.goto(targetLensUrl, {
+      waitUntil: "domcontentloaded",
+      timeout: 15000
+    });
+
+    const status = response?.status?.() || 0;
+    const bodyTextStr = await page.evaluate(() => document.body?.innerText || "");
+
+    if (status === 429 || /captcha|verify you are human|automated access/i.test(bodyTextStr)) {
+      throw new Error(`Proxy Google block detected (Status: ${status} / CAPTCHA)`);
+    }
+
+    await sleep(2000);
+
+    const domLinks = await page.evaluate(() => {
+      const links = [];
+      const anchors = document.querySelectorAll('a[href*="amazon."]');
+      for (const a of anchors) {
+        const href = a.getAttribute("href") || "";
+        const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
+        if (href) links.push({ url: href, title });
+      }
+      return links;
+    });
+
+    const htmlContent = await page.content();
+    const candidates = extractAmazonLinks({
+      rawHtmlPayload: htmlContent,
+      domLinks
+    });
+
+    await proxyBrowser.close().catch(() => {});
+    return { links: candidates, error: null };
+  } catch (err) {
+    console.log(`[Google Lens] Proxy scrape failed for ${proxy}: ${err.message}`);
+    if (proxyBrowser) await proxyBrowser.close().catch(() => {});
+    return { links: [], error: err.message };
+  }
 }
 
 function randomViewport() {
@@ -841,16 +943,136 @@ function alreadyHasAmazon(product) {
   });
 }
 
-// Target browser setup context for downstream clean extraction checks
-const mainAmazonBrowser = await puppeteer.launch({
-  headless: "new",
-  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
-  args: [
-    "--no-sandbox",
-    "--disable-dev-shm-usage",
-    "--disable-setuid-sandbox"
-  ]
-});
+/**
+ * Direct Amazon Keyword Search Fallback
+ * Used when Google Lens yields 0 Amazon candidates or fails.
+ * Queries Amazon search results directly using the product's title keywords.
+ */
+async function searchAmazonFallback(browser, name, p, image) {
+  const nameTokens = tokens(name);
+  if (!nameTokens.length) return null;
+  const query = nameTokens.slice(0, 5).join(" ");
+  console.log(`[Amazon Fallback] Searching Amazon directly for "${query}" (Original: "${name}")...`);
+
+  const page = await browser.newPage();
+  await setupAmazonPage(page);
+
+  try {
+    const searchUrl = `https://www.amazon.com/s?k=${encodeURIComponent(query)}`;
+    const response = await page.goto(searchUrl, { waitUntil: "domcontentloaded", timeout: 25000 });
+    const status = response?.status?.() || 0;
+
+    await Promise.race([
+      page.waitForSelector("[data-component-type='s-search-result']", { timeout: 8000 }),
+      sleep(8000)
+    ]).catch(() => {});
+
+    await checkAmazonBlocked(page);
+
+    const cardsData = await page.evaluate(() => {
+      const results = [];
+      const cards = document.querySelectorAll("[data-component-type='s-search-result'], [data-asin]:not([data-asin=''])");
+
+      for (const card of cards) {
+        const asin = (card.getAttribute("data-asin") || "").trim();
+        if (!asin || asin.length !== 10) continue;
+
+        const titleEl = card.querySelector("h2 a span, h2 span, span.a-text-normal");
+        const title = (titleEl?.innerText || titleEl?.textContent || "").trim();
+        if (!title || /sponsored/i.test(title)) continue;
+
+        const linkEl = card.querySelector("h2 a, a.a-link-normal[href*='/dp/']");
+        const href = linkEl?.getAttribute("href") || "";
+        let url = "";
+        if (href) {
+          url = href.startsWith("http") ? href.split("?")[0] : `https://www.amazon.com${href.split("?")[0]}`;
+        } else {
+          url = `https://www.amazon.com/dp/${asin}`;
+        }
+
+        const ratingEl = card.querySelector("span.a-icon-alt, i.a-icon-star-small span.a-icon-alt");
+        const ratingText = (ratingEl?.innerText || ratingEl?.textContent || "").trim();
+
+        const reviewsEl = card.querySelector("span.a-size-base.s-underline-text, a[href*='customerReviews'] span, span[aria-label*='ratings']");
+        const reviewsText = (reviewsEl?.innerText || reviewsEl?.textContent || "").trim();
+
+        const badgeEl = card.querySelector(".a-badge-text, .a-badge-label-inner, .s-coupon-highlight-color");
+        const badgeText = (badgeEl?.innerText || badgeEl?.textContent || "").trim();
+
+        results.push({
+          asin,
+          title,
+          url,
+          ratingText,
+          reviewsText,
+          badgeText
+        });
+      }
+      return results;
+    });
+
+    console.log(`[Amazon Fallback] Extracted ${cardsData.length} search items for "${query}"`);
+    if (!cardsData.length) return null;
+
+    let bestCandidate = null;
+
+    for (let idx = 0; idx < Math.min(cardsData.length, AMAZON_CANDIDATE_LIMIT); idx++) {
+      const item = cardsData[idx];
+      const matchScore = titleSimilarity(name, item.title);
+      if (matchScore < MIN_TITLE_MATCH) continue;
+
+      const ratingMatch = item.ratingText.match(/(\d+(?:\.\d+)?)/);
+      const rating = ratingMatch ? Number(ratingMatch[1]) : 0;
+      const ratingsTotal = normalizeReviewCount(item.reviewsText);
+      const isBestSeller = /best seller|amazon'?s choice|overall pick/i.test(item.badgeText);
+      const score = demandScore({ rating, ratingsTotal, isBestSeller, matchScore });
+
+      const candidate = {
+        title: item.title,
+        url: cleanAmazonUrl(item.url),
+        asin: item.asin,
+        rating: rating || "",
+        ratingsTotal: ratingsTotal || 0,
+        isBestSeller,
+        badgeText: item.badgeText,
+        matchScore,
+        score,
+        candidatePosition: idx + 1,
+        source: "amazon-search-fallback",
+        matchType: "keyword",
+        fetchedAt: new Date().toISOString()
+      };
+
+      if (betterAmazonCandidate(candidate, bestCandidate)) {
+        bestCandidate = candidate;
+      }
+    }
+
+    return bestCandidate;
+  } catch (err) {
+    console.log(`[Amazon Fallback] Search error for "${query}": ${err.message}`);
+    return null;
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
+let mainAmazonBrowser = null;
+
+async function getAmazonBrowser() {
+  if (!mainAmazonBrowser || !mainAmazonBrowser.isConnected()) {
+    mainAmazonBrowser = await puppeteer.launch({
+      headless: "new",
+      executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+      args: [
+        "--no-sandbox",
+        "--disable-dev-shm-usage",
+        "--disable-setuid-sandbox"
+      ]
+    });
+  }
+  return mainAmazonBrowser;
+}
 
 const matches = [];
 const failures = [];
@@ -878,86 +1100,87 @@ for (let i = START_INDEX; i < endIndex; i++) {
   try {
     console.log(`Monthly Free Lens ${i + 1}/${products.length}: ${name}`);
 
-    // Free implementation using rotation context
+    // Free implementation: Try Google Lens first
     const found = await scrapeGoogleLensFree(image);
-
-    if (!found.links || !found.links.length) {
-      console.log(`No Amazon match found for product: ${name}`);
-
-      failures.push({
-        index: i,
-        name,
-        image,
-        reason: found.error || "no amazon links scraped from free proxy pool execution"
-      });
-      continue;
-    }
 
     let data = null;
     const candidateFailures = [];
 
-    const filteredAmazonLinks = found.links
+    const filteredAmazonLinks = (found.links || [])
       .filter(x => x?.url && isAmazonUrl(x.url))
       .slice(0, AMAZON_CANDIDATE_LIMIT);
 
-    console.log(`Checking ${filteredAmazonLinks.length} Amazon candidates via standard browser window for: ${name}`);
+    if (filteredAmazonLinks.length > 0) {
+      console.log(`Checking ${filteredAmazonLinks.length} Amazon candidates via standard browser window for: ${name}`);
+      const browser = await getAmazonBrowser();
 
-    for (let c = 0; c < filteredAmazonLinks.length; c++) {
-      const candidate = filteredAmazonLinks[c];
-      console.log(`Amazon candidate ${c + 1}/${filteredAmazonLinks.length}: ${candidate.url}`);
+      for (let c = 0; c < filteredAmazonLinks.length; c++) {
+        const candidate = filteredAmazonLinks[c];
+        console.log(`Amazon candidate ${c + 1}/${filteredAmazonLinks.length}: ${candidate.url}`);
 
-      let candidateData = null;
+        let candidateData = null;
 
-      try {
-        candidateData = await scrapeAmazonWithPuppeteer(mainAmazonBrowser, candidate, name);
-      } catch (err) {
-        console.log(`Amazon page extraction failed for candidate ${c + 1}/${filteredAmazonLinks.length}: ${err.message}`);
+        try {
+          candidateData = await scrapeAmazonWithPuppeteer(browser, candidate, name);
+        } catch (err) {
+          console.log(`Amazon page extraction failed for candidate ${c + 1}/${filteredAmazonLinks.length}: ${err.message}`);
 
-        if (ACCEPT_PROVIDER_METADATA) {
-          candidateData = dataFromProviderCandidate(candidate, name);
-          if (candidateData) {
-            console.log(
-              `Using fallback metadata context for candidate ${c + 1}: ` +
-              `title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
-            );
+          if (ACCEPT_PROVIDER_METADATA) {
+            candidateData = dataFromProviderCandidate(candidate, name);
+            if (candidateData) {
+              console.log(
+                `Using fallback metadata context for candidate ${c + 1}: ` +
+                `title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
+              );
+            }
+          }
+
+          if (!candidateData) {
+            candidateFailures.push({
+              candidate: c + 1,
+              amazonUrl: candidate.url,
+              reason: `amazon page extraction failed: ${err.message}`
+            });
+            continue;
           }
         }
 
-        if (!candidateData) {
+        candidateData.candidatePosition = c + 1;
+
+        if (!candidateData.title || (!candidateData.rating && !candidateData.ratingsTotal && !candidateData.isBestSeller)) {
           candidateFailures.push({
             candidate: c + 1,
             amazonUrl: candidate.url,
-            reason: `amazon page extraction failed: ${err.message}`
+            title: candidateData.title,
+            reason: "amazon candidate missing complete usable demand structural rows"
           });
           continue;
         }
+
+        if (candidateData.matchScore < MIN_TITLE_MATCH) {
+          candidateFailures.push({
+            candidate: c + 1,
+            amazonUrl: candidate.url,
+            title: candidateData.title,
+            matchScore: candidateData.matchScore,
+            reason: `weak title string correlation matrix match: ${candidateData.matchScore}`
+          });
+          continue;
+        }
+
+        if (betterAmazonCandidate(candidateData, data)) {
+          data = candidateData;
+        }
       }
+    }
 
-      candidateData.candidatePosition = c + 1;
-
-      if (!candidateData.title || (!candidateData.rating && !candidateData.ratingsTotal && !candidateData.isBestSeller)) {
-        candidateFailures.push({
-          candidate: c + 1,
-          amazonUrl: candidate.url,
-          title: candidateData.title,
-          reason: "amazon candidate missing complete usable demand structural rows"
-        });
-        continue;
-      }
-
-      if (candidateData.matchScore < MIN_TITLE_MATCH) {
-        candidateFailures.push({
-          candidate: c + 1,
-          amazonUrl: candidate.url,
-          title: candidateData.title,
-          matchScore: candidateData.matchScore,
-          reason: `weak title string correlation matrix match: ${candidateData.matchScore}`
-        });
-        continue;
-      }
-
-      if (betterAmazonCandidate(candidateData, data)) {
-        data = candidateData;
+    // Direct Amazon Search Fallback if Lens yielded no valid Amazon candidate
+    if (!data) {
+      console.log(`Lens yielded no qualifying Amazon candidate for "${name}". Running Amazon search fallback...`);
+      const browser = await getAmazonBrowser();
+      data = await searchAmazonFallback(browser, name, p, image);
+      if (data) {
+        console.log(`[Amazon Fallback] Successfully matched: ASIN=${data.asin}, Title="${data.title}", Score=${data.score}`);
       }
     }
 
@@ -967,7 +1190,7 @@ for (let i = START_INDEX; i < endIndex; i++) {
         name,
         image,
         candidateFailures,
-        reason: "no valid candidate left standing after filtration loops"
+        reason: "no valid candidate from Google Lens or Amazon search fallback"
       });
       continue;
     }
@@ -982,17 +1205,17 @@ for (let i = START_INDEX; i < endIndex; i++) {
       score: data.score,
       bestRating: data.rating,
       bestRatingsTotal: data.ratingsTotal,
-      bestPrice: "",
+      bestPrice: data.price || "",
       position: data.candidatePosition || 1,
-      amazonCandidatesChecked: filteredAmazonLinks.length,
+      amazonCandidatesChecked: filteredAmazonLinks.length || 1,
       isBestSeller: data.isBestSeller,
       badgeText: data.badgeText,
       productUrl: data.url,
       matchScore: data.matchScore,
-      matchType: "image",
-      lensProvider: "free-geonode-rotation-engine",
+      matchType: data.matchType || (filteredAmazonLinks.length > 0 ? "image" : "keyword"),
+      lensProvider: data.matchType === "keyword" ? "amazon-search-fallback" : "free-google-lens",
       source: data.source,
-      fetchedAt: data.fetchedAt
+      fetchedAt: data.fetchedAt || new Date().toISOString()
     };
 
     amazonSignals.push(signal);
@@ -1000,26 +1223,27 @@ for (let i = START_INDEX; i < endIndex; i++) {
       productId: p.id,
       productName: name,
       productImage: image,
-      provider: "free-geonode-rotation-engine",
-      amazonCandidatesChecked: filteredAmazonLinks.length,
+      provider: signal.lensProvider,
+      amazonCandidatesChecked: signal.amazonCandidatesChecked,
       candidateFailures,
       amazon: data
     });
 
-    if (matches.length % 10 === 0) {
+    if (matches.length % 5 === 0) {
       writeJson(AMAZON_PRODUCTS_PATH, amazonSignals);
       writeJson("lens-amazon-matches.json", matches);
       writeJson("lens-amazon-failures.json", failures);
     }
 
-    await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 2000));
+    await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 1500));
   } catch (err) {
     console.log(`Free Processing Loop error for item "${name}": ${err.message}`);
     failures.push({ index: i, name, image, reason: err.message });
   }
 }
 
-await mainAmazonBrowser.close().catch(() => {});
+if (mainAmazonBrowser) await mainAmazonBrowser.close().catch(() => {});
+if (lensDirectBrowser) await lensDirectBrowser.close().catch(() => {});
 
 writeJson(AMAZON_PRODUCTS_PATH, amazonSignals);
 writeJson("lens-amazon-matches.json", matches);
@@ -1027,7 +1251,7 @@ writeJson("lens-amazon-failures.json", failures);
 writeJson("lens-amazon-meta.json", {
   updatedAt: new Date().toISOString(),
   month,
-  mode: "completely free proxy automated geonode pool rotation scraping",
+  mode: "free-google-lens-and-amazon-search-fallback",
   startIndex: START_INDEX,
   maxProducts: MAX_PRODUCTS,
   matches: matches.length,
