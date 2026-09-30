@@ -162,7 +162,7 @@ function productImage(p) {
 function normalizeText(text) {
   return String(text || "")
     .toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -178,10 +178,12 @@ function tokens(text) {
 
 function titleSimilarity(a, b) {
   const aTokens = tokens(a);
-  const bTokens = new Set(tokens(b));
-  if (!aTokens.length || !bTokens.size) return 0;
-  const hits = aTokens.filter(t => bTokens.has(t)).length;
-  return Math.round(Math.min(100, (hits / aTokens.length) * 100));
+  const bTokens = tokens(b);
+  if (!aTokens.length || !bTokens.length) return 0;
+  const bSet = new Set(bTokens);
+  const hits = aTokens.filter(t => bSet.has(t)).length;
+  const baseLen = Math.min(aTokens.length, bTokens.length);
+  return Math.round(Math.min(100, (hits / Math.max(1, baseLen)) * 100));
 }
 
 function normalizeReviewCount(text) {
@@ -270,7 +272,7 @@ function extractAmazonLinks(data) {
   const byUrl = new Map();
 
   function urlsInText(value) {
-    const text = String(value || "")
+    let text = String(value || "")
       .replace(/&amp;/gi, "&")
       .replaceAll("\\/", "/");
 
@@ -279,17 +281,36 @@ function extractAmazonLinks(data) {
     for (const match of text.matchAll(httpUrlPattern)) {
       urls.add(match[0].replace(/[),.;]+$/, ""));
     }
+
+    // Decode URL-encoded Amazon patterns found in Google search/Lens script blobs
+    const encodedPattern = new RegExp("https?%3A%2F%2F[^\\\\s\"'<>\\\\\\\\]+amazon[^\\\\s\"'<>\\\\\\\\]*", "gi");
+    for (const match of text.matchAll(encodedPattern)) {
+      try {
+        const decoded = decodeURIComponent(match[0].replace(/[),.;]+$/, ""));
+        urls.add(decoded);
+      } catch {}
+    }
+
     return [...urls];
   }
 
   function addCandidate(rawUrl, node = {}, inheritedTitle = "") {
     if (!rawUrl) return;
 
-    let candidateUrl = rawUrl;
+    let candidateUrl = String(rawUrl).trim();
     try {
-      const u = new URL(String(candidateUrl));
-      const wrapped = u.searchParams.get("url") || u.searchParams.get("q");
-      if (wrapped && /^https?:\/\//i.test(wrapped)) candidateUrl = wrapped;
+      if (candidateUrl.includes("%3A%2F%2F") || candidateUrl.includes("%3a%2f%2f")) {
+        try { candidateUrl = decodeURIComponent(candidateUrl); } catch {}
+      }
+      const u = new URL(candidateUrl.startsWith("http") ? candidateUrl : `https://www.google.com${candidateUrl}`);
+      const wrapped = u.searchParams.get("url") || u.searchParams.get("q") || u.searchParams.get("target") || u.searchParams.get("dest");
+      if (wrapped) {
+        let unwrapped = wrapped;
+        if (unwrapped.includes("%3A%2F%2F") || unwrapped.includes("%3a%2f%2f")) {
+          try { unwrapped = decodeURIComponent(unwrapped); } catch {}
+        }
+        if (/^https?:\/\//i.test(unwrapped)) candidateUrl = unwrapped;
+      }
     } catch {}
 
     if (!isAmazonUrl(candidateUrl)) return;
@@ -481,16 +502,58 @@ async function scrapeGoogleLensFree(imageUrl) {
         console.log(`[Google Lens] Direct connection blocked (Status: ${status} / CAPTCHA). Switching to proxy fallback.`);
         directLensBlocked = true;
       } else {
-        await sleep(2000);
+        // Wait for visual results to load in Google Lens
+        await Promise.race([
+          page.waitForSelector('a[href*="amazon"], [data-ved], c-wiz, div[jscontroller]', { timeout: 8000 }),
+          sleep(5000)
+        ]).catch(() => {});
+        await page.evaluate(() => window.scrollBy(0, 400)).catch(() => {});
+        await sleep(1500);
 
         const domLinks = await page.evaluate(() => {
           const links = [];
-          const anchors = document.querySelectorAll('a[href*="amazon."]');
-          for (const a of anchors) {
-            const href = a.getAttribute("href") || "";
-            const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
-            if (href) links.push({ url: href, title });
+          const seen = new Set();
+
+          function checkAndAdd(rawUrl, title) {
+            if (!rawUrl) return;
+            let u = String(rawUrl).trim();
+            try {
+              if (u.includes("%3A%2F%2F") || u.includes("%3a%2f%2f")) {
+                try { u = decodeURIComponent(u); } catch {}
+              }
+              if (u.includes("/url?") || u.includes("google.com/url")) {
+                const parsed = new URL(u.startsWith("http") ? u : `https://www.google.com${u}`);
+                const target = parsed.searchParams.get("url") || parsed.searchParams.get("q") || parsed.searchParams.get("target");
+                if (target) {
+                  let un = target;
+                  if (un.includes("%3A%2F%2F") || un.includes("%3a%2f%2f")) {
+                    try { un = decodeURIComponent(un); } catch {}
+                  }
+                  u = un;
+                }
+              }
+              if (/(^|\.)amazon\./i.test(new URL(u).hostname)) {
+                const clean = u.split("?")[0];
+                if (!seen.has(clean)) {
+                  seen.add(clean);
+                  links.push({ url: clean, title: title || "" });
+                }
+              }
+            } catch {}
           }
+
+          for (const a of document.querySelectorAll("a")) {
+            const href = a.getAttribute("href") || a.href || "";
+            const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
+            checkAndAdd(href, title);
+          }
+
+          for (const el of document.querySelectorAll("[data-url], [data-website], [data-action-url], [data-lens-item-url]")) {
+            const val = el.getAttribute("data-url") || el.getAttribute("data-website") || el.getAttribute("data-action-url") || el.getAttribute("data-lens-item-url") || "";
+            const title = (el.innerText || el.getAttribute("aria-label") || "").trim();
+            checkAndAdd(val, title);
+          }
+
           return links;
         });
 
@@ -549,16 +612,58 @@ async function scrapeGoogleLensFree(imageUrl) {
       throw new Error(`Proxy Google block detected (Status: ${status} / CAPTCHA)`);
     }
 
-    await sleep(2000);
+    // Wait for visual results to load in Google Lens
+    await Promise.race([
+      page.waitForSelector('a[href*="amazon"], [data-ved], c-wiz, div[jscontroller]', { timeout: 8000 }),
+      sleep(5000)
+    ]).catch(() => {});
+    await page.evaluate(() => window.scrollBy(0, 400)).catch(() => {});
+    await sleep(1500);
 
     const domLinks = await page.evaluate(() => {
       const links = [];
-      const anchors = document.querySelectorAll('a[href*="amazon."]');
-      for (const a of anchors) {
-        const href = a.getAttribute("href") || "";
-        const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
-        if (href) links.push({ url: href, title });
+      const seen = new Set();
+
+      function checkAndAdd(rawUrl, title) {
+        if (!rawUrl) return;
+        let u = String(rawUrl).trim();
+        try {
+          if (u.includes("%3A%2F%2F") || u.includes("%3a%2f%2f")) {
+            try { u = decodeURIComponent(u); } catch {}
+          }
+          if (u.includes("/url?") || u.includes("google.com/url")) {
+            const parsed = new URL(u.startsWith("http") ? u : `https://www.google.com${u}`);
+            const target = parsed.searchParams.get("url") || parsed.searchParams.get("q") || parsed.searchParams.get("target");
+            if (target) {
+              let un = target;
+              if (un.includes("%3A%2F%2F") || un.includes("%3a%2f%2f")) {
+                try { un = decodeURIComponent(un); } catch {}
+              }
+              u = un;
+            }
+          }
+          if (/(^|\.)amazon\./i.test(new URL(u).hostname)) {
+            const clean = u.split("?")[0];
+            if (!seen.has(clean)) {
+              seen.add(clean);
+              links.push({ url: clean, title: title || "" });
+            }
+          }
+        } catch {}
       }
+
+      for (const a of document.querySelectorAll("a")) {
+        const href = a.getAttribute("href") || a.href || "";
+        const title = (a.innerText || a.getAttribute("aria-label") || a.title || "").trim();
+        checkAndAdd(href, title);
+      }
+
+      for (const el of document.querySelectorAll("[data-url], [data-website], [data-action-url], [data-lens-item-url]")) {
+        const val = el.getAttribute("data-url") || el.getAttribute("data-website") || el.getAttribute("data-action-url") || el.getAttribute("data-lens-item-url") || "";
+        const title = (el.innerText || el.getAttribute("aria-label") || "").trim();
+        checkAndAdd(val, title);
+      }
+
       return links;
     });
 
@@ -1153,12 +1258,11 @@ for (let i = START_INDEX; i < endIndex; i++) {
 
         candidateData.candidatePosition = c + 1;
 
-        if (!candidateData.title || (!candidateData.rating && !candidateData.ratingsTotal && !candidateData.isBestSeller)) {
+        if (!candidateData.title) {
           candidateFailures.push({
             candidate: c + 1,
             amazonUrl: candidate.url,
-            title: candidateData.title,
-            reason: "amazon candidate missing complete usable demand structural rows"
+            reason: "amazon candidate missing usable product title"
           });
           continue;
         }
