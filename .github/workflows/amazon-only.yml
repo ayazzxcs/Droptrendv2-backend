@@ -1,0 +1,770 @@
+name: Amazon Only
+
+on:
+  workflow_dispatch:
+    inputs:
+      chunk:
+        description: "Chunk to run (or 'all' for full matrix)"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - "all"
+          - "amazon-lens-0"
+          - "amazon-lens-200"
+          - "amazon-lens-400"
+          - "amazon-lens-600"
+          - "amazon-lens-800"
+          - "amazon-lens-1000"
+          - "amazon-lens-1200"
+          - "amazon-lens-1400"
+      test_limit:
+        description: "Max products per chunk (leave empty for default 200, or enter e.g. 5, 10, 20 for fast testing)"
+        required: false
+        default: ""
+      refresh_amazon:
+        description: "Force refresh Amazon monthly cache?"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/fetch-monthly-lens-amazon-matches.js"
+      - ".github/workflows/amazon-only.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  # =================================================================
+  # AMAZON LENS SCRAPING JOBS (MATRIX)
+  # =================================================================
+
+  amazon-lens:
+    name: ${{ matrix.name }}
+    if: ${{ github.event_name != 'workflow_dispatch' || !inputs.chunk || inputs.chunk == 'all' || inputs.chunk == matrix.name }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        include:
+          - { start: 0, limit: 200, name: amazon-lens-0 }
+          - { start: 200, limit: 200, name: amazon-lens-200 }
+          - { start: 400, limit: 200, name: amazon-lens-400 }
+          - { start: 600, limit: 200, name: amazon-lens-600 }
+          - { start: 800, limit: 200, name: amazon-lens-800 }
+          - { start: 1000, limit: 200, name: amazon-lens-1000 }
+          - { start: 1200, limit: 200, name: amazon-lens-1200 }
+          - { start: 1400, limit: 200, name: amazon-lens-1400 }
+
+    env:
+      PUPPETEER_SKIP_DOWNLOAD: "true"
+      NPM_CONFIG_FETCH_RETRIES: 10
+      NPM_CONFIG_FETCH_TIMEOUT: 300000
+      NPM_CONFIG_FETCH_RETRY_MINTIMEOUT: 10000
+      NPM_CONFIG_FETCH_RETRY_MAXTIMEOUT: 60000
+
+    steps:
+
+      # ============================================================
+      # CHECKOUT
+      # ============================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ============================================================
+      # SETUP NODE.JS
+      # ============================================================
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # ============================================================
+      # INSTALL NODE DEPENDENCIES
+      # ============================================================
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          set +e
+
+          SUCCESS=0
+
+          for i in 1 2 3; do
+            echo "============================================================"
+            echo "npm install attempt $i/3"
+            echo "============================================================"
+
+            npm install \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ $? -eq 0 ]; then
+              SUCCESS=1
+              break
+            fi
+
+            echo "npm install attempt $i failed"
+
+            if [ "$i" -lt 3 ]; then
+              echo "Waiting 10 seconds before retry..."
+              sleep 10
+            fi
+          done
+
+          if [ "$SUCCESS" -ne 1 ]; then
+            echo "❌ npm install failed after 3 attempts"
+            exit 1
+          fi
+
+          echo ""
+          echo "============================================================"
+          echo "Puppeteer versions"
+          echo "============================================================"
+
+          npm ls puppeteer puppeteer-core @puppeteer/browsers || true
+
+          echo ""
+          echo "============================================================"
+          echo "Checking Puppeteer files"
+          echo "============================================================"
+
+          ls -la node_modules/puppeteer-core/lib/puppeteer/ || true
+
+      # ============================================================
+      # REPAIR PUPPETEER INSTALLATION
+      # ============================================================
+
+      - name: Repair Puppeteer installation
+        shell: bash
+        run: |
+          echo "============================================================"
+          echo "Ensuring clean Puppeteer installation"
+          echo "============================================================"
+
+          rm -rf node_modules/puppeteer-core
+          rm -rf node_modules/puppeteer
+
+          npm install puppeteer@25.3.0 puppeteer-core@25.3.0 \
+            --save \
+            --no-package-lock \
+            --ignore-scripts \
+            --registry https://registry.npmjs.org/ \
+            --no-audit \
+            --no-fund \
+            --legacy-peer-deps
+
+          echo ""
+          echo "============================================================"
+          echo "Verify Puppeteer"
+          echo "============================================================"
+
+          npm ls puppeteer puppeteer-core || true
+
+          echo ""
+          echo "============================================================"
+          echo "Verify Puppeteer Core file"
+          echo "============================================================"
+
+          test -f node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js
+          echo "✅ Puppeteer Core file verified"
+
+      # ============================================================
+      # REPAIR CONFLICTED JSON FILES
+      # ============================================================
+
+      - name: Repair conflicted JSON files
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Searching for Git conflict markers in JSON files"
+          echo "============================================================"
+
+          CONFLICT_FOUND=0
+
+          while IFS= read -r -d '' file; do
+            if grep -qE '^(<<<<<<<|=======|>>>>>>>)' "$file"; then
+              echo "⚠️ Conflict markers found:"
+              echo "   $file"
+
+              CONFLICT_FOUND=1
+
+              python3 - "$file" <<'PY'
+          import sys
+
+          path = sys.argv[1]
+
+          with open(path, "r", encoding="utf-8") as f:
+              lines = f.readlines()
+
+          output = []
+          state = "normal"
+
+          for line in lines:
+              marker = line.strip()
+
+              if marker.startswith("<<<<<<<"):
+                  state = "keep"
+                  continue
+
+              if marker == "=======":
+                  state = "discard"
+                  continue
+
+              if marker.startswith(">>>>>>>"):
+                  state = "normal"
+                  continue
+
+              if state != "discard":
+                  output.append(line)
+
+          with open(path, "w", encoding="utf-8") as f:
+              f.writelines(output)
+          PY
+
+              echo "   ✅ Repaired $file"
+            fi
+          done < <(find . -type f -name "*.json" -not -path "./node_modules/*" -print0)
+
+          echo ""
+          echo "============================================================"
+          echo "Conflict repair verification"
+          echo "============================================================"
+
+          if grep -RInE '^(<<<<<<<|=======|>>>>>>>)' \
+            --include="*.json" \
+            --exclude-dir=node_modules \
+            .; then
+
+            echo "❌ Merge conflict markers are still present"
+            exit 1
+          fi
+
+          if [ "$CONFLICT_FOUND" -eq 0 ]; then
+            echo "✅ No JSON conflict markers found"
+          else
+            echo "✅ All JSON conflict markers repaired"
+          fi
+
+      # ============================================================
+      # INSTALL PUPPETEER CHROME
+      # ============================================================
+
+      - name: Install Puppeteer Chrome
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          echo "============================================================"
+          echo "Installing Stable Chrome via @puppeteer/browsers"
+          echo "============================================================"
+
+          rm -rf "$GITHUB_WORKSPACE/chrome"
+
+          npx --yes @puppeteer/browsers@25.3.0 install \
+            chrome@stable \
+            --path "$GITHUB_WORKSPACE/chrome"
+
+          CHROME_PATH="$(
+            find "$GITHUB_WORKSPACE/chrome" -type f \
+            \( -name chrome -o -name chrome-linux \) \
+            -print -quit
+          )"
+
+          if [ -z "$CHROME_PATH" ]; then
+            echo "❌ Chrome executable not found under $GITHUB_WORKSPACE/chrome"
+            find "$GITHUB_WORKSPACE/chrome" -maxdepth 5 -type f -print || true
+            exit 1
+          fi
+
+          chmod +x "$CHROME_PATH"
+          echo "✅ Chrome found at: $CHROME_PATH"
+          echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+
+      # ============================================================
+      # VERIFY PUPPETEER CHROME
+      # ============================================================
+
+      - name: Verify Puppeteer Chrome
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Verifying Puppeteer Chrome launch"
+          echo "============================================================"
+
+          node <<'NODE'
+          import puppeteer from "puppeteer-extra";
+          import StealthPlugin from "puppeteer-extra-plugin-stealth";
+
+          puppeteer.use(StealthPlugin());
+
+          (async () => {
+            const browser = await puppeteer.launch({
+              headless: "new",
+              executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
+              args: [
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-setuid-sandbox"
+              ]
+            });
+
+            console.log("✅ Chrome launched successfully via Puppeteer");
+            const page = await browser.newPage();
+            console.log("✅ New page opened successfully");
+            await browser.close();
+          })().catch((error) => {
+            console.error("❌ Puppeteer Chrome verification failed");
+            console.error(error);
+            process.exit(1);
+          });
+          NODE
+
+      # ============================================================
+      # FETCH AMAZON LENS CHUNK
+      # ============================================================
+
+      - name: Fetch Monthly Lens Amazon Matches chunk
+        shell: bash
+        run: |
+          set +e
+
+          echo "============================================================"
+          echo "Starting Amazon Lens chunk: ${{ matrix.name }}"
+          echo "Start Index: ${{ matrix.start }}"
+          echo "Limit: $EFFECTIVE_LIMIT"
+          echo "Reset Cache: $RESET_AMAZON_CACHE"
+          echo "============================================================"
+
+          node scripts/fetch-monthly-lens-amazon-matches.js
+          EXIT_CODE=$?
+
+          echo ""
+          echo "============================================================"
+          echo "Amazon Lens process finished"
+          echo "Exit code: $EXIT_CODE"
+          echo "Chunk: ${{ matrix.name }}"
+          echo "============================================================"
+
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "❌ Amazon Lens chunk failed with exit code $EXIT_CODE"
+            exit $EXIT_CODE
+          fi
+        env:
+          RESET_AMAZON_CACHE: ${{ inputs.refresh_amazon == 'true' || github.event_name == 'push' }}
+          MONTHLY_LENS_START_INDEX: ${{ matrix.start }}
+          MONTHLY_LENS_MAX_PRODUCTS: ${{ inputs.test_limit != '' && inputs.test_limit || matrix.limit }}
+          EFFECTIVE_LIMIT: ${{ inputs.test_limit != '' && inputs.test_limit || matrix.limit }}
+          MONTHLY_LENS_DELAY_MS: 1500
+          AMAZON_PAGE_DELAY_MS: 4500
+          AMAZON_MIN_TITLE_MATCH: 15
+          AMAZON_CANDIDATE_LIMIT: 8
+          DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
+          DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}
+          DECODO_3_AUTH_BASE64: ${{ secrets.DECODO_3_AUTH_BASE64 }}
+          DECODO_MONTHLY_LIMIT: 700
+          DECODO_2_MONTHLY_LIMIT: 700
+          DECODO_3_MONTHLY_LIMIT: 700
+
+      # ============================================================
+      # RENAME AND ORGANIZE CHUNK OUTPUT FILES
+      # ============================================================
+
+      - name: Rename Amazon output files
+        shell: bash
+        run: |
+          mkdir -p amazon-lens-chunk
+          [ -f amazon-products.json ] && mv amazon-products.json amazon-lens-chunk/amazon-products-${{ matrix.start }}.json || true
+          [ -f lens-amazon-matches.json ] && mv lens-amazon-matches.json amazon-lens-chunk/lens-amazon-matches-${{ matrix.start }}.json || true
+          [ -f lens-amazon-failures.json ] && mv lens-amazon-failures.json amazon-lens-chunk/lens-amazon-failures-${{ matrix.start }}.json || true
+          [ -f lens-amazon-meta.json ] && mv lens-amazon-meta.json amazon-lens-chunk/lens-amazon-meta-${{ matrix.start }}.json || true
+          [ -f lens-provider-usage.json ] && mv lens-provider-usage.json amazon-lens-chunk/lens-provider-usage-${{ matrix.start }}.json || true
+
+          echo "============================================================"
+          echo "Organized chunk files in amazon-lens-chunk/"
+          echo "============================================================"
+          ls -lah amazon-lens-chunk/ || true
+
+      # ============================================================
+      # UPLOAD AMAZON LENS CHUNK ARTIFACT
+      # ============================================================
+
+      - name: Upload Amazon Lens chunk
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.name }}
+          path: amazon-lens-chunk/
+          if-no-files-found: warn
+
+  # =================================================================
+  # MERGE JOB
+  # =================================================================
+
+  merge:
+    name: Merge Amazon Lens chunks
+    needs: amazon-lens
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+
+      # ============================================================
+      # CHECKOUT
+      # ============================================================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ============================================================
+      # DOWNLOAD AMAZON LENS CHUNKS
+      # ============================================================
+
+      - name: Download Amazon Lens chunks
+        uses: actions/download-artifact@v4
+        with:
+          pattern: amazon-lens-*
+          path: amazon-lens-artifacts
+          merge-multiple: true
+
+      # ============================================================
+      # SETUP NODE.JS
+      # ============================================================
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # ============================================================
+      # INSTALL NODE DEPENDENCIES
+      # ============================================================
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          set +e
+
+          SUCCESS=0
+
+          for i in 1 2 3; do
+            echo "============================================================"
+            echo "npm install attempt $i/3"
+            echo "============================================================"
+
+            npm install \
+              --no-package-lock \
+              --registry https://registry.npmjs.org/ \
+              --no-audit \
+              --no-fund \
+              --legacy-peer-deps
+
+            if [ $? -eq 0 ]; then
+              SUCCESS=1
+              break
+            fi
+
+            echo "npm install attempt $i failed"
+
+            if [ "$i" -lt 3 ]; then
+              sleep 10
+            fi
+          done
+
+          if [ "$SUCCESS" -ne 1 ]; then
+            echo "❌ npm install failed after 3 attempts"
+            exit 1
+          fi
+
+      # ============================================================
+      # COMBINE AMAZON LENS CHUNKS
+      # ============================================================
+
+      - name: Combine Amazon Lens chunks
+        env:
+          RESET_AMAZON_CACHE: ${{ inputs.refresh_amazon == 'true' || github.event_name == 'push' }}
+        run: |
+          echo "============================================================"
+          echo "Combining Amazon Lens chunk artifacts"
+          echo "============================================================"
+
+          node - <<'NODE'
+          const fs = require('fs');
+          const dir = 'amazon-lens-artifacts';
+
+          const read = (file, fallback) => {
+            try {
+              return JSON.parse(fs.readFileSync(file, 'utf8'));
+            } catch {
+              return fallback;
+            }
+          };
+
+          const files = (pattern) =>
+            fs.existsSync(dir)
+              ? fs.readdirSync(dir)
+                  .filter(f => pattern.test(f))
+                  .sort((a,b) => +(a.match(/-(\d+)\.json$/)?.[1]||0) - +(b.match(/-(\d+)\.json$/)?.[1]||0))
+                  .map(f => `${dir}/${f}`)
+              : [];
+
+          const records = (pattern) =>
+            files(pattern).flatMap(file => {
+              const d = read(file, []);
+              return Array.isArray(d) ? d : d.products || d.matches || d.items || (d && typeof d === 'object' ? [d] : []);
+            });
+
+          const write = (name, data) => {
+            fs.writeFileSync(name, JSON.stringify(data, null, 2));
+            console.log(`Wrote ${name}: ${Array.isArray(data) ? data.length : Object.keys(data).length}`);
+          };
+
+          const clean = v =>
+            String(v || '')
+              .toLowerCase()
+              .replace(/https?:\/\//g, '')
+              .replace(/[?#].*$/g, '')
+              .replace(/[^a-z0-9]+/g, ' ')
+              .replace(/\s+/g, ' ')
+              .trim();
+
+          const key = x => {
+            for (const [p, v] of [
+              ['product', x.productId || x.cjProductId || x.sourceProductId || x.id],
+              ['name', x.productName || x.cjProductName || x.originalProductName || x.keyword],
+              ['url', x.productUrl || x.url || x.amazonUrl],
+              ['title', x.title || x.amazonTitle]
+            ]) {
+              const c = clean(v);
+              if (c) return `${p}:${c}`;
+            }
+            return '';
+          };
+
+          const num = v => (Number.isFinite(Number(v)) ? Number(v) : 0);
+
+          const quality = x =>
+            num(x.score) * 1000 +
+            num(x.matchScore) * 20 +
+            num(x.bestRating) * 20 +
+            Math.log10(num(x.bestRatingsTotal) + 1) * 60 +
+            (x.productUrl || x.url || x.amazonUrl ? 30 : 0) +
+            (x.asin ? 30 : 0) +
+            (x.isBestSeller ? 40 : 0);
+
+          const reset = /^(1|true|yes)$/i.test(String(process.env.RESET_AMAZON_CACHE || 'false'));
+          const cache = new Map();
+
+          const put = x => {
+            const k = key(x);
+            if (k && (!cache.has(k) || quality(x) > quality(cache.get(k)))) {
+              cache.set(k, x);
+            }
+          };
+
+          if (!reset) {
+            (Array.isArray(read('amazon-products.json', [])) ? read('amazon-products.json', []) : []).forEach(put);
+          }
+
+          records(/^amazon-products-\d+\.json$/).forEach(put);
+          write('amazon-products.json', [...cache.values()]);
+          write('lens-amazon-matches.json', records(/^lens-amazon-matches-\d+\.json$/));
+          write('lens-amazon-failures.json', records(/^lens-amazon-failures-\d+\.json$/));
+
+          const usage = {};
+          for (const file of files(/^lens-provider-usage-\d+\.json$/)) {
+            const d = read(file, {});
+            for (const [month, providers] of Object.entries(d)) {
+              usage[month] ||= {};
+              for (const [provider, value] of Object.entries(providers || {})) {
+                usage[month][provider] = Math.max(num(usage[month][provider]), num(value));
+              }
+            }
+          }
+          write('lens-provider-usage.json', usage);
+
+          const metas = files(/^lens-amazon-meta-\d+\.json$/)
+            .map(f => read(f, {}))
+            .filter(x => x && typeof x === 'object' && !Array.isArray(x));
+
+          const first = metas[0] || read('lens-amazon-meta.json', {});
+          const month = new Date().toISOString().slice(0, 7);
+
+          write('lens-amazon-meta.json', {
+            ...first,
+            updatedAt: new Date().toISOString(),
+            month,
+            startIndex: 0,
+            maxProducts: metas.reduce((s, x) => s + num(x.maxProducts), 0),
+            matches: metas.reduce((s, x) => s + num(x.matches), 0),
+            failures: metas.reduce((s, x) => s + num(x.failures), 0),
+            providerUsage: usage[month] || {},
+            resetAmazonCache: metas.some(x => Boolean(x.resetAmazonCache)),
+            chunks: metas.map(x => ({
+              startIndex: num(x.startIndex),
+              maxProducts: num(x.maxProducts),
+              matches: num(x.matches),
+              failures: num(x.failures),
+              providerUsage: x.providerUsage || {}
+            }))
+          });
+          NODE
+
+      # ============================================================
+      # MERGE TREND SIGNALS
+      # ============================================================
+
+      - name: Merge trend signals
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Merging trend signals (Google + Amazon + Products)"
+          echo "============================================================"
+
+          node scripts/merge-trend-signals.js
+
+      # ============================================================
+      # FINAL JSON VALIDATION
+      # ============================================================
+
+      - name: Final JSON validation
+        shell: bash
+        run: |
+          set -e
+
+          echo "============================================================"
+          echo "Final JSON validation"
+          echo "============================================================"
+
+          while IFS= read -r -d '' file; do
+            python3 - "$file" <<'PY'
+          import json
+          import sys
+
+          path = sys.argv[1]
+
+          with open(path, "r", encoding="utf-8") as f:
+              json.load(f)
+
+          print(f"✅ {path}")
+          PY
+          done < <(
+            find . \
+              -type f \
+              -name "*.json" \
+              -not -path "./node_modules/*" \
+              -print0
+          )
+
+          if grep -RInE '^(<<<<<<<|=======|>>>>>>>)' \
+            --include="*.json" \
+            --exclude-dir=node_modules \
+            .; then
+
+            echo "❌ Conflict markers detected in final JSON"
+            exit 1
+          fi
+
+          echo "✅ Final JSON validation passed"
+
+      # ============================================================
+      # SHOW GENERATED FILES
+      # ============================================================
+
+      - name: Show generated Amazon files
+        shell: bash
+        run: |
+          echo "============================================================"
+          echo "Generated Amazon files"
+          echo "============================================================"
+
+          ls -lah amazon-*.json lens-amazon-*.json 2>/dev/null || true
+
+          echo ""
+          echo "============================================================"
+          echo "Git status"
+          echo "============================================================"
+
+          git status --short
+
+      # ============================================================
+      # COMMIT GENERATED FILES
+      # ============================================================
+
+      - name: Commit generated Amazon files
+        shell: bash
+        run: |
+          set -e
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            products.json \
+            amazon-products.json \
+            lens-amazon-matches.json \
+            lens-amazon-failures.json \
+            lens-amazon-meta.json \
+            lens-provider-usage.json \
+            trend-history.json \
+            2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No generated Amazon changes to commit."
+            exit 0
+          fi
+
+          git commit \
+            -m "Update Amazon Lens data [skip ci]"
+
+      # ============================================================
+      # SYNC WITH MAIN
+      # ============================================================
+
+      - name: Pull latest main
+        shell: bash
+        run: |
+          set -e
+
+          git pull \
+            --rebase \
+            --autostash \
+            origin main
+
+      # ============================================================
+      # PUSH
+      # ============================================================
+
+      - name: Push generated files
+        shell: bash
+        run: |
+          set -e
+
+          git push origin main

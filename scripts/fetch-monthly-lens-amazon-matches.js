@@ -267,7 +267,7 @@ function extractAmazonLinks(data) {
     try {
       const u = new URL(String(candidateUrl));
       const wrapped = u.searchParams.get("url") || u.searchParams.get("q");
-      if (wrapped && /^https?:\\/\\//i.test(wrapped)) candidateUrl = wrapped;
+      if (wrapped && /^https?:\/\//i.test(wrapped)) candidateUrl = wrapped;
     } catch {}
 
     if (!isAmazonUrl(candidateUrl)) return;
@@ -412,15 +412,16 @@ async function scrapeGoogleLensFree(imageUrl) {
     let freeBrowser = null;
     
     try {
-      console.log(`[Attempt \${attempts}/\maxAttempts}] Launching free scraping context via proxy: \${currentProxy}`);
+      console.log(`[Attempt ${attempts}/${maxAttempts}] Launching free scraping context via proxy: ${currentProxy}`);
       
       freeBrowser = await puppeteer.launch({
         headless: "new",
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
         args: [
           "--no-sandbox",
           "--disable-dev-shm-usage",
           "--disable-setuid-sandbox",
-          `--proxy-server=\${currentProxy}`
+          `--proxy-server=${currentProxy}`
         ]
       });
 
@@ -434,7 +435,7 @@ async function scrapeGoogleLensFree(imageUrl) {
 
       // Target URL generation pattern for structural Google Lens requests
       // PLUG IN YOUR TARGET GOOGLE LENS URL CONFIGURATION HERE IF NEEDED:
-      const targetLensUrl = `https://lens.google.com/uploadbyurl?url=\${encodeURIComponent(imageUrl)}`;
+      const targetLensUrl = `https://lens.google.com/uploadbyurl?url=${encodeURIComponent(imageUrl)}`;
       
       const response = await page.goto(targetLensUrl, {
         waitUntil: "domcontentloaded",
@@ -446,7 +447,7 @@ async function scrapeGoogleLensFree(imageUrl) {
       
       // Step 3: Catch 429 errors, Captchas or connection drops
       if (status === 429 || /captcha|verify you are human|automated access/i.test(bodyTextStr)) {
-        throw new Error(`Google block detected (Status: \${status} / CAPTCHA triggered). Rotating proxy.`);
+        throw new Error(`Google block detected (Status: ${status} / CAPTCHA triggered). Rotating proxy.`);
       }
 
       // Allow the page extra window time to execute internal dynamic network calls
@@ -460,7 +461,7 @@ async function scrapeGoogleLensFree(imageUrl) {
       return { links: candidates, error: null };
 
     } catch (err) {
-      console.log(`Scrape failed using proxy \${currentProxy}: \${err.message}`);
+      console.log(`Scrape failed using proxy ${currentProxy}: ${err.message}`);
       if (freeBrowser) {
         await freeBrowser.close().catch(() => {});
       }
@@ -747,10 +748,11 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
     if (embedded.title || embedded.rating || embedded.ratingsTotal) sourceParts.push("amazon-embedded");
     if (candidate.title || candidate.rating || candidate.ratingsTotal) sourceParts.push("lens-provider-metadata");
 
+    const blockedMessage = blockedError ? ` blocked="${blockedError.message}"` : "";
     console.log(
-      `Amazon extracted data: status=\${status} finalUrl="\${page.url()}" title="\${title}" ` +
-      `ratingText="\${ratingText}" reviewsText="\${reviewsText}" rating="\${rating}" reviews="\${ratingsTotal}" ` +
-      `sources="\${sourceParts.join("+") || "none"}"\${blockedError ? ` blocked="\${blockedError.message}"` : ""}`
+      `Amazon extracted data: status=${status} finalUrl="${page.url()}" title="${title}" ` +
+      `ratingText="${ratingText}" reviewsText="${reviewsText}" rating="${rating}" reviews="${ratingsTotal}" ` +
+      `sources="${sourceParts.join("+") || "none"}"${blockedMessage}`
     );
 
     if (blockedError && !title && !rating && !ratingsTotal) throw blockedError;
@@ -805,8 +807,7 @@ function dataFromProviderCandidate(candidate, cjName) {
 async function checkAmazonBlocked(page) {
   const text = await bodyText(page);
   const html = await page.content().catch(() => "");
-  const combined = `\${text}
-\${html}`;
+  const combined = `${text}\n${html}`;
 
   if (/captcha|enter the characters you see below|sorry, we just need to make sure|verify you are human/i.test(combined)) {
     throw new Error("Amazon CAPTCHA/bot check detected");
@@ -843,6 +844,7 @@ function alreadyHasAmazon(product) {
 // Target browser setup context for downstream clean extraction checks
 const mainAmazonBrowser = await puppeteer.launch({
   headless: "new",
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
   args: [
     "--no-sandbox",
     "--disable-dev-shm-usage",
@@ -869,18 +871,18 @@ for (let i = START_INDEX; i < endIndex; i++) {
   }
 
   if (alreadyHasAmazon(p)) {
-    console.log(`Skip existing Amazon data: \${name}`);
+    console.log(`Skip existing Amazon data: ${name}`);
     continue;
   }
 
   try {
-    console.log(`Monthly Free Lens \${i + 1}/\${products.length}: \${name}`);
+    console.log(`Monthly Free Lens ${i + 1}/${products.length}: ${name}`);
 
     // Free implementation using rotation context
     const found = await scrapeGoogleLensFree(image);
 
     if (!found.links || !found.links.length) {
-      console.log(`No Amazon match found for product: \${name}`);
+      console.log(`No Amazon match found for product: ${name}`);
 
       failures.push({
         index: i,
@@ -898,25 +900,25 @@ for (let i = START_INDEX; i < endIndex; i++) {
       .filter(x => x?.url && isAmazonUrl(x.url))
       .slice(0, AMAZON_CANDIDATE_LIMIT);
 
-    console.log(`Checking \${filteredAmazonLinks.length} Amazon candidates via standard browser window for: \${name}`);
+    console.log(`Checking ${filteredAmazonLinks.length} Amazon candidates via standard browser window for: ${name}`);
 
     for (let c = 0; c < filteredAmazonLinks.length; c++) {
       const candidate = filteredAmazonLinks[c];
-      console.log(`Amazon candidate \${c + 1}/\${filteredAmazonLinks.length}: \${candidate.url}`);
+      console.log(`Amazon candidate ${c + 1}/${filteredAmazonLinks.length}: ${candidate.url}`);
 
       let candidateData = null;
 
       try {
         candidateData = await scrapeAmazonWithPuppeteer(mainAmazonBrowser, candidate, name);
       } catch (err) {
-        console.log(`Amazon page extraction failed for candidate \${c + 1}/\${filteredAmazonLinks.length}: \${err.message}`);
+        console.log(`Amazon page extraction failed for candidate ${c + 1}/${filteredAmazonLinks.length}: ${err.message}`);
 
         if (ACCEPT_PROVIDER_METADATA) {
           candidateData = dataFromProviderCandidate(candidate, name);
           if (candidateData) {
             console.log(
-              `Using fallback metadata context for candidate \${c + 1}: ` +
-              `title="\${candidateData.title}" rating="\${candidateData.rating}" reviews="\${candidateData.ratingsTotal}"`
+              `Using fallback metadata context for candidate ${c + 1}: ` +
+              `title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
             );
           }
         }
@@ -925,7 +927,7 @@ for (let i = START_INDEX; i < endIndex; i++) {
           candidateFailures.push({
             candidate: c + 1,
             amazonUrl: candidate.url,
-            reason: `amazon page extraction failed: \${err.message}`
+            reason: `amazon page extraction failed: ${err.message}`
           });
           continue;
         }
@@ -949,7 +951,7 @@ for (let i = START_INDEX; i < endIndex; i++) {
           amazonUrl: candidate.url,
           title: candidateData.title,
           matchScore: candidateData.matchScore,
-          reason: `weak title string correlation matrix match: \${candidateData.matchScore}`
+          reason: `weak title string correlation matrix match: ${candidateData.matchScore}`
         });
         continue;
       }
@@ -1012,7 +1014,7 @@ for (let i = START_INDEX; i < endIndex; i++) {
 
     await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 2000));
   } catch (err) {
-    console.log(`Free Processing Loop error for item 	h name	: \${err.message}`);
+    console.log(`Free Processing Loop error for item "${name}": ${err.message}`);
     failures.push({ index: i, name, image, reason: err.message });
   }
 }
@@ -1033,4 +1035,4 @@ writeJson("lens-amazon-meta.json", {
   resetAmazonCache: FORCE_REFRESH
 });
 
-console.log(`Job lifecycle finalized cleanly. Total Matches: \${matches.length}, Failures: \${failures.length}`);
+console.log(`Job lifecycle finalized cleanly. Total Matches: ${matches.length}, Failures: ${failures.length}`);
