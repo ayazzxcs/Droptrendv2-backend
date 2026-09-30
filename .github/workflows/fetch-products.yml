@@ -667,7 +667,7 @@ jobs:
 
            rm -rf "$GITHUB_WORKSPACE/chrome"
 
-           npx --yes @puppeteer/browsers@25.3.0 install \
+           npx --yes @puppeteer/browsers@latest install \
             chrome@stable \
             --path "$GITHUB_WORKSPACE/chrome"
      
