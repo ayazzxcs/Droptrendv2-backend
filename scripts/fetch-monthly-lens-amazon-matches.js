@@ -237,9 +237,16 @@ function extractAmazonLinks(data) {
 
     let candidateUrl = rawUrl;
     try {
-      const u = new URL(String(candidateUrl), "https://www.google.com");
+      const u = new URL(String(candidateUrl), "https://www.bing.com");
       const wrapped = u.searchParams.get("url") || u.searchParams.get("q");
       if (wrapped && /^https?:\/\//i.test(wrapped)) candidateUrl = wrapped;
+      const bingWrapped = u.searchParams.get("u");
+      if (bingWrapped) {
+        try {
+          const decoded = decodeURIComponent(Buffer.from(bingWrapped, "base64").toString("utf8"));
+          if (/^https?:\/\//i.test(decoded)) candidateUrl = decoded;
+        } catch {}
+      }
     } catch {}
 
     if (!isAmazonUrl(candidateUrl)) return;
@@ -418,26 +425,48 @@ async function searchapiLens(imageUrl) {
 async function decodoLensWithAuth(imageUrl, authBase64, label, attempt = 0) {
   if (!authBase64) throw new Error(`Missing ${label}`);
 
+  const bingUrl = `https://www.bing.com/images/search?view=detailv2&iss=sbi&FORM=SBIHSC&q=imgurl:${encodeURIComponent(imageUrl)}`;
+
   const presets = [
-    // 1. Mobile non-JS: lighter footprint, bypasses heavy desktop bot challenges
+    // 1. Desktop with JS rendering: renders Bing visual search product and shopping matches
     {
-      device_type: process.env.DECODO_DEVICE_TYPE || "mobile",
-      headless: process.env.DECODO_HEADLESS || null,
+      target: "bing",
+      url: bingUrl,
+      headless: "html",
+      device_type: "desktop",
       geo: process.env.DECODO_GEO || "United States"
     },
-    // 2. Mobile with JS rendering
-    { device_type: "mobile", headless: "html", geo: "United States" },
-    // 3. Desktop with JS rendering and auto-randomized geo
-    { device_type: "desktop", headless: "html", geo: null },
-    // 4. Desktop non-JS
-    { device_type: "desktop", headless: null, geo: "United States" }
+    // 2. Mobile with JS rendering: Mobile Bing visual search
+    {
+      target: "bing",
+      url: bingUrl,
+      headless: "html",
+      device_type: "mobile",
+      geo: process.env.DECODO_GEO || "United States"
+    },
+    // 3. Desktop non-JS: Fast initial HTML scrape of Bing visual search page
+    {
+      target: "bing",
+      url: bingUrl,
+      headless: null,
+      device_type: "desktop",
+      geo: process.env.DECODO_GEO || "United States"
+    },
+    // 4. Desktop auto geo: Automatic residential IP rotation
+    {
+      target: "bing",
+      url: bingUrl,
+      headless: "html",
+      device_type: "desktop",
+      geo: null
+    }
   ];
 
   const currentConfig = presets[attempt % presets.length];
 
   const payload = {
-    target: "google_lens",
-    query: imageUrl,
+    target: currentConfig.target,
+    url: currentConfig.url,
     parse: true
   };
   if (currentConfig.headless) payload.headless = currentConfig.headless;
