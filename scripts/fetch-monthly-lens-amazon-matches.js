@@ -407,18 +407,22 @@ async function searchapiLens(imageUrl) {
   return extractAmazonLinks(await fetchJson(url.toString()));
 }
 
-async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 1) {
+async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts = {}) {
   if (!authBase64) throw new Error(`Missing ${label}`);
+
+  const useHeadless = opts.headless !== undefined ? opts.headless : (process.env.DECODO_HEADLESS || "html");
+  const useGeo = opts.geo || process.env.DECODO_GEO || "us";
+  const useProxyPool = opts.proxy_pool !== undefined ? opts.proxy_pool : (process.env.DECODO_PROXY_POOL || "premium");
 
   const payload = {
     target: "google_lens",
     query: imageUrl,
-    headless: process.env.DECODO_HEADLESS || "html",
+    url: imageUrl,
+    geo: useGeo,
     parse: true
   };
-  if (process.env.DECODO_GEO) {
-    payload.geo = process.env.DECODO_GEO;
-  }
+  if (useHeadless) payload.headless = useHeadless;
+  if (useProxyPool && useProxyPool !== "none") payload.proxy_pool = useProxyPool;
 
   const response = await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
@@ -430,29 +434,32 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 1) {
     body: JSON.stringify(payload)
   });
 
-  if (String(response?.status || "").toLowerCase() === "failed") {
-    const errCode = String(response?.status_code || "");
-    const errMsg = String(response?.message || "unknown provider error");
-    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
-      console.log(`Decodo returned ${errCode}. Retrying once with a new request...`);
-      await sleep(2500);
-      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1);
-    }
-    throw new Error(
-      "Decodo " + label + " failed (status " + errCode +
-      "): " + errMsg
-    );
-  }
-
+  const isFailed = String(response?.status || "").toLowerCase() === "failed";
   const firstResult = Array.isArray(response?.results) ? response.results[0] : null;
-  if (firstResult?.status_code && Number(firstResult.status_code) >= 400) {
-    const errCode = String(firstResult.status_code);
-    const errMsg = String(firstResult?.content || firstResult?.message || "target scraping error");
-    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
-      console.log(`Decodo result returned ${errCode}. Retrying once...`);
-      await sleep(2500);
-      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1);
+  const resultStatusCode = firstResult?.status_code ? Number(firstResult.status_code) : 200;
+
+  if (isFailed || resultStatusCode >= 400) {
+    const errCode = String(response?.status_code || firstResult?.status_code || "");
+    const errMsg = String(response?.message || firstResult?.content || firstResult?.message || "scraper error");
+
+    if (/proxy_pool|unauthorized pool|invalid pool/i.test(errMsg) && useProxyPool !== "none") {
+      console.log(`Decodo proxy_pool not supported. Retrying without proxy_pool...`);
+      return decodoLensWithAuth(imageUrl, authBase64, label, retry, { ...opts, proxy_pool: "none" });
     }
+
+    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
+      const nextHeadless = useHeadless ? null : "html";
+      const nextGeo = useGeo === "us" ? "United States" : "us";
+      console.log(`Decodo returned ${errCode}. Retrying with geo=${nextGeo}, headless=${nextHeadless || "default"}...`);
+      await sleep(2500);
+      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1, {
+        ...opts,
+        headless: nextHeadless,
+        geo: nextGeo,
+        proxy_pool: "none"
+      });
+    }
+
     throw new Error(
       "Decodo " + label + " failed (status " + errCode +
       "): " + errMsg
