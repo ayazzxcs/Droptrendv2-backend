@@ -732,6 +732,9 @@ jobs:
           DECODO_MONTHLY_LIMIT: 700
           DECODO_2_MONTHLY_LIMIT: 700
           DECODO_3_MONTHLY_LIMIT: 700
+          BRIGHTDATA_API_KEY: ${{ secrets.BRIGHTDATA_API_KEY }}
+          BRIGHTDATA_ZONE: ${{ secrets.BRIGHTDATA_ZONE }}
+          BRIGHTDATA_MONTHLY_LIMIT: 5000
       - name: Rename Amazon output files
         run: |
           mkdir -p amazon-lens-chunk

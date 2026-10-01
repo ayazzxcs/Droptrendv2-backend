@@ -92,6 +92,7 @@ const BUDGETS = {
   serpapi_2: Number(process.env.SERPAPI_2_MONTHLY_LIMIT || 250),
   searchapi: Number(process.env.SEARCHAPI_MONTHLY_LIMIT || 100),
   scrapingdog: Number(process.env.SCRAPINGDOG_MONTHLY_LIMIT || 200),
+  brightdata: Number(process.env.BRIGHTDATA_MONTHLY_LIMIT || 5000),
   decodo: Number(process.env.DECODO_MONTHLY_LIMIT || 700),
   decodo_2: Number(process.env.DECODO_2_MONTHLY_LIMIT || 700),
   decodo_3: Number(process.env.DECODO_3_MONTHLY_LIMIT || 700)
@@ -225,7 +226,10 @@ function cleanAmazonUrl(url) {
     if (asin) {
       return `${u.origin}/dp/${asin}`;
     }
-    return `${u.origin}${u.pathname}`;
+    if (u.hostname.includes("amazon.")) {
+      return `${u.origin}${u.pathname}`;
+    }
+    return url;
   } catch {
     return url;
   }
@@ -382,9 +386,12 @@ function extractAmazonLinks(data) {
     let candidateUrl = unwrapUrl(rawUrl);
     if (!candidateUrl) return;
 
-    if (!isAmazonProductUrl(candidateUrl)) return;
+    const isLensGoto = /^https?:\/\/lens\.google\.com\/goto/i.test(candidateUrl);
+    const isAmazonSource = /amazon/i.test(String(node?.source || "")) || /amazon\./i.test(String(node?.display_link || ""));
 
-    const clean = cleanAmazonUrl(candidateUrl);
+    if (!isAmazonProductUrl(candidateUrl) && !(isLensGoto && isAmazonSource)) return;
+
+    const clean = isLensGoto ? candidateUrl : cleanAmazonUrl(candidateUrl);
     const rich = node?.rich_snippet?.top?.detected_extensions ||
       node?.richSnippet?.top?.detectedExtensions ||
       node?.detected_extensions || {};
@@ -725,6 +732,43 @@ async function genericLens(imageUrl, provider) {
   }));
 }
 
+async function brightdataLens(imageUrl, attempt = 0) {
+  const apiKey = process.env.BRIGHTDATA_API_KEY || "8ab38be8-0b77-4907-ad26-d54998602bc5";
+  if (!apiKey) throw new Error("Missing BRIGHTDATA_API_KEY");
+  const zone = process.env.BRIGHTDATA_ZONE || "serp_api1";
+
+  // Google Lens uploadbyurl endpoint. International targeting: no &gl or country filter.
+  const lensUrl = `https://lens.google.com/uploadbyurl?url=${encodeURIComponent(imageUrl)}`;
+
+  const payload = {
+    zone,
+    url: lensUrl,
+    format: "json",
+    data_format: "parsed"
+  };
+
+  const response = await fetchJson("https://api.brightdata.com/request", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${apiKey}`,
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(payload)
+  });
+
+  const isFailed = String(response?.status || "").toLowerCase() === "failed";
+  const statusCode = response?.status_code ? Number(response.status_code) : 200;
+
+  if ((isFailed || statusCode >= 400 || !response?.body) && attempt < 2) {
+    const backoffMs = 3000 + (attempt * 2000);
+    console.log(`Bright Data returned status ${statusCode}. Retrying (attempt ${attempt + 2}/3) after ${backoffMs}ms...`);
+    await sleep(backoffMs);
+    return brightdataLens(imageUrl, attempt + 1);
+  }
+
+  return extractAmazonLinks(response);
+}
+
 function providerQueue() {
   // IMPORTANT:
   // Sequential quota order. It does NOT try another provider just because a product has no match.
@@ -735,6 +779,7 @@ function providerQueue() {
   if (process.env.SERPAPI_KEY_2) q.push(["serpapi_2", img => serpapiLens(img, process.env.SERPAPI_KEY_2)]);
   if (process.env.SEARCHAPI_KEY) q.push(["searchapi", searchapiLens]);
   if (process.env.SCRAPINGDOG_API_KEY) q.push(["scrapingdog", scrapingdogLens]);
+  if (process.env.BRIGHTDATA_API_KEY || "8ab38be8-0b77-4907-ad26-d54998602bc5") q.push(["brightdata", brightdataLens]);
   if (process.env.DECODO_AUTH_BASE64) q.push(["decodo", decodoLens]);
   if (process.env.DECODO_2_AUTH_BASE64) q.push(["decodo_2", decodoLens2]);
   if (process.env.DECODO_3_AUTH_BASE64) q.push(["decodo_3", decodoLens3]);
@@ -1123,6 +1168,12 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
   try {
     const response = await page.goto(amazonUrl, { waitUntil: "domcontentloaded", timeout: 70000 });
     const status = response?.status?.() || 0;
+
+    const landedUrl = page.url() || amazonUrl;
+    if (!isAmazonUrl(landedUrl)) {
+      console.log(`Candidate ${amazonUrl} landed on non-Amazon URL: ${landedUrl}`);
+      return null;
+    }
 
     await Promise.race([
       page.waitForSelector("#productTitle, h1, script[type='application/ld+json']", { timeout: AMAZON_PAGE_WAIT_MS }),
