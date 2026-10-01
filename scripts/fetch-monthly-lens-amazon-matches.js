@@ -412,7 +412,6 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
 
   const useHeadless = opts.headless !== undefined ? opts.headless : (process.env.DECODO_HEADLESS || "html");
   const useGeo = opts.geo || process.env.DECODO_GEO || "us";
-  const useProxyPool = opts.proxy_pool !== undefined ? opts.proxy_pool : (process.env.DECODO_PROXY_POOL || "premium");
 
   const payload = {
     target: "google_lens",
@@ -422,7 +421,6 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
     parse: true
   };
   if (useHeadless) payload.headless = useHeadless;
-  if (useProxyPool && useProxyPool !== "none") payload.proxy_pool = useProxyPool;
 
   const response = await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
@@ -442,11 +440,6 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
     const errCode = String(response?.status_code || firstResult?.status_code || "");
     const errMsg = String(response?.message || firstResult?.content || firstResult?.message || "scraper error");
 
-    if (/proxy_pool|unauthorized pool|invalid pool/i.test(errMsg) && useProxyPool !== "none") {
-      console.log(`Decodo proxy_pool not supported. Retrying without proxy_pool...`);
-      return decodoLensWithAuth(imageUrl, authBase64, label, retry, { ...opts, proxy_pool: "none" });
-    }
-
     if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
       const nextHeadless = useHeadless ? null : "html";
       const nextGeo = useGeo === "us" ? "United States" : "us";
@@ -455,8 +448,7 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
       return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1, {
         ...opts,
         headless: nextHeadless,
-        geo: nextGeo,
-        proxy_pool: "none"
+        geo: nextGeo
       });
     }
 
