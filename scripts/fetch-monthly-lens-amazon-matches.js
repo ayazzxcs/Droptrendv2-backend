@@ -407,8 +407,18 @@ async function searchapiLens(imageUrl) {
   return extractAmazonLinks(await fetchJson(url.toString()));
 }
 
-async function decodoLensWithAuth(imageUrl, authBase64, label) {
+async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 1) {
   if (!authBase64) throw new Error(`Missing ${label}`);
+
+  const payload = {
+    target: "google_lens",
+    query: imageUrl,
+    headless: process.env.DECODO_HEADLESS || "html",
+    parse: true
+  };
+  if (process.env.DECODO_GEO) {
+    payload.geo = process.env.DECODO_GEO;
+  }
 
   const response = await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
@@ -417,21 +427,35 @@ async function decodoLensWithAuth(imageUrl, authBase64, label) {
       "Content-Type": "application/json",
       "Authorization": `Basic ${authBase64}`
     },
-    body: JSON.stringify({
-      target: "google_lens",
-      query: imageUrl,
-      // Decodo 613 means its JS-rendered request could not scrape the target.
-      // Use non-JS rendering by default; set DECODO_HEADLESS=html to restore
-      // the previous JS-rendered behavior.
-      ...(process.env.DECODO_HEADLESS === "html" ? { headless: "html" } : {}),
-      parse: true
-    })
+    body: JSON.stringify(payload)
   });
 
   if (String(response?.status || "").toLowerCase() === "failed") {
+    const errCode = String(response?.status_code || "");
+    const errMsg = String(response?.message || "unknown provider error");
+    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
+      console.log(`Decodo returned ${errCode}. Retrying once with a new request...`);
+      await sleep(2500);
+      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1);
+    }
     throw new Error(
-      "Decodo " + label + " failed (status " + String(response?.status_code || "") +
-      "): " + String(response?.message || "unknown provider error")
+      "Decodo " + label + " failed (status " + errCode +
+      "): " + errMsg
+    );
+  }
+
+  const firstResult = Array.isArray(response?.results) ? response.results[0] : null;
+  if (firstResult?.status_code && Number(firstResult.status_code) >= 400) {
+    const errCode = String(firstResult.status_code);
+    const errMsg = String(firstResult?.content || firstResult?.message || "target scraping error");
+    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
+      console.log(`Decodo result returned ${errCode}. Retrying once...`);
+      await sleep(2500);
+      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1);
+    }
+    throw new Error(
+      "Decodo " + label + " failed (status " + errCode +
+      "): " + errMsg
     );
   }
 
