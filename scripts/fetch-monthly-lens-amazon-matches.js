@@ -195,13 +195,104 @@ function isAmazonUrl(url) {
   }
 }
 
-function cleanAmazonUrl(url) {
+function asinFromUrl(url) {
+  const match = String(url || "").match(
+    /(?:\/(?:dp|gp\/product|product|d|gp\/aw\/d|o\/ASIN|ASIN)\/|[?&](?:asin|pd_rd_i)=)([A-Z0-9]{10})(?:[/?&#]|$)/i
+  );
+  return match ? match[1].toUpperCase() : "";
+}
+
+function isAmazonProductUrl(url) {
+  if (!isAmazonUrl(url)) return false;
+  const asin = asinFromUrl(url);
+  if (asin) return true;
   try {
     const u = new URL(url);
+    const p = u.pathname.toLowerCase();
+    if (!p || p === "/" || p === "/s" || p.startsWith("/stores") || p.startsWith("/gp/bestsellers") || p.startsWith("/gp/help") || p.startsWith("/cart")) {
+      return false;
+    }
+    return p.includes("/dp/") || p.includes("/product/") || p.includes("/gp/");
+  } catch {
+    return false;
+  }
+}
+
+function cleanAmazonUrl(url) {
+  try {
+    const asin = asinFromUrl(url);
+    const u = new URL(url);
+    if (asin) {
+      return `${u.origin}/dp/${asin}`;
+    }
     return `${u.origin}${u.pathname}`;
   } catch {
     return url;
   }
+}
+
+function decodeBingParam(param) {
+  if (!param) return "";
+  let raw = String(param).trim();
+  try { raw = decodeURIComponent(raw); } catch {}
+  if (/^https?:\/\//i.test(raw)) return raw;
+
+  const httpIdx = raw.indexOf("aHR0");
+  if (httpIdx !== -1) {
+    raw = raw.slice(httpIdx);
+  } else if (/^a\d+/i.test(raw)) {
+    raw = raw.replace(/^a\d+/i, "");
+  }
+
+  let b64 = raw.replace(/-/g, "+").replace(/_/g, "/");
+  while (b64.length % 4 !== 0) b64 += "=";
+
+  try {
+    const decoded = Buffer.from(b64, "base64").toString("utf8");
+    if (/^https?:\/\//i.test(decoded)) return decoded;
+  } catch {}
+
+  return "";
+}
+
+function unwrapUrl(rawUrl) {
+  if (!rawUrl) return "";
+  let url = String(rawUrl).trim();
+
+  url = url
+    .replace(/&quot;?$/i, "")
+    .replace(/&amp;?$/i, "")
+    .replace(/&lt;?$/i, "")
+    .replace(/&gt;?$/i, "")
+    .replace(/['"\\<>{}\[\]]+$/g, "")
+    .replace(/[),.;]+$/, "");
+
+  if (url.startsWith("/ck/a") || url.startsWith("/aclick") || url.startsWith("/images/")) {
+    url = "https://www.bing.com" + url;
+  }
+
+  try {
+    const u = new URL(url, "https://www.bing.com");
+
+    const uParam = u.searchParams.get("u");
+    if (uParam) {
+      const decoded = decodeBingParam(uParam);
+      if (decoded) return unwrapUrl(decoded);
+    }
+
+    for (const key of ["url", "q", "r", "dest", "destination", "target", "redir", "targetUrl", "landingPageUrl"]) {
+      const val = u.searchParams.get(key);
+      if (val) {
+        let unwrapped = val;
+        try { unwrapped = decodeURIComponent(val); } catch {}
+        if (/^https?:\/\//i.test(unwrapped)) return unwrapUrl(unwrapped);
+        const b64Decoded = decodeBingParam(val);
+        if (b64Decoded) return unwrapUrl(b64Decoded);
+      }
+    }
+  } catch {}
+
+  return url;
 }
 
 function firstValue(...values) {
@@ -222,11 +313,6 @@ function reviewCountFromAny(value) {
   if (value === undefined || value === null || value === "") return 0;
   if (typeof value === "number") return Math.max(0, Math.round(value));
   return normalizeReviewCount(String(value));
-}
-
-function asinFromUrl(url) {
-  const match = String(url || "").match(/\/(?:dp|gp\/product|product)\/([A-Z0-9]{10})(?:[/?]|$)/i);
-  return match ? match[1].toUpperCase() : "";
 }
 
 function mergeCandidate(existing, incoming) {
@@ -256,41 +342,54 @@ function extractAmazonLinks(data) {
   function urlsInText(value) {
     const text = String(value || "")
       .replace(/&amp;/gi, "&")
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;/gi, "'")
       .replaceAll("\\/", "/");
 
     const urls = new Set();
-    // Use RegExp's string constructor: this avoids an easily broken regex
-    // literal when the script is pasted through YAML, shells, or editors.
-    const httpUrlPattern = new RegExp("https?://[^\\\\s\\\"'<>\\\\\\\\]+", "gi");
+
+    // 1. Absolute HTTP(S) URLs
+    const httpUrlPattern = /https?:\/\/[^\s"'<>\\]+/gi;
     for (const match of text.matchAll(httpUrlPattern)) {
-      urls.add(match[0].replace(/[),.;]+$/, ""));
+      urls.add(match[0].replace(/&quot;?$/i, "").replace(/[),.;]+$/, ""));
     }
+
+    // 2. Relative Bing redirect/tracking URLs: /ck/a?... or /aclick?...
+    const relPattern = /(?:\/ck\/a|\/aclick)\?[^\s"'<>\\]+/gi;
+    for (const match of text.matchAll(relPattern)) {
+      urls.add("https://www.bing.com" + match[0].replace(/&quot;?$/i, "").replace(/[),.;]+$/, ""));
+    }
+
+    // 3. Embedded JSON url attributes
+    const jsonUrlPattern = /"(?:purl|ourl|surl|targetUrl|targeturl|landingPageUrl|productUrl|seeMoreUrl|merchantUrl|destUrl)"\s*:\s*"([^"]+)"/gi;
+    for (const match of text.matchAll(jsonUrlPattern)) {
+      urls.add(match[1]);
+    }
+
+    // 4. Amazon direct product paths without protocol
+    const directAmazonPattern = /(?:www\.)?amazon\.[a-z.]+\/(?:dp|gp\/product|product|d)\/[A-Z0-9]{10}[^\s"'<>\\]*/gi;
+    for (const match of text.matchAll(directAmazonPattern)) {
+      const raw = match[0];
+      urls.add(raw.startsWith("http") ? raw : "https://" + raw);
+    }
+
     return [...urls];
   }
 
   function addCandidate(rawUrl, node = {}, inheritedTitle = "") {
     if (!rawUrl) return;
 
-    let candidateUrl = rawUrl;
-    try {
-      const u = new URL(String(candidateUrl), "https://www.bing.com");
-      const wrapped = u.searchParams.get("url") || u.searchParams.get("q");
-      if (wrapped && /^https?:\/\//i.test(wrapped)) candidateUrl = wrapped;
-      const bingWrapped = u.searchParams.get("u");
-      if (bingWrapped) {
-        try {
-          const decoded = decodeURIComponent(Buffer.from(bingWrapped, "base64").toString("utf8"));
-          if (/^https?:\/\//i.test(decoded)) candidateUrl = decoded;
-        } catch {}
-      }
-    } catch {}
+    let candidateUrl = unwrapUrl(rawUrl);
+    if (!candidateUrl) return;
 
-    if (!isAmazonUrl(candidateUrl)) return;
+    if (!isAmazonProductUrl(candidateUrl)) return;
 
     const clean = cleanAmazonUrl(candidateUrl);
     const rich = node?.rich_snippet?.top?.detected_extensions ||
       node?.richSnippet?.top?.detectedExtensions ||
       node?.detected_extensions || {};
+
+    const asin = asinFromUrl(clean) || asinFromUrl(candidateUrl) || (node?.asin && /^[A-Z0-9]{10}$/i.test(node.asin) ? node.asin.toUpperCase() : "");
 
     const title = String(firstValue(
       node.title,
@@ -341,7 +440,8 @@ function extractAmazonLinks(data) {
       node.image_url,
       node.imageUrl,
       node.product_image,
-      node.productImage
+      node.productImage,
+      node.murl
     ));
 
     const candidate = {
@@ -351,7 +451,7 @@ function extractAmazonLinks(data) {
       ratingsTotal,
       badgeText,
       image,
-      asin: asinFromUrl(clean),
+      asin,
       providerMetadata: {
         rating,
         ratingsTotal,
@@ -406,7 +506,15 @@ function extractAmazonLinks(data) {
         node.page_url,
         node.href,
         node.product_link,
-        node.productLink
+        node.productLink,
+        node.purl,
+        node.ourl,
+        node.targetUrl,
+        node.targeturl,
+        node.landingPageUrl,
+        node.destinationUrl,
+        node.seeMoreUrl,
+        node.merchantUrl
       );
 
       if (possibleUrl) addCandidate(possibleUrl, node, possibleTitle);
@@ -695,11 +803,11 @@ async function findAmazonCandidatesByLens(imageUrl) {
       await sleep(decodoDelay);
 
       const amazon = links
-        .filter(x => x?.url && isAmazonUrl(x.url))
+        .filter(x => x?.url && isAmazonProductUrl(x.url))
         .slice(0, AMAZON_CANDIDATE_LIMIT);
 
       console.log(
-        `${name} returned ${links.length} extracted links, ${links.filter(x => x?.url && isAmazonUrl(x.url)).length} Amazon links. Checking best ${amazon.length}/${AMAZON_CANDIDATE_LIMIT} candidates.`
+        `${name} returned ${links.length} extracted links, ${amazon.length} Amazon product links. Checking best ${amazon.length}/${AMAZON_CANDIDATE_LIMIT} candidates.`
       );
 
       if (amazon[0]) {
