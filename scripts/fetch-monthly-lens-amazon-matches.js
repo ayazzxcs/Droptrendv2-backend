@@ -237,7 +237,7 @@ function extractAmazonLinks(data) {
 
     let candidateUrl = rawUrl;
     try {
-      const u = new URL(String(candidateUrl));
+      const u = new URL(String(candidateUrl), "https://www.google.com");
       const wrapped = u.searchParams.get("url") || u.searchParams.get("q");
       if (wrapped && /^https?:\/\//i.test(wrapped)) candidateUrl = wrapped;
     } catch {}
@@ -324,6 +324,14 @@ function extractAmazonLinks(data) {
     if (!node) return;
 
     if (typeof node === "string") {
+      const trimmed = node.trim();
+      if ((trimmed.startsWith("{") && trimmed.endsWith("}")) || (trimmed.startsWith("[") && trimmed.endsWith("]"))) {
+        try {
+          const parsed = JSON.parse(trimmed);
+          walk(parsed, inheritedTitle);
+          return;
+        } catch {}
+      }
       addCandidate(node, {}, inheritedTitle);
       for (const url of urlsInText(node)) {
         addCandidate(url, {}, inheritedTitle);
@@ -411,16 +419,15 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
   if (!authBase64) throw new Error(`Missing ${label}`);
 
   const useHeadless = opts.headless !== undefined ? opts.headless : (process.env.DECODO_HEADLESS || "html");
-  const useGeo = opts.geo || process.env.DECODO_GEO || "us";
+  const useGeo = opts.geo !== undefined ? opts.geo : (process.env.DECODO_GEO || "United States");
 
   const payload = {
     target: "google_lens",
     query: imageUrl,
-    url: imageUrl,
-    geo: useGeo,
     parse: true
   };
   if (useHeadless) payload.headless = useHeadless;
+  if (useGeo) payload.geo = useGeo;
 
   const response = await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
@@ -442,8 +449,8 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
 
     if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
       const nextHeadless = useHeadless ? null : "html";
-      const nextGeo = useGeo === "us" ? "United States" : "us";
-      console.log(`Decodo returned ${errCode}. Retrying with geo=${nextGeo}, headless=${nextHeadless || "default"}...`);
+      const nextGeo = useGeo === "United States" ? null : "United States";
+      console.log(`Decodo returned ${errCode}. Retrying with geo=${nextGeo || "auto"}, headless=${nextHeadless || "default"}...`);
       await sleep(2500);
       return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1, {
         ...opts,
