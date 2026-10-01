@@ -415,19 +415,34 @@ async function searchapiLens(imageUrl) {
   return extractAmazonLinks(await fetchJson(url.toString()));
 }
 
-async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts = {}) {
+async function decodoLensWithAuth(imageUrl, authBase64, label, attempt = 0) {
   if (!authBase64) throw new Error(`Missing ${label}`);
 
-  const useHeadless = opts.headless !== undefined ? opts.headless : (process.env.DECODO_HEADLESS || "html");
-  const useGeo = opts.geo !== undefined ? opts.geo : (process.env.DECODO_GEO || "United States");
+  const presets = [
+    // 1. Mobile non-JS: lighter footprint, bypasses heavy desktop bot challenges
+    {
+      device_type: process.env.DECODO_DEVICE_TYPE || "mobile",
+      headless: process.env.DECODO_HEADLESS || null,
+      geo: process.env.DECODO_GEO || "United States"
+    },
+    // 2. Mobile with JS rendering
+    { device_type: "mobile", headless: "html", geo: "United States" },
+    // 3. Desktop with JS rendering and auto-randomized geo
+    { device_type: "desktop", headless: "html", geo: null },
+    // 4. Desktop non-JS
+    { device_type: "desktop", headless: null, geo: "United States" }
+  ];
+
+  const currentConfig = presets[attempt % presets.length];
 
   const payload = {
     target: "google_lens",
     query: imageUrl,
     parse: true
   };
-  if (useHeadless) payload.headless = useHeadless;
-  if (useGeo) payload.geo = useGeo;
+  if (currentConfig.headless) payload.headless = currentConfig.headless;
+  if (currentConfig.device_type) payload.device_type = currentConfig.device_type;
+  if (currentConfig.geo) payload.geo = currentConfig.geo;
 
   const response = await fetchJson("https://scraper-api.decodo.com/v2/scrape", {
     method: "POST",
@@ -447,16 +462,12 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, retry = 2, opts =
     const errCode = String(response?.status_code || firstResult?.status_code || "");
     const errMsg = String(response?.message || firstResult?.content || firstResult?.message || "scraper error");
 
-    if (retry > 0 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
-      const nextHeadless = useHeadless ? null : "html";
-      const nextGeo = useGeo === "United States" ? null : "United States";
-      console.log(`Decodo returned ${errCode}. Retrying with geo=${nextGeo || "auto"}, headless=${nextHeadless || "default"}...`);
-      await sleep(2500);
-      return decodoLensWithAuth(imageUrl, authBase64, label, retry - 1, {
-        ...opts,
-        headless: nextHeadless,
-        geo: nextGeo
-      });
+    if (attempt < 3 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
+      const nextConfig = presets[(attempt + 1) % presets.length];
+      const backoffMs = 3000 + (attempt * 1500);
+      console.log(`Decodo returned ${errCode}. Spreading request and retrying (attempt ${attempt + 2}/4) with device_type=${nextConfig.device_type}, headless=${nextConfig.headless || "none"}, geo=${nextConfig.geo || "auto"} after ${backoffMs}ms...`);
+      await sleep(backoffMs);
+      return decodoLensWithAuth(imageUrl, authBase64, label, attempt + 1);
     }
 
     throw new Error(
@@ -578,6 +589,12 @@ function seedFreshMatrixChunkUsage() {
 
 seedFreshMatrixChunkUsage();
 
+if (START_INDEX > 0) {
+  const initialStaggerMs = Math.min(15000, Math.floor((START_INDEX / 200) * 1500));
+  console.log(`Staggering chunk ${START_INDEX} by ${initialStaggerMs}ms to spread initial provider requests...`);
+  await sleep(initialStaggerMs);
+}
+
 function currentProvider() {
   return providerQueue().find(([name]) => canUse(name)) || null;
 }
@@ -607,7 +624,10 @@ async function findAmazonCandidatesByLens(imageUrl) {
       console.log(`Lens provider: ${name} (${used(name) + 1}/${BUDGETS[name]})`);
       const links = await call(imageUrl);
       markUsed(name);
-      await sleep(DELAY_MS);
+      const decodoDelay = name.startsWith("decodo")
+        ? Math.max(DELAY_MS, Number(process.env.DECODO_DELAY_MS || 2500))
+        : DELAY_MS;
+      await sleep(decodoDelay);
 
       const amazon = links
         .filter(x => x?.url && isAmazonUrl(x.url))
@@ -644,7 +664,10 @@ async function findAmazonCandidatesByLens(imageUrl) {
       }
 
       console.log(`${name} failed for this product: ${message}`);
-      await sleep(DELAY_MS);
+      const decodoFailDelay = name.startsWith("decodo")
+        ? Math.max(DELAY_MS, Number(process.env.DECODO_DELAY_MS || 2000))
+        : DELAY_MS;
+      await sleep(decodoFailDelay);
       return {
         exhausted: false,
         provider: name,
