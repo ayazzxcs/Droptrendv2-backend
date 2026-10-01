@@ -146411,7 +146411,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 13,
+    "trend": 41,
     "winningScore": 71,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -146420,7 +146420,7 @@
     "productName": "Full-diamond Light-luxury Necklace Earring And Pendant Set",
     "productNameEn": "Full-diamond Light-luxury Necklace Earring And Pendant Set",
     "sourceScore": 71,
-    "dropTrendScore": 13,
+    "dropTrendScore": 41,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -146485,17 +146485,17 @@
       {
         "date": "2026-10-01",
         "productId": "2609200852041608400",
-        "quvirlScore": 13,
-        "dropTrendScore": 13,
+        "quvirlScore": 41,
+        "dropTrendScore": 41,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 69,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -146519,9 +146519,25 @@
       "pendants full-diamond light-luxury necklace earring"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2609200852041608400",
+        "score": 69,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 2265,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B07K25W4WF",
+        "title": "EVER FAITH Austrian Crystal Floral Wave Drop Bridal Jewelry Set for Women",
+        "matchScore": 17,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -150193,7 +150209,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 32,
     "winningScore": 76,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -150202,7 +150218,7 @@
     "productName": "Hanging Halloween Decoration With Pre-Recorded Phrases",
     "productNameEn": "Hanging Halloween Decoration With Pre-Recorded Phrases",
     "sourceScore": 71,
-    "dropTrendScore": 12,
+    "dropTrendScore": 32,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -150252,17 +150268,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101242444574224386",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 32,
+        "dropTrendScore": 32,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 50,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -150286,9 +150302,25 @@
       "hanging halloween"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101242444574224386",
+        "score": 50,
+        "bestRating": 4.4,
+        "bestRatingsTotal": 59,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0DZXNVS4M",
+        "title": "Halloween Animatronics 5ft Hanging Witch, 60inch Floating Animated Witch Decorations with Banner, Sound Activated, Creepy Voice, Light Up Eyes, Scary Move, Spooky Horror Prop for Indoor, Outdoor",
+        "matchScore": 40,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -153426,7 +153458,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 28,
+    "trend": 48,
     "winningScore": 71,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -153435,7 +153467,7 @@
     "productName": "Women's Washed Blue Wide-Leg Denim Pants",
     "productNameEn": "Women's Washed Blue Wide-Leg Denim Pants",
     "sourceScore": 70,
-    "dropTrendScore": 28,
+    "dropTrendScore": 48,
     "scoreHistory": [
       {
         "date": "2026-09-11",
@@ -153560,17 +153592,17 @@
       {
         "date": "2026-10-01",
         "productId": "2609200615131616900",
-        "quvirlScore": 28,
-        "dropTrendScore": 28,
+        "quvirlScore": 48,
+        "dropTrendScore": 48,
         "googleScore": 38,
-        "amazonScore": 0,
+        "amazonScore": 51,
         "supplierScore": 64,
         "cjScore": 64,
         "aliExpressScore": 0,
         "googleKeyword": "denim pants",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -153594,7 +153626,7 @@
       "jeans s washed blue wide-leg denim pants"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "jeans pants",
         "usedKeyword": "denim pants",
@@ -153938,7 +153970,23 @@
           "jeans s washed blue wide-leg denim pants"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "2609200615131616900",
+        "score": 51,
+        "bestRating": 3.6,
+        "bestRatingsTotal": 231,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0F626G83P",
+        "title": "High Waist Wide Leg Jeans, Light Blue Denim, Elastic Waistband, Baggy Fit",
+        "matchScore": 33,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 64,
         "source": "CJdropshipping",
@@ -161180,7 +161228,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 29,
     "winningScore": 75,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -161189,7 +161237,7 @@
     "productName": "32 Amp 5m 3 Pin Extension Lead Single Phase 250V Rubber Heavy Duty Cable Male&Female Plug",
     "productNameEn": "32 Amp 5m 3 Pin Extension Lead Single Phase 250V Rubber Heavy Duty Cable Male&Female Plug",
     "sourceScore": 70,
-    "dropTrendScore": 12,
+    "dropTrendScore": 29,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -161239,17 +161287,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101876967023202305",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 29,
+        "dropTrendScore": 29,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 43,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -161273,9 +161321,25 @@
       "maintenance amp pin extension lead single phase rubber heavy duty cable plug"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101876967023202305",
+        "score": 43,
+        "bestRating": 4.9,
+        "bestRatingsTotal": 5,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H6ZJKNL7",
+        "title": "Australian Standard 32A 250V Single Phase 3Pin 50Hz 3P 6h 2P+E Waterproof IP66 IEC60309 Industrial Plug",
+        "matchScore": 29,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -162412,7 +162476,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 16,
+    "trend": 42,
     "winningScore": 75,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -162421,7 +162485,7 @@
     "productName": "6pcs Engine Motor & Trans Mount For 2003-2007 Honda Accord 3.0L V6 - Auto Trans",
     "productNameEn": "6pcs Engine Motor & Trans Mount For 2003-2007 Honda Accord 3.0L V6 - Auto Trans",
     "sourceScore": 70,
-    "dropTrendScore": 16,
+    "dropTrendScore": 42,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -162471,17 +162535,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101608129280208897",
-        "quvirlScore": 16,
-        "dropTrendScore": 16,
+        "quvirlScore": 42,
+        "dropTrendScore": 42,
         "googleScore": 9,
-        "amazonScore": 0,
+        "amazonScore": 66,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "engine motor trans mount honda",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -162505,7 +162569,7 @@
       "6pcs engine motor trans"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "motor trans mount honda",
         "usedKeyword": "engine motor trans mount honda",
@@ -162849,7 +162913,23 @@
           "6pcs engine motor trans"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101608129280208897",
+        "score": 66,
+        "bestRating": 4.4,
+        "bestRatingsTotal": 725,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B074WGYC37",
+        "title": "ENA Engine Motor and Trans Mount Set of 6 Compatible with Honda 2003 2004 2005 2006 2007 Accord 2.4L Automatic Trans Replacement for A4526HY A4517 A4516 A4510 A4509 A4542",
+        "matchScore": 70,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -166294,7 +166374,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 33,
     "winningScore": 74,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -166303,7 +166383,7 @@
     "productName": "9 FT 72 LED Willow Vine Twig Decor Black Halloween Garland With Pumpkin & Bats Lights, 8 Modes",
     "productNameEn": "9 FT 72 LED Willow Vine Twig Decor Black Halloween Garland With Pumpkin & Bats Lights, 8 Modes",
     "sourceScore": 70,
-    "dropTrendScore": 12,
+    "dropTrendScore": 33,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -166353,17 +166433,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101775255223791618",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 33,
+        "dropTrendScore": 33,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 53,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -166387,9 +166467,25 @@
       "decor lights"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101775255223791618",
+        "score": 53,
+        "bestRating": 4.5,
+        "bestRatingsTotal": 29,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FG2G59FT",
+        "title": "Halloween Willow Vine Twig Lights: 6ft Battery Operated Waterproof String Light with Timer and 8 Molds - 54 LED Pumpkin Bat Decor Garland for Home Wall Fireplace Mantle Decorations",
+        "matchScore": 75,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -168463,7 +168559,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 30,
     "winningScore": 74,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -168472,7 +168568,7 @@
     "productName": "60000-4K Retro Gaming Console W& 2 Wireless Controller TV Video Game Stick",
     "productNameEn": "60000-4K Retro Gaming Console W& 2 Wireless Controller TV Video Game Stick",
     "sourceScore": 70,
-    "dropTrendScore": 12,
+    "dropTrendScore": 30,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -168522,17 +168618,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101555487580246018",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 30,
+        "dropTrendScore": 30,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 45,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -168556,9 +168652,25 @@
       "gaming console wireless controller tv"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101555487580246018",
+        "score": 45,
+        "bestRating": 4.4,
+        "bestRatingsTotal": 5,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CT5XMSXK",
+        "title": "M8 PRO Video Game Console, 4K HD 2.4G Wireless Controller, Video Game Stick, Retro Handheld Game Console, Birthday (128G)",
+        "matchScore": 78,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -169720,7 +169832,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 23,
     "winningScore": 74,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -169729,7 +169841,7 @@
     "productName": "4-Tier Adjustable Metal Storage Shelving Unit, Black Heavy Duty Kitchen Organizer For Home Space Saving",
     "productNameEn": "4-Tier Adjustable Metal Storage Shelving Unit, Black Heavy Duty Kitchen Organizer For Home Space Saving",
     "sourceScore": 70,
-    "dropTrendScore": 12,
+    "dropTrendScore": 23,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -169779,17 +169891,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101223354623193089",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 23,
+        "dropTrendScore": 23,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 26,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -169813,9 +169925,25 @@
       "duty kitchen organizer home space"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101223354623193089",
+        "score": 26,
+        "bestRating": 3,
+        "bestRatingsTotal": 2,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H6FKPW64",
+        "title": "4-Tier Black Plastic Storage Shelf, 22\" W x 14\" D x 47\" H, 200 lbs Capacity, No Tools Required, for Home, Garage, and Closet",
+        "matchScore": 29,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -170611,7 +170739,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 42,
     "winningScore": 74,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -170620,7 +170748,7 @@
     "productName": "Over-the-Toilet Bathroom Storage Shelf Unit Set With Space Saver, Basket And Hooks, Satin Nickel, 4-Piece",
     "productNameEn": "Over-the-Toilet Bathroom Storage Shelf Unit Set With Space Saver, Basket And Hooks, Satin Nickel, 4-Piece",
     "sourceScore": 70,
-    "dropTrendScore": 12,
+    "dropTrendScore": 42,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -170670,17 +170798,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101222767152197634",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 42,
+        "dropTrendScore": 42,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 75,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -170704,9 +170832,25 @@
       "over-the-toilet bathroom storage shelf unit"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101222767152197634",
+        "score": 75,
+        "bestRating": 4.5,
+        "bestRatingsTotal": 8521,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B074W3673P",
+        "title": "UTEX Over The Toilet Storage Shelf, 3-Tier Bathroom Organizer, White",
+        "matchScore": 23,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -175979,7 +176123,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 41,
+    "trend": 60,
     "winningScore": 73,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -175988,7 +176132,7 @@
     "productName": "6 Pcs Christmas Wooden Gift Box Decor Table Centerpiece, Box Style",
     "productNameEn": "6 Pcs Christmas Wooden Gift Box Decor Table Centerpiece, Box Style",
     "sourceScore": 69,
-    "dropTrendScore": 41,
+    "dropTrendScore": 60,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -176038,17 +176182,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101784747147653122",
-        "quvirlScore": 41,
-        "dropTrendScore": 41,
+        "quvirlScore": 60,
+        "dropTrendScore": 60,
         "googleScore": 71,
-        "amazonScore": 0,
+        "amazonScore": 48,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "decor table centerpiece",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -176072,7 +176216,7 @@
       "box decor table"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "event party supplies pcs christmas wooden gift box decor table centerpiece box",
         "usedKeyword": "decor table centerpiece",
@@ -176416,7 +176560,23 @@
           "box decor table"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101784747147653122",
+        "score": 48,
+        "bestRating": 4.1,
+        "bestRatingsTotal": 26,
+        "bestPrice": "",
+        "position": 3,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.co.uk/dp/B0BFGTSKTH",
+        "title": "BBTO 6 Pcs Wooden Christmas Tree Crafts Natural Wood Rustic Wood Christmas Tree Decoration Wood Home Table Decors for Christmas Holidays Parties Anniversaries Decorations(Box Style)",
+        "matchScore": 70,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -176686,7 +176846,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 17,
+    "trend": 37,
     "winningScore": 73,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -176695,7 +176855,7 @@
     "productName": "4PCS Upstream & Downstream Oxygen O2 Sensors For Chevy Tahoe GMC Sierra Yukon",
     "productNameEn": "4PCS Upstream & Downstream Oxygen O2 Sensors For Chevy Tahoe GMC Sierra Yukon",
     "sourceScore": 69,
-    "dropTrendScore": 17,
+    "dropTrendScore": 37,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -176745,17 +176905,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101574639385964545",
-        "quvirlScore": 17,
-        "dropTrendScore": 17,
+        "quvirlScore": 37,
+        "dropTrendScore": 37,
         "googleScore": 13,
-        "amazonScore": 0,
+        "amazonScore": 49,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "tahoe gmc sierra yukon",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -176779,7 +176939,7 @@
       "sensors chevy"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "downstream oxygen sensors chevy",
         "usedKeyword": "tahoe gmc sierra yukon",
@@ -177123,7 +177283,23 @@
           "sensors 4pcs"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101574639385964545",
+        "score": 49,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 52,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H3W8XGY9",
+        "title": "Upstream O2 Sensor Set | Direct Replacement OE 234‑4815 | Compatible with Buick Cadillac Chevy GMC Saturn 2004‑2017 V6 V8 I4",
+        "matchScore": 30,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -187456,7 +187632,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 29,
     "winningScore": 72,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -187465,7 +187641,7 @@
     "productName": "Inflatable Lounge Chair With Footrest, Soft Flocked Surface",
     "productNameEn": "Inflatable Lounge Chair With Footrest, Soft Flocked Surface",
     "sourceScore": 69,
-    "dropTrendScore": 12,
+    "dropTrendScore": 29,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -187515,17 +187691,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101752343829803009",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 29,
+        "dropTrendScore": 29,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 42,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -187549,9 +187725,25 @@
       "footrest soft flocked surface"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101752343829803009",
+        "score": 42,
+        "bestRating": 3.4,
+        "bestRatingsTotal": 40,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H15FB28N",
+        "title": "Thenshop 6 Pcs Inflatable Lounge Chairs with Footrest & Electric Pump,Grey",
+        "matchScore": 43,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -218621,7 +218813,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 24,
     "winningScore": 70,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -218630,7 +218822,7 @@
     "productName": "40-meter Waterproof Diving Case For Smartphones",
     "productNameEn": "40-meter Waterproof Diving Case For Smartphones",
     "sourceScore": 68,
-    "dropTrendScore": 12,
+    "dropTrendScore": 24,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -218680,17 +218872,17 @@
       {
         "date": "2026-10-01",
         "productId": "2609190929281602800",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 24,
+        "dropTrendScore": 24,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 30,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -218714,9 +218906,25 @@
       "diving case"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2609190929281602800",
+        "score": 30,
+        "bestRating": 2.9,
+        "bestRatingsTotal": 7,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0F9FM71GL",
+        "title": "PULUZ Diving Phone Case for iPhone 16 Pro, 130ft/40m Professional Diving Snorkeling Swimming Surfing Underwater Housing Cover for iPhone 16 Pro, Photo & Video Shooting",
+        "matchScore": 40,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -220586,7 +220794,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 27,
     "winningScore": 70,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -220595,7 +220803,7 @@
     "productName": "Aquamarine Green Sandalwood Beaded Bracelet",
     "productNameEn": "Aquamarine Green Sandalwood Beaded Bracelet",
     "sourceScore": 68,
-    "dropTrendScore": 12,
+    "dropTrendScore": 27,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -220645,17 +220853,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101186045067378690",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 27,
+        "dropTrendScore": 27,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 37,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -220679,9 +220887,25 @@
       "bracelets bangles aquamarine green sandalwood beaded bracelet"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101186045067378690",
+        "score": 37,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 2,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FX2V5NF1",
+        "title": "Natural Aromatic Agarwood Bracelet, Prayer Beads Tibetan Buddhism Agarwood Bead Bracelet 9mm Round Bead Diameter",
+        "matchScore": 20,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -223625,7 +223849,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 31,
     "winningScore": 70,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -223634,7 +223858,7 @@
     "productName": "Crochet Lace Striped Long Sleeve Cotton Shirt",
     "productNameEn": "Crochet Lace Striped Long Sleeve Cotton Shirt",
     "sourceScore": 68,
-    "dropTrendScore": 12,
+    "dropTrendScore": 31,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -223684,17 +223908,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101140332224692226",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 31,
+        "dropTrendScore": 31,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 46,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -223718,9 +223942,25 @@
       "sleeve cotton shirt"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101140332224692226",
+        "score": 46,
+        "bestRating": 5,
+        "bestRatingsTotal": 9,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B077R8Y98T",
+        "title": "Custom Long Sleeve Button Up Shirts for Women - Add Your Text - Personalized Embroidery Button Down Easy Care Shirts",
+        "matchScore": 29,
+        "matchType": "image",
+        "lensProvider": "decodo",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -233259,7 +233499,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 45,
     "winningScore": 69,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -233268,7 +233508,7 @@
     "productName": "3D Glass Electric Oil Wax Melt Burner Warmer Firework Fragrance Aroma Night Lamp",
     "productNameEn": "3D Glass Electric Oil Wax Melt Burner Warmer Firework Fragrance Aroma Night Lamp",
     "sourceScore": 67,
-    "dropTrendScore": 12,
+    "dropTrendScore": 45,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -233318,17 +233558,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101601650594672641",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 45,
+        "dropTrendScore": 45,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 83,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -233352,9 +233592,25 @@
       "glass lamp"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101601650594672641",
+        "score": 83,
+        "bestRating": 4.7,
+        "bestRatingsTotal": 15476,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B07KF2J8BR",
+        "title": "Wax Melt Warmer for Scented Wax- Glass Wax Melter for Home Fragrance with Removable Tray, Essential Oil Warmer Wax Cubes Burner Aroma Night Light for Home Office Bedroom Decor Gifts for Women",
+        "matchScore": 75,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -233442,7 +233698,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 15,
+    "trend": 38,
     "winningScore": 69,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -233451,7 +233707,7 @@
     "productName": "KP-723 Best-selling 50,000mAh High-Capacity Portable Power Bank With Handle And Digital Battery Display Factory Direct Shipping",
     "productNameEn": "KP-723 Best-selling 50,000mAh High-Capacity Portable Power Bank With Handle And Digital Battery Display Factory Direct Shipping",
     "sourceScore": 67,
-    "dropTrendScore": 15,
+    "dropTrendScore": 38,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -233501,17 +233757,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101510165098524673",
-        "quvirlScore": 15,
-        "dropTrendScore": 15,
+        "quvirlScore": 38,
+        "dropTrendScore": 38,
         "googleScore": 7,
-        "amazonScore": 0,
+        "amazonScore": 57,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "selling capacity power",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -233535,7 +233791,7 @@
       "power bank kp- best-selling"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "bank handle digital battery",
         "usedKeyword": "selling capacity power",
@@ -233879,7 +234135,23 @@
           "power bank kp- best-selling"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101510165098524673",
+        "score": 57,
+        "bestRating": 4.4,
+        "bestRatingsTotal": 222,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0C6PZ5SVL",
+        "title": "Solar Power Bank 20000mAh Built in Hand Crank and 4 Cables 22.5W Fast Charge Power Bank 5 Outputs & 5 Inputs Solar Portable Charger, SOS/Strobe/Strong Flashlights, Carabiner (Orange)",
+        "matchScore": 21,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -236609,7 +236881,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 12,
+    "trend": 24,
     "winningScore": 69,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -236618,7 +236890,7 @@
     "productName": "150W 12V Car Truck Universal Demister Heater Fan Warmer Defroster Windscreen",
     "productNameEn": "150W 12V Car Truck Universal Demister Heater Fan Warmer Defroster Windscreen",
     "sourceScore": 67,
-    "dropTrendScore": 12,
+    "dropTrendScore": 24,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -236668,17 +236940,17 @@
       {
         "date": "2026-10-01",
         "productId": "2101606006320656386",
-        "quvirlScore": 12,
-        "dropTrendScore": 12,
+        "quvirlScore": 24,
+        "dropTrendScore": 24,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 30,
         "supplierScore": 61,
         "cjScore": 61,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "CJdropshipping",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -236702,9 +236974,25 @@
       "maintenance car truck universal demister heater fan warmer defroster windscreen"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "2101606006320656386",
+        "score": 30,
+        "bestRating": 2.1,
+        "bestRatingsTotal": 17,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FFT7FTD3",
+        "title": "Car Heater 12V, 150W Portable Car Heater Fan with Dual Heating & Cooling, 30s Quick Defrost, 360° Rotatable for Windshield Demisting, fit Car Truck Van SUV (Cigarette Lighter Plug)",
+        "matchScore": 55,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 61,
         "source": "CJdropshipping",
@@ -238808,7 +239096,7 @@
     "aliExpressKeyword": "light glasses",
     "aliExpressRank": 3,
     "sourceScore": 100,
-    "trend": 39,
+    "trend": 60,
     "winningScore": 140,
     "tags": [
       "AliExpress product",
@@ -238838,7 +239126,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T07:49:12.194Z",
-    "dropTrendScore": 39,
+    "dropTrendScore": 60,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -238903,17 +239191,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806808820718",
-        "quvirlScore": 39,
-        "dropTrendScore": 39,
+        "quvirlScore": 60,
+        "dropTrendScore": 60,
         "googleScore": 48,
-        "amazonScore": 0,
+        "amazonScore": 52,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "anti blue light",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -238937,7 +239225,7 @@
       "tr90 reading glasses leg"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "tr90 reading glasses leg sports presbyopia glasses anti blue light glasses",
         "usedKeyword": "anti blue light",
@@ -239281,7 +239569,23 @@
           "tr90 reading glasses leg"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806808820718",
+        "score": 52,
+        "bestRating": 4.2,
+        "bestRatingsTotal": 103,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CSMTRLVP",
+        "title": "TR90 Blue Light Blocking Reading Glasses with Pouches & Lanyard，Cheaters",
+        "matchScore": 44,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -261714,7 +262018,7 @@
     "aliExpressKeyword": "fitness waist",
     "aliExpressRank": 11,
     "sourceScore": 96,
-    "trend": 20,
+    "trend": 46,
     "winningScore": 136,
     "tags": [
       "AliExpress product",
@@ -261743,7 +262047,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T07:54:57.545Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 46,
     "scoreHistory": [
       {
         "date": "2026-09-15",
@@ -261808,17 +262112,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809091876592",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 46,
+        "dropTrendScore": 46,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 66,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -261842,9 +262146,25 @@
       "magnetic therapy lumbar belt heated"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809091876592",
+        "score": 66,
+        "bestRating": 4.5,
+        "bestRatingsTotal": 1327,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B08HJ2CRVP",
+        "title": "FREETOO Back Braces for Lower Back Pain Relief with 6 Stays, Breathable Back Support Belt for Men/Women for work , Anti-skid lumbar support belt with 16-hole Mesh for sciatica(S)",
+        "matchScore": 53,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -267348,7 +267668,7 @@
     "aliExpressKeyword": "figure toys",
     "aliExpressRank": 7,
     "sourceScore": 95,
-    "trend": 20,
+    "trend": 51,
     "winningScore": 135,
     "tags": [
       "AliExpress product",
@@ -267377,7 +267697,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T07:56:07.510Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 51,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -267427,17 +267747,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807751768727",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 51,
+        "dropTrendScore": 51,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 77,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -267461,9 +267781,25 @@
       "puzzle toy deformation car action"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807751768727",
+        "score": 77,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 19879,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B08LK8G17V",
+        "title": "ANIME HEROES - One Piece - Roronoa Zoro Action Figure",
+        "matchScore": 22,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -273628,7 +273964,7 @@
     "aliExpressKeyword": "gel nail",
     "aliExpressRank": 1,
     "sourceScore": 94,
-    "trend": 45,
+    "trend": 60,
     "winningScore": 134,
     "tags": [
       "AliExpress product",
@@ -273656,7 +273992,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T07:57:38.284Z",
-    "dropTrendScore": 45,
+    "dropTrendScore": 60,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -273706,17 +274042,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807120276123",
-        "quvirlScore": 45,
-        "dropTrendScore": 45,
+        "quvirlScore": 60,
+        "dropTrendScore": 60,
         "googleScore": 63,
-        "amazonScore": 0,
+        "amazonScore": 36,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "gel polish varnish",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -273740,7 +274076,7 @@
       "lilycute 7ml jelly amber gel nail polish brown crystal translucent dull nail art gel semi permanent gel polish varnish"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "lilycute 7ml jelly amber",
         "usedKeyword": "gel polish varnish",
@@ -274084,7 +274420,23 @@
           "7ml jelly"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807120276123",
+        "score": 36,
+        "bestRating": 5,
+        "bestRatingsTotal": 0,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0GG6QHQBN",
+        "title": "LILYCUTE 7ML Jelly Amber Gel Nail Polish",
+        "matchScore": 55,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -274680,7 +275032,7 @@
     "aliExpressKeyword": "gel nail",
     "aliExpressRank": 3,
     "sourceScore": 94,
-    "trend": 24,
+    "trend": 48,
     "winningScore": 134,
     "tags": [
       "AliExpress product",
@@ -274708,7 +275060,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T07:57:48.668Z",
-    "dropTrendScore": 24,
+    "dropTrendScore": 48,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -274758,17 +275110,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256811756304244",
-        "quvirlScore": 24,
-        "dropTrendScore": 24,
+        "quvirlScore": 48,
+        "dropTrendScore": 48,
         "googleScore": 9,
-        "amazonScore": 0,
+        "amazonScore": 62,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "venalisa hema tpo free",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -274792,7 +275144,7 @@
       "venalisa hema tpo free nail gel polish glitter gorgeous full coverage soak off led french nail jelly pink nude collection"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "venalisa hema tpo free",
         "usedKeyword": "venalisa hema tpo free",
@@ -275136,7 +275488,23 @@
           "hema tpo"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256811756304244",
+        "score": 62,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 566,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0B5DLFM1N",
+        "title": "VENALISA VIP4 65PCS Gel Nail Polish Set, 60 Colors 7.5ML White Black Pink Nude Gel Polish Colors Nail Art Starter Kit",
+        "matchScore": 35,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -286336,7 +286704,7 @@
     "aliExpressKeyword": "heybly cat",
     "aliExpressRank": 13,
     "sourceScore": 93,
-    "trend": 20,
+    "trend": 44,
     "winningScore": 133,
     "tags": [
       "AliExpress product",
@@ -286365,7 +286733,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:01:30.826Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 44,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -286415,17 +286783,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806984783787",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 44,
+        "dropTrendScore": 44,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 60,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -286449,9 +286817,25 @@
       "interactive chase cat mouse toy"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806984783787",
+        "score": 60,
+        "bestRating": 3.8,
+        "bestRatingsTotal": 1063,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CBZ4HBS1",
+        "title": "LIFLIX Flappy Bird Cat Toy for Indoor Cats, Simulated Chirping Flapping Wings Bird, Interactive Catnip Toys, Plush Kitten Exercise Toys (Brown Sparrow)",
+        "matchScore": 38,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -287063,7 +287447,7 @@
     "aliExpressKeyword": "fountain pen",
     "aliExpressRank": 19,
     "sourceScore": 93,
-    "trend": 20,
+    "trend": 40,
     "winningScore": 133,
     "tags": [
       "AliExpress product",
@@ -287092,7 +287476,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:02:06.171Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 40,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -287142,17 +287526,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809857862551",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 40,
+        "dropTrendScore": 40,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 50,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -287176,9 +287560,25 @@
       "ink school pens office"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809857862551",
+        "score": 50,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 70,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FLWSCZRC",
+        "title": "Andibro Luxury Metal Fountain Pen Set, 0.5 mm Fine Nib Fountain Pen with 6 Pcs 2.6mm Black Ink Cartridges Smooth Writing Pen Gift for Men Women Business Office Journaling",
+        "matchScore": 50,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -288962,7 +289362,7 @@
     "aliExpressKeyword": "fountain pen",
     "aliExpressRank": 35,
     "sourceScore": 93,
-    "trend": 29,
+    "trend": 46,
     "winningScore": 133,
     "tags": [
       "AliExpress product",
@@ -288991,7 +289391,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:02:52.079Z",
-    "dropTrendScore": 29,
+    "dropTrendScore": 46,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -289041,17 +289441,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806770991517",
-        "quvirlScore": 29,
-        "dropTrendScore": 29,
+        "quvirlScore": 46,
+        "dropTrendScore": 46,
         "googleScore": 23,
-        "amazonScore": 0,
+        "amazonScore": 42,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "business writing office school",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -289075,7 +289475,7 @@
       "retro metal fountain pen nib classic design converter business writing office school supplies stationery"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "converter office supplies",
         "usedKeyword": "business writing office school",
@@ -289419,7 +289819,23 @@
           "retro metal fountain pen nib classic design converter business writing office school supplies stationery"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806770991517",
+        "score": 42,
+        "bestRating": 5,
+        "bestRatingsTotal": 3,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0HH8R32R7",
+        "title": "Jinhao 59 Pocket Fountain Pen F Nib Smooth Writer, Coffee Gold Trim",
+        "matchScore": 21,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -290401,7 +290817,7 @@
     "aliExpressKeyword": "linmanda nail",
     "aliExpressRank": 13,
     "sourceScore": 93,
-    "trend": 20,
+    "trend": 43,
     "winningScore": 133,
     "tags": [
       "AliExpress product",
@@ -290430,7 +290846,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:03:01.955Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 43,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -290480,17 +290896,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807242413547",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 43,
+        "dropTrendScore": 43,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 57,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -290514,9 +290930,25 @@
       "nail drill machine kit"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807670676111",
+        "score": 57,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 174,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CWYRLM4F",
+        "title": "Electric 45000RPM Nail Drill Machine Rechargeable Portable Nail File Electric DIY Nail Drill Kit with Smart LCD Screen for Gel Nail Manicure and Pedicure Reflective Body etc(White)",
+        "matchScore": 41,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -295860,7 +296292,7 @@
     "aliExpressKeyword": "marker pen",
     "aliExpressRank": 19,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 46,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -295889,7 +296321,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:03:51.354Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 46,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -295939,17 +296371,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256805040799804",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 46,
+        "dropTrendScore": 46,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 64,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -295973,9 +296405,25 @@
       "pcs white marker pens oily waterproof white gel pen diy graffiti sketching markers stationery wrting school supplies"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256805040799804",
+        "score": 64,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 1247,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B09SG1LVJ4",
+        "title": "Magnetic Dry Erase Markers Set - 8 Colors Fine Point Tip White Board Marker with Eraser, Low Odor Whiteboard Markers for Kids, Teachers",
+        "matchScore": 22,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -296572,7 +297020,7 @@
     "aliExpressKeyword": "storage boxes",
     "aliExpressRank": 17,
     "sourceScore": 92,
-    "trend": 33,
+    "trend": 63,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -296601,7 +297049,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:04:01.467Z",
-    "dropTrendScore": 33,
+    "dropTrendScore": 63,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -296651,17 +297099,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806973125403",
-        "quvirlScore": 33,
-        "dropTrendScore": 33,
+        "quvirlScore": 63,
+        "dropTrendScore": 63,
         "googleScore": 33,
-        "amazonScore": 0,
+        "amazonScore": 74,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "storage container",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -296685,7 +297133,7 @@
       "container storage box"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "diy diamond painting embroidery storage box nail art jewelry rhinestone mosaic storage container storage box",
         "usedKeyword": "storage container",
@@ -297029,7 +297477,23 @@
           "container storage box"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806973125403",
+        "score": 74,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 5723,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B07VMVYKTS",
+        "title": "SATINIOR 24 Pcs Small Clear Plastic Container Box, 2.1 x 2.1 x 0.8 in",
+        "matchScore": 19,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -300156,7 +300620,7 @@
     "aliExpressKeyword": "nail drill",
     "aliExpressRank": 16,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 43,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -300185,7 +300649,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:05:26.915Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 43,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -300235,17 +300699,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807670676111",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 43,
+        "dropTrendScore": 43,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 57,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -300269,9 +300733,25 @@
       "nail drill machine kit"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807670676111",
+        "score": 57,
+        "bestRating": 4.6,
+        "bestRatingsTotal": 174,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CWYRLM4F",
+        "title": "Electric 45000RPM Nail Drill Machine Rechargeable Portable Nail File Electric DIY Nail Drill Kit with Smart LCD Screen for Gel Nail Manicure and Pedicure Reflective Body etc(White)",
+        "matchScore": 41,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -303734,7 +304214,7 @@
     "aliExpressKeyword": "nail file",
     "aliExpressRank": 19,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 48,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -303763,7 +304243,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:06:27.597Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 48,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -303813,17 +304293,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806910945298",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 48,
+        "dropTrendScore": 48,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 69,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -303847,9 +304327,25 @@
       "manicure tool nail"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806910945298",
+        "score": 69,
+        "bestRating": 4.7,
+        "bestRatingsTotal": 1910,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0BCPMFHHM",
+        "title": "Maryton Nail Buffer Block, Medium/Fine Grit 100/180 Finishing Buffers for Acrylic Nails Gel Polish Nails, 3 Way Professional Pedicure Manicure Buffer Kits, 5 Count (Purple)",
+        "matchScore": 39,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -304631,7 +305127,7 @@
     "aliExpressKeyword": "nail file",
     "aliExpressRank": 24,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 34,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -304660,7 +305156,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:06:42.441Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 34,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -304710,17 +305206,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806749273842",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 34,
+        "dropTrendScore": 34,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 35,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -304744,9 +305240,25 @@
       "care file"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806749273842",
+        "score": 35,
+        "bestRating": 5,
+        "bestRatingsTotal": 0,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H968VQ91",
+        "title": "Mini Nail Buffer Blocks 50 Pieces Double-Sided 100/180 Grit Nail Files and Buffers for Acrylic, Gel, Natural Nails, Fingernails and Toenails for Salon and Home Use",
+        "matchScore": 28,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -311256,7 +311768,7 @@
     "aliExpressKeyword": "gel nail",
     "aliExpressRank": 30,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 34,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -311285,7 +311797,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:08:14.159Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 34,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -311335,17 +311847,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809928376537",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 34,
+        "dropTrendScore": 34,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 36,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -311369,9 +311881,25 @@
       "off base gel top"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809928376537",
+        "score": 36,
+        "bestRating": 3.2,
+        "bestRatingsTotal": 16,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0GKHZK2SX",
+        "title": "Xeijayi BlackBerries Cat Eye Gel Nail Polish 15ml Magnetic Shimmer UV LED Soak Off Quick Dry Glossy Long Lasting Self Leveling Gel Salon Quality Burgundy Chrome Effect Manicure For Women Nail Art DIY",
+        "matchScore": 50,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -329970,7 +330498,7 @@
     "aliExpressKeyword": "heybly cat",
     "aliExpressRank": 22,
     "sourceScore": 92,
-    "trend": 45,
+    "trend": 72,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -329999,7 +330527,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:13:32.260Z",
-    "dropTrendScore": 45,
+    "dropTrendScore": 72,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -330049,17 +330577,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256811844379662",
-        "quvirlScore": 45,
-        "dropTrendScore": 45,
+        "quvirlScore": 72,
+        "dropTrendScore": 72,
         "googleScore": 62,
-        "amazonScore": 0,
+        "amazonScore": 69,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "cat toy pet",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -330083,7 +330611,7 @@
       "toy dog cat training"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "cat interactive ball toy automatic rolling ball faux tail rechargeable smart pet electric toy dog cat training imitate mouse",
         "usedKeyword": "cat toy pet",
@@ -330427,7 +330955,23 @@
           "pet electric toy dog"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256811844379662",
+        "score": 69,
+        "bestRating": 4,
+        "bestRatingsTotal": 5103,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0GSZLQ2BP",
+        "title": "Remote Control Cat Toy, Smart Teaser Car with Feather, USB Rechargeable, Dual Speed Interactive Chaser, Obstacle Avoidance, Electric Self-Play for Indoor Cats",
+        "matchScore": 42,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -337253,7 +337797,7 @@
     "aliExpressKeyword": "holder outdoor",
     "aliExpressRank": 2,
     "sourceScore": 92,
-    "trend": 20,
+    "trend": 41,
     "winningScore": 132,
     "tags": [
       "AliExpress product",
@@ -337281,7 +337825,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:15:58.518Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 41,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -337331,17 +337875,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256812731854247",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 41,
+        "dropTrendScore": 41,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 52,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -337365,9 +337909,25 @@
       "holder outdoor"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256812731854247",
+        "score": 52,
+        "bestRating": 4,
+        "bestRatingsTotal": 160,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0DCTPVG14",
+        "title": "ZXZone 2PCS Bottle Buckle Clip Hanging Buckle Portable Water Bottle Ring Holder Keychain Mineral Water Bottle Clip for Backpack Belt Nylon Webbing Strap for Outdoor Tactical Camping Hiking(Black)",
+        "matchScore": 48,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -378344,7 +378904,7 @@
     "aliExpressKeyword": "sports cycling",
     "aliExpressRank": 20,
     "sourceScore": 91,
-    "trend": 30,
+    "trend": 52,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -378373,7 +378933,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:26:08.352Z",
-    "dropTrendScore": 30,
+    "dropTrendScore": 52,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -378423,17 +378983,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256808474025590",
-        "quvirlScore": 30,
-        "dropTrendScore": 30,
+        "quvirlScore": 52,
+        "dropTrendScore": 52,
         "googleScore": 25,
-        "amazonScore": 0,
+        "amazonScore": 54,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "outdoor glasses",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -378457,7 +379017,7 @@
       "sunglasses outdoor mtb"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "outdoor glasses",
         "usedKeyword": "outdoor glasses",
@@ -378801,7 +379361,23 @@
           "sunglasses outdoor mtb"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256808474025590",
+        "score": 54,
+        "bestRating": 4.2,
+        "bestRatingsTotal": 162,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0DL4QN26V",
+        "title": "Winter Gloves for Men Women Cold Weather,Waterproof Winter Bike Gloves for Men Warm with Touchscreen Fingers,for Cycling,Driving,Motorcycle",
+        "matchScore": 25,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -379398,7 +379974,7 @@
     "aliExpressKeyword": "nail file",
     "aliExpressRank": 25,
     "sourceScore": 91,
-    "trend": 25,
+    "trend": 47,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -379427,7 +380003,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:26:48.784Z",
-    "dropTrendScore": 25,
+    "dropTrendScore": 47,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -379477,17 +380053,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256810253054717",
-        "quvirlScore": 25,
-        "dropTrendScore": 25,
+        "quvirlScore": 47,
+        "dropTrendScore": 47,
         "googleScore": 13,
-        "amazonScore": 0,
+        "amazonScore": 54,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "nail file wooden",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -379511,7 +380087,7 @@
       "50pcs nail file wooden sanding buffer block pedicure manicure gel nail polish pro files artificial tips"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "50pcs nail file wooden",
         "usedKeyword": "nail file wooden",
@@ -379855,7 +380431,23 @@
           "pro files"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256810253054717",
+        "score": 54,
+        "bestRating": 4.7,
+        "bestRatingsTotal": 81,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FHWL3X9C",
+        "title": "50 Pack Nail Buffers,100/180 Grit Mini Buffer Block, Mini Nail Files for Acrylic & Natural Nails,Double-Sided Buffing Blocks for Manicure & Pedicure, Salon & Home Use (Multi-Colored)",
+        "matchScore": 47,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -380979,7 +381571,7 @@
     "aliExpressKeyword": "stainless steel",
     "aliExpressRank": 24,
     "sourceScore": 91,
-    "trend": 37,
+    "trend": 51,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -381008,7 +381600,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:27:03.421Z",
-    "dropTrendScore": 37,
+    "dropTrendScore": 51,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -381058,17 +381650,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256810243867463",
-        "quvirlScore": 37,
-        "dropTrendScore": 37,
+        "quvirlScore": 51,
+        "dropTrendScore": 51,
         "googleScore": 42,
-        "amazonScore": 0,
+        "amazonScore": 35,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "stainless steel",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -381092,7 +381684,7 @@
       "steel pot"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "1pc stainless steel pot",
         "usedKeyword": "stainless steel",
@@ -381436,7 +382028,23 @@
           "steel pot"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256810243867463",
+        "score": 35,
+        "bestRating": 5,
+        "bestRatingsTotal": 0,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0CYSN4DQN",
+        "title": "1PCS Stainless-Steel Snow Pan,Wooden Handle with Scale Stew Pot Non-Stick Snow Pan Traditional Japanese Saucepan(22cm-with lid)",
+        "matchScore": 25,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -383315,7 +383923,7 @@
     "aliExpressKeyword": "liquid ink",
     "aliExpressRank": 14,
     "sourceScore": 91,
-    "trend": 20,
+    "trend": 39,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -383344,7 +383952,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:28:17.140Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 39,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -383394,17 +384002,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809198115624",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 39,
+        "dropTrendScore": 39,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 47,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -383428,9 +384036,25 @@
       "semi-permanent makeup tattoo supplies tattoo"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809198115624",
+        "score": 47,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 30,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H4QQ9TMX",
+        "title": "POSEIDON Tattoo Ink Set 18 Colors, 1 Fl Oz Vegan Professional",
+        "matchScore": 38,
+        "matchType": "image",
+        "lensProvider": "decodo_3",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -384739,7 +385363,7 @@
     "aliExpressKeyword": "blue light",
     "aliExpressRank": 24,
     "sourceScore": 91,
-    "trend": 20,
+    "trend": 44,
     "winningScore": 131,
     "tags": [
       "AliExpress product",
@@ -384768,7 +385392,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:26:13.313Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 44,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -384818,17 +385442,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807353829504",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 44,
+        "dropTrendScore": 44,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 61,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -384852,9 +385476,25 @@
       "car interior atmosphere lighting"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807353829504",
+        "score": 61,
+        "bestRating": 4.5,
+        "bestRatingsTotal": 478,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0F1TFS5ZW",
+        "title": "USB 5V COB LED Strip 3mm 5mm Width 400LEDs/m Flexible LED Strip Light with Adhesive High Density Linear Lighting Warm Natural White Red Blue Green (USB 5V Blue, 3mm PCB- 1m/3.28ft)",
+        "matchScore": 35,
+        "matchType": "image",
+        "lensProvider": "decodo_3",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -404722,7 +405362,7 @@
     "aliExpressKeyword": "air humidifier",
     "aliExpressRank": 25,
     "sourceScore": 90,
-    "trend": 26,
+    "trend": 40,
     "winningScore": 130,
     "tags": [
       "AliExpress product",
@@ -404751,7 +405391,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:33:12.213Z",
-    "dropTrendScore": 26,
+    "dropTrendScore": 40,
     "scoreHistory": [
       {
         "date": "2026-09-15",
@@ -404816,17 +405456,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809489281707",
-        "quvirlScore": 26,
-        "dropTrendScore": 26,
+        "quvirlScore": 40,
+        "dropTrendScore": 40,
         "googleScore": 15,
-        "amazonScore": 0,
+        "amazonScore": 36,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "revitalize facial steamer humidifier",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -404850,7 +405490,7 @@
       "revitalize facial steamer humidifier -in-"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "facial steamer humidifier -in-",
         "usedKeyword": "revitalize facial steamer humidifier",
@@ -405194,7 +405834,23 @@
           "revitalize facial steamer humidifier -in-"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809489281707",
+        "score": 36,
+        "bestRating": 3.9,
+        "bestRatingsTotal": 5,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0G1X8G89P",
+        "title": "Portable 220ml Mini USB Humidifier with Colorful LED Lights – Ultrasonic Cool Mist Air Diffuser for Home, Office, Car, Bedroom (White)",
+        "matchScore": 21,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -405976,7 +406632,7 @@
     "aliExpressKeyword": "nail drill",
     "aliExpressRank": 32,
     "sourceScore": 90,
-    "trend": 32,
+    "trend": 54,
     "winningScore": 130,
     "tags": [
       "AliExpress product",
@@ -406005,7 +406661,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:33:41.377Z",
-    "dropTrendScore": 32,
+    "dropTrendScore": 54,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -406055,17 +406711,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809197398321",
-        "quvirlScore": 32,
-        "dropTrendScore": 32,
+        "quvirlScore": 54,
+        "dropTrendScore": 54,
         "googleScore": 30,
-        "amazonScore": 0,
+        "amazonScore": 56,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "tool nail",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -406089,7 +406745,7 @@
       "drill machine"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "drill machine tool",
         "usedKeyword": "tool nail",
@@ -406433,7 +407089,23 @@
           "machine tool"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809197398321",
+        "score": 56,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 210,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0GVML4QKS",
+        "title": "210 Strong 65w Electric Nail Drill 40000rpm Manicure with 105/105l Cutters, Professional Nail File for Salon Quality Manicure and Pedicure Strong210+105",
+        "matchScore": 41,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -447227,7 +447899,7 @@
     "aliExpressKeyword": "phone telescope",
     "aliExpressRank": 26,
     "sourceScore": 88,
-    "trend": 20,
+    "trend": 38,
     "winningScore": 128,
     "tags": [
       "AliExpress product",
@@ -447256,7 +447928,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:43:03.835Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 38,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -447306,17 +447978,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807918232270",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 38,
+        "dropTrendScore": 38,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 45,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -447340,9 +448012,25 @@
       "mobile phone camera lens clip-on"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807918232270",
+        "score": 45,
+        "bestRating": 4.4,
+        "bestRatingsTotal": 20,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0DVFVMY64",
+        "title": "20-40x Zoom Telephoto Phone Lens with Professional Tripod for iPhone/Samsung/Google/Nokia/Oppo/Huawei",
+        "matchScore": 41,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -449049,7 +449737,7 @@
     "aliExpressKeyword": "humidifier usb",
     "aliExpressRank": 34,
     "sourceScore": 87,
-    "trend": 24,
+    "trend": 34,
     "winningScore": 127,
     "tags": [
       "AliExpress product",
@@ -449078,7 +449766,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:44:24.697Z",
-    "dropTrendScore": 24,
+    "dropTrendScore": 34,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -449128,17 +449816,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256806596545188",
-        "quvirlScore": 24,
-        "dropTrendScore": 24,
+        "quvirlScore": 34,
+        "dropTrendScore": 34,
         "googleScore": 11,
-        "amazonScore": 0,
+        "amazonScore": 24,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "water droplet air humidifier cool",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -449162,7 +449850,7 @@
       "night light weightless sprayer bedroom"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "humidifier light sprayer",
         "usedKeyword": "water droplet air humidifier cool",
@@ -449506,7 +450194,23 @@
           "night light weightless sprayer bedroom"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256806596545188",
+        "score": 24,
+        "bestRating": 3,
+        "bestRatingsTotal": 1,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0DQ5C6TW3",
+        "title": "2L Double Nozzle Air Humidifier Double Spray Humidifier, Large Humidifier with LCD Display, Almost Silent Bedroom Humidifier for Dry Skin, Oil Diffuser with Night Light (Pink)",
+        "matchScore": 33,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -450287,7 +450991,7 @@
     "aliExpressKeyword": "telescope holder",
     "aliExpressRank": 5,
     "sourceScore": 89,
-    "trend": 20,
+    "trend": 44,
     "winningScore": 129,
     "tags": [
       "AliExpress product",
@@ -450315,7 +451019,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:39:08.359Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 44,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -450365,17 +451069,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256804175961076",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 44,
+        "dropTrendScore": 44,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 60,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -450399,9 +451103,25 @@
       "rail mount fixed rings"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256804175961076",
+        "score": 60,
+        "bestRating": 4.7,
+        "bestRatingsTotal": 261,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B07L4ZT7CT",
+        "title": "Monstrum Adjustable Height Picatinny Pair of Scope Rings | 1 inch Diameter",
+        "matchScore": 21,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -454040,7 +454760,7 @@
     "aliExpressKeyword": "fountain pen",
     "aliExpressRank": 30,
     "sourceScore": 86,
-    "trend": 20,
+    "trend": 34,
     "winningScore": 126,
     "tags": [
       "AliExpress product",
@@ -454069,7 +454789,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:46:57.204Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 34,
     "scoreHistory": [
       {
         "date": "2026-09-21",
@@ -454134,17 +454854,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809362627100",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 34,
+        "dropTrendScore": 34,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 34,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -454168,9 +454888,25 @@
       "pilot kakuno fountain pen multi-colors dreamy smile family series nib writing calligraphy pen perfect gift student"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809362627100",
+        "score": 34,
+        "bestRating": 3.8,
+        "bestRatingsTotal": 4,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FNR3BBBQ",
+        "title": "3PCS Jinhao 35 Fountain Pen Set, Iridium Ultra Fine & Extra Fine & Fine Nib, Smooth Writing Pen with Converter Set (Brushed Silver)",
+        "matchScore": 29,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -454240,7 +454976,7 @@
     "aliExpressKeyword": "fitness waist",
     "aliExpressRank": 18,
     "sourceScore": 86,
-    "trend": 20,
+    "trend": 40,
     "winningScore": 126,
     "tags": [
       "AliExpress product",
@@ -454269,7 +455005,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:47:07.086Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 40,
     "scoreHistory": [
       {
         "date": "2026-09-15",
@@ -454334,17 +455070,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807208068269",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 40,
+        "dropTrendScore": 40,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 49,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -454368,9 +455104,25 @@
       "gym belts fitness"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807208068269",
+        "score": 49,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 48,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B077BX5XFZ",
+        "title": "Deluxe Neoprene Double Pull Lumbar Lower Back Support Brace Exercise Belt Waist Trainer Belt",
+        "matchScore": 44,
+        "matchType": "image",
+        "lensProvider": "decodo_3",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -454440,7 +455192,7 @@
     "aliExpressKeyword": "phone telescope",
     "aliExpressRank": 39,
     "sourceScore": 90,
-    "trend": 31,
+    "trend": 53,
     "winningScore": 128.169700377573,
     "tags": [
       "AliExpress product",
@@ -454469,7 +455221,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:39:18.336Z",
-    "dropTrendScore": 31,
+    "dropTrendScore": 53,
     "scoreHistory": [
       {
         "date": "2026-09-15",
@@ -454534,17 +455286,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256809558975223",
-        "quvirlScore": 31,
-        "dropTrendScore": 31,
+        "quvirlScore": 53,
+        "dropTrendScore": 53,
         "googleScore": 27,
-        "amazonScore": 0,
+        "amazonScore": 56,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "phone telescope",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -454568,7 +455320,7 @@
       "telescope tripod phone"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "tripod phone adapter powerful",
         "usedKeyword": "phone telescope",
@@ -454912,7 +455664,23 @@
           "telescope tripod phone"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256809558975223",
+        "score": 56,
+        "bestRating": 4.3,
+        "bestRatingsTotal": 182,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.co.uk/dp/B0C1MQF7YC",
+        "title": "BOSSDUN Monocular Telescope, 30x50 HD High Power Zoom Magnification with Phone Adapter Tripod & Lens Hood, FMC Lens/BAK4 Prism Waterproof Monoculars for Adults for Bird Watching Hiking Stargazing",
+        "matchScore": 57,
+        "matchType": "image",
+        "lensProvider": "decodo_3",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -467438,7 +468206,7 @@
     "aliExpressKeyword": "air humidifier",
     "aliExpressRank": 20,
     "sourceScore": 85,
-    "trend": 20,
+    "trend": 24,
     "winningScore": 125,
     "tags": [
       "AliExpress product",
@@ -467467,7 +468235,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:47:47.509Z",
-    "dropTrendScore": 20,
+    "dropTrendScore": 24,
     "scoreHistory": [
       {
         "date": "2026-09-11",
@@ -467592,17 +468360,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256807671004309",
-        "quvirlScore": 20,
-        "dropTrendScore": 20,
+        "quvirlScore": 24,
+        "dropTrendScore": 24,
         "googleScore": 0,
-        "amazonScore": 0,
+        "amazonScore": 9,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Low"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -467626,9 +468394,25 @@
       "car humidifier light"
     ],
     "trendProof": {
-      "confidence": "Low",
+      "confidence": "Medium",
       "googleTrends": null,
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256807671004309",
+        "score": 9,
+        "bestRating": "",
+        "bestRatingsTotal": 5,
+        "bestPrice": "",
+        "position": 1,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0H1JRLXDD",
+        "title": "Zunate Digital Display Aromatherapy Machine, 4 Mist Modes Nano Atomization Diffuser with High Capacity Battery for Home, Bedroom, Toilet, Hotel",
+        "matchScore": 32,
+        "matchType": "image",
+        "lensProvider": "decodo_3",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
@@ -491141,7 +491925,7 @@
     "aliExpressKeyword": "nail file",
     "aliExpressRank": 34,
     "sourceScore": 89,
-    "trend": 25,
+    "trend": 47,
     "winningScore": 129,
     "tags": [
       "AliExpress product",
@@ -491170,7 +491954,7 @@
     "liveSupplierPriceText": "",
     "livePriceSource": "",
     "detailEnrichedAt": "2026-09-21T08:36:56.666Z",
-    "dropTrendScore": 25,
+    "dropTrendScore": 47,
     "scoreHistory": [
       {
         "date": "2026-09-15",
@@ -491235,17 +492019,17 @@
       {
         "date": "2026-10-01",
         "productId": "aliexpress-3256808597425106",
-        "quvirlScore": 25,
-        "dropTrendScore": 25,
+        "quvirlScore": 47,
+        "dropTrendScore": 47,
         "googleScore": 13,
-        "amazonScore": 0,
+        "amazonScore": 54,
         "supplierScore": 100,
         "cjScore": 0,
         "aliExpressScore": 100,
         "googleKeyword": "nail file wooden",
-        "amazonMatched": false,
+        "amazonMatched": true,
         "source": "AliExpress",
-        "confidence": "Medium"
+        "confidence": "High"
       }
     ],
     "aiKeywords": [
@@ -491269,7 +492053,7 @@
       "50pcs nail file wooden sanding buffer block pedicure manicure gel nail polish pro files artificial tips"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "High",
       "googleTrends": {
         "keyword": "50pcs nail file wooden",
         "usedKeyword": "nail file wooden",
@@ -491613,7 +492397,23 @@
           "pro files"
         ]
       },
-      "amazon": null,
+      "amazon": {
+        "keyword": "aliexpress-3256810253054717",
+        "score": 54,
+        "bestRating": 4.7,
+        "bestRatingsTotal": 81,
+        "bestPrice": "",
+        "position": 2,
+        "isBestSeller": false,
+        "badgeText": "",
+        "productUrl": "https://www.amazon.com/dp/B0FHWL3X9C",
+        "title": "50 Pack Nail Buffers,100/180 Grit Mini Buffer Block, Mini Nail Files for Acrylic & Natural Nails,Double-Sided Buffing Blocks for Manicure & Pedicure, Salon & Home Use (Multi-Colored)",
+        "matchScore": 47,
+        "matchType": "image",
+        "lensProvider": "decodo_2",
+        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
+        "match": 1
+      },
       "cjSupplier": {
         "score": 100,
         "source": "AliExpress",
