@@ -258,10 +258,10 @@ function decodeBingParam(param) {
 function unwrapUrl(rawUrl) {
   if (!rawUrl) return "";
   let url = String(rawUrl).trim();
+  while (url.includes("&amp;")) url = url.replaceAll("&amp;", "&");
 
   url = url
     .replace(/&quot;?$/i, "")
-    .replace(/&amp;?$/i, "")
     .replace(/&lt;?$/i, "")
     .replace(/&gt;?$/i, "")
     .replace(/['"\\<>{}\[\]]+$/g, "")
@@ -274,14 +274,14 @@ function unwrapUrl(rawUrl) {
   try {
     const u = new URL(url, "https://www.bing.com");
 
-    const uParam = u.searchParams.get("u");
+    const uParam = u.searchParams.get("u") || u.searchParams.get("amp;u");
     if (uParam) {
       const decoded = decodeBingParam(uParam);
       if (decoded) return unwrapUrl(decoded);
     }
 
     for (const key of ["url", "q", "r", "dest", "destination", "target", "redir", "targetUrl", "landingPageUrl"]) {
-      const val = u.searchParams.get(key);
+      const val = u.searchParams.get(key) || u.searchParams.get("amp;" + key);
       if (val) {
         let unwrapped = val;
         try { unwrapped = decodeURIComponent(val); } catch {}
@@ -611,7 +611,7 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, attempt = 0) {
   const payload = {
     target: currentConfig.target,
     url: currentConfig.url,
-    parse: true
+    parse: false
   };
   if (currentConfig.headless) payload.headless = currentConfig.headless;
   if (currentConfig.device_type) payload.device_type = currentConfig.device_type;
@@ -630,12 +630,13 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, attempt = 0) {
   const isFailed = String(response?.status || "").toLowerCase() === "failed";
   const firstResult = Array.isArray(response?.results) ? response.results[0] : null;
   const resultStatusCode = firstResult?.status_code ? Number(firstResult.status_code) : 200;
+  const contentLength = typeof firstResult?.content === "string" ? firstResult.content.length : 0;
 
-  if (isFailed || resultStatusCode >= 400) {
-    const errCode = String(response?.status_code || firstResult?.status_code || "");
+  if (isFailed || resultStatusCode >= 400 || (contentLength < 500 && attempt < 2)) {
+    const errCode = String(response?.status_code || firstResult?.status_code || (contentLength < 500 ? "empty_content" : ""));
     const errMsg = String(response?.message || firstResult?.content || firstResult?.message || "scraper error");
 
-    if (attempt < 3 && (/613|retry|timeout/i.test(errCode) || /scrape the target/i.test(errMsg))) {
+    if (attempt < 3 && (/613|retry|timeout|empty_content/i.test(errCode) || /scrape the target/i.test(errMsg))) {
       const nextConfig = presets[(attempt + 1) % presets.length];
       const backoffMs = 3000 + (attempt * 1500);
       console.log(`Decodo returned ${errCode}. Spreading request and retrying (attempt ${attempt + 2}/4) with device_type=${nextConfig.device_type}, headless=${nextConfig.headless || "none"}, geo=${nextConfig.geo || "auto"} after ${backoffMs}ms...`);
@@ -643,10 +644,12 @@ async function decodoLensWithAuth(imageUrl, authBase64, label, attempt = 0) {
       return decodoLensWithAuth(imageUrl, authBase64, label, attempt + 1);
     }
 
-    throw new Error(
-      "Decodo " + label + " failed (status " + errCode +
-      "): " + errMsg
-    );
+    if (isFailed || resultStatusCode >= 400) {
+      throw new Error(
+        "Decodo " + label + " failed (status " + errCode +
+        "): " + errMsg
+      );
+    }
   }
 
   const links = extractAmazonLinks(response);
