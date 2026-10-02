@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:49:08.694Z",
+  "updatedAt": "2026-10-02T21:07:56.669Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 78,
-  "failedCount": 72,
-  "lastKeyword": "simple digital watch sport led electronic watch black silicone wristband casual watch reloj hombre",
+  "savedSignalCount": 77,
+  "failedCount": 73,
+  "lastKeyword": "sweaters sweater european american s pullover sweater hand-crocheted floral patchwork v-neck sweater amazon seller",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3928,
-  "reusedVariantChecks": 496,
-  "variantCacheSize": 3928,
+  "uniqueVariantsFetched": 3804,
+  "reusedVariantChecks": 888,
+  "variantCacheSize": 3804,
   "keywordTimeoutMs": 180000
 }

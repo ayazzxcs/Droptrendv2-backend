@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T00:46:44.262Z",
+  "updatedAt": "2026-10-02T20:11:41.337Z",
   "chunkIndex": 4,
   "rawChunkIndex": 4,
   "normalizedChunkIndex": 4,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 73,
-  "failedCount": 77,
-  "lastKeyword": "stitching wide-leg pants casual",
+  "savedSignalCount": 72,
+  "failedCount": 78,
+  "lastKeyword": "bras bra",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2643,
-  "reusedVariantChecks": 434,
-  "variantCacheSize": 2643,
+  "uniqueVariantsFetched": 2638,
+  "reusedVariantChecks": 509,
+  "variantCacheSize": 2638,
   "keywordTimeoutMs": 180000
 }

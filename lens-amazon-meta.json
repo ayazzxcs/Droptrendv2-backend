@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-02T12:24:23.559Z",
+  "updatedAt": "2026-10-02T23:34:20.091Z",
   "month": "2026-10",
   "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
-  "maxProducts": 200,
+  "maxProducts": 1600,
   "apifyTokensCount": 6,
   "batchSize": 15,
   "providerUsage": {
-    "apify": 5000
+    "apify": 1400
   },
   "providerBudgets": {
     "apify": 5000,
@@ -21,8 +21,8 @@
     "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 0,
-  "failures": 0,
+  "matches": 132,
+  "failures": 39,
   "resetAmazonCache": true,
   "matrixQuotaSeededFromStartIndex": true,
   "note": "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata.",
@@ -30,10 +30,73 @@
     {
       "startIndex": 0,
       "maxProducts": 200,
+      "matches": 31,
+      "failures": 3,
+      "providerUsage": {
+        "apify": 34
+      }
+    },
+    {
+      "startIndex": 200,
+      "maxProducts": 200,
+      "matches": 30,
+      "failures": 10,
+      "providerUsage": {
+        "apify": 240
+      }
+    },
+    {
+      "startIndex": 400,
+      "maxProducts": 200,
+      "matches": 27,
+      "failures": 9,
+      "providerUsage": {
+        "apify": 436
+      }
+    },
+    {
+      "startIndex": 600,
+      "maxProducts": 200,
+      "matches": 23,
+      "failures": 7,
+      "providerUsage": {
+        "apify": 630
+      }
+    },
+    {
+      "startIndex": 800,
+      "maxProducts": 200,
+      "matches": 21,
+      "failures": 10,
+      "providerUsage": {
+        "apify": 831
+      }
+    },
+    {
+      "startIndex": 1000,
+      "maxProducts": 200,
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 5000
+        "apify": 1000
+      }
+    },
+    {
+      "startIndex": 1200,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 1200
+      }
+    },
+    {
+      "startIndex": 1400,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 1400
       }
     }
   ]

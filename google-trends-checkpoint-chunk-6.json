@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T02:41:08.403Z",
+  "updatedAt": "2026-10-02T22:22:45.099Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 68,
-  "failedCount": 82,
-  "lastKeyword": "pants trousers",
+  "savedSignalCount": 69,
+  "failedCount": 81,
+  "lastKeyword": "dresses dress",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1729,
-  "reusedVariantChecks": 365,
-  "variantCacheSize": 1729,
+  "uniqueVariantsFetched": 1865,
+  "reusedVariantChecks": 411,
+  "variantCacheSize": 1865,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T22:24:27.719Z",
+  "updatedAt": "2026-10-02T17:46:52.028Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,30 +33,72 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 15,
+  "errorCount": 20,
   "errors": [
     {
-      "keyword": "stainless steel",
+      "keyword": "motion sensor",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: motion sensor; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "handheld fan",
+      "keyword": "screen protector",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: handheld fan; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: screen protector; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "acrylic paint",
+      "keyword": "projector lamp",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: acrylic paint; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: projector lamp; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "hand tools",
+      "keyword": "hair cutting",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: hand tools; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: hair cutting; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "trimmer hair",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: trimmer hair; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "hair clipper",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: hair clipper; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "film iphone",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: film iphone; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "fully compliant",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: fully compliant; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "film not",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: film not; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "cable usb",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: cable usb; best raw count 0",
+      "deferred": true
+    },
+    {
+      "keyword": "charging cable",
+      "phase": "first-pass",
+      "error": "AliExpress low/empty product page for keyword: charging cable; best raw count 0",
       "deferred": true
     },
     {
@@ -66,63 +108,51 @@
       "deferred": true
     },
     {
-      "keyword": "nose end",
+      "keyword": "kitchen knife",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: nose end; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: kitchen knife; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "fan convenient",
+      "keyword": "toy super",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: fan convenient; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: toy super; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "holder camping",
+      "keyword": "organizer grain",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: holder camping; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: organizer grain; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "pliers equipment",
+      "keyword": "vintage hair",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: pliers equipment; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: vintage hair; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "convenient creative",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: convenient creative; best raw count 0",
-      "deferred": true
+      "keyword": "cable ties",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: cable ties; best raw count 0",
+      "deferred": false
     },
     {
-      "keyword": "creative fan",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: creative fan; best raw count 0",
-      "deferred": true
+      "keyword": "fidget toys",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: fidget toys; best raw count 0",
+      "deferred": false
     },
     {
-      "keyword": "accessibility fully compliant",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: accessibility fully compliant; best raw count 0",
-      "deferred": true
+      "keyword": "cozy home",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: cozy home; best raw count 0",
+      "deferred": false
     },
     {
-      "keyword": "jewelry pliers",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: jewelry pliers; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "tools jewelry",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tools jewelry; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "stainless steel",
-      "phase": "deferred-retry",
-      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
+      "keyword": "trainer silicone",
+      "phase": "remaining-fill",
+      "error": "AliExpress low/empty product page for keyword: trainer silicone; best raw count 0",
       "deferred": false
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T03:52:52.539Z",
+  "updatedAt": "2026-10-02T23:19:05.869Z",
   "chunkIndex": 0,
   "rawChunkIndex": 0,
   "normalizedChunkIndex": 0,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 40,
-  "failedCount": 110,
-  "lastKeyword": "sensor light flashlight lamp",
+  "savedSignalCount": 46,
+  "failedCount": 104,
+  "lastKeyword": "lights sensor light lamp",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 6520,
-  "reusedVariantChecks": 1405,
-  "variantCacheSize": 6515,
+  "uniqueVariantsFetched": 6702,
+  "reusedVariantChecks": 1416,
+  "variantCacheSize": 6428,
   "keywordTimeoutMs": 180000
 }

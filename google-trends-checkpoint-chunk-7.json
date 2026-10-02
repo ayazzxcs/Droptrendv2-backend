@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T03:20:40.314Z",
+  "updatedAt": "2026-10-02T22:30:28.273Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 77,
-  "failedCount": 73,
-  "lastKeyword": "hoodies sweatshirts s casual",
+  "savedSignalCount": 80,
+  "failedCount": 70,
+  "lastKeyword": "skirts skirt",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1653,
-  "reusedVariantChecks": 252,
-  "variantCacheSize": 1653,
+  "uniqueVariantsFetched": 1468,
+  "reusedVariantChecks": 348,
+  "variantCacheSize": 1468,
   "keywordTimeoutMs": 180000
 }

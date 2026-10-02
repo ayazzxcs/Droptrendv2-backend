@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T04:13:21.775Z",
+  "updatedAt": "2026-10-02T23:32:57.076Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 90,
-  "failedCount": 60,
-  "lastKeyword": "diy cluster false eyelash",
+  "savedSignalCount": 81,
+  "failedCount": 69,
+  "lastKeyword": "full-diamond inlaid zircon necklace",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1732,
-  "reusedVariantChecks": 184,
-  "variantCacheSize": 1732,
+  "uniqueVariantsFetched": 1715,
+  "reusedVariantChecks": 218,
+  "variantCacheSize": 1715,
   "keywordTimeoutMs": 180000
 }

@@ -1,1 +1,1312 @@
-[]
+[
+  {
+    "index": 0,
+    "name": "2pcs Suit Women's Solid Stripe Long-sleeved Top And Tight Suspender Skirt Fashion Autumn Winter Slim Clothing",
+    "image": "https://oss-cf.cjdropshipping.com/product/2023/10/31/05/e3a4b28b-ad95-46c6-83c5-eb6dbd61549c.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com.mx/dp/B0FJ2VBJBL",
+      "https://www.amazon.com/dp/B0FKMTVZ6S",
+      "https://us.amazon.com/dp/B0GDG2LGRK",
+      "https://www.amazon.com/dp/B0C3ZZJSCD",
+      "https://www.amazon.com/dp/B0DDPR9VMF",
+      "https://www.amazon.com/dp/B0F1FXSKW9",
+      "https://www.amazon.com/dp/B0FFH71PF4",
+      "https://www.amazon.com.mx/dp/B0FJ865HMK"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com.mx/dp/B0FJ2VBJBL",
+        "title": "Conjuntos de Dos Piezas de Vestido Midi para Mujer, Vestidos suéter Manga Larga para Mujer, Tops Cortos Punto y Vestidos Ajustados.",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B0FKMTVZ6S",
+        "title": "Women's Long Sleeve Bodycon Midi Dress 2 Piece Outfits Sets Sweater Dresses Ribbed Knit Crop Tops",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://us.amazon.com/dp/B0GDG2LGRK",
+        "title": "SISKIN 2 Piece Sets for Women, Fall Knit Ribbed Sweater Midi Cami Dress & Cropped Cardigan Long Sleeve Casual Outfits Set",
+        "rating": 3.5,
+        "ratingsTotal": 4,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/dp/B0C3ZZJSCD",
+        "title": "Neeno Women's Dresses Ribbed Knit Bodycon Dress Dress for Women (Color : Light Grey, Size : X-Small)",
+        "rating": 4.3,
+        "ratingsTotal": 5,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.com/dp/B0DDPR9VMF",
+        "title": "Women's 2 Piece Sweater Outfits Sexy Sleeveless Bodycon Ribbed Dress and Long Sleeve Open Front Crop Cardigan Knit Set",
+        "rating": 4.3,
+        "ratingsTotal": 5,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.com/dp/B0F1FXSKW9",
+        "title": "Women's Summer Short Dress Women's Sexy Off Should Front Hollow Mini Dress Fashion Dress",
+        "rating": 4.3,
+        "ratingsTotal": 5,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.com/dp/B0FFH71PF4",
+        "title": "CIDER Womens Ribbed Knit Sweater Dress Long Sleeve V Neck Mini Cozy Dress Collared 2025 Fall Dresses",
+        "rating": 4.3,
+        "ratingsTotal": 59,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.com.mx/dp/B0FJ865HMK",
+        "title": "Vestido de Punto Acanalado para Mujer, Conjunto de Trabajo Dos Piezas Punto Manga Larga, Top Corto y Vestido Midi Ajustado",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 29,
+    "name": "Knitted Casual Hoodie With Multiple Pockets Loose-fit Workwear Style With A Hood",
+    "image": "https://cf.cjdropshipping.com/quick/product/0e1b002d-9828-4f39-9a60-dad3816044dc.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.de/dp/B0DXDP2TH3",
+      "https://www.amazon.it/dp/B0DM5LGVSC",
+      "https://www.amazon.fr/dp/B0DXPRKR7V",
+      "https://www.amazon.co.uk/dp/B0DQKFZVC4",
+      "https://www.amazon.com/dp/B0BK9GYVTZ",
+      "https://www.amazon.co.uk/dp/B0G449RGC4",
+      "https://www.amazon.fr/dp/B0FYNYRNVL",
+      "https://www.amazon.de/dp/B0FKBR75TY"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.de/dp/B0DXDP2TH3",
+        "title": "ZEMALON Sweatshirt Herren Leichte Komfortabel Casual Long Sleeve Hoodie Herren Jugend Persönlichkeit Trend Langärmeliges Sweatshirt Herren Mode Sport Kapuzenpullover Herren F-Army Green XL : Amazon.de: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.it/dp/B0DM5LGVSC",
+        "title": "Uomo Autunno E Inverno Manica Lunga Pile Felpa Con Cappuccio Uomo Caldo Maglione Con Cappuccio Top Outdoor Maglione Camicia Mocassini, cachi, S : Amazon.it: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.fr/dp/B0DXPRKR7V",
+        "title": "BERCIELY Sweat Homme Lumière Confortable Casual Pullover Jeunesse Classique Tendance Sweat-Shirtveste Mode Sport All-Match Sweat-Shirt À Manches Longues G-Navy XXL : Amazon.fr: Fashion",
+        "rating": 4.3,
+        "ratingsTotal": 1149,
+        "matchScore": 11,
+        "reason": "weak amazon title match: 11"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0DQKFZVC4",
+        "title": "NITRY Men Sweatshirt Men Casual Fashion Sport Hoodie Men Youth Classic All-Match Hoodie Men Regular Fit Trend Comfortable Long-Sleeved Sweatshirt F-Army Green XXL : Amazon.co.uk: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.com/dp/B0BK9GYVTZ",
+        "title": "DGHM-JLMY Men Neckline Button Henley Hooded Fleece Long Sleeve Autumn Casual Sweatshirt Going Out Hoodies Blouse Tracksuit",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0G449RGC4",
+        "title": "Jogging Suit Men's Sports Suit Tracksuit Leisure Suit Tracksuit Set Modern Business Clothing Formal Two Piece Ensemble with Tailored Jacket Trousers for Wedding Events",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.fr/dp/B0FYNYRNVL",
+        "title": "Generisch Survêtement pour homme 2 pièces - Sweat à capuche cargo + pantalon de survêtement japonais - Respirant - Survêtement de maison surdimensionné - Survêtement baggy chaud, kaki, S : Amazon.fr: Fashion",
+        "rating": 4.3,
+        "ratingsTotal": 1149,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.de/dp/B0FKBR75TY",
+        "title": "Duohropke Men's Jogging Suit, 2-Piece Set with Hoodie and Jogging Bottoms, Tracksuits, Breathable Activewear, Tracksuit with Zips, Pocket, Leisure Suit, Long Sleeve Shirt, Tracksuit Bottoms : Amazon.de: Sports & Outdoors",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 33,
+    "name": "Women's Casual Sleeveless Vest And Pleated Skirt Set",
+    "image": "https://cf.cjdropshipping.com/quick/product/675397bd-ca13-4024-a6cc-9786002f94ea.jpg",
+    "provider": "apify",
+    "reason": "No active APIFY_TOKEN available"
+  },
+  {
+    "index": 202,
+    "name": "Cross-border Foreign Trade Wholesale Autumn New Men's Jacket Large Size Lapel Multi-pocket Trend All-match Work Coat Men",
+    "image": "https://cj-product-center.oss-accelerate.aliyuncs.com/supplier/1688/75b7ce5a-ecc2-44bf-a54c-355e9569261c.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.co.uk/dp/B0FZCLDD2V",
+      "https://www.amazon.ae/dp/B0FH9HQXCN"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0FZCLDD2V",
+        "title": "Men's Winter Jacket, Sporty, Transition Jacket with Pockets, Casual Lapels, Aviator Jacket, Long Sleeve Outdoor Jacket with Button Placket, Everyday Men's Jacket, Waterproof Wind Jacket, Autumn Winter",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ae/dp/B0FH9HQXCN",
+        "title": "Runcati Mens Safari Jacket Military Full Zip Cargo Jacket Windproof Multi Pocket Outdoor Field Coat",
+        "rating": 4.4,
+        "ratingsTotal": 4,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 204,
+    "name": "CILOA Mens High-end Tritium Watch",
+    "image": "https://cf.cjdropshipping.com/quick/product/b9e73487-25f0-49de-a84c-b9bde8c27915.jpg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 214,
+    "name": "Women's Loose Bubble-Sleeve Turn-Down Collar Long-Sleeve Shirt",
+    "image": "https://cf.cjdropshipping.com/quick/product/d6ef8aea-f338-4006-937d-2e5ee9c5106f.jpg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 223,
+    "name": "Women's Retro Suede Long-Sleeve Shirt Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/ad7fe20a-07f9-4183-9cb2-7e7f818c105d.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.ae/dp/B07QD11516",
+      "https://www.amazon.sa/dp/B0C8LZZKX6"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.ae/dp/B07QD11516",
+        "title": "GGUHHU womens Classic Classic",
+        "rating": 3.8,
+        "ratingsTotal": 480,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.sa/dp/B0C8LZZKX6",
+        "title": "Dress for Women Women's High Waist Single Breasted Shirt Short Skirt Women's Long Sleeve Slim Fit Tank Top Dress (Size : L)",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 230,
+    "name": "Square-neck Mesh Sequin Tassel Long-sleeve High-slit Mermaid Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/b546cb04-f108-4eda-9544-f0c39f3f2af2.jpg",
+    "provider": "apify",
+    "reason": "no amazon links from current provider"
+  },
+  {
+    "index": 231,
+    "name": "Foreign Trade Men's Autumn And Winter Cardigan Zipper Sweater Fleece Collar Jacket Men's Loose Knitwear Jacket Jacket Men's Top",
+    "image": "https://cj-product-center.oss-accelerate.aliyuncs.com/supplier/1688/a094bb9c-0ed7-4516-bc05-969703f4d508.jpg",
+    "provider": "apify",
+    "reason": "no amazon links from current provider"
+  },
+  {
+    "index": 232,
+    "name": "Women's Solid-color Strapless Lace Dress",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/09/29/09/7f01a21d-4742-4ad3-bcf1-148dc1d6da7b_trans.jpeg",
+    "provider": "apify",
+    "reason": "no amazon links from current provider"
+  },
+  {
+    "index": 236,
+    "name": "Women's French-style Stand-collar Asymmetrical Design Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/527d7353-0773-4771-bc11-c70520eed17e.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 1,
+    "amazonUrls": [
+      "https://us.amazon.com/dp/B0GV3KDVT4"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://us.amazon.com/dp/B0GV3KDVT4",
+        "title": "2 Piece Chinese Suits for Men Slim Fit Chinese Tunic Suit Mens Mandarin Collar Suits for Wedding Prom Party",
+        "rating": 4,
+        "ratingsTotal": 8,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 237,
+    "name": "One-strap Sandals Stiletto Heels Pointed-toe High Heels Delicate Straps Women's",
+    "image": "https://cf.cjdropshipping.com/quick/product/cfe39d5f-1251-4be2-a789-d343d27456d1.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.co.uk/dp/B0H2MX387M",
+      "https://www.amazon.in/dp/B0HKGMQ63G"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0H2MX387M",
+        "title": "Women's Champagne PU Pointed Toe Slingback Stiletto Heel Sandals for Evening",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.in/dp/B0HKGMQ63G",
+        "title": "Buy Denill Women's Sleek Slingback Heel (Peach) Uk-3 at Amazon.in",
+        "rating": 4,
+        "ratingsTotal": 2600,
+        "matchScore": 11,
+        "reason": "weak amazon title match: 11"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 239,
+    "name": "Women's Padded Tank Top For Outerwear",
+    "image": "https://cf.cjdropshipping.com/quick/product/dbedb527-5acc-4418-983d-f986c2f0b2f6.jpg",
+    "provider": "apify",
+    "reason": "No active APIFY_TOKEN available"
+  },
+  {
+    "index": 403,
+    "name": "V-neck Loose-fit Long-sleeve T-shirt Men's Breathable Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/0648f452-9153-43db-a740-46157d05a12b.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 1,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0DX88B7YB"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0DX88B7YB",
+        "title": "LE BOP Women's Eloise Cardigan",
+        "rating": 5,
+        "ratingsTotal": 5,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 404,
+    "name": "Navy Blue Dragon-scale Pattern Shirt Men's Casual Jacket",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/09/29/05/8061c5c1-8aa1-41f1-aef3-6c044a7062b6_trans.jpeg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0GJJVPFZF",
+      "https://www.amazon.com/dp/B0F937B98B"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0GJJVPFZF",
+        "title": "Lands' End Men's Long Sleeve Bedford Button Through Utility Overshirt",
+        "rating": 4.6,
+        "ratingsTotal": 50,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B0F937B98B",
+        "title": "Les Deux Men's Fischer Milano Knit Shacket",
+        "rating": 4.2,
+        "ratingsTotal": 5,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 407,
+    "name": "Women's Solid-color Casual Bohemian Dress",
+    "image": "https://cf.cjdropshipping.com/quick/product/7c899be1-f6a6-4ff0-aeea-12b58790c23a.jpg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 413,
+    "name": "Mid-length Autumn And Winter Warm Environmental Protection Fur Coat",
+    "image": "https://cf.cjdropshipping.com/quick/product/c987db31-498e-4512-a407-26c25c9b7160.jpg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 414,
+    "name": "Women's Retro Cow Suede German Training Shoes",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/09/29/05/90805bed-d513-4ce5-b3f5-a34f9206102c.jpeg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 3,
+    "amazonUrls": [
+      "https://www.amazon.co.jp/dp/B09W564VRF",
+      "https://www.amazon.co.jp/dp/B09W4FDTX6",
+      "https://www.amazon.co.jp/dp/B09W4ZLQ36"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.co.jp/dp/B09W564VRF",
+        "title": "Tai Chi Shoes Kung Fu Shoes Abrasion Resistant Sole Martial Arts Shoes Taekwondo Shoes Breathable Comfortable Brown-39",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.co.jp/dp/B09W4FDTX6",
+        "title": "Tai Chi Shoes Kung Fu Shoes Abrasion Resistant Sole Martial Arts Shoes Taekwondo Shoes Breathable Comfortable Brown-38",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.co.jp/dp/B09W4ZLQ36",
+        "title": "Tai Chi Shoes Kung Fu Shoes Abrasion Resistant Sole Martial Arts Shoes Taekwondo Shoes Breathable Comfortable Brown-35",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 415,
+    "name": "Womens Warm Vest Top That Doesnt Require A Bra",
+    "image": "https://cf.cjdropshipping.com/quick/product/89bab453-784d-4c91-b214-507387bcf455.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 3,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0H3ZCH1C4",
+      "https://www.amazon.com/dp/B0FGQN4SLH",
+      "https://www.amazon.com/dp/B0CP1V7VYL"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0H3ZCH1C4",
+        "title": "Natrelax Modal Ribbed Cami Tank Tops",
+        "rating": 4.6,
+        "ratingsTotal": 5,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B0FGQN4SLH",
+        "title": "Women's Fitted Spaghetti Strap Scoop Neck Cami Tank Top",
+        "rating": 4.3,
+        "ratingsTotal": 92,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B0CP1V7VYL",
+        "title": "Trendy Queen Spaghetti Strap Crop Tank Tops for Women",
+        "rating": 4.3,
+        "ratingsTotal": 886,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 417,
+    "name": "Fashionable And Stylish Half-neck Knitted Sweater",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/09/30/00/4d5bb0de-6066-45de-98b6-de169ee73f76.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B015SJLO7K",
+      "https://www.amazon.ca/dp/B06XJLF9Y9"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B015SJLO7K",
+        "title": "Petite Boutique Easter Bunny Rabbit Personalized Initial Necklace Jewelry Easter Bunny Necklace - Custom Initial Jewelry - Delicate Pendant",
+        "rating": 4.4,
+        "ratingsTotal": 88,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ca/dp/B06XJLF9Y9",
+        "title": "Tunisie Map Pendant Chain Yellow Gold Jewelry Tunisia Women Tunisienne Gift, Brass",
+        "rating": 3.6,
+        "ratingsTotal": 5,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 428,
+    "name": "Water Drop Zircon Discolored Ring",
+    "image": "https://cf.cjdropshipping.com/quick/product/4330bfdf-12cd-4b51-afe1-4e941993d8f3.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 1,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0DRYCLRD6"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0DRYCLRD6",
+        "title": "1 Carat Drop-Shaped Rupert's Tears Moissanite Diamond Promise Ring For Woman, S925 Silver 18K Gold Plated Woman",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 435,
+    "name": "European And American Mid Length Sleeveless Vest With A Suit Collar Perfect For Casual Wear And Commuting",
+    "image": "https://cf.cjdropshipping.com/quick/product/70e6b4cc-526e-4c19-8afd-ae597b7fdef2.jpg",
+    "provider": "apify",
+    "reason": "No active APIFY_TOKEN available"
+  },
+  {
+    "index": 602,
+    "name": "Color-blocked Lace-trimmed Sweater",
+    "image": "https://cf.cjdropshipping.com/quick/product/c390dd85-d3e1-48c3-82dc-743ca0752d3a.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 3,
+    "amazonUrls": [
+      "https://www.amazon.ie/dp/B0GD16TPW6",
+      "https://www.amazon.es/dp/B0GD171RL3",
+      "https://www.amazon.co.uk/dp/B0H94MM484"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.ie/dp/B0GD16TPW6",
+        "title": "Women's Merino Wool Cardigan Ruffle Wool Sweater Round Neck Buttons Lightweight Outerwear Sweaters Tops Warm Winter Cardigans Soft and Comfortable, pink, S : Amazon.ie: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.es/dp/B0GD171RL3",
+        "title": "Cardigan for Women 100% Merino Wool Sweater Button Down Long Sleeve Knitted Jackets Top Warm Wool Pullover Round Neck Ruffled Cardigan Knit Cardigan for Women, navy, XS : Amazon.es: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0H94MM484",
+        "title": "Women's Wool Cardigan Long Sleeve Button Down Knit Sweater Soft Warm Casual Crew Neck Cardigan with Ruffle Trim for Transitional Jacket Ladies Autumn Winter",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 603,
+    "name": "Hollow-out Heavily Embellished Ruffle-trimmed Rhinestone-studded Versatile Womens Short-sleeve Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/22efe183-0ea5-44fc-9898-ceb791331c39.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 5,
+    "amazonUrls": [
+      "https://www.amazon.com.au/dp/B0F914XT4L",
+      "https://www.amazon.com/dp/B07R23NSPR",
+      "https://www.amazon.co.uk/dp/B0CWXPLHWM",
+      "https://www.amazon.ae/dp/B0DKSVJ6PC",
+      "https://www.amazon.in/dp/B0GJDQXZHH"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com.au/dp/B0F914XT4L",
+        "title": "Server Busy",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B07R23NSPR",
+        "title": "Whitewed Womens Short Sleeve Lace Ballroom Latin Practice Shirts Costumes Tops",
+        "rating": 4.7,
+        "ratingsTotal": 5,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0CWXPLHWM",
+        "title": "Lmtossey Summer Women's T-Shirts Casual Ruffle Sleeves Sexy V-Neck Diamond Tops Women's Stretch Mesh T-Shirts : Amazon.co.uk: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.ae/dp/B0DKSVJ6PC",
+        "title": "Pulcykp Women V Neck Rhinestones Tees Long Sleeve Ruffles Top Utterfly Sleeve Stretch Basic Underlay, Red, 3XL: Buy Online at Best Price in UAE - Amazon.ae",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.in/dp/B0GJDQXZHH",
+        "title": "ATORSE Elegant Women Dance Tops Bell Sleeves Short Sleeve for Cha Cha Practice Tops XL Clothing, Shoes & Accessories | Dancewear | Adult Dancewear | Ballroom",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 605,
+    "name": "Womens Lazy-Style Crew-Neck Faux Mink Sweater Top",
+    "image": "https://cf.cjdropshipping.com/quick/product/65c07b87-9e38-4d05-92c3-ac6ea857ff58.jpg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 609,
+    "name": "Women's Spring Autumn Outdoor Casual Loose-fit Jacket",
+    "image": "https://cf.cjdropshipping.com/quick/product/2999511a-84fe-4183-b82c-fca24962f97d.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 1,
+    "amazonUrls": [
+      "https://www.amazon.co.uk/dp/B0GXRV2WRW"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0GXRV2WRW",
+        "title": "PUFFIT Womens Rain Jacket Waterproof 20000mm, Rain Coats for Women with Hood, Lightweight Waterproof Rain Jacket : Amazon.co.uk: Fashion",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 614,
+    "name": "Lazy Small Sofa Chair Deweyling Casual",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/09/29/02/9102549a-6e77-4ac7-adb6-3e9a4d6a6357_trans.jpeg",
+    "provider": "apify",
+    "reason": "no amazon links returned by lens"
+  },
+  {
+    "index": 620,
+    "name": "Girls' Undershirt With Chest Pad Underwear Cold-proof Inner Wear",
+    "image": "https://oss-cf.cjdropshipping.com/product/2026/10/01/03/3f0e5de4-75cb-4d36-8b01-cba938396929_trans.jpeg",
+    "provider": "apify",
+    "reason": "no amazon links from current provider"
+  },
+  {
+    "index": 621,
+    "name": "Korean-style Elegant Womens Casual Tote Handbag",
+    "image": "https://cf.cjdropshipping.com/quick/product/f09cb8a6-fda3-459b-b952-57cccdcdf503.jpg",
+    "provider": "apify",
+    "reason": "no amazon links from current provider"
+  },
+  {
+    "index": 805,
+    "name": "Original Sandisk Memory Card 256GB 128GB 64GB 32GB TF Micro SD Card Class 10 UHS-1 Flash Card Memory MicroSD for Smartphone PC",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9e594f0d689541bf8bad81ae30a07f51x.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 4,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0DDTS1GZ9",
+      "https://www.amazon.ca/dp/B0F6XRCCH5",
+      "https://www.amazon.com/dp/B0D8J4PCKH",
+      "https://www.amazon.com/dp/B0H7M42QJ8"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0DDTS1GZ9",
+        "title": "DC Fuse Holder 10 * 38mm High Voltage Solar PV 1100V(20A,2P with LED)",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ca/dp/B0F6XRCCH5",
+        "title": "1P 2P DC Fuse Holder 10 * 38mm High Voltage Solar PV 1100V TOPV-30 Base Photovoltaic System Protection Protector gpV(2P with LED)",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B0D8J4PCKH",
+        "title": "One Set DC Fuse Holder 10 * 38mm High Voltage Solar PV 1100V TOPV-30 Base Photovoltaic System Protection Protector(10A,2P Without LED)",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/dp/B0H7M42QJ8",
+        "title": "2P Parallel DC Fuse Holder 10 * 38mm high Voltage Solar photovoltaic 1000V TOMZN TOPV-30",
+        "rating": 4.5,
+        "ratingsTotal": 30,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 807,
+    "name": "ZOERAX Cat6a Cat7 Keystone Jack Cat7 RJ45 STP Tool-Less Type Zinc Alloy Module Jacks Adapter Coupler for 22 to 26 AWG",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7b9aff45a8894b809f0286c1dc433028U.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 3,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B08GY8NHF2",
+      "https://www.amazon.com/dp/B08L5F6WVQ",
+      "https://www.amazon.com/dp/B0G8M3FTCT"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B08GY8NHF2",
+        "title": "[Older Version] SanDisk 256GB Ultra microSDXC UHS-I Memory Card with Adapter - 120MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUA4-256G-GN6MA",
+        "rating": 4.7,
+        "ratingsTotal": 319986,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B08L5F6WVQ",
+        "title": "SanDisk 256GB Ultra® microSDXC 120MB/s A1 Class 10 UHS-I",
+        "rating": 4.6,
+        "ratingsTotal": 7426,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B0G8M3FTCT",
+        "title": "SANDISK 256GB Ultra microSD UHS-I Card - Up to 195MB/s Read Speed, Full HD Video, V10, U1, C10, A4 - SDSQUJQ-256G-GZ6MA",
+        "rating": 4.6,
+        "ratingsTotal": 1795,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 810,
+    "name": "Soft TPU Screen Protector for Apple Watch 10 9 8 45mm 41mm 44mm 42mm 46mm 49mm Full Case Cover for IWatch Ultra 7 SE 6 5 4 3 2",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S308397e6f7d7445aabf762ce3b1687a91.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0GW6TMZ7D",
+      "https://www.amazon.co.za/dp/B0GFY71PPR",
+      "https://www.amazon.co.uk/dp/B0GWLFHZMY",
+      "https://www.amazon.com/dp/B0GSFGWCM8",
+      "https://www.amazon.ae/dp/B0CNQQ8Q3Z",
+      "https://www.amazon.sg/dp/B0H6S2RS3Q",
+      "https://www.amazon.in/dp/B0H395P8MS",
+      "https://www.amazon.com.au/dp/B0GWMDPG9Y"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0GW6TMZ7D",
+        "title": "Eujgoov Magnetic Helping Hands, 12 Flexible Clips with Rubber Coated Jaws and Sturdy Steel Box, for Soldering Airbrushing PCB Work, 5.9in Adjustable Welding Wire Holder",
+        "rating": 3.2,
+        "ratingsTotal": 27,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.co.za/dp/B0GFY71PPR",
+        "title": "MagStand Pro Magnetic Helping Hands Soldering Tool - Adjustable Alligator Clip Holder, Strong Magnetic Base for Rock-Solid Stability, 2-in-1 Metal Organizer Box, for Hobbyists Professionals (1*Silver)",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0GWLFHZMY",
+        "title": "12 PCS Model Painting Stand Base Holder, Magnetic Bendable Alligator Clip Sticks Set, Adjustable Modeling Tools for Easy Airbrush Use, Metal Wire Clamps Long-Tailed Clasp for Hobby DIY Card Photo Memo",
+        "rating": 4.2,
+        "ratingsTotal": 4,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/dp/B0GSFGWCM8",
+        "title": "Model Holder for Painting Miniatures | 12 Pieces Spray Tools Stand Base | Bendable Model Painting Base - for Workshop Hobby School Dormitory Hotel Office Crafts Industry",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.ae/dp/B0CNQQ8Q3Z",
+        "title": "1PC Metal Model Painting Stand Base Holder and 16PCS Magnetic Bendable Alligator Clip Stick Set Modeling Tools for Airbrush Hobby Model Parts GJJC2210L (Base with Bendable Alligator Clip Sticks)",
+        "rating": 4.8,
+        "ratingsTotal": 14,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.sg/dp/B0H6S2RS3Q",
+        "title": "Generic Magnet Helping Hands, Welding Holder Set with 12 Flexible Magnetic Clips & Steel Box, Welding Auxiliary Tool for Soldering Model Painting PCB Airbrush Work",
+        "rating": 5,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.in/dp/B0H395P8MS",
+        "title": "Club Bollywood®Model Painting Stand Stable Durability for Easy Spray Painting Modeling Tool 20 Pieces Clip|Crafts|Art Supplies|Painting Supplies|Airbrushing Supplies|Systems & Sets",
+        "rating": 3.9,
+        "ratingsTotal": 0,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.com.au/dp/B0GWMDPG9Y",
+        "title": "Server Busy",
+        "rating": "",
+        "ratingsTotal": 0,
+        "reason": "amazon candidate missing title and usable rating/review/badge data"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 818,
+    "name": "Bristle Slick Back Hair Brush for Sleek Ponytail Bun & Smoothing Baby Hairs, Flyaways, Edge Control - Backcombing & Teasing",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sca2dc63e04f54d42a62cf302ad2f3eaeD.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com.be/dp/B0DF27YWM1",
+      "https://www.amazon.fr/dp/B0DTDYB4MZ",
+      "https://www.amazon.ca/dp/B0BFXP8BN4",
+      "https://www.amazon.it/dp/B0DNZ8YFPN",
+      "https://www.amazon.sa/dp/B0DGPT5SGJ",
+      "https://www.amazon.com.be/dp/B0DXQHWDFG",
+      "https://www.amazon.sa/dp/B0F9W9NJS3",
+      "https://www.amazon.com.be/dp/B0CTQLK7NJ"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com.be/dp/B0DF27YWM1",
+        "title": "Hair Dryer, 2400 W Professional Ionic, 3 Temperatures/2 Speed, Accessories Included, Diffuser, Nozzles, For Family and Hair Salons",
+        "rating": 4.2,
+        "ratingsTotal": 94,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.fr/dp/B0DTDYB4MZ",
+        "title": "Hair Dryer, 1600W Foldable Travel Hair Dryer, 3 Heating/2 Speeds with Nozzles, Hair Dryer for Salon Home Travel Woman Children (Grey)",
+        "rating": 4.2,
+        "ratingsTotal": 26,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.ca/dp/B0BFXP8BN4",
+        "title": "TEME Ionic Hair Dryer,Safety Upgrade Constant Temperature Care Without Damage, Portable Travel Hairdryer,3-Speed Adjustment of The Blow Dryer Euro Plug, Brown, 9.8 in*4.3in, (G400)",
+        "rating": 5,
+        "ratingsTotal": 400,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.it/dp/B0DNZ8YFPN",
+        "title": "Hair Dryer, Professional Hair Dryer, 1500 W Travel Hair Dryer (Grey)",
+        "rating": 4,
+        "ratingsTotal": 39,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.sa/dp/B0DGPT5SGJ",
+        "title": "Bwaliffury Hair Dryer, Low Noise Hair Dryer, Ion Hair Dryer, 1500 W Hair Dryer, Styling Nozzle, Travel Hair Dryer, 2 Speeds/3 Temperature Settings, Overheat Protection for Home Styling and Travel (P) : Buy Online at Best Price in KSA - Souq is now Amazon.sa: Beauty",
+        "rating": 4.4,
+        "ratingsTotal": 17,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.com.be/dp/B0DXQHWDFG",
+        "title": "Hair Dryer - 5 in 1 Hair Dryer with Ion Technology, Curling Iron, Straightening Nozzle, Diffuser & Concentrator - 1600 W, LED Display, 4 Temperature Levels, Magnetic Tips",
+        "rating": 4.4,
+        "ratingsTotal": 82,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.sa/dp/B0F9W9NJS3",
+        "title": "Ionic Hair Dryer,2400W Blow Dryer for Women & Men with Diffuser & Concentrator,Constant Temperature Care,Low Noise,Frizz-Free Shine,Fast-Drying Dryer for Salon Use Travel & Home(White) : Buy Online at Best Price in KSA - Souq is now Amazon.sa: Beauty",
+        "rating": 4.5,
+        "ratingsTotal": 5,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.com.be/dp/B0CTQLK7NJ",
+        "title": "1800W Ionic Hair Dryer,AC Motor Salon Hair Dryer with Hot/Cold Button,3Temperature Settings,Hair Dryer with Diffuser and Styling Nozzle,Super Silent",
+        "rating": 4.3,
+        "ratingsTotal": 361,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 819,
+    "name": "1pc Magic Scalp Massage Hair Brush for Women - Professional Detangling Tool for Wet Curly Hair - Hairdressing Tool",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfc158a34948a4917a76a892bde7defbae.png",
+    "provider": "apify",
+    "amazonCandidatesChecked": 1,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0FCCSMZVN"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0FCCSMZVN",
+        "title": "Xiaomoxuan Collagen Hair Mask in Sachet Packaging - Travel Pack of 10 Sample Sachets",
+        "rating": 5,
+        "ratingsTotal": 5,
+        "matchScore": 13,
+        "reason": "weak amazon title match: 13"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 823,
+    "name": "Pokemon Figures Toys Pocket Monsters Ball Model Pikachu Gengar Pokeball Dragonite Snorlax Pokeball Action Figures Toy",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa599216c992448c68b814629fc047d3dr.jpeg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com.au/dp/B0FS87NVV2",
+      "https://www.amazon.in/dp/B0GYYXYPW6",
+      "https://www.amazon.com/dp/B0FHWMRDJQ",
+      "https://www.amazon.com/dp/B0FMHJC1DD",
+      "https://www.amazon.ie/dp/B0FH518ZM4",
+      "https://www.amazon.com/dp/B0FL1SRQP3",
+      "https://www.amazon.sa/dp/B0FH71DPLT",
+      "https://www.amazon.com/dp/B0FJ7YM6H2"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com.au/dp/B0FS87NVV2",
+        "title": "Two-Way Prank Water Gun, Dual Direction Squirt Gun with Unexpected Shot Back Feature, Suitable for Water Gun Parties, Beach Entertainment (Red)",
+        "rating": 4.6,
+        "ratingsTotal": 6,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.in/dp/B0GYYXYPW6",
+        "title": "Two Way Reverse Water Gun Toy for Kids & Adults – Double Spray Prank Pichkari, Funny Water Blaster for Holi, Summer Outdoor Water Fight & Party Games (Multicolor)",
+        "rating": 3.8,
+        "ratingsTotal": 0,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B0FHWMRDJQ",
+        "title": "Prank Water Gun, 2025 Upgrade Prank Two-Way Water Gun, Reverse Pranks Surprise Waters Guns, Hilarious Novelty Toy for Parties & Summer Fun (White)",
+        "rating": 4,
+        "ratingsTotal": 83,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/dp/B0FMHJC1DD",
+        "title": "Upgraded Version Two-Way Water Gun, Reverse Water Spray Creative Battle, Hidden Prank Not Easily Detected, Suitable for Water Gun Parties, Beach Entertainment (Blue)",
+        "rating": 3.9,
+        "ratingsTotal": 50,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.ie/dp/B0FH518ZM4",
+        "title": "Prank Water Gun, Dual-Sided Water Blaster, Prank Two-Way Watergun, Reverse Watergun from Front and Back, Durable Hilarious Pranks Toy for Adults, For Pool, Beach, Outdoor, Party Favors(Blue)",
+        "rating": 3.5,
+        "ratingsTotal": 657,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.com/dp/B0FL1SRQP3",
+        "title": "Prank Water Gun, Prank Two-Way Water Gun, Pranks Battle Waters Guns Fight, Novelty Game for Parties & Summer Fun (Blue)",
+        "rating": 4,
+        "ratingsTotal": 121,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.sa/dp/B0FH71DPLT",
+        "title": "Upgraded Prank Water Gun Prank Two-way Water Gun, Quirky Trick Double-Sided Squirt Guns for Friend, Can Spray From Front and Back, Quirky & Fun Prank for School Office Trick (Pink+blue)",
+        "rating": 4,
+        "ratingsTotal": 19,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.com/dp/B0FJ7YM6H2",
+        "title": "Prank Water Gun, Prank Two-Way Water Gun - Self-Soaking Spray Front & Back, Hilarious Gag Gift & Novelty Toy for Parties, Summer Fun(Pink)",
+        "rating": 4.2,
+        "ratingsTotal": 29,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 824,
+    "name": "Hot Dragon Ball Son Goku Super Saiyan Anime Figure 16cm Goku DBZ Action Figure Model Gifts Collectible Figurines for Kids",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3d95d162000542f0829416c772ca5578W.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0GV1P2H8S",
+      "https://www.amazon.com/dp/B0GSH29PF6",
+      "https://www.amazon.com/dp/B0GT1WLDB9",
+      "https://www.amazon.com/dp/B0GQZ89JWR",
+      "https://www.amazon.com/dp/B0GLGC526M",
+      "https://us.amazon.com/dp/B0GL8FG1FV",
+      "https://www.amazon.com/dp/B0GXSJSDRM",
+      "https://www.amazon.com/dp/B0GDFTG22B"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0GV1P2H8S",
+        "title": "Mechanical Transforming Electric Water Gun - Automatic Water Blaster with Strobe Lights, Long Range & Mechanical Deformation, Outdoor Water Toy Gift Boys Girls (Gray)",
+        "rating": 4.1,
+        "ratingsTotal": 90,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B0GSH29PF6",
+        "title": "Electric Water Gun Toy, Muzzle Flame Flash, Transformation Linkage, 400ML Water Tank, Fully Automatic High-Speed Continuous Fire, Outdoor Swimming Pool & Beach Combat Toy for Children and Adults",
+        "rating": 3.9,
+        "ratingsTotal": 40,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B0GT1WLDB9",
+        "title": "Electric Water Gun, Trigger-Activated Transforming Body",
+        "rating": 4.3,
+        "ratingsTotal": 128,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com/dp/B0GQZ89JWR",
+        "title": "2Pcs Electric Water Gun, Transparent Automatic Squirt Gun.",
+        "rating": 3.2,
+        "ratingsTotal": 8,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.com/dp/B0GLGC526M",
+        "title": "Funwee Electric Water Gun Toy for Kids & Adults, Light Up, Black",
+        "rating": 4.2,
+        "ratingsTotal": 574,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://us.amazon.com/dp/B0GL8FG1FV",
+        "title": "Automatic Squirt Gun with 33FT Range,Watergun with Flashing Muzzle,Electric Water Gun for Adults Kids, Summer Outdoor Water Pistol Pool Beach Party Toys for Boys Girls (Black)",
+        "rating": 3,
+        "ratingsTotal": 32,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.com/dp/B0GXSJSDRM",
+        "title": "Mechanical Transforming Electric Water Gun - Automatic Water Blaster with Strobe Lights, Long Range & Mechanical Deformation, Outdoor Water Toy Gift Boys Girls (3 Pcs)",
+        "rating": 4.1,
+        "ratingsTotal": 90,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.com/dp/B0GDFTG22B",
+        "title": "Electric Water Gun for Kids Adults, Automatic Squirt Gun Blaster with 32ft Long Range, LED Light-Up Water Pistol with Rechargeable Battery, One-Button Rapid Fire Toy for Pool, Beach Summer Party",
+        "rating": 4,
+        "ratingsTotal": 112,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 825,
+    "name": "Toocki 100W USB C To USB C Cable 90 Degree For iPad MacBook Pro Xiaomi Samsung Huawei Fast Charging Type C Date Cord",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf3383a35bac041acad10e4c903fa6804V.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 2,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B0FHD4L86L",
+      "https://www.amazon.ca/dp/B0D4QTNPTP"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B0FHD4L86L",
+        "title": "QCY MeloBuds N70 Aadptive Hybrid Active Noise Cancelling Wireless Earbuds",
+        "rating": 3.8,
+        "ratingsTotal": 344,
+        "matchScore": 0,
+        "reason": "weak amazon title match: 0"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.ca/dp/B0D4QTNPTP",
+        "title": "QCY MeloBuds Pro Aadptive Hybrid Active Noise Cancelling Wireless Earbuds",
+        "rating": 4.2,
+        "ratingsTotal": 4,
+        "matchScore": 6,
+        "reason": "weak amazon title match: 6"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 826,
+    "name": "Adjustable Plastic Cellphone Adapter Mount Microscope Spotting Scope Telescope Clip Bracket Phone Stand Holder",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/S24f04c3bb4ba48bd9fb8c6867009b3ab6.jpg",
+    "provider": "apify",
+    "amazonCandidatesChecked": 8,
+    "amazonUrls": [
+      "https://www.amazon.com/dp/B07S7F27DC",
+      "https://www.amazon.com/dp/B01BI0I9AS",
+      "https://www.amazon.com/dp/B091KS7MRP",
+      "https://www.amazon.com.be/dp/B08BL4ZX8M",
+      "https://www.amazon.com/dp/B01A1WPAOC",
+      "https://www.amazon.co.uk/dp/B0B5MWRJ6W",
+      "https://www.amazon.de/dp/B08B87DXTT",
+      "https://www.amazon.ca/dp/B0CYGPB3R7"
+    ],
+    "candidateFailures": [
+      {
+        "candidate": 1,
+        "amazonUrl": "https://www.amazon.com/dp/B07S7F27DC",
+        "title": "Picatinny Riser Mount 1\" Rail Mount for Reflex Sight Red Dot Scope",
+        "rating": 4.5,
+        "ratingsTotal": 331,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 2,
+        "amazonUrl": "https://www.amazon.com/dp/B01BI0I9AS",
+        "title": "3-slot Slim Picatinny Short Riser Mount 1\" High, 3 Slots, Black",
+        "rating": 4.7,
+        "ratingsTotal": 2026,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 3,
+        "amazonUrl": "https://www.amazon.com/dp/B091KS7MRP",
+        "title": "DEVMO 2 PCS Super Slim Picatinny Riser Mount 1\" High 3 Slots MT Picatinny Rails for Red Dots",
+        "rating": 4.3,
+        "ratingsTotal": 28,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 4,
+        "amazonUrl": "https://www.amazon.com.be/dp/B08BL4ZX8M",
+        "title": "3 Slot Short Mounting Bracket Short Picatinny Slim 1\" Height Aluminum Alloy Tactical Scope Mounting Base Bracket",
+        "rating": 4.5,
+        "ratingsTotal": 206,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 5,
+        "amazonUrl": "https://www.amazon.com/dp/B01A1WPAOC",
+        "title": "Hammers 45 Degree Angled Forward Extending 1 inch Micro Mini Riser Mount with QD Cam Lever Lock and Picatinny Rail Top for Mini Micro Red Dot Sights",
+        "rating": 4.2,
+        "ratingsTotal": 29,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 6,
+        "amazonUrl": "https://www.amazon.co.uk/dp/B0B5MWRJ6W",
+        "title": "Paike Red Dot Sight 1x25mm with 1 inch Riser Mount",
+        "rating": 4,
+        "ratingsTotal": 161,
+        "matchScore": 7,
+        "reason": "weak amazon title match: 7"
+      },
+      {
+        "candidate": 7,
+        "amazonUrl": "https://www.amazon.de/dp/B08B87DXTT",
+        "title": "Rifle Scope Mounting Rail 3 Slots Short Riser Mount 1 Inch Height Slim Picatinny Rail Riser Mount, Tactical Scope Riser Base Mount Made of Aluminium Alloy",
+        "rating": 4.4,
+        "ratingsTotal": 77,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      },
+      {
+        "candidate": 8,
+        "amazonUrl": "https://www.amazon.ca/dp/B0CYGPB3R7",
+        "title": "Mini Red Dot Sight Riser Mount,2.26″ Height Scope Mount for T1 T2 H1 H2 Optic Sight Accepts All Footprint Optics,Picatinny Rail Riser Mount,Black",
+        "rating": 3.7,
+        "ratingsTotal": 0,
+        "matchScore": 14,
+        "reason": "weak amazon title match: 14"
+      }
+    ],
+    "reason": "no valid amazon candidate after puppeteer checks"
+  },
+  {
+    "index": 830,
+    "name": "Car Phone Mount Anti Slip Silicone Dashboard Phone Holder 360-Degree Free Rotation Universal Head-Up Navigation Holder",
+    "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scdb9774146774a66b6f18b59ee9f9fefL.jpg",
+    "provider": "apify",
+    "reason": "No active APIFY_TOKEN available"
+  }
+]

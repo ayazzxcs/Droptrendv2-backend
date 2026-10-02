@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T02:36:29.572Z",
+  "updatedAt": "2026-10-02T21:58:51.138Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 50,
-  "failedCount": 100,
-  "lastKeyword": "1pc-multi-colored hand folding fan bamboo folding fan hand folding fan church wedding gifts party discount",
+  "savedSignalCount": 57,
+  "failedCount": 93,
+  "lastKeyword": "phone plug speaker cleaner",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4851,
-  "reusedVariantChecks": 908,
-  "variantCacheSize": 4851,
+  "uniqueVariantsFetched": 4842,
+  "reusedVariantChecks": 902,
+  "variantCacheSize": 4842,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T02:46:39.955Z",
+  "updatedAt": "2026-10-02T22:14:01.343Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 61,
-  "failedCount": 89,
-  "lastKeyword": "scrub cleaning brush -in-",
+  "savedSignalCount": 63,
+  "failedCount": 87,
+  "lastKeyword": "alloy hair braid ring",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2284,
-  "reusedVariantChecks": 358,
-  "variantCacheSize": 2284,
+  "uniqueVariantsFetched": 2273,
+  "reusedVariantChecks": 410,
+  "variantCacheSize": 2273,
   "keywordTimeoutMs": 180000
 }

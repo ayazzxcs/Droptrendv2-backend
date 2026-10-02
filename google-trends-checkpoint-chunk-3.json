@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:02:16.008Z",
+  "updatedAt": "2026-10-02T20:38:14.413Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 76,
-  "failedCount": 74,
-  "lastKeyword": "top wide-leg pants two-piece",
+  "savedSignalCount": 70,
+  "failedCount": 80,
+  "lastKeyword": "screen protector glass",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2946,
-  "reusedVariantChecks": 575,
-  "variantCacheSize": 2946,
+  "uniqueVariantsFetched": 3187,
+  "reusedVariantChecks": 588,
+  "variantCacheSize": 3187,
   "keywordTimeoutMs": 180000
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T03:54:20.539Z",
+  "updatedAt": "2026-10-02T23:34:00.970Z",
   "chunkIndex": 9,
   "rawChunkIndex": 9,
   "normalizedChunkIndex": 9,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 83,
-  "failedCount": 67,
-  "lastKeyword": "strip watch",
+  "savedSignalCount": 95,
+  "failedCount": 55,
+  "lastKeyword": "slippers",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1340,
-  "reusedVariantChecks": 140,
-  "variantCacheSize": 1340,
+  "uniqueVariantsFetched": 1428,
+  "reusedVariantChecks": 131,
+  "variantCacheSize": 1428,
   "keywordTimeoutMs": 180000
 }
