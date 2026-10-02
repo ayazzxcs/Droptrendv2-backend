@@ -338,7 +338,7 @@ function firstValue(...values) {
 function numberFromAny(value) {
   if (value === undefined || value === null || value === "") return 0;
   if (typeof value === "number") return Number.isFinite(value) ? value : 0;
-  const match = String(value).replace(/,/g, "").match(/(\d+(?:\.\d+)?)/);
+  const match = String(value).replace(/,/g, ".").match(/(\d+(?:\.\d+)?)/);
   return match ? Number(match[1]) : 0;
 }
 
@@ -1113,27 +1113,67 @@ function randomViewport() {
   };
 }
 
-async function setupAmazonPage(page) {
+async function setupAmazonPage(page, targetUrl = "") {
   await page.setViewport(randomViewport());
   await page.setUserAgent(
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    {
+      brands: [
+        { brand: "Google Chrome", version: "131" },
+        { brand: "Chromium", version: "131" },
+        { brand: "Not_A Brand", version: "24" }
+      ],
+      fullVersionList: [
+        { brand: "Google Chrome", version: "131.0.6778.86" },
+        { brand: "Chromium", version: "131.0.6778.86" },
+        { brand: "Not_A Brand", version: "24.0.0.0" }
+      ],
+      mobile: false,
+      platform: "Windows",
+      platformVersion: "10.0.0",
+      architecture: "x86",
+      model: "",
+      bitness: "64"
+    }
   );
   await page.setExtraHTTPHeaders({
     "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
     "Upgrade-Insecure-Requests": "1"
   });
 
   await page.evaluateOnNewDocument(() => {
-    Object.defineProperty(navigator, "webdriver", { get: () => undefined });
+    try {
+      Object.defineProperty(navigator, "platform", { get: () => "Win32" });
+      const getParameter = WebGLRenderingContext.prototype.getParameter;
+      WebGLRenderingContext.prototype.getParameter = function(parameter) {
+        if (parameter === 37445) return "Intel Inc.";
+        if (parameter === 37446) return "Intel(R) Iris(R) Xe Graphics";
+        return getParameter.apply(this, [parameter]);
+      };
+      if (typeof WebGL2RenderingContext !== "undefined") {
+        const getParameter2 = WebGL2RenderingContext.prototype.getParameter;
+        WebGL2RenderingContext.prototype.getParameter = function(parameter) {
+          if (parameter === 37445) return "Intel Inc.";
+          if (parameter === 37446) return "Intel(R) Iris(R) Xe Graphics";
+          return getParameter2.apply(this, [parameter]);
+        };
+      }
+    } catch {}
   });
 
-  await page.setRequestInterception(true);
-  page.on("request", req => {
-    const type = req.resourceType();
-    if (["media", "font"].includes(type)) return req.abort();
-    return req.continue();
-  });
+  let domain = ".amazon.com";
+  try {
+    if (targetUrl) {
+      const host = new URL(targetUrl).hostname;
+      if (host) domain = "." + host.replace(/^www\./, "");
+    }
+  } catch {}
+
+  await page.setCookie(
+    { name: "i18n-prefs", value: "USD", domain },
+    { name: "lc-main", value: "en_US", domain }
+  ).catch(() => {});
 }
 
 async function safeText(page, selector) {
@@ -1168,7 +1208,8 @@ function extractReviewCountFromText(text) {
     /(\d[\d,\.]*\s*[km]?)\s+(?:customer\s+)?reviews?/i,
     /(\d[\d,\.]*\s*[km]?)\s+ratings?\s*\|/i,
     /ratings?\s*[:\-]?\s*(\d[\d,\.]*\s*[km]?)/i,
-    /reviews?\s*[:\-]?\s*(\d[\d,\.]*\s*[km]?)/i
+    /reviews?\s*[:\-]?\s*(\d[\d,\.]*\s*[km]?)/i,
+    /(\d[\d,\.]*\s*[km]?)\s+(?:valutazioni|recensioni|bewertungen|évaluations|valoraciones)/i
   ];
 
   for (const pattern of patterns) {
@@ -1316,17 +1357,24 @@ function dataFromProviderCandidate(candidate, cjName) {
 }
 
 async function checkAmazonBlocked(page) {
-  const text = await bodyText(page);
-  const html = await page.content().catch(() => "");
-  const combined = `${text}
-${html}`;
+  const isBlocked = await page.evaluate(() => {
+    const title = (document.title || "").toLowerCase();
+    if (title.includes("robot check") || title === "captcha") return "Amazon CAPTCHA (robot check title)";
+    if (document.querySelector("form[action*='validateCaptcha']") || document.querySelector("#captchacharacters")) {
+      return "Amazon CAPTCHA form detected";
+    }
+    const body = (document.body ? document.body.innerText : "").toLowerCase();
+    if (body.includes("enter the characters you see below") || body.includes("verify you are human")) {
+      return "Amazon CAPTCHA verification prompt";
+    }
+    if (body.includes("automated access to amazon data") || body.includes("api-services-support@amazon.com")) {
+      return "Amazon automated access interstitial";
+    }
+    return false;
+  }).catch(() => false);
 
-  if (/captcha|enter the characters you see below|sorry, we just need to make sure|verify you are human/i.test(combined)) {
-    throw new Error("Amazon CAPTCHA/bot check detected");
-  }
-
-  if (/automated access|api-services-support@amazon|robot check|dogs of amazon|sorry! something went wrong|page not found/i.test(combined)) {
-    throw new Error("Amazon interstitial or blocked page detected");
+  if (isBlocked) {
+    throw new Error(isBlocked);
   }
 }
 
@@ -1346,20 +1394,20 @@ async function humanPause(page) {
 async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
   const amazonUrl = candidate.url;
   const page = await browser.newPage();
-  await setupAmazonPage(page);
+  await setupAmazonPage(page, amazonUrl);
 
   try {
-    const response = await page.goto(amazonUrl, { waitUntil: "domcontentloaded", timeout: 70000 });
-    const status = response?.status?.() || 0;
+    let response = await page.goto(amazonUrl, { waitUntil: "domcontentloaded", timeout: 70000 });
+    let status = response?.status?.() || 0;
 
-    const landedUrl = page.url() || amazonUrl;
+    let landedUrl = page.url() || amazonUrl;
     if (!isAmazonUrl(landedUrl)) {
       console.log(`Candidate ${amazonUrl} landed on non-Amazon URL: ${landedUrl}`);
       return null;
     }
 
     await Promise.race([
-      page.waitForSelector("#productTitle, h1, script[type='application/ld+json']", { timeout: AMAZON_PAGE_WAIT_MS }),
+      page.waitForSelector("#productTitle, #title, h1, script[type='application/ld+json']", { timeout: AMAZON_PAGE_WAIT_MS }),
       sleep(AMAZON_PAGE_WAIT_MS)
     ]).catch(() => {});
 
@@ -1372,6 +1420,39 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
       blockedError = err;
     }
 
+    const asin = candidate.asin || asinFromUrl(landedUrl) || asinFromUrl(amazonUrl);
+
+    // If desktop page was blocked or status is 503/403, retry using Amazon mobile endpoint (/gp/aw/d/<ASIN>)
+    if ((blockedError || status === 503 || status === 403) && asin) {
+      console.log(`Desktop Amazon access blocked (${blockedError ? blockedError.message : status}). Retrying with mobile endpoint /gp/aw/d/${asin}...`);
+      try {
+        const u = new URL(landedUrl || amazonUrl);
+        const mobileUrl = `https://${u.hostname}/gp/aw/d/${asin}`;
+        await page.setViewport({ width: 390, height: 844, isMobile: true, hasTouch: true });
+        await page.setUserAgent(
+          "Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1"
+        );
+        await sleep(1500 + Math.floor(Math.random() * 1500));
+        response = await page.goto(mobileUrl, { waitUntil: "domcontentloaded", timeout: 50000 });
+        status = response?.status?.() || 0;
+
+        await Promise.race([
+          page.waitForSelector("#productTitle, #title, h1, script[type='application/ld+json']", { timeout: AMAZON_PAGE_WAIT_MS }),
+          sleep(AMAZON_PAGE_WAIT_MS)
+        ]).catch(() => {});
+
+        try {
+          await checkAmazonBlocked(page);
+          blockedError = null;
+          console.log(`Mobile endpoint loaded successfully for ASIN ${asin} (status ${status}).`);
+        } catch (mErr) {
+          blockedError = mErr;
+        }
+      } catch (mNavErr) {
+        console.log(`Mobile endpoint retry failed: ${mNavErr.message}`);
+      }
+    }
+
     await humanPause(page);
 
     const jsonLd = await extractJsonLdProduct(page);
@@ -1380,6 +1461,7 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
 
     const selectorTitle =
       await safeText(page, "#productTitle") ||
+      await safeText(page, "#title") ||
       await safeText(page, "h1 span") ||
       await safeText(page, "h1") ||
       await safeAttr(page, "meta[name='title']", "content") ||
@@ -1395,10 +1477,11 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
       await safeText(page, "#acrPopover") ||
       await safeText(page, "span.a-icon-alt") ||
       await safeText(page, "[data-hook='rating-out-of-text']") ||
+      await safeText(page, "#averageCustomerReviews .a-icon-alt") ||
       await safeAttr(page, "meta[name='twitter:data1']", "content") ||
       await safeAttr(page, "meta[property='og:rating']", "content");
 
-    const ratingMatch = ratingText.match(/(\d+(?:\.\d+)?)/);
+    const ratingMatch = ratingText.replace(/,/g, ".").match(/(\d+(?:\.\d+)?)/);
     const selectorRating = ratingMatch ? Number(ratingMatch[1]) : 0;
     const rating = selectorRating || num(jsonLd.rating) || num(embedded.rating) || num(candidate.rating) || 0;
 
@@ -1447,7 +1530,7 @@ async function scrapeAmazonWithPuppeteer(browser, candidate, cjName) {
     return {
       title,
       url: cleanAmazonUrl(page.url() || amazonUrl),
-      asin: candidate.asin || asinFromUrl(page.url() || amazonUrl),
+      asin: candidate.asin || asin || asinFromUrl(page.url() || amazonUrl),
       rating: rating || "",
       ratingsTotal: ratingsTotal || 0,
       isBestSeller,
@@ -1477,13 +1560,17 @@ function alreadyHasAmazon(product) {
 
 const puppeteerArgs = [
   "--no-sandbox",
-  "--disable-dev-shm-usage",
   "--disable-setuid-sandbox",
-  "--disable-blink-features=AutomationControlled"
+  "--disable-dev-shm-usage",
+  "--disable-accelerated-2d-canvas",
+  "--no-first-run",
+  "--window-size=1920,1080",
+  "--lang=en-US,en"
 ];
 
 const browser = await puppeteer.launch({
   headless: "new",
+  executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || undefined,
   args: puppeteerArgs
 });
 
