@@ -3693,11 +3693,11 @@
           "s suits s suits",
           "s suits leisure business",
           "s suits s",
+          "suits s suits",
           "s suits leisure",
           "suits leisure business",
           "s suits",
-          "leisure business",
-          "s suits s suits leisure business"
+          "suits s"
         ]
       },
       "amazon": null,
@@ -4313,9 +4313,9 @@
           "basic jacket european american-style",
           "basic jacket european",
           "slim-fit suede blazer",
+          "jacket european american-style",
           "basic jacket",
-          "suede blazer",
-          "jacket european"
+          "suede blazer"
         ]
       },
       "amazon": null,
@@ -6027,11 +6027,11 @@
           "man jeans s patchwork",
           "patchwork straight-leg loose-fit jeans",
           "man jeans s",
+          "jeans s patchwork",
           "straight-leg loose-fit jeans",
           "jeans s",
           "man jeans",
-          "loose-fit jeans",
-          "man jeans s patchwork straight-leg loose-fit jeans"
+          "loose-fit jeans"
         ]
       },
       "amazon": null,
@@ -6511,7 +6511,7 @@
           "knitted casual hoodie",
           "casual hoodie multiple",
           "man hoodies sweatshirts",
-          "man hoodies"
+          "hoodies sweatshirts knitted"
         ]
       },
       "amazon": null,
@@ -7264,10 +7264,10 @@
           "s shirts s retro",
           "casual loose-fit long-sleeve shirt",
           "s shirts s",
+          "shirts s retro",
           "loose-fit long-sleeve shirt",
           "s shirts",
-          "shirts s",
-          "long-sleeve shirt"
+          "shirts s"
         ]
       },
       "amazon": null,
@@ -7745,9 +7745,9 @@
           "waffle-weave top",
           "s long-sleeved s springautumn",
           "s long-sleeved s",
+          "long-sleeved s springautumn",
           "s springautumn waffle-weave",
-          "s long-sleeved",
-          "s springautumn"
+          "long-sleeved s"
         ]
       },
       "amazon": null,
@@ -8226,8 +8226,8 @@
           "white lace-up mid-top platform",
           "mid-top platform sneakers sports",
           "white lace-up mid-top",
-          "platform sneakers sports",
-          "white lace-up"
+          "lace-up mid-top platform",
+          "platform sneakers sports"
         ]
       },
       "amazon": null,
@@ -9322,10 +9322,10 @@
           "s sweaters s long",
           "sleeve knitted turtleneck sweater",
           "s sweaters s",
+          "sweaters s long",
           "knitted turtleneck sweater",
           "s sweaters",
-          "sweaters s",
-          "turtleneck sweater"
+          "sweaters s"
         ]
       },
       "amazon": null,
@@ -10902,8 +10902,8 @@
           "loose-fit lightweight jacket petite",
           "basic jacket retro",
           "jacket petite figures",
-          "lightweight jacket petite",
-          "loose-fit lightweight jacket"
+          "jacket retro loose-fit",
+          "lightweight jacket petite"
         ]
       },
       "amazon": null,
@@ -11383,7 +11383,7 @@
           "slim-fit suits parties",
           "suits parties weddings",
           "suits blazer cross-border",
-          "suits blazer"
+          "blazer cross-border exclusive"
         ]
       },
       "amazon": null,
@@ -11997,11 +11997,11 @@
           "man jeans s washed-crease",
           "s washed-crease workwear jeans",
           "man jeans s",
+          "jeans s washed-crease",
           "washed-crease workwear jeans",
           "jeans s",
           "man jeans",
-          "workwear jeans",
-          "man jeans s washed-crease workwear jeans"
+          "workwear jeans"
         ]
       },
       "amazon": null,
@@ -12477,11 +12477,11 @@
           "man jeans s european",
           "european american-style wide-leg jeans",
           "man jeans s",
+          "jeans s european",
           "american-style wide-leg jeans",
           "jeans s",
           "man jeans",
-          "wide-leg jeans",
-          "man jeans s european american-style wide-leg jeans"
+          "wide-leg jeans"
         ]
       },
       "amazon": null,
@@ -13508,12 +13508,12 @@
         "checkedKeywords": [
           "vulcanize shoes s cowhide",
           "lightweight soft-soled casual shoes",
+          "shoes s cowhide",
           "vulcanize shoes s",
           "soft-soled casual shoes",
           "shoes s",
           "casual shoes",
-          "vulcanize shoes",
-          "vulcanize shoes s cowhide suede platform lace-up lightweight soft-soled casual shoes"
+          "vulcanize shoes"
         ]
       },
       "amazon": null,
@@ -13991,9 +13991,9 @@
           "personalized quartz sports watch",
           "quartz watches s",
           "quartz sports watch",
+          "watches s personalized",
           "watches s",
-          "sports watch",
-          "quartz watches"
+          "sports watch"
         ]
       },
       "amazon": null,
@@ -15568,10 +15568,10 @@
           "casual shoes corduroy s shoes",
           "casual shoes corduroy s",
           "corduroy s shoes",
+          "shoes corduroy s",
           "casual shoes corduroy",
           "s shoes",
-          "casual shoes",
-          "shoes corduroy"
+          "casual shoes"
         ]
       },
       "amazon": null,
@@ -16186,10 +16186,10 @@
           "s sweaters s crew-neck",
           "vintage cable-knit pullover sweater",
           "s sweaters s",
+          "sweaters s crew-neck",
           "cable-knit pullover sweater",
           "s sweaters",
-          "sweaters s",
-          "pullover sweater"
+          "sweaters s"
         ]
       },
       "amazon": null,
@@ -17694,12 +17694,12 @@
         "checkedKeywords": [
           "man hoodies sweatshirts casual",
           "man hoodies sweatshirts",
+          "hoodies sweatshirts casual",
           "man hoodies",
           "hoodies sweatshirts",
           "casual loose-fit half-zip raglan",
           "loose-fit half-zip raglan sleeves",
-          "half-zip raglan sleeves",
-          "casual loose-fit half-zip"
+          "half-zip raglan sleeves"
         ]
       },
       "amazon": null,
@@ -19071,9 +19071,9 @@
           "high-neck lace-trimmed sleeveless jumpsuit",
           "rompers s stylish",
           "s stylish high-neck",
+          "stylish high-neck lace-trimmed",
           "lace-trimmed sleeveless jumpsuit",
-          "rompers s",
-          "s stylish"
+          "high-neck lace-trimmed sleeveless"
         ]
       },
       "amazon": null,
@@ -19549,11 +19549,11 @@
           "jacket lady s jacket",
           "basic jacket lady s jacket",
           "basic jacket lady s",
+          "jacket lady s",
           "lady s jacket",
           "basic jacket lady",
           "s jacket",
-          "jacket lady",
-          "basic jacket"
+          "jacket lady"
         ]
       },
       "amazon": null,
@@ -20166,12 +20166,12 @@
         "checkedKeywords": [
           "casual pants s casual",
           "casual pants s",
+          "pants s casual",
           "pants s",
           "casual pants",
           "s casual sport plaid",
           "casual sport plaid sweatpants",
-          "s casual sport",
-          "sport plaid sweatpants"
+          "s casual sport"
         ]
       },
       "amazon": null,
@@ -21540,12 +21540,12 @@
         "checkedKeywords": [
           "suits blazer cross-border exclusive",
           "suits blazer cross-border",
+          "blazer cross-border exclusive",
           "suits blazer",
           "blazer cross-border",
           "suits casual formal suits",
           "cross-border exclusive supply s",
-          "casual formal suits",
-          "cross-border exclusive supply"
+          "exclusive supply s"
         ]
       },
       "amazon": null,
@@ -23121,9 +23121,9 @@
           "three-dimensional textured jacquard suit",
           "s suits s",
           "textured jacquard suit",
+          "suits s three-dimensional",
           "s three-dimensional textured",
-          "s suits",
-          "jacquard suit"
+          "three-dimensional textured jacquard"
         ]
       },
       "amazon": null,
@@ -24080,10 +24080,10 @@
           "elastic simple versatile jeans",
           "man jeans casual",
           "simple versatile jeans",
+          "jeans casual comfortable",
           "man jeans",
           "jeans casual",
-          "versatile jeans",
-          "man jeans casual comfortable elastic simple versatile jeans"
+          "versatile jeans"
         ]
       },
       "amazon": null,
@@ -24699,9 +24699,9 @@
           "casual suede jacket s",
           "daily casual suede jacket",
           "man hoodies sweatshirts foreign",
+          "jacket s ready",
           "suede jacket s",
-          "casual suede jacket",
-          "man hoodies sweatshirts"
+          "casual suede jacket"
         ]
       },
       "amazon": null,
@@ -25177,11 +25177,11 @@
           "man boots s slip-on",
           "british-style high-top leather boots",
           "man boots s",
+          "boots s slip-on",
           "high-top leather boots",
           "boots s",
           "man boots",
-          "leather boots",
-          "man boots s slip-on pointed-toe british-style high-top leather boots"
+          "leather boots"
         ]
       },
       "amazon": null,
@@ -26416,8 +26416,8 @@
           "s long-sleeved loose comfortable top",
           "s long-sleeved loose comfortable",
           "s long-sleeved loose",
-          "s long-sleeved",
-          "loose comfortable"
+          "long-sleeved loose comfortable",
+          "s long-sleeved"
         ]
       },
       "amazon": null,
@@ -27306,12 +27306,12 @@
         "checkedKeywords": [
           "man hoodies sweatshirts foreign",
           "man hoodies sweatshirts",
+          "hoodies sweatshirts foreign",
           "man hoodies",
           "hoodies sweatshirts",
           "casual sports long-sleeve s",
           "foreign trade european american",
-          "sports long-sleeve s",
-          "foreign trade european"
+          "sports long-sleeve s"
         ]
       },
       "amazon": null,
@@ -29436,12 +29436,12 @@
         "checkedKeywords": [
           "man hoodies sweatshirts loose-fit",
           "man hoodies sweatshirts",
+          "hoodies sweatshirts loose-fit",
           "man hoodies",
           "hoodies sweatshirts",
           "sweatshirt english print back",
           "loose-fit drop-shoulder hooded sweatshirt",
-          "english print back",
-          "loose-fit drop-shoulder hooded"
+          "english print back"
         ]
       },
       "amazon": null,
@@ -29919,9 +29919,9 @@
           "sweaters unisex",
           "unisex fleece lined hooded",
           "lined hooded drawstring sweatshirt",
+          "fleece lined hooded",
           "unisex fleece lined",
-          "hooded drawstring sweatshirt",
-          "unisex fleece"
+          "lined hooded drawstring"
         ]
       },
       "amazon": null,
@@ -30534,12 +30534,12 @@
         "checkedKeywords": [
           "man hoodies sweatshirts cross-border",
           "man hoodies sweatshirts",
+          "hoodies sweatshirts cross-border",
           "man hoodies",
           "hoodies sweatshirts",
           "casual sports s knitted",
           "cross-border amazon european american",
-          "sports s knitted",
-          "cross-border amazon european"
+          "casual sports s"
         ]
       },
       "amazon": null,
@@ -32870,10 +32870,10 @@
           "lady dresses s v-neck",
           "s v-neck rib-knit dress",
           "lady dresses s",
+          "dresses s v-neck",
           "v-neck rib-knit dress",
           "dresses s",
-          "lady dresses",
-          "rib-knit dress"
+          "lady dresses"
         ]
       },
       "amazon": null,
@@ -34311,9 +34311,9 @@
           "large-capacity commuter business backpack",
           "commuter business backpack",
           "s backpacks large-capacity",
+          "backpacks large-capacity commuter",
           "s backpacks",
-          "business backpack",
-          "backpacks large-capacity"
+          "business backpack"
         ]
       },
       "amazon": null,
@@ -34789,11 +34789,11 @@
           "hoodies jacket",
           "man hoodies sweatshirts s",
           "s stand-collar sports jacket",
+          "hoodies sweatshirts s",
           "man hoodies sweatshirts",
           "stand-collar sports jacket",
           "man hoodies",
-          "sports jacket",
-          "hoodies sweatshirts"
+          "sports jacket"
         ]
       },
       "amazon": null,
@@ -35411,7 +35411,7 @@
           "narrow straight-leg pants slim-fit",
           "snowflake narrow straight-leg pants",
           "man jeans popular",
-          "slim-fit commuter pants"
+          "jeans popular american"
         ]
       },
       "amazon": null,
@@ -35886,12 +35886,12 @@
         "checkedKeywords": [
           "casual shoes soft-soled fashionable",
           "casual shoes soft-soled",
+          "shoes soft-soled fashionable",
           "casual shoes",
           "shoes soft-soled",
           "trendy sporty casual invisible",
           "soft-soled fashionable trendy sporty",
-          "sporty casual invisible",
-          "soft-soled fashionable trendy"
+          "trendy sporty casual"
         ]
       },
       "amazon": null,
@@ -36846,12 +36846,12 @@
         "checkedKeywords": [
           "casual pants s breathable",
           "casual pants s",
+          "pants s breathable",
           "pants s",
           "casual pants",
           "s breathable color-block loose-fit",
           "s breathable color-block",
-          "breathable color-block loose-fit",
-          "s breathable"
+          "breathable color-block loose-fit"
         ]
       },
       "amazon": null,
@@ -37331,7 +37331,7 @@
           "sweatshirts s hoodies cute",
           "hoodies cute sweatshirts pullover",
           "s hoodies cute",
-          "sweatshirts s hoodies"
+          "hoodies sweatshirts s"
         ]
       },
       "amazon": null,
@@ -38083,11 +38083,11 @@
           "suits blazer s fashionable",
           "versatile slim-fit casual blazer",
           "suits blazer s",
+          "blazer s fashionable",
           "slim-fit casual blazer",
           "blazer s",
           "suits blazer",
-          "casual blazer",
-          "suits blazer s fashionable versatile slim-fit casual blazer"
+          "casual blazer"
         ]
       },
       "amazon": null,
@@ -40421,7 +40421,7 @@
           "s vertical-striped half-zip stand-collar",
           "s long-sleeved s",
           "s vertical-striped half-zip",
-          "s long-sleeved"
+          "long-sleeved s vertical-striped"
         ]
       },
       "amazon": null,
@@ -40899,9 +40899,9 @@
           "hoodies sweatshirts",
           "european american-style relaxed-fit drop-shoulder",
           "european american-style relaxed-fit",
+          "sweatshirts european american-style",
           "american-style relaxed-fit drop-shoulder",
-          "european american-style",
-          "relaxed-fit drop-shoulder"
+          "sweatshirts european"
         ]
       },
       "amazon": null,
@@ -42752,10 +42752,10 @@
           "casual pants drawstring casual",
           "sports jogger pants",
           "casual pants drawstring",
+          "pants drawstring casual",
           "casual pants",
           "jogger pants",
-          "pants drawstring",
-          "casual pants drawstring casual versatile sports jogger pants"
+          "pants drawstring"
         ]
       },
       "amazon": null,
@@ -44264,10 +44264,10 @@
           "s striped three-stripe spliced",
           "three-stripe spliced long-sleeve t-shirt",
           "s long-sleeved s",
+          "long-sleeved s striped",
           "s striped three-stripe",
           "spliced long-sleeve t-shirt",
-          "s striped",
-          "s long-sleeved"
+          "striped three-stripe spliced"
         ]
       },
       "amazon": null,
@@ -45362,10 +45362,10 @@
           "lady dresses s waist-cinching",
           "s waist-cinching long-sleeve dress",
           "lady dresses s",
+          "dresses s waist-cinching",
           "waist-cinching long-sleeve dress",
           "dresses s",
-          "lady dresses",
-          "long-sleeve dress"
+          "lady dresses"
         ]
       },
       "amazon": null,
@@ -46322,10 +46322,10 @@
           "foreign trade s cardigan zipper sweater fleece collar jacket s loose knitwear jacket jacket s top",
           "jackets cardigan sweater collar jacket top",
           "cardigan sweater collar jacket top",
+          "jackets cardigan sweater collar jacket",
           "sweater collar jacket top",
           "cardigan sweater collar jacket",
-          "jackets cardigan sweater collar",
-          "jacket jacket s top"
+          "jackets cardigan sweater collar"
         ]
       },
       "amazon": null,
@@ -49347,9 +49347,9 @@
           "quick-drying cargo pants sports",
           "cargo pants s",
           "cargo pants sports",
+          "pants s quick-drying",
           "quick-drying cargo pants",
-          "pants s",
-          "cargo pants"
+          "pants s"
         ]
       },
       "amazon": null,
@@ -49829,7 +49829,7 @@
           "blouses shirts",
           "blouses shirts s solid-color loose-fit lace-panel blouse",
           "solid-color loose-fit lace-panel blouse",
-          "loose-fit lace-panel blouse"
+          "shirts s solid-color"
         ]
       },
       "amazon": null,
@@ -50308,8 +50308,8 @@
           "silver openwork flower tassel bracelet",
           "silver openwork flower tassel",
           "anklets silver openwork flower",
-          "silver openwork flower",
-          "anklets silver openwork"
+          "openwork flower tassel",
+          "silver openwork flower"
         ]
       },
       "amazon": null,
@@ -51266,10 +51266,10 @@
           "rongtai bathrobe ladies fleece",
           "robes fleece nightgown sleepwear",
           "sleep lounge rongtai",
-          "rongtai bathrobe ladies",
-          "fleece nightgown sleepwear",
-          "sleep lounge",
-          "rongtai bathrobe"
+          "bathrobe ladies fleece",
+          "robes fleece nightgown",
+          "lounge rongtai bathrobe",
+          "rongtai bathrobe ladies"
         ]
       },
       "amazon": null,
@@ -52503,9 +52503,9 @@
           "digital-printed short-sleeve polo shirt",
           "s shirts s",
           "short-sleeve polo shirt",
+          "shirts s digital-printed",
           "s shirts",
-          "shirts s",
-          "polo shirt"
+          "shirts s"
         ]
       },
       "amazon": null,
@@ -53735,13 +53735,13 @@
         ],
         "checkedKeywords": [
           "man hoodies sweatshirts s",
+          "hoodies sweatshirts s",
           "man hoodies sweatshirts",
           "man hoodies",
           "hoodies sweatshirts",
           "s american-style drop-shoulder hooded",
           "drop-shoulder hooded pullover sweatshirt",
-          "hooded pullover sweatshirt",
-          "s american-style drop-shoulder"
+          "hooded pullover sweatshirt"
         ]
       },
       "amazon": null,
@@ -54837,9 +54837,9 @@
           "s shirts stitching contrast",
           "long sleeves shirt",
           "s shirts stitching",
+          "shirts stitching contrast",
           "s shirts",
-          "sleeves shirt",
-          "shirts stitching"
+          "sleeves shirt"
         ]
       },
       "amazon": null,
@@ -56211,9 +56211,9 @@
           "casual pants loose straight-leg",
           "casual pants loose",
           "loose straight-leg pants",
+          "pants loose straight-leg",
           "pants loose",
-          "casual pants",
-          "straight-leg pants"
+          "casual pants"
         ]
       },
       "amazon": null,
@@ -58139,7 +58139,7 @@
           "christmas pet pocket",
           "unisex christmas pet",
           "man hoodies sweatshirts",
-          "pet pocket"
+          "hoodies sweatshirts unisex"
         ]
       },
       "amazon": null,
@@ -58755,9 +58755,9 @@
           "s shirts loose-fit cotton-linen",
           "base layer top",
           "s shirts loose-fit",
+          "shirts loose-fit cotton-linen",
           "s shirts",
-          "layer top",
-          "shirts loose-fit"
+          "layer top"
         ]
       },
       "amazon": null,
@@ -59993,7 +59993,7 @@
           "blouses shirts",
           "blouses shirts s v-neck hollow-out bell-sleeve slim-fit lace blouse",
           "bell-sleeve slim-fit lace blouse",
-          "slim-fit lace blouse"
+          "shirts s v-neck"
         ]
       },
       "amazon": null,
@@ -60470,10 +60470,10 @@
           "casual shoes breathable wear-resistant",
           "casual sports shoes",
           "casual shoes breathable",
+          "shoes breathable wear-resistant",
           "casual shoes",
           "sports shoes",
-          "shoes breathable",
-          "casual shoes breathable wear-resistant non-slip casual sports shoes"
+          "shoes breathable"
         ]
       },
       "amazon": null,
@@ -62396,10 +62396,10 @@
           "casual pants multi-pocket straight-leg",
           "cotton work pants",
           "casual pants multi-pocket",
+          "pants multi-pocket straight-leg",
           "work pants",
           "casual pants",
-          "pants multi-pocket",
-          "casual pants multi-pocket straight-leg cotton work pants"
+          "pants multi-pocket"
         ]
       },
       "amazon": null,
@@ -63359,7 +63359,7 @@
           "closed-toe rhinestone stiletto heels",
           "rhinestone stiletto heels",
           "nude closed-toe rhinestone",
-          "stiletto heels"
+          "closed-toe rhinestone stiletto"
         ]
       },
       "amazon": null,
@@ -67414,8 +67414,8 @@
           "pointed-toe low-cut fashionable heels",
           "french-style pointed-toe low-cut fashionable",
           "low-cut fashionable heels",
-          "french-style pointed-toe low-cut",
-          "fashionable heels"
+          "pointed-toe low-cut fashionable",
+          "french-style pointed-toe low-cut"
         ]
       },
       "amazon": null,
@@ -68170,8 +68170,8 @@
           "high-neck cashmere base layer",
           "seamless high-neck cashmere base",
           "cashmere base layer",
-          "seamless high-neck cashmere",
-          "base layer"
+          "high-neck cashmere base",
+          "seamless high-neck cashmere"
         ]
       },
       "amazon": null,
@@ -69404,10 +69404,10 @@
           "casual pants s loose-fit",
           "plus-size straight-cut casual trousers",
           "casual pants s",
+          "pants s loose-fit",
           "straight-cut casual trousers",
           "pants s",
-          "casual pants",
-          "casual trousers"
+          "casual pants"
         ]
       },
       "amazon": null,
@@ -70163,7 +70163,7 @@
           "s long-sleeved s jacquard",
           "s jacquard stand-collar half-zip",
           "s long-sleeved s",
-          "s jacquard stand-collar"
+          "long-sleeved s jacquard"
         ]
       },
       "amazon": null,
@@ -71260,8 +71260,8 @@
           "s long-sleeved s",
           "s long-sleeve t-shirt",
           "t-shirt patchwork rivets",
-          "s long-sleeve",
-          "s long-sleeved"
+          "long-sleeved s long-sleeve",
+          "long-sleeve t-shirt patchwork"
         ]
       },
       "amazon": null,
@@ -72567,9 +72567,9 @@
           "trendy long-sleeve denim shirt",
           "long-sleeve denim shirt",
           "s shirts japanese-style",
+          "shirts japanese-style trendy",
           "s shirts",
-          "denim shirt",
-          "shirts japanese-style"
+          "denim shirt"
         ]
       },
       "amazon": null,
@@ -74760,12 +74760,12 @@
         "checkedKeywords": [
           "man hoodies sweatshirts halloween-themed",
           "man hoodies sweatshirts",
+          "hoodies sweatshirts halloween-themed",
           "man hoodies",
           "hoodies sweatshirts",
           "sweatshirt heat transfer printing",
           "halloween-themed hooded sweatshirt heat",
-          "heat transfer printing",
-          "halloween-themed hooded sweatshirt"
+          "heat transfer printing"
         ]
       },
       "amazon": null,
@@ -75997,11 +75997,11 @@
           "casual pants quick-drying pocket",
           "pocket workwear straight-leg pants",
           "casual pants quick-drying",
+          "pants quick-drying pocket",
           "workwear straight-leg pants",
           "casual pants",
           "pants quick-drying",
-          "straight-leg pants",
-          "casual pants quick-drying pocket workwear straight-leg pants"
+          "straight-leg pants"
         ]
       },
       "amazon": null,
@@ -81910,8 +81910,8 @@
           "plaid tassel shawl wrap",
           "scarf oversized plaid tassel",
           "tassel shawl wrap",
-          "scarf oversized plaid",
-          "shawl wrap"
+          "plaid tassel shawl",
+          "scarf oversized plaid"
         ]
       },
       "amazon": null,
@@ -86165,7 +86165,7 @@
           "s retro cow suede",
           "s retro cow",
           "flats s retro",
-          "flats s"
+          "retro cow suede"
         ]
       },
       "amazon": null,
@@ -87812,10 +87812,10 @@
           "suits tight-fitting quick-drying short-sleeve",
           "tight-fitting quick-drying short-sleeve long-leg",
           "long-leg yoga outfit",
+          "short-sleeve long-leg yoga",
           "suits tight-fitting quick-drying",
-          "tight-fitting quick-drying short-sleeve",
-          "yoga outfit",
-          "suits tight-fitting"
+          "quick-drying short-sleeve long-leg",
+          "tight-fitting quick-drying short-sleeve"
         ]
       },
       "amazon": null,
@@ -88568,10 +88568,10 @@
           "half-zip stand-collar casual sportswear",
           "american-style striped half-zip stand-collar",
           "s suits american-style",
-          "stand-collar casual sportswear",
-          "american-style striped half-zip",
-          "s suits",
-          "casual sportswear"
+          "half-zip stand-collar casual",
+          "suits american-style striped",
+          "striped half-zip stand-collar",
+          "stand-collar casual sportswear"
         ]
       },
       "amazon": null,
@@ -89942,10 +89942,10 @@
           "casual shoes stylish versatile",
           "low-top water shoes",
           "casual shoes stylish",
+          "shoes stylish versatile",
           "water shoes",
           "casual shoes",
-          "shoes stylish",
-          "casual shoes stylish versatile low-top water shoes"
+          "shoes stylish"
         ]
       },
       "amazon": null,
@@ -92822,10 +92822,10 @@
           "s shirts s plaid",
           "single-pocket brushed plus-size shirt",
           "s shirts s",
+          "shirts s plaid",
           "brushed plus-size shirt",
           "s shirts",
-          "shirts s",
-          "plus-size shirt"
+          "shirts s"
         ]
       },
       "amazon": null,
@@ -94196,10 +94196,10 @@
           "stitching contrast long sleeve",
           "s long-sleeved stitching contrast",
           "long sleeve t-shirt",
+          "contrast long sleeve",
           "stitching contrast long",
           "s long-sleeved stitching",
-          "s long-sleeved",
-          "sleeve t-shirt"
+          "long-sleeved stitching contrast"
         ]
       },
       "amazon": null,
@@ -94815,9 +94815,9 @@
           "beaded jacket",
           "three dimensional lapel slim",
           "suits three dimensional lapel",
-          "suits three dimensional",
-          "three dimensional lapel",
-          "suits three"
+          "slim fit beaded",
+          "dimensional lapel slim",
+          "suits three dimensional"
         ]
       },
       "amazon": null,
@@ -96318,8 +96318,8 @@
           "suits blazer color-blocked business",
           "suits blazer color-blocked",
           "color-blocked business vest",
-          "suits blazer",
-          "business vest"
+          "blazer color-blocked business",
+          "suits blazer"
         ]
       },
       "amazon": null,
@@ -97893,10 +97893,10 @@
           "drinkware electric milk frother",
           "electric milk frother automatic",
           "latte coffee foam",
+          "steamer latte coffee",
           "electric milk frother",
-          "drinkware electric milk",
-          "coffee foam",
-          "electric milk"
+          "milk frother automatic",
+          "drinkware electric milk"
         ]
       },
       "amazon": null,
@@ -98855,8 +98855,8 @@
           "simple stylish stainless steel",
           "stainless steel clavicle chain",
           "steel clavicle chain",
-          "simple stylish stainless",
-          "clavicle chain"
+          "pendants simple stylish",
+          "stylish stainless steel"
         ]
       },
       "amazon": null,
@@ -100641,10 +100641,10 @@
           "s shirts s long-sleeve",
           "long-sleeve button-down mandarin-collar shirt",
           "s shirts s",
+          "shirts s long-sleeve",
           "button-down mandarin-collar shirt",
           "s shirts",
-          "shirts s",
-          "mandarin-collar shirt"
+          "shirts s"
         ]
       },
       "amazon": null,
@@ -101604,7 +101604,7 @@
           "suits athletic outdoor",
           "matching wide-leg pants",
           "athletic outdoor featuring",
-          "wide-leg pants"
+          "outdoor featuring drop-shoulder"
         ]
       },
       "amazon": null,
@@ -102222,7 +102222,7 @@
           "blouses shirts",
           "blouses shirts s v-neck retro leopard-print patchwork blouse",
           "retro leopard-print patchwork blouse",
-          "leopard-print patchwork blouse"
+          "shirts s v-neck"
         ]
       },
       "amazon": null,
@@ -106755,10 +106755,10 @@
           "s fallwinter furry coat",
           "basic jacket s fallwinter",
           "basic jacket s",
+          "jacket s fallwinter",
           "fallwinter furry coat",
           "jacket s",
-          "furry coat",
-          "basic jacket"
+          "furry coat"
         ]
       },
       "amazon": null,
@@ -109227,10 +109227,10 @@
           "multi-functional zippered crossbody bag",
           "crossbody bags multi-functional zippered",
           "zippered crossbody bag",
+          "bags multi-functional zippered",
           "crossbody bags multi-functional",
           "crossbody bag",
-          "crossbody bags",
-          "bags multi-functional"
+          "crossbody bags"
         ]
       },
       "amazon": null,
@@ -112180,8 +112180,8 @@
           "flowers wreaths wedding car",
           "artificial flower bouquets car",
           "bouquets car doors",
-          "wedding car handle",
-          "flower bouquets car"
+          "car handle flowers",
+          "wedding car handle"
         ]
       },
       "amazon": null,
@@ -112658,10 +112658,10 @@
           "lady dresses s cowboy",
           "s cowboy long-sleeve dress",
           "lady dresses s",
+          "dresses s cowboy",
           "cowboy long-sleeve dress",
           "dresses s",
-          "lady dresses",
-          "long-sleeve dress"
+          "lady dresses"
         ]
       },
       "amazon": null,
@@ -113617,11 +113617,11 @@
           "basic jacket s chinese-style",
           "mandarin-button polka-dot long-sleeve jacket",
           "basic jacket s",
+          "jacket s chinese-style",
           "polka-dot long-sleeve jacket",
           "jacket s",
           "basic jacket",
-          "long-sleeve jacket",
-          "basic jacket s chinese-style mandarin-button polka-dot long-sleeve jacket"
+          "long-sleeve jacket"
         ]
       },
       "amazon": null,
@@ -117188,10 +117188,10 @@
           "lady dresses elegant cotton-linen",
           "elegant cotton-linen floral-sleeved dress",
           "lady dresses elegant",
+          "dresses elegant cotton-linen",
           "cotton-linen floral-sleeved dress",
           "lady dresses",
-          "dresses elegant",
-          "floral-sleeved dress"
+          "dresses elegant"
         ]
       },
       "amazon": null,
@@ -118425,9 +118425,9 @@
           "v-neck top",
           "cross-border amazon s diagonal",
           "s long-sleeved cross-border amazon",
-          "cross-border amazon s",
-          "s long-sleeved cross-border",
-          "s long-sleeved"
+          "slim fit v-neck",
+          "amazon s diagonal",
+          "cross-border amazon s"
         ]
       },
       "amazon": null,
@@ -119385,9 +119385,9 @@
           "jacquard street-style casual sporty",
           "s suits jacquard",
           "casual sporty hooded",
-          "jacquard street-style casual",
-          "s suits",
-          "sporty hooded"
+          "street-style casual sporty",
+          "suits jacquard street-style",
+          "jacquard street-style casual"
         ]
       },
       "amazon": null,
@@ -119866,8 +119866,8 @@
           "bow-tie pointed-toe casual s shoes",
           "bow-tie pointed-toe casual s",
           "flats bow-tie pointed-toe casual",
-          "flats bow-tie pointed-toe",
-          "bow-tie pointed-toe casual"
+          "pointed-toe casual s",
+          "flats bow-tie pointed-toe"
         ]
       },
       "amazon": null,
@@ -120345,9 +120345,9 @@
           "lady dresses french-style elegant",
           "elegant black dress",
           "lady dresses french-style",
+          "dresses french-style elegant",
           "black dress",
-          "lady dresses",
-          "dresses french-style"
+          "lady dresses"
         ]
       },
       "amazon": null,
@@ -121101,9 +121101,9 @@
           "leopard-print jacquard hooded cardigan",
           "man hoodies sweatshirts",
           "jacquard hooded cardigan",
+          "hoodies sweatshirts leopard-print",
           "man hoodies",
-          "hooded cardigan",
-          "hoodies sweatshirts"
+          "hooded cardigan"
         ]
       },
       "amazon": null,
@@ -123775,11 +123775,11 @@
           "shoulder bags makeup bag cosmetic bag black make case toiletry bag capacity travel makeup case organizer toiletry bag girls",
           "makeup bag cosmetic bag black make case toiletry bag capacity travel makeup case organizer toiletry bag girls",
           "bags makeup bag case travel organizer",
+          "bags makeup bag case travel",
           "makeup bag case travel organizer",
           "bags makeup bag case",
           "makeup bag case travel",
-          "bag case travel organizer",
-          "travel makeup case organizer"
+          "bag case travel organizer"
         ]
       },
       "amazon": null,
@@ -126113,7 +126113,7 @@
           "blouses shirts",
           "blouses shirts s retro plaid flannel loose long-sleeve top",
           "flannel loose long-sleeve top",
-          "loose long-sleeve top"
+          "shirts s retro"
         ]
       },
       "amazon": null,
@@ -129890,10 +129890,10 @@
           "s long-sleeved s long-sleeve",
           "t-shirt thin casual loose-fit",
           "s long-sleeved s",
+          "t-shirt thin casual",
           "s long-sleeve t-shirt",
           "thin casual loose-fit",
-          "s long-sleeve",
-          "s long-sleeved"
+          "long-sleeve t-shirt thin"
         ]
       },
       "amazon": null,
@@ -131405,7 +131405,7 @@
           "v-neck long-sleeve jumpsuit",
           "elegant v-neck",
           "rompers elegant",
-          "long-sleeve jumpsuit"
+          "v-neck long-sleeve"
         ]
       },
       "amazon": null,
@@ -131883,9 +131883,9 @@
           "waist-cinched single-button tailored blazer",
           "basic jacket waist-cinched",
           "single-button tailored blazer",
+          "jacket waist-cinched single-button",
           "basic jacket",
-          "tailored blazer",
-          "jacket waist-cinched"
+          "tailored blazer"
         ]
       },
       "amazon": null,
@@ -132917,7 +132917,7 @@
           "s round-neck long-sleeve casual",
           "s long-sleeved s",
           "s round-neck long-sleeve",
-          "s round-neck"
+          "long-sleeved s round-neck"
         ]
       },
       "amazon": null,
@@ -133394,10 +133394,10 @@
           "base t-shirt top",
           "t-shirt top",
           "s retro-style solid-color long-sleeve",
+          "long-sleeve base t-shirt",
           "s retro-style solid-color",
-          "s retro-style",
-          "s retro-style solid-color long-sleeve base t-shirt top",
-          "top"
+          "retro-style solid-color long-sleeve",
+          "base t-shirt"
         ]
       },
       "amazon": null,
@@ -134769,9 +134769,9 @@
           "sexy bodysuit slimming figure-flattering",
           "rompers s sexy",
           "s sexy bodysuit",
+          "sexy bodysuit slimming",
           "bodysuit slimming figure-flattering",
-          "s sexy",
-          "rompers s"
+          "s sexy"
         ]
       },
       "amazon": null,
@@ -136343,9 +136343,9 @@
           "solid-color round-neck knitted cardigan",
           "basic jacket solid-color",
           "round-neck knitted cardigan",
+          "jacket solid-color round-neck",
           "basic jacket",
-          "knitted cardigan",
-          "jacket solid-color"
+          "knitted cardigan"
         ]
       },
       "amazon": null,
@@ -141340,10 +141340,10 @@
           "jacquard coat medieval aristocratic",
           "suits jacquard coat",
           "jacquard coat medieval",
+          "coat medieval aristocratic",
           "coat medieval",
           "jacquard coat",
-          "medieval aristocratic formal wear",
-          "aristocratic formal wear"
+          "medieval aristocratic formal wear"
         ]
       },
       "amazon": null,
@@ -141956,12 +141956,12 @@
         "checkedKeywords": [
           "toe lace-up board shoes",
           "vulcanize shoes s height",
+          "shoes s height",
           "vulcanize shoes s",
           "lace-up board shoes",
           "shoes s",
           "board shoes",
-          "vulcanize shoes",
-          "vulcanize shoes s height increasing round toe lace-up board shoes"
+          "vulcanize shoes"
         ]
       },
       "amazon": null,
@@ -142920,8 +142920,8 @@
           "shawl warm scarf pure",
           "warm scarves long shawl",
           "warm scarf pure",
-          "warm scarves long",
-          "scarf pure"
+          "shawl warm scarf",
+          "warm scarves long"
         ]
       },
       "amazon": null,
@@ -146147,8 +146147,8 @@
           "solid-color casual pants pockets",
           "casual pants pockets",
           "casual pants solid-color",
-          "solid-color casual pants",
-          "casual pants"
+          "pants solid-color casual",
+          "solid-color casual pants"
         ]
       },
       "amazon": null,
@@ -147041,8 +147041,8 @@
           "suits s elegant",
           "s elegant figure-hugging",
           "figure-hugging springautumn outfit",
-          "suits s",
-          "s elegant"
+          "elegant figure-hugging springautumn",
+          "suits s"
         ]
       },
       "amazon": null,
@@ -147657,10 +147657,10 @@
           "lady dresses s elegant",
           "s elegant asymmetrical-neck dress",
           "lady dresses s",
+          "dresses s elegant",
           "elegant asymmetrical-neck dress",
           "dresses s",
-          "lady dresses",
-          "asymmetrical-neck dress"
+          "lady dresses"
         ]
       },
       "amazon": null,
@@ -151160,11 +151160,11 @@
           "blouses shirts metallic shiny",
           "blouses shirts metallic",
           "blouses shirts",
+          "shirts metallic shiny",
           "shirts metallic",
           "blouses shirts metallic shiny half-zip long-sleeve t-shirt",
           "shiny half-zip long-sleeve t-shirt",
-          "metallic shiny half-zip long-sleeve",
-          "metallic shiny half-zip"
+          "metallic shiny half-zip long-sleeve"
         ]
       },
       "amazon": null,
@@ -152740,9 +152740,9 @@
           "streaming camera",
           "ai-powered intelligent automatic tracking",
           "sports accessories ai-powered intelligent",
+          "recording live streaming",
           "sports accessories ai-powered",
-          "ai-powered intelligent automatic",
-          "sports accessories"
+          "intelligent automatic tracking"
         ]
       },
       "amazon": null,
@@ -154664,9 +154664,9 @@
           "elegant genuine leather wallet",
           "man wallets trendy",
           "genuine leather wallet",
+          "wallets trendy elegant",
           "man wallets",
-          "leather wallet",
-          "wallets trendy"
+          "leather wallet"
         ]
       },
       "amazon": null,
@@ -156593,10 +156593,10 @@
           "casual pants digital-print casual",
           "digital-print casual ugly-printed trousers",
           "casual pants digital-print",
+          "pants digital-print casual",
           "casual ugly-printed trousers",
           "casual pants",
-          "pants digital-print",
-          "ugly-printed trousers"
+          "pants digital-print"
         ]
       },
       "amazon": null,
@@ -157690,11 +157690,11 @@
           "warm knitted cape scarf",
           "stylish outerwear warm knitted",
           "scarves wraps stylish outerwear",
+          "warm knitted cape",
           "knitted cape scarf",
           "scarves wraps stylish",
-          "stylish outerwear warm",
-          "cape scarf",
-          "scarves wraps"
+          "outerwear warm knitted",
+          "stylish outerwear warm"
         ]
       },
       "amazon": null,
@@ -159751,8 +159751,8 @@
           "s long-sleeved s",
           "printed lapel t-shirt",
           "s long-sleeve printed",
-          "lapel t-shirt",
-          "s long-sleeve"
+          "long-sleeve printed lapel",
+          "long-sleeved s long-sleeve"
         ]
       },
       "amazon": null,
@@ -160503,12 +160503,12 @@
         "checkedKeywords": [
           "night lights italian luxury",
           "night lights italian",
+          "lights italian luxury",
           "night lights",
           "lights italian",
           "italian luxury fringed living",
           "fringed living room chandelier",
-          "italian luxury fringed",
-          "living room chandelier"
+          "fringed living room"
         ]
       },
       "amazon": null,
@@ -161261,10 +161261,10 @@
           "half-sole elderly shoes wide",
           "flats half-sole elderly shoes",
           "elderly shoes wide",
+          "shoes wide opening",
           "half-sole elderly shoes",
           "shoes wide",
-          "elderly shoes",
-          "flats half-sole elderly shoes wide"
+          "elderly shoes"
         ]
       },
       "amazon": null,
@@ -161881,7 +161881,7 @@
           "boston terrier dog head",
           "size boston terrier dog",
           "necklace pendants big size",
-          "terrier dog head"
+          "dog head pendant"
         ]
       },
       "amazon": null,
@@ -164357,7 +164357,7 @@
           "suede jacket s",
           "retro suede jacket",
           "s blazers european",
-          "jacket s"
+          "blazers european american"
         ]
       },
       "amazon": null,
@@ -169637,8 +169637,8 @@
           "chunky-heeled square-toe low-cut patchwork pumps",
           "flats chunky-heeled square-toe low-cut",
           "chunky-heeled square-toe low-cut patchwork",
-          "flats chunky-heeled square-toe",
-          "chunky-heeled square-toe low-cut"
+          "square-toe low-cut patchwork",
+          "flats chunky-heeled square-toe"
         ]
       },
       "amazon": null,
@@ -172106,11 +172106,11 @@
           "texture henry collar long",
           "collar long sleeved t-shirt",
           "henry collar long",
+          "collar long sleeved",
           "texture henry collar",
           "collar long",
           "henry collar",
-          "long sleeved t-shirt",
-          "texture henry"
+          "long sleeved t-shirt"
         ]
       },
       "amazon": null,
@@ -173555,8 +173555,8 @@
           "necklace pendants metal punk pendant",
           "pendants metal punk pendant",
           "metal punk pendant",
-          "metal punk",
-          "punk pendant"
+          "pendants metal punk",
+          "metal punk"
         ]
       },
       "amazon": null,
@@ -174587,7 +174587,7 @@
           "lady dresses vintage dress vintage",
           "dress vintage stage costume",
           "vintage dress vintage stage",
-          "lady dresses vintage"
+          "dress vintage stage"
         ]
       },
       "amazon": null,
@@ -175545,9 +175545,9 @@
           "french-style elegant long-sleeve dress",
           "elegant long-sleeve dress",
           "lady dresses french-style",
+          "dresses french-style elegant",
           "lady dresses",
-          "long-sleeve dress",
-          "dresses french-style"
+          "long-sleeve dress"
         ]
       },
       "amazon": null,
@@ -177400,8 +177400,8 @@
           "soft-leather wide-fit large-size heels",
           "pointed-toe professional soft-leather wide-fit",
           "wide-fit large-size heels",
-          "pointed-toe professional soft-leather",
-          "large-size heels"
+          "soft-leather wide-fit large-size",
+          "professional soft-leather wide-fit"
         ]
       },
       "amazon": null,
@@ -177876,12 +177876,12 @@
         "checkedKeywords": [
           "scarves wraps simple plaid",
           "simple plaid cashmere scarf",
+          "wraps simple plaid",
           "plaid cashmere scarf",
           "scarves wraps simple",
           "simple plaid cashmere",
           "simple plaid",
-          "scarves wraps",
-          "cashmere scarf"
+          "wraps simple"
         ]
       },
       "amazon": null,
@@ -178837,10 +178837,10 @@
           "posture clavicle corrector back",
           "massage relaxation posture clavicle",
           "brace strap correct",
+          "shoulders brace strap",
+          "clavicle corrector back",
           "massage relaxation posture",
-          "posture clavicle corrector",
-          "strap correct",
-          "posture clavicle"
+          "posture clavicle corrector"
         ]
       },
       "amazon": null,
@@ -179315,12 +179315,12 @@
         "checkedKeywords": [
           "pet hair removers combs dog hair dryer brush heat settings professional overheat protection medium pets",
           "pet combs dog dryer brush pets",
+          "pet combs dog dryer brush",
+          "combs dog dryer brush pets",
           "pet combs dog dryer",
           "dog dryer brush pets",
-          "combs dog hair dryer brush",
-          "combs dog hair dryer",
-          "dog hair dryer brush",
-          "pet combs dog"
+          "combs dog dryer brush",
+          "combs dog hair dryer brush"
         ]
       },
       "amazon": null,
@@ -179797,10 +179797,10 @@
           "-in- pet hair dryer slicker brush dogs cats professional adjustable temp overheat protection dog hair dryer",
           "pet combs dryer brush dogs cats dog",
           "pet dryer brush dogs cats dog",
-          "brush dogs cats dog",
-          "pet dryer brush dogs",
-          "pet combs dryer brush",
-          "dryer slicker brush dogs cats"
+          "dryer brush dogs cats dog",
+          "pet dryer brush dogs cats",
+          "pet combs dryer brush dogs",
+          "combs dryer brush dogs cats"
         ]
       },
       "amazon": null,
@@ -180278,9 +180278,9 @@
           "flap pocket pants loose",
           "pants loose fur outwear",
           "s coats european american",
+          "pants loose fur",
           "s coats european",
-          "flap pocket pants",
-          "pocket pants loose"
+          "flap pocket pants"
         ]
       },
       "amazon": null,
@@ -183503,11 +183503,11 @@
           "caps cap",
           "glowing led baseball cap",
           "baseball caps glowing led",
+          "caps glowing led",
           "led baseball cap",
           "baseball caps glowing",
           "baseball cap",
-          "caps glowing",
-          "baseball caps"
+          "caps glowing"
         ]
       },
       "amazon": null,
@@ -183985,9 +183985,9 @@
           "flats arrival versatile peep-toe",
           "peep-toe flat mules",
           "flats arrival versatile",
+          "versatile peep-toe flat",
           "arrival versatile peep-toe",
-          "flat mules",
-          "flats arrival"
+          "flat mules"
         ]
       },
       "amazon": null,
@@ -184605,7 +184605,7 @@
           "fur knit sweater",
           "knit sweater thickened",
           "s cardigans cross-border",
-          "s cardigans"
+          "cardigans cross-border loose-fitting"
         ]
       },
       "amazon": null,
@@ -188589,7 +188589,7 @@
           "s solid-color lapel wool",
           "wool blend s solid-color",
           "wool blend s",
-          "s solid-color lapel"
+          "blend s solid-color"
         ]
       },
       "amazon": null,
@@ -190651,9 +190651,9 @@
           "retro casual hooded sweater",
           "s sweaters retro",
           "casual hooded sweater",
+          "sweaters retro casual",
           "s sweaters",
-          "hooded sweater",
-          "sweaters retro"
+          "hooded sweater"
         ]
       },
       "amazon": null,
@@ -192160,8 +192160,8 @@
           "s casual high-waisted tummy-control",
           "casual high-waisted tummy-control panties",
           "s casual high-waisted",
-          "high-waisted tummy-control panties",
-          "s casual"
+          "casual high-waisted tummy-control",
+          "high-waisted tummy-control panties"
         ]
       },
       "amazon": null,
@@ -193326,12 +193326,12 @@
         "checkedKeywords": [
           "power tools digital speed",
           "power tools digital",
+          "tools digital speed",
           "power tools",
           "tools digital",
           "electric needle gun loom",
           "digital speed display carpet",
-          "needle gun loom",
-          "digital speed display"
+          "needle gun loom"
         ]
       },
       "amazon": null,
@@ -197175,9 +197175,9 @@
           "round neck short-sleeve dress",
           "neck short-sleeve dress",
           "dress neck",
+          "neck dress",
           "dresses dress",
-          "amazon independent site model slim-fit dress chiffon patchwork round neck short-sleeve dress",
-          "site model slim-fit dress"
+          "amazon independent site model slim-fit dress chiffon patchwork round neck short-sleeve dress"
         ]
       },
       "amazon": null,
@@ -198135,9 +198135,9 @@
           "striped casual workwear two-piece",
           "suits s striped",
           "s striped casual",
+          "striped casual workwear",
           "casual workwear two-piece",
-          "suits s",
-          "s striped"
+          "suits s"
         ]
       },
       "amazon": null,
@@ -199094,10 +199094,10 @@
           "s labor protection shoes",
           "labor protection shoes are",
           "shoes are anti-smashing anti-piercing",
+          "shoes s labor",
           "casual shoes s",
           "protection shoes are",
-          "labor protection shoes",
-          "shoes s"
+          "labor protection shoes"
         ]
       },
       "amazon": null,
@@ -205204,12 +205204,12 @@
         "checkedKeywords": [
           "s vests retro fitted",
           "s vests retro",
+          "vests retro fitted",
           "s vests",
           "vests retro",
           "retro fitted metal single-breasted",
           "fitted metal single-breasted waistcoat",
-          "retro fitted metal",
-          "metal single-breasted waistcoat"
+          "retro fitted metal"
         ]
       },
       "amazon": null,
@@ -206444,8 +206444,8 @@
           "sleeveless lapel-neck button-front dress",
           "lady dresses sleeveless",
           "button-front dress pockets",
-          "lapel-neck button-front dress",
-          "lady dresses"
+          "dresses sleeveless lapel-neck",
+          "lapel-neck button-front dress"
         ]
       },
       "amazon": null,
@@ -210086,7 +210086,7 @@
           "blouses shirts",
           "blouses shirts s plus-size casual solid-color lantern-sleeve loose shirt",
           "solid-color lantern-sleeve loose shirt",
-          "lantern-sleeve loose shirt"
+          "shirts s plus-size"
         ]
       },
       "amazon": null,
@@ -213725,9 +213725,9 @@
           "man sandals fashionable casual",
           "versatile s shoes",
           "man sandals fashionable",
+          "sandals fashionable casual",
           "s shoes",
-          "man sandals",
-          "sandals fashionable"
+          "man sandals"
         ]
       },
       "amazon": null,
@@ -214483,7 +214483,7 @@
           "fashionable multi-color cardholder zipper",
           "multi-color cardholder zipper",
           "short fashionable multi-color",
-          "cardholder zipper"
+          "fashionable multi-color cardholder"
         ]
       },
       "amazon": null,
@@ -218074,7 +218074,7 @@
           "mute cooler handheld fan",
           "fan cooling fan",
           "cooler handheld fan",
-          "fan cooler"
+          "cooler fan"
         ]
       },
       "amazon": null,
@@ -221094,12 +221094,12 @@
         "checkedKeywords": [
           "acrylic paint 5ml 17oz",
           "drawing painting canvas rock",
+          "paint 5ml 17oz",
           "acrylic paint 5ml",
           "painting canvas rock",
-          "canvas rock",
-          "acrylic paint",
-          "acrylic paint 5ml 17oz water-proof art rich pigments dly craft drawing painting canvas rock",
-          "rock"
+          "drawing painting canvas",
+          "5ml 17oz",
+          "paint 5ml"
         ]
       },
       "amazon": null,
@@ -221718,8 +221718,8 @@
             "usedKeyword": "5pcs solids stainlesss steel round rod metal bar stock diy craft model making lathe tool",
             "score": 15,
             "growthPercent": -100,
-            "matchedKeyword": "5pcs solids stainlesss steel round rod metal bar stock diy craft model making lathe tool",
-            "matchScore": 605,
+            "matchedKeyword": "model making lathe tool",
+            "matchScore": 402,
             "timelinePoints": 60
           }
         ],
@@ -221728,10 +221728,10 @@
           "making lathe tool",
           "lathe tool",
           "5pcs solids stainlesss steel",
+          "model making lathe",
           "5pcs solids stainlesss",
-          "5pcs solids",
-          "equipment round",
-          "5pcs solids stainlesss steel round rod metal bar stock diy craft model making lathe tool"
+          "solids stainlesss steel",
+          "5pcs solids"
         ]
       },
       "amazon": null,
@@ -231719,12 +231719,12 @@
         "checkedKeywords": [
           "invisible air bangs hair",
           "fringes hairpiece black brown",
+          "air bangs hair",
           "invisible air bangs",
           "hairpiece black brown",
-          "dark hair",
-          "black brown",
-          "invisible air",
-          "invisible air bangs hair extension synthetic fake fringes hairpiece black brown"
+          "fringes hairpiece black",
+          "air bangs",
+          "dark hair"
         ]
       },
       "amazon": null,
@@ -237505,9 +237505,9 @@
           "stand light outdoor holder",
           "camping cheap lantern stand clip light poletable fixing aluminum alloy clamp outdoor hanging holder outdoorcamping tools",
           "stand light outdoor",
+          "light outdoor holder",
           "outdoor holder tools",
-          "lantern stand clip light",
-          "stand clip light poletable"
+          "lantern stand clip light"
         ]
       },
       "amazon": null,
@@ -238405,11 +238405,11 @@
           "4pcs size cubic zirconia",
           "bone nostril piercing jewelry",
           "4pcs size cubic",
+          "size cubic zirconia",
+          "bone nostril piercing",
           "nostril piercing jewelry",
           "nose end",
-          "4pcs size",
-          "piercing jewelry",
-          "4pcs size cubic zirconia nose piercing jewelry nose studs 20g bone l shaped shiny crystal bone nostril piercing jewelry"
+          "4pcs size"
         ]
       },
       "amazon": null,
@@ -240283,9 +240283,9 @@
           "flashlight holder belt torch",
           "tactical flashlight pouch holster rotatable holder belt clip tactical torch carry case degree carabiner reel clip",
           "belt torch case",
+          "holder belt torch",
           "flashlight holder belt",
-          "torch carry case degree",
-          "belt clip tactical torch"
+          "torch carry case degree"
         ]
       },
       "amazon": null,
@@ -241389,7 +241389,7 @@
           "full cover nail",
           "armor full cover",
           "120pcs box acrylic",
-          "120pcs box"
+          "box acrylic french"
         ]
       },
       "amazon": null,
@@ -242843,12 +242843,12 @@
         "checkedKeywords": [
           "drive usb flash drive",
           "somnambulist pen drive speed",
+          "drive usb flash",
+          "pen drive speed",
           "usb flash drive",
           "somnambulist pen drive",
-          "flash drive",
-          "fully compliant",
-          "somnambulist pen",
-          "somnambulist pen drive speed usb2 mobile pen drive usb flash drive"
+          "drive usb",
+          "pen drive"
         ]
       },
       "amazon": null,
@@ -244447,7 +244447,7 @@
           "appearance usb rechargeable fan",
           "handheld fan abs",
           "cooling pocket fan",
-          "usb rechargeable fan"
+          "fan cooling pocket"
         ]
       },
       "amazon": null,
@@ -246228,12 +246228,12 @@
         "checkedKeywords": [
           "original sandisk memory card",
           "card memory microsd smartphone",
+          "card memory microsd",
+          "sandisk memory card",
           "original sandisk memory",
           "memory microsd smartphone",
-          "fully compliant",
-          "original sandisk",
-          "microsd smartphone",
-          "original sandisk memory card micro card class uhs- flash card memory microsd smartphone"
+          "card memory",
+          "memory card"
         ]
       },
       "amazon": null,
@@ -246708,14 +246708,14 @@
           }
         ],
         "checkedKeywords": [
+          "battery travel fan",
           "fan battery travel",
           "-in- fan -speed rechargeable lithium battery usb charging travel fan",
           "battery usb charging travel fan",
           "usb charging travel fan",
           "battery usb charging travel",
           "charging travel fan",
-          "travel fan",
-          "fan battery"
+          "travel fan"
         ]
       },
       "amazon": null,
@@ -247474,10 +247474,10 @@
           "business gifts key chain",
           "black pen drive",
           "gifts key chain",
+          "pen drive speed",
+          "business gifts key",
           "black pen",
-          "key chain",
-          "convenient creative",
-          "black pen drive speed memory stick pen drive usb oval flash drive convenient business gifts key chain"
+          "gifts key"
         ]
       },
       "amazon": null,
@@ -250984,11 +250984,11 @@
           "200ml hair dye shampoo",
           "shampoo black brown purple",
           "200ml hair dye",
+          "hair dye shampoo",
           "black brown purple",
-          "dark hair",
-          "200ml hair",
-          "brown purple",
-          "200ml hair dye shampoo gray hair natural hair dye kit semi permanent hair dye shampoo black brown purple"
+          "shampoo black brown",
+          "hair dye",
+          "dark hair"
         ]
       },
       "amazon": null,
@@ -252430,8 +252430,8 @@
           "precision wire looping pliers",
           "round concave pliers precision",
           "looping pliers diy",
-          "wire looping pliers",
-          "round concave pliers"
+          "pliers diy jewelry",
+          "wire looping pliers"
         ]
       },
       "amazon": null,
@@ -253330,10 +253330,10 @@
           "battery storage case holder box",
           "storage case holder box",
           "battery storage box case",
+          "holder battery storage box",
           "battery storage case holder",
           "battery storage box case wire",
-          "container battery storage box case",
-          "holder container battery storage box"
+          "container battery storage box case"
         ]
       },
       "amazon": null,
@@ -254371,11 +254371,11 @@
           "60ml golden paint metallic",
           "clothes painted graffiti pigments",
           "60ml golden paint",
+          "golden paint metallic",
+          "clothes painted graffiti",
           "painted graffiti pigments",
           "60ml golden",
-          "acrylic paint",
-          "graffiti pigments",
-          "60ml golden paint metallic acrylic paint waterproof not faded statuary coloring diy hand clothes painted graffiti pigments"
+          "golden paint"
         ]
       },
       "amazon": null,
@@ -258042,7 +258042,7 @@
           "vacuum storage box sealed",
           "storage container kitchen organizer",
           "vacuum storage box",
-          "box kitchen organizer"
+          "storage box kitchen"
         ]
       },
       "amazon": null,
@@ -258518,12 +258518,12 @@
         "checkedKeywords": [
           "rotating makeup organizer plastic cosmetic storage compartments multi-functional brush holder compact travel makeup case",
           "makeup organizer storage brush holder travel case",
+          "storage brush holder travel case",
+          "makeup organizer storage brush holder",
+          "organizer storage brush holder travel",
           "brush holder travel case",
-          "makeup organizer storage brush",
-          "holder compact travel makeup case",
-          "brush holder compact travel makeup",
-          "compact travel makeup case",
-          "brush holder compact travel"
+          "holder travel makeup case",
+          "brush holder travel makeup"
         ]
       },
       "amazon": null,
@@ -261058,20 +261058,20 @@
             "usedKeyword": "super chip usb flash drive black memory stick ultrathin pen drive creative gifts pendrive speed",
             "score": 15,
             "growthPercent": -100,
-            "matchedKeyword": "super chip usb flash drive black memory stick ultrathin pen drive creative gifts pendrive speed",
-            "matchScore": 605,
+            "matchedKeyword": "super chip usb flash",
+            "matchScore": 402,
             "timelinePoints": 60
           }
         ],
         "checkedKeywords": [
           "super chip usb flash",
           "creative gifts pendrive speed",
+          "chip usb flash",
           "super chip usb",
           "gifts pendrive speed",
-          "super chip",
-          "pendrive speed",
-          "convenient creative",
-          "super chip usb flash drive black memory stick ultrathin pen drive creative gifts pendrive speed"
+          "creative gifts pendrive",
+          "chip usb",
+          "usb flash"
         ]
       },
       "amazon": null,
@@ -263489,11 +263489,11 @@
           "power adapter quick charger",
           "adapter quick charger iphone",
           "adapter quick charger",
+          "adapter charger",
           "charger adapter",
           "usb charger gan type c fast charging pd power adapter quick charger iphone xiaomi poco samsung oneplus",
           "power adapter quick charger iphone",
-          "usb charger gan type",
-          "pd power adapter quick"
+          "usb charger gan type"
         ]
       },
       "amazon": null,
@@ -266433,8 +266433,8 @@
           "long-lasting outdoor cooling fan",
           "outdoor cooling fan",
           "fan blower",
-          "blower outdoor",
-          "fan high-speed turbo blower usb"
+          "outdoor fan",
+          "blower outdoor"
         ]
       },
       "amazon": null,
@@ -273329,11 +273329,11 @@
           "3pcs battery holder box slot battery storage case cell plastic container connect black red wires",
           "battery holder box storage case",
           "holder box storage case",
+          "box battery storage case",
           "battery holder box storage",
+          "holder box battery storage",
           "box slot battery storage case",
-          "holder box slot battery storage",
-          "3pcs battery holder box",
-          "battery holder box slot"
+          "holder box slot battery storage"
         ]
       },
       "amazon": null,
@@ -273812,10 +273812,10 @@
           "box organizer holder case",
           "storage box organizer holder",
           "acrylic transparent desktop paper storage box file document exam paper organizer household dust proof card holder case",
+          "box organizer holder",
           "organizer holder case",
           "storage box organizer",
-          "paper storage box file",
-          "proof card holder case"
+          "paper storage box file"
         ]
       },
       "amazon": null,
@@ -275394,7 +275394,7 @@
           "universal lid fixing belt",
           "elastic band outdoor camping",
           "lid fixing belt",
-          "fixing belt elastic"
+          "belt elastic band"
         ]
       },
       "amazon": null,
@@ -278227,11 +278227,11 @@
           "inch 99j burgundy straight",
           "pre plucked natural hairline",
           "inch 99j burgundy",
+          "pre plucked natural",
+          "99j burgundy straight",
           "plucked natural hairline",
           "inch 99j",
-          "dark hair",
-          "natural hairline",
-          "inch 99j burgundy straight brazilian human hair wig 13x4 hd transparent lace frontal wig pre plucked natural hairline"
+          "dark hair"
         ]
       },
       "amazon": null,
@@ -278847,13 +278847,13 @@
         ],
         "checkedKeywords": [
           "inch body wave wigs",
+          "body wave wigs",
           "inch body wave",
           "body wave",
           "inch body",
           "lace human hair wigs",
           "human hair wigs",
-          "dark hair",
-          "hair wigs"
+          "lace human hair"
         ]
       },
       "amazon": null,
@@ -280097,7 +280097,7 @@
           "tool kit phone watch glasses",
           "tool kit phone watch",
           "kit phone watch glasses",
-          "phone watch glasses"
+          "tool phone watch"
         ]
       },
       "amazon": null,
@@ -280854,11 +280854,11 @@
           "hand tools universal pliers multi functional tools electrical wire cable cutters cutting side snips flush electronic pliers",
           "tools pliers cable cutters",
           "tools pliers cable",
+          "tools cable cutters",
           "pliers cable cutters",
           "tools electrical wire cable cutters",
           "wire cable cutters cutting",
-          "hand tools universal pliers",
-          "tools electrical wire cable"
+          "hand tools universal pliers"
         ]
       },
       "amazon": null,
@@ -281476,11 +281476,11 @@
           "tool kit auto repair",
           "disconnection removal tool kit",
           "line disconnection removal tool",
+          "tool kit auto",
           "removal tool kit",
           "disconnection removal tool",
           "tool kit",
-          "removal tool",
-          "pliers equipment"
+          "removal tool"
         ]
       },
       "amazon": null,
@@ -281957,12 +281957,12 @@
         "checkedKeywords": [
           "1pc wire stripper knife crimper pliers crimping tool cable stripping wire cutter multi tools cut line hand tools",
           "knife pliers tool cable cutter tools",
+          "knife pliers tool cable cutter",
+          "pliers tool cable cutter tools",
           "knife pliers tool cable",
           "tool cable cutter tools",
-          "pliers crimping tool cable",
-          "knife pliers tool",
-          "cable cutter tools",
-          "crimper pliers crimping tool cable"
+          "pliers tool cable cutter",
+          "pliers crimping tool cable"
         ]
       },
       "amazon": null,
@@ -288225,11 +288225,11 @@
           "suitable living room bedroom",
           "waterproof stain-resistant removable adhesive-free",
           "living room bedroom",
+          "suitable living room",
           "waterproof stain-resistant removable",
-          "room bedroom",
-          "accessibility fully",
-          "waterproof stain-resistant",
-          "waterproof stain-resistant removable adhesive-free electrostatic transparent wall stickers suitable living room bedroom"
+          "stain-resistant removable adhesive-free",
+          "living room",
+          "room bedroom"
         ]
       },
       "amazon": null,
@@ -291045,12 +291045,12 @@
         "checkedKeywords": [
           "tool storage bag pouch belt hardware electrician toolkit drill waist bag wrench screwdriver tool bags organizer",
           "tool storage bag belt drill wrench screwdriver bags organizer",
+          "tool storage bag belt drill",
+          "storage bag belt drill wrench",
           "bag wrench screwdriver tool bags",
-          "wrench screwdriver tool bags organizer",
-          "tool storage bag belt",
-          "bag wrench screwdriver tool",
-          "wrench screwdriver tool bags",
-          "screwdriver tool bags organizer"
+          "bag belt drill wrench screwdriver",
+          "belt drill wrench screwdriver bags",
+          "wrench screwdriver tool bags organizer"
         ]
       },
       "amazon": null,
@@ -291812,7 +291812,7 @@
           "desktop usb fan",
           "usb fan plug-in",
           "desktop fan heat",
-          "plug-in desktop fan"
+          "fan plug-in desktop"
         ]
       },
       "amazon": null,
@@ -294010,9 +294010,9 @@
           "food storage",
           "jars kitchen",
           "olive pickle strainer jar",
+          "pickle strainer jar",
           "olive pickle strainer",
-          "olive pickle",
-          "olive pickle strainer jar olive container hourglass jar strainer flip pickle container airtight food storage"
+          "container airtight food"
         ]
       },
       "amazon": null,
@@ -296154,11 +296154,11 @@
           "hair line powder contouring",
           "hairline shadow concealer coverage",
           "hair line powder",
+          "line powder contouring",
+          "hairline shadow concealer",
           "shadow concealer coverage",
           "dark hair",
-          "hair line",
-          "concealer coverage",
-          "hair line powder contouring shadow powder root touch natural instant waterproof forehead hairline shadow concealer coverage"
+          "hair line"
         ]
       },
       "amazon": null,
@@ -296777,10 +296777,10 @@
           "curly human hair wigs",
           "human hair wigs",
           "inch loose deep",
+          "loose deep wave",
+          "curly human hair",
           "dark hair",
-          "hair wigs",
-          "inch loose",
-          "inch loose deep wave frontal wigs 13x4 13x6 hd lace frontal wigs remy loose deep curly human hair wigs"
+          "deep wave"
         ]
       },
       "amazon": null,
@@ -298222,9 +298222,9 @@
           "pliers tool cutter cable",
           "inch professional cutting pliers wire stripping tool side cutter cable burrs nipper electricians diy repair hand tools",
           "tool side cutter cable",
+          "tool cutter cable",
           "cutter cable tools",
-          "pliers tool cutter",
-          "tool side cutter cable burrs"
+          "pliers tool cutter"
         ]
       },
       "amazon": null,
@@ -300202,12 +300202,12 @@
         "checkedKeywords": [
           "sizes tool pouch zipper tool bag screw plier wrench screwdriver mechanic car vacuum hand power tool storage organizer",
           "tool bag plier wrench screwdriver car vacuum storage organizer",
-          "tool bag plier wrench",
-          "car vacuum storage organizer",
-          "tool bag screw plier wrench",
-          "bag screw plier wrench screwdriver",
-          "wrench screwdriver mechanic car vacuum",
-          "tool bag screw plier"
+          "bag plier wrench screwdriver car",
+          "tool bag plier wrench screwdriver",
+          "plier wrench screwdriver car vacuum",
+          "wrench screwdriver car vacuum storage",
+          "screwdriver car vacuum storage organizer",
+          "tool bag plier wrench"
         ]
       },
       "amazon": null,
@@ -303997,9 +303997,9 @@
           "pliers tool cutter cable",
           "diagonal cutting pliers inch wire stripping tool side cutter cable burrs nipper electricians diy repair hand tools",
           "tool side cutter cable",
+          "tool cutter cable",
           "cutter cable tools",
-          "pliers tool cutter",
-          "tool side cutter cable burrs"
+          "pliers tool cutter"
         ]
       },
       "amazon": null,
@@ -309169,9 +309169,9 @@
           "hardware tool storage box",
           "tool storage box multi-compartment",
           "tool storage box",
+          "box tool organizer",
           "storage box organizer",
-          "hardware tool storage box multi-compartment",
-          "box multi-compartment transparent tool organizer"
+          "hardware tool storage box multi-compartment"
         ]
       },
       "amazon": null,
@@ -312706,12 +312706,12 @@
         "checkedKeywords": [
           "24pcs short almond fake",
           "nails acrylic press nail",
+          "short almond fake",
           "24pcs short almond",
           "acrylic press nail",
+          "nails acrylic press",
           "press nail",
-          "24pcs short",
-          "nails heavy",
-          "24pcs short almond fake nails butterfly wings nail art glue glitter flower false nails acrylic press nail"
+          "24pcs short"
         ]
       },
       "amazon": null,
@@ -313950,11 +313950,11 @@
           "jaster crystal usb flash",
           "pendrive free custom logo",
           "free custom logo",
+          "crystal usb flash",
           "jaster crystal usb",
-          "custom logo",
-          "jaster crystal",
-          "convenient creative",
-          "jaster crystal usb flash drive creative wedding gifts pen drive real capacity pendrive free custom logo"
+          "pendrive free custom",
+          "usb flash",
+          "crystal usb"
         ]
       },
       "amazon": null,
@@ -314431,11 +314431,11 @@
           "customized disk usb pendrive",
           "jaster personality gift wood",
           "disk usb pendrive",
+          "customized disk usb",
+          "personality gift wood",
           "jaster personality gift",
-          "usb pendrive",
-          "jaster personality",
-          "convenient creative",
-          "jaster personality gift wood creative pen drive logo customized disk usb pendrive"
+          "disk usb",
+          "gift wood"
         ]
       },
       "amazon": null,
@@ -315790,8 +315790,8 @@
           "led headlamp rechargeable sensor",
           "headlamp rechargeable sensor headlight",
           "headlight waterproof flashlight camping",
-          "headlamp rechargeable sensor",
-          "rechargeable sensor headlight"
+          "sensor headlight waterproof",
+          "headlamp rechargeable sensor"
         ]
       },
       "amazon": null,
@@ -316273,7 +316273,7 @@
           "comfortable furry slippers",
           "furry slippers lightweight",
           "lightweight comfortable shoes",
-          "furry slippers"
+          "slippers lightweight comfortable"
         ]
       },
       "amazon": null,
@@ -318907,11 +318907,11 @@
           "light foam",
           "15packs lot luminous seven",
           "fishing tackle accessory b687",
+          "lot luminous seven",
           "15packs lot luminous",
           "tackle accessory b687",
-          "15packs lot",
-          "accessory b687",
-          "light"
+          "fishing tackle accessory",
+          "15packs lot"
         ]
       },
       "amazon": null,
@@ -321264,12 +321264,12 @@
         "checkedKeywords": [
           "wifi bluetooth module arduino",
           "esp32 supermini development board",
+          "wifi bluetooth module",
           "bluetooth module arduino",
           "esp32 supermini development",
+          "supermini development board",
           "module arduino",
-          "esp32 supermini",
-          "fully compliant",
-          "esp32 supermini development board esp32-c3 wifi bluetooth module arduino"
+          "wifi bluetooth"
         ]
       },
       "amazon": null,
@@ -322428,12 +322428,12 @@
         "checkedKeywords": [
           "hd transparent lace wigs",
           "inch density frontal wig",
+          "density frontal wig",
+          "hd transparent lace",
           "inch density frontal",
           "transparent lace wigs",
           "dark hair",
-          "lace wigs",
-          "inch density",
-          "inch density frontal wig black brazilian wigs human hair 5x5 bone straight hd transparent lace wigs"
+          "lace wigs"
         ]
       },
       "amazon": null,
@@ -324017,9 +324017,9 @@
           "tool pet pliers tools",
           "pet pliers tools cutter",
           "tool pet pliers",
+          "pet pliers tools",
           "pliers tools cutter",
-          "straight tip cutter tool",
-          "tool hemostatic forceps pet"
+          "straight tip cutter tool"
         ]
       },
       "amazon": null,
@@ -325116,12 +325116,12 @@
         "checkedKeywords": [
           "storing snap adjustable clip",
           "refrigerator partition side door",
+          "partition side door",
           "snap adjustable clip",
+          "storing snap adjustable",
           "refrigerator partition side",
-          "adjustable clip",
-          "accessibility fully",
-          "refrigerator partition",
-          "refrigerator partition side door partition dividing clip partition organizing storing snap adjustable clip"
+          "side door",
+          "storing snap"
         ]
       },
       "amazon": null,
@@ -330296,8 +330296,8 @@
           "brush tip",
           "markers brush",
           "adult coloring diy crafts",
-          "coloring diy crafts",
-          "diy crafts"
+          "adult coloring diy",
+          "coloring diy crafts"
         ]
       },
       "amazon": null,
@@ -330915,11 +330915,11 @@
           "diy handmade beading tools",
           "handmade beading tools jewelry",
           "tools jewelry making accessories",
+          "tools jewelry making",
           "beading tools jewelry",
           "handmade beading tools",
           "beading tools",
-          "tools jewelry",
-          "diy handmade beading tools jewelry"
+          "tools jewelry"
         ]
       },
       "amazon": null,
@@ -332644,8 +332644,8 @@
           "fresh storage container kitchen",
           "storage container kitchen 1200ml",
           "storage container kitchen",
-          "vacuum storage",
-          "storage kitchen"
+          "kitchen vacuum",
+          "vacuum storage"
         ]
       },
       "amazon": null,
@@ -333744,12 +333744,12 @@
         "checkedKeywords": [
           "tarka detachable lantern stand adjustable ultralight light tabletop outdoor light holder camping table lamp rack access",
           "stand light outdoor holder table lamp rack",
+          "outdoor holder table lamp rack",
+          "light outdoor holder table lamp",
+          "stand light outdoor holder table",
           "holder table lamp rack",
-          "stand light outdoor holder",
-          "holder camping table lamp rack",
-          "light holder camping table lamp",
-          "light tabletop outdoor light holder",
-          "table lamp rack access"
+          "light holder table lamp",
+          "outdoor holder table lamp"
         ]
       },
       "amazon": null,
@@ -335331,11 +335331,11 @@
           "memory stick creative gift",
           "jaster rotatable wooden usb",
           "stick creative gift",
+          "rotatable wooden usb",
+          "memory stick creative",
           "jaster rotatable wooden",
-          "creative gift",
-          "jaster rotatable",
-          "convenient creative",
-          "jaster rotatable wooden usb flash drives type-c pen drive free custom logo memory stick creative gift"
+          "wooden usb",
+          "memory stick"
         ]
       },
       "amazon": null,
@@ -336574,12 +336574,12 @@
         "checkedKeywords": [
           "7pcs tool storage box multi-compartment tool organizer sorting box screws wrenches hardware accessories toys",
           "tool storage box organizer wrenches toys",
+          "storage box organizer wrenches toys",
+          "tool storage box organizer wrenches",
+          "storage box tool organizer",
           "tool storage box organizer",
           "box organizer wrenches toys",
-          "storage box multi-compartment tool organizer",
-          "7pcs tool storage box",
-          "tool organizer sorting box",
-          "storage box multi-compartment tool"
+          "storage box organizer wrenches"
         ]
       },
       "amazon": null,
@@ -337412,11 +337412,11 @@
           "nicehck c04 liquid silicone",
           "himalaya davinci explorer gate",
           "nicehck c04 liquid",
+          "c04 liquid silicone",
           "davinci explorer gate",
-          "nicehck c04",
-          "explorer gate",
-          "fully compliant",
-          "nicehck c04 liquid silicone eartips noise lsolating soft expand soundstage iems accessory nx8 himalaya davinci explorer gate"
+          "himalaya davinci explorer",
+          "c04 liquid",
+          "nicehck c04"
         ]
       },
       "amazon": null,
@@ -338856,10 +338856,10 @@
           "personalized packagingphone car",
           "packagingphone car",
           "custom stickers labels logo",
+          "stickers labels logo",
           "custom stickers labels",
-          "custom stickers",
-          "accessibility fully",
-          "custom stickers labels logo nametext waterproof holographic transparendie cut vinyl personalized packagingphone car"
+          "vinyl personalized packagingphone",
+          "labels logo"
         ]
       },
       "amazon": null,
@@ -339617,11 +339617,11 @@
           "1pcs 300ml 100ml gold",
           "acrylic painting pigment xiajiaer",
           "1pcs 300ml 100ml",
+          "300ml 100ml gold",
+          "acrylic painting pigment",
           "painting pigment xiajiaer",
-          "1pcs 300ml",
-          "acrylic paint",
-          "pigment xiajiaer",
-          "1pcs 300ml 100ml gold acrylic pigment metallic silver pearlescent bronze pearlescent acrylic painting pigment xiajiaer"
+          "100ml gold",
+          "1pcs 300ml"
         ]
       },
       "amazon": null,
@@ -341000,12 +341000,12 @@
         "checkedKeywords": [
           "-10000pcs metric carbon steel",
           "balls bicycle industrial equipment",
+          "metric carbon steel",
           "-10000pcs metric carbon",
+          "balls bicycle industrial",
           "bicycle industrial equipment",
-          "equipment round",
-          "-10000pcs metric",
-          "industrial equipment",
-          "-10000pcs metric carbon steel bearing balls bicycle industrial equipment"
+          "carbon steel",
+          "balls bicycle"
         ]
       },
       "amazon": null,
@@ -341965,11 +341965,11 @@
           "24pc false nails glue",
           "long stiletto press nails",
           "24pc false nails",
+          "false nails glue",
+          "long stiletto press",
           "stiletto press nails",
           "24pc false",
-          "nails heavy",
-          "press nails",
-          "24pc false nails glue almond black red gradient design detachable rhinestone acrylic fake nail long stiletto press nails"
+          "nails glue"
         ]
       },
       "amazon": null,
@@ -342927,12 +342927,12 @@
         "checkedKeywords": [
           "two-piece wall-mounted tool storage rack garage tool rack suitable screwdrivers pliers",
           "tool storage rack screwdrivers pliers",
+          "tool rack screwdrivers pliers",
           "tool storage rack screwdrivers",
           "storage rack screwdrivers pliers",
           "storage rack garage tool rack",
           "tool rack suitable screwdrivers pliers",
-          "rack garage tool rack",
-          "storage rack garage tool"
+          "rack garage tool rack"
         ]
       },
       "amazon": null,
@@ -344935,7 +344935,7 @@
           "copy duplicating machine key",
           "key copy duplicating machine",
           "end milling cutter",
-          "milling cutter probe"
+          "machine key cutting"
         ]
       },
       "amazon": null,
@@ -345697,7 +345697,7 @@
           "adapter pd quick charger",
           "charger adapter pd",
           "wall charger adapter",
-          "charger adapter"
+          "adapter charger"
         ]
       },
       "amazon": null,
@@ -350184,8 +350184,10 @@
           "handheld game console",
           "game console",
           "anbernic handheld game",
+          "handheld game",
           "anbernic handheld",
-          "console"
+          "console",
+          "game"
         ]
       },
       "amazon": null,
@@ -353722,9 +353724,9 @@
           "strip watch",
           "quartz watches",
           "poedagar luxury square wristwatch",
+          "clock business quartz",
           "poedagar luxury square",
-          "poedagar luxury",
-          "poedagar luxury square wristwatch waterproof luminous date stainless steel sports clock business quartz watches"
+          "luxury square wristwatch"
         ]
       },
       "amazon": null,
@@ -354342,11 +354344,11 @@
           "8pcs cpu glue remover phone repair tool c chip repair thin blades piratical repair hand tool mobile phone computer",
           "tool mobile phone computer",
           "phone tool computer",
+          "tool phone computer",
           "hand tool mobile phone computer",
           "phone repair tool c",
           "hand tool mobile phone",
-          "remover phone repair tool",
-          "phone repair tool"
+          "remover phone repair tool"
         ]
       },
       "amazon": null,
@@ -361074,11 +361076,11 @@
           "pcs round bubble spirit",
           "level pictures furniture placement",
           "pcs round bubble",
+          "round bubble spirit",
+          "level pictures furniture",
           "pictures furniture placement",
           "pcs round",
-          "equipment round",
-          "furniture placement",
-          "pcs round bubble spirit level pictures furniture placement"
+          "round bubble"
         ]
       },
       "amazon": null,
@@ -361840,7 +361842,7 @@
           "stone paint ceramic glass",
           "glass wood fabric painting",
           "tip pen children",
-          "ceramic glass wood"
+          "glass wood fabric"
         ]
       },
       "amazon": null,
@@ -363706,7 +363708,7 @@
           "paint soft brush markers",
           "soft brush tip",
           "paint soft brush",
-          "markers soft brush"
+          "brush markers soft"
         ]
       },
       "amazon": null,
@@ -364327,8 +364329,8 @@
           "long box",
           "box jumbo",
           "yaki straight texture dreadlocks",
-          "straight texture dreadlocks",
-          "dark hair"
+          "yaki straight texture",
+          "straight texture dreadlocks"
         ]
       },
       "amazon": null,
@@ -365287,12 +365289,12 @@
         "checkedKeywords": [
           "jaster plastic usb flash",
           "black creative business gift",
+          "plastic usb flash",
           "jaster plastic usb",
           "creative business gift",
-          "business gift",
-          "jaster plastic",
-          "convenient creative",
-          "jaster plastic usb flash drive key chain memory stick pen drive black creative business gift"
+          "black creative business",
+          "usb flash",
+          "plastic usb"
         ]
       },
       "amazon": null,
@@ -366731,12 +366733,12 @@
         "checkedKeywords": [
           "soft mink faux eyelashes",
           "diyday individual eyelash extension",
+          "soft mink faux",
           "mink faux eyelashes",
           "diyday individual eyelash",
-          "faux eyelashes",
-          "fully compliant",
-          "diyday individual",
-          "diyday individual eyelash extension long length classic lashes extensions trays matte black soft mink faux eyelashes"
+          "individual eyelash extension",
+          "mink faux",
+          "soft mink"
         ]
       },
       "amazon": null,
@@ -368025,12 +368027,12 @@
         "checkedKeywords": [
           "daily use hair accessories",
           "colorful random ball hairbands",
+          "daily use hair",
           "colorful random ball",
           "use hair accessories",
-          "hair ball",
-          "colorful random",
-          "hair accessories",
-          "colorful random ball hairbands hair balls rubber bands suitable daily use hair accessories"
+          "random ball hairbands",
+          "use hair",
+          "daily use"
         ]
       },
       "amazon": null,
@@ -368648,10 +368650,10 @@
           "grip hair dryer lightweight",
           "grip hair dryer",
           "dryer grip",
+          "grip dryer",
           "cold air hair dryer usb rechargeable ergonomic grip hair dryer lightweight dormitory",
           "ergonomic grip hair dryer lightweight",
-          "air hair dryer usb",
-          "cold air hair dryer"
+          "air hair dryer usb"
         ]
       },
       "amazon": null,
@@ -369129,11 +369131,11 @@
           "fan outdoor phone stand",
           "2in1 electric fan outdoor handheld usb rechargeable cooling desk fan mobile phone stand function",
           "fan mobile phone stand",
+          "fan phone stand",
           "fan outdoor phone",
           "outdoor phone stand",
           "desk fan mobile phone stand",
-          "fan mobile phone stand function",
-          "desk fan mobile phone"
+          "fan mobile phone stand function"
         ]
       },
       "amazon": null,
@@ -370571,13 +370573,13 @@
         ],
         "checkedKeywords": [
           "jakah electrician tool bag oxford thickened woodworking storage screwdriver kit tool bag handheld bag",
+          "storage screwdriver tool bag",
           "tool bag storage screwdriver",
           "storage screwdriver kit tool bag",
           "tool bag handheld bag",
           "screwdriver kit tool bag",
           "storage screwdriver kit tool",
-          "tool bag storage",
-          "bag storage screwdriver"
+          "tool bag storage"
         ]
       },
       "amazon": null,
@@ -372720,8 +372722,8 @@
           "pliers tools diy",
           "jewelry pliers tools",
           "pliers tools",
-          "ferronickel carbon-hardened steel round nose end cutting jewelry pliers tools diy equipment pliers fit handcraft beadwork repair",
-          "tools diy equipment pliers fit"
+          "tools pliers",
+          "ferronickel carbon-hardened steel round nose end cutting jewelry pliers tools diy equipment pliers fit handcraft beadwork repair"
         ]
       },
       "amazon": null,
@@ -373202,8 +373204,8 @@
           "universal stainless steel pliers diy electronic diagonal side cutting nippers wire cable cutter 3d printer hand tools",
           "cable cutter 3d printer",
           "pliers cable cutter",
-          "cutter printer tools",
-          "cable cutter 3d printer hand"
+          "cable cutter printer",
+          "cutter printer tools"
         ]
       },
       "amazon": null,
@@ -378182,8 +378184,8 @@
           "reusable food storage container",
           "reusable food storage",
           "food storage container",
-          "container countertop organizer",
-          "food storage"
+          "storage container countertop",
+          "container countertop organizer"
         ]
       },
       "amazon": null,
@@ -381408,10 +381410,10 @@
           "hoop sewing tools",
           "sewing tools",
           "bamboo diy stitch frame",
+          "diy stitch frame",
           "bamboo diy stitch",
-          "bamboo diy",
-          "equipment round",
-          "bamboo diy stitch frame round loop embroidery hoop sewing tools"
+          "embroidery hoop sewing",
+          "bamboo diy"
         ]
       },
       "amazon": null,
@@ -384654,11 +384656,11 @@
           "stick disk wedding gift",
           "wooden creative usb flash",
           "disk wedding gift",
+          "creative usb flash",
+          "stick disk wedding",
           "wooden creative usb",
-          "wedding gift",
-          "wooden creative",
-          "convenient creative",
-          "wooden creative usb flash drive free custom logo pendrive photography memory stick disk wedding gift"
+          "usb flash",
+          "stick disk"
         ]
       },
       "amazon": null,
@@ -388243,12 +388245,12 @@
         "checkedKeywords": [
           "24pcs 1box red bow",
           "powder checkerboard fake nails",
+          "1box red bow",
           "24pcs 1box red",
           "checkerboard fake nails",
-          "24pcs 1box",
-          "fake nails",
-          "nails heavy",
-          "24pcs 1box red bow gold powder checkerboard fake nails"
+          "powder checkerboard fake",
+          "red bow",
+          "1box red"
         ]
       },
       "amazon": null,
@@ -391832,10 +391834,10 @@
           "handheld game console",
           "game console",
           "boyhom 256g 128g 64g",
+          "256g 128g 64g",
           "boyhom 256g 128g",
-          "boyhom 256g",
-          "boyhom 256g 128g 64g r36s arkos retro handheld game console",
-          "console"
+          "retro handheld game",
+          "128g 64g"
         ]
       },
       "amazon": null,
@@ -394298,12 +394300,12 @@
         "checkedKeywords": [
           "stainless steel ball mtb",
           "bearing smooth round balls",
+          "steel ball mtb",
           "smooth round balls",
+          "bearing smooth round",
           "stainless steel ball",
-          "round balls",
-          "equipment round",
-          "stainless steel",
-          "stainless steel ball mtb kid bicycle scooter precision bearing smooth round balls"
+          "ball mtb",
+          "steel ball"
         ]
       },
       "amazon": null,
@@ -394781,11 +394783,11 @@
           "super usb flash drive",
           "stick black pendrive disk",
           "super usb flash",
+          "usb flash drive",
           "black pendrive disk",
+          "stick black pendrive",
           "super usb",
-          "pendrive disk",
-          "convenient creative",
-          "super usb flash drive creative business gift pen drive real capacity memory stick black pendrive disk"
+          "usb flash"
         ]
       },
       "amazon": null,
@@ -396004,12 +396006,12 @@
         "checkedKeywords": [
           "machine end milling cutter",
           "cutter vertical key machine",
+          "cutter machine",
           "machine cutter",
           "1pc shank titanium coated key cutting machine end milling cutter vertical key machine",
           "machine end milling cutter vertical",
           "key cutting machine end",
-          "coated key cutting machine",
-          "end milling cutter vertical"
+          "coated key cutting machine"
         ]
       },
       "amazon": null,
@@ -397393,7 +397395,7 @@
           "tool dupont",
           "crimping tool",
           "pcie sata pins sn-58b",
-          "sata pins sn-58b"
+          "pcie sata pins"
         ]
       },
       "amazon": null,
@@ -399733,10 +399735,10 @@
           "case battery storage box organizer",
           "case battery storage box",
           "battery storage box organizer",
+          "storage box battery organizer",
           "case battery storage box aaa",
           "storage box aaa battery organizer",
-          "container case battery storage box",
-          "battery storage box aaa"
+          "container case battery storage box"
         ]
       },
       "amazon": null,
@@ -400217,8 +400219,8 @@
           "outdoor combination knife pliers",
           "pliers outdoor combination knife",
           "outdoor knife tools",
-          "pliers outdoor knife",
-          "outdoor combination knife pliers stainless"
+          "outdoor knife pliers",
+          "pliers outdoor knife"
         ]
       },
       "amazon": null,
@@ -400835,12 +400837,12 @@
         "checkedKeywords": [
           "black remy human hair",
           "phashion hd 13x6 13x4",
+          "hd 13x6 13x4",
           "remy human hair",
+          "black remy human",
           "phashion hd 13x6",
-          "dark hair",
-          "human hair",
-          "phashion hd",
-          "phashion hd 13x6 13x4 lace frontal straight pre plucked 4x4 5x5 6x6 swiss full closure natural black remy human hair"
+          "hd 13x6",
+          "13x6 13x4"
         ]
       },
       "amazon": null,
@@ -401458,11 +401460,11 @@
           "gamepad glow lighted shoe",
           "shoe charms football gamepad",
           "shoes light",
+          "gamepad shoe",
           "shoe gamepad",
           "1pcs led shoe charms football gamepad glow lighted shoe decorations accessories sunflower butterfly led pins girls",
           "shoe charms football gamepad glow",
-          "gamepad glow lighted shoe decorations",
-          "1pcs led shoe charms"
+          "gamepad glow lighted shoe decorations"
         ]
       },
       "amazon": null,
@@ -408443,11 +408445,11 @@
           "lace human hair wigs",
           "inch straight human hair",
           "human hair wigs",
+          "lace human hair",
           "inch straight human",
+          "straight human hair",
           "dark hair",
-          "hair wigs",
-          "inch straight",
-          "inch straight human hair wigs 13x4 13x6 hd lace frontal wigs glueless bone straight lace human hair wigs"
+          "hair wigs"
         ]
       },
       "amazon": null,
@@ -408924,12 +408926,12 @@
         "checkedKeywords": [
           "inch hd loose deep",
           "13x4 lace frontal wigs",
+          "hd loose deep",
           "inch hd loose",
+          "13x4 lace frontal",
           "lace frontal wigs",
           "inch hd",
-          "dark hair",
-          "frontal wigs",
-          "inch hd loose deep wave 13x6 lace human hair wigs brazilian curly water wavy 13x4 lace frontal wigs"
+          "hd loose"
         ]
       },
       "amazon": null,
@@ -409407,11 +409409,11 @@
           "30pcs hypoallergenic nose strips",
           "nasal congestion anti-snoring sticker",
           "30pcs hypoallergenic nose",
+          "hypoallergenic nose strips",
+          "nasal congestion anti-snoring",
           "congestion anti-snoring sticker",
           "nose end",
-          "30pcs hypoallergenic",
-          "anti-snoring sticker",
-          "30pcs hypoallergenic nose strips breathable non-invasive breath nasal strips nasal congestion anti-snoring sticker"
+          "nose strips"
         ]
       },
       "amazon": null,
@@ -410169,11 +410171,11 @@
           "bow heart nail tips",
           "24pcs y2k dark medium",
           "24pcs y2k dark",
+          "bow heart nail",
           "heart nail tips",
-          "24pcs y2k",
-          "nail tips",
-          "nails heavy",
-          "24pcs y2k dark medium square false nails black lace french polka dot press nails 3d metallic silver bow heart nail tips"
+          "y2k dark medium",
+          "y2k dark",
+          "24pcs y2k"
         ]
       },
       "amazon": null,
@@ -412175,10 +412177,10 @@
           "aluminum mounting base screws",
           "datyson telescope accessory all-metal",
           "mounting base screws",
+          "aluminum mounting base",
           "datyson telescope accessory",
-          "base screws",
-          "datyson telescope",
-          "holder"
+          "telescope accessory all-metal",
+          "base screws"
         ]
       },
       "amazon": null,
@@ -416604,8 +416606,8 @@
           "neck phone light outdoor",
           "neck clip fan phone",
           "fan neck phone",
-          "phone light outdoor",
-          "hanging neck clip fan phone"
+          "neck fan phone",
+          "neck phone light"
         ]
       },
       "amazon": null,
@@ -419785,9 +419787,9 @@
           "game console",
           "miniloong pocket handheld game console",
           "miniloong pocket handheld game",
+          "pocket handheld game",
           "miniloong pocket handheld",
-          "miniloong pocket",
-          "pocket hand-held"
+          "handheld game"
         ]
       },
       "amazon": null,
@@ -422215,8 +422217,8 @@
           "precision screwdriver laptop tool",
           "laptop tool computer",
           "screwdriver laptop tool",
-          "precision screwdriver laptop tool kit",
-          "tool kit professional computer screwdriver"
+          "tool computer screwdriver",
+          "precision screwdriver laptop tool kit"
         ]
       },
       "amazon": null,
@@ -423114,11 +423116,11 @@
           "car charger fast charging iphone qc3 pd usb type c car mobile phone charger xiaomi samsung huawei",
           "car mobile phone charger",
           "car charger phone",
+          "car phone charger",
           "c car mobile phone charger",
           "car mobile phone charger xiaomi",
           "c car mobile phone",
-          "car charger fast charging",
-          "mobile phone charger xiaomi"
+          "car charger fast charging"
         ]
       },
       "amazon": null,
@@ -424560,11 +424562,11 @@
           "light foam",
           "5packs lot luminous seven",
           "fishing tackle accessory b502",
+          "lot luminous seven",
           "5packs lot luminous",
           "tackle accessory b502",
-          "5packs lot",
-          "accessory b502",
-          "light"
+          "fishing tackle accessory",
+          "5packs lot"
         ]
       },
       "amazon": null,
@@ -426404,13 +426406,13 @@
         ],
         "checkedKeywords": [
           "kitchen food storage glass",
+          "kitchen storage glass",
           "storage kitchen glass",
           "coffee bean storage jar vacuum-sealed jar kitchen food storage glass jar freshness preservation jar",
           "jar kitchen food storage glass",
           "kitchen food storage glass jar",
           "food storage glass jar",
-          "jar kitchen food storage",
-          "storage glass jar"
+          "jar kitchen food storage"
         ]
       },
       "amazon": null,
@@ -431103,11 +431105,11 @@
           "24pcs long french fake",
           "wearable coffin nail tips",
           "coffin nail tips",
+          "long french fake",
           "24pcs long french",
+          "wearable coffin nail",
           "nail tips",
-          "24pcs long",
-          "nails heavy",
-          "24pcs long french fake nails glue ballet false nails butterfly rhinestone design press nails wearable coffin nail tips"
+          "24pcs long"
         ]
       },
       "amazon": null,
@@ -433992,11 +433994,11 @@
           "150pcs fake nail multi-size",
           "wearing armor removable convenient",
           "150pcs fake nail",
+          "fake nail multi-size",
+          "wearing armor removable",
           "armor removable convenient",
-          "150pcs fake",
-          "nails heavy",
-          "removable convenient",
-          "150pcs fake nail multi-size false nail press acrylic nails almond french wearing armor removable convenient"
+          "fake nail",
+          "150pcs fake"
         ]
       },
       "amazon": null,
@@ -434474,11 +434476,11 @@
           "5pcs square plaid stripe",
           "handkerchiefs business cotton scarf",
           "5pcs square plaid",
+          "square plaid stripe",
           "business cotton scarf",
+          "handkerchiefs business cotton",
           "5pcs square",
-          "cotton scarf",
-          "pocket hand-held",
-          "5pcs square plaid stripe handkerchiefs hanky pocket cotton towel random casual handkerchiefs business cotton scarf"
+          "cotton scarf"
         ]
       },
       "amazon": null,
@@ -437843,9 +437845,9 @@
           "pliers tool cutter cable",
           "professional cutting pliers wire stripping tool side cutter cable burrs nipper electricians diy repair hand tools",
           "tool side cutter cable",
+          "tool cutter cable",
           "cutter cable tools",
-          "pliers tool cutter",
-          "tool side cutter cable burrs"
+          "pliers tool cutter"
         ]
       },
       "amazon": null,
@@ -439086,8 +439088,8 @@
           "pens markers brush tip",
           "paint pens markers brush",
           "painting wood stone glass",
-          "stone glass gift",
-          "wood stone glass"
+          "glass gift diy",
+          "stone glass gift"
         ]
       },
       "amazon": null,
@@ -439565,11 +439567,11 @@
           "3pcs battery holder box slot battery storage case cell plastic container connect black red wires",
           "battery holder box storage case",
           "holder box storage case",
+          "box battery storage case",
           "battery holder box storage",
+          "holder box battery storage",
           "box slot battery storage case",
-          "holder box slot battery storage",
-          "3pcs battery holder box",
-          "battery holder box slot"
+          "holder box slot battery storage"
         ]
       },
       "amazon": null,
@@ -440883,12 +440885,12 @@
         "checkedKeywords": [
           "1pc wire stripper knife crimper pliers crimping tool cable stripping wire cutter multi tools cut line hand tools",
           "knife pliers tool cable cutter tools",
+          "knife pliers tool cable cutter",
+          "pliers tool cable cutter tools",
           "knife pliers tool cable",
           "tool cable cutter tools",
-          "pliers crimping tool cable",
-          "knife pliers tool",
-          "cable cutter tools",
-          "crimper pliers crimping tool cable"
+          "pliers tool cable cutter",
+          "pliers crimping tool cable"
         ]
       },
       "amazon": null,
@@ -442126,12 +442128,12 @@
         "checkedKeywords": [
           "tool storage bag pouch belt hardware electrician toolkit drill waist bag wrench screwdriver tool bags organizer",
           "tool storage bag belt drill wrench screwdriver bags organizer",
+          "tool storage bag belt drill",
+          "storage bag belt drill wrench",
           "bag wrench screwdriver tool bags",
-          "wrench screwdriver tool bags organizer",
-          "tool storage bag belt",
-          "bag wrench screwdriver tool",
-          "wrench screwdriver tool bags",
-          "screwdriver tool bags organizer"
+          "bag belt drill wrench screwdriver",
+          "belt drill wrench screwdriver bags",
+          "wrench screwdriver tool bags organizer"
         ]
       },
       "amazon": null,
@@ -442612,8 +442614,8 @@
           "pens markers brush tip",
           "paint pens markers brush",
           "painting wood stone glass",
-          "stone glass gift",
-          "wood stone glass"
+          "glass gift diy",
+          "stone glass gift"
         ]
       },
       "amazon": null,
@@ -452303,9 +452305,9 @@
           "retro video gaming console",
           "handheld game console linux",
           "rg40xx handheld game console",
+          "console 64g games",
           "game console linux",
-          "gaming console 64g",
-          "video gaming console"
+          "gaming console 64g"
         ]
       },
       "amazon": null,
@@ -452923,11 +452925,11 @@
           "8pcs anti snore apnea",
           "aid equipment stop snoring",
           "8pcs anti snore",
+          "anti snore apnea",
+          "aid equipment stop",
           "equipment stop snoring",
           "nose end",
-          "8pcs anti",
-          "stop snoring",
-          "8pcs anti snore apnea nose clip anti-snoring breathe aid stop snore device sleeping aid equipment stop snoring"
+          "8pcs anti"
         ]
       },
       "amazon": null,
@@ -453604,11 +453606,11 @@
           "telescope holder",
           "clamp sight tube clamp",
           "level one-piece quick release",
+          "clamp sight tube",
           "sight tube clamp",
           "level one-piece quick",
-          "tube clamp",
-          "level one-piece",
-          "holder"
+          "one-piece quick release",
+          "sight tube"
         ]
       },
       "amazon": null,
