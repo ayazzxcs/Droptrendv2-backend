@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-10-02T10:18:50.079Z",
+  "updatedAt": "2026-10-02T10:58:09.446Z",
   "month": "2026-10",
-  "mode": "sequential quota provider pool + best Amazon candidate per product",
+  "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
-  "maxProducts": 0,
-  "providerUsage": {},
+  "maxProducts": 1200,
+  "apifyTokensCount": 6,
+  "batchSize": 15,
+  "providerUsage": {
+    "apify": 1400
+  },
   "providerBudgets": {
+    "apify": 5000,
     "serpapi_1": 250,
     "serpapi_2": 250,
     "searchapi": 100,
@@ -18,8 +23,63 @@
   "amazonCandidateLimit": 8,
   "matches": 0,
   "failures": 0,
-  "resetAmazonCache": false,
+  "resetAmazonCache": true,
   "matrixQuotaSeededFromStartIndex": true,
-  "note": "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Decodo 1, Decodo 2 and Decodo 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider.",
-  "chunks": []
+  "note": "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata.",
+  "chunks": [
+    {
+      "startIndex": 200,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 200
+      }
+    },
+    {
+      "startIndex": 400,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 400
+      }
+    },
+    {
+      "startIndex": 600,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 600
+      }
+    },
+    {
+      "startIndex": 1000,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 1000
+      }
+    },
+    {
+      "startIndex": 1200,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 1200
+      }
+    },
+    {
+      "startIndex": 1400,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 1400
+      }
+    }
+  ]
 }
