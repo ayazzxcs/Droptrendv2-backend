@@ -87,6 +87,58 @@ const AMAZON_CANDIDATE_LIMIT = Number(process.env.AMAZON_CANDIDATE_LIMIT || 8);
 const AMAZON_PAGE_WAIT_MS = Number(process.env.AMAZON_PAGE_WAIT_MS || 12000);
 const ACCEPT_PROVIDER_METADATA = !/^(0|false|no)$/i.test(String(process.env.AMAZON_ACCEPT_PROVIDER_METADATA || "true"));
 
+function getApifyTokens() {
+  const tokenList = [];
+  const addToken = (t) => {
+    if (!t) return;
+    const clean = String(t).trim();
+    if (clean && !tokenList.includes(clean)) tokenList.push(clean);
+  };
+
+  if (process.env.APIFY_TOKEN) {
+    for (const t of process.env.APIFY_TOKEN.split(/[\s,;\n]+/)) addToken(t);
+  }
+  if (process.env.APIFY_TOKENS) {
+    for (const t of process.env.APIFY_TOKENS.split(/[\s,;\n]+/)) addToken(t);
+  }
+  for (let i = 1; i <= 20; i++) {
+    addToken(process.env[`APIFY_TOKEN_${i}`]);
+  }
+
+  return tokenList;
+}
+
+const apifyTokens = getApifyTokens();
+const exhaustedApifyTokens = new Set();
+let currentApifyIndex = apifyTokens.length > 0 ? Math.floor(START_INDEX / 200) % apifyTokens.length : 0;
+
+function getCurrentApifyToken() {
+  if (!apifyTokens.length) return null;
+  for (let step = 0; step < apifyTokens.length; step++) {
+    const idx = (currentApifyIndex + step) % apifyTokens.length;
+    const tok = apifyTokens[idx];
+    if (!exhaustedApifyTokens.has(tok)) {
+      currentApifyIndex = idx;
+      return tok;
+    }
+  }
+  return null;
+}
+
+function markApifyTokenExhausted(tok, reason = "") {
+  if (!tok) return;
+  exhaustedApifyTokens.add(tok);
+  const display = tok.slice(0, 14) + "..." + tok.slice(-4);
+  console.log(`Apify token [${display}] exhausted (${reason || "quota/credits/429"}). Exhausted ${exhaustedApifyTokens.size}/${apifyTokens.length} tokens.`);
+  currentApifyIndex = (currentApifyIndex + 1) % Math.max(1, apifyTokens.length);
+}
+
+const APIFY_BATCH_SIZE = Math.max(1, Math.min(25, Number(process.env.APIFY_BATCH_SIZE || process.env.LENS_BATCH_SIZE || 15)));
+
+if (apifyTokens.length > 0) {
+  console.log(`Loaded ${apifyTokens.length} Apify token(s). Active initial index: ${currentApifyIndex}. Batch size: ${APIFY_BATCH_SIZE}.`);
+}
+
 const BUDGETS = {
   apify: Number(process.env.APIFY_MONTHLY_LIMIT || 5000),
   serpapi_1: Number(process.env.SERPAPI_1_MONTHLY_LIMIT || 250),
@@ -211,10 +263,22 @@ function isAmazonProductUrl(url) {
   try {
     const u = new URL(url);
     const p = u.pathname.toLowerCase();
-    if (!p || p === "/" || p === "/s" || p.startsWith("/stores") || p.startsWith("/gp/bestsellers") || p.startsWith("/gp/help") || p.startsWith("/cart")) {
+    if (
+      !p ||
+      p === "/" ||
+      p === "/s" ||
+      p.startsWith("/stores") ||
+      p.startsWith("/gp/bestsellers") ||
+      p.startsWith("/gp/new-releases") ||
+      p.startsWith("/gp/movers-and-shakers") ||
+      p.startsWith("/gp/most-wished-for") ||
+      p.startsWith("/gp/gift-ideas") ||
+      p.startsWith("/gp/help") ||
+      p.startsWith("/cart")
+    ) {
       return false;
     }
-    return p.includes("/dp/") || p.includes("/product/") || p.includes("/gp/");
+    return p.includes("/dp/") || p.includes("/product/") || p.includes("/gp/product/") || p.includes("/gp/aw/d/");
   } catch {
     return false;
   }
@@ -733,9 +797,97 @@ async function genericLens(imageUrl, provider) {
   }));
 }
 
+function parseApifyBatchDataset(items) {
+  const byImage = new Map();
+  if (!Array.isArray(items)) return byImage;
+
+  for (const it of items) {
+    if (!it || typeof it !== "object") continue;
+    const searchType = it.searchType || "all";
+    const container = it[searchType] || it;
+    const inputUrl = container?.inputUrl || it.inputUrl;
+    if (!inputUrl) continue;
+
+    if (!byImage.has(inputUrl)) {
+      byImage.set(inputUrl, []);
+    }
+    const list = byImage.get(inputUrl);
+
+    const results = Array.isArray(container.results) ? container.results : [];
+    for (const r of results) {
+      const c = r.search || r;
+      const rawUrl = c.href || c.link || r.link || r.href;
+      const title = String(c.title || r.title || "").trim();
+      const thumb = safeUrl(c.thumbnail || r.thumbnail || "");
+
+      if (rawUrl && isAmazonProductUrl(rawUrl)) {
+        const clean = cleanAmazonUrl(rawUrl);
+        const asin = asinFromUrl(clean) || asinFromUrl(rawUrl);
+        if (!list.some(x => x.url === clean || (asin && x.asin === asin))) {
+          list.push({
+            url: clean,
+            asin,
+            title,
+            image: thumb,
+            searchType,
+            providerMetadata: {
+              title,
+              image: thumb,
+              asin,
+              searchType
+            }
+          });
+        }
+      }
+    }
+  }
+
+  return byImage;
+}
+
+async function apifyLensBatch(imageUrls, token, attempt = 0) {
+  if (!token) throw new Error("Missing Apify token");
+
+  const payload = {
+    searchTypes: ["all", "visual-match"],
+    imageUrls: imageUrls.map(url => ({ url })),
+    language: "en"
+  };
+
+  const url = `https://api.apify.com/v2/acts/borderline~google-lens/run-sync-get-dataset-items?token=${token}`;
+
+  try {
+    const response = await fetchJson(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (!Array.isArray(response)) {
+      throw new Error(`Unexpected Apify response: expected array, got ${typeof response}`);
+    }
+
+    return response;
+  } catch (err) {
+    const msg = err.message || String(err);
+    const isQuotaOrRate = /429|rate-limit|exceeded|insufficient|credit|quota|monthly usage|free tier/i.test(msg);
+    if (isQuotaOrRate) {
+      throw err;
+    }
+    if (attempt < 1) {
+      console.log(`Apify batch request failed (${msg}). Retrying in 4000ms...`);
+      await sleep(4000);
+      return apifyLensBatch(imageUrls, token, attempt + 1);
+    }
+    throw err;
+  }
+}
+
 async function apifyLens(imageUrl, attempt = 0) {
-  const token = process.env.APIFY_TOKEN;
-  if (!token) throw new Error("Missing APIFY_TOKEN");
+  const token = getCurrentApifyToken();
+  if (!token) throw new Error("No active APIFY_TOKEN available");
 
   const payload = {
     searchTypes: ["all", "visual-match"],
@@ -754,8 +906,19 @@ async function apifyLens(imageUrl, attempt = 0) {
       body: JSON.stringify(payload)
     });
 
-    return extractAmazonLinks(response);
+    const parsedMap = parseApifyBatchDataset(response);
+    const links = parsedMap.get(imageUrl) || extractAmazonLinks(response);
+    return links;
   } catch (err) {
+    const msg = err.message || String(err);
+    const isQuotaOrRate = /429|rate-limit|exceeded|insufficient|credit|quota|monthly usage|free tier/i.test(msg);
+    if (isQuotaOrRate) {
+      markApifyTokenExhausted(token, msg);
+      if (getCurrentApifyToken()) {
+        console.log(`Apify quota exhausted on token, retrying with next token...`);
+        return apifyLens(imageUrl, attempt);
+      }
+    }
     if (attempt < 1) {
       const backoffMs = 3000;
       console.log(`Apify Lens request failed (${err.message}). Retrying (attempt ${attempt + 2}/2) after ${backoffMs}ms...`);
@@ -809,7 +972,7 @@ function providerQueue() {
   // It uses the first available provider until its monthly limit is exhausted, then moves to next.
   const q = [];
 
-  if (process.env.APIFY_TOKEN) q.push(["apify", apifyLens]);
+  if (getCurrentApifyToken()) q.push(["apify", apifyLens]);
   if (process.env.SERPAPI_KEY_1) q.push(["serpapi_1", img => serpapiLens(img, process.env.SERPAPI_KEY_1)]);
   if (process.env.SERPAPI_KEY_2) q.push(["serpapi_2", img => serpapiLens(img, process.env.SERPAPI_KEY_2)]);
   if (process.env.SEARCHAPI_KEY) q.push(["searchapi", searchapiLens]);
@@ -1348,195 +1511,295 @@ const failures = [];
 const amazonSignals = [...existingAmazon];
 const endIndex = Math.min(products.length, START_INDEX + MAX_PRODUCTS);
 
-for (let i = START_INDEX; i < endIndex; i++) {
-  const p = products[i];
+async function evaluateAndEnrichCandidates(browser, candidates, p, candidateFailures) {
+  const name = productName(p);
+  let bestData = null;
+
+  for (let c = 0; c < candidates.length; c++) {
+    const candidate = candidates[c];
+    console.log(`Amazon candidate ${c + 1}/${candidates.length}: ${candidate.url}`);
+    console.log(`Scraping Amazon page with Puppeteer: ${candidate.url}`);
+
+    let candidateData = null;
+
+    try {
+      candidateData = await scrapeAmazonWithPuppeteer(browser, candidate, name);
+    } catch (err) {
+      console.log(`Amazon page extraction failed for candidate ${c + 1}/${candidates.length}: ${err.message}`);
+
+      if (ACCEPT_PROVIDER_METADATA) {
+        candidateData = dataFromProviderCandidate(candidate, name);
+        if (candidateData) {
+          console.log(
+            `Using provider metadata fallback for candidate ${c + 1}: ` +
+            `title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
+          );
+        }
+      }
+
+      if (!candidateData) {
+        candidateFailures.push({
+          candidate: c + 1,
+          amazonUrl: candidate.url,
+          reason: `amazon page extraction failed: ${err.message}`
+        });
+        continue;
+      }
+    }
+
+    if (!candidateData) continue;
+    candidateData.candidatePosition = c + 1;
+
+    if (!candidateData.title || (!candidateData.rating && !candidateData.ratingsTotal && !candidateData.isBestSeller)) {
+      console.log(
+        `Amazon candidate rejected: missing usable demand metadata | candidate=${c + 1} title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
+      );
+      candidateFailures.push({
+        candidate: c + 1,
+        amazonUrl: candidate.url,
+        title: candidateData.title,
+        rating: candidateData.rating,
+        ratingsTotal: candidateData.ratingsTotal,
+        reason: "amazon candidate missing title and usable rating/review/badge data"
+      });
+      continue;
+    }
+
+    if (candidateData.matchScore < MIN_TITLE_MATCH) {
+      console.log(
+        `Amazon candidate rejected: weak title match ${candidateData.matchScore}/${MIN_TITLE_MATCH} | candidate=${c + 1} CJ="${name}" | Amazon="${candidateData.title}"`
+      );
+      candidateFailures.push({
+        candidate: c + 1,
+        amazonUrl: candidate.url,
+        title: candidateData.title,
+        rating: candidateData.rating,
+        ratingsTotal: candidateData.ratingsTotal,
+        matchScore: candidateData.matchScore,
+        reason: `weak amazon title match: ${candidateData.matchScore}`
+      });
+      continue;
+    }
+
+    if (betterAmazonCandidate(candidateData, bestData)) {
+      bestData = candidateData;
+      console.log(
+        `Best Amazon candidate so far: candidate=${c + 1} match=${bestData.matchScore} score=${bestData.score} reviews=${bestData.ratingsTotal} title="${bestData.title}"`
+      );
+    }
+  }
+
+  return bestData;
+}
+
+function saveMatchSignal(p, data, candidatesCount, candidateFailures, providerName) {
   const name = productName(p);
   const image = productImage(p);
 
-  if (!name || !image) {
-    failures.push({ index: i, name, reason: "missing product name or image" });
-    continue;
+  console.log(
+    `Selected best Amazon candidate ${data.candidatePosition || 1}/${candidatesCount}: ${data.url} | match ${data.matchScore} | score ${data.score}`
+  );
+
+  const signal = {
+    productId: p.id,
+    keyword: p.id || name,
+    productName: name,
+    image,
+    title: data.title,
+    asin: data.asin || asinFromUrl(data.url),
+    score: data.score,
+    bestRating: data.rating,
+    bestRatingsTotal: data.ratingsTotal,
+    bestPrice: "",
+    position: data.candidatePosition || 1,
+    amazonCandidatesChecked: candidatesCount,
+    isBestSeller: data.isBestSeller,
+    badgeText: data.badgeText,
+    productUrl: data.url,
+    matchScore: data.matchScore,
+    matchType: "image",
+    lensProvider: providerName,
+    source: data.source,
+    fetchedAt: data.fetchedAt
+  };
+
+  amazonSignals.push(signal);
+  matches.push({
+    productId: p.id,
+    productName: name,
+    productImage: image,
+    provider: providerName,
+    amazonCandidatesChecked: candidatesCount,
+    candidateFailures,
+    amazon: data
+  });
+
+  console.log(`Matched via ${providerName}: ${name} -> ${data.title} | rating ${data.rating} | reviews ${data.ratingsTotal} | score ${data.score}`);
+}
+
+let i = START_INDEX;
+while (i < endIndex) {
+  const hasApify = Boolean(getCurrentApifyToken() && canUse("apify"));
+  if (!hasApify && !currentProvider()) {
+    console.log("All monthly provider limits exhausted. Stopping Lens enrichment.");
+    break;
   }
 
-  if (alreadyHasAmazon(p)) {
-    console.log(`Skip existing Amazon data: ${name}`);
-    continue;
-  }
+  const batchLimit = hasApify ? APIFY_BATCH_SIZE : 1;
+  const batch = [];
 
-  try {
-    const provider = currentProvider();
-    if (!provider) {
-      console.log("All monthly provider limits exhausted. Stopping Lens enrichment.");
-      break;
-    }
+  while (i < endIndex && batch.length < batchLimit) {
+    const p = products[i];
+    const pIndex = i;
+    i++;
 
-    console.log(`Monthly Lens ${i + 1}/${products.length}: ${name}`);
+    const name = productName(p);
+    const image = productImage(p);
 
-    const found = await findAmazonCandidatesByLens(image);
-
-    if (found.exhausted) {
-      console.log("All monthly provider limits exhausted. Stopping Lens enrichment.");
-      break;
-    }
-
-    if (!found.links.length) {
-      console.log(`No Amazon match via ${found.provider}: ${name}`);
-
-      failures.push({
-        index: i,
-        name,
-        image,
-        provider: found.provider,
-        reason: found.error || "no amazon links from current provider"
-      });
+    if (!name || !image) {
+      failures.push({ index: pIndex, name, reason: "missing product name or image" });
       continue;
     }
 
-    let data = null;
-    const candidateFailures = [];
+    if (alreadyHasAmazon(p)) {
+      console.log(`Skip existing Amazon data: ${name}`);
+      continue;
+    }
 
-    console.log(`Checking ${found.links.length} Amazon candidates via Puppeteer for: ${name}`);
+    batch.push({ product: p, index: pIndex, name, image });
+  }
 
-    for (let c = 0; c < found.links.length; c++) {
-      const candidate = found.links[c];
-      console.log(`Amazon candidate ${c + 1}/${found.links.length} via ${found.provider}: ${candidate.url}`);
-      console.log(`Scraping Amazon page with Puppeteer: ${candidate.url}`);
+  if (batch.length === 0) continue;
 
-      let candidateData = null;
+  console.log(`Processing batch of ${batch.length} products (indices ${batch[0].index}..${batch[batch.length - 1].index})...`);
 
-      try {
-        candidateData = await scrapeAmazonWithPuppeteer(browser, candidate, name);
-      } catch (err) {
-        console.log(`Amazon page extraction failed for candidate ${c + 1}/${found.links.length}: ${err.message}`);
+  let batchHandledByApify = false;
 
-        if (ACCEPT_PROVIDER_METADATA) {
-          candidateData = dataFromProviderCandidate(candidate, name);
-          if (candidateData) {
-            console.log(
-              `Using provider metadata fallback for candidate ${c + 1}: ` +
-              `title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
-            );
-          }
-        }
+  while (getCurrentApifyToken() && canUse("apify")) {
+    const tok = getCurrentApifyToken();
+    const tokDisplay = tok.slice(0, 14) + "..." + tok.slice(-4);
+    console.log(`Sending batch of ${batch.length} products to Apify Lens (${tokDisplay})...`);
 
-        if (!candidateData) {
-          candidateFailures.push({
-            candidate: c + 1,
-            amazonUrl: candidate.url,
-            reason: `amazon page extraction failed: ${err.message}`
+    try {
+      const urls = batch.map(b => b.image);
+      const rawItems = await apifyLensBatch(urls, tok);
+      const linksByImage = parseApifyBatchDataset(rawItems);
+
+      for (const item of batch) {
+        markUsed("apify");
+        const links = (linksByImage.get(item.image) || [])
+          .filter(x => x?.url && isAmazonProductUrl(x.url))
+          .slice(0, AMAZON_CANDIDATE_LIMIT);
+
+        console.log(`Apify returned ${links.length} Amazon candidate links for: ${item.name}`);
+
+        if (!links.length) {
+          console.log(`No Amazon match via apify: ${item.name}`);
+          failures.push({
+            index: item.index,
+            name: item.name,
+            image: item.image,
+            provider: "apify",
+            reason: "no amazon links returned by lens"
           });
           continue;
         }
+
+        const candidateFailures = [];
+        const bestData = await evaluateAndEnrichCandidates(browser, links, item.product, candidateFailures);
+
+        if (!bestData) {
+          console.log(`No valid Amazon candidate after checking ${links.length} links: ${item.name}`);
+          failures.push({
+            index: item.index,
+            name: item.name,
+            image: item.image,
+            provider: "apify",
+            amazonCandidatesChecked: links.length,
+            amazonUrls: links.map(x => x.url),
+            candidateFailures,
+            reason: "no valid amazon candidate after puppeteer checks"
+          });
+          continue;
+        }
+
+        saveMatchSignal(item.product, bestData, links.length, candidateFailures, "apify");
+        await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 2000));
       }
 
-      candidateData.candidatePosition = c + 1;
-
-      if (!candidateData.title || (!candidateData.rating && !candidateData.ratingsTotal && !candidateData.isBestSeller)) {
-        console.log(
-          `Amazon candidate rejected: missing usable demand metadata | candidate=${c + 1} title="${candidateData.title}" rating="${candidateData.rating}" reviews="${candidateData.ratingsTotal}"`
-        );
-        candidateFailures.push({
-          candidate: c + 1,
-          amazonUrl: candidate.url,
-          title: candidateData.title,
-          rating: candidateData.rating,
-          ratingsTotal: candidateData.ratingsTotal,
-          reason: "amazon candidate missing title and usable rating/review/badge data"
-        });
-        continue;
+      batchHandledByApify = true;
+      await sleep(DELAY_MS);
+      break;
+    } catch (err) {
+      const msg = err.message || String(err);
+      console.log(`Apify batch failed with token ${tokDisplay}: ${msg}`);
+      const quotaExhausted = /429|run out of searches|quota|limit|exhausted|credits|insufficient|monthly usage|rate-limit/i.test(msg);
+      if (quotaExhausted) {
+        markApifyTokenExhausted(tok, msg);
+        if (getCurrentApifyToken()) {
+          console.log(`Retrying batch with next available Apify token...`);
+          continue;
+        }
       }
-
-      if (candidateData.matchScore < MIN_TITLE_MATCH) {
-        console.log(
-          `Amazon candidate rejected: weak title match ${candidateData.matchScore}/${MIN_TITLE_MATCH} | candidate=${c + 1} CJ="${name}" | Amazon="${candidateData.title}"`
-        );
-        candidateFailures.push({
-          candidate: c + 1,
-          amazonUrl: candidate.url,
-          title: candidateData.title,
-          rating: candidateData.rating,
-          ratingsTotal: candidateData.ratingsTotal,
-          matchScore: candidateData.matchScore,
-          reason: `weak amazon title match: ${candidateData.matchScore}`
-        });
-        continue;
-      }
-
-      if (betterAmazonCandidate(candidateData, data)) {
-        data = candidateData;
-        console.log(
-          `Best Amazon candidate so far: candidate=${c + 1} match=${data.matchScore} score=${data.score} reviews=${data.ratingsTotal} title="${data.title}"`
-        );
-      }
+      break;
     }
-
-    if (!data) {
-      console.log(`No valid Amazon candidate after checking ${found.links.length} links: ${name}`);
-      failures.push({
-        index: i,
-        name,
-        image,
-        provider: found.provider,
-        amazonCandidatesChecked: found.links.length,
-        amazonUrls: found.links.map(x => x.url),
-        candidateFailures,
-        reason: "no valid amazon candidate after puppeteer checks"
-      });
-      continue;
-    }
-
-    console.log(
-      `Selected best Amazon candidate ${data.candidatePosition}/${found.links.length}: ${data.url} | match ${data.matchScore} | score ${data.score}`
-    );
-
-    const signal = {
-      productId: p.id,
-      keyword: p.id || name,
-      productName: name,
-      image,
-      title: data.title,
-      asin: data.asin || asinFromUrl(data.url),
-      score: data.score,
-      bestRating: data.rating,
-      bestRatingsTotal: data.ratingsTotal,
-      bestPrice: "",
-      position: data.candidatePosition || 1,
-      amazonCandidatesChecked: found.links.length,
-      isBestSeller: data.isBestSeller,
-      badgeText: data.badgeText,
-      productUrl: data.url,
-      matchScore: data.matchScore,
-      matchType: "image",
-      lensProvider: found.provider,
-      source: data.source,
-      fetchedAt: data.fetchedAt
-    };
-
-    amazonSignals.push(signal);
-    matches.push({
-      productId: p.id,
-      productName: name,
-      productImage: image,
-      provider: found.provider,
-      amazonCandidatesChecked: found.links.length,
-      candidateFailures,
-      amazon: data
-    });
-
-    console.log(`Matched via ${found.provider}: ${name} -> ${data.title} | rating ${data.rating} | reviews ${data.ratingsTotal} | score ${data.score}`);
-
-    if (matches.length % 10 === 0) {
-      writeJson(AMAZON_PRODUCTS_PATH, amazonSignals);
-      writeJson("lens-amazon-matches.json", matches);
-      writeJson("lens-amazon-failures.json", failures);
-      writeJson(USAGE_PATH, usage);
-    }
-
-    await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 2000));
-  } catch (err) {
-    console.log(`Monthly Lens failed for ${name}: ${err.message}`);
-    failures.push({ index: i, name, image, reason: err.message });
   }
+
+  if (!batchHandledByApify) {
+    for (const item of batch) {
+      const provider = currentProvider();
+      if (!provider) {
+        console.log("All monthly provider limits exhausted. Stopping Lens enrichment.");
+        break;
+      }
+
+      console.log(`Fallback Monthly Lens ${item.index + 1}/${products.length}: ${item.name}`);
+      const found = await findAmazonCandidatesByLens(item.image);
+
+      if (found.exhausted) {
+        console.log("All monthly provider limits exhausted. Stopping Lens enrichment.");
+        break;
+      }
+
+      if (!found.links.length) {
+        console.log(`No Amazon match via ${found.provider}: ${item.name}`);
+        failures.push({
+          index: item.index,
+          name: item.name,
+          image: item.image,
+          provider: found.provider,
+          reason: found.error || "no amazon links from current provider"
+        });
+        continue;
+      }
+
+      const candidateFailures = [];
+      const bestData = await evaluateAndEnrichCandidates(browser, found.links, item.product, candidateFailures);
+
+      if (!bestData) {
+        console.log(`No valid Amazon candidate after checking ${found.links.length} links: ${item.name}`);
+        failures.push({
+          index: item.index,
+          name: item.name,
+          image: item.image,
+          provider: found.provider,
+          amazonCandidatesChecked: found.links.length,
+          amazonUrls: found.links.map(x => x.url),
+          candidateFailures,
+          reason: "no valid amazon candidate after puppeteer checks"
+        });
+        continue;
+      }
+
+      saveMatchSignal(item.product, bestData, found.links.length, candidateFailures, found.provider);
+      await sleep(AMAZON_DELAY_MS + Math.floor(Math.random() * 2000));
+    }
+  }
+
+  writeJson(AMAZON_PRODUCTS_PATH, amazonSignals);
+  writeJson("lens-amazon-matches.json", matches);
+  writeJson("lens-amazon-failures.json", failures);
+  writeJson(USAGE_PATH, usage);
 }
 
 await browser.close().catch(() => {});
@@ -1548,9 +1811,11 @@ writeJson(USAGE_PATH, usage);
 writeJson("lens-amazon-meta.json", {
   updatedAt: new Date().toISOString(),
   month,
-  mode: "sequential quota provider pool + best Amazon candidate per product",
+  mode: "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   startIndex: START_INDEX,
   maxProducts: MAX_PRODUCTS,
+  apifyTokensCount: apifyTokens.length,
+  batchSize: APIFY_BATCH_SIZE,
   providerUsage: usage[month],
   providerBudgets: BUDGETS,
   amazonCandidateLimit: AMAZON_CANDIDATE_LIMIT,
@@ -1558,7 +1823,7 @@ writeJson("lens-amazon-meta.json", {
   failures: failures.length,
   resetAmazonCache: FORCE_REFRESH,
   matrixQuotaSeededFromStartIndex: FORCE_REFRESH || !sameMonthCache,
-  note: "Forced refresh or the first run of a new month starts Amazon data and current-month provider usage fresh. Matrix jobs seed provider usage from their absolute start index so Decodo 1, Decodo 2 and Decodo 3 consume non-overlapping quota ranges and switch sequentially at each configured limit. Later same-month non-refresh runs reuse existing Amazon data. For each candidate, it extracts Amazon DOM, JSON-LD and embedded structured metadata. When a page is unavailable, it may use rating/review metadata already returned by the configured Lens provider."
+  note: "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata."
 });
 
 console.log(`Monthly Lens complete. Matches: ${matches.length}, failures: ${failures.length}`);
