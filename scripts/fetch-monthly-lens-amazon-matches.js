@@ -818,8 +818,8 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
     language: "en"
   };
 
-  // Start Actor run asynchronously to avoid synchronous 300s HTTP 408 timeout
-  const startUrl = `https://api.apify.com/v2/acts/borderline~google-lens/runs?token=${token}`;
+  // Start Actor run asynchronously with 1024MB memory to avoid exceeding concurrent memory limits
+  const startUrl = `https://api.apify.com/v2/acts/borderline~google-lens/runs?token=${token}&memory=1024`;
 
   try {
     const runRes = await fetchJson(startUrl, {
@@ -872,7 +872,14 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
     throw new Error(`Apify run ${runId} timed out after 35 minutes`);
   } catch (err) {
     const msg = err.message || String(err);
-    const isQuotaOrRate = /429|rate-limit|exceeded|insufficient|credit|quota|monthly usage|free tier/i.test(msg);
+    const isMemoryBusy = /actor-memory-limit-exceeded/i.test(msg);
+    if (isMemoryBusy && attempt < 3) {
+      const waitMs = 15000 + (attempt * 10000);
+      console.log(`Apify concurrent memory busy on token (runs still active). Waiting ${waitMs / 1000}s for memory to free (attempt ${attempt + 2}/4)...`);
+      await sleep(waitMs);
+      return apifyLensBatch(imageUrls, token, attempt + 1);
+    }
+    const isQuotaOrRate = /429|rate-limit|insufficient|credit|quota|monthly usage|free tier|platform-feature-disabled/i.test(msg);
     if (isQuotaOrRate) {
       throw err;
     }
@@ -896,7 +903,14 @@ async function apifyLens(imageUrl, attempt = 0) {
     return links;
   } catch (err) {
     const msg = err.message || String(err);
-    const isQuotaOrRate = /429|rate-limit|exceeded|insufficient|credit|quota|monthly usage|free tier/i.test(msg);
+    const isMemoryBusy = /actor-memory-limit-exceeded/i.test(msg);
+    if (isMemoryBusy && attempt < 3) {
+      const waitMs = 15000 + (attempt * 10000);
+      console.log(`Apify concurrent memory busy on token. Waiting ${waitMs / 1000}s...`);
+      await sleep(waitMs);
+      return apifyLens(imageUrl, attempt + 1);
+    }
+    const isQuotaOrRate = /429|rate-limit|insufficient|credit|quota|monthly usage|free tier|platform-feature-disabled/i.test(msg);
     if (isQuotaOrRate) {
       markApifyTokenExhausted(token, msg);
       if (getCurrentApifyToken()) {
@@ -1801,7 +1815,12 @@ while (i < endIndex) {
     } catch (err) {
       const msg = err.message || String(err);
       console.log(`Apify batch failed with token ${tokDisplay}: ${msg}`);
-      const quotaExhausted = /429|run out of searches|quota|limit|exhausted|credits|insufficient|monthly usage|rate-limit/i.test(msg);
+      if (/actor-memory-limit-exceeded/i.test(msg)) {
+        console.log(`Apify memory busy across active runs on this account, waiting 15s to retry...`);
+        await sleep(15000);
+        continue;
+      }
+      const quotaExhausted = /429|run out of searches|quota|exhausted|credits|insufficient|monthly usage|rate-limit|platform-feature-disabled/i.test(msg);
       if (quotaExhausted) {
         markApifyTokenExhausted(tok, msg);
         if (getCurrentApifyToken()) {
