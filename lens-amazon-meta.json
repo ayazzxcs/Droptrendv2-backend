@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-02T12:11:36.670Z",
+  "updatedAt": "2026-10-02T12:24:23.559Z",
   "month": "2026-10",
   "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
-  "maxProducts": 1600,
+  "maxProducts": 200,
   "apifyTokensCount": 6,
   "batchSize": 15,
   "providerUsage": {
@@ -29,69 +29,6 @@
   "chunks": [
     {
       "startIndex": 0,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 200,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 400,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 600,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 800,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 1000,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 1200,
-      "maxProducts": 200,
-      "matches": 0,
-      "failures": 0,
-      "providerUsage": {
-        "apify": 5000
-      }
-    },
-    {
-      "startIndex": 1400,
       "maxProducts": 200,
       "matches": 0,
       "failures": 0,
