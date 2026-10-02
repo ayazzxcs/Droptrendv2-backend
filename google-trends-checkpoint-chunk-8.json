@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T14:51:13.317Z",
+  "updatedAt": "2026-10-02T04:13:21.775Z",
   "chunkIndex": 8,
   "rawChunkIndex": 8,
   "normalizedChunkIndex": 8,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 70,
-  "failedCount": 80,
-  "lastKeyword": "suits s fashionable loose",
+  "savedSignalCount": 90,
+  "failedCount": 60,
+  "lastKeyword": "diy cluster false eyelash",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1758,
-  "reusedVariantChecks": 188,
-  "variantCacheSize": 1758,
+  "uniqueVariantsFetched": 1732,
+  "reusedVariantChecks": 184,
+  "variantCacheSize": 1732,
   "keywordTimeoutMs": 180000
 }

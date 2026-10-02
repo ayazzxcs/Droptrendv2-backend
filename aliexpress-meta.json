@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T09:12:28.867Z",
+  "updatedAt": "2026-10-01T22:24:27.719Z",
   "source": "AliExpress",
   "mode": "Puppeteer persistent-session page-1 DOM + network + HTML extractor",
   "count": 1000,
@@ -33,42 +33,30 @@
   "detailEnrichDelayMs": 1200,
   "staticFallbackOnDiscoveryFail": false,
   "usedFallback": false,
-  "errorCount": 17,
+  "errorCount": 15,
   "errors": [
     {
-      "keyword": "telescope holder",
+      "keyword": "stainless steel",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: telescope holder; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "air humidifier",
+      "keyword": "handheld fan",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: air humidifier; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: handheld fan; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "organizer grain",
+      "keyword": "acrylic paint",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: organizer grain; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: acrylic paint; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "storage boxes",
+      "keyword": "hand tools",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: storage boxes; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "humidifier usb",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: humidifier usb; best raw count 0",
-      "deferred": true
-    },
-    {
-      "keyword": "fishing camping",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: fishing camping; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: hand tools; best raw count 0",
       "deferred": true
     },
     {
@@ -78,64 +66,64 @@
       "deferred": true
     },
     {
-      "keyword": "tip metallic",
+      "keyword": "nose end",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: tip metallic; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: nose end; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "toys anime",
+      "keyword": "fan convenient",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: toys anime; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: fan convenient; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "toys room",
+      "keyword": "holder camping",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: toys room; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: holder camping; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "direct liquid",
+      "keyword": "pliers equipment",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: direct liquid; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: pliers equipment; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "liquid ink",
+      "keyword": "convenient creative",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: liquid ink; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: convenient creative; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "shorts sports",
+      "keyword": "creative fan",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: shorts sports; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: creative fan; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "manicure nail",
+      "keyword": "accessibility fully compliant",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: manicure nail; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: accessibility fully compliant; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "essential oil",
+      "keyword": "jewelry pliers",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: essential oil; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: jewelry pliers; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "kitchen organizer",
+      "keyword": "tools jewelry",
       "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: kitchen organizer; best raw count 0",
+      "error": "AliExpress low/empty product page for keyword: tools jewelry; best raw count 0",
       "deferred": true
     },
     {
-      "keyword": "stress relief",
-      "phase": "first-pass",
-      "error": "AliExpress low/empty product page for keyword: stress relief; best raw count 0",
-      "deferred": true
+      "keyword": "stainless steel",
+      "phase": "deferred-retry",
+      "error": "AliExpress low/empty product page for keyword: stainless steel; best raw count 0",
+      "deferred": false
     }
   ],
   "note": "AliExpress is treated as a product source like CJ. The keyword/category pool is discovered from AliExpress itself: homepage/category links, AliExpress product-title clusters, and validation pages sorted by orders/sales. It then fetches page 1 sorted by orders/sales for the strongest validated AliExpress-discovered keywords/categories. This version uses Puppeteer with a persistent warm AliExpress session, no scheduled batch reset, session reset only on zero/captcha/low-count pages, tall viewport, deeper scrolling, visible DOM extraction, network-response extraction, and safe HTML hydration extraction. It keeps products with title + URL + image even if price is hidden, so Amazon Lens still has usable product images. Discovery and product fetch now defer empty/blocked keywords to a second retry pass instead of resetting the browser session on every single empty result. Product fetching also reserves slots for high-probe-score keywords, retries those saved slots first, and only then lets lower-ranked remaining keywords fill any still-empty capacity. CJ product titles and Google Trends keywords are intentionally not used as AliExpress keywords. Emergency static fallback is used only if AliExpress keyword discovery completely fails."

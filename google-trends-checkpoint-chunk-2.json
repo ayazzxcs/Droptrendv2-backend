@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:35:24.858Z",
+  "updatedAt": "2026-10-02T01:49:08.694Z",
   "chunkIndex": 2,
   "rawChunkIndex": 2,
   "normalizedChunkIndex": 2,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 66,
-  "failedCount": 84,
-  "lastKeyword": "mount converter adapter",
+  "savedSignalCount": 78,
+  "failedCount": 72,
+  "lastKeyword": "simple digital watch sport led electronic watch black silicone wristband casual watch reloj hombre",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3894,
-  "reusedVariantChecks": 614,
-  "variantCacheSize": 3894,
+  "uniqueVariantsFetched": 3928,
+  "reusedVariantChecks": 496,
+  "variantCacheSize": 3928,
   "keywordTimeoutMs": 180000
 }

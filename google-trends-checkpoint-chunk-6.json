@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T14:03:32.793Z",
+  "updatedAt": "2026-10-02T02:41:08.403Z",
   "chunkIndex": 6,
   "rawChunkIndex": 6,
   "normalizedChunkIndex": 6,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 78,
-  "failedCount": 72,
-  "lastKeyword": "pull resistance band fitness",
+  "savedSignalCount": 68,
+  "failedCount": 82,
+  "lastKeyword": "pants trousers",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2124,
-  "reusedVariantChecks": 367,
-  "variantCacheSize": 2124,
+  "uniqueVariantsFetched": 1729,
+  "reusedVariantChecks": 365,
+  "variantCacheSize": 1729,
   "keywordTimeoutMs": 180000
 }

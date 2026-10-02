@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T13:17:29.288Z",
+  "updatedAt": "2026-10-02T02:36:29.572Z",
   "chunkIndex": 1,
   "rawChunkIndex": 1,
   "normalizedChunkIndex": 1,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 44,
-  "failedCount": 106,
-  "lastKeyword": "home office storage shoe rack",
+  "savedSignalCount": 50,
+  "failedCount": 100,
+  "lastKeyword": "1pc-multi-colored hand folding fan bamboo folding fan hand folding fan church wedding gifts party discount",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 4865,
-  "reusedVariantChecks": 663,
-  "variantCacheSize": 4865,
+  "uniqueVariantsFetched": 4851,
+  "reusedVariantChecks": 908,
+  "variantCacheSize": 4851,
   "keywordTimeoutMs": 180000
 }

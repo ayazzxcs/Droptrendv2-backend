@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T12:09:51.196Z",
+  "updatedAt": "2026-10-02T01:02:16.008Z",
   "chunkIndex": 3,
   "rawChunkIndex": 3,
   "normalizedChunkIndex": 3,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 57,
-  "failedCount": 93,
-  "lastKeyword": "door hanging cat toy",
+  "savedSignalCount": 76,
+  "failedCount": 74,
+  "lastKeyword": "top wide-leg pants two-piece",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 3471,
-  "reusedVariantChecks": 512,
-  "variantCacheSize": 3471,
+  "uniqueVariantsFetched": 2946,
+  "reusedVariantChecks": 575,
+  "variantCacheSize": 2946,
   "keywordTimeoutMs": 180000
 }

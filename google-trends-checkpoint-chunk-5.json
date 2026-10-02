@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T13:53:59.707Z",
+  "updatedAt": "2026-10-02T02:46:39.955Z",
   "chunkIndex": 5,
   "rawChunkIndex": 5,
   "normalizedChunkIndex": 5,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 65,
-  "failedCount": 85,
-  "lastKeyword": "slippers cloud thick-soled sandals",
+  "savedSignalCount": 61,
+  "failedCount": 89,
+  "lastKeyword": "scrub cleaning brush -in-",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 2417,
-  "reusedVariantChecks": 469,
-  "variantCacheSize": 2417,
+  "uniqueVariantsFetched": 2284,
+  "reusedVariantChecks": 358,
+  "variantCacheSize": 2284,
   "keywordTimeoutMs": 180000
 }

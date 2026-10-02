@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T14:05:52.605Z",
+  "updatedAt": "2026-10-02T03:20:40.314Z",
   "chunkIndex": 7,
   "rawChunkIndex": 7,
   "normalizedChunkIndex": 7,
@@ -8,13 +8,13 @@
   "chunkSize": 150,
   "attemptedKeywordCount": 150,
   "processedKeywordCount": 150,
-  "savedSignalCount": 80,
-  "failedCount": 70,
-  "lastKeyword": "jeans pants",
+  "savedSignalCount": 77,
+  "failedCount": 73,
+  "lastKeyword": "hoodies sweatshirts s casual",
   "status": "complete",
   "error": "",
-  "uniqueVariantsFetched": 1599,
-  "reusedVariantChecks": 404,
-  "variantCacheSize": 1599,
+  "uniqueVariantsFetched": 1653,
+  "reusedVariantChecks": 252,
+  "variantCacheSize": 1653,
   "keywordTimeoutMs": 180000
 }
