@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-02T10:58:09.446Z",
+  "updatedAt": "2026-10-02T12:11:36.670Z",
   "month": "2026-10",
   "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
-  "maxProducts": 1200,
+  "maxProducts": 1600,
   "apifyTokensCount": 6,
   "batchSize": 15,
   "providerUsage": {
-    "apify": 1400
+    "apify": 5000
   },
   "providerBudgets": {
     "apify": 5000,
@@ -28,12 +28,21 @@
   "note": "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata.",
   "chunks": [
     {
+      "startIndex": 0,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 5000
+      }
+    },
+    {
       "startIndex": 200,
       "maxProducts": 200,
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 200
+        "apify": 5000
       }
     },
     {
@@ -42,7 +51,7 @@
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 400
+        "apify": 5000
       }
     },
     {
@@ -51,7 +60,16 @@
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 600
+        "apify": 5000
+      }
+    },
+    {
+      "startIndex": 800,
+      "maxProducts": 200,
+      "matches": 0,
+      "failures": 0,
+      "providerUsage": {
+        "apify": 5000
       }
     },
     {
@@ -60,7 +78,7 @@
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 1000
+        "apify": 5000
       }
     },
     {
@@ -69,7 +87,7 @@
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 1200
+        "apify": 5000
       }
     },
     {
@@ -78,7 +96,7 @@
       "matches": 0,
       "failures": 0,
       "providerUsage": {
-        "apify": 1400
+        "apify": 5000
       }
     }
   ]
