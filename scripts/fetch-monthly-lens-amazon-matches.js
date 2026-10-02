@@ -1,44 +1,8 @@
-import net from "net";
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { readJson, writeJson, sleep, num } from "./utils.js";
 
 puppeteer.use(StealthPlugin());
-
-function checkProxySocket(host, port, timeoutMs = 1500) {
-  return new Promise(resolve => {
-    const socket = new net.Socket();
-    socket.setTimeout(timeoutMs);
-    socket.once("connect", () => { socket.destroy(); resolve(true); });
-    socket.once("timeout", () => { socket.destroy(); resolve(false); });
-    socket.once("error", () => { socket.destroy(); resolve(false); });
-    socket.connect(port, host);
-  });
-}
-
-let warpChecked = false;
-let warpProxyUrl = null;
-
-async function detectWarpProxy() {
-  if (warpChecked) return warpProxyUrl;
-  warpChecked = true;
-  const envWarp = process.env.WARP_PROXY || "socks5://127.0.0.1:40000";
-  try {
-    const u = new URL(envWarp);
-    const host = u.hostname || "127.0.0.1";
-    const port = Number(u.port) || 40000;
-    const isAlive = await checkProxySocket(host, port, 1500);
-    if (isAlive) {
-      console.log(`Cloudflare WARP proxy active on ${host}:${port}! Routing Puppeteer through Cloudflare WARP.`);
-      warpProxyUrl = envWarp;
-    } else {
-      console.log(`Cloudflare WARP not detected on ${host}:${port}. Using direct connection.`);
-    }
-  } catch {
-    warpProxyUrl = null;
-  }
-  return warpProxyUrl;
-}
 
 // Monthly sequential quota Lens provider + Puppeteer Amazon enrichment.
 // Rule:
@@ -854,10 +818,11 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
     language: "en"
   };
 
-  const url = `https://api.apify.com/v2/acts/borderline~google-lens/run-sync-get-dataset-items?token=${token}`;
+  // Start Actor run asynchronously to avoid synchronous 300s HTTP 408 timeout
+  const startUrl = `https://api.apify.com/v2/acts/borderline~google-lens/runs?token=${token}`;
 
   try {
-    const response = await fetchJson(url, {
+    const runRes = await fetchJson(startUrl, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -865,11 +830,46 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
       body: JSON.stringify(payload)
     });
 
-    if (!Array.isArray(response)) {
-      throw new Error(`Unexpected Apify response: expected array, got ${typeof response}`);
+    const runId = runRes?.data?.id;
+    const defaultDatasetId = runRes?.data?.defaultDatasetId;
+
+    if (!runId || !defaultDatasetId) {
+      throw new Error(`Apify run failed to start: ${JSON.stringify(runRes)}`);
     }
 
-    return response;
+    const shortId = runId.slice(0, 8);
+    console.log(`Apify Lens run started (${shortId}). Polling status...`);
+
+    const pollIntervalMs = 7000;
+    const maxPollTimeMs = 35 * 60 * 1000; // 35 minutes ceiling
+    const startTime = Date.now();
+
+    while (Date.now() - startTime < maxPollTimeMs) {
+      await sleep(pollIntervalMs);
+
+      const statusUrl = `https://api.apify.com/v2/actor-runs/${runId}?token=${token}`;
+      const statusRes = await fetchJson(statusUrl);
+      const status = statusRes?.data?.status;
+      const elapsedSec = Math.round((Date.now() - startTime) / 1000);
+
+      console.log(`Apify run [${shortId}] status: ${status} (${elapsedSec}s elapsed)...`);
+
+      if (status === "SUCCEEDED") {
+        const datasetUrl = `https://api.apify.com/v2/datasets/${defaultDatasetId}/items?token=${token}`;
+        const dataset = await fetchJson(datasetUrl);
+        if (!Array.isArray(dataset)) {
+          throw new Error(`Apify dataset is not an array: ${typeof dataset}`);
+        }
+        return dataset;
+      }
+
+      if (["FAILED", "ABORTED", "TIMED-OUT"].includes(status)) {
+        const statusMsg = statusRes?.data?.statusMessage || `Actor run ended with status ${status}`;
+        throw new Error(`Apify run ${status}: ${statusMsg}`);
+      }
+    }
+
+    throw new Error(`Apify run ${runId} timed out after 35 minutes`);
   } catch (err) {
     const msg = err.message || String(err);
     const isQuotaOrRate = /429|rate-limit|exceeded|insufficient|credit|quota|monthly usage|free tier/i.test(msg);
@@ -889,23 +889,8 @@ async function apifyLens(imageUrl, attempt = 0) {
   const token = getCurrentApifyToken();
   if (!token) throw new Error("No active APIFY_TOKEN available");
 
-  const payload = {
-    searchTypes: ["all", "visual-match"],
-    imageUrls: [{ url: imageUrl }],
-    language: "en"
-  };
-
-  const url = `https://api.apify.com/v2/acts/borderline~google-lens/run-sync-get-dataset-items?token=${token}`;
-
   try {
-    const response = await fetchJson(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(payload)
-    });
-
+    const response = await apifyLensBatch([imageUrl], token);
     const parsedMap = parseApifyBatchDataset(response);
     const links = parsedMap.get(imageUrl) || extractAmazonLinks(response);
     return links;
@@ -921,7 +906,7 @@ async function apifyLens(imageUrl, attempt = 0) {
     }
     if (attempt < 1) {
       const backoffMs = 3000;
-      console.log(`Apify Lens request failed (${err.message}). Retrying (attempt ${attempt + 2}/2) after ${backoffMs}ms...`);
+      console.log(`Apify Lens request failed (${msg}). Retrying after ${backoffMs}ms...`);
       await sleep(backoffMs);
       return apifyLens(imageUrl, attempt + 1);
     }
@@ -1490,16 +1475,12 @@ function alreadyHasAmazon(product) {
   });
 }
 
-const warp = await detectWarpProxy();
 const puppeteerArgs = [
   "--no-sandbox",
   "--disable-dev-shm-usage",
   "--disable-setuid-sandbox",
   "--disable-blink-features=AutomationControlled"
 ];
-if (warp) {
-  puppeteerArgs.push(`--proxy-server=${warp}`);
-}
 
 const browser = await puppeteer.launch({
   headless: "new",
