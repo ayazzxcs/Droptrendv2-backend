@@ -88,6 +88,7 @@ const AMAZON_PAGE_WAIT_MS = Number(process.env.AMAZON_PAGE_WAIT_MS || 12000);
 const ACCEPT_PROVIDER_METADATA = !/^(0|false|no)$/i.test(String(process.env.AMAZON_ACCEPT_PROVIDER_METADATA || "true"));
 
 const BUDGETS = {
+  apify: Number(process.env.APIFY_MONTHLY_LIMIT || 5000),
   serpapi_1: Number(process.env.SERPAPI_1_MONTHLY_LIMIT || 250),
   serpapi_2: Number(process.env.SERPAPI_2_MONTHLY_LIMIT || 250),
   searchapi: Number(process.env.SEARCHAPI_MONTHLY_LIMIT || 100),
@@ -732,8 +733,41 @@ async function genericLens(imageUrl, provider) {
   }));
 }
 
+async function apifyLens(imageUrl, attempt = 0) {
+  const token = process.env.APIFY_TOKEN;
+  if (!token) throw new Error("Missing APIFY_TOKEN");
+
+  const payload = {
+    searchTypes: ["all", "visual-match"],
+    imageUrls: [{ url: imageUrl }],
+    language: "en"
+  };
+
+  const url = `https://api.apify.com/v2/acts/borderline~google-lens/run-sync-get-dataset-items?token=${token}`;
+
+  try {
+    const response = await fetchJson(url, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(payload)
+    });
+
+    return extractAmazonLinks(response);
+  } catch (err) {
+    if (attempt < 1) {
+      const backoffMs = 3000;
+      console.log(`Apify Lens request failed (${err.message}). Retrying (attempt ${attempt + 2}/2) after ${backoffMs}ms...`);
+      await sleep(backoffMs);
+      return apifyLens(imageUrl, attempt + 1);
+    }
+    throw err;
+  }
+}
+
 async function brightdataLens(imageUrl, attempt = 0) {
-  const apiKey = process.env.BRIGHTDATA_API_KEY || "8ab38be8-0b77-4907-ad26-d54998602bc5";
+  const apiKey = process.env.BRIGHTDATA_API_KEY;
   if (!apiKey) throw new Error("Missing BRIGHTDATA_API_KEY");
   const zone = process.env.BRIGHTDATA_ZONE || "serp_api1";
 
@@ -775,11 +809,12 @@ function providerQueue() {
   // It uses the first available provider until its monthly limit is exhausted, then moves to next.
   const q = [];
 
+  if (process.env.APIFY_TOKEN) q.push(["apify", apifyLens]);
   if (process.env.SERPAPI_KEY_1) q.push(["serpapi_1", img => serpapiLens(img, process.env.SERPAPI_KEY_1)]);
   if (process.env.SERPAPI_KEY_2) q.push(["serpapi_2", img => serpapiLens(img, process.env.SERPAPI_KEY_2)]);
   if (process.env.SEARCHAPI_KEY) q.push(["searchapi", searchapiLens]);
   if (process.env.SCRAPINGDOG_API_KEY) q.push(["scrapingdog", scrapingdogLens]);
-  if (process.env.BRIGHTDATA_API_KEY || "8ab38be8-0b77-4907-ad26-d54998602bc5") q.push(["brightdata", brightdataLens]);
+  if (process.env.BRIGHTDATA_API_KEY) q.push(["brightdata", brightdataLens]);
   if (process.env.DECODO_AUTH_BASE64) q.push(["decodo", decodoLens]);
   if (process.env.DECODO_2_AUTH_BASE64) q.push(["decodo_2", decodoLens2]);
   if (process.env.DECODO_3_AUTH_BASE64) q.push(["decodo_3", decodoLens3]);
