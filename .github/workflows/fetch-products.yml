@@ -120,16 +120,18 @@ jobs:
           test -f node_modules/puppeteer-core/lib/puppeteer/puppeteer-core.js
 
       - name: Install Puppeteer Chrome
+        shell: bash
         run: |
-          npx --yes @puppeteer/browsers@latest install chrome@stable
-
-          CHROME_PATH=$(find "$GITHUB_WORKSPACE/chrome" -type f -name chrome | head -n 1)
-
+          set -euo pipefail
+          rm -rf "$GITHUB_WORKSPACE/chrome"
+          npx --yes @puppeteer/browsers@latest install chrome@stable --path "$GITHUB_WORKSPACE/chrome"
+          CHROME_PATH="$(find "$GITHUB_WORKSPACE/chrome" -type f \( -name chrome -o -name chrome-linux \) -print -quit)"
           if [ -z "$CHROME_PATH" ]; then
-          echo "Chrome executable not found"
-           exit 1
+            echo "Chrome executable not found under $GITHUB_WORKSPACE/chrome"
+            find "$GITHUB_WORKSPACE/chrome" -maxdepth 5 -type f -print || true
+            exit 1
           fi
-
+          chmod +x "$CHROME_PATH"
           echo "Chrome found at: $CHROME_PATH"
           echo "PUPPETEER_EXECUTABLE_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
  
@@ -706,7 +708,8 @@ jobs:
           APIFY_TOKEN_4: ${{ secrets.APIFY_TOKEN_4 }}
           APIFY_TOKEN_5: ${{ secrets.APIFY_TOKEN_5 }}
           APIFY_TOKEN_6: ${{ secrets.APIFY_TOKEN_6 }}
-          APIFY_BATCH_SIZE: 15
+          APIFY_ACTOR_ID: gio21~google-lens-scraper
+          APIFY_BATCH_SIZE: 2
           APIFY_MONTHLY_LIMIT: 5000
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}
           DECODO_2_AUTH_BASE64: ${{ secrets.DECODO_2_AUTH_BASE64 }}

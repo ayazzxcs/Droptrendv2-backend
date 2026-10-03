@@ -97,7 +97,7 @@ function markApifyTokenExhausted(tok, reason = "") {
   currentApifyIndex = (currentApifyIndex + 1) % Math.max(1, apifyTokens.length);
 }
 
-const APIFY_BATCH_SIZE = Math.max(1, Math.min(25, Number(process.env.APIFY_BATCH_SIZE || process.env.LENS_BATCH_SIZE || 15)));
+const APIFY_BATCH_SIZE = Math.max(1, Math.min(25, Number(process.env.APIFY_BATCH_SIZE || process.env.LENS_BATCH_SIZE || 2)));
 
 if (apifyTokens.length > 0) {
   console.log(`Loaded ${apifyTokens.length} Apify token(s). Active initial index: ${currentApifyIndex}. Batch size: ${APIFY_BATCH_SIZE}.`);
@@ -767,9 +767,9 @@ function parseApifyBatchDataset(items) {
 
   for (const it of items) {
     if (!it || typeof it !== "object") continue;
-    const searchType = it.searchType || "all";
+    const searchType = it.searchType || "visual-match";
     const container = it[searchType] || it;
-    const inputUrl = container?.inputUrl || it.inputUrl;
+    const inputUrl = it.imageUrl || container?.inputUrl || it.inputUrl;
     if (!inputUrl) continue;
 
     if (!byImage.has(inputUrl)) {
@@ -777,12 +777,18 @@ function parseApifyBatchDataset(items) {
     }
     const list = byImage.get(inputUrl);
 
-    const results = Array.isArray(container.results) ? container.results : [];
-    for (const r of results) {
+    // Support gio21 format (visualMatches, exactMatches) and borderline format (results)
+    const rawMatches = [
+      ...(Array.isArray(it.visualMatches) ? it.visualMatches : []),
+      ...(Array.isArray(it.exactMatches) ? it.exactMatches : []),
+      ...(Array.isArray(container.results) ? container.results : [])
+    ];
+
+    for (const r of rawMatches) {
       const c = r.search || r;
-      const rawUrl = c.href || c.link || r.link || r.href;
+      const rawUrl = c.link || c.href || r.link || r.href || c.url || r.url;
       const title = String(c.title || r.title || "").trim();
-      const thumb = safeUrl(c.thumbnail || r.thumbnail || "");
+      const thumb = safeUrl(c.thumbnail || r.thumbnail || c.imageUrl || r.imageUrl || "");
 
       if (rawUrl && isAmazonProductUrl(rawUrl)) {
         const clean = cleanAmazonUrl(rawUrl);
@@ -812,14 +818,25 @@ function parseApifyBatchDataset(items) {
 async function apifyLensBatch(imageUrls, token, attempt = 0) {
   if (!token) throw new Error("Missing Apify token");
 
-  const payload = {
-    searchTypes: ["all", "visual-match"],
-    imageUrls: imageUrls.map(url => ({ url })),
-    language: "en"
-  };
+  const actorId = process.env.APIFY_ACTOR_ID || "gio21~google-lens-scraper";
+  const isGio = actorId.includes("gio21");
 
-  // Start Actor run asynchronously with 1024MB memory to avoid exceeding concurrent memory limits
-  const startUrl = `https://api.apify.com/v2/acts/borderline~google-lens/runs?token=${token}&memory=1024`;
+  const payload = isGio
+    ? {
+        imageUrls: imageUrls,
+        country: "US",
+        language: "en",
+        includeExactMatches: false,
+        includeAI: false
+      }
+    : {
+        searchTypes: ["all", "visual-match"],
+        imageUrls: imageUrls.map(url => ({ url })),
+        language: "en"
+      };
+
+  // Start Actor run asynchronously
+  const startUrl = `https://api.apify.com/v2/acts/${actorId}/runs?token=${token}&memory=1024`;
 
   try {
     const runRes = await fetchJson(startUrl, {
