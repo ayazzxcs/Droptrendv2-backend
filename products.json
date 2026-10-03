@@ -65900,7 +65900,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 28,
+    "trend": 13,
     "winningScore": 86,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -65909,7 +65909,7 @@
     "productName": "Versatile Fashionable Straight-leg Jeans With 3D Floral Detailing",
     "productNameEn": "Versatile Fashionable Straight-leg Jeans With 3D Floral Detailing",
     "sourceScore": 79,
-    "dropTrendScore": 28,
+    "dropTrendScore": 13,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -65929,17 +65929,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609301131551602300",
-        "quvirlScore": 28,
-        "dropTrendScore": 28,
+        "quvirlScore": 13,
+        "dropTrendScore": 13,
         "googleScore": 0,
-        "amazonScore": 36,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -65963,25 +65963,9 @@
       "jeans 3d"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "Low",
       "googleTrends": null,
-      "amazon": {
-        "keyword": "2609301131551602300",
-        "score": 36,
-        "bestRating": 3.9,
-        "bestRatingsTotal": 5,
-        "bestPrice": "",
-        "position": 1,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.in/dp/B0DJ4ZKR7J",
-        "title": "SweatyRocks Women's High Waist Ruffled Hem Wide Leg Baggy Jeans Denim Long Pants",
-        "matchScore": 17,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -66069,7 +66053,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 36,
+    "trend": 13,
     "winningScore": 86,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -66078,7 +66062,7 @@
     "productName": "Warm Knitted Beanie For Men And Women",
     "productNameEn": "Warm Knitted Beanie For Men And Women",
     "sourceScore": 79,
-    "dropTrendScore": 36,
+    "dropTrendScore": 13,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -66098,17 +66082,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609300545501638000",
-        "quvirlScore": 36,
-        "dropTrendScore": 36,
+        "quvirlScore": 13,
+        "dropTrendScore": 13,
         "googleScore": 0,
-        "amazonScore": 56,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -66132,25 +66116,9 @@
       "fedoras"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "Low",
       "googleTrends": null,
-      "amazon": {
-        "keyword": "2609300545501638000",
-        "score": 56,
-        "bestRating": 3.8,
-        "bestRatingsTotal": 128,
-        "bestPrice": "",
-        "position": 3,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.in/dp/B0FY5RSW62",
-        "title": "GRAFFY Woolen Cap for Men and Women | Winter Woolen with Soft Fur Inside | Free Size Warm Beanie Hat for Winter | Black & Grey Woolen Cap for Men & Women",
-        "matchScore": 80,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -66238,7 +66206,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 27,
+    "trend": 13,
     "winningScore": 86,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -66247,7 +66215,7 @@
     "productName": "Cross-border Foreign Trade Wholesale Autumn New Men's Jacket Large Size Lapel Multi-pocket Trend All-match Work Coat Men",
     "productNameEn": "Cross-border Foreign Trade Wholesale Autumn New Men's Jacket Large Size Lapel Multi-pocket Trend All-match Work Coat Men",
     "sourceScore": 79,
-    "dropTrendScore": 27,
+    "dropTrendScore": 13,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -66267,17 +66235,17 @@
       {
         "date": "2026-10-03",
         "productId": "2105168084473851905",
-        "quvirlScore": 27,
-        "dropTrendScore": 27,
+        "quvirlScore": 13,
+        "dropTrendScore": 13,
         "googleScore": 0,
-        "amazonScore": 35,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -66301,25 +66269,9 @@
       "s jackets cross-border foreign"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "Low",
       "googleTrends": null,
-      "amazon": {
-        "keyword": "2105168084473851905",
-        "score": 35,
-        "bestRating": 5,
-        "bestRatingsTotal": 0,
-        "bestPrice": "",
-        "position": 1,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.co.uk/dp/B0H7X2PB9B",
-        "title": "Men's Autumn and Winter Daily Casual Sports Pocket Lapel Long Sleeve Jacket",
-        "matchScore": 33,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -66902,7 +66854,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 36,
+    "trend": 17,
     "winningScore": 86,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -66911,7 +66863,7 @@
     "productName": "CILOA Mens High-end Tritium Watch",
     "productNameEn": "CILOA Mens High-end Tritium Watch",
     "sourceScore": 79,
-    "dropTrendScore": 36,
+    "dropTrendScore": 17,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -66931,17 +66883,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609290940531618000",
-        "quvirlScore": 36,
-        "dropTrendScore": 36,
+        "quvirlScore": 17,
+        "dropTrendScore": 17,
         "googleScore": 10,
-        "amazonScore": 46,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "ciloa end tritium",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -66965,7 +66917,7 @@
       "ciloa high-end tritium watch"
     ],
     "trendProof": {
-      "confidence": "High",
+      "confidence": "Medium",
       "googleTrends": {
         "keyword": "bracelet watches watch",
         "usedKeyword": "ciloa end tritium",
@@ -67309,23 +67261,7 @@
           "ciloa high-end tritium watch"
         ]
       },
-      "amazon": {
-        "keyword": "2609290940531618000",
-        "score": 46,
-        "bestRating": 4.5,
-        "bestRatingsTotal": 22,
-        "bestPrice": "",
-        "position": 2,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.es/dp/B0DQWY6XC1",
-        "title": "Cadola Testa Di Toro Men's 42mm Chronograph Watch with Leather Strap CD-1058",
-        "matchScore": 20,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -68403,7 +68339,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 43,
+    "trend": 13,
     "winningScore": 87,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -68412,7 +68348,7 @@
     "productName": "Autumn Short Lapel Leather Jacket Casual Coat",
     "productNameEn": "Autumn Short Lapel Leather Jacket Casual Coat",
     "sourceScore": 79,
-    "dropTrendScore": 43,
+    "dropTrendScore": 13,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -68432,17 +68368,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609290332381602700",
-        "quvirlScore": 43,
-        "dropTrendScore": 43,
+        "quvirlScore": 13,
+        "dropTrendScore": 13,
         "googleScore": 0,
-        "amazonScore": 74,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -68466,25 +68402,9 @@
       "short lapel leather jacket"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "Low",
       "googleTrends": null,
-      "amazon": {
-        "keyword": "2609290332381602700",
-        "score": 74,
-        "bestRating": 4.1,
-        "bestRatingsTotal": 82581,
-        "bestPrice": "",
-        "position": 1,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.in/dp/B0HDJTHJY6",
-        "title": "Buy Men's Faux, Leather Standard Length Designer Jacket Black Medium at Amazon.in",
-        "matchScore": 29,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -68572,7 +68492,7 @@
       "customizationVersion": null,
       "isTestProduct": false
     },
-    "trend": 33,
+    "trend": 18,
     "winningScore": 87,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -68581,7 +68501,7 @@
     "productName": "Thickened Hooded Over-the-Knee White Duck Down Blanket-Style Warm Coat",
     "productNameEn": "Thickened Hooded Over-the-Knee White Duck Down Blanket-Style Warm Coat",
     "sourceScore": 79,
-    "dropTrendScore": 33,
+    "dropTrendScore": 18,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -68601,17 +68521,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609290247521623100",
-        "quvirlScore": 33,
-        "dropTrendScore": 33,
+        "quvirlScore": 18,
+        "dropTrendScore": 18,
         "googleScore": 11,
-        "amazonScore": 38,
+        "amazonScore": 0,
         "supplierScore": 67,
         "cjScore": 67,
         "aliExpressScore": 0,
         "googleKeyword": "thickened hooded over knee",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -68635,7 +68555,7 @@
       "jacket thickened"
     ],
     "trendProof": {
-      "confidence": "High",
+      "confidence": "Medium",
       "googleTrends": {
         "keyword": "jacket coat",
         "usedKeyword": "thickened hooded over knee",
@@ -68979,23 +68899,7 @@
           "basic jacket"
         ]
       },
-      "amazon": {
-        "keyword": "2609290247521623100",
-        "score": 38,
-        "bestRating": 5,
-        "bestRatingsTotal": 0,
-        "bestPrice": "",
-        "position": 3,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.de/dp/B0CDTNPXLB",
-        "title": "Adhdyuud Women's White Duck Down Hooded Jacket, Winter Coat with Hood, Long Coat, Ankle Thickening, Warm Snow Clothing",
-        "matchScore": 67,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 67,
         "source": "CJdropshipping",
@@ -70226,7 +70130,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 44,
+    "trend": 14,
     "winningScore": 84,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -70235,7 +70139,7 @@
     "productName": "Men's Vertical-Stripe Half-Zip Breathable Short-Sleeve Shirt",
     "productNameEn": "Men's Vertical-Stripe Half-Zip Breathable Short-Sleeve Shirt",
     "sourceScore": 79,
-    "dropTrendScore": 44,
+    "dropTrendScore": 14,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -70255,17 +70159,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609291149261627700",
-        "quvirlScore": 44,
-        "dropTrendScore": 44,
+        "quvirlScore": 14,
+        "dropTrendScore": 14,
         "googleScore": 0,
-        "amazonScore": 76,
+        "amazonScore": 0,
         "supplierScore": 68,
         "cjScore": 68,
         "aliExpressScore": 0,
         "googleKeyword": "",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "Medium"
+        "confidence": "Low"
       }
     ],
     "aiKeywords": [
@@ -70289,25 +70193,9 @@
       "shirt"
     ],
     "trendProof": {
-      "confidence": "Medium",
+      "confidence": "Low",
       "googleTrends": null,
-      "amazon": {
-        "keyword": "2609291149261627700",
-        "score": 76,
-        "bestRating": 4.4,
-        "bestRatingsTotal": 15484,
-        "bestPrice": "",
-        "position": 6,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.co.uk/dp/B0H3XGS7JW",
-        "title": "Duohropke Tracksuit Men's Jogging Suit Summer Suit Sets 2-Piece Leisure Suit Short Sleeve Sports Suit Comfortable Breathable Fitness Suit Activewear Streetwear Polo Shirt and Shorts, Black (black 1 : Amazon.co.uk: Fashion",
-        "matchScore": 50,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 68,
         "source": "CJdropshipping",
@@ -70395,7 +70283,7 @@
       "customizationVersion": 0,
       "isTestProduct": false
     },
-    "trend": 58,
+    "trend": 44,
     "winningScore": 84,
     "cjTrending": false,
     "source": "CJdropshipping",
@@ -70404,7 +70292,7 @@
     "productName": "Women's V-neck Retro Leopard-print Patchwork Blouse",
     "productNameEn": "Women's V-neck Retro Leopard-print Patchwork Blouse",
     "sourceScore": 79,
-    "dropTrendScore": 58,
+    "dropTrendScore": 44,
     "scoreHistory": [
       {
         "date": "2026-10-02",
@@ -70424,17 +70312,17 @@
       {
         "date": "2026-10-03",
         "productId": "2609290905111616400",
-        "quvirlScore": 58,
-        "dropTrendScore": 58,
+        "quvirlScore": 44,
+        "dropTrendScore": 44,
         "googleScore": 75,
-        "amazonScore": 35,
+        "amazonScore": 0,
         "supplierScore": 68,
         "cjScore": 68,
         "aliExpressScore": 0,
         "googleKeyword": "neck retro",
-        "amazonMatched": true,
+        "amazonMatched": false,
         "source": "CJdropshipping",
-        "confidence": "High"
+        "confidence": "Medium"
       }
     ],
     "aiKeywords": [
@@ -70458,7 +70346,7 @@
       "leopard-print patchwork blouse"
     ],
     "trendProof": {
-      "confidence": "High",
+      "confidence": "Medium",
       "googleTrends": {
         "keyword": "blouses shirts blouse",
         "usedKeyword": "neck retro",
@@ -70802,23 +70690,7 @@
           "shirts s v-neck"
         ]
       },
-      "amazon": {
-        "keyword": "2609290905111616400",
-        "score": 35,
-        "bestRating": 5,
-        "bestRatingsTotal": 0,
-        "bestPrice": "",
-        "position": 1,
-        "isBestSeller": false,
-        "badgeText": "",
-        "productUrl": "https://www.amazon.it/dp/B09DG476TM",
-        "title": "Women Smocked Knit Shirt Leopard Print Long Sleeve V-Neck Casual Sweatshirts Loose Tops",
-        "matchScore": 33,
-        "matchType": "image",
-        "lensProvider": "apify",
-        "source": "amazon-dom+amazon-embedded+lens-provider-metadata",
-        "match": 1
-      },
+      "amazon": null,
       "cjSupplier": {
         "score": 68,
         "source": "CJdropshipping",

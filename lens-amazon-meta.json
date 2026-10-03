@@ -1,14 +1,12 @@
 {
-  "updatedAt": "2026-10-03T04:44:30.223Z",
+  "updatedAt": "2026-10-03T04:51:35.885Z",
   "month": "2026-10",
   "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
-  "maxProducts": 200,
+  "maxProducts": 0,
   "apifyTokensCount": 6,
   "batchSize": 2,
-  "providerUsage": {
-    "apify": 5000
-  },
+  "providerUsage": {},
   "providerBudgets": {
     "apify": 5000,
     "serpapi_1": 250,
@@ -21,20 +19,10 @@
     "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 8,
-  "failures": 6,
-  "resetAmazonCache": true,
+  "matches": 0,
+  "failures": 0,
+  "resetAmazonCache": false,
   "matrixQuotaSeededFromStartIndex": true,
   "note": "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata.",
-  "chunks": [
-    {
-      "startIndex": 200,
-      "maxProducts": 200,
-      "matches": 8,
-      "failures": 6,
-      "providerUsage": {
-        "apify": 5000
-      }
-    }
-  ]
+  "chunks": []
 }

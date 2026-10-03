@@ -6778,17 +6778,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609301131551602300",
-      "quvirlScore": 28,
-      "dropTrendScore": 28,
+      "quvirlScore": 13,
+      "dropTrendScore": 13,
       "googleScore": 0,
-      "amazonScore": 36,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2609300545501638000": [
@@ -6810,17 +6810,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609300545501638000",
-      "quvirlScore": 36,
-      "dropTrendScore": 36,
+      "quvirlScore": 13,
+      "dropTrendScore": 13,
       "googleScore": 0,
-      "amazonScore": 56,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2105168084473851905": [
@@ -6842,17 +6842,17 @@
     {
       "date": "2026-10-03",
       "productId": "2105168084473851905",
-      "quvirlScore": 27,
-      "dropTrendScore": 27,
+      "quvirlScore": 13,
+      "dropTrendScore": 13,
       "googleScore": 0,
-      "amazonScore": 35,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2105117907134296065": [
@@ -6906,17 +6906,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609290940531618000",
-      "quvirlScore": 36,
-      "dropTrendScore": 36,
+      "quvirlScore": 17,
+      "dropTrendScore": 17,
       "googleScore": 10,
-      "amazonScore": 46,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "ciloa end tritium",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "2609300919541620300": [
@@ -7002,17 +7002,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609290332381602700",
-      "quvirlScore": 43,
-      "dropTrendScore": 43,
+      "quvirlScore": 13,
+      "dropTrendScore": 13,
       "googleScore": 0,
-      "amazonScore": 74,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2609290247521623100": [
@@ -7034,17 +7034,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609290247521623100",
-      "quvirlScore": 33,
-      "dropTrendScore": 33,
+      "quvirlScore": 18,
+      "dropTrendScore": 18,
       "googleScore": 11,
-      "amazonScore": 38,
+      "amazonScore": 0,
       "supplierScore": 67,
       "cjScore": 67,
       "aliExpressScore": 0,
       "googleKeyword": "thickened hooded over knee",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "2610010549081638800": [
@@ -7162,17 +7162,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609291149261627700",
-      "quvirlScore": 44,
-      "dropTrendScore": 44,
+      "quvirlScore": 14,
+      "dropTrendScore": 14,
       "googleScore": 0,
-      "amazonScore": 76,
+      "amazonScore": 0,
       "supplierScore": 68,
       "cjScore": 68,
       "aliExpressScore": 0,
       "googleKeyword": "",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "Medium"
+      "confidence": "Low"
     }
   ],
   "2609290905111616400": [
@@ -7194,17 +7194,17 @@
     {
       "date": "2026-10-03",
       "productId": "2609290905111616400",
-      "quvirlScore": 58,
-      "dropTrendScore": 58,
+      "quvirlScore": 44,
+      "dropTrendScore": 44,
       "googleScore": 75,
-      "amazonScore": 35,
+      "amazonScore": 0,
       "supplierScore": 68,
       "cjScore": 68,
       "aliExpressScore": 0,
       "googleKeyword": "neck retro",
-      "amazonMatched": true,
+      "amazonMatched": false,
       "source": "CJdropshipping",
-      "confidence": "High"
+      "confidence": "Medium"
     }
   ],
   "2609290537021617400": [
