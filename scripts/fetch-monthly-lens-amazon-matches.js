@@ -772,15 +772,21 @@ function unwrapRedirectUrl(url) {
   return url;
 }
 
-function parseApifyBatchDataset(items) {
+function parseApifyBatchDataset(items, fallbackUrls = []) {
   const byImage = new Map();
   if (!Array.isArray(items)) return byImage;
 
-  for (const it of items) {
+  for (let i = 0; i < items.length; i++) {
+    const it = items[i];
     if (!it || typeof it !== "object") continue;
-    const searchType = it.searchType || "visual-match";
+    const searchType = it.searchType || it.mode || "visual_matches";
     const container = it[searchType] || it;
-    const inputUrl = it.imageUrl || container?.inputUrl || it.inputUrl;
+    let inputUrl = it.input_image || it.imageUrl || it.image || container?.inputUrl || it.inputUrl;
+    if (!inputUrl && fallbackUrls.length === 1) {
+      inputUrl = fallbackUrls[0];
+    } else if (!inputUrl && fallbackUrls[i]) {
+      inputUrl = fallbackUrls[i];
+    }
     if (!inputUrl) continue;
 
     if (!byImage.has(inputUrl)) {
@@ -788,19 +794,32 @@ function parseApifyBatchDataset(items) {
     }
     const list = byImage.get(inputUrl);
 
-    // Support gio21 format (visualMatches, exactMatches) and borderline format (results)
+    // Support omkar-cloud format (visual_matches, web_results, products, exact_matches)
+    // gio21 format (visualMatches, exactMatches)
+    // and borderline format (results)
     const rawMatches = [
+      ...(Array.isArray(it.visual_matches) ? it.visual_matches : []),
       ...(Array.isArray(it.visualMatches) ? it.visualMatches : []),
+      ...(Array.isArray(it.web_results) ? it.web_results : []),
+      ...(Array.isArray(it.webResults) ? it.webResults : []),
+      ...(Array.isArray(it.products) ? it.products : []),
+      ...(Array.isArray(it.exact_matches) ? it.exact_matches : []),
       ...(Array.isArray(it.exactMatches) ? it.exactMatches : []),
       ...(Array.isArray(container.results) ? container.results : [])
     ];
 
     for (const r of rawMatches) {
+      if (!r || typeof r !== "object") continue;
       const c = r.search || r;
       let rawUrl = c.link || c.href || r.link || r.href || c.url || r.url || c.googleRedirectUrl || r.googleRedirectUrl;
       if (rawUrl) rawUrl = unwrapRedirectUrl(rawUrl);
-      const title = String(c.title || r.title || "").trim();
-      const thumb = safeUrl(c.thumbnail || r.thumbnail || c.imageUrl || r.imageUrl || "");
+      const title = String(c.title || r.title || c.name || r.name || "").trim();
+      const thumb = safeUrl(
+        c.thumbnail || r.thumbnail ||
+        c.imageUrl || r.imageUrl ||
+        (typeof c.image === "object" ? c.image?.link : c.image) ||
+        (typeof r.image === "object" ? r.image?.link : r.image) || ""
+      );
 
       if (rawUrl && isAmazonProductUrl(rawUrl)) {
         const clean = cleanAmazonUrl(rawUrl);
@@ -830,25 +849,39 @@ function parseApifyBatchDataset(items) {
 async function apifyLensBatch(imageUrls, token, attempt = 0) {
   if (!token) throw new Error("Missing Apify token");
 
-  const actorId = process.env.APIFY_ACTOR_ID || "gio21~google-lens-scraper";
+  const actorId = process.env.APIFY_ACTOR_ID || "omkar-cloud~google-lens-scraper";
+  const isOmkar = actorId.includes("omkar-cloud");
   const isGio = actorId.includes("gio21");
 
-  const payload = isGio
-    ? {
-        imageUrls: imageUrls,
-        country: "US",
-        language: "en",
-        includeExactMatches: true,
-        includeAI: false
-      }
-    : {
-        searchTypes: ["all", "visual-match"],
-        imageUrls: imageUrls.map(url => ({ url })),
-        language: "en"
-      };
+  let payload;
+  let memory = 1024;
+
+  if (isOmkar) {
+    memory = 256;
+    payload = {
+      images: imageUrls,
+      mode: process.env.APIFY_LENS_MODE || "search",
+      country: process.env.APIFY_LENS_COUNTRY || "US",
+      language: process.env.APIFY_LENS_LANGUAGE || "en"
+    };
+  } else if (isGio) {
+    payload = {
+      imageUrls: imageUrls,
+      country: "US",
+      language: "en",
+      includeExactMatches: true,
+      includeAI: false
+    };
+  } else {
+    payload = {
+      searchTypes: ["all", "visual-match"],
+      imageUrls: imageUrls.map(url => ({ url })),
+      language: "en"
+    };
+  }
 
   // Start Actor run asynchronously
-  const startUrl = `https://api.apify.com/v2/acts/${actorId}/runs?token=${token}&memory=1024`;
+  const startUrl = `https://api.apify.com/v2/acts/${actorId}/runs?token=${token}&memory=${memory}`;
 
   try {
     const runRes = await fetchJson(startUrl, {
@@ -927,7 +960,7 @@ async function apifyLens(imageUrl, attempt = 0) {
 
   try {
     const response = await apifyLensBatch([imageUrl], token);
-    const parsedMap = parseApifyBatchDataset(response);
+    const parsedMap = parseApifyBatchDataset(response, [imageUrl]);
     const links = parsedMap.get(imageUrl) || extractAmazonLinks(response);
     return links;
   } catch (err) {
@@ -1794,7 +1827,7 @@ while (i < endIndex) {
     try {
       const urls = batch.map(b => b.image);
       const rawItems = await apifyLensBatch(urls, tok);
-      const linksByImage = parseApifyBatchDataset(rawItems);
+      const linksByImage = parseApifyBatchDataset(rawItems, urls);
 
       for (const item of batch) {
         markUsed("apify");
