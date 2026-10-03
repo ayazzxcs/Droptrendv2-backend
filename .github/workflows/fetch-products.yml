@@ -709,6 +709,7 @@ jobs:
           APIFY_TOKEN_5: ${{ secrets.APIFY_TOKEN_5 }}
           APIFY_TOKEN_6: ${{ secrets.APIFY_TOKEN_6 }}
           APIFY_ACTOR_ID: omkar-cloud~google-lens-scraper
+          APIFY_LENS_MODE: visual_matches
           APIFY_BATCH_SIZE: 1
           APIFY_MONTHLY_LIMIT: 5000
           DECODO_AUTH_BASE64: ${{ secrets.DECODO_AUTH_BASE64 }}

@@ -860,7 +860,7 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
     memory = 256;
     payload = {
       images: imageUrls,
-      mode: process.env.APIFY_LENS_MODE || "search",
+      mode: process.env.APIFY_LENS_MODE || "visual_matches",
       country: process.env.APIFY_LENS_COUNTRY || "US",
       language: process.env.APIFY_LENS_LANGUAGE || "en"
     };
