@@ -761,6 +761,17 @@ async function genericLens(imageUrl, provider) {
   }));
 }
 
+function unwrapRedirectUrl(url) {
+  try {
+    const u = new URL(url);
+    if (u.hostname.includes("google.") && (u.pathname === "/url" || u.searchParams.has("q") || u.searchParams.has("url"))) {
+      const target = u.searchParams.get("q") || u.searchParams.get("url");
+      if (target) return target;
+    }
+  } catch {}
+  return url;
+}
+
 function parseApifyBatchDataset(items) {
   const byImage = new Map();
   if (!Array.isArray(items)) return byImage;
@@ -786,7 +797,8 @@ function parseApifyBatchDataset(items) {
 
     for (const r of rawMatches) {
       const c = r.search || r;
-      const rawUrl = c.link || c.href || r.link || r.href || c.url || r.url;
+      let rawUrl = c.link || c.href || r.link || r.href || c.url || r.url || c.googleRedirectUrl || r.googleRedirectUrl;
+      if (rawUrl) rawUrl = unwrapRedirectUrl(rawUrl);
       const title = String(c.title || r.title || "").trim();
       const thumb = safeUrl(c.thumbnail || r.thumbnail || c.imageUrl || r.imageUrl || "");
 
@@ -826,7 +838,7 @@ async function apifyLensBatch(imageUrls, token, attempt = 0) {
         imageUrls: imageUrls,
         country: "US",
         language: "en",
-        includeExactMatches: false,
+        includeExactMatches: true,
         includeAI: false
       }
     : {
