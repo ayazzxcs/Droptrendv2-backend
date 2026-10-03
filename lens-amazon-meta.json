@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-10-02T23:34:20.091Z",
+  "updatedAt": "2026-10-03T04:14:04.586Z",
   "month": "2026-10",
   "mode": "batch Apify Lens + sequential quota fallback pool + best Amazon candidate per product",
   "startIndex": 0,
   "maxProducts": 1600,
   "apifyTokensCount": 6,
-  "batchSize": 15,
+  "batchSize": 2,
   "providerUsage": {
     "apify": 1400
   },
@@ -21,8 +21,8 @@
     "decodo_3": 700
   },
   "amazonCandidateLimit": 8,
-  "matches": 132,
-  "failures": 39,
+  "matches": 0,
+  "failures": 0,
   "resetAmazonCache": true,
   "matrixQuotaSeededFromStartIndex": true,
   "note": "Batch Apify Lens runs up to 15 images concurrently per run across rotating Apify accounts. When exhausted, sequential fallback pool takes over. For each candidate, Puppeteer extracts Amazon DOM, JSON-LD and embedded structured metadata.",
@@ -30,46 +30,46 @@
     {
       "startIndex": 0,
       "maxProducts": 200,
-      "matches": 31,
-      "failures": 3,
+      "matches": 0,
+      "failures": 0,
       "providerUsage": {
-        "apify": 34
+        "apify": 0
       }
     },
     {
       "startIndex": 200,
       "maxProducts": 200,
-      "matches": 30,
-      "failures": 10,
+      "matches": 0,
+      "failures": 0,
       "providerUsage": {
-        "apify": 240
+        "apify": 200
       }
     },
     {
       "startIndex": 400,
       "maxProducts": 200,
-      "matches": 27,
-      "failures": 9,
+      "matches": 0,
+      "failures": 0,
       "providerUsage": {
-        "apify": 436
+        "apify": 400
       }
     },
     {
       "startIndex": 600,
       "maxProducts": 200,
-      "matches": 23,
-      "failures": 7,
+      "matches": 0,
+      "failures": 0,
       "providerUsage": {
-        "apify": 630
+        "apify": 600
       }
     },
     {
       "startIndex": 800,
       "maxProducts": 200,
-      "matches": 21,
-      "failures": 10,
+      "matches": 0,
+      "failures": 0,
       "providerUsage": {
-        "apify": 831
+        "apify": 800
       }
     },
     {
