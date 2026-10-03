@@ -97,7 +97,7 @@ function markApifyTokenExhausted(tok, reason = "") {
   currentApifyIndex = (currentApifyIndex + 1) % Math.max(1, apifyTokens.length);
 }
 
-const APIFY_BATCH_SIZE = Math.max(1, Math.min(25, Number(process.env.APIFY_BATCH_SIZE || process.env.LENS_BATCH_SIZE || 2)));
+const APIFY_BATCH_SIZE = Math.max(1, Math.min(25, Number(process.env.APIFY_BATCH_SIZE || process.env.LENS_BATCH_SIZE || 1)));
 
 if (apifyTokens.length > 0) {
   console.log(`Loaded ${apifyTokens.length} Apify token(s). Active initial index: ${currentApifyIndex}. Batch size: ${APIFY_BATCH_SIZE}.`);
